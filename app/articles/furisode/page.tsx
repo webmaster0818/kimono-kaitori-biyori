@@ -614,6 +614,102 @@ export default function FurisodePage() {
         </div>
       </section>
 
+      {/* 色別の需要と買取価格 */}
+      <section id="color-demand" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold mb-4 flex items-center gap-2">
+            <span className="w-1.5 h-6 bg-[#c9a76c] rounded-full inline-block" />
+            色別の振袖需要と買取価格の傾向
+          </h3>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            振袖の買取価格は色や柄のデザインによっても大きく変動します。中古市場での需要を理解しておくことで、適切な価格で売却できる可能性が高まります。
+          </p>
+          <div className="space-y-4">
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h4 className="font-bold text-[#6b4c8a] mb-2 text-base">赤・ピンク系</h4>
+              <p className="text-sm leading-relaxed text-gray-700">
+                成人式の定番カラーであり、中古市場でも最も需要が高い色です。幅広い年代に好まれるため、買取価格は安定して高めの傾向があります。特に古典柄との組み合わせは人気が根強く、状態が良ければ高額買取が期待できます。
+              </p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h4 className="font-bold text-[#6b4c8a] mb-2 text-base">白・黒系</h4>
+              <p className="text-sm leading-relaxed text-gray-700">
+                モダンでスタイリッシュな印象から一定の需要がありますが、市場は限定的です。白系は汚れが目立ちやすいため保管状態が買取価格に大きく影響します。黒系は個性的な着こなしを求める層に人気ですが、全体的な需要は赤・ピンク系に比べるとやや低めです。
+              </p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h4 className="font-bold text-[#6b4c8a] mb-2 text-base">青・緑系</h4>
+              <p className="text-sm leading-relaxed text-gray-700">
+                個性的な色合いのため好みが分かれやすく、需要はやや低めの傾向です。ただし、深い藍色や上品な緑色で古典柄の振袖は、着物通からの評価が高い場合もあります。
+              </p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h4 className="font-bold text-[#6b4c8a] mb-2 text-base">古典柄 vs 現代柄</h4>
+              <p className="text-sm leading-relaxed text-gray-700">
+                古典柄（御所車、松竹梅、鶴、花丸文など）は流行に左右されにくく、中古市場でも安定した人気があります。一方、現代柄（バラ、蝶、幾何学模様など）はトレンドの影響を受けやすく、流行が過ぎると買取価格が下がる傾向があります。長期的に価値が安定しやすいのは古典柄です。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 月別の最適売却タイミング */}
+      <section id="timing" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold mb-4 flex items-center gap-2">
+            <span className="w-1.5 h-6 bg-[#c9a76c] rounded-full inline-block" />
+            月別の最適売却タイミング
+          </h3>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            振袖の買取価格は季節によって変動します。需要が高まる時期に売却することで、より高い価格での買取が期待できます。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">時期</th>
+                  <th className="px-4 py-3 text-left font-semibold">需要</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">ポイント</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-white border-b border-[#e8ddd0]">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">1月</td>
+                  <td className="px-4 py-3 text-gray-700">★★★★★</td>
+                  <td className="px-4 py-3 text-gray-700">成人式直後で業者が在庫補充に動くため、高値がつきやすい</td>
+                </tr>
+                <tr className="bg-[#faf8f5] border-b border-[#e8ddd0]">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">3月</td>
+                  <td className="px-4 py-3 text-gray-700">★★★★</td>
+                  <td className="px-4 py-3 text-gray-700">卒業式需要で袴に合わせる振袖の需要が増加</td>
+                </tr>
+                <tr className="bg-white border-b border-[#e8ddd0]">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">9〜10月</td>
+                  <td className="px-4 py-3 text-gray-700">★★★★★</td>
+                  <td className="px-4 py-3 text-gray-700">七五三・翌年の成人式準備で需要UP。年間で最も高値がつく時期</td>
+                </tr>
+                <tr className="bg-[#faf8f5] border-b border-[#e8ddd0]">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">11〜12月</td>
+                  <td className="px-4 py-3 text-gray-700">★★★★</td>
+                  <td className="px-4 py-3 text-gray-700">年末年始・成人式直前の駆け込み需要で買取価格が上昇</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">4〜8月</td>
+                  <td className="px-4 py-3 text-gray-700">★★</td>
+                  <td className="px-4 py-3 text-gray-700 rounded-br-lg">オフシーズンのため買取価格は低め。急ぎでなければ秋まで待つのがおすすめ</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
+            <p className="text-sm leading-relaxed text-gray-700">
+              <strong className="text-[#6b4c8a]">売却のベストタイミング：</strong>
+              最も高値がつきやすいのは<strong>9〜10月</strong>と<strong>1月</strong>です。特に9〜10月は翌年の成人式に向けてレンタル業者や中古販売業者が積極的に仕入れを行うため、買取価格が年間で最も高くなる傾向があります。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

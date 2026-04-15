@@ -622,6 +622,52 @@ export default function TroublePreventionPage() {
           </div>
         </section>
 
+        {/* クーリングオフの具体的な手順 */}
+        <section className="mb-12">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pb-2 border-b border-[#c9a76c]">
+            クーリングオフの具体的な手順
+          </h3>
+          <div className="space-y-4">
+            <p className="text-sm text-gray-600 leading-relaxed">
+              出張買取は特定商取引法の「訪問購入」に該当するため、<span className="font-medium text-gray-900">クーリングオフが適用されます（8日間）</span>。
+              以下の手順で手続きを行いましょう。
+            </p>
+            <ol className="space-y-3">
+              <li className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="bg-[#c9a76c] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">1</span>
+                <p className="text-sm text-gray-600">
+                  書面（はがき）に<span className="font-medium text-gray-900">契約解除の旨</span>を記載する
+                </p>
+              </li>
+              <li className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="bg-[#c9a76c] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">2</span>
+                <p className="text-sm text-gray-600">
+                  契約書に記載の<span className="font-medium text-gray-900">業者住所に送付</span>する
+                </p>
+              </li>
+              <li className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="bg-[#c9a76c] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">3</span>
+                <p className="text-sm text-gray-600">
+                  <span className="font-medium text-gray-900">簡易書留</span>で送る（証拠を残すため）
+                </p>
+              </li>
+              <li className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="bg-[#c9a76c] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">4</span>
+                <p className="text-sm text-gray-600">
+                  はがきの<span className="font-medium text-gray-900">コピーを取っておく</span>
+                </p>
+              </li>
+            </ol>
+            <div className="bg-[#faf8f5] border-l-4 border-[#c9a76c] p-4">
+              <p className="text-sm text-gray-700 leading-relaxed">
+                <span className="font-bold">注意：</span>
+                店頭持ち込みや宅配買取はクーリングオフの対象外です。
+                業者がクーリングオフを拒否した場合は、消費生活センター（<span className="font-medium">188</span>）に相談しましょう。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

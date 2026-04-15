@@ -722,6 +722,90 @@ export default function MotherKimonoPage() {
           </div>
         </section>
 
+        {/* 着物の供養 */}
+        <section id="kuyo" className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-[#c9a76c]">
+            着物の供養（お焚き上げ）という選択肢
+          </h3>
+          <p className="text-sm md:text-base mb-6 leading-relaxed text-gray-700">
+            母親の着物を手放す際、「捨てるのは忍びない」「供養してから処分したい」という方も多くいらっしゃいます。着物の供養（お焚き上げ）は、感謝の気持ちを込めて着物を手放すための方法の一つです。
+          </p>
+          <div className="space-y-4">
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-5">
+              <h4 className="font-bold text-gray-900 text-sm mb-3">神社・お寺での供養の方法</h4>
+              <ul className="space-y-2 text-sm text-gray-700">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  最寄りの神社やお寺に相談し、お焚き上げを依頼する
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  費用目安は1,000〜5,000円程度（寺社により異なる）
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  郵送での供養受付をしている寺社もあり、遠方でも利用可能
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  人形供養と同時に受け付けてくれる寺社も多い
+                </li>
+              </ul>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
+              <p className="text-sm leading-relaxed text-gray-700">
+                <strong className="text-[#6b4c8a]">ポイント：</strong>
+                すべての着物を供養する必要はありません。価値のある着物は買取に出し、値段がつかなかったものや思い入れが深いものだけを供養するという方法が合理的です。買取業者に査定してもらった後に供養を検討するのも良いでしょう。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* 着物リメイク */}
+        <section id="remake" className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-[#c9a76c]">
+            着物リメイクの活用法
+          </h3>
+          <p className="text-sm md:text-base mb-6 leading-relaxed text-gray-700">
+            母親の着物を売却せず、日常で使えるアイテムにリメイクするという選択肢もあります。思い出として残しつつ、実用的に活用できるのがリメイクの魅力です。
+          </p>
+          <div className="space-y-4">
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-5">
+              <h4 className="font-bold text-gray-900 text-sm mb-3">リメイクのアイデア</h4>
+              <ul className="space-y-2 text-sm text-gray-700">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  バッグ・ポーチ：着物の美しい柄を活かした和柄バッグは普段使いにも
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  クッションカバー：インテリアとして母の着物を飾れる
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  日傘：正絹の着物生地は日傘にすると上品な仕上がりに
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  テディベア・ぬいぐるみ：着物生地で作る思い出のぬいぐるみ
+                </li>
+              </ul>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
+              <h4 className="font-bold text-gray-900 text-sm mb-3">リメイク専門店の費用目安</h4>
+              <p className="text-sm leading-relaxed text-gray-700">
+                リメイクの費用は内容により異なりますが、<strong>5,000〜30,000円</strong>程度が目安です。バッグやポーチなど小物は5,000〜15,000円、日傘やコートなど大物は15,000〜30,000円が相場です。最近はネット注文に対応した専門店も増えており、着物を郵送するだけでリメイクしてもらえます。
+              </p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
+              <p className="text-sm leading-relaxed text-gray-700">
+                <strong className="text-[#6b4c8a]">おすすめの方法：</strong>
+                複数枚ある母親の着物のうち、特に思い出深い1〜2枚をリメイク用に残し、残りは買取に出すのが最もバランスの良い方法です。リメイク費用を買取金額でまかなえることもあります。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

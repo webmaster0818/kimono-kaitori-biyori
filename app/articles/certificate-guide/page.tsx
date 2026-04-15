@@ -685,6 +685,74 @@ export default function CertificateGuidePage() {
           </div>
         </section>
 
+        {/* 主な産地別証紙の特徴一覧 */}
+        <section className="mb-12">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pb-2 border-b border-[#c9a76c]">
+            主な産地別証紙の特徴一覧
+          </h3>
+          <div className="space-y-4">
+            <p className="text-sm text-gray-600 leading-relaxed">
+              主要な産地の証紙には、それぞれ特徴的なデザインや色があります。お手持ちの着物に付いている証紙と照らし合わせてみましょう。
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="bg-[#6b4c8a] text-white">
+                    <th className="px-4 py-3 text-left font-medium">産地</th>
+                    <th className="px-4 py-3 text-left font-medium">証紙名/発行元</th>
+                    <th className="px-4 py-3 text-left font-medium">デザインの特徴</th>
+                    <th className="px-4 py-3 text-left font-medium">色</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-[#e8ddd0]">
+                    <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">本場大島紬（奄美）</td>
+                    <td className="px-4 py-3 text-gray-600">本場奄美大島紬協同組合</td>
+                    <td className="px-4 py-3 text-gray-600">地球印マーク</td>
+                    <td className="px-4 py-3 text-gray-600">茶色系</td>
+                  </tr>
+                  <tr className="border-b border-[#e8ddd0]">
+                    <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">本場大島紬（鹿児島）</td>
+                    <td className="px-4 py-3 text-gray-600">本場大島紬織物協同組合</td>
+                    <td className="px-4 py-3 text-gray-600">旗印マーク</td>
+                    <td className="px-4 py-3 text-gray-600">青系</td>
+                  </tr>
+                  <tr className="border-b border-[#e8ddd0]">
+                    <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">結城紬</td>
+                    <td className="px-4 py-3 text-gray-600">本場結城紬卸商協同組合</td>
+                    <td className="px-4 py-3 text-gray-600">結の文字</td>
+                    <td className="px-4 py-3 text-gray-600">紫系</td>
+                  </tr>
+                  <tr className="border-b border-[#e8ddd0]">
+                    <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">西陣織</td>
+                    <td className="px-4 py-3 text-gray-600">西陣織工業組合</td>
+                    <td className="px-4 py-3 text-gray-600">西陣の文字</td>
+                    <td className="px-4 py-3 text-gray-600">金色系</td>
+                  </tr>
+                  <tr className="border-b border-[#e8ddd0]">
+                    <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">博多織</td>
+                    <td className="px-4 py-3 text-gray-600">博多織工業組合</td>
+                    <td className="px-4 py-3 text-gray-600">四角い証紙</td>
+                    <td className="px-4 py-3 text-gray-600">金（絹50%超）/青（絹50%未満）</td>
+                  </tr>
+                  <tr className="border-b border-[#e8ddd0]">
+                    <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">加賀友禅</td>
+                    <td className="px-4 py-3 text-gray-600">加賀染振興協会</td>
+                    <td className="px-4 py-3 text-gray-600">手描き友禅の証</td>
+                    <td className="px-4 py-3 text-gray-600">-</td>
+                  </tr>
+                  <tr className="border-b border-[#e8ddd0]">
+                    <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">京友禅</td>
+                    <td className="px-4 py-3 text-gray-600">京友禅協同組合連合会</td>
+                    <td className="px-4 py-3 text-gray-600">伝統工芸品マーク</td>
+                    <td className="px-4 py-3 text-gray-600">-</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

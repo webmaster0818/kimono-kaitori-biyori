@@ -658,6 +658,58 @@ export default function SellHighTipsPage() {
           </div>
         </section>
 
+        {/* 季節別の最適な売却タイミング */}
+        <section className="mb-12">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pb-2 border-b border-[#c9a76c]">
+            季節別の最適な売却タイミング
+          </h3>
+          <div className="space-y-4">
+            <p className="text-sm text-gray-600 leading-relaxed">
+              着物の種類によって需要が高まる時期は異なります。以下の表を参考に、最適なタイミングで売却しましょう。
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="bg-[#6b4c8a] text-white">
+                    <th className="px-4 py-3 text-left font-medium">時期</th>
+                    <th className="px-4 py-3 text-left font-medium">おすすめの着物</th>
+                    <th className="px-4 py-3 text-left font-medium">理由</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-[#e8ddd0]">
+                    <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">9〜11月</td>
+                    <td className="px-4 py-3 text-gray-600">振袖・袴</td>
+                    <td className="px-4 py-3 text-gray-600">成人式・卒業式の準備需要</td>
+                  </tr>
+                  <tr className="border-b border-[#e8ddd0]">
+                    <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">11〜12月</td>
+                    <td className="px-4 py-3 text-gray-600">訪問着・留袖</td>
+                    <td className="px-4 py-3 text-gray-600">年末年始・冠婚葬祭需要</td>
+                  </tr>
+                  <tr className="border-b border-[#e8ddd0]">
+                    <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">5〜7月</td>
+                    <td className="px-4 py-3 text-gray-600">夏物（絽・紗）</td>
+                    <td className="px-4 py-3 text-gray-600">夏着物の需要期直前</td>
+                  </tr>
+                  <tr className="border-b border-[#e8ddd0]">
+                    <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">通年</td>
+                    <td className="px-4 py-3 text-gray-600">大島紬・結城紬・帯</td>
+                    <td className="px-4 py-3 text-gray-600">定番品は季節問わず需要安定</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="bg-[#faf8f5] border-l-4 border-[#c9a76c] p-4">
+              <p className="text-sm text-gray-700 leading-relaxed">
+                <span className="font-bold">ポイント：</span>
+                一般的に需要期の1〜2ヶ月前に売るのがベストです。
+                業者が在庫を確保したい時期に合わせることで、より高い査定額が期待できます。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

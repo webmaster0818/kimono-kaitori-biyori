@@ -651,6 +651,44 @@ export default function OldStainedKimonoPage() {
           </div>
         </section>
 
+        {/* サイズと査定額の関係 */}
+        <section className="mb-12">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pb-2 border-b border-[#c9a76c]">
+            サイズと査定額の関係
+          </h3>
+          <div className="space-y-4">
+            <p className="text-sm text-gray-600 leading-relaxed">
+              着物のサイズは査定額に大きく影響します。特に着丈や裄丈が長いものは需要が高く、高額査定につながりやすい傾向があります。
+            </p>
+            <div className="space-y-3">
+              <div className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                <p className="text-sm text-gray-600">
+                  <span className="font-medium text-gray-900">着丈160cm以上</span>は需要が高い（仕立て直しやすいため）
+                </p>
+              </div>
+              <div className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                <p className="text-sm text-gray-600">
+                  最近は身長の高い女性が増えているため、<span className="font-medium text-gray-900">長い着物の需要がUP</span>しています
+                </p>
+              </div>
+              <div className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                <p className="text-sm text-gray-600">
+                  <span className="font-medium text-gray-900">裄丈65cm以上</span>も好まれ、査定でプラス評価になりやすい
+                </p>
+              </div>
+              <div className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                <p className="text-sm text-gray-600">
+                  小さいサイズでも<span className="font-medium text-gray-900">海外需要</span>（小柄な体型向け）で値がつく場合もある
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

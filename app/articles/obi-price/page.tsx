@@ -733,6 +733,62 @@ export default function ObiPricePage() {
         </div>
       </section>
 
+      {/* 帯のほうが着物より高く売れるケース */}
+      <section id="obi-higher" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold mb-4 flex items-center gap-2">
+            <span className="w-1.5 h-6 bg-[#c9a76c] rounded-full inline-block" />
+            帯のほうが着物より高く売れるケース
+          </h3>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            実は、帯が着物本体よりも高額で買い取られるケースは珍しくありません。特に以下の名門ブランドの帯は、着物を上回る買取価格になることがあります。
+          </p>
+          <div className="space-y-4">
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h4 className="font-bold text-[#6b4c8a] mb-2 text-base">
+                西陣織の袋帯（特に人間国宝・北村武資作品）
+              </h4>
+              <p className="text-sm leading-relaxed text-gray-700">
+                人間国宝・北村武資氏の作品は「経錦（たてにしき）」や「羅（ら）」の技法で知られ、袋帯1本で数十万円の買取価格がつくことがあります。西陣織の中でも最高峰に位置づけられ、コレクター需要も高いため、着物本体を大きく上回る価格になるケースがあります。
+              </p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h4 className="font-bold text-[#6b4c8a] mb-2 text-base">
+                龍村美術織物の帯
+              </h4>
+              <p className="text-sm leading-relaxed text-gray-700">
+                「龍村」ブランドの帯は美術品としての価値も高く、正倉院文様や名物裂の復元織物などは特に高額です。状態の良い龍村の袋帯は10万円以上の買取価格がつくことも珍しくありません。
+              </p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h4 className="font-bold text-[#6b4c8a] mb-2 text-base">
+                川島織物の帯
+              </h4>
+              <p className="text-sm leading-relaxed text-gray-700">
+                明治創業の老舗・川島織物（現 川島織物セルコン）の帯も高い評価を受けています。特に綴れ織の帯や、皇室御用達の実績を持つ格式高い帯は安定した需要があります。
+              </p>
+            </div>
+          </div>
+          <div className="mt-6 bg-[#faf8f5] border border-[#e8ddd0] rounded-xl p-5">
+            <h4 className="font-bold text-[#6b4c8a] mb-2 text-base">帯が高く売れる理由</h4>
+            <ul className="text-sm leading-relaxed text-gray-700 space-y-2">
+              <li className="flex items-start gap-2">
+                <span className="text-[#c9a76c] font-bold shrink-0">●</span>
+                <span><strong>汎用性が高い：</strong>帯は複数の着物に合わせて使えるため、着物よりも実用的な需要がある</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#c9a76c] font-bold shrink-0">●</span>
+                <span><strong>保管状態が良い場合が多い：</strong>帯は着物に比べて折りジワや汗ジミが付きにくく、状態が良いまま保管されていることが多い</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#c9a76c] font-bold shrink-0">●</span>
+                <span><strong>名門ブランドの帯は需要が安定：</strong>西陣織や龍村美術織物などのブランド帯は常に一定の需要があり、買取価格が下がりにくい</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

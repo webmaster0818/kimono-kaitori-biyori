@@ -674,6 +674,45 @@ export default function EstateKimonoPage() {
           </div>
         </section>
 
+        {/* 相続財産としての着物 */}
+        <section id="inheritance" className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-[#c9a76c]">
+            相続財産としての着物の注意点
+          </h3>
+          <p className="text-sm md:text-base mb-6 leading-relaxed text-gray-700">
+            遺品整理の際に見落としがちですが、着物も法律上は相続財産に含まれます。特に高額な着物を複数お持ちの場合は、以下の点に注意が必要です。
+          </p>
+          <div className="space-y-4">
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-5">
+              <h4 className="font-bold text-gray-900 text-sm mb-3">知っておくべきポイント</h4>
+              <ul className="space-y-2 text-sm text-gray-700">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  着物も相続財産に含まれるため、相続人全員の合意なく処分すると後でトラブルになる可能性がある
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  高額な着物（人間国宝の作家物・伝統工芸品など）は相続税の課税対象になりうる。評価額が高い場合は税理士への相談がおすすめ
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  遺品整理業者と着物買取業者は別物。遺品整理業者は着物の価値を正しく評価できないことが多いため、着物は専門の買取業者に別途査定してもらうのがおすすめ（併用が理想的）
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                  形見分け前に査定だけ受けておくと、着物の価値がわかった状態で公平に分けられるため安心
+                </li>
+              </ul>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
+              <p className="text-sm leading-relaxed text-gray-700">
+                <strong className="text-[#6b4c8a]">実務的なアドバイス：</strong>
+                まず着物専門の買取業者に無料査定を依頼し、各着物の価値を把握しましょう。査定は無料で行ってくれる業者がほとんどです。査定結果をもとに「売却するもの」「形見分けするもの」「供養するもの」を相続人全員で話し合って決めると、スムーズかつ公平に遺品整理を進められます。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

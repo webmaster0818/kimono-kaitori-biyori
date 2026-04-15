@@ -671,6 +671,45 @@ export default function NoCertificatePage() {
           </div>
         </section>
 
+        {/* 落款とは */}
+        <section className="mb-12">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pb-2 border-b border-[#c9a76c]">
+            落款（らっかん）とは？証紙との違い
+          </h3>
+          <div className="space-y-4">
+            <p className="text-sm text-gray-600 leading-relaxed">
+              落款は作家が着物に直接押す印鑑のようなもので、通常は衿先やおくみなどに捺されます。
+              証紙が産地の証明であるのに対し、落款は作家個人の署名にあたります。
+            </p>
+            <div className="space-y-3">
+              <div className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                <p className="text-sm text-gray-600">
+                  <span className="font-medium text-gray-900">証紙</span>＝産地・品質の証明（組合が発行）
+                </p>
+              </div>
+              <div className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                <p className="text-sm text-gray-600">
+                  <span className="font-medium text-gray-900">落款</span>＝作家の署名（着物に直接押印）
+                </p>
+              </div>
+              <div className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                <p className="text-sm text-gray-600">
+                  証紙＋落款の<span className="font-medium text-gray-900">両方が揃うと買取価格が3〜5倍</span>になることもある
+                </p>
+              </div>
+              <div className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
+                <span className="text-[#6b4c8a] font-bold">&#10003;</span>
+                <p className="text-sm text-gray-600">
+                  落款のみでも<span className="font-medium text-gray-900">作家を特定できれば高額査定</span>の可能性あり
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

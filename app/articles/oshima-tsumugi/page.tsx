@@ -615,6 +615,57 @@ export default function OshimaTsumugiPage() {
         </div>
       </section>
 
+      {/* 証紙の見分け方 */}
+      <section id="shoshi" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold mb-4 flex items-center gap-2">
+            <span className="w-1.5 h-6 bg-[#c9a76c] rounded-full inline-block" />
+            大島紬の証紙の見分け方
+          </h3>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            大島紬の価値を判断するうえで最も重要なのが「証紙」です。証紙は産地や製法を証明する公的なラベルであり、買取価格に大きく影響します。大島紬には主に3種類の証紙があり、それぞれ発行元・デザイン・品質が異なります。
+          </p>
+          <div className="space-y-4">
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h4 className="font-bold text-[#6b4c8a] mb-2 text-base">
+                地球印（本場奄美大島紬）
+              </h4>
+              <ul className="text-sm leading-relaxed text-gray-700 space-y-1">
+                <li><strong>発行元：</strong>本場奄美大島紬協同組合（鹿児島県奄美大島）</li>
+                <li><strong>デザインの特徴：</strong>地球儀のマークが描かれた証紙。最も伝統的な産地の証明</li>
+                <li><strong>品質の違い：</strong>泥染め・手織りの最高級品が多く、買取価格も最も高い傾向。テーチ木（車輪梅）と泥を使った伝統的な泥染めが特徴</li>
+              </ul>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h4 className="font-bold text-[#6b4c8a] mb-2 text-base">
+                旗印（本場大島紬）
+              </h4>
+              <ul className="text-sm leading-relaxed text-gray-700 space-y-1">
+                <li><strong>発行元：</strong>本場大島紬織物協同組合（鹿児島県本土）</li>
+                <li><strong>デザインの特徴：</strong>旗のマークが描かれた証紙</li>
+                <li><strong>品質の違い：</strong>鹿児島市周辺で生産。奄美産に次いで高い評価を受ける。機械織りの製品もあるため、証紙の記載内容をよく確認することが重要</li>
+              </ul>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h4 className="font-bold text-[#6b4c8a] mb-2 text-base">
+                鶴印（本場大島紬）
+              </h4>
+              <ul className="text-sm leading-relaxed text-gray-700 space-y-1">
+                <li><strong>発行元：</strong>都城織物事業協同組合（宮崎県都城市）</li>
+                <li><strong>デザインの特徴：</strong>鶴のマークが描かれた証紙</li>
+                <li><strong>品質の違い：</strong>都城で生産される大島紬。生産量は少ないが、手織りの良品も存在する</li>
+              </ul>
+            </div>
+          </div>
+          <div className="mt-6 bg-[#faf8f5] border border-[#e8ddd0] rounded-xl p-5">
+            <p className="text-sm leading-relaxed text-gray-700">
+              <strong className="text-[#6b4c8a]">証紙の見方のポイント：</strong>
+              証紙に記載されている「<strong>経緯絣（たてよこがすり）</strong>」は縦糸・横糸ともに手作業で絣を合わせた手織りの最高級品で、買取価格も高額になります。一方、「<strong>緯絣（よこがすり）</strong>」は横糸のみに絣を使用したもので、比較的安価な価格帯となります。証紙がない場合でも専門の査定員であれば織りや染めから判断できますが、証紙があることで買取価格が大幅にアップする可能性があります。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">
