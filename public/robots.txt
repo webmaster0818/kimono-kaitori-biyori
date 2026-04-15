@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kimono-kaitori-biyori.pages.dev/sitemap.xml
