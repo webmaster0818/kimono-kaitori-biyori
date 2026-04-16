@@ -92,7 +92,12 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-purple-900/50 text-center">
-          <p className="text-xs text-purple-300">
+          <div className="flex justify-center gap-6 mt-6">
+            <Link href="/terms/" className="text-xs text-purple-300 hover:text-white transition-colors">利用規約</Link>
+            <Link href="/privacy-policy/" className="text-xs text-purple-300 hover:text-white transition-colors">プライバシーポリシー</Link>
+            <Link href="/content-policy/" className="text-xs text-purple-300 hover:text-white transition-colors">記事制作ポリシー</Link>
+          </div>
+          <p className="text-xs text-purple-300 mt-4">
             &copy; {new Date().getFullYear()} 着物の買取びより All Rights Reserved.
           </p>
         </div>
