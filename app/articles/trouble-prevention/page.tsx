@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "着物買取でよくあるトラブル事例5選（押し買い、安値買い叩き、キャンセル拒否、追加品要求、連絡つかない）と回避法を徹底解説。信頼できる業者の見分け方、クーリングオフ制度についても詳しくガイドします。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/trouble-prevention/",
+      "https://kimonokaitori-biyori.com/articles/trouble-prevention/",
   },
   openGraph: {
     title: "着物買取トラブル事例5選と回避法｜押し買い・安値買い叩きに注意",
     description:
       "着物買取でよくあるトラブル5選と回避法を解説。押し買い・安値買い叩きから身を守る方法をガイドします。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/trouble-prevention/",
+    url: "https://kimonokaitori-biyori.com/articles/trouble-prevention/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -31,17 +31,17 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/trouble-prevention/",
+      "https://kimonokaitori-biyori.com/articles/trouble-prevention/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "お役立ち情報",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "トラブル回避",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/trouble-prevention/",
+      item: "https://kimonokaitori-biyori.com/articles/trouble-prevention/",
     },
   ],
 };

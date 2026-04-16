@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "古い着物やシミ・汚れがある着物でも売れるのか徹底解説。買取可能な条件、シミの許容範囲、古くても高額になる着物の例、業者ごとの対応差まで詳しくガイドします。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/old-stained-kimono/",
+      "https://kimonokaitori-biyori.com/articles/old-stained-kimono/",
   },
   openGraph: {
     title: "古い着物・シミありでも売れる？買取可能な条件と業者選び",
     description:
       "古い着物やシミのある着物でも売れるのか徹底解説。買取可能な条件と業者選びのポイントをガイドします。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/old-stained-kimono/",
+    url: "https://kimonokaitori-biyori.com/articles/old-stained-kimono/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -31,17 +31,17 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/old-stained-kimono/",
+      "https://kimonokaitori-biyori.com/articles/old-stained-kimono/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "お役立ち情報",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "古い着物・シミあり",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/old-stained-kimono/",
+      item: "https://kimonokaitori-biyori.com/articles/old-stained-kimono/",
     },
   ],
 };

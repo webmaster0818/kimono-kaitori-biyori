@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   description:
     "着物買取はどこがいい？買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの5社を6つの基準で徹底比較。口コミ・評判・買取相場・手数料まで詳しく解説。タイプ別おすすめもご紹介。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/ranking/",
+    canonical: "https://kimonokaitori-biyori.com/ranking/",
   },
   openGraph: {
     title:
       "【2026年最新】着物買取おすすめ5選を徹底比較！口コミ・評判・買取相場まで",
     description:
       "着物買取はどこがいい？買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの5社を6つの基準で徹底比較。",
-    url: "https://kimono-kaitori-biyori.pages.dev/ranking/",
+    url: "https://kimonokaitori-biyori.com/ranking/",
     siteName: "着物の買取びより",
     type: "article",
     locale: "ja_JP",
@@ -87,20 +87,20 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com/logo.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://kimono-kaitori-biyori.pages.dev/ranking/",
+    "@id": "https://kimonokaitori-biyori.com/ranking/",
   },
 };
 
@@ -125,13 +125,13 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "着物買取おすすめランキング",
-      item: "https://kimono-kaitori-biyori.pages.dev/ranking/",
+      item: "https://kimonokaitori-biyori.com/ranking/",
     },
   ],
 };

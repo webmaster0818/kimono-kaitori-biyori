@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "着物の買取びよりのプライバシーポリシーです。個人情報の取り扱いについてご説明します。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/privacy-policy/",
+    canonical: "https://kimonokaitori-biyori.com/privacy-policy/",
   },
   openGraph: {
     title: "プライバシーポリシー | 着物の買取びより",
     description:
       "着物の買取びよりのプライバシーポリシーです。個人情報の取り扱いについてご説明します。",
-    url: "https://kimono-kaitori-biyori.pages.dev/privacy-policy/",
+    url: "https://kimonokaitori-biyori.com/privacy-policy/",
     siteName: "着物の買取びより",
     type: "website",
     locale: "ja_JP",

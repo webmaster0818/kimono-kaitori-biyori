@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "買取大吉の着物買取サービスを徹底検証。全国1,800店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/reviews/daikichi/",
+    canonical: "https://kimonokaitori-biyori.com/reviews/daikichi/",
   },
   openGraph: {
     title: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
     description:
       "買取大吉の着物買取サービスを徹底検証。全国1,800店超の実績、査定員の質、買取価格の相場を正直にレビュー。",
-    url: "https://kimono-kaitori-biyori.pages.dev/reviews/daikichi/",
+    url: "https://kimonokaitori-biyori.com/reviews/daikichi/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -30,16 +30,16 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://kimono-kaitori-biyori.pages.dev/reviews/daikichi/",
+    "@id": "https://kimonokaitori-biyori.com/reviews/daikichi/",
   },
 };
 
@@ -98,19 +98,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "業者レビュー",
-      item: "https://kimono-kaitori-biyori.pages.dev/reviews/",
+      item: "https://kimonokaitori-biyori.com/reviews/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "買取大吉",
-      item: "https://kimono-kaitori-biyori.pages.dev/reviews/daikichi/",
+      item: "https://kimonokaitori-biyori.com/reviews/daikichi/",
     },
   ],
 };

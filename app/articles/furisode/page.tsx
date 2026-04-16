@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "振袖の買取相場を徹底解説。一般品5,000〜3万円、ブランド品3〜10万円、作家物10万円超の価格目安と、成人式後の売り時・保管状態の影響・帯セットで高額になるコツを紹介します。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/articles/furisode/",
+    canonical: "https://kimonokaitori-biyori.com/articles/furisode/",
   },
   openGraph: {
     title: "振袖の買取相場｜成人式後に売る方法と高価買取のコツ",
     description:
       "振袖の買取相場と成人式後に高く売る方法を解説。ブランド品・作家物の価格目安も。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/furisode/",
+    url: "https://kimonokaitori-biyori.com/articles/furisode/",
     siteName: "着物の買取びより",
     type: "article",
     locale: "ja_JP",
@@ -59,20 +59,20 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com/logo.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://kimono-kaitori-biyori.pages.dev/articles/furisode/",
+    "@id": "https://kimonokaitori-biyori.com/articles/furisode/",
   },
 };
 
@@ -97,19 +97,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "買取相場",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "振袖",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/furisode/",
+      item: "https://kimonokaitori-biyori.com/articles/furisode/",
     },
   ],
 };

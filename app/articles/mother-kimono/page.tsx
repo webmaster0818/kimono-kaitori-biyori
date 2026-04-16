@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を徹底解説。形見分けとの兼ね合い、整理の手順、売る場合のおすすめ業者まで後悔しない選択ガイドをお届けします。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/mother-kimono/",
+      "https://kimonokaitori-biyori.com/articles/mother-kimono/",
   },
   openGraph: {
     title: "母親の着物の整理方法｜売る？残す？後悔しない選択ガイド",
     description:
       "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を徹底解説。後悔しない整理の進め方をガイドします。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/mother-kimono/",
+    url: "https://kimonokaitori-biyori.com/articles/mother-kimono/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -31,17 +31,17 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/mother-kimono/",
+      "https://kimonokaitori-biyori.com/articles/mother-kimono/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "お役立ち情報",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "母親の着物の整理",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/mother-kimono/",
+      item: "https://kimonokaitori-biyori.com/articles/mother-kimono/",
     },
   ],
 };

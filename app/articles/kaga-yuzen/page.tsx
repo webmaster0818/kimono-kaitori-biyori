@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "加賀友禅の買取相場を作家別に徹底解説。人間国宝・木村雨山の作品は100万円超、由水十久・矢田博・百貫華峰など有名作家の価格表も掲載。加賀友禅vs京友禅の違いや証紙の見方、高く売るポイントをまとめました。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/kaga-yuzen/",
+      "https://kimonokaitori-biyori.com/articles/kaga-yuzen/",
   },
   openGraph: {
     title: "加賀友禅の買取相場｜作家物は100万円超も？高く売る方法",
     description:
       "加賀友禅の作家別買取価格表と高く売る方法を解説。人間国宝の作品は超高額査定。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/kaga-yuzen/",
+    url: "https://kimonokaitori-biyori.com/articles/kaga-yuzen/",
     siteName: "着物の買取びより",
     type: "article",
     locale: "ja_JP",
@@ -61,21 +61,21 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com/logo.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/kaga-yuzen/",
+      "https://kimonokaitori-biyori.com/articles/kaga-yuzen/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "買取相場",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "加賀友禅",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/kaga-yuzen/",
+      item: "https://kimonokaitori-biyori.com/articles/kaga-yuzen/",
     },
   ],
 };

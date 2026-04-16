@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "着物の宅配買取おすすめ業者3選を徹底比較。自宅から送るだけで買取が完了する宅配買取のメリット・デメリット、利用の流れ6ステップ、梱包のコツ、トラブル回避法まで詳しく解説します。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/takuhai-kaitori/",
+      "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/",
   },
   openGraph: {
     title: "着物の宅配買取おすすめ業者3選｜自宅から送るだけの簡単買取",
     description:
       "着物の宅配買取おすすめ3社を比較。送るだけで完了する簡単買取を徹底ガイドします。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/takuhai-kaitori/",
+    url: "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -31,17 +31,17 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/takuhai-kaitori/",
+      "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "お役立ち情報",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "宅配買取おすすめ",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/takuhai-kaitori/",
+      item: "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/",
     },
   ],
 };

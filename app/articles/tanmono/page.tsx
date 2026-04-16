@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "反物の買取相場を種類別に徹底解説。正絹反物は〜4万円、有名産地の大島紬・結城紬・西陣織の反物は数十万円も。着物より反物が高く売れるケースや保管方法、高く売るポイントをまとめました。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/tanmono/",
+      "https://kimonokaitori-biyori.com/articles/tanmono/",
   },
   openGraph: {
     title: "反物の買取相場｜着物より高く売れるケースも？種類別に解説",
     description:
       "反物の種類別買取相場と、着物より反物が高く売れるケースを解説。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/tanmono/",
+    url: "https://kimonokaitori-biyori.com/articles/tanmono/",
     siteName: "着物の買取びより",
     type: "article",
     locale: "ja_JP",
@@ -61,21 +61,21 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com/logo.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/tanmono/",
+      "https://kimonokaitori-biyori.com/articles/tanmono/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "買取相場",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "反物",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/tanmono/",
+      item: "https://kimonokaitori-biyori.com/articles/tanmono/",
     },
   ],
 };

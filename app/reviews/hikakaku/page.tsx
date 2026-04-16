@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "ヒカカク！を使った着物の一括査定を徹底検証。最大20社に一括で見積もりが取れる仕組み、実際の口コミ・評判、メリット・デメリット、使い方の流れを詳しく解説します。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/reviews/hikakaku/",
+    canonical: "https://kimonokaitori-biyori.com/reviews/hikakaku/",
   },
   openGraph: {
     title: "ヒカカクで着物を売る｜一括査定の使い方と口コミ・評判",
     description:
       "ヒカカク！を使った着物の一括査定を徹底検証。最大20社一括査定の口コミ・評判を正直にレビュー。",
-    url: "https://kimono-kaitori-biyori.pages.dev/reviews/hikakaku/",
+    url: "https://kimonokaitori-biyori.com/reviews/hikakaku/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -30,16 +30,16 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://kimono-kaitori-biyori.pages.dev/reviews/hikakaku/",
+    "@id": "https://kimonokaitori-biyori.com/reviews/hikakaku/",
   },
 };
 
@@ -98,19 +98,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "業者レビュー",
-      item: "https://kimono-kaitori-biyori.pages.dev/reviews/",
+      item: "https://kimonokaitori-biyori.com/reviews/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ヒカカク！",
-      item: "https://kimono-kaitori-biyori.pages.dev/reviews/hikakaku/",
+      item: "https://kimonokaitori-biyori.com/reviews/hikakaku/",
     },
   ],
 };

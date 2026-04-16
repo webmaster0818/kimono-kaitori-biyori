@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "訪問着の買取相場（3,000〜5万円）、色留袖・黒留袖の相場を徹底解説。加賀友禅・京友禅は高額買取。紋の有無の影響や高く売れる条件をまとめました。2026年最新情報。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/articles/houmongi-tomesode/",
+    canonical: "https://kimonokaitori-biyori.com/articles/houmongi-tomesode/",
   },
   openGraph: {
     title: "訪問着・留袖の買取相場まとめ｜高く売れる条件とは",
     description:
       "訪問着・色留袖・黒留袖の買取相場と、加賀友禅・京友禅など高く売れる条件を解説。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/houmongi-tomesode/",
+    url: "https://kimonokaitori-biyori.com/articles/houmongi-tomesode/",
     siteName: "着物の買取びより",
     type: "article",
     locale: "ja_JP",
@@ -59,20 +59,20 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com/logo.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://kimono-kaitori-biyori.pages.dev/articles/houmongi-tomesode/",
+    "@id": "https://kimonokaitori-biyori.com/articles/houmongi-tomesode/",
   },
 };
 
@@ -97,19 +97,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "買取相場",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "訪問着・留袖",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/houmongi-tomesode/",
+      item: "https://kimonokaitori-biyori.com/articles/houmongi-tomesode/",
     },
   ],
 };

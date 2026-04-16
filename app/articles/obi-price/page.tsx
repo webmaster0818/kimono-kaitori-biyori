@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "帯の買取相場を種類別に解説。袋帯1,000〜3万円、名古屋帯500〜1万円、丸帯5,000〜5万円の価格目安。西陣織・博多織は高額に。帯単体vs着物セットの比較や保管方法も紹介。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/articles/obi-price/",
+    canonical: "https://kimonokaitori-biyori.com/articles/obi-price/",
   },
   openGraph: {
     title: "帯の買取相場｜袋帯・名古屋帯・丸帯の値段と高く売る方法",
     description:
       "袋帯・名古屋帯・丸帯の買取相場と高く売る方法を解説。西陣織・博多織の高額買取情報も。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/obi-price/",
+    url: "https://kimonokaitori-biyori.com/articles/obi-price/",
     siteName: "着物の買取びより",
     type: "article",
     locale: "ja_JP",
@@ -59,20 +59,20 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com/logo.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://kimono-kaitori-biyori.pages.dev/articles/obi-price/",
+    "@id": "https://kimonokaitori-biyori.com/articles/obi-price/",
   },
 };
 
@@ -97,19 +97,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "買取相場",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "帯の買取相場",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/obi-price/",
+      item: "https://kimonokaitori-biyori.com/articles/obi-price/",
     },
   ],
 };

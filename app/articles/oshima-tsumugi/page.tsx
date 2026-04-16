@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "大島紬の買取相場を種類別（泥染め・藍大島・白大島・色大島）に徹底解説。作家物は10万円超も。証紙の重要性や高く売るためのポイントを2026年最新情報でまとめました。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/articles/oshima-tsumugi/",
+    canonical: "https://kimonokaitori-biyori.com/articles/oshima-tsumugi/",
   },
   openGraph: {
     title: "大島紬の買取相場と高く売るコツ【2026年最新】",
     description:
       "大島紬の種類別買取相場と高く売るコツを解説。泥染め・藍大島・白大島の価格比較も。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/oshima-tsumugi/",
+    url: "https://kimonokaitori-biyori.com/articles/oshima-tsumugi/",
     siteName: "着物の買取びより",
     type: "article",
     locale: "ja_JP",
@@ -59,20 +59,20 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com/logo.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://kimono-kaitori-biyori.pages.dev/articles/oshima-tsumugi/",
+    "@id": "https://kimonokaitori-biyori.com/articles/oshima-tsumugi/",
   },
 };
 
@@ -97,19 +97,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "買取相場",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "大島紬",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/oshima-tsumugi/",
+      item: "https://kimonokaitori-biyori.com/articles/oshima-tsumugi/",
     },
   ],
 };

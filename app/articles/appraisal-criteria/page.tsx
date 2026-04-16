@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "着物買取の査定で査定員が見ているポイントを徹底解説。素材、産地、作家、状態、証紙、サイズ、需要の7つの査定基準と、素材別の評価、サイズの影響、季節性まで詳しくガイドします。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/appraisal-criteria/",
+      "https://kimonokaitori-biyori.com/articles/appraisal-criteria/",
   },
   openGraph: {
     title: "着物買取の査定基準を徹底解説｜査定員は何を見ている？",
     description:
       "着物買取の査定基準を徹底解説。査定員が見る7つのポイントと高額査定のコツをガイドします。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/appraisal-criteria/",
+    url: "https://kimonokaitori-biyori.com/articles/appraisal-criteria/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -31,17 +31,17 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/appraisal-criteria/",
+      "https://kimonokaitori-biyori.com/articles/appraisal-criteria/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "お役立ち情報",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "査定基準",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/appraisal-criteria/",
+      item: "https://kimonokaitori-biyori.com/articles/appraisal-criteria/",
     },
   ],
 };

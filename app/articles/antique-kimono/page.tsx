@@ -8,14 +8,14 @@ export const metadata: Metadata = {
     "アンティーク着物の買取相場を時代別に徹底解説。大正ロマン柄や銘仙の幾何学模様は数万円の高額査定も。明治後期〜昭和初期の着物の特徴と人気柄、コレクター需要、高く売るためのポイントをまとめました。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/antique-kimono/",
+      "https://kimonokaitori-biyori.com/articles/antique-kimono/",
   },
   openGraph: {
     title:
       "アンティーク着物の買取相場｜大正・昭和の着物に価値はある？",
     description:
       "アンティーク着物の時代別買取相場と高く売るコツを解説。銘仙や大正ロマン柄は高額査定も。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/antique-kimono/",
+    url: "https://kimonokaitori-biyori.com/articles/antique-kimono/",
     siteName: "着物の買取びより",
     type: "article",
     locale: "ja_JP",
@@ -66,21 +66,21 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com/logo.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/antique-kimono/",
+      "https://kimonokaitori-biyori.com/articles/antique-kimono/",
   },
 };
 
@@ -105,19 +105,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "買取相場",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "アンティーク着物",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/antique-kimono/",
+      item: "https://kimonokaitori-biyori.com/articles/antique-kimono/",
     },
   ],
 };

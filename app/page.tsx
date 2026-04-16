@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "着物買取のおすすめ業者5社を徹底比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの口コミ・評判・買取実績を正直にレビュー。大切な着物を納得の価格で売りたい方必見。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/",
+    canonical: "https://kimonokaitori-biyori.com/",
   },
 };
 

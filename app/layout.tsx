@@ -27,15 +27,15 @@ const structuredData = {
     {
       "@type": "WebSite",
       name: "着物の買取びより",
-      url: "https://kimono-kaitori-biyori.pages.dev",
+      url: "https://kimonokaitori-biyori.com",
       description:
         "着物買取のおすすめ業者5社を徹底比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの口コミ・評判・買取実績を正直にレビュー。",
     },
     {
       "@type": "Organization",
       name: "着物の買取びより",
-      url: "https://kimono-kaitori-biyori.pages.dev",
-      logo: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com",
+      logo: "https://kimonokaitori-biyori.com/logo.png",
     },
   ],
 };

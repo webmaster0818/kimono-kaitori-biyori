@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "RECLO（リクロ）の着物買取サービスを徹底検証。宅配買取特化で高級品に強い実力、送料無料・キャンセル返送料無料の安心体制、実際の口コミ・評判を正直にレビューします。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/reviews/reclo/",
+    canonical: "https://kimonokaitori-biyori.com/reviews/reclo/",
   },
   openGraph: {
     title: "RECLO（リクロ）の着物買取｜宅配買取の評判・口コミを検証",
     description:
       "RECLO（リクロ）の宅配買取特化の着物買取サービスを徹底検証。口コミ・評判・買取実績を正直にレビュー。",
-    url: "https://kimono-kaitori-biyori.pages.dev/reviews/reclo/",
+    url: "https://kimonokaitori-biyori.com/reviews/reclo/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -30,16 +30,16 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://kimono-kaitori-biyori.pages.dev/reviews/reclo/",
+    "@id": "https://kimonokaitori-biyori.com/reviews/reclo/",
   },
 };
 
@@ -98,19 +98,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "業者レビュー",
-      item: "https://kimono-kaitori-biyori.pages.dev/reviews/",
+      item: "https://kimonokaitori-biyori.com/reviews/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "RECLO",
-      item: "https://kimono-kaitori-biyori.pages.dev/reviews/reclo/",
+      item: "https://kimonokaitori-biyori.com/reviews/reclo/",
     },
   ],
 };

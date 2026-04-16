@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "証紙なしの着物は買取してもらえるのか徹底解説。証紙とは何か、証紙がないと査定額がどう変わるか、証紙の代わりになるもの、証紙なしでも高額になるケースまで詳しくガイドします。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/no-certificate/",
+      "https://kimonokaitori-biyori.com/articles/no-certificate/",
   },
   openGraph: {
     title: "証紙なしの着物は売れる？買取価格への影響と対策",
     description:
       "証紙なしの着物は売れるのか徹底解説。査定額への影響と対策をガイドします。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/no-certificate/",
+    url: "https://kimonokaitori-biyori.com/articles/no-certificate/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -31,17 +31,17 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/no-certificate/",
+      "https://kimonokaitori-biyori.com/articles/no-certificate/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "お役立ち情報",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "証紙なしの着物",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/no-certificate/",
+      item: "https://kimonokaitori-biyori.com/articles/no-certificate/",
     },
   ],
 };

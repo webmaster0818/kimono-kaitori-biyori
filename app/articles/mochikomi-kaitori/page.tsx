@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "着物の持ち込み買取（店頭買取）おすすめ業者2選を徹底比較。店舗に持っていくメリット・デメリット、持ち込み前の準備、出張・宅配買取との比較まで詳しく解説します。近くの買取店舗を探している方必見です。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/mochikomi-kaitori/",
+      "https://kimonokaitori-biyori.com/articles/mochikomi-kaitori/",
   },
   openGraph: {
     title:
       "着物の持ち込み買取おすすめ業者2選｜店舗に持っていくメリットと注意点",
     description:
       "着物の持ち込み買取おすすめ2社を比較。店舗買取のメリットと注意点を徹底ガイドします。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/mochikomi-kaitori/",
+    url: "https://kimonokaitori-biyori.com/articles/mochikomi-kaitori/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -34,17 +34,17 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/mochikomi-kaitori/",
+      "https://kimonokaitori-biyori.com/articles/mochikomi-kaitori/",
   },
 };
 
@@ -103,19 +103,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "お役立ち情報",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "持ち込み買取おすすめ",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/mochikomi-kaitori/",
+      item: "https://kimonokaitori-biyori.com/articles/mochikomi-kaitori/",
     },
   ],
 };

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "ティファナの着物買取サービスを徹底検証。総合リサイクルショップならではの幅広い対応力、出張・宅配・店頭の3つの買取方法、ノーブランドからハイブランドまで対応する実力を口コミとともにレビュー。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/reviews/tifana/",
+    canonical: "https://kimonokaitori-biyori.com/reviews/tifana/",
   },
   openGraph: {
     title: "ティファナの着物買取｜総合リサイクル店の実力を検証",
     description:
       "ティファナの着物買取サービスを徹底検証。総合リサイクルショップの着物買取を口コミ・評判とともにレビュー。",
-    url: "https://kimono-kaitori-biyori.pages.dev/reviews/tifana/",
+    url: "https://kimonokaitori-biyori.com/reviews/tifana/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -30,16 +30,16 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://kimono-kaitori-biyori.pages.dev/reviews/tifana/",
+    "@id": "https://kimonokaitori-biyori.com/reviews/tifana/",
   },
 };
 
@@ -98,19 +98,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "業者レビュー",
-      item: "https://kimono-kaitori-biyori.pages.dev/reviews/",
+      item: "https://kimonokaitori-biyori.com/reviews/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ティファナ",
-      item: "https://kimono-kaitori-biyori.pages.dev/reviews/tifana/",
+      item: "https://kimonokaitori-biyori.com/reviews/tifana/",
     },
   ],
 };

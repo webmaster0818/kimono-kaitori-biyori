@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "着物を高く売るための7つのコツを徹底解説。複数業者の見積もり比較、証紙の活用、セット売り、季節の考慮、クリーニング不要の理由、早めの売却、専門業者の選び方まで、査定額アップの秘訣をお伝えします。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/sell-high-tips/",
+      "https://kimonokaitori-biyori.com/articles/sell-high-tips/",
   },
   openGraph: {
     title: "着物を高く売るための7つのコツ｜査定額アップの秘訣",
     description:
       "着物を高く売るための7つのコツを徹底解説。査定額アップの秘訣をお伝えします。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/sell-high-tips/",
+    url: "https://kimonokaitori-biyori.com/articles/sell-high-tips/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -31,17 +31,17 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/sell-high-tips/",
+      "https://kimonokaitori-biyori.com/articles/sell-high-tips/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "お役立ち情報",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "高く売るコツ",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/sell-high-tips/",
+      item: "https://kimonokaitori-biyori.com/articles/sell-high-tips/",
     },
   ],
 };

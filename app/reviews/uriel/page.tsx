@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "ウリエルの着物買取サービスを徹底検証。出張買取専門で無店舗のコスト削減を高額査定に還元。関東〜関西・岡山対応エリア、クーリングオフ8日間、即現金払いの実力を口コミとともにレビュー。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/reviews/uriel/",
+    canonical: "https://kimonokaitori-biyori.com/reviews/uriel/",
   },
   openGraph: {
     title: "ウリエルの着物買取｜出張買取の評判・口コミを検証",
     description:
       "ウリエルの出張買取専門の着物買取サービスを徹底検証。口コミ・評判・買取実績を正直にレビュー。",
-    url: "https://kimono-kaitori-biyori.pages.dev/reviews/uriel/",
+    url: "https://kimonokaitori-biyori.com/reviews/uriel/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -30,16 +30,16 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://kimono-kaitori-biyori.pages.dev/reviews/uriel/",
+    "@id": "https://kimonokaitori-biyori.com/reviews/uriel/",
   },
 };
 
@@ -98,19 +98,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "業者レビュー",
-      item: "https://kimono-kaitori-biyori.pages.dev/reviews/",
+      item: "https://kimonokaitori-biyori.com/reviews/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ウリエル",
-      item: "https://kimono-kaitori-biyori.pages.dev/reviews/uriel/",
+      item: "https://kimonokaitori-biyori.com/reviews/uriel/",
     },
   ],
 };

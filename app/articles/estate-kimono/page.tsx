@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "遺品整理で大量の着物が出てきたときの対処法を徹底解説。着物の価値の見極め方、処分方法の選択肢（売る・寄付・リメイク）、出張買取が便利な理由、注意点まで網羅的にガイドします。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/estate-kimono/",
+      "https://kimonokaitori-biyori.com/articles/estate-kimono/",
   },
   openGraph: {
     title: "遺品整理で着物が出てきた時の対処法｜価値の見極め方と売り方",
     description:
       "遺品整理で着物が出てきたときの対処法を徹底解説。価値の見極め方から売却方法まで網羅的にガイドします。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/estate-kimono/",
+    url: "https://kimonokaitori-biyori.com/articles/estate-kimono/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -31,17 +31,17 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/estate-kimono/",
+      "https://kimonokaitori-biyori.com/articles/estate-kimono/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "お役立ち情報",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "遺品整理の着物",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/estate-kimono/",
+      item: "https://kimonokaitori-biyori.com/articles/estate-kimono/",
     },
   ],
 };

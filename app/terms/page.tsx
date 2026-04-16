@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "着物の買取びよりの利用規約です。当サイトをご利用いただく前に必ずお読みください。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/terms/",
+    canonical: "https://kimonokaitori-biyori.com/terms/",
   },
   openGraph: {
     title: "利用規約 | 着物の買取びより",
     description:
       "着物の買取びよりの利用規約です。当サイトをご利用いただく前に必ずお読みください。",
-    url: "https://kimono-kaitori-biyori.pages.dev/terms/",
+    url: "https://kimonokaitori-biyori.com/terms/",
     siteName: "着物の買取びより",
     type: "website",
     locale: "ja_JP",

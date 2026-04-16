@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "着物の証紙とは何か、証紙の種類（産地証紙・伝統工芸品マーク）、証紙の見方・読み方、主な産地別証紙一覧、証紙が査定額に与える影響を徹底解説します。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/certificate-guide/",
+      "https://kimonokaitori-biyori.com/articles/certificate-guide/",
   },
   openGraph: {
     title: "着物の証紙とは？見方と査定への影響を徹底解説",
     description:
       "着物の証紙の種類、見方、主な産地別証紙一覧、査定への影響を徹底解説します。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/certificate-guide/",
+    url: "https://kimonokaitori-biyori.com/articles/certificate-guide/",
     siteName: "着物の買取びより",
     type: "article",
   },
@@ -31,17 +31,17 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/certificate-guide/",
+      "https://kimonokaitori-biyori.com/articles/certificate-guide/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "お役立ち情報",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "証紙ガイド",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/certificate-guide/",
+      item: "https://kimonokaitori-biyori.com/articles/certificate-guide/",
     },
   ],
 };

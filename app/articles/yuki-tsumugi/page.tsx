@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "結城紬の買取相場を亀甲の細かさ（80・100・160・200亀甲）別に徹底解説。本場結城紬は5万〜10万円、作家物は10万円超も。証紙の「結」マークの見方や高く売るための5つのポイントをまとめました。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/yuki-tsumugi/",
+      "https://kimonokaitori-biyori.com/articles/yuki-tsumugi/",
   },
   openGraph: {
     title: "結城紬の買取相場と高く売るコツ【重要無形文化財の価値】",
     description:
       "結城紬の亀甲別買取相場と高く売るコツを解説。200亀甲以上の希少品は超高額査定も。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/yuki-tsumugi/",
+    url: "https://kimonokaitori-biyori.com/articles/yuki-tsumugi/",
     siteName: "着物の買取びより",
     type: "article",
     locale: "ja_JP",
@@ -61,21 +61,21 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com/logo.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/yuki-tsumugi/",
+      "https://kimonokaitori-biyori.com/articles/yuki-tsumugi/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "買取相場",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "結城紬",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/yuki-tsumugi/",
+      item: "https://kimonokaitori-biyori.com/articles/yuki-tsumugi/",
     },
   ],
 };

@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "小紋・付け下げの買取相場を種類別に徹底解説。江戸小紋の三役（鮫・角通し・行儀）は5,000円〜5万円の高額査定も。作家物や伝統工芸品の価格差、高く売るためのポイントをまとめました。",
   alternates: {
     canonical:
-      "https://kimono-kaitori-biyori.pages.dev/articles/komon-tsukesage/",
+      "https://kimonokaitori-biyori.com/articles/komon-tsukesage/",
   },
   openGraph: {
     title: "小紋・付け下げの買取相場｜江戸小紋の三役は高額査定",
     description:
       "小紋・付け下げの種類別買取相場と高く売るコツを解説。江戸小紋の三役は特に高額。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/komon-tsukesage/",
+    url: "https://kimonokaitori-biyori.com/articles/komon-tsukesage/",
     siteName: "着物の買取びより",
     type: "article",
     locale: "ja_JP",
@@ -61,21 +61,21 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com/logo.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://kimono-kaitori-biyori.pages.dev/articles/komon-tsukesage/",
+      "https://kimonokaitori-biyori.com/articles/komon-tsukesage/",
   },
 };
 
@@ -100,19 +100,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "買取相場",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "小紋・付け下げ",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/komon-tsukesage/",
+      item: "https://kimonokaitori-biyori.com/articles/komon-tsukesage/",
     },
   ],
 };

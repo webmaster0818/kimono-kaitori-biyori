@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "着物買取の相場を種類別に徹底解説。振袖・訪問着・留袖・小紋・付け下げ・紬・帯・和装小物の買取価格一覧表と、高額買取になる条件・高く売るコツをまとめました。2026年最新の相場情報です。",
   alternates: {
-    canonical: "https://kimono-kaitori-biyori.pages.dev/articles/kimono-market-price/",
+    canonical: "https://kimonokaitori-biyori.com/articles/kimono-market-price/",
   },
   openGraph: {
     title: "着物買取の相場一覧【2026年最新】種類別の買取価格まとめ",
     description:
       "着物買取の相場を種類別に徹底解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
-    url: "https://kimono-kaitori-biyori.pages.dev/articles/kimono-market-price/",
+    url: "https://kimonokaitori-biyori.com/articles/kimono-market-price/",
     siteName: "着物の買取びより",
     type: "article",
     locale: "ja_JP",
@@ -59,20 +59,20 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
   },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
-    url: "https://kimono-kaitori-biyori.pages.dev",
+    url: "https://kimonokaitori-biyori.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://kimono-kaitori-biyori.pages.dev/logo.png",
+      url: "https://kimonokaitori-biyori.com/logo.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://kimono-kaitori-biyori.pages.dev/articles/kimono-market-price/",
+    "@id": "https://kimonokaitori-biyori.com/articles/kimono-market-price/",
   },
 };
 
@@ -97,19 +97,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://kimono-kaitori-biyori.pages.dev/",
+      item: "https://kimonokaitori-biyori.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "買取相場",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/",
+      item: "https://kimonokaitori-biyori.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "相場一覧",
-      item: "https://kimono-kaitori-biyori.pages.dev/articles/kimono-market-price/",
+      item: "https://kimonokaitori-biyori.com/articles/kimono-market-price/",
     },
   ],
 };
