@@ -791,6 +791,26 @@ export default function AntiqueKimonoPage() {
         </div>
       </section>
 
+      {/* アンティーク着物のコレクター需要と売り先の選び方 */}
+      <section className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold mb-4">
+            アンティーク着物のコレクター需要と売り先の選び方
+          </h3>
+          <div className="bg-white border border-[#e8ddd0] rounded-lg p-5 space-y-3">
+            <p className="text-gray-700 leading-relaxed">
+              アンティーク着物は、通常の買取業者よりもアンティーク専門店やコレクターに直接売った方が高額になるケースがあります。特に銘仙はコレクター人気が非常に高い着物です。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              メルカリやヤフオクなどのフリマアプリも選択肢の一つですが、出品・発送の手間がかかる点は注意が必要です。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              おすすめの流れとしては、まず買取業者で査定を受け、提示された価格に納得できなければフリマアプリでの出品を検討するという方法です。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

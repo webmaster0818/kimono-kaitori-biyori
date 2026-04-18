@@ -636,6 +636,23 @@ export default function HoumongiTomesodePage() {
         </div>
       </section>
 
+      {/* 訪問着が着物の中で最も高く売れやすい理由 */}
+      <section className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold mb-4">
+            訪問着が着物の中で最も高く売れやすい理由
+          </h3>
+          <div className="bg-white border border-[#e8ddd0] rounded-lg p-5 space-y-3">
+            <p className="text-gray-700 leading-relaxed">
+              訪問着はフォーマルからセミフォーマルまで幅広いシーンで着用できるため、中古需要が最も高い着物の一つです。レンタルや中古販売での回転が速く、買取業者にとっても仕入れたい着物の筆頭格です。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              花鳥風月や吉祥文様などの古典柄は、年齢や体型を問わず需要が安定しています。また、季節を問わない柄の訪問着は特に高額査定になる傾向があります。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

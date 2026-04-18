@@ -785,6 +785,26 @@ export default function TanmonoPage() {
         </div>
       </section>
 
+      {/* 反物の保管状態が査定額に与える影響 */}
+      <section className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold mb-4">
+            反物の保管状態が査定額に与える影響
+          </h3>
+          <div className="bg-white border border-[#e8ddd0] rounded-lg p-5 space-y-3">
+            <p className="text-gray-700 leading-relaxed">
+              反物は着物より保管状態が良い場合が多いですが（未使用のため）、カビ・シワ・虫食いが発生していると大幅に減額されます。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              正しい保管方法としては、桐箪笥での保管が最も理想的で、次いでたとう紙に包んでの保管が推奨されます。防虫剤は直接反物に触れないように注意してください。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              長期保管していた反物は、査定に出す前に陰干しして状態を確認しておくことをおすすめします。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

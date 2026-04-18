@@ -719,6 +719,24 @@ export default function AppraisalCriteriaPage() {
           </div>
         </section>
 
+        {/* 着物専門店とリサイクルショップの査定力の違い */}
+        <section className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
+            着物専門店とリサイクルショップの査定力の違い
+          </h3>
+          <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-5 space-y-3">
+            <p className="text-gray-700 leading-relaxed">
+              マイベストの調査によると、着物専門店と総合型リユースショップでは買取額に約5倍もの差が出るケースがあります。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              着物専門店の査定員は「手触り・匂い」など五感を使って素材や状態を判断します（てまり屋のデータより）。一方、総合型リサイクルショップでは汚れチェックなど形式的な判断にとどまる場合があり、着物本来の価値が正しく反映されないことがあります。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              特に作家物や産地物など高額着物の場合は、必ず着物専門の査定員が在籍している業者を選びましょう。専門知識を持つ査定員がいるかどうかで、査定額に大きな差が生まれます。
+            </p>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

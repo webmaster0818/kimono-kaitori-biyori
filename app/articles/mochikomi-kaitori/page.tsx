@@ -1000,6 +1000,33 @@ export default function MochikomiKaitoriPage() {
           </div>
         </section>
 
+        {/* 持ち込み買取で高く売るための事前準備 */}
+        <section className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
+            持ち込み買取で高く売るための事前準備
+          </h3>
+          <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-5 space-y-3">
+            <ul className="space-y-2 text-gray-700">
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span>事前にWeb査定や電話査定で概算を聞いておく</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span>着物だけでなく帯・小物もセットで持っていく（セット査定で高額になりやすい）</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span>証紙・箱・たとう紙があれば必ず持参する</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span>複数店舗を回って相見積もりを取るのが理想</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

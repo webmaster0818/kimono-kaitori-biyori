@@ -640,6 +640,59 @@ export default function KimonoMarketPricePage() {
         </div>
       </section>
 
+      {/* がっかりする理由と対策 */}
+      <section className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-[#e8ddd0]">
+            着物買取で「がっかり」する理由と対策
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            「着物を売ったら100円にしかならなかった」「期待していたのにがっかり」という声は珍しくありません。着物の買取価格は<strong>「格・産地・技法・作家」の4つの要素</strong>で決まります。がっかりする理由と、その対策を理解しておきましょう。
+          </p>
+
+          <p className="text-sm font-bold text-gray-900 mb-2">がっかりする主な理由</p>
+          <div className="space-y-2 mb-5">
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-3">
+              <p className="text-sm text-gray-700">
+                <strong>ノーブランド品：</strong>産地物や作家物でない着物は、中古市場での需要が低く、数百円程度の査定になることが多いです。
+              </p>
+            </div>
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-3">
+              <p className="text-sm text-gray-700">
+                <strong>状態が悪い：</strong>シミ・カビ・虫食いなどがあると大幅に減額されます。特に裏地の変色は見落としがちです。
+              </p>
+            </div>
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-3">
+              <p className="text-sm text-gray-700">
+                <strong>需要がない柄・色：</strong>流行から外れた柄や、着用シーンが限られる色味の着物は買い手がつきにくい傾向があります。
+              </p>
+            </div>
+          </div>
+
+          <p className="text-sm font-bold text-gray-900 mb-2">がっかりしないための対策</p>
+          <div className="space-y-2">
+            <div className="bg-gradient-to-r from-[#f3eef7] to-[#fdf2f6] border border-[#e8ddd0] rounded-lg p-3">
+              <p className="text-sm text-gray-700">
+                <strong>1. 着物専門の買取業者を選ぶ：</strong>総合リサイクルショップではなく、着物の価値がわかる専門業者に依頼しましょう。査定額が数倍変わることがあります。
+              </p>
+            </div>
+            <div className="bg-gradient-to-r from-[#f3eef7] to-[#fdf2f6] border border-[#e8ddd0] rounded-lg p-3">
+              <p className="text-sm text-gray-700">
+                <strong>2. 複数業者で相見積もりを取る：</strong>最低2〜3社に査定を依頼し、最も高い金額を提示した業者を選びましょう。
+              </p>
+            </div>
+            <div className="bg-gradient-to-r from-[#f3eef7] to-[#fdf2f6] border border-[#e8ddd0] rounded-lg p-3">
+              <p className="text-sm text-gray-700">
+                <strong>3. 証紙を必ず確認：</strong>証紙（産地証明書）は着物の価値を証明する最も重要な書類です。紛失していないか、査定前に必ず確認しましょう。
+              </p>
+            </div>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            ※ 着物の買取価格は「格・産地・技法・作家」の4要素で決まります。これらの要素が揃った着物ほど、高額査定が期待できます。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

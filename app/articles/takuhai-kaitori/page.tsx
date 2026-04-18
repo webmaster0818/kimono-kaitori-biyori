@@ -1053,6 +1053,37 @@ export default function TakuhaiKaitoriPage() {
           </div>
         </section>
 
+        {/* 宅配買取で失敗しないための梱包のコツ */}
+        <section className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
+            宅配買取で失敗しないための梱包のコツ
+          </h3>
+          <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-5 space-y-3">
+            <ul className="space-y-2 text-gray-700">
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span>たとう紙ごと平らに折りたたんで梱包する（折りジワを防ぐ）</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span>帯・小物は別の袋に入れてセットで送る</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span>証紙は着物と一緒に必ず同梱する</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span>ダンボールは業者から無料で送ってもらえる（RECLO等）</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span>高額着物の場合は事前に写真査定を利用して概算を確認しておくと安心</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

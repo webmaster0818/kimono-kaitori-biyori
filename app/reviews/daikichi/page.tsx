@@ -668,6 +668,41 @@ export default function DaikichiReviewPage() {
           </div>
         </section>
 
+        {/* 注意点セクション */}
+        <section className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-[#e8ddd0]">
+            買取大吉の注意点：口コミで指摘されているポイント
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            みん評では1,334件の口コミが寄せられており、ヒカカクでの総合評価は3.83点です。多くの利用者が満足している一方で、いくつか注意すべきポイントも指摘されています。
+          </p>
+          <div className="space-y-3">
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">1. 査定後にGoogleレビュー投稿を求められることがある</p>
+              <p className="text-sm text-gray-700">
+                一部の店舗では査定完了後にGoogleレビューの投稿を依頼されるケースが報告されています。投稿は任意ですので、気になる場合は断っても問題ありません。
+              </p>
+            </div>
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">2. 出張買取は1.5時間程度かかる場合がある</p>
+              <p className="text-sm text-gray-700">
+                丁寧な査定を行うため、出張買取では到着から完了まで1〜1.5時間ほどかかるケースがあります。時間に余裕を持ってスケジュールしましょう。
+              </p>
+            </div>
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">3. 店舗によって対応に差がある</p>
+              <p className="text-sm text-gray-700">
+                全国1,800店以上のフランチャイズ展開のため、スタッフの経験値や対応品質に差が出ることがあります。口コミで最寄り店舗の評判を事前にチェックするのがおすすめです。
+              </p>
+            </div>
+          </div>
+          <div className="bg-gradient-to-r from-[#f3eef7] to-[#fdf2f6] border border-[#e8ddd0] rounded-lg p-4 mt-4">
+            <p className="text-sm text-gray-700">
+              <strong>一方で好評な声も多数：</strong>「他店で断られた物も買い取ってもらえた」「値段がつかないと思っていた小物にも値段がついた」など、幅広い品目に対応する姿勢は高く評価されています。
+            </p>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

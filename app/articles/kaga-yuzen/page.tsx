@@ -898,6 +898,26 @@ export default function KagaYuzenPage() {
         </div>
       </section>
 
+      {/* 加賀友禅の「落款」で作家を特定する方法 */}
+      <section className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold mb-4">
+            加賀友禅の「落款」で作家を特定する方法
+          </h3>
+          <div className="bg-white border border-[#e8ddd0] rounded-lg p-5 space-y-3">
+            <p className="text-gray-700 leading-relaxed">
+              加賀友禅には作家ごとの落款（印鑑）が着物に押されています。落款があれば作家を特定でき、査定額が大幅にアップする可能性があります。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              加賀染振興協会のデータベースでは、落款から作家を検索することが可能です。お手持ちの加賀友禅に落款がある場合は、事前に作家名を調べておくと査定がスムーズに進みます。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              証紙と落款の両方が揃っている場合が最も高額査定になりやすく、作家物としての信頼性が高まります。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

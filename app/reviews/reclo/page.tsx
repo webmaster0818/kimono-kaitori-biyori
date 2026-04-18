@@ -585,6 +585,41 @@ export default function RecloReviewPage() {
           </div>
         </section>
 
+        {/* 査定実績セクション */}
+        <section className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-[#e8ddd0]">
+            RECLOの査定実績と信頼性
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            RECLOは業界トップクラスの実績を誇る委託販売・買取サービスです。数字で見るその信頼性をまとめました。
+          </p>
+          <div className="space-y-3">
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">累計査定数 約86万件</p>
+              <p className="text-sm text-gray-700">
+                圧倒的な査定実績により、幅広いブランド・アイテムの相場データを蓄積。正確な査定が期待できます。
+              </p>
+            </div>
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">鑑定士は17年以上の経験者</p>
+              <p className="text-sm text-gray-700">
+                経験豊富な鑑定士が在籍しており、作家物や産地物の着物も正確に評価できる体制が整っています。
+              </p>
+            </div>
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">三越伊勢丹にリアル店舗を出店</p>
+              <p className="text-sm text-gray-700">
+                新宿・銀座の三越伊勢丹にリアル店舗を構えており、百貨店の信頼性を背景にした安心感があります。
+              </p>
+            </div>
+          </div>
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mt-4">
+            <p className="text-sm text-gray-700">
+              <strong>注意点：</strong>一部の口コミでは「鑑定レベルが低い」という指摘もあります。高額な着物（作家物・産地物など）を依頼する場合は、事前に他社の買取相場を調べてから査定に出すことをおすすめします。
+            </p>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

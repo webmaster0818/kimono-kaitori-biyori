@@ -651,6 +651,36 @@ export default function UrielReviewPage() {
           </div>
         </section>
 
+        {/* 独自の強みセクション */}
+        <section className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-[#e8ddd0]">
+            ウリエルの独自の強み：玄関先査定OK
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            競合調査で判明した、ウリエルならではの特徴をご紹介します。特に女性の一人暮らしや高齢の方に好評なサービスが揃っています。
+          </p>
+          <div className="space-y-3">
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">玄関先での査定に対応</p>
+              <p className="text-sm text-gray-700">
+                出張買取では、自宅内に上がらず<strong>玄関先での査定もOK</strong>です。「知らない人を家に上げるのは不安」という方でも安心して利用できます。女性の一人暮らしや高齢者の方に特に好評です。
+              </p>
+            </div>
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">電話は24時間対応</p>
+              <p className="text-sm text-gray-700">
+                問い合わせ電話は24時間受付しています。日中忙しい方でも、夜間や早朝に予約・相談が可能です。
+              </p>
+            </div>
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">時期限定の買取金額アップキャンペーン</p>
+              <p className="text-sm text-gray-700">
+                時期によって<strong>買取金額7倍キャンペーン</strong>を実施していることがあります。査定依頼前に公式サイトで最新のキャンペーン情報を確認しましょう。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

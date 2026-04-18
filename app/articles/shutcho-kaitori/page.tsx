@@ -1076,6 +1076,32 @@ export default function ShutchoKaitoriPage() {
           </div>
         </section>
 
+        {/* 出張買取のキャンペーン情報 */}
+        <section className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
+            出張買取のキャンペーン情報（2026年4月）
+          </h3>
+          <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-5 space-y-3">
+            <ul className="space-y-2 text-gray-700">
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span><strong>バイセル</strong>: 出張買取限定で抽選最大25名に買取金額5倍キャンペーン（〜4/30）</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span><strong>福ちゃん</strong>: 海外需要増加で高価買取実施中</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span><strong>ウリエル</strong>: 抽選で買取金額7倍キャンペーン</span>
+              </li>
+            </ul>
+            <p className="text-sm text-gray-500 mt-2">
+              ※キャンペーンは時期によって変わるため、最新情報は各社の公式サイトでご確認ください。
+            </p>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

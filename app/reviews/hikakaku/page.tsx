@@ -621,6 +621,56 @@ export default function HikakakuReviewPage() {
           </div>
         </section>
 
+        {/* 一括査定の使い方セクション */}
+        <section className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-[#e8ddd0]">
+            ヒカカク一括査定の使い方と注意点
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            ヒカカクの一括査定サービスの具体的な使い方と、利用前に知っておきたい注意点をまとめました。
+          </p>
+
+          <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4 mb-4">
+            <p className="text-sm font-bold text-gray-900 mb-2">使い方</p>
+            <p className="text-sm text-gray-700">
+              商品情報（カテゴリ・ブランド・状態など）と個人情報（氏名・連絡先）を入力して送信すると、対応可能な複数業者から連絡が届きます。届いた見積もりを比較して、最も条件の良い業者を選べます。
+            </p>
+          </div>
+
+          <p className="text-sm font-bold text-gray-900 mb-2">メリット</p>
+          <div className="space-y-2 mb-4">
+            <div className="bg-[#f3eef7] border border-[#e8ddd0] rounded-lg p-3">
+              <p className="text-sm text-gray-700">
+                <strong>完全無料</strong>で利用可能。手数料は一切かかりません。
+              </p>
+            </div>
+            <div className="bg-[#f3eef7] border border-[#e8ddd0] rounded-lg p-3">
+              <p className="text-sm text-gray-700">
+                大手買取業者よりも高い査定額を提示する<strong>中小の専門業者</strong>が見つかることもあります。
+              </p>
+            </div>
+          </div>
+
+          <p className="text-sm font-bold text-gray-900 mb-2">注意点</p>
+          <div className="space-y-2">
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-3">
+              <p className="text-sm text-gray-700">
+                <strong>1. 複数業者から電話が来る：</strong>一括査定の性質上、複数の業者から連絡が入ります。対応が面倒な場合はメール希望と記載しましょう。
+              </p>
+            </div>
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-3">
+              <p className="text-sm text-gray-700">
+                <strong>2. 買い手が見つからないケースもある：</strong>商品によっては対応できる業者がいない場合があります。
+              </p>
+            </div>
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-3">
+              <p className="text-sm text-gray-700">
+                <strong>3. 着物カテゴリの登録業者数は少なめ：</strong>家電やブランド品と比べると、着物に対応している登録業者数は限られています。着物専門業者への直接依頼も併用するのがおすすめです。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

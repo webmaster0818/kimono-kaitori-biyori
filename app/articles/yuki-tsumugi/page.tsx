@@ -965,6 +965,33 @@ export default function YukiTsumugiPage() {
         </div>
       </section>
 
+      {/* 結城紬の買取で注意すべき「石下結城紬」との違い */}
+      <section className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold mb-4">
+            結城紬の買取で注意すべき「石下結城紬」との違い
+          </h3>
+          <div className="bg-white border border-[#e8ddd0] rounded-lg p-5 space-y-3">
+            <p className="text-gray-700 leading-relaxed">
+              本場結城紬（重要無形文化財）と石下結城紬では、買取額が大きく異なります。
+            </p>
+            <ul className="space-y-2 text-gray-700">
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span><strong>本場結城紬</strong>: 手紡ぎ・手括り・地機織りで制作 → 高額査定</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#6b4c8a] font-bold mt-0.5">●</span>
+                <span><strong>石下結城紬</strong>: 機械紡績・機械織りで制作 → 本場の1/5〜1/10程度の買取額</span>
+              </li>
+            </ul>
+            <p className="text-gray-700 leading-relaxed">
+              証紙で見分けることができます。本場結城紬には「結」マークの証紙が付き、石下結城紬には「石下結城」と記載された証紙が付いています。査定前に証紙を確認しておきましょう。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

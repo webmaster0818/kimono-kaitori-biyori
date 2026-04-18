@@ -668,6 +668,36 @@ export default function TifanaReviewPage() {
           </div>
         </section>
 
+        {/* 着物買取の注意点セクション */}
+        <section className="mb-12">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-[#e8ddd0]">
+            ティファナの着物買取の注意点
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            競合調査で判明した、ティファナに着物買取を依頼する前に知っておくべき重要なポイントをまとめました。
+          </p>
+          <div className="space-y-3">
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">ウール・化繊の着物は買取対象外</p>
+              <p className="text-sm text-gray-700">
+                ティファナでは<strong>ウールや化学繊維（ポリエステル等）の着物は買取対象外</strong>です。正絹（シルク）の着物であれば買取可能ですので、素材を事前に確認しましょう。
+              </p>
+            </div>
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">袋帯以外の帯は受付不可の場合あり</p>
+              <p className="text-sm text-gray-700">
+                名古屋帯や半幅帯など、袋帯以外の帯は買取を受け付けてもらえない場合があります。帯の種類を確認してから依頼しましょう。
+              </p>
+            </div>
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">着物の専門査定士がいない可能性</p>
+              <p className="text-sm text-gray-700">
+                ティファナは総合リサイクルショップのため、着物に特化した専門査定士が在籍していない場合があります。作家物や産地物など高額な着物の場合は、着物専門の買取業者（ウリエルや買取大吉など）に依頼することをおすすめします。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

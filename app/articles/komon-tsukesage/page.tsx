@@ -814,6 +814,23 @@ export default function KomonTsukesagePage() {
         </div>
       </section>
 
+      {/* 付け下げ小紋という中間的な着物について */}
+      <section className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold mb-4">
+            付け下げ小紋という中間的な着物について
+          </h3>
+          <div className="bg-white border border-[#e8ddd0] rounded-lg p-5 space-y-3">
+            <p className="text-gray-700 leading-relaxed">
+              付け下げ小紋は、小紋と付け下げの中間に位置する着物です。買取相場は小紋より高く、付け下げと同等の価格が付く場合もあります。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              特に田村哲彦や由水十久の作品は高額査定が期待できます。お手持ちの着物が付け下げ小紋かどうか判断が難しい場合は、着物専門の査定員に見てもらうことをおすすめします。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">

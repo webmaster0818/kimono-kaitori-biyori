@@ -1523,6 +1523,38 @@ export default function RankingPage() {
         </section>
 
         {/* ========================================== */}
+        {/* H3: がっかりしないための注意点 */}
+        {/* ========================================== */}
+        <section className="mb-16">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-[#e8ddd0]">
+            着物買取で「がっかり」しないための3つの注意点
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            着物買取で「思ったより安かった」「値段がつかなかった」という声は少なくありません。実際に、マイベストの調査データによると<strong>着物専門店とリサイクルショップでは買取額に約5倍の差</strong>が生じるケースもあります。がっかりしないために、以下の3点を押さえましょう。
+          </p>
+          <div className="space-y-4">
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">1. 着物専門の買取業者を選ぶ</p>
+              <p className="text-sm text-gray-700">
+                総合リユースショップでは着物の専門知識を持つ査定士が不在の場合が多く、産地物や作家物の価値を正しく評価できません。着物専門の買取業者なら、証紙や落款から正確な価値を判断でき、査定額が大幅に変わります。
+              </p>
+            </div>
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">2. 複数業者で相見積もりを取る</p>
+              <p className="text-sm text-gray-700">
+                1社だけの査定では適正価格かどうか判断できません。最低でも2〜3社に査定を依頼し、金額を比較しましょう。出張買取なら無料で査定してもらえる業者がほとんどです。
+              </p>
+            </div>
+            <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
+              <p className="text-sm font-bold text-gray-900 mb-1">3. 証紙・付属品を揃えて査定に出す</p>
+              <p className="text-sm text-gray-700">
+                証紙（産地証明）や落款（作家の印）があるだけで、査定額が数万円単位で変わることがあります。畳紙（たとう紙）や帯、和装小物もセットで出すと評価が上がる傾向があります。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ========================================== */}
         {/* H2: よくある質問（FAQ） */}
         {/* ========================================== */}
         <section id="faq" className="mb-16">
