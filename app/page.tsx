@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title:
@@ -183,7 +184,8 @@ export default function Home() {
         <div className="absolute bottom-10 left-10 w-40 h-40 bg-[#e8a0b6]/10 rounded-full blur-3xl" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#c9a76c]/8 rounded-full blur-3xl" />
 
-        <div className="relative max-w-4xl mx-auto px-4 text-center">
+        <div className="relative max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div className="text-center md:text-left">
           <p className="inline-block text-xs font-semibold text-[#c9a76c] bg-[#faf5ee] px-4 py-1.5 rounded-full mb-6 tracking-wider border border-[#e8ddd0]">
             着物買取おすすめ業者比較 2026年版
           </p>
@@ -192,7 +194,7 @@ export default function Home() {
             <br />
             <span className="text-gradient">納得の価格で。</span>
           </h1>
-          <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-gray-600 text-sm md:text-base max-w-lg mx-auto md:mx-0 mb-10 leading-relaxed">
             お母さまから譲り受けた着物、タンスに眠ったままの振袖。
             <br className="hidden md:block" />
             着物買取の人気5社を徹底比較して、
@@ -202,6 +204,18 @@ export default function Home() {
           <Link href="/ranking/" className="btn-cta text-base md:text-lg">
             おすすめ5社を比較する
           </Link>
+          </div>
+          <div className="relative mx-auto w-full max-w-sm">
+            <div className="absolute -inset-4 bg-gradient-to-tr from-[#6b4c8a]/20 via-[#c9a76c]/15 to-[#e8a0b6]/15 rounded-3xl blur-2xl" />
+            <Image
+              src="/images/hero-kimono.png"
+              alt="専門査定士が白手袋で丁寧に着物を査定する様子"
+              width={400}
+              height={400}
+              className="relative rounded-2xl shadow-lg"
+              priority
+            />
+          </div>
         </div>
       </section>
 
@@ -322,22 +336,33 @@ export default function Home() {
       <section className="section-primary-light py-16 md:py-20 relative overflow-hidden">
         <div className="absolute top-0 left-1/4 w-32 h-32 bg-[#c9a76c]/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-1/4 w-40 h-40 bg-[#6b4c8a]/10 rounded-full blur-3xl" />
-        <div className="relative max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-            まずは無料査定で
-            <br />
-            お持ちの着物の価値を確認
-          </h2>
-          <p className="text-sm text-gray-600 mb-8 leading-relaxed">
-            5つの着物買取業者を比較して、
-            <br className="hidden md:block" />
-            あなたに合った業者を見つけてください。
-            <br className="hidden md:block" />
-            査定は無料。納得いかなければキャンセルもOKです。
-          </p>
-          <Link href="/ranking/" className="btn-cta text-base md:text-lg">
-            おすすめ5社の比較を見る
-          </Link>
+        <div className="relative max-w-4xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="order-2 md:order-1 mx-auto w-full max-w-xs">
+            <Image
+              src="/images/cta-kimono.png"
+              alt="金糸の帯と美しい着物"
+              width={320}
+              height={320}
+              className="rounded-2xl shadow-md"
+            />
+          </div>
+          <div className="order-1 md:order-2 text-center md:text-left">
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
+              まずは無料査定で
+              <br />
+              お持ちの着物の価値を確認
+            </h2>
+            <p className="text-sm text-gray-600 mb-8 leading-relaxed">
+              5つの着物買取業者を比較して、
+              <br className="hidden md:block" />
+              あなたに合った業者を見つけてください。
+              <br className="hidden md:block" />
+              査定は無料。納得いかなければキャンセルもOKです。
+            </p>
+            <Link href="/ranking/" className="btn-cta text-base md:text-lg">
+              おすすめ5社の比較を見る
+            </Link>
+          </div>
         </div>
       </section>
     </>
