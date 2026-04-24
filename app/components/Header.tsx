@@ -35,6 +35,7 @@ export default function Header() {
               {item.label}
             </Link>
           ))}
+          <span className="ml-2 text-[10px] text-gray-400">PRを含みます</span>
         </nav>
 
         {/* Mobile hamburger */}
