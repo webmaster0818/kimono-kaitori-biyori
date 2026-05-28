@@ -70,11 +70,33 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const howToStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "着物を写真査定で売る手順",
+  description: "スマホで撮った写真を送るだけで概算買取額がわかる写真査定の手順を5ステップで解説。",
+  totalTime: "PT15M",
+  estimatedCost: { "@type": "MonetaryAmount", currency: "JPY", value: "0" },
+  tool: [
+    { "@type": "HowToTool", name: "スマートフォン（写真撮影用）" },
+    { "@type": "HowToTool", name: "明るい自然光（窓際推奨）" },
+    { "@type": "HowToTool", name: "白い背景（シーツ・床など）" },
+  ],
+  step: [
+    { "@type": "HowToStep", position: 1, name: "撮影環境の準備", text: "晴れた日の窓際で自然光を利用するのがベスト。背景は無地の白を用意し、着物のシワを伸ばします。フラッシュは色味が変わるためOFFに。", url: "https://kimonokaitori-biyori.com/articles/photo-appraisal/#step1" },
+    { "@type": "HowToStep", position: 2, name: "全体写真の撮影", text: "着物を広げて全体が入る角度で1枚撮影します。柄・色味・全長がわかる写真が査定精度を高めます。", url: "https://kimonokaitori-biyori.com/articles/photo-appraisal/#step2" },
+    { "@type": "HowToStep", position: 3, name: "ディテール撮影", text: "袖・襟・裾の柄、シミや汚れがあればそれも近接で撮影。証紙・落款・購入時のタグがあれば必ず撮ります。査定精度UPの最重要ポイント。", url: "https://kimonokaitori-biyori.com/articles/photo-appraisal/#step3" },
+    { "@type": "HowToStep", position: 4, name: "業者へ送信", text: "LINE・メール・専用フォームから送信。スマホで完結します。サイズ・購入時期・購入価格などの情報も添えると精度UP。", url: "https://kimonokaitori-biyori.com/articles/photo-appraisal/#step4" },
+    { "@type": "HowToStep", position: 5, name: "査定結果の受領", text: "通常30分〜2営業日で概算買取額が返ってきます。あくまで概算なので、実査定額は実物確認後に確定します。", url: "https://kimonokaitori-biyori.com/articles/photo-appraisal/#step5" },
+  ],
+};
+
 export default function PhotoAppraisalPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
 
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "写真査定ガイド" }]} />

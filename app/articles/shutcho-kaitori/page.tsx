@@ -113,6 +113,27 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const howToStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "着物を出張買取で売る手順",
+  description: "自宅に査定員が訪問し、その場で現金化できる出張買取の利用手順を5ステップで解説。",
+  totalTime: "PT60M",
+  estimatedCost: { "@type": "MonetaryAmount", currency: "JPY", value: "0" },
+  tool: [
+    { "@type": "HowToTool", name: "身分証明書（運転免許証・マイナンバーカード等）" },
+    { "@type": "HowToTool", name: "売却予定の着物（畳紙のままで可）" },
+    { "@type": "HowToTool", name: "あれば証紙・落款・購入時の伝票" },
+  ],
+  step: [
+    { "@type": "HowToStep", position: 1, name: "業者選定・予約", text: "出張買取に対応している業者を選び、電話・LINE・Webから訪問日時を予約します。出張料・査定料無料の業者がおすすめです。", url: "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/#step1" },
+    { "@type": "HowToStep", position: 2, name: "査定員の訪問", text: "予約日時に査定員が自宅を訪問。身分証を提示し、買取依頼書に記入します。古物営業法に基づく本人確認のため必須です。", url: "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/#step2" },
+    { "@type": "HowToStep", position: 3, name: "その場での査定", text: "目の前で着物を1点ずつ査定します。査定額の内訳・根拠を丁寧に説明してくれる業者かどうかが信頼性の指標です。30分〜1時間程度。", url: "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/#step3" },
+    { "@type": "HowToStep", position: 4, name: "金額の確認・契約", text: "提示された買取金額を確認し、納得すれば契約書にサイン。納得できない品物は売らずに残せます（部分買取OK）。", url: "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/#step4" },
+    { "@type": "HowToStep", position: 5, name: "現金受領・クーリングオフ案内", text: "その場で現金を受け取ります。出張買取は特定商取引法の対象なので、契約日含む8日間のクーリングオフが可能。説明を必ず受けましょう。", url: "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/#step5" },
+  ],
+};
+
 export default function ShutchoKaitoriPage() {
   return (
     <>
@@ -126,6 +147,12 @@ export default function ShutchoKaitoriPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(faqStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(howToStructuredData),
         }}
       />
       <script

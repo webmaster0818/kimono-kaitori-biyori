@@ -113,6 +113,29 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const howToStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "着物を高く売るための実践手順",
+  description: "着物買取で査定額を最大化するための準備〜売却までの7つのコツを順番に解説。",
+  totalTime: "P7D",
+  estimatedCost: { "@type": "MonetaryAmount", currency: "JPY", value: "0" },
+  tool: [
+    { "@type": "HowToTool", name: "証紙・落款・購入時の領収書（あれば）" },
+    { "@type": "HowToTool", name: "畳紙（たとうし）・防湿シート" },
+    { "@type": "HowToTool", name: "白手袋（手の油分を着物につけない）" },
+  ],
+  step: [
+    { "@type": "HowToStep", position: 1, name: "売却タイミングを見極める", text: "成人式・卒業式シーズン前（秋〜冬）が振袖・袴の需要ピーク。古くなる前に売るほど査定額は高くなります。", url: "https://kimonokaitori-biyori.com/articles/sell-high-tips/#step1" },
+    { "@type": "HowToStep", position: 2, name: "証紙・落款を揃える", text: "産地証明書（証紙）・作家の落款・購入時の領収書を一緒に出すと査定額が大幅UP。特に大島紬・結城紬・人間国宝作品で効果絶大。", url: "https://kimonokaitori-biyori.com/articles/sell-high-tips/#step2" },
+    { "@type": "HowToStep", position: 3, name: "クリーニングはしない", text: "売却前に丸洗いに出すと費用倒れになるケース多数。査定員はプロなので、クリーニングなしの状態で査定に出すのがベスト。", url: "https://kimonokaitori-biyori.com/articles/sell-high-tips/#step3" },
+    { "@type": "HowToStep", position: 4, name: "帯・小物もセットで出す", text: "帯締め・帯揚げ・草履・バッグ・髪飾りをセットで出すと、コーディネートとして付加価値が認められます。", url: "https://kimonokaitori-biyori.com/articles/sell-high-tips/#step4" },
+    { "@type": "HowToStep", position: 5, name: "複数業者で見積もり比較", text: "最低3社の査定を取り、最も高い業者で売却。ヒカカク！の一括査定は最大20社の比較が一度に可能で時間効率が良い。", url: "https://kimonokaitori-biyori.com/articles/sell-high-tips/#step5" },
+    { "@type": "HowToStep", position: 6, name: "査定根拠を質問する", text: "査定額の内訳・各品目の評価ポイントを質問。明確に説明できる業者が信頼でき、納得感のある取引につながります。", url: "https://kimonokaitori-biyori.com/articles/sell-high-tips/#step6" },
+    { "@type": "HowToStep", position: 7, name: "クーリングオフを理解しておく", text: "出張買取は契約日含む8日間のクーリングオフ対象。即決を急かす業者は警戒。納得した上で売却することが最大のコツ。", url: "https://kimonokaitori-biyori.com/articles/sell-high-tips/#step7" },
+  ],
+};
+
 export default function SellHighTipsPage() {
   return (
     <>
@@ -126,6 +149,12 @@ export default function SellHighTipsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(faqStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(howToStructuredData),
         }}
       />
       <script

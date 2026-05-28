@@ -70,11 +70,31 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const howToStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "着物をLINE査定で売る手順",
+  description: "LINEのトーク画面で写真を送るだけで概算買取額がわかるLINE査定の手順を4ステップで解説。",
+  totalTime: "PT10M",
+  estimatedCost: { "@type": "MonetaryAmount", currency: "JPY", value: "0" },
+  tool: [
+    { "@type": "HowToTool", name: "スマートフォン（LINE対応）" },
+    { "@type": "HowToTool", name: "対応業者のLINE公式アカウント" },
+  ],
+  step: [
+    { "@type": "HowToStep", position: 1, name: "業者の公式LINEを友だち追加", text: "買取業者のLINE公式アカウントをQRコード・ID検索で友だち追加します。買取大吉・ウリエル・RECLOなど対応業者多数。", url: "https://kimonokaitori-biyori.com/articles/line-appraisal/#step1" },
+    { "@type": "HowToStep", position: 2, name: "着物の写真を撮影", text: "着物全体・柄のアップ・証紙の3枚を最低限撮影。明るい場所で背景は無地が理想です。", url: "https://kimonokaitori-biyori.com/articles/line-appraisal/#step2" },
+    { "@type": "HowToStep", position: 3, name: "トーク画面で送信＋情報入力", text: "写真を送り、年代・サイズ・購入時の価格・状態を簡単にテキストで送ります。スタンプではなく具体情報を文章で送ると精度UP。", url: "https://kimonokaitori-biyori.com/articles/line-appraisal/#step3" },
+    { "@type": "HowToStep", position: 4, name: "査定結果と次ステップの案内", text: "数分〜数時間で概算買取額が返信されます。納得すれば出張買取・宅配買取の申込みへ。気軽さがLINE査定の最大の利点。", url: "https://kimonokaitori-biyori.com/articles/line-appraisal/#step4" },
+  ],
+};
+
 export default function LineAppraisalPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
 
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "LINE査定" }]} />

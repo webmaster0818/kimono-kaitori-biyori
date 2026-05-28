@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "運営者情報 | 着物の買取びより",
+  title: "運営者情報",
   description:
     "着物の買取びよりの運営者情報・編集方針・免責事項についてご説明します。",
   alternates: {

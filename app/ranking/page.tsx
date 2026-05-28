@@ -153,6 +153,25 @@ export default function RankingPage() {
           __html: JSON.stringify(breadcrumbStructuredData),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: "2026年最新 着物買取おすすめ業者ランキング",
+            itemListOrder: "https://schema.org/ItemListOrderDescending",
+            numberOfItems: 5,
+            itemListElement: [
+              { "@type": "ListItem", position: 1, item: { "@type": "Service", name: "買取大吉", url: "https://kimonokaitori-biyori.com/reviews/daikichi/", aggregateRating: { "@type": "AggregateRating", ratingValue: "4.6", bestRating: "5", worstRating: "1", ratingCount: "1247" }, serviceType: "着物買取（出張・宅配・店頭）" } },
+              { "@type": "ListItem", position: 2, item: { "@type": "Service", name: "ウリエル", url: "https://kimonokaitori-biyori.com/reviews/uriel/", aggregateRating: { "@type": "AggregateRating", ratingValue: "4.5", bestRating: "5", worstRating: "1", ratingCount: "896" }, serviceType: "着物買取（出張特化）" } },
+              { "@type": "ListItem", position: 3, item: { "@type": "Service", name: "RECLO（リクロ）", url: "https://kimonokaitori-biyori.com/reviews/reclo/", aggregateRating: { "@type": "AggregateRating", ratingValue: "4.3", bestRating: "5", worstRating: "1", ratingCount: "742" }, serviceType: "着物買取（宅配特化）" } },
+              { "@type": "ListItem", position: 4, item: { "@type": "Service", name: "ティファナ", url: "https://kimonokaitori-biyori.com/reviews/tifana/", aggregateRating: { "@type": "AggregateRating", ratingValue: "4.2", bestRating: "5", worstRating: "1", ratingCount: "538" }, serviceType: "着物買取" } },
+              { "@type": "ListItem", position: 5, item: { "@type": "Service", name: "ヒカカク！", url: "https://kimonokaitori-biyori.com/reviews/hikakaku/", aggregateRating: { "@type": "AggregateRating", ratingValue: "4.1", bestRating: "5", worstRating: "1", ratingCount: "421" }, serviceType: "一括査定（着物）" } },
+            ],
+          }),
+        }}
+      />
 
       <Breadcrumb items={[{ label: "着物買取おすすめランキング" }]} />
 

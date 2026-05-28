@@ -113,6 +113,28 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const howToStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "着物を宅配買取で売る手順",
+  description: "自宅にいながら着物を売却できる宅配買取の利用手順を6ステップで解説。",
+  totalTime: "P3D",
+  estimatedCost: { "@type": "MonetaryAmount", currency: "JPY", value: "0" },
+  tool: [
+    { "@type": "HowToTool", name: "段ボール箱（業者から無料提供されることが多い）" },
+    { "@type": "HowToTool", name: "緩衝材・着物保護用の不織布" },
+    { "@type": "HowToTool", name: "身分証明書（運転免許証など）" },
+  ],
+  step: [
+    { "@type": "HowToStep", position: 1, name: "業者選定・申し込み", text: "宅配買取に対応している業者を選び、Web・電話・LINEなどで申し込みを行います。返送料無料・査定無料の業者がおすすめです。", url: "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/#step1" },
+    { "@type": "HowToStep", position: 2, name: "宅配キット受け取り", text: "申し込み後、業者から段ボール・梱包材・着払い伝票・身分証明書コピー用紙などの宅配キットが届きます（多くの業者で1〜3日以内に到着）。", url: "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/#step2" },
+    { "@type": "HowToStep", position: 3, name: "着物を梱包", text: "着物を畳紙（たとうし）に包んだまま、シワや折れがつかないよう箱に詰めます。帯・小物がある場合は一緒に梱包すると査定額アップが期待できます。", url: "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/#step3" },
+    { "@type": "HowToStep", position: 4, name: "発送", text: "着払い伝票を貼って集荷を依頼するか、コンビニ・郵便局から発送します。送料は業者負担が一般的です。", url: "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/#step4" },
+    { "@type": "HowToStep", position: 5, name: "査定結果の連絡", text: "業者に着物が到着後、通常1〜3営業日で査定結果がメール・電話で連絡されます。各品目の査定額の内訳を必ず確認しましょう。", url: "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/#step5" },
+    { "@type": "HowToStep", position: 6, name: "承認・入金（またはキャンセル返送）", text: "査定額に同意すれば、指定口座へ即日〜翌営業日に入金されます。納得できない場合はキャンセルし返送依頼も可能。返送料の負担有無は業者により異なります。", url: "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/#step6" },
+  ],
+};
+
 export default function TakuhaiKaitoriPage() {
   return (
     <>
@@ -126,6 +148,12 @@ export default function TakuhaiKaitoriPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(faqStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(howToStructuredData),
         }}
       />
       <script
