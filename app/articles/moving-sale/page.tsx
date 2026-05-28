@@ -44,12 +44,12 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "引っ越し前の着物処分ガイド｜急ぎで売りたい時のベスト方法",
   description: "引っ越し前に着物を急いで処分するための方法と業者比較。日数別のおすすめ方法も解説。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/moving-sale/" },
 };

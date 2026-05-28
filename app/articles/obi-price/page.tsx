@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "帯の買取相場｜袋帯・名古屋帯・丸帯の値段と高く売る方法",
   description:
     "袋帯・名古屋帯・丸帯の買取相場と高く売る方法を解説。西陣織・博多織の高額買取情報も。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

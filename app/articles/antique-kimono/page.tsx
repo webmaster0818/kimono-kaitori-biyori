@@ -56,18 +56,14 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline:
     "アンティーク着物の買取相場｜大正・昭和の着物に価値はある？",
   description:
     "アンティーク着物の時代別買取相場と高く売るコツを解説。銘仙や大正ロマン柄は高額査定も。",
   datePublished: "2026-04-16",
   dateModified: "2026-04-16",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

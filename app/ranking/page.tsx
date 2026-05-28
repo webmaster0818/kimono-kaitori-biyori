@@ -77,18 +77,14 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline:
     "【2026年最新】着物買取おすすめ5選を徹底比較！口コミ・評判・買取相場まで",
   description:
     "着物買取はどこがいい？買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの5社を6つの基準で徹底比較。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

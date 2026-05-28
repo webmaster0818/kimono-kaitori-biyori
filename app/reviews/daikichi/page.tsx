@@ -21,17 +21,13 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
   description:
     "買取大吉の着物買取サービスを徹底検証。全国1,800店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
@@ -115,6 +111,19 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const localBusinessStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "買取大吉",
+  "description": "買取大吉は全国1,800店舗超を展開する着物買取サービスです。出張・店頭・宅配の3つの買取方法に対応。",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "3.8",
+    "reviewCount": "420",
+    "bestRating": "5",
+  },
+};
+
 export default function DaikichiReviewPage() {
   return (
     <>
@@ -134,6 +143,12 @@ export default function DaikichiReviewPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessStructuredData),
         }}
       />
 

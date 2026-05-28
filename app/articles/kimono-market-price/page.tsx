@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取の相場一覧【2026年最新】種類別の買取価格まとめ",
   description:
     "着物買取の相場を種類別に徹底解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
@@ -166,6 +162,14 @@ export default function KimonoMarketPricePage() {
           </div>
         </div>
       </section>
+
+      {/* 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>着物買取の相場は種類により大きく異なります。振袖5,000〜3万円、訪問着3,000〜5万円、大島紬3万〜30万円、加賀友禅（作家物）10万円超。証紙の有無・保管状態・サイズが査定額を左右します。</p>
+        </div>
+      </div>
 
       {/* 目次 */}
       <section className="py-10">

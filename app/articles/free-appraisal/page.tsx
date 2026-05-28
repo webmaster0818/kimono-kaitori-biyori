@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物の無料査定おすすめ5選｜査定だけでもOKな業者",
   description:
     "着物の無料査定ができるおすすめ業者5選。査定だけでもOK・キャンセル無料の業者を厳選。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

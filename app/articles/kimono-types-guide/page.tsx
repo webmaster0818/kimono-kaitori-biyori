@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物の種類一覧｜普段着から礼装まで完全ガイド",
   description:
     "着物の種類を格式順に網羅。特徴・着用シーン・買取相場まで。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

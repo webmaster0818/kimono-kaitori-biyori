@@ -51,18 +51,14 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline:
     "加賀友禅の買取相場｜作家物は100万円超も？高く売る方法",
   description:
     "加賀友禅の作家別買取価格表と高く売る方法を解説。人間国宝の作品は超高額査定。",
   datePublished: "2026-04-16",
   dateModified: "2026-04-16",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

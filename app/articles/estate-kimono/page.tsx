@@ -22,17 +22,13 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "遺品整理で着物が出てきた時の対処法｜価値の見極め方と売り方",
   description:
     "遺品整理で大量の着物が出てきたときの対処法を徹底解説。着物の価値の見極め方、処分方法の選択肢、出張買取が便利な理由を網羅的にガイドします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
@@ -170,6 +166,14 @@ export default function EstateKimonoPage() {
             徹底解説します。故人の大切な着物を適切に扱うためのガイドとしてお役立てください。
           </p>
         </header>
+
+        {/* 結論ボックス */}
+        <div className="max-w-4xl mx-auto px-4 mt-4">
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
+            <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+            <p>遺品整理で着物が出てきた場合、まず証紙の有無を確認してください。証紙付きの大島紬・結城紬・加賀友禅は数万〜数十万円の価値がある可能性があります。出張買取なら自宅で査定から現金化まで完了します。</p>
+          </div>
+        </div>
 
         {/* 目次 */}
         <nav className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-12">

@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取 電話査定対応の業者3選｜電話で概算がわかる",
   description:
     "電話1本で着物の概算買取額がわかる。電話査定対応業者3社と利用の流れを解説。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

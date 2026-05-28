@@ -24,11 +24,11 @@ const faqs = [
 ];
 
 const articleStructuredData = {
-  "@context": "https://schema.org", "@type": "Article",
+  "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取 店舗持ち込みおすすめ5選｜その場で現金化できる業者",
   description: "着物の持ち込み買取に対応したおすすめ業者5選。予約不要の店舗や持ち込みの流れも解説。",
   datePublished: "2026-05-17", dateModified: "2026-05-17",
-  author: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/tenpo-mochikomi/" },
 };

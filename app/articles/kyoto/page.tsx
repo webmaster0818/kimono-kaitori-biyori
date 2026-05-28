@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "着物買取 京都のおすすめ業者5選｜西陣織・京友禅の本場",
   description:
-    "京都で着物を売るならどこがおすすめ？西陣織・京友禅・京鹿の子絞りなど京都ゆかりの高級着物も高価買取。出張・持ち込み・宅配対応の業者5選を徹底比較します。",
+    "京都で着物を売るならどこがおすすめ？西陣織・京友禅の本場ならではの着物買取業者5選を徹底比較。出張買取・持ち込み対応の業者を口コミ・評判とともにご紹介します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kyoto/",
   },
   openGraph: {
     title: "着物買取 京都のおすすめ業者5選｜西陣織・京友禅の本場",
     description:
-      "京都で着物を高く売るためのおすすめ買取業者5選。西陣織・京友禅の買取相場も解説。",
+      "京都で着物を売るならどこがおすすめ？西陣織・京友禅の本場ならではの着物買取業者5選を徹底比較。出張買取・持ち込み対応の業者を口コミ・評判とともにご紹介します。",
     url: "https://kimonokaitori-biyori.com/articles/kyoto/",
     siteName: "着物の買取びより",
     type: "article",
@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取 京都のおすすめ業者5選｜西陣織・京友禅の本場",
   description:
     "京都で着物を高く売るためのおすすめ買取業者5選。西陣織・京友禅の買取相場も解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

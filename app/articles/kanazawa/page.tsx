@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "着物買取 金沢のおすすめ業者5選｜加賀友禅に強い石川県の業者",
   description:
-    "金沢・石川県で着物買取を依頼するならどこがおすすめ？加賀友禅・牛首紬など石川の伝統工芸品に強い買取業者5選を比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの特徴や買取相場を徹底解説します。",
+    "金沢・石川県で着物を売るならどこがおすすめ？加賀友禅に強い着物買取業者5選を徹底比較。出張買取・宅配対応の業者を口コミ・評判とともにご紹介します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kanazawa/",
   },
   openGraph: {
     title: "着物買取 金沢のおすすめ業者5選｜加賀友禅に強い石川県の業者",
     description:
-      "金沢・石川県で着物を高く売るためのおすすめ買取業者5選。加賀友禅の買取相場も解説。",
+      "金沢・石川県で着物を売るならどこがおすすめ？加賀友禅に強い着物買取業者5選を徹底比較。出張買取・宅配対応の業者を口コミ・評判とともにご紹介します。",
     url: "https://kimonokaitori-biyori.com/articles/kanazawa/",
     siteName: "着物の買取びより",
     type: "article",
@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取 金沢のおすすめ業者5選｜加賀友禅に強い石川県の業者",
   description:
     "金沢・石川県で着物を高く売るためのおすすめ買取業者5選。加賀友禅の買取相場も解説。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

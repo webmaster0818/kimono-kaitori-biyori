@@ -20,12 +20,12 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "おたからやの着物買取｜フランチャイズ店の実力を検証",
   description: "おたからやの着物買取を徹底検証。全国1,300店超のFC展開と口コミを正直にレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/reviews/otakaraya/" },
 };

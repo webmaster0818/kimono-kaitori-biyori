@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "大島紬の買取相場と高く売るコツ【2026年最新】",
   description:
     "大島紬の種類別買取相場と高く売るコツを解説。泥染め・藍大島・白大島の価格比較も。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
@@ -166,6 +162,14 @@ export default function OshimaTsumugiPage() {
           </div>
         </div>
       </section>
+
+      {/* 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>大島紬の買取相場は3万〜30万円。泥染めの本場大島紬で証紙付き・未使用に近い状態であれば10万円以上の高額査定も期待できます。証紙の「旗印」マークが本場大島紬の証明です。</p>
+        </div>
+      </div>
 
       {/* 目次 */}
       <section className="py-10">

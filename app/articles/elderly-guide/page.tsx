@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取 高齢者向けガイド｜80代の祖母でも安心な業者の選び方",
   description:
     "高齢者が安心して着物買取を利用するための業者選びと注意点。出張買取・女性査定員対応も解説。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

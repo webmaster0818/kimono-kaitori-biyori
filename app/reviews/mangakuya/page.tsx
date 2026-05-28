@@ -20,12 +20,12 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "まんがく屋の着物買取｜口コミ・評判を徹底検証",
   description: "まんがく屋の着物買取サービスを徹底検証。大阪発の買取業者の実力と口コミを正直にレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/reviews/mangakuya/" },
 };

@@ -19,6 +19,17 @@ export const metadata: Metadata = {
   },
   description:
     "着物買取のおすすめ業者5社を徹底比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの口コミ・評判・買取実績を正直にレビュー。",
+  metadataBase: new URL("https://kimonokaitori-biyori.com"),
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large" as const,
+    },
+  },
 };
 
 const structuredData = {
@@ -33,9 +44,15 @@ const structuredData = {
     },
     {
       "@type": "Organization",
-      name: "着物の買取びより",
+      name: "株式会社MediaX",
       url: "https://kimonokaitori-biyori.com",
       logo: "https://kimonokaitori-biyori.com/logo.png",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "渋谷区",
+        addressRegion: "東京都",
+        addressCountry: "JP",
+      },
     },
   ],
 };
@@ -48,6 +65,9 @@ export default function RootLayout({
   return (
     <html lang="ja" className={`${notoSerifJP.variable} h-full antialiased`}>
       <head>
+        <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta httpEquiv="Pragma" content="no-cache" />
+        <meta httpEquiv="Expires" content="0" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

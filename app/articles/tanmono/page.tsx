@@ -51,18 +51,14 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline:
     "反物の買取相場｜着物より高く売れるケースも？種類別に解説",
   description:
     "反物の種類別買取相場と、着物より反物が高く売れるケースを解説。",
   datePublished: "2026-04-16",
   dateModified: "2026-04-16",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

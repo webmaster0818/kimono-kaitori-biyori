@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "着物買取 大阪のおすすめ業者5選｜関西エリアの出張買取",
   description:
-    "大阪で着物を売るならどこがおすすめ？関西エリアの出張買取・持ち込み買取に対応した大阪府内のおすすめ業者5選を比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの特徴と大阪の買取相場を徹底解説します。",
+    "大阪で着物を売るならどこがおすすめ？関西エリアの着物買取業者5選を徹底比較。出張買取・持ち込み対応の業者を口コミ・評判・買取実績とともにご紹介します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/osaka/",
   },
   openGraph: {
     title: "着物買取 大阪のおすすめ業者5選｜関西エリアの出張買取",
     description:
-      "大阪府内で着物を高く売るためのおすすめ買取業者5選。関西エリアの出張買取対応状況を比較。",
+      "大阪で着物を売るならどこがおすすめ？関西エリアの着物買取業者5選を徹底比較。出張買取・持ち込み対応の業者を口コミ・評判・買取実績とともにご紹介します。",
     url: "https://kimonokaitori-biyori.com/articles/osaka/",
     siteName: "着物の買取びより",
     type: "article",
@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取 大阪のおすすめ業者5選｜関西エリアの出張買取",
   description:
     "大阪府内で着物を高く売るためのおすすめ買取業者5選。関西エリアの出張買取対応状況を比較。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

@@ -21,13 +21,13 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "コメ兵の着物買取｜ブランド買取大手の実力を検証",
   description:
     "コメ兵の着物買取を徹底検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを正直にレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/reviews/komehyo/" },
 };
@@ -54,12 +54,26 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const localBusinessStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "コメ兵",
+  "description": "コメ兵（KOMEHYO）は創業75年超の老舗ブランド買取企業で、名古屋本店を中心に着物買取にも対応するリユースサービスです。",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "3.5",
+    "reviewCount": "850",
+    "bestRating": "5",
+  },
+};
+
 export default function KomehyoReviewPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessStructuredData) }} />
 
       <Breadcrumb items={[{ label: "業者レビュー", href: "/reviews/" }, { label: "コメ兵" }]} />
 

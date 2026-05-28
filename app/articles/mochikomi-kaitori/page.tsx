@@ -24,18 +24,14 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline:
     "着物の持ち込み買取おすすめ業者2選｜店舗に持っていくメリットと注意点",
   description:
     "着物の持ち込み買取おすすめ業者2選を徹底比較。店舗に持っていくメリット・デメリット、持ち込み前の準備、出張・宅配買取との比較まで詳しく解説します。",
   datePublished: "2026-04-16",
   dateModified: "2026-04-16",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

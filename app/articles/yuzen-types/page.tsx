@@ -24,11 +24,11 @@ const faqs = [
 ];
 
 const articleStructuredData = {
-  "@context": "https://schema.org", "@type": "Article",
+  "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "友禅の種類と買取相場｜加賀友禅・京友禅・東京友禅の違い",
   description: "友禅染めの種類と買取相場を解説。加賀友禅・京友禅・東京友禅の特徴と買取価格。",
   datePublished: "2026-04-26", dateModified: "2026-04-26",
-  author: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/yuzen-types/" },
 };

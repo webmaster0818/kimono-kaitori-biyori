@@ -21,17 +21,13 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "RECLO（リクロ）の着物買取｜宅配買取の評判・口コミを検証",
   description:
     "RECLO（リクロ）の着物買取サービスを徹底検証。宅配買取特化で高級品に強い実力を口コミとともにレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
@@ -115,6 +111,19 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const localBusinessStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "RECLO（リクロ）",
+  "description": "RECLO（リクロ）は宅配買取に特化し、高級着物やブランド着物に強みを持つ着物買取サービスです。",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "3.7",
+    "reviewCount": "150",
+    "bestRating": "5",
+  },
+};
+
 export default function RecloReviewPage() {
   return (
     <>
@@ -134,6 +143,12 @@ export default function RecloReviewPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessStructuredData),
         }}
       />
 

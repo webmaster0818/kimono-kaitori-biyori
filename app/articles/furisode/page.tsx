@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "振袖の買取相場｜成人式後に売る方法と高価買取のコツ",
   description:
     "振袖の買取相場と成人式後に高く売る方法を解説。ブランド品・作家物の価格目安も。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
@@ -166,6 +162,14 @@ export default function FurisodePage() {
           </div>
         </div>
       </section>
+
+      {/* 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>振袖の買取相場は一般品5,000〜3万円、ブランド品3〜10万円、作家物は10万円超。成人式後は早めに売るのがおすすめで、保管期間が長いほどシミや色褪せのリスクが高まり査定額が下がります。</p>
+        </div>
+      </div>
 
       {/* 目次 */}
       <section className="py-10">

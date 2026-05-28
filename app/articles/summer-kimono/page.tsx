@@ -24,11 +24,11 @@ const faqs = [
 ];
 
 const articleStructuredData = {
-  "@context": "https://schema.org", "@type": "Article",
+  "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "夏着物（絽・紗・麻）の買取相場｜シーズンと売り時",
   description: "夏着物の種類と買取相場を解説。絽・紗・麻の特徴と売り時のベストシーズンを紹介。",
   datePublished: "2026-04-26", dateModified: "2026-04-26",
-  author: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/summer-kimono/" },
 };

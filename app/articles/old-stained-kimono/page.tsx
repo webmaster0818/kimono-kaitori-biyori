@@ -22,17 +22,13 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "古い着物・シミありでも売れる？買取可能な条件と業者選び",
   description:
     "古い着物やシミ・汚れがある着物でも売れるのか徹底解説。買取可能な条件、シミの許容範囲、古くても高額になる着物の例を詳しくガイドします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
@@ -171,6 +167,14 @@ export default function OldStainedKimonoPage() {
             古くても高額になる着物の例、そして業者ごとの対応差まで詳しく解説します。
           </p>
         </header>
+
+        {/* 結論ボックス */}
+        <div className="max-w-4xl mx-auto px-4 mt-4">
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
+            <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+            <p>古い着物やシミがある着物でも買取は可能です。大島紬・結城紬・加賀友禅などの高級着物は、多少のシミがあっても数万円の値がつくことがあります。ただし、カビや虫食いが広範囲の場合は買取不可になることも。</p>
+          </div>
+        </div>
 
         {/* 目次 */}
         <nav className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-12">

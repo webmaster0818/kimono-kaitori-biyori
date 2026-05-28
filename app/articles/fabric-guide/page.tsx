@@ -24,11 +24,11 @@ const faqs = [
 ];
 
 const articleStructuredData = {
-  "@context": "https://schema.org", "@type": "Article",
+  "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物の素材の見分け方｜正絹・化繊・ウール・木綿の特徴と買取価格",
   description: "着物の素材の見分け方と買取価格の関係を解説。正絹・化繊・ウール・木綿の特徴も。",
   datePublished: "2026-04-26", dateModified: "2026-04-26",
-  author: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/fabric-guide/" },
 };

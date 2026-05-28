@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "着物買取 広島のおすすめ業者5選｜中国地方の出張・宅配対応",
   description:
-    "広島で着物買取を依頼するならどこがおすすめ？出張買取・宅配買取に対応した広島エリアのおすすめ業者5選を比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの特徴や口コミ、広島エリアの買取相場を徹底解説します。",
+    "広島で着物を売るならどこがおすすめ？中国地方の着物買取業者5選を徹底比較。出張買取・宅配買取に対応した業者の口コミ・評判・買取実績をまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/hiroshima/",
   },
   openGraph: {
     title: "着物買取 広島のおすすめ業者5選｜中国地方の出張・宅配対応",
     description:
-      "広島・中国地方で着物を高く売るためのおすすめ買取業者5選。出張・宅配の対応状況を比較。",
+      "広島で着物を売るならどこがおすすめ？中国地方の着物買取業者5選を徹底比較。出張買取・宅配買取に対応した業者の口コミ・評判・買取実績をまとめました。",
     url: "https://kimonokaitori-biyori.com/articles/hiroshima/",
     siteName: "着物の買取びより",
     type: "article",
@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取 広島のおすすめ業者5選｜中国地方の出張・宅配対応",
   description:
     "広島・中国地方で着物を高く売るためのおすすめ買取業者5選。出張・宅配の対応状況を比較。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

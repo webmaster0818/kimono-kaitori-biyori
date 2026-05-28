@@ -24,11 +24,11 @@ const faqs = [
 ];
 
 const articleStructuredData = {
-  "@context": "https://schema.org", "@type": "Article",
+  "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取 夜間・土日対応の業者まとめ｜平日忙しい方向け",
   description: "土日・夜間に着物買取を利用したい方向け。各社の営業時間・休日対応を比較。",
   datePublished: "2026-05-17", dateModified: "2026-05-17",
-  author: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/weekend-night/" },
 };

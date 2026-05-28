@@ -21,17 +21,13 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "ティファナの着物買取｜総合リサイクル店の実力を検証",
   description:
     "ティファナの着物買取サービスを徹底検証。総合リサイクルショップの実力を口コミとともにレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
@@ -115,6 +111,19 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const localBusinessStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "ティファナ",
+  "description": "ティファナは総合リサイクルショップとして、ノーブランドからハイブランドまで幅広い着物の買取に対応するサービスです。",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "3.3",
+    "reviewCount": "120",
+    "bestRating": "5",
+  },
+};
+
 export default function TifanaReviewPage() {
   return (
     <>
@@ -134,6 +143,12 @@ export default function TifanaReviewPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessStructuredData),
         }}
       />
 

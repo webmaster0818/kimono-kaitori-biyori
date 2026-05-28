@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "着物買取 横浜のおすすめ業者5選｜神奈川エリアの出張対応",
   description:
-    "横浜・神奈川県で着物を売るならどこがおすすめ？出張買取・持ち込み・宅配対応のおすすめ業者5選を比較。横浜スカーフや丹沢の絹織物など神奈川ゆかりの着物の買取相場も解説します。",
+    "横浜・神奈川で着物を売るならどこがおすすめ？出張買取対応の着物買取業者5選を徹底比較。口コミ・評判・買取実績をまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/yokohama/",
   },
   openGraph: {
     title: "着物買取 横浜のおすすめ業者5選｜神奈川エリアの出張対応",
     description:
-      "横浜・神奈川で着物を高く売るためのおすすめ買取業者5選。出張買取対応も充実。",
+      "横浜・神奈川で着物を売るならどこがおすすめ？出張買取対応の着物買取業者5選を徹底比較。口コミ・評判・買取実績をまとめました。",
     url: "https://kimonokaitori-biyori.com/articles/yokohama/",
     siteName: "着物の買取びより",
     type: "article",
@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取 横浜のおすすめ業者5選｜神奈川エリアの出張対応",
   description:
     "横浜・神奈川で着物を高く売るためのおすすめ買取業者5選。出張買取対応も充実。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

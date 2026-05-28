@@ -22,17 +22,13 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物を高く売るための7つのコツ｜査定額アップの秘訣",
   description:
     "着物を高く売るための7つのコツを徹底解説。複数業者の見積もり比較、証紙の活用、セット売りなど、査定額アップの秘訣をお伝えします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
@@ -171,6 +167,14 @@ export default function SellHighTipsPage() {
             ぜひ実践してみてください。
           </p>
         </header>
+
+        {/* 結論ボックス */}
+        <div className="max-w-4xl mx-auto px-4 mt-4">
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
+            <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+            <p>着物を高く売る最大のコツは「複数業者の相見積もり」です。同じ着物でも業者により査定額が2〜3倍異なることがあります。証紙を忘れず添付し、セットで出すことで査定額アップが期待できます。</p>
+          </div>
+        </div>
 
         {/* 目次 */}
         <nav className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-12">

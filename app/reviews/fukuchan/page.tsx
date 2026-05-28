@@ -21,17 +21,13 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "福ちゃんの着物買取｜口コミ・評判・買取実績を徹底検証",
   description:
     "福ちゃんの着物買取サービスを徹底検証。着物専門査定員の質と口コミ・評判を正直にレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
@@ -115,6 +111,19 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const localBusinessStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "福ちゃん",
+  "description": "福ちゃんは累計買取実績800万点超、着物買取に特化した専門査定員が在籍する着物買取サービスです。",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "3.9",
+    "reviewCount": "380",
+    "bestRating": "5",
+  },
+};
+
 export default function FukuchanReviewPage() {
   return (
     <>
@@ -134,6 +143,12 @@ export default function FukuchanReviewPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessStructuredData),
         }}
       />
 

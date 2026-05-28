@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "着物買取 名古屋のおすすめ業者5選｜愛知県の持ち込み・出張対応",
   description:
-    "名古屋・愛知県で着物を売るならどこがおすすめ？持ち込み買取・出張買取に対応した名古屋エリアのおすすめ業者5選を比較。有松絞り・名古屋帯など地元ゆかりの着物の買取相場も解説します。",
+    "名古屋・愛知で着物を売るならどこがおすすめ？有松絞りなど地元着物も高価買取。持ち込み・出張対応の着物買取業者5選を徹底比較します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/nagoya/",
   },
   openGraph: {
     title: "着物買取 名古屋のおすすめ業者5選｜愛知県の持ち込み・出張対応",
     description:
-      "名古屋・愛知県で着物を高く売るためのおすすめ買取業者5選。有松絞り・名古屋帯の買取相場も。",
+      "名古屋・愛知で着物を売るならどこがおすすめ？有松絞りなど地元着物も高価買取。持ち込み・出張対応の着物買取業者5選を徹底比較します。",
     url: "https://kimonokaitori-biyori.com/articles/nagoya/",
     siteName: "着物の買取びより",
     type: "article",
@@ -50,17 +50,13 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取 名古屋のおすすめ業者5選｜愛知県の持ち込み・出張対応",
   description:
     "名古屋・愛知県で着物を高く売るためのおすすめ買取業者5選。有松絞り・名古屋帯の買取相場も。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

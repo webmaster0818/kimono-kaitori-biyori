@@ -21,17 +21,13 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "ウリエルの着物買取｜出張買取の評判・口コミを検証",
   description:
     "ウリエルの着物買取サービスを徹底検証。出張買取専門で無店舗のコスト削減を高額査定に還元。口コミ・評判を正直にレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
@@ -115,6 +111,19 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const localBusinessStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "ウリエル",
+  "description": "ウリエルは出張買取専門の着物買取サービスです。無店舗のコスト削減を高額査定に還元し、関東〜関西・岡山エリアに対応。",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "3.6",
+    "reviewCount": "180",
+    "bestRating": "5",
+  },
+};
+
 export default function UrielReviewPage() {
   return (
     <>
@@ -134,6 +143,12 @@ export default function UrielReviewPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessStructuredData),
         }}
       />
 

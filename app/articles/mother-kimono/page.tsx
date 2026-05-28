@@ -22,17 +22,13 @@ export const metadata: Metadata = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "母親の着物の整理方法｜売る？残す？後悔しない選択ガイド",
   description:
     "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を徹底解説。形見分けとの兼ね合い、整理の手順、売る場合のおすすめ業者まで後悔しない選択ガイドをお届けします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: {
-    "@type": "Organization",
-    name: "着物の買取びより",
-    url: "https://kimonokaitori-biyori.com",
-  },
+  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
