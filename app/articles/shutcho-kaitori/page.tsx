@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "着物の出張買取おすすめ業者3選｜自宅で完結する売り方ガイド",
+  title: "【2026年最新】着物の出張買取おすすめ3選｜無料出張・即日現金化対応",
   description:
     "着物の出張買取おすすめ業者3選を徹底比較。自宅にいながら査定から現金化まで完結する出張買取のメリット・デメリット、利用の流れ5ステップ、トラブル回避法（クーリングオフ8日間）まで詳しく解説します。",
   alternates: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/",
   },
   openGraph: {
-    title: "着物の出張買取おすすめ業者3選｜自宅で完結する売り方ガイド",
+    title: "【2026年最新】着物の出張買取おすすめ3選｜無料出張・即日現金化対応",
     description:
       "着物の出張買取おすすめ3社を比較。自宅で完結する売り方を徹底ガイドします。",
     url: "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/",

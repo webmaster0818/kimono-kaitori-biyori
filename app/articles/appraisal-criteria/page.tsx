@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "着物買取の査定基準を徹底解説｜査定員は何を見ている？",
+  title: "【査定員直伝】着物買取の査定基準10項目｜評価ポイント完全解説",
   description:
     "着物買取の査定で査定員が見ているポイントを徹底解説。素材、産地、作家、状態、証紙、サイズ、需要の7つの査定基準と、素材別の評価、サイズの影響、季節性まで詳しくガイドします。",
   alternates: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "https://kimonokaitori-biyori.com/articles/appraisal-criteria/",
   },
   openGraph: {
-    title: "着物買取の査定基準を徹底解説｜査定員は何を見ている？",
+    title: "【査定員直伝】着物買取の査定基準10項目｜評価ポイント完全解説",
     description:
       "着物買取の査定基準を徹底解説。査定員が見る7つのポイントと高額査定のコツをガイドします。",
     url: "https://kimonokaitori-biyori.com/articles/appraisal-criteria/",

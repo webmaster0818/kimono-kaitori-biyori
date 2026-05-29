@@ -3,12 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "友禅の種類と買取相場｜加賀友禅・京友禅・東京友禅の違い",
+  title: "【2026年最新】友禅の種類と買取相場｜加賀友禅・京友禅・東京友禅の見分け方",
   description:
     "友禅染めの種類と買取相場を徹底解説。加賀友禅・京友禅・東京友禅の違い、手描き友禅と型友禅の見分け方、高く売るコツをまとめました。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/yuzen-types/" },
   openGraph: {
-    title: "友禅の種類と買取相場｜加賀友禅・京友禅・東京友禅の違い",
+    title: "【2026年最新】友禅の種類と買取相場｜加賀友禅・京友禅・東京友禅の見分け方",
     description: "友禅染めの種類と買取相場を解説。加賀友禅・京友禅・東京友禅の特徴と買取価格。",
     url: "https://kimonokaitori-biyori.com/articles/yuzen-types/",
     siteName: "着物の買取びより", type: "article", locale: "ja_JP",

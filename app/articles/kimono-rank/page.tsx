@@ -3,10 +3,10 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "着物の格付け一覧｜留袖→訪問着→付け下げ→小紋→紬の順位",
+  title: "【着物初心者必見】着物の格付け一覧｜留袖→訪問着→付け下げ→小紋→紬",
   description: "着物の格付け（フォーマル度）を一覧で解説。黒留袖・色留袖・振袖・訪問着・付け下げ・色無地・小紋・紬の順位と、それぞれの特徴・着用シーン・買取相場をまとめました。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/kimono-rank/" },
-  openGraph: { title: "着物の格付け一覧｜留袖→訪問着→付け下げ→小紋→紬の順位", description: "着物の格付けを一覧で解説。各着物の特徴と買取相場をまとめました。", url: "https://kimonokaitori-biyori.com/articles/kimono-rank/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { title: "【着物初心者必見】着物の格付け一覧｜留袖→訪問着→付け下げ→小紋→紬", description: "着物の格付けを一覧で解説。各着物の特徴と買取相場をまとめました。", url: "https://kimonokaitori-biyori.com/articles/kimono-rank/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

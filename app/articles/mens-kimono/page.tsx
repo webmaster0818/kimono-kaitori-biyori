@@ -3,10 +3,10 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "男性着物の買取相場｜紋付袴・着流し・羽織は売れる？",
+  title: "【2026年最新】男性着物の買取相場｜紋付袴・着流し・羽織の価格目安",
   description: "男性着物の買取相場を種類別に徹底解説。紋付袴・羽織・着流し・角帯の買取価格、高く売れる条件、おすすめ買取業者をまとめました。男性着物は需要が少ないものの、良質な紬や紋付は高額査定も。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/mens-kimono/" },
-  openGraph: { title: "男性着物の買取相場｜紋付袴・着流し・羽織は売れる？", description: "男性着物の買取相場を種類別に解説。", url: "https://kimonokaitori-biyori.com/articles/mens-kimono/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { title: "【2026年最新】男性着物の買取相場｜紋付袴・着流し・羽織の価格目安", description: "男性着物の買取相場を種類別に解説。", url: "https://kimonokaitori-biyori.com/articles/mens-kimono/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

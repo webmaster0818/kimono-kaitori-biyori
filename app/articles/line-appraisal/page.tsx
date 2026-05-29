@@ -3,14 +3,14 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "着物のLINE査定おすすめ業者3選｜スマホで簡単に価値がわかる",
+  title: "【2026年最新】着物のLINE査定おすすめ3選｜写真送るだけで概算買取額",
   description:
     "着物のLINE査定に対応したおすすめ業者3選を紹介。スマホで着物の写真を送るだけで概算の買取額がわかるLINE査定の使い方、メリット・デメリット、精度を上げるコツを解説します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/line-appraisal/",
   },
   openGraph: {
-    title: "着物のLINE査定おすすめ業者3選｜スマホで簡単に価値がわかる",
+    title: "【2026年最新】着物のLINE査定おすすめ3選｜写真送るだけで概算買取額",
     description: "スマホで着物の写真を送るだけで買取額がわかるLINE査定。おすすめ業者と活用法を解説。",
     url: "https://kimonokaitori-biyori.com/articles/line-appraisal/",
     siteName: "着物の買取びより",

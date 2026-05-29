@@ -3,14 +3,14 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "訪問着・留袖の買取相場まとめ｜高く売れる条件とは",
+  title: "【2026年最新】訪問着・留袖の買取相場｜高く売れる条件と相場価格",
   description:
     "訪問着の買取相場（3,000〜5万円）、色留袖・黒留袖の相場を徹底解説。加賀友禅・京友禅は高額買取。紋の有無の影響や高く売れる条件をまとめました。2026年最新情報。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/houmongi-tomesode/",
   },
   openGraph: {
-    title: "訪問着・留袖の買取相場まとめ｜高く売れる条件とは",
+    title: "【2026年最新】訪問着・留袖の買取相場｜高く売れる条件と相場価格",
     description:
       "訪問着・色留袖・黒留袖の買取相場と、加賀友禅・京友禅など高く売れる条件を解説。",
     url: "https://kimonokaitori-biyori.com/articles/houmongi-tomesode/",

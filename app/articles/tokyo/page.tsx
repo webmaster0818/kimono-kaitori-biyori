@@ -3,14 +3,14 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "着物買取 東京のおすすめ業者5選｜持ち込み・出張対応を比較",
+  title: "【2026年最新】東京の着物買取おすすめ5選｜無料出張・持込・宅配対応",
   description:
     "東京で着物買取を依頼するならどこがおすすめ？持ち込み買取・出張買取に対応した東京都内のおすすめ業者5選を比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの特徴や口コミ、東京エリアの買取相場を徹底解説します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/tokyo/",
   },
   openGraph: {
-    title: "着物買取 東京のおすすめ業者5選｜持ち込み・出張対応を比較",
+    title: "【2026年最新】東京の着物買取おすすめ5選｜無料出張・持込・宅配対応",
     description:
       "東京都内で着物を高く売るためのおすすめ買取業者5選。持ち込み・出張・宅配の対応状況を比較。",
     url: "https://kimonokaitori-biyori.com/articles/tokyo/",

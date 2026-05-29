@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "着物の宅配買取おすすめ業者3選｜自宅から送るだけの簡単買取",
+  title: "【2026年最新】着物の宅配買取おすすめ3選｜送料無料・キャンセル返送無料",
   description:
     "着物の宅配買取おすすめ業者3選を徹底比較。自宅から送るだけで買取が完了する宅配買取のメリット・デメリット、利用の流れ6ステップ、梱包のコツ、トラブル回避法まで詳しく解説します。",
   alternates: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/",
   },
   openGraph: {
-    title: "着物の宅配買取おすすめ業者3選｜自宅から送るだけの簡単買取",
+    title: "【2026年最新】着物の宅配買取おすすめ3選｜送料無料・キャンセル返送無料",
     description:
       "着物の宅配買取おすすめ3社を比較。送るだけで完了する簡単買取を徹底ガイドします。",
     url: "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/",

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "アンティーク着物の買取相場｜大正・昭和の着物に価値はある？",
+  title: "【2026年最新】アンティーク着物の買取相場｜大正・昭和の価値と高く売る方法",
   description:
     "アンティーク着物の買取相場を時代別に徹底解説。大正ロマン柄や銘仙の幾何学模様は数万円の高額査定も。明治後期〜昭和初期の着物の特徴と人気柄、コレクター需要、高く売るためのポイントをまとめました。",
   alternates: {
