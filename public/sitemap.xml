@@ -702,4 +702,40 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://kimonokaitori-biyori.com/articles/yamanashi/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kimonokaitori-biyori.com/articles/shizuoka/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kimonokaitori-biyori.com/articles/okayama/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kimonokaitori-biyori.com/articles/kagawa/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kimonokaitori-biyori.com/articles/saga/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kimonokaitori-biyori.com/articles/miyazaki/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
