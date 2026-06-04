@@ -229,6 +229,25 @@ export default function KochiPage() {
         </div>
 
         <section className="mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">同じ四国の着物買取ガイド</h2>
+          <p className="text-sm text-gray-600 mb-4">近隣エリアでお探しの方はこちらもご覧ください。地方ごとに地元の織物と買取のポイントをまとめています。</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link href="/articles/tokushima/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">徳島の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">徳島県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/kagawa/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">香川の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">香川県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/ehime/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">愛媛の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">愛媛県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+          </div>
+        </section>
+
+        <section className="mb-8">
           <h2 className="text-xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">関連ページ</h2>
           <div className="grid sm:grid-cols-3 gap-4">
             <Link href="/articles/tsumugi-types/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">

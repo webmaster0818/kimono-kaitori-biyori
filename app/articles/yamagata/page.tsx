@@ -229,6 +229,37 @@ export default function YamagataPage() {
         </div>
 
         <section className="mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">同じ北海道・東北の着物買取ガイド</h2>
+          <p className="text-sm text-gray-600 mb-4">近隣エリアでお探しの方はこちらもご覧ください。地方ごとに地元の織物と買取のポイントをまとめています。</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link href="/articles/sapporo/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">北海道の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">北海道内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/aomori/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">青森の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">青森県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/iwate/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">岩手の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">岩手県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/sendai/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">宮城の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">宮城県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/akita/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">秋田の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">秋田県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/fukushima/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">福島の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">福島県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+          </div>
+        </section>
+
+        <section className="mb-8">
           <h2 className="text-xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">関連ページ</h2>
           <div className="grid sm:grid-cols-3 gap-4">
             <Link href="/articles/tsumugi-types/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">

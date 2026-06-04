@@ -229,6 +229,41 @@ export default function KagoshimaPage() {
         </div>
 
         <section className="mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">同じ九州・沖縄の着物買取ガイド</h2>
+          <p className="text-sm text-gray-600 mb-4">近隣エリアでお探しの方はこちらもご覧ください。地方ごとに地元の織物と買取のポイントをまとめています。</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link href="/articles/fukuoka/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">福岡の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">福岡県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/saga/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">佐賀の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">佐賀県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/nagasaki/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">長崎の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">長崎県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/kumamoto/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">熊本の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">熊本県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/oita/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">大分の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">大分県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/miyazaki/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">宮崎の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">宮崎県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+            <Link href="/articles/okinawa/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">沖縄の着物買取</p>
+              <p className="text-xs text-gray-500 mt-1">沖縄県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+          </div>
+        </section>
+
+        <section className="mb-8">
           <h2 className="text-xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">関連ページ</h2>
           <div className="grid sm:grid-cols-3 gap-4">
             <Link href="/articles/tsumugi-types/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
