@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "絞り染め着物の買取相場｜有松絞り・京鹿の子絞りの価値",
@@ -46,6 +47,8 @@ export default function ShiboriPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "絞り染め着物の買取相場" }]} />
+
+      <SoubaNote />
 
       <section className="py-12 md:py-16 section-primary-light">
         <div className="max-w-4xl mx-auto px-4">

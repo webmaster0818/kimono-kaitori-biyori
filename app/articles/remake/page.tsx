@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "着物リメイク業者おすすめ｜バッグ・ドレスに生まれ変わる",
@@ -84,6 +85,8 @@ export default function RemakePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
 
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "着物リメイク業者おすすめ" }]} />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

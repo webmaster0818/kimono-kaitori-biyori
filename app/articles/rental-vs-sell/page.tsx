@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "着物レンタル vs 売却｜どちらがお得か徹底比較",
@@ -138,6 +139,8 @@ export default function RentalVsSellPage() {
           { label: "着物レンタル vs 売却" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "【2026年最新】男性着物の買取相場｜紋付袴・着流し・羽織の価格目安",
@@ -28,6 +29,8 @@ export default function MensKimonoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "男性着物の買取" }]} />
+
+      <SoubaNote />
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">2026年最新版</span>

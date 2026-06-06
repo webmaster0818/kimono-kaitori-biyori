@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "振袖の買取相場｜成人式後に売る方法と高価買取のコツ",
@@ -138,6 +139,8 @@ export default function FurisodePage() {
           { label: "振袖" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

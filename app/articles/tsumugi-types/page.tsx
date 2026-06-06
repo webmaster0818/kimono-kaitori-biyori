@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "紬の種類と買取相場まとめ｜大島紬・結城紬・塩沢紬・牛首紬",
@@ -46,6 +47,8 @@ export default function TsumugiTypesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "紬の種類と買取相場" }]} />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "買取大吉 vs ウリエル 徹底比較｜どちらに売るべき？",
@@ -58,6 +59,8 @@ export default function DaikichiVsUrielPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
 
       <Breadcrumb items={[{ label: "お役立ち記事", href: "/articles/" }, { label: "買取大吉 vs ウリエル" }]} />
+
+      <SoubaNote />
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <header className="mb-12">

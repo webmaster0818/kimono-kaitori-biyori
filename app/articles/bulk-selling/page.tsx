@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "着物のまとめ売りガイド｜大量処分のコツとおすすめ業者",
@@ -85,6 +86,8 @@ export default function BulkSellingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
 
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "着物のまとめ売りガイド" }]} />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

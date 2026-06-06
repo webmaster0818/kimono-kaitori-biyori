@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "【2026年最新】東京の着物買取おすすめ5選｜無料出張・持込・宅配対応",
@@ -138,6 +139,8 @@ export default function TokyoPage() {
           { label: "東京の着物買取" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

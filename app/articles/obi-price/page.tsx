@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "帯の買取相場｜袋帯・名古屋帯・丸帯の値段と高く売る方法",
@@ -138,6 +139,8 @@ export default function ObiPricePage() {
           { label: "帯の買取相場" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "【2026年最新】アンティーク着物の買取相場｜大正・昭和の価値と高く売る方法",
@@ -146,6 +147,8 @@ export default function AntiqueKimonoPage() {
           { label: "アンティーク着物" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

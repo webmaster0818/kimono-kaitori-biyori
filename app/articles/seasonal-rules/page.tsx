@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "着物の季節ごとの着分けルール｜袷・単衣・薄物の時期",
@@ -138,6 +139,8 @@ export default function SeasonalRulesPage() {
           { label: "着物の季節ごとの着分けルール" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

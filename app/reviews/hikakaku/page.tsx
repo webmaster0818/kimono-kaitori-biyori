@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "ヒカカクで着物を売る｜一括査定の使い方と口コミ・評判",
@@ -139,6 +140,8 @@ export default function HikakakuReviewPage() {
           { label: "ヒカカク！" },
         ]}
       />
+
+      <SoubaNote />
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* ヒーローセクション */}

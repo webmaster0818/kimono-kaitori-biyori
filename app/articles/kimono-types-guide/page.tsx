@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "着物の種類一覧｜普段着から礼装まで完全ガイド",
@@ -138,6 +139,8 @@ export default function KimonoTypesGuidePage() {
           { label: "着物の種類一覧" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

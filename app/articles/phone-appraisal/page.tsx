@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "着物買取 電話査定対応の業者3選｜電話で概算がわかる",
@@ -138,6 +139,8 @@ export default function PhoneAppraisalPage() {
           { label: "着物買取 電話査定" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "【2026年最新】加賀友禅の買取相場｜作家物は100万円超｜証紙・落款で価格倍増",
@@ -141,6 +142,8 @@ export default function KagaYuzenPage() {
           { label: "加賀友禅" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

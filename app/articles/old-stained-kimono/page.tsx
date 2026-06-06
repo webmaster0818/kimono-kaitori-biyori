@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "古い着物・シミありでも売れる？買取可能な条件と業者選び",
@@ -141,6 +142,8 @@ export default function OldStainedKimonoPage() {
           { label: "古い着物・シミあり" },
         ]}
       />
+
+      <SoubaNote />
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* ヒーローセクション */}

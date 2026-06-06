@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
@@ -158,6 +159,8 @@ export default function DaikichiReviewPage() {
           { label: "買取大吉" },
         ]}
       />
+
+      <SoubaNote />
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* ヒーローセクション */}

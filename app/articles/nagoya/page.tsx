@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "着物買取 名古屋のおすすめ業者5選｜愛知県の持ち込み・出張対応",
@@ -138,6 +139,8 @@ export default function NagoyaPage() {
           { label: "名古屋の着物買取" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

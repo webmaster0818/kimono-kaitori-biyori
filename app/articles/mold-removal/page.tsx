@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "着物のカビ取り方法｜自宅でできる応急処置と専門店の費用",
@@ -29,6 +30,8 @@ export default function MoldRemovalPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "着物のカビ取り方法" }]} />
+
+      <SoubaNote />
 
       <section className="py-12 md:py-16 section-primary-light">
         <div className="max-w-4xl mx-auto px-4"><div className="text-center">

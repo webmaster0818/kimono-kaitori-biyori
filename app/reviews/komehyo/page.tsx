@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "コメ兵の着物買取｜ブランド買取大手の実力を検証",
@@ -76,6 +77,8 @@ export default function KomehyoReviewPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessStructuredData) }} />
 
       <Breadcrumb items={[{ label: "業者レビュー", href: "/reviews/" }, { label: "コメ兵" }]} />
+
+      <SoubaNote />
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <header className="mb-12">

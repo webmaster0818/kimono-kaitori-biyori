@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "着物の一括査定おすすめ｜複数業者の見積もりで最高額を狙う方法",
@@ -132,6 +133,8 @@ export default function BulkAppraisalPage() {
           { label: "着物の一括査定" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

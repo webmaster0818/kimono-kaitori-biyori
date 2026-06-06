@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "RECLO（リクロ）の着物買取｜宅配買取の評判・口コミを検証",
@@ -158,6 +159,8 @@ export default function RecloReviewPage() {
           { label: "RECLO" },
         ]}
       />
+
+      <SoubaNote />
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* ヒーローセクション */}

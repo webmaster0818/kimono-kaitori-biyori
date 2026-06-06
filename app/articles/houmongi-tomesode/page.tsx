@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "【2026年最新】訪問着・留袖の買取相場｜高く売れる条件と相場価格",
@@ -138,6 +139,8 @@ export default function HoumongiTomesodePage() {
           { label: "訪問着・留袖" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

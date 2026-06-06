@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "着物買取 夜間・土日対応の業者まとめ｜平日忙しい方向け",
@@ -46,6 +47,8 @@ export default function WeekendNightPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "夜間・土日対応ガイド" }]} />
+
+      <SoubaNote />
 
       <section className="py-12 md:py-16 section-primary-light">
         <div className="max-w-4xl mx-auto px-4"><div className="text-center">

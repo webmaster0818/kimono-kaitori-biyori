@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "【2026年最新】着物の人気柄ランキング｜昭和レトロ・古典柄・モダン柄の相場",
@@ -28,6 +29,8 @@ export default function PopularPatternsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "着物の年代別人気柄ガイド" }]} />
+
+      <SoubaNote />
 
       <section className="py-12 md:py-16 section-primary-light">
         <div className="max-w-4xl mx-auto px-4"><div className="text-center">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
+import SoubaNote from "../components/SoubaNote";
 
 export const metadata: Metadata = {
   title:
@@ -174,6 +175,8 @@ export default function RankingPage() {
       />
 
       <Breadcrumb items={[{ label: "着物買取おすすめランキング" }]} />
+
+      <SoubaNote />
 
       {/* Hero / H1 */}
       <section className="relative overflow-hidden py-12 md:py-16">

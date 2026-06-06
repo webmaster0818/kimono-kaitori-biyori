@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "結城紬の買取相場と高く売るコツ【重要無形文化財の価値】",
@@ -141,6 +142,8 @@ export default function YukiTsumugiPage() {
           { label: "結城紬" },
         ]}
       />
+
+      <SoubaNote />
 
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light">

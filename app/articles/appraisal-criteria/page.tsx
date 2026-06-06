@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "【査定員直伝】着物買取の査定基準10項目｜評価ポイント完全解説",
@@ -141,6 +142,8 @@ export default function AppraisalCriteriaPage() {
           { label: "査定基準" },
         ]}
       />
+
+      <SoubaNote />
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* ヒーローセクション */}
