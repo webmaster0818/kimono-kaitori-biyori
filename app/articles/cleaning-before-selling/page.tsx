@@ -29,7 +29,7 @@ export default function CleaningBeforeSellingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "クリーニングと査定額" }]} />
 
-      <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4"><div className="text-center">
+      <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/cleaning-before-selling.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">2026年最新版</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">着物のクリーニングは売る前にすべき？</span><br className="md:hidden" /><span className="block mt-2 text-lg md:text-2xl text-gray-700">査定額への影響を解説</span></h1>
         <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">着物を売る前にクリーニングに出すべきか悩む方は多いです。結論から言うと、ほとんどのケースでクリーニングは不要です。その理由と、売る前にすべき簡単なお手入れ方法を解説します。</p>

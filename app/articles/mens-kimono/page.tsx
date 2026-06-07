@@ -32,7 +32,7 @@ export default function MensKimonoPage() {
 
       <SoubaNote />
 
-      <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4"><div className="text-center">
+      <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/mens-kimono.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">2026年最新版</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">男性着物の買取相場</span><br className="md:hidden" /><span className="block mt-2 text-lg md:text-2xl text-gray-700">紋付袴・着流し・羽織は売れる？</span></h1>
         <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">タンスに眠っている父や祖父の着物、自分で購入したけれど着なくなった紋付袴や羽織。男性着物は女性着物に比べて需要が少ないものの、良質な品であれば十分に買取価値があります。種類別の相場を詳しく解説します。</p>

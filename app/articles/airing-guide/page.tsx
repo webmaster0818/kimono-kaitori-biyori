@@ -30,7 +30,7 @@ export default function AiringGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "着物の虫干しの方法と時期" }]} />
 
-      <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4"><div className="text-center">
+      <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/airing-guide.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">Know型ガイド</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">着物の虫干しの方法と時期</span><span className="block mt-2 text-lg md:text-2xl text-gray-700">正しいお手入れで価値を保つ</span></h1>
         <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">着物を長く美しい状態で保つために欠かせないのが「虫干し（むしぼし）」です。定期的に着物を風に当てることで、カビの発生や虫食いを防ぎ、着物の価値を維持できます。この記事では、虫干しの正しい方法、最適な時期と条件、必要な道具、注意点を詳しく解説します。</p>

@@ -33,7 +33,7 @@ export default function LivingNationalTreasurePage() {
 
       <SoubaNote />
 
-      <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4"><div className="text-center">
+      <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/living-national-treasure.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">Know型ガイド</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">人間国宝の着物一覧</span><span className="block mt-2 text-lg md:text-2xl text-gray-700">作家別の買取相場と見分け方</span></h1>
         <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">人間国宝（重要無形文化財保持者）の手がけた着物は、芸術品としての価値と実用品としての価値を兼ね備えた最高峰の和装品です。この記事では、染め・織りの分野別に代表的な人間国宝を紹介し、作品の買取相場、見分け方、高額買取のポイントを解説します。</p>

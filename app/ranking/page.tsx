@@ -179,7 +179,7 @@ export default function RankingPage() {
       <SoubaNote />
 
       {/* Hero / H1 */}
-      <section className="relative overflow-hidden py-12 md:py-16">
+      <section className="relative overflow-hidden py-12 md:py-16" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/ranking.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <div className="absolute inset-0 bg-gradient-to-br from-[#f3eef7] via-[#faf5ee] to-[#fdf2f6]" />
         <div className="absolute top-10 right-10 w-32 h-32 bg-[#6b4c8a]/10 rounded-full blur-3xl" />
         <div className="absolute bottom-10 left-10 w-40 h-40 bg-[#e8a0b6]/10 rounded-full blur-3xl" />

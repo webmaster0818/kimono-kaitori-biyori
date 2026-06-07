@@ -45,7 +45,7 @@ export default function KimonoRankPage() {
 
       <SoubaNote />
 
-      <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4"><div className="text-center">
+      <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/kimono-rank.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">知識ガイド</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">着物の格付け一覧</span><br className="md:hidden" /><span className="block mt-2 text-lg md:text-2xl text-gray-700">留袖→訪問着→付け下げ→小紋→紬の順位</span></h1>
         <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">着物には「格」と呼ばれるフォーマル度の序列があります。黒留袖・振袖・訪問着・付け下げ・色無地・小紋・紬の順位と特徴、着用シーン、買取相場をわかりやすく解説します。</p>

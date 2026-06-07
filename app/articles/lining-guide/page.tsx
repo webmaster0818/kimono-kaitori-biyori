@@ -33,7 +33,7 @@ export default function LiningGuidePage() {
 
       <SoubaNote />
 
-      <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4"><div className="text-center">
+      <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/lining-guide.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">Know型ガイド</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">着物の裏地（八掛・胴裏）</span><span className="block mt-2 text-lg md:text-2xl text-gray-700">素材と査定への影響</span></h1>
         <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">袷（あわせ）の着物には裏地が付いています。裾周りの「八掛（はっかけ）」と上半身の「胴裏（どううら）」は、着物の着心地や見た目、そして買取査定にも影響する重要な要素です。この記事では、裏地の役割と素材、色選びのルール、査定への影響まで詳しく解説します。</p>

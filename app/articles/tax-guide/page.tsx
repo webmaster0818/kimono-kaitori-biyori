@@ -29,7 +29,7 @@ export default function TaxGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "税金ガイド" }]} />
 
-      <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4"><div className="text-center">
+      <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/tax-guide.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">2026年最新版</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">着物買取の確定申告・税金ガイド</span><br className="md:hidden" /><span className="block mt-2 text-lg md:text-2xl text-gray-700">30万円以上は申告が必要？</span></h1>
         <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">着物を売ったお金に税金はかかるのか？確定申告は必要？生活用動産の非課税ルールや30万円の境界線など、着物買取の税金事情をわかりやすく解説します。</p>

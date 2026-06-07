@@ -71,7 +71,7 @@ export default function ProductionMapPage() {
 
       <SoubaNote />
 
-      <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4"><div className="text-center">
+      <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/production-map.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">知識ガイド</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">着物の産地一覧マップ</span><br className="md:hidden" /><span className="block mt-2 text-lg md:text-2xl text-gray-700">全国の有名産地と特徴</span></h1>
         <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">日本全国の着物産地を地域別に一覧で解説。大島紬・結城紬・西陣織・加賀友禅・博多織など有名産地の特徴と買取相場をまとめました。産地証紙の重要性も紹介します。</p>

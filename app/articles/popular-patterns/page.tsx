@@ -32,7 +32,7 @@ export default function PopularPatternsPage() {
 
       <SoubaNote />
 
-      <section className="py-12 md:py-16 section-primary-light">
+      <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/popular-patterns.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <div className="max-w-4xl mx-auto px-4"><div className="text-center">
           <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">知識ガイド</span>
           <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">着物の年代別人気柄</span><br className="md:hidden" /><span className="block mt-2 text-lg md:text-2xl text-gray-700">昭和レトロ・古典柄・モダン柄ガイド</span></h1>

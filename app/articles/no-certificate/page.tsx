@@ -144,7 +144,7 @@ export default function NoCertificatePage() {
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* ヒーローセクション */}
-        <header className="mb-12">
+        <header className="mb-12 rounded-2xl p-6 md:p-10 border border-[#e8ddd0]" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/no-certificate.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
           <div className="flex items-center gap-3 mb-4">
             <span className="inline-block bg-[#6b4c8a] text-white text-xs font-bold px-3 py-1 rounded-full">
               お悩み解決
