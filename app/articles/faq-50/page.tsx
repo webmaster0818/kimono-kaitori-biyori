@@ -75,8 +75,6 @@ export default function Faq50Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "よくある質問50選" }]} />
 
-      <SoubaNote />
-
       <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/faq-50.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">総合FAQ</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">着物買取のよくある質問50選</span><br className="md:hidden" /><span className="block mt-2 text-lg md:text-2xl text-gray-700">総合FAQ</span></h1>
@@ -122,6 +120,8 @@ export default function Faq50Page() {
         <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">着物の価値は無料査定で簡単に確認できます。複数業者の査定で最高額を見つけましょう。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
+
+      <SoubaNote />
     </>
   );
 }

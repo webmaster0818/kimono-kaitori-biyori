@@ -30,8 +30,6 @@ export default function MontsukiPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "紋付き着物の買取" }]} />
 
-      <SoubaNote />
-
       <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/montsuki.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">2026年最新版</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">紋付き着物の買取相場</span><br className="md:hidden" /><span className="block mt-2 text-lg md:text-2xl text-gray-700">五つ紋・三つ紋・一つ紋の価値の違い</span></h1>
@@ -139,6 +137,8 @@ export default function MontsukiPage() {
         <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">紋付き着物は紋消し不要でそのまま査定OK。プロの査定員が適正価格をつけてくれます。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
+
+      <SoubaNote />
     </>
   );
 }

@@ -140,8 +140,6 @@ export default function FurisodePage() {
         ]}
       />
 
-      <SoubaNote />
-
       {/* Hero */}
       <section
         className="py-12 md:py-16 section-primary-light"
@@ -817,6 +815,8 @@ export default function FurisodePage() {
           </Link>
         </div>
       </section>
+
+      <SoubaNote />
     </>
   );
 }

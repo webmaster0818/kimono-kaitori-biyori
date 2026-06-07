@@ -160,8 +160,6 @@ export default function TheGoldReviewPage() {
         ]}
       />
 
-      <SoubaNote />
-
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <header className="mb-12 rounded-2xl p-6 md:p-10 border border-[#e8ddd0]" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/the-gold.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
           <div className="flex items-center gap-3 mb-4">
@@ -729,6 +727,8 @@ export default function TheGoldReviewPage() {
           </div>
         </section>
       </article>
+
+      <SoubaNote />
     </>
   );
 }

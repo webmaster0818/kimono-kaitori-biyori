@@ -43,8 +43,6 @@ export default function KimonoRankPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "着物の格付け一覧" }]} />
 
-      <SoubaNote />
-
       <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/kimono-rank.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">知識ガイド</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">着物の格付け一覧</span><br className="md:hidden" /><span className="block mt-2 text-lg md:text-2xl text-gray-700">留袖→訪問着→付け下げ→小紋→紬の順位</span></h1>
@@ -157,6 +155,8 @@ export default function KimonoRankPage() {
         <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">格にかかわらず、着物専門の査定員なら適正に評価。まずは無料査定で確認しましょう。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
+
+      <SoubaNote />
     </>
   );
 }

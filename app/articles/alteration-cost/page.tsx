@@ -31,8 +31,6 @@ export default function AlterationCostPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }} />
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "着物の仕立て直し費用と期間" }]} />
 
-      <SoubaNote />
-
       <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/alteration-cost.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">Know型ガイド</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">着物の仕立て直し費用と期間</span><span className="block mt-2 text-lg md:text-2xl text-gray-700">サイズ直しで価値は上がる？</span></h1>
@@ -185,6 +183,8 @@ export default function AlterationCostPage() {
         <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">サイズが合わない着物も、裏地が傷んだ着物も、そのままの状態で無料査定が可能です。まずは現在の価値を確認してみましょう。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
+
+      <SoubaNote />
     </>
   );
 }

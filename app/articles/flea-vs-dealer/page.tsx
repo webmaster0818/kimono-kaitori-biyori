@@ -80,8 +80,6 @@ export default function FleaVsDealerPage() {
 
       <Breadcrumb items={[{ label: "コラム", href: "/articles/" }, { label: "フリマ vs 買取業者" }]} />
 
-      <SoubaNote />
-
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/flea-vs-dealer.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <div className="max-w-4xl mx-auto px-4">
@@ -464,6 +462,8 @@ export default function FleaVsDealerPage() {
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>
       </section>
+
+      <SoubaNote />
     </>
   );
 }

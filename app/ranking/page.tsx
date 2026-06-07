@@ -176,8 +176,6 @@ export default function RankingPage() {
 
       <Breadcrumb items={[{ label: "着物買取おすすめランキング" }]} />
 
-      <SoubaNote />
-
       {/* Hero / H1 */}
       <section className="relative overflow-hidden py-12 md:py-16" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/ranking.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <div className="absolute inset-0 bg-gradient-to-br from-[#f3eef7] via-[#faf5ee] to-[#fdf2f6]" />
@@ -1708,6 +1706,8 @@ export default function RankingPage() {
           </div>
         </div>
       </section>
+
+      <SoubaNote />
     </>
   );
 }

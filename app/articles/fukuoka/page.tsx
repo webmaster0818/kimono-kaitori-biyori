@@ -140,8 +140,6 @@ export default function FukuokaPage() {
         ]}
       />
 
-      <SoubaNote />
-
       {/* Hero */}
       <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/fukuoka.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <div className="max-w-4xl mx-auto px-4">
@@ -625,6 +623,8 @@ export default function FukuokaPage() {
           </Link>
         </div>
       </section>
+
+      <SoubaNote />
     </>
   );
 }
