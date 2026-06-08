@@ -92,7 +92,9 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-purple-900/50 text-center">
-          <div className="flex justify-center gap-6 mt-6">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-6">
+            <Link href="/about/" className="text-xs text-purple-300 hover:text-white transition-colors">運営者情報</Link>
+            <Link href="/author/" className="text-xs text-purple-300 hover:text-white transition-colors">編集部紹介</Link>
             <Link href="/terms/" className="text-xs text-purple-300 hover:text-white transition-colors">利用規約</Link>
             <Link href="/privacy-policy/" className="text-xs text-purple-300 hover:text-white transition-colors">プライバシーポリシー</Link>
             <Link href="/content-policy/" className="text-xs text-purple-300 hover:text-white transition-colors">記事制作ポリシー</Link>

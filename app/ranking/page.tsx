@@ -498,7 +498,7 @@ export default function RankingPage() {
 
               <div className="text-right">
                 <Link
-                  href="/review/kaitori-daikichi/"
+                  href="/reviews/daikichi/"
                   className="inline-flex items-center gap-1 text-sm font-semibold text-[#6b4c8a] hover:text-[#5a3d75] transition-colors"
                 >
                   買取大吉の詳しいレビューを見る
@@ -578,7 +578,7 @@ export default function RankingPage() {
 
               <div className="text-right">
                 <Link
-                  href="/review/uriel/"
+                  href="/reviews/uriel/"
                   className="inline-flex items-center gap-1 text-sm font-semibold text-[#6b4c8a] hover:text-[#5a3d75] transition-colors"
                 >
                   ウリエルの詳しいレビューを見る
@@ -658,7 +658,7 @@ export default function RankingPage() {
 
               <div className="text-right">
                 <Link
-                  href="/review/reclo/"
+                  href="/reviews/reclo/"
                   className="inline-flex items-center gap-1 text-sm font-semibold text-[#6b4c8a] hover:text-[#5a3d75] transition-colors"
                 >
                   RECLOの詳しいレビューを見る
@@ -738,7 +738,7 @@ export default function RankingPage() {
 
               <div className="text-right">
                 <Link
-                  href="/review/tifana/"
+                  href="/reviews/tifana/"
                   className="inline-flex items-center gap-1 text-sm font-semibold text-[#6b4c8a] hover:text-[#5a3d75] transition-colors"
                 >
                   ティファナの詳しいレビューを見る
@@ -818,7 +818,7 @@ export default function RankingPage() {
 
               <div className="text-right">
                 <Link
-                  href="/review/hikakaku/"
+                  href="/reviews/hikakaku/"
                   className="inline-flex items-center gap-1 text-sm font-semibold text-[#6b4c8a] hover:text-[#5a3d75] transition-colors"
                 >
                   ヒカカク！の詳しいレビューを見る
@@ -1697,10 +1697,10 @@ export default function RankingPage() {
             大切な着物を、信頼できる業者に任せましょう。
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/review/kaitori-daikichi/" className="btn-cta text-base">
+            <Link href="/reviews/daikichi/" className="btn-cta text-base">
               1位 買取大吉の詳細を見る
             </Link>
-            <Link href="/review/uriel/" className="btn-outline text-base">
+            <Link href="/reviews/uriel/" className="btn-outline text-base">
               2位 ウリエルの詳細を見る
             </Link>
           </div>
