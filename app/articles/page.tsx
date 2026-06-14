@@ -57,6 +57,34 @@ export default function ArticlesIndex() {
       <section className="mb-10">
         <h2 className="text-lg md:text-xl font-bold text-[#6b4c8a] mb-4 flex items-center gap-2">
           <span className="w-1 h-6 bg-[#c9a76c] rounded-full inline-block" />
+          産地・織物別の買取相場<span className="text-sm font-normal text-gray-400">（20）</span>
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <Link href="/articles/awa-aizome/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】阿波藍染の買取相場｜本藍染の見分け方と証紙で価値が変わる</Link>
+        <Link href="/articles/iyo-gasuri/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】伊予絣の買取相場｜日本三大絣・愛媛の絣を高く売る方法</Link>
+        <Link href="/articles/bingata/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】琉球紅型の買取相場｜人間国宝・城間家の作品と証紙で価値が変わる</Link>
+        <Link href="/articles/shuri-ori/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】首里織の買取相場｜人間国宝・宮平初子の作品と証紙で価値が変わる</Link>
+        <Link href="/articles/tensan-tsumugi/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】天蚕紬の買取相場｜繊維のダイヤモンド・希少な天蚕糸の価値と高く売るコツ</Link>
+        <Link href="/articles/nishijin-ori/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】西陣織の買取相場｜帯の証紙の見方・12種の技法と高く売るコツ</Link>
+        <Link href="/articles/hakata-ori/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】博多織の買取相場｜献上柄の帯・証紙の見方と高く売るコツ</Link>
+        <Link href="/articles/kurume-gasuri/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】久留米絣の買取相場｜重要無形文化財・藍染の木綿絣と高く売るコツ</Link>
+        <Link href="/articles/honba-kihachijo/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】本場黄八丈の買取相場｜八丈島の草木染｜証紙・作家で価格が変わる</Link>
+        <Link href="/articles/shiozawa-tsumugi/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】塩沢紬・本塩沢の買取相場｜新潟県南魚沼｜蚊絣と証紙の見方</Link>
+        <Link href="/articles/ushikubi-tsumugi/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】牛首紬の買取相場｜石川県白山市｜釘抜紬・玉繭と証紙の見方</Link>
+        <Link href="/articles/kyo-yuzen/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】京友禅の買取相場｜金彩・刺繍の華やかさ｜人間国宝・証紙で価格が変わる</Link>
+        <Link href="/articles/yonezawa-ori/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】米沢織の買取相場｜置賜紬の証紙の見方・紅花紬の特徴と高く売るコツ</Link>
+        <Link href="/articles/tango-chirimen/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】丹後ちりめんの買取相場｜後染め白生地の特徴・証紙と高く売るコツ</Link>
+        <Link href="/articles/edo-komon/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】江戸小紋の買取相場｜三役・五役の柄と格・高く売るコツ</Link>
+        <Link href="/articles/chichibu-meisen/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】秩父銘仙の買取相場｜ほぐし捺染の特徴・玉虫効果と高く売るコツ</Link>
+        <Link href="/articles/echigo-jofu/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】越後上布の買取相場｜重要無形文化財・証紙の見方と高く売るコツ</Link>
+        <Link href="/articles/miyako-jofu/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】宮古上布の買取相場｜証紙の見方・苧麻と絣の特徴と高く売るコツ</Link>
+        <Link href="/articles/ojiya-chijimi/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】小千谷縮の買取相場｜重要無形文化財・ユネスコ無形文化遺産の麻織物と高く売るコツ</Link>
+        <Link href="/articles/kiryu-ori/" className="block px-4 py-3 rounded-lg border border-[#e8ddd0] bg-white hover:border-[#6b4c8a] hover:bg-[#faf7f3] transition-colors text-sm text-gray-700 hover:text-[#6b4c8a]">【2026年最新】桐生織の買取相場｜帯の証紙の見方・7つの技法と高く売るコツ</Link>
+        </div>
+      </section>
+      <section className="mb-10">
+        <h2 className="text-lg md:text-xl font-bold text-[#6b4c8a] mb-4 flex items-center gap-2">
+          <span className="w-1 h-6 bg-[#c9a76c] rounded-full inline-block" />
           査定・売却方法<span className="text-sm font-normal text-gray-400">（15）</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
