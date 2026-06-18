@@ -234,6 +234,22 @@ export default function SakaiPage() {
               <span className="text-xs text-[#e8a0b6] font-medium">お役立ち情報</span>
               <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">着物を高く売る7つのコツ</p>
             </Link>
+            <Link href="/articles/tsumugi-types/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#c9a76c] font-medium">織物ガイド</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">紬の種類と買取相場まとめ</p>
+            </Link>
+            <Link href="/articles/yuzen-types/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#c9a76c] font-medium">織物ガイド</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">友禅の種類と買取相場</p>
+            </Link>
+            <Link href="/articles/certificate-guide/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#c9a76c] font-medium">お役立ち情報</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">証紙の見方ガイド</p>
+            </Link>
+            <Link href="/articles/obi-price/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#c9a76c] font-medium">お役立ち情報</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">帯の買取相場</p>
+            </Link>
           </div>
         </section>
       </article>

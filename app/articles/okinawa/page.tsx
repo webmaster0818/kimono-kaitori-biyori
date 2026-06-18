@@ -123,6 +123,7 @@ export default function OkinawaPage() {
           <p className="text-gray-600 leading-relaxed">
             沖縄は、琉球紅型・芭蕉布・宮古上布・久米島紬・首里織など、
             本土とは異なる独自の染織文化を育んできた染織の宝庫です。
+            これらは独自の染織技法による品が多く、価値を正しく見極めるには専門業者での査定が重要になります。
             この記事では、沖縄県内で着物・反物を高く売るためのおすすめ買取業者5選と、
             沖縄の染織品の買取相場・高く売るコツを、地域の特性を踏まえて解説します。
           </p>
@@ -296,6 +297,28 @@ export default function OkinawaPage() {
             <Link href="/articles/kagoshima/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
               <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">鹿児島の着物買取</p>
               <p className="text-xs text-gray-500 mt-1">鹿児島県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+          </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">沖縄を代表する織物の買取相場</h2>
+          <p className="text-sm text-gray-600 mb-4">沖縄ならではの染織は、織物・染物ごとに価値の見極め方が異なります。代表的な産地・技法の買取相場は、それぞれの専門ガイドで詳しく解説しています。</p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/articles/bingata/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">琉球紅型の買取相場</p>
+              <p className="text-xs text-gray-500 mt-1">人間国宝・城間家に代表される型染の名品</p>
+            </Link>
+            <Link href="/articles/shuri-ori/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">首里織の買取相場</p>
+              <p className="text-xs text-gray-500 mt-1">人間国宝・宮平初子で知られる沖縄の織物</p>
+            </Link>
+            <Link href="/articles/miyako-jofu/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">宮古上布の買取相場</p>
+              <p className="text-xs text-gray-500 mt-1">重要無形文化財、苧麻による最高級の麻織物</p>
             </Link>
           </div>
         </section>

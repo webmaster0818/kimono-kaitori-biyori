@@ -100,7 +100,7 @@ export default function TokushimaPage() {
             阿波しじら織・阿波藍を高く売る
           </h1>
           <p className="text-gray-600 leading-relaxed">
-            徳島は、独特のシボ（凹凸）が涼やかな「阿波しじら織」と、日本一の藍染「阿波藍（あわあい）」で知られる着物の名産地です。すくもを用いた本藍染の深い色合いは国内外で高く評価されています。この記事では、徳島県内で着物を高く売るためのおすすめ業者5選と、買取相場・高く売るコツを解説します。
+            徳島は、独特のシボ（凹凸）が涼やかな「阿波しじら織」と、日本一の藍染「阿波藍（あわあい）」で知られる着物の名産地です。すくもを用いた本藍染の深い色合いは国内外で高く評価されています。なかでも徳島は阿波藍染（本藍染）の産地として知られ、藍染作品は化学染料との違いを正しく見極められる専門業者での査定が重要です。この記事では、徳島県内で着物を高く売るためのおすすめ業者5選と、買取相場・高く売るコツを解説します。
           </p>
         </header>
 
@@ -243,6 +243,17 @@ export default function TokushimaPage() {
             <Link href="/articles/kochi/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
               <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">高知の着物買取</p>
               <p className="text-xs text-gray-500 mt-1">高知県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+          </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">徳島を代表する織物の買取相場</h2>
+          <p className="text-sm text-gray-600 mb-4">徳島が誇る伝統的な織物の特徴と買取相場は、織物別の専門ガイドで詳しく解説しています。</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link href="/articles/awa-aizome/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">阿波藍染の買取相場</p>
+              <p className="text-xs text-gray-500 mt-1">本藍染（すくもを用いた徳島の伝統的な藍染）の特徴と買取のポイントを解説</p>
             </Link>
           </div>
         </section>

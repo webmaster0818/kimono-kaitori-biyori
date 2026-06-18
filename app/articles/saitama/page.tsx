@@ -100,7 +100,7 @@ export default function SaitamaPage() {
             秩父銘仙を高く売る
           </h1>
           <p className="text-gray-600 leading-relaxed">
-            埼玉は、大正から昭和にかけて一世を風靡した「秩父銘仙」の産地として知られる着物の名産地です。表裏で色合いが変わる玉虫効果が美しい秩父銘仙は伝統的工芸品に指定され、近年はアンティーク着物としても人気が高まっています。この記事では、埼玉県内で着物を高く売るためのおすすめ業者5選と買取相場・高く売るコツを解説します。
+            埼玉は、大正から昭和にかけて一世を風靡した「秩父銘仙」の産地として知られる着物の名産地です。表裏で色合いが変わる玉虫効果が美しい秩父銘仙は伝統的工芸品に指定され、近年はアンティーク着物としても人気が高まっています。とくにアンティーク需要のある銘仙は柄や状態で評価が大きく動くため、産地織物に詳しい専門業者での査定が有利です。この記事では、埼玉県内で着物を高く売るためのおすすめ業者5選と買取相場・高く売るコツを解説します。
           </p>
         </header>
 
@@ -255,6 +255,18 @@ export default function SaitamaPage() {
             <Link href="/articles/yokohama/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
               <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">神奈川の着物買取</p>
               <p className="text-xs text-gray-500 mt-1">神奈川県内の着物買取おすすめ業者と地元の織物を解説</p>
+            </Link>
+          </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">埼玉を代表する織物の買取相場</h2>
+          <p className="text-sm text-gray-600 mb-4">埼玉が誇る産地織物については、専門の解説ページで買取相場や見極めのポイントをまとめています。</p>
+          <div className="grid sm:grid-cols-2 gap-3">
+            <Link href="/articles/chichibu-meisen/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・織物</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">秩父銘仙の買取相場</p>
+              <p className="text-xs text-gray-500 mt-1">国の伝統的工芸品。ほぐし捺染の鮮やかな絹織物の見極めと相場を解説</p>
             </Link>
           </div>
         </section>

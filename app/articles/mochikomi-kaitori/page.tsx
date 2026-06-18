@@ -4,18 +4,18 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "着物の持ち込み買取おすすめ業者2選｜店舗に持っていくメリットと注意点",
+    "着物の持ち込み買取とは？やり方・流れと店舗/出張/宅配の選び方",
   description:
-    "着物の持ち込み買取（店頭買取）おすすめ業者2選を徹底比較。店舗に持っていくメリット・デメリット、持ち込み前の準備、出張・宅配買取との比較まで詳しく解説します。近くの買取店舗を探している方必見です。",
+    "着物の持ち込み買取のやり方・流れを基礎から解説。メリット・注意点、持っていく前の準備、そして店舗・出張・宅配の3つの方法の使い分けまで比較。自分に合った買取方法の選び方がわかります。",
   alternates: {
     canonical:
       "https://kimonokaitori-biyori.com/articles/mochikomi-kaitori/",
   },
   openGraph: {
     title:
-      "着物の持ち込み買取おすすめ業者2選｜店舗に持っていくメリットと注意点",
+      "着物の持ち込み買取とは？やり方・流れと店舗/出張/宅配の選び方",
     description:
-      "着物の持ち込み買取おすすめ2社を比較。店舗買取のメリットと注意点を徹底ガイドします。",
+      "着物の持ち込み買取のやり方・流れと、店舗・出張・宅配の使い分けを徹底ガイド。自分に合った買取方法の選び方がわかります。",
     url: "https://kimonokaitori-biyori.com/articles/mochikomi-kaitori/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,9 +26,9 @@ const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline:
-    "着物の持ち込み買取おすすめ業者2選｜店舗に持っていくメリットと注意点",
+    "着物の持ち込み買取とは？やり方・流れと店舗/出張/宅配の選び方",
   description:
-    "着物の持ち込み買取おすすめ業者2選を徹底比較。店舗に持っていくメリット・デメリット、持ち込み前の準備、出張・宅配買取との比較まで詳しく解説します。",
+    "着物の持ち込み買取のやり方・流れを基礎から解説。メリット・注意点、持っていく前の準備、店舗・出張・宅配の3つの方法の使い分けまで詳しく比較します。",
   datePublished: "2026-04-16",
   dateModified: "2026-04-16",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -157,18 +157,16 @@ export default function MochikomiKaitoriPage() {
             </time>
           </div>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            着物の持ち込み買取
-            <span className="text-[#6b4c8a]">おすすめ業者2選</span>
+            着物の持ち込み買取とは？
             <br className="md:hidden" />
-            店舗に持っていくメリットと注意点
+            <span className="text-[#6b4c8a]">やり方・流れ</span>と店舗/出張/宅配の選び方
           </h1>
           <p className="text-gray-600 leading-relaxed">
-            「直接お店に行って、目の前で査定してほしい」
-            「対面で査定額の根拠を聞いてから売りたい」
-            そんな方に適しているのが持ち込み買取（店頭買取）です。
-            自分で店舗に着物を持っていき、その場で査定・現金化ができます。
-            本記事では、持ち込み買取の仕組みからおすすめ業者2社の比較、
-            持っていく前の準備、他の買取方法との違いまで詳しく解説します。
+            着物の「持ち込み買取」とは、自分で店舗に着物を持っていき、その場で査定・現金化してもらう方法です。
+            本記事では、持ち込み買取のやり方・流れ・メリット・注意点を基礎から解説したうえで、
+            着物の買取方法には<strong>店舗（持ち込み）・出張・宅配</strong>の3つがあることをふまえ、
+            それぞれのメリット・デメリットと「どんな人に向いているか」を比較します。
+            自分の状況に合った買取方法の選び方がわかります。
           </p>
         </header>
 
@@ -843,10 +841,40 @@ export default function MochikomiKaitoriPage() {
           </h2>
 
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
-            3つの買取方法を比較して、あなたに最適な方法を見つけましょう。
-            それぞれにメリット・デメリットがあるため、
-            自分の状況に合わせて選ぶことが大切です。
+            着物の買取方法は、大きく分けて<strong>店舗（持ち込み）・出張・宅配</strong>の3つがあります。
+            それぞれにメリット・デメリットがあり、向いている人も異なります。
+            下の比較表と各方法の解説を参考に、あなたに最適な方法を見つけましょう。
+            各方法の詳しいおすすめ業者は、それぞれの専門ガイドで紹介しています。
           </p>
+          <div className="grid sm:grid-cols-3 gap-3 mb-6">
+            <Link
+              href="/articles/tenpo-mochikomi/"
+              className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:border-[#6b4c8a] transition-colors group"
+            >
+              <span className="text-xs text-[#6b4c8a] font-medium">店舗（持ち込み）</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">
+                店舗持ち込みおすすめ業者を見る &#9656;
+              </p>
+            </Link>
+            <Link
+              href="/articles/shutcho-kaitori/"
+              className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:border-[#6b4c8a] transition-colors group"
+            >
+              <span className="text-xs text-[#c9a76c] font-medium">出張</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">
+                出張買取おすすめ業者を見る &#9656;
+              </p>
+            </Link>
+            <Link
+              href="/articles/takuhai-kaitori/"
+              className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:border-[#6b4c8a] transition-colors group"
+            >
+              <span className="text-xs text-[#e8a0b6] font-medium">宅配</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">
+                宅配買取おすすめ業者を見る &#9656;
+              </p>
+            </Link>
+          </div>
 
           <div className="overflow-x-auto mb-6">
             <table className="w-full border-collapse text-sm">
@@ -914,7 +942,7 @@ export default function MochikomiKaitoriPage() {
           <div className="grid md:grid-cols-3 gap-4 mb-6">
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
               <h4 className="font-bold text-[#6b4c8a] text-sm mb-2 text-center">
-                持ち込み買取がおすすめの方
+                <Link href="/articles/tenpo-mochikomi/" className="hover:underline">店舗（持ち込み）買取がおすすめの方</Link>
               </h4>
               <ul className="space-y-1 text-xs text-gray-600">
                 <li className="flex items-start gap-1">
@@ -938,7 +966,7 @@ export default function MochikomiKaitoriPage() {
 
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
               <h4 className="font-bold text-[#6b4c8a] text-sm mb-2 text-center">
-                出張買取がおすすめの方
+                <Link href="/articles/shutcho-kaitori/" className="hover:underline">出張買取がおすすめの方</Link>
               </h4>
               <ul className="space-y-1 text-xs text-gray-600">
                 <li className="flex items-start gap-1">
@@ -962,7 +990,7 @@ export default function MochikomiKaitoriPage() {
 
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
               <h4 className="font-bold text-[#6b4c8a] text-sm mb-2 text-center">
-                宅配買取がおすすめの方
+                <Link href="/articles/takuhai-kaitori/" className="hover:underline">宅配買取がおすすめの方</Link>
               </h4>
               <ul className="space-y-1 text-xs text-gray-600">
                 <li className="flex items-start gap-1">
@@ -1189,14 +1217,14 @@ export default function MochikomiKaitoriPage() {
           </h2>
           <div className="grid sm:grid-cols-3 gap-4">
             <Link
-              href="/ranking/"
+              href="/articles/tenpo-mochikomi/"
               className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group"
             >
               <span className="text-xs text-[#6b4c8a] font-medium">
-                ランキング
+                お役立ち情報
               </span>
               <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">
-                着物買取おすすめ業者ランキング
+                着物の店舗持ち込みおすすめ業者
               </p>
             </Link>
             <Link

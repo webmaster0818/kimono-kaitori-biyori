@@ -112,7 +112,7 @@ export default function TenpoMochikomiPage() {
             </div>
           </div>
           <div className="mt-4 text-sm leading-relaxed">
-            <p>持ち込み買取の詳しいガイドは<Link href="/articles/mochikomi-kaitori/" className="text-[#6b4c8a] hover:underline">持ち込み買取ガイド</Link>もご参照ください。</p>
+            <p>持ち込み買取の<Link href="/articles/mochikomi-kaitori/" className="text-[#6b4c8a] hover:underline">方法・流れ・店舗/出張/宅配の選び方はこちら</Link>で詳しく解説しています。本ページは、その中でも「店舗に持ち込めるおすすめ業者」を比較する受け皿です。</p>
           </div>
         </div>
       </section>
@@ -473,7 +473,7 @@ export default function TenpoMochikomiPage() {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
           <div className="grid md:grid-cols-3 gap-4">
-            <Link href="/articles/mochikomi-kaitori/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">持ち込み買取ガイド</h3><p className="text-xs text-gray-600">持ち込み買取の詳しいメリット・デメリット。</p></Link>
+            <Link href="/articles/mochikomi-kaitori/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">持ち込み買取の方法・流れ</h3><p className="text-xs text-gray-600">持ち込み買取のやり方・流れと店舗/出張/宅配の選び方。</p></Link>
             <Link href="/articles/shutcho-kaitori/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">出張買取ガイド</h3><p className="text-xs text-gray-600">出張買取のメリットと利用の流れ。</p></Link>
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
           </div>

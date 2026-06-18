@@ -219,6 +219,30 @@ export default function NiigataCityPage() {
           </Link>
         </div>
 
+        <section className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">新潟県を代表する織物の買取相場</h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-6">
+            新潟県は塩沢紬・越後上布・小千谷縮など織物の宝庫で、南魚沼や小千谷といった県内各地に名高い産地が点在しています。これらは新潟市内で作られているわけではありませんが、新潟市にお住まいで産地物の着物をお持ちの方も多く、いずれも証紙の有無や産地の見極めが査定額を大きく左右するため、産地物に強い専門業者での査定が重要です。各織物の特徴と買取相場は、以下の産地別ガイドで詳しく解説しています。
+          </p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/articles/shiozawa-tsumugi/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・織物別</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">塩沢紬・本塩沢</p>
+              <p className="text-xs text-gray-500 mt-1 leading-relaxed">南魚沼が産地。蚊絣の繊細な文様で知られる名品。</p>
+            </Link>
+            <Link href="/articles/echigo-jofu/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#c9a76c] font-medium">産地・織物別</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">越後上布</p>
+              <p className="text-xs text-gray-500 mt-1 leading-relaxed">重要無形文化財・ユネスコ無形文化遺産の麻織物。</p>
+            </Link>
+            <Link href="/articles/ojiya-chijimi/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#e8a0b6] font-medium">産地・織物別</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">小千谷縮</p>
+              <p className="text-xs text-gray-500 mt-1 leading-relaxed">小千谷が産地。重要無形文化財、シボのある麻織物。</p>
+            </Link>
+          </div>
+        </section>
+
         <section className="mb-8">
           <h2 className="text-xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">関連ページ</h2>
           <div className="grid sm:grid-cols-3 gap-4">
