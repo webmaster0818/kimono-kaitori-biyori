@@ -723,6 +723,17 @@ export default function OshimaTsumugiPage() {
               </p>
             </Link>
             <Link
+              href="/articles/kagoshima/"
+              className="card hover:border-[#6b4c8a] transition-colors group block"
+            >
+              <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">
+                鹿児島の着物買取相場
+              </h3>
+              <p className="text-xs text-gray-600">
+                本場大島紬の産地・鹿児島／奄美大島の着物買取相場とおすすめ業者を解説。
+              </p>
+            </Link>
+            <Link
               href="/articles/kimono-market-price/"
               className="card hover:border-[#6b4c8a] transition-colors group block"
             >

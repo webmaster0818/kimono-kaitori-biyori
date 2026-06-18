@@ -16,3 +16,9 @@
 - 並列sub-agent生成(各Web調査·実在事実のみ·人間国宝/重文/ユネスコ指定を一次系で厳密確認·不確実は省略·SoubaNote注記)。nishijin-oriテンプレ踏襲・各産地ページ(山形/京都/東京/埼玉/新潟/沖縄/群馬)と相互リンク
 - /articles/に「産地・織物別の買取相場(20)」セクション新設→第1弾12本+第2弾8本をハブ集約(従来indexに織物が孤立していた問題を解消)
 - sitemap 156→164URL。deploy=kimono-kaitori-biyori-deploy(厳守)・source/deploy両push・本番8本HTTP200/sitemap164をcurl検証済み。GSC再送信予定。次バッチ候補: 米琉/丹後以外のちりめん·村山大島·信州紬·近江上布·各種友禅 等(GSC実証後に伸びる系統を厚く)
+
+## 2026-06-18 戦略②既存6ページ強化＋③持ち込みカニバリ解消✅（MediaXAI「進めてください」承認）
+- 戦略②: 8-25位の地域ページに産地織物/hubへの内部リンク集約（沖縄→紅型bingata/首里織shuri-ori/宮古上布miyako-jofu、徳島→阿波藍染awa-aizome、埼玉→秩父銘仙chichibu-meisen、新潟市→塩沢紬/越後上布/小千谷縮[新潟県の織物と明記]、堺→tsumugi-types/yuzen-types/certificate-guide/obi-priceのhub）。各ページに「○○を代表する織物の買取相場」セクション新設
+- 戦略③: 持ち込みカニバリ解消。mochikomi-kaitoriを「持ち込み買取とは？やり方・流れと店舗/出張/宅配の選び方」=方法/流れハブに再構成(title/h1/desc/OG刷新)し、店舗→tenpo-mochikomi・出張→shutcho-kaitori・宅配→takuhai-kaitoriへ比較リンク。tenpo-mochikomiは「店舗持ち込みおすすめ業者」の受け皿に据え相互リンク。「着物 店舗 持ち込み」の食い合いを役割分担で整理
+- 並列sub-agent6体で実施(架空業者/価格/料金/会社情報は不変更、SoubaNote/デザイン維持)。sitemap lastmod7件更新(164URL不変)。deploy=kimono-kaitori-biyori-deploy厳守・本番200/タイトル/内部リンクをcurl検証・GSC再送信
+- 残: ④相場一次データ化(落札データ定点観測=moat) / ⑤都道府県の店舗データ拡充 / ①産地追補は需要実証後

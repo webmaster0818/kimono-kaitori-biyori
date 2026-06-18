@@ -969,6 +969,17 @@ export default function KagaYuzenPage() {
               </p>
             </Link>
             <Link
+              href="/articles/kanazawa/"
+              className="card hover:border-[#6b4c8a] transition-colors group block"
+            >
+              <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">
+                石川・金沢の着物買取相場
+              </h3>
+              <p className="text-xs text-gray-600">
+                加賀友禅の産地・金沢／石川県の着物買取相場とおすすめ業者を解説。
+              </p>
+            </Link>
+            <Link
               href="/articles/yuki-tsumugi/"
               className="card hover:border-[#6b4c8a] transition-colors group block"
             >
