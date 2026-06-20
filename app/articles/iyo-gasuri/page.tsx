@@ -557,6 +557,36 @@ export default function IyoGasuriPage() {
         </div>
       </section>
 
+      {/* この着物を売るなら（条件別CTA） */}
+      <section className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="bg-[#faf7f3] border border-[#e8ddd0] rounded-xl p-6 md:p-7">
+            <h2 className="text-lg md:text-xl font-bold text-[#6b4c8a] mb-4 flex items-center gap-2">
+              <span className="w-1.5 h-7 bg-[#6b4c8a] rounded-full inline-block" />
+              伊予絣を売るなら｜状況別のおすすめ買取方法
+            </h2>
+            <p className="text-sm text-gray-700 leading-relaxed mb-5">
+              伊予絣は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+            </p>
+            <div className="grid md:grid-cols-2 gap-4">
+              <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
+                <p className="text-xs font-bold text-[#c9a76c] mb-1">証紙あり・作家物・状態が良い</p>
+                <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] text-sm mb-1">複数社の相見積もりで高価買取を狙う</h3>
+                <p className="text-xs text-gray-600">価値の高い伊予絣は業者で査定額の差が出やすいため、おすすめ買取業者ランキングで複数社を比較するのが有利です。</p>
+              </Link>
+              <Link href="/articles/shutcho-kaitori/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
+                <p className="text-xs font-bold text-[#c9a76c] mb-1">証紙なし・状態に不安・他の着物もまとめて</p>
+                <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] text-sm mb-1">出張買取でまとめて査定してもらう</h3>
+                <p className="text-xs text-gray-600">枚数が多い・運ぶのが大変な場合は、自宅で完結する出張買取が便利です。その場で査定額を確認できます。</p>
+              </Link>
+            </div>
+            <p className="text-xs text-gray-500 mt-4">
+              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* 関連ページ */}
       <section className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">
