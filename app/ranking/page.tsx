@@ -199,6 +199,29 @@ export default function RankingPage() {
       </section>
 
       <article className="max-w-4xl mx-auto px-4 py-10 md:py-14">
+        {/* ランキングの選定基準・透明性（E-E-A-T） */}
+        <section className="bg-white border border-[#e8ddd0] rounded-2xl p-6 md:p-7 mb-12">
+          <h2 className="text-base md:text-lg font-bold text-[#6b4c8a] mb-3 flex items-center gap-2">
+            <span className="w-1.5 h-6 bg-[#6b4c8a] rounded-full inline-block" />
+            このランキングの選定基準・作成方針
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            当ランキングは、各社の公式サイト・公開情報をもとに、以下6つの基準で着物買取業者を評価・比較して作成しています。特定の1社に偏らないよう、複数の観点から総合的に判断しています。
+          </p>
+          <div className="grid sm:grid-cols-2 gap-2 mb-4">
+            {["買取方法（出張・宅配・店舗）", "対応エリア", "着物・産地織物への専門性", "手数料・キャンセル料", "口コミ・評判", "買取実績・運営会社の信頼性"].map((c) => (
+              <div key={c} className="flex items-start gap-2 text-sm text-gray-700">
+                <span className="text-[#c9a76c] mt-0.5">&#9670;</span>
+                <span>{c}</span>
+              </div>
+            ))}
+          </div>
+          <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4 text-xs text-gray-600 leading-relaxed">
+            <p className="mb-1"><strong>情報の確認日：</strong>2026年4月時点。各社のサービス内容・手数料は変更される場合があるため、最新情報は各公式サイトでご確認ください。</p>
+            <p><strong>広告について：</strong>当サイトは一部の買取業者と広告提携を行っており、リンク経由の申込で報酬を受け取る場合があります。ただし、報酬の有無や金額が評価・順位に影響することはなく、上記の基準にもとづき公平に比較しています。</p>
+          </div>
+        </section>
+
         {/* 目次 */}
         <nav className="bg-[#faf8f5] border border-[#e8ddd0] rounded-2xl p-6 md:p-8 mb-12">
           <p className="text-base font-bold text-gray-900 mb-4 flex items-center gap-2">
