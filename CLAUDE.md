@@ -34,3 +34,10 @@
 - ④reviews: 既に各社メリット/デメリット完備(buysell1002行・デメリット4件等)で「向く人/向かない人」は実質カバー済み→保護ページを不必要に触らない判断(架空の悪い口コミ作成回避)
 - ⑤内部リンク: 産地→ranking(CTA経由3)・ranking→reviews(5社)・産地⇔地域 既に整備済。産地→reviewsはCTA→ranking→reviewsの経路で充足
 - 本番200/透明性ボックス・広告表記をcurl検証。フェーズ0完了。次フェーズ候補: ①11-25位刈り取り(GSC API実データで) / ⑤相場一次データ化(落札データ取得方針の決め要)
+
+## 2026-06-23 ①刈り取り着手（MediaXAI「①⑤進めましょう」承認・taro=1490876976100278373と訂正受領）
+- GSC API直取得(gsc-api/gsc_query.py新規作成・sc-domain:kimonokaitori-biyori.com・90日)で11-25位コホート抽出。産地織物が勝ち筋を再確認: bingata紅型11.9/tanmono反物11.7/iyo-gasuri伊予絣11.8/tensan天蚕紬12.3/miyako-jofu宮古上布12.7/hakata-ori博多織13.9/kaga-yuzen加賀友禅17.3/shiozawa塩沢紬20.1。クエリは「◯◯ 買取」が中心
+- 重要発見: 専門織物ページは既に地域ページより上位(紅型 bingata11.9<okinawa19.3 / 天蚕紬 tensan12.3<nagano24.9 / 伊予絣 iyo-gasuri11.8<ehime15.2)＝「正しいページが勝っている」。かつ産地織物ページは証紙/作家/相場/FAQ完備済で内容は十分→①の本丸はカニバリのシグナル集約とCTR
+- 実施(低リスク高確度): カニバリ集約の欠落リンク2件を追加(nagano→tensan-tsumugi、ehime→iyo-gasuri。okinawa→bingataは既存)。地域ページの織物言及から専門ページへ内部リンクを通し、専門ページに評価を一本化。架空データ/料金/業者文言不変更・SoubaNote維持
+- build167/sitemap lastmod2件(164不変)。deploy=kimono-kaitori-biyori-deploy両push・本番リンク/送客先200をcurl検証
+- ※サイトはまだ最初期(90日でimp数十/click僅少)のため①のCTR改善は漸進的。最大レバーは⑤相場一次データ化(moat)だが落札データ取得方針(A手動収集/Bオークファン引用/C提供)の決定待ち。残①候補: 残る11-20位織物のタイトル微調整・freshness
