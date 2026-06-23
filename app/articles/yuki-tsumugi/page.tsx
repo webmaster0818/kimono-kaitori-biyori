@@ -491,6 +491,108 @@ export default function YukiTsumugiPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの結城紬のリアルな落札相場
+          </h2>
+          <div className="space-y-4 text-sm md:text-base leading-relaxed">
+            <p>
+              ここで紹介するのは<strong>買取相場ではなく、公開オークションで実際に売買された&ldquo;実売価格&rdquo;の集計</strong>です。前章までの「買取相場」が業者による査定額の目安であるのに対し、こちらは現実の市場でいくらで取引が成立したかを示すデータになります。買取価格と実売価格は別物であることを踏まえたうえで、価格帯の&ldquo;幅&rdquo;を知る参考としてご覧ください。
+            </p>
+          </div>
+
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">
+                    区分
+                  </th>
+                  <th className="px-4 py-3 text-left font-semibold">
+                    平均落札価格
+                  </th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">
+                    最高落札価格
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">
+                    本場結城紬（全般）
+                  </td>
+                  <td className="px-4 py-3 font-medium">約17,884円</td>
+                  <td className="px-4 py-3 text-gray-700">269,000円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">
+                    本場結城紬 100亀甲
+                  </td>
+                  <td className="px-4 py-3 font-medium">約28,738円</td>
+                  <td className="px-4 py-3 text-gray-700">198,000円</td>
+                </tr>
+                <tr className="bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">
+                    本場結城紬 着物
+                  </td>
+                  <td className="px-4 py-3 font-medium">約16,851円</td>
+                  <td className="px-4 py-3 text-gray-700 rounded-br-lg">
+                    181,000円
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E6%9C%AC%E5%A0%B4%E7%B5%90%E5%9F%8E%E7%B4%AC/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション 落札相場（本場結城紬）
+            </a>
+            （2026年6月取得）／参考：
+            <a
+              href="https://aucfan.com/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              オークファン集計
+            </a>
+            では結城紬全般の平均 約34,371円、結城玉紬の平均 約8,805円。
+          </p>
+
+          <div className="mt-6 bg-[#fdf6f3] border border-[#e0b9a8] rounded-xl p-5">
+            <h3 className="font-bold text-[#b5532f] mb-2 text-base flex items-center gap-2">
+              <span>&#9888;</span>
+              実売データをご覧いただくうえでの注意
+            </h3>
+            <p className="text-sm leading-relaxed text-gray-700">
+              上記は公開オークションで実際に売買された&ldquo;実売価格&rdquo;の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。1円〜の極端な安値は証紙なし・状態不良・入札不成立に近い例も含むため、価格帯の&ldquo;幅&rdquo;の参考としてご覧ください。金額は取得時点のもので相場は時期・状態・証紙・亀甲の細かさで大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ＜調査方法＞本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年6月）。
+          </p>
+
+          <div className="mt-6 bg-[#faf7f3] border border-[#e8ddd0] rounded-xl p-5">
+            <p className="text-sm leading-relaxed text-gray-700">
+              実売価格と買取価格の差を踏まえ、お手持ちの結城紬を有利に手放すなら、複数の専門業者で査定額を比較するのが確実です。
+              <Link href="/ranking/" className="text-[#6b4c8a] font-semibold hover:underline ml-1">
+                着物買取おすすめランキングで複数社を比較する
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* 亀甲の細かさと価値 */}
       <section id="kikko" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">
