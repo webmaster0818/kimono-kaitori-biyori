@@ -430,7 +430,7 @@ export default function OshimaTsumugiPage() {
           </div>
 
           <p className="text-xs text-gray-500 mt-4">
-            ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年6月）。
+            ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年6月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
           </p>
 
           <div className="mt-6">

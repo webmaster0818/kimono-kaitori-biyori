@@ -613,6 +613,44 @@ export default function KyoYuzenPage() {
       </section>
 
       {/* FAQ */}
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの京友禅（反物）のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-4 leading-relaxed">
+            以下は買取相場ではなく、公開オークション（Yahoo!オークション）で実際に売買された「実売価格」の集計です。リアルな取引価格帯の参考としてご覧ください。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead><tr className="bg-[#6b4c8a] text-white">
+                  <th className="border border-[#e8ddd0] px-3 py-2 text-left">区分</th>
+                  <th className="border border-[#e8ddd0] px-3 py-2 text-left">平均落札価格</th>
+                  <th className="border border-[#e8ddd0] px-3 py-2 text-left">最高落札価格</th>
+              </tr></thead>
+              <tbody>
+                  <tr><td className="border border-[#e8ddd0] px-3 py-2">京友禅 反物</td><td className="border border-[#e8ddd0] px-3 py-2">約8,701円</td><td className="border border-[#e8ddd0] px-3 py-2">33,000円</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-2">
+            出典：<a href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E4%BA%AC%E5%8F%8B%E7%A6%85%20%E5%8F%8D%E7%89%A9/0/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">Yahoo!オークション 落札相場</a>（2026年6月取得）。これは反物の例で、新品の小売価格（数十万円〜）とは大きく異なります
+          </p>
+          <div className="bg-[#fdf6f6] border border-[#e8b4b4] rounded-lg p-4 mt-5 text-sm text-gray-700 leading-relaxed">
+            <p className="font-bold text-[#b5402f] mb-1">※実売価格と買取価格の違い</p>
+            上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。1円〜の極端な安値は証紙なし・状態不良・入札不成立に近い例も含むため、価格帯の“幅”の参考としてご覧ください。京友禅は手描きか型友禅か・作家・証紙の有無で価値が大きく変わります。金額は取得時点のもので、相場は時期・状態により変動し、査定額を保証するものではありません。
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年6月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+          <div className="mt-5">
+            <Link href="/ranking/" className="text-[#6b4c8a] underline font-medium">証紙・作家物がそろうなら、複数社の相見積もり（おすすめランキング）で最も高い1社を選ぶのが確実です →</Link>
+          </div>
+        </div>
+      </section>
+
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
