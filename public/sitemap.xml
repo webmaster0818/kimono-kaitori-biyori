@@ -79,14 +79,32 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://kimonokaitori-biyori.com/articles/tomesode/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kimonokaitori-biyori.com/articles/houmongi/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://kimonokaitori-biyori.com/articles/houmongi-tomesode/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kimonokaitori-biyori.com/articles/obi-price/</loc>
     <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kimonokaitori-biyori.com/articles/fukuro-obi/</loc>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -170,7 +188,7 @@
   </url>
   <url>
     <loc>https://kimonokaitori-biyori.com/articles/souba-method/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -164,6 +164,19 @@ export default function HoumongiTomesodePage() {
         </div>
       </section>
 
+      {/* 個別ページへの導線 */}
+      <section className="py-6">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="rounded-lg border border-[#e8ddd0] bg-[#faf7f2] p-4 md:p-5 text-sm text-gray-700">
+            このページは訪問着・留袖をまとめて解説しています。それぞれの詳しい買取相場（公開オークションの実売データ付き）は
+            <Link href="/articles/houmongi/" className="text-[#6b4c8a] underline font-medium">訪問着の買取相場</Link>
+            ・
+            <Link href="/articles/tomesode/" className="text-[#6b4c8a] underline font-medium">留袖（黒留袖・色留袖）の買取相場</Link>
+            の各専用ページをご覧ください。
+          </div>
+        </div>
+      </section>
+
       {/* 目次 */}
       <section className="py-10">
         <div className="max-w-4xl mx-auto px-4">

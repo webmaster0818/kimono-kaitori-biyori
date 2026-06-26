@@ -25,6 +25,9 @@ const dataPages = [
   { name: "牛首紬", href: "/articles/ushikubi-tsumugi/" },
   { name: "振袖", href: "/articles/furisode/" },
   { name: "京友禅", href: "/articles/kyo-yuzen/" },
+  { name: "訪問着", href: "/articles/houmongi/" },
+  { name: "袋帯", href: "/articles/fukuro-obi/" },
+  { name: "留袖（黒留袖・色留袖）", href: "/articles/tomesode/" },
 ];
 
 const breadcrumbStructuredData = {
