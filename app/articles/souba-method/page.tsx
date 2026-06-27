@@ -28,6 +28,7 @@ const dataPages = [
   { name: "訪問着", href: "/articles/houmongi/" },
   { name: "袋帯", href: "/articles/fukuro-obi/" },
   { name: "留袖（黒留袖・色留袖）", href: "/articles/tomesode/" },
+  { name: "色無地", href: "/articles/iromuji/" },
 ];
 
 const breadcrumbStructuredData = {
