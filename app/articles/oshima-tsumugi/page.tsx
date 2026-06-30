@@ -441,6 +441,51 @@ export default function OshimaTsumugiPage() {
         </div>
       </section>
 
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ大島紬でも、証紙の有無・保存状態・仕立ての状態によって査定額は大きく変わります。種類（泥染め・藍・白・色）が同じでも、下表のような条件で評価が上下します。前述の実売データの“幅”も、多くはこの状態差によって生まれています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（地球印・旗印）", "◎ 大きくプラス", "本場大島紬の証明。証紙があると産地・品質が明確になり評価が安定します。"],
+                  ["証紙なし", "△ 下がりやすい", "本場か類似品かの判別が難しく、慎重な査定になりがち。たとう紙や落款など他の手がかりが重要に。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみなら特に有利です。"],
+                  ["美品（着用少・難なし）", "○ 良好", "目立つシミ・スレがなければ安定した評価が期待できます。"],
+                  ["仕立て上がり（着用あり）", "○〜△", "サイズや着用感で変動。裄・身丈が大きめだと現代向けで有利、寸法が小さいと下がる場合も。"],
+                  ["反物（未仕立て）", "○ 評価されやすい", "仕立て前は好みのサイズに仕立てられるため需要が広く、評価されやすい傾向。"],
+                  ["シミ・カビ・スレ・変色あり", "△ マイナス", "状態不良は減額対象。難の程度・範囲によって幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                  ["作家物・有名工房（落款あり）", "◎ 大きくプラス", "都喜ヱ門など有名作家・名門工房は別格の評価。証紙・落款で確認できます。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* 作家物 */}
       <section id="artist" className="py-10">
         <div className="max-w-4xl mx-auto px-4">

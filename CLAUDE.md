@@ -67,3 +67,9 @@
 - 訪問着(/articles/houmongi/)・袋帯(/articles/fukuro-obi/)・留袖(/articles/tomesode/)を新設(各520-601行・furisodeテンプレ踏襲・並列agent3体)。各々: 結論/格・種類/価値が決まるポイント/高く売るコツ/FAQ schema/SoubaNote/ranking送客＋【実売データ】(Yahoo!落札相場・出典/取得日付き): 訪問着平均約3,747円(約6,308件)、袋帯平均約5,480円/最高798,800円・正絹逸品4,217・仕立上り5,053、黒留袖平均約3,938円/最高43,544(180日140件)・未使用3,854。買取の具体円テーブルは捏造せず質的説明+SoubaNote
 - souba-methodハブに訪問着を補完(並列agentのsitemap/souba競合で欠落→host側で決定的に補完[[reference_parallel_agents_shared_file_race]])。既存houmongi-tomesode(複合)冒頭から2専用ページへ導線=カニバリ緩和
 - 実売データ掲載=計10品目(大島/結城/加賀友禅/西陣/牛首/振袖/京友禅/訪問着/袋帯/留袖)。build171/sitemap168(3追加・重複なし)・deploy両push・本番curl検証。残: 大島/結城の状態別深掘り・他item細分化
+
+## 2026-06-27 色無地(iromuji)専用ページ新設（MediaXAI「次の候補進めて」）✅
+- /articles/iromuji/ 新設(houmongiテンプレ厳密踏襲・単一background agent生成→shared file競合回避)。結論/格(紋なし・一つ紋・三つ紋)/価値6ポイント(地紋・染め・白生地作家性・紋正絹・証紙落款染め替え・状態)/慶弔両用・茶道需要/高く売る5コツ/FAQ schema/SoubaNote/ranking送客
+- 【実売データ】Yahoo!落札相場(出典URL/取得日2026年6月・全実数値): 色無地全般 約10,374件/平均約3,913円/最高165,000、正絹色無地 約10,017件/平均約4,118/最高143,000、色無地反物 約661件/平均約6,019/最高43,786。実売≠買取査定額の注記必須・架空の買取円テーブル/口コミ無し
+- souba-methodハブに11件目として追加(host側で決定的に反映[[reference_parallel_agents_shared_file_race]])・sitemap168→169(重複なし)。実売データ掲載=計11品目。deploy=kimono-kaitori-biyori-deploy両push・本番200/sitemap/ハブリンクcurl検証
+- 残: 大島/結城の状態別深掘り(小紋=komon-tsukesage既出・名古屋帯=nagoya既出)

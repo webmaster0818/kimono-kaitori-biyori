@@ -593,6 +593,51 @@ export default function YukiTsumugiPage() {
         </div>
       </section>
 
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・本場か・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ結城紬でも、証紙「結」マークの有無・本場か一般（石下など）か・保存状態によって査定額は大きく変わります。前述の実売データの“幅”も、その多くはこうした状態・条件の差から生まれています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙「結」マークあり", "◎ 大きくプラス", "本場結城紬卸商協同組合の品質証明。本場であること・織り方（地機/高機）が明確になり評価が安定します。"],
+                  ["証紙なし", "△ 下がりやすい", "本場か一般かの判別が難しく慎重な査定に。たとう紙・落款など他の手がかりが重要になります。"],
+                  ["本場結城紬（糸つむぎ・絣くくり・地機織りの3工程）", "◎ 別格", "国の重要無形文化財・ユネスコ無形文化遺産。手仕事の本場品は最上位の評価です。"],
+                  ["一般結城紬（石下結城など・機械併用）", "○〜△", "本場より手間が少なく、買取価格は本場結城紬より下がる傾向です。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみなら特に有利です。"],
+                  ["古い結城紬（ヴィンテージ・状態良）", "○ 需要あり", "「着るほど味が出る」と評され、昭和期以前の本場品はコレクター需要も。状態が良ければ評価されます。"],
+                  ["シミ・カビ・大きな難あり", "△ マイナス", "状態不良は減額対象。自己クリーニングは避け、現状のまま査定に出すのが無難です。"],
+                  ["亀甲が細かい（160・200亀甲）・作家物", "◎ 大きくプラス", "細かい亀甲ほど手間と希少性が高く、有名作家物とともに別格の評価になります。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「本場か一般か不明」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* 亀甲の細かさと価値 */}
       <section id="kikko" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">
