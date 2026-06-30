@@ -581,6 +581,51 @@ export default function UshikubiTsumugiPage() {
         </div>
       </section>
 
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ牛首紬でも、証紙の有無・保存状態・仕立ての状態によって査定額は大きく変わります。牛首紬は「釘抜紬」と呼ばれるほど丈夫で状態が保たれやすい織物ですが、下表のような条件で評価が上下します。前述の実売データの“幅”も、多くはこの状態差によって生まれています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（牛首紬の証紙）", "◎ 大きくプラス", "石川県・白山麓産の本物の牛首紬であることが明確になり、評価が安定します。織元や産地証明の証紙があると有利です。"],
+                  ["証紙なし", "△ 下がりやすい", "産地・真贋の判別が難しくなり、慎重な査定になりがち。たとう紙や織元の落款など他の手がかりが重要に。"],
+                  ["作家物・有名工房（白山工房など）", "◎ 別格", "白山工房や加藤改石（加藤機業場）などの織元・名門工房の証紙・落款があると、別格の評価につながります。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみなら特に有利です。"],
+                  ["美品（着用少・難なし）", "○ 良好", "牛首紬は「釘抜紬」と呼ばれ丈夫で状態が保たれやすく、目立つシミ・スレがなければ安定した評価が期待できます。"],
+                  ["仕立て上がり（着用あり）", "○〜△", "サイズや着用感で変動。裄・身丈が大きめだと現代向けで有利、寸法が小さいと下がる場合も。"],
+                  ["シミ・カビ・変色あり", "△ マイナス", "状態不良は減額対象。難の程度・範囲によって幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                  ["柄・絣（無地・色無地系より）", "評価されやすい", "希少な柄や手の込んだ絣のものは、無地系より評価されやすい傾向があります。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">

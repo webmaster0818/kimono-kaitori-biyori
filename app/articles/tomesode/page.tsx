@@ -422,6 +422,51 @@ export default function TomesodePage() {
         </div>
       </section>
 
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（紋・作家・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ留袖でも、紋の格・作家や証紙の有無・加飾の質・保存状態によって査定額は大きく変わります。黒留袖は既婚女性の第一礼装、色留袖は紋数次第で第一礼装〜準礼装として着られますが、いずれも下表のような条件で評価が上下します。前述の実売データの“幅”も、多くはこの状態差によって生まれています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["五つ紋・染め抜き日向紋（正式な格）", "◎ 評価されやすい", "背・両胸・両袖の5か所に正式な染め抜き日向紋が入ったものは最礼装としての格が明確で、評価が安定しやすい状態です。"],
+                  ["作家物・落款あり", "◎ 別格", "有名な友禅作家や老舗工房が手がけた留袖は別格の評価。落款（作家のサイン・印）があると作り手を裏づけられ、家紋入りでも相応に評価されることがあります。"],
+                  ["金彩・刺繍・絵羽が上質／比翼仕立て", "◎ 加飾の質が左右", "手の込んだ総刺繍や繊細な金彩・絵羽模様、格を示す比翼仕立てなど、加飾の質と量が価値を大きく左右します。上質なものほど高評価につながります。"],
+                  ["産地・染めの証紙あり", "○〜◎", "産地や織元・染元を示す証紙が残っていると品質や来歴を確認しやすく、査定の信頼性が高まります。たとう紙や証明書も合わせて保管を。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "しつけ糸が付いた未使用品は最も高くなりやすい状態。保管ジワのみで難がなければ特に有利です。"],
+                  ["美品（着用少・難なし）", "○ 良好", "目立つシミ・カビ・変色がなく着用が少ないものは安定した評価が期待できます。"],
+                  ["仕立て上がり（裄・身丈などサイズ）", "○〜△", "サイズや着用感で変動します。裄・身丈が現代向けの寸法だと有利、寸法が小さいものは下がりやすい傾向です。"],
+                  ["シミ・金彩や刺繍の劣化・変色・古い柄", "△ マイナス", "黒留袖は流行に左右されにくい一方、シミ・カビ・変色や金彩・刺繍の劣化があると減額対象に。難の程度・範囲で幅が出ます。自己クリーニングは避け現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙・落款なし」「難あり」「紋の入れ替えが必要な家紋入り」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

@@ -503,6 +503,51 @@ export default function HoumongiPage() {
         </div>
       </section>
 
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（作家・正絹・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ訪問着でも、作家・素材（正絹か化繊か）・加飾の質・保存状態・仕立てのサイズによって査定額は大きく変わります。下表のような条件で評価が上下するため、前述の実売データの“幅”も、多くはこの状態差によって生まれています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["作家物・落款あり", "◎ 別格", "著名作家の手描き友禅など、作家性が確かなものは別格の評価。落款（作家のサイン・印）で確認できます。"],
+                  ["産地・染めの証紙あり（加賀友禅・京友禅等）", "○〜◎", "産地や染めの技法を証明する証紙があると、品質の裏付けとなり評価が上がりやすくなります。"],
+                  ["正絹で絵羽・金彩・刺繍が上質", "◎ 高評価", "縫い目をまたいでつながる絵羽模様や、手の込んだ金彩・刺繍などの加飾が上質なものは価値が高くなります。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。しつけ糸が付いたままなら特に有利です。"],
+                  ["美品（着用少・難なし）", "○ 良好", "目立つシミ・スレ・変色がなければ安定した評価が期待できます。"],
+                  ["仕立て上がり（裄・身丈などサイズ）", "○〜△", "サイズで変動。裄・身丈が大きめだと現代向けで有利、寸法が小さいと着られる人が限られ下がる場合も。"],
+                  ["シミ・金彩や刺繍の劣化・変色・古い柄", "△ マイナス", "シミ・カビや加飾の劣化・変色、流行を過ぎた古い柄は減額対象。自己クリーニングは避け、現状のまま査定へ。"],
+                  ["ポリエステル等の化繊", "△ 下がりやすい", "正絹に比べて大幅に評価が下がり、買取対象外となる業者も多いのが実情です。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「化繊」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

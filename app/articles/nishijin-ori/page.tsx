@@ -600,6 +600,51 @@ export default function NishijinOriPage() {
         </div>
       </section>
 
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・織元・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ西陣織の帯でも、証紙の有無・織元・保存状態によって査定額は大きく変わります。種類（袋帯・名古屋帯など）が同じでも、下表のような条件で評価が上下します。前述の実売データの“幅”も、多くはこの状態差・証紙差によって生まれています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（西陣織工業組合の証紙・織屋番号）", "◎ 大きくプラス", "メガネ型証紙と生産者番号があると、本物の西陣織であることと織元が明確になり、評価が安定します。"],
+                  ["証紙なし", "△ 下がりやすい", "西陣織か否か・どの織元かの判別が難しく、慎重な査定になりがち。たとう紙や箱に証紙が残っていないか確認を。"],
+                  ["有名織元（川島織物・龍村美術織物など）", "◎ 別格", "名門織元の帯は別格の評価を受けやすく、証紙・織ネームで確認できます。"],
+                  ["袋帯（フォーマル需要）", "○〜◎ 安定", "礼装・準礼装に用いる袋帯は需要が安定しており、格調高い古典柄ほど評価されやすい傾向です。"],
+                  ["未使用・美品", "◎/○ 高評価", "締めジワや汚れのない未使用・美品は最も高くなりやすい状態。保管ジワのみなら有利です。"],
+                  ["金銀箔のスレ・劣化・シミ・折りジワ", "△ マイナス", "箔や金銀糸の傷み・変色、シミ、強い折りジワは減額対象。難の程度・範囲で幅があります。"],
+                  ["全通柄（柄が全体に通る）", "○ 加点", "六通柄より柄付けの手間がかかるため、全通柄は評価されやすい傾向があります。"],
+                  ["正絹であること", "◎/○ 前提", "正絹であることが評価の前提。化繊・ポリエステルの帯は正絹より大幅に評価が下がります。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">

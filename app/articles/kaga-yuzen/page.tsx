@@ -960,6 +960,51 @@ export default function KagaYuzenPage() {
         </div>
       </section>
 
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・落款・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ加賀友禅でも、加賀友禅証紙・作家の落款の有無、保存状態、仕立ての状態によって査定額は大きく変わります。作家や種類が同じでも、下表のような条件で評価が上下します。前述の実売データの“幅”も、多くはこの状態差によって生まれています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["加賀友禅証紙・落款登録の証紙あり", "◎ 大きくプラス", "加賀染振興協会の証紙や作家の落款登録により「本加賀友禅」であることが証明され、産地・作家が明確になって評価が安定します。"],
+                  ["証紙・落款なし", "△ 下がりやすい", "本加賀友禅か「加賀調（加賀友禅風）」かの判別が難しく、慎重な査定になりがち。たとう紙や購入時の資料など他の手がかりが重要に。"],
+                  ["有名作家・落款あり", "◎ 別格", "著名作家の作品は別格の評価になりやすく、落款と証紙で作家を特定できると高額査定につながります。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみなら特に有利です。"],
+                  ["美品（着用少・難なし）", "○ 良好", "目立つシミ・スレ・変色がなければ安定した評価が期待できます。"],
+                  ["仕立て上がり（着用あり）", "○〜△", "サイズや着用感で変動。裄・身丈が大きめだと現代向けで有利、寸法が小さいと下がる場合も。"],
+                  ["シミ・金彩や刺繍の劣化・変色あり", "△ マイナス", "手描き友禅の繊細な染めや加飾の傷み・褪色は減額対象。難の程度・範囲で幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                  ["ポリエステル等の「加賀友禅風」", "△", "正絹の本加賀友禅とは価値が大きく異なります。プリントや化繊の加賀調は、手描きの本加賀友禅と区別して評価されます。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
