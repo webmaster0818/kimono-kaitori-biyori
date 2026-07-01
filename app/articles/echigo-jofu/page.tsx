@@ -569,6 +569,135 @@ export default function EchigoJofuPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの越後上布のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。越後上布は出品数自体が少なく、本製・一般品・状態が入り混じるため、価格帯は大きくばらつきます。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">越後上布（全般）</td>
+                  <td className="px-4 py-3 font-medium">約28,851円</td>
+                  <td className="px-4 py-3 font-medium">660,000円</td>
+                </tr>
+                <tr className="bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">越後上布 反物</td>
+                  <td className="px-4 py-3 font-medium">約53,545円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">331,100円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E8%B6%8A%E5%BE%8C%E4%B8%8A%E5%B8%83/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション 落札相場「越後上布」
+            </a>
+            ／
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E8%B6%8A%E5%BE%8C%E4%B8%8A%E5%B8%83%20%E5%8F%8D%E7%89%A9/2084005204/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「越後上布 反物」
+            </a>
+            （2026年7月取得）
+            <br />
+            参考：
+            <a
+              href="https://aucfan.com/intro/q-~b1dbb8e5bee5c9db/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              オークファン（aucfan）
+            </a>
+            の集計では、直近30日の落札は10件・平均約10,642円と出品数が少なく、時期によって相場が大きく動きます。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。100円〜の極端な安値は本製でない一般的な麻織物・証紙なし・状態不良・入札不成立に近い例も含み、数十万円の高値は状態良好な本製の反物などごく一部です。越後上布は出品数が少ないため平均値の振れも大きく、価格帯の“幅”の参考としてご覧ください。金額は取得時点のもので、相場は時期・状態・証紙・本製かどうかで大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              証紙あり・本製の越後上布は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・本製・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ越後上布でも、証紙の有無・本製かどうか・保存状態・仕立ての状態によって査定額は大きく変わります。前述の実売データの“幅”も、多くはこうした状態差から生まれています。とくに麻織物はシミ・黄ばみ・カビが出やすく、状態の良し悪しが価値に直結します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（保存協会等の証明）", "◎ 大きくプラス", "越後上布・小千谷縮布技術保存協会などの証票や産地組合の証紙は、本製・産地を示す最も重要な手がかり。評価が安定します。"],
+                  ["証紙なし", "△ 下がりやすい", "本製か一般的な麻織物かの判別が難しく、慎重な査定になりがち。たとう紙・購入時の証書など他の手がかりが重要に。"],
+                  ["本製（苧麻手績み・手くびり・地機の手仕事）", "◎ 別格", "苧麻の手績み糸・手くびりの絣・いざり機（地機）・雪さらしによる本製は希少。古法を伝える本物として最も高く評価されやすい状態です。"],
+                  ["重文・ユネスコの価値を持つ本物", "○〜◎ 高評価", "1955年の重要無形文化財、2009年のユネスコ無形文化遺産に連なる本製品は、産地織物に詳しい業者ほど価値を正しく汲み取ります。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみなら特に有利です。"],
+                  ["美品（着用少・難なし）", "○ 良好", "目立つシミ・黄ばみ・折りジワがなければ安定した評価が期待できます。"],
+                  ["仕立て上がり（サイズ）", "○〜△", "裄・身丈が現代向けの大きめだと有利、寸法が小さいと下がる場合も。夏物のため需要期も影響します。"],
+                  ["シミ・カビ・難あり", "△ マイナス", "麻は経年でシミ・黄ばみ・カビが出やすく、これらは減額対象。難の程度・範囲で幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">

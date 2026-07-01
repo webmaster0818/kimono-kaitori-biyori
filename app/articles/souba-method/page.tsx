@@ -29,6 +29,9 @@ const dataPages = [
   { name: "袋帯", href: "/articles/fukuro-obi/" },
   { name: "留袖（黒留袖・色留袖）", href: "/articles/tomesode/" },
   { name: "色無地", href: "/articles/iromuji/" },
+  { name: "米沢織（置賜紬）", href: "/articles/yonezawa-ori/" },
+  { name: "丹後ちりめん", href: "/articles/tango-chirimen/" },
+  { name: "越後上布", href: "/articles/echigo-jofu/" },
 ];
 
 const breadcrumbStructuredData = {

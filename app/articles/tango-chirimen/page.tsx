@@ -522,6 +522,131 @@ export default function TangoChirimenPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの丹後ちりめんのリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。丹後ちりめんは後染め用の白生地としての出品が多く、施された染めの有無や状態で価格差が大きい点にご注意ください。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">丹後ちりめん 反物</td>
+                  <td className="px-4 py-3 font-medium">約7,012円</td>
+                  <td className="px-4 py-3 font-medium">89,650円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">丹後ちりめん 着物</td>
+                  <td className="px-4 py-3 font-medium">約6,611円</td>
+                  <td className="px-4 py-3 font-medium">188,000円</td>
+                </tr>
+                <tr className="bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">丹後ちりめん 正絹 白生地 反物</td>
+                  <td className="px-4 py-3 font-medium">約7,497円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">－</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E4%B8%B9%E5%BE%8C%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%20%E5%8F%8D%E7%89%A9/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション 落札相場「丹後ちりめん 反物」
+            </a>
+            （2026年7月取得）
+            <br />
+            参考：
+            <a
+              href="https://aucfan.com/intro/q-~c3b0b8e5a4c1a4eaa4e1a4f320c8bfcaaa/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              オークファン（aucfan）
+            </a>
+            の集計では、直近90日の「丹後ちりめん 反物」は約289件が落札され、平均落札価格は約5,817円となっています。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。丹後ちりめんは後染め用の白生地であるため、染め前の白生地・反物と、友禅などの染めが施された着物とでは価格帯が大きく異なります。1円〜の極端な安値は状態不良・入札不成立に近い例も含むため、価格帯の“幅”の参考としてご覧ください。金額は取得時点のもので、相場は時期・状態・染め・仕立てで大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              上質な友禅・訪問着に仕立てられた丹後ちりめんは査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・染め・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            丹後ちりめんは後染め用の白生地としての性格が強く、価値は「何にどう染められ、仕立てられているか」と状態で大きく変わります。証紙の有無・染めの質・保存状態によって評価が上下します。前述の実売データの“幅”も、多くはこうした条件差から生まれています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（丹後織物工業組合の証紙）", "◎ 大きくプラス", "産地・品質を示す白生地の証紙。丹後ちりめんであることが明確になり、評価が安定しやすくなります。たとう紙や反物の端に残っていないか確認を。"],
+                  ["証紙なし", "△ 下がりやすい", "産地の証明が難しく、一般的な縮緬地として扱われがち。染め元・作家の落款など他の手がかりが重要になります。"],
+                  ["友禅・染め加工が上質な染め上がり品", "◎ 大きくプラス", "有名作家の友禅や格の高い染めが施されていれば別格の評価。白生地の価値より“何に染められたか”が価格を大きく左右します。"],
+                  ["白生地（未加工）", "○ 染め次第", "染め前の白生地・反物は好みに染め・仕立てできるため一定の需要があります。ただし価値は今後の染め次第で、それ自体が高額になりにくい面もあります。"],
+                  ["正絹（絹100%）", "◎ 評価されやすい", "丹後ちりめんは正絹が基本。化繊のちりめん（洋装・小物用）は大幅に評価が下がるため、素材の見極めが重要です。"],
+                  ["未使用の反物・しつけ糸付き", "◎ 高評価", "染め・仕立て済みで未着用、しつけ糸付きは高くなりやすい状態。保管ジワのみなら特に有利です。"],
+                  ["仕立て上がり（サイズ・着用あり）", "○〜△", "サイズや着用感で変動。裄・身丈が大きめだと現代向けで有利、寸法が小さい・着用感があると下がる場合も。"],
+                  ["シミ・変色・カビ・難あり", "△ マイナス", "シボのある縮緬地は湿気に弱く、シミ・ヤケ・カビが出やすい素材。状態不良は減額対象で、難の程度・範囲によって幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・染めの内容・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">
