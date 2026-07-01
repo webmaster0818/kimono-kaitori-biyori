@@ -651,6 +651,51 @@ export default function KyoYuzenPage() {
         </div>
       </section>
 
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・作家・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ京友禅でも、証紙・落款の有無、手描きか量産型か、正絹か化繊か、保存状態や仕立ての状態によって査定額は大きく変わります。前述の実売データに見られる価格の“幅”も、多くはこうした条件差から生まれています。下表は一般的な評価傾向を整理したものです。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（京友禅証紙・伝統証紙など）", "◎ 大きくプラス", "京都手描友禅や産地・技法を証明する証紙があると、京友禅であることが裏付けられ評価が安定します。"],
+                  ["証紙・落款なし", "△ 下がりやすい", "京都産の友禅か類似品かの判別が難しく、慎重な査定になりがち。たとう紙や箱など他の手がかりが重要になります。"],
+                  ["有名作家・落款あり", "◎ 別格", "重要無形文化財保持者（人間国宝）や著名作家の落款・銘があると別格の評価を受けやすい傾向です。証紙・落款で確認できます。"],
+                  ["手描友禅", "◎ 高評価", "筆で色を挿す手描きは手間がかかり高く評価されやすい傾向。型友禅やインクジェット等の量産型は評価が下がりやすくなります。"],
+                  ["正絹で金彩・刺繍が上質", "◎ 高評価", "正絹地に上質な金彩・刺繍が施された絢爛な仕上がりは、京友禅らしい価値として評価されやすい傾向です。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみなら特に有利です。"],
+                  ["美品／仕立て上がり（着用あり）", "○／○〜△", "目立つ難がなければ安定した評価が期待できます。仕立て上がりは裄・身丈などサイズで変動し、寸法が小さいと下がる場合も。"],
+                  ["シミ・劣化・変色／化繊", "△ マイナス", "シミ・褪色・金彩のはがれは減額対象。またポリエステル等の化繊による「京友禅風」は、正絹の京友禅とは価値が大きく異なります。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙・落款なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">

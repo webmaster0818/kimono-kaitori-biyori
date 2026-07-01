@@ -577,6 +577,51 @@ export default function IromujiPage() {
         </div>
       </section>
 
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（紋・素材・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ色無地でも、紋の有無や入れ方・素材（正絹か化繊か）・白生地の質・保存状態によって査定額は大きく変わります。色無地は黒以外の一色で染めた着物で、紋を入れると略礼装〜礼装として格が上がり、紋なしはおしゃれ着寄りになります。前述の実売データの“幅”も、多くはこうした条件の差から生まれています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["一つ紋・三つ紋入り", "◎〜○ プラス", "紋が入ると格が上がり、慶弔両用や式典で着られるため需要があります。紋の数と入れ方（染め抜き紋か縫い紋か）で格が変わり、評価も上下します。"],
+                  ["紋なし", "○〜△", "略礼装〜普段寄りの扱いで、紋入りに比べると評価は控えめになりがち。ただし帯次第で幅広く着られる汎用性は残ります。"],
+                  ["証紙付き・作家物の白生地", "○〜◎ プラス", "有名産地の白生地や染め作家の落款・証紙があると、生地と染めの質の裏付けとなり評価が上がりやすくなります。"],
+                  ["凝った地紋・良質な染めの色", "○ 加点", "綸子・緞子・紋意匠などの上質な地紋や、発色のよい上品な染めは加点要素。無地ゆえに生地と染めの質がそのまま評価に出ます。"],
+                  ["正絹であること", "◎", "正絹（シルク100%）は評価の前提。ポリエステルなどの化繊は大幅に評価が下がり、値がつきにくくなります。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみで難がなければ特に有利です。"],
+                  ["美品／仕立て上がり", "○／○〜△", "美品は安定した評価。仕立て上がりはサイズや染め替えの可否で変動し、無地は地色を染め直す「染め替え」需要があるぶん、状態が良ければ評価されやすい傾向です。"],
+                  ["シミ・変色あり", "△ マイナス", "無地は難が目立ちやすく、シミ・カビ・黄ばみ・色あせは減額対象。難の程度・範囲で幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「紋なし」「化繊」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">
