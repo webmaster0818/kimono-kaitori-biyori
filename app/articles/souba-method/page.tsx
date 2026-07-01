@@ -32,6 +32,9 @@ const dataPages = [
   { name: "米沢織（置賜紬）", href: "/articles/yonezawa-ori/" },
   { name: "丹後ちりめん", href: "/articles/tango-chirimen/" },
   { name: "越後上布", href: "/articles/echigo-jofu/" },
+  { name: "紅型（びんがた）", href: "/articles/bingata/" },
+  { name: "伊予絣", href: "/articles/iyo-gasuri/" },
+  { name: "宮古上布", href: "/articles/miyako-jofu/" },
 ];
 
 const breadcrumbStructuredData = {

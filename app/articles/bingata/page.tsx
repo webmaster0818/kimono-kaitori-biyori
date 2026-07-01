@@ -509,6 +509,132 @@ export default function BingataPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの琉球紅型のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">直近30日の落札件数</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">平均落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">琉球紅型</td>
+                  <td className="px-4 py-3 font-medium">53件</td>
+                  <td className="px-4 py-3 font-medium">約13,778円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">紅型（琉球）</td>
+                  <td className="px-4 py-3 font-medium">86件</td>
+                  <td className="px-4 py-3 font-medium">約17,333円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">紅型 着物</td>
+                  <td className="px-4 py-3 font-medium">66件</td>
+                  <td className="px-4 py-3 font-medium">約14,588円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">紅型 帯</td>
+                  <td className="px-4 py-3 font-medium">63件</td>
+                  <td className="px-4 py-3 font-medium">約20,336円</td>
+                </tr>
+                <tr className="bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">紅型 名古屋帯</td>
+                  <td className="px-4 py-3 font-medium">37件</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">約23,841円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://aucfan.com/intro/q-~ceb0b5e5b9c8b7bf/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              オークファン（aucfan）「琉球紅型」ほか各キーワードの落札相場
+            </a>
+            （直近30日の集計・2026年7月取得）
+            <br />
+            ※ 紅型は着物全体のなかでも出品数が限られる品目のため、集計は数十件規模です。件数が少ない品目は、数点の高額・安値で平均が動きやすい点にご留意ください。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。作家不明・証紙なし・状態不良の品や、逆に人間国宝・著名工房の作家物では価格が大きく上下するため、上表の平均はあくまで価格帯の“目安”としてご覧ください。金額は取得時点のもので、相場は時期・状態・証紙・作家で大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札相場集計から、品目・落札件数・平均落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              証紙あり・作家物の琉球紅型は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・作家・状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ琉球紅型でも、証紙・落款の有無、作家物か否か、素材や保存状態によって査定額は大きく変わります。前述の実売データに見られる価格の“幅”も、多くはこうした状態差から生まれています。下表のような条件で評価が上下します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（琉球びんがた事業協同組合など）", "◎ 大きくプラス", "産地・品質の裏付けになり、伝統的工芸品としての価値が認められやすくなります。証紙がそろっていると評価が安定します。"],
+                  ["証紙なし", "△ 下がりやすい", "本場の琉球紅型か、本土の紅型風・量産品かの判別が難しくなり、慎重な査定になりがち。落款やたとう紙など他の手がかりが重要に。"],
+                  ["伝統的な型染め・手挿しの手仕事", "◎ 高評価", "型紙・糊置き・手挿しの手仕事による一点物は、機械染めの量産品とは評価が大きく異なります。隈取りなど手わざの見どころが評価につながります。"],
+                  ["作家物・著名工房の作品", "◎ 別格の評価", "人間国宝・玉那覇有公や城間家・知念家など三宗家の系譜の作品は別格の評価。落款・証紙で確認できると有利です。"],
+                  ["琉球紅型（本場）か本土の紅型風か", "○〜△", "沖縄で作られた本場の琉球紅型は評価が高い傾向。本土で作られた「紅型風」の染めは、意匠が似ていても評価は控えめになりやすい。産地の裏付けが鍵。"],
+                  ["正絹（絹）", "◎ 有利", "正絹の紅型は素材面でも評価されやすい状態。化繊（ポリエステル等）の紅型風は評価が大幅に下がる傾向があります。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみで難がなければ特に有利です。"],
+                  ["シミ・退色・難あり", "△ マイナス", "顔料を用いる紅型は日焼け・擦れ・退色が起きやすく、状態不良は減額対象。難の程度・範囲で幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">

@@ -525,6 +525,135 @@ export default function IyoGasuriPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの伊予絣のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。伊予絣は木綿の絣のため、正絹の紬などと比べると実売価格は総じて控えめです。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">伊予絣（全般）</td>
+                  <td className="px-4 py-3 font-medium">約5,108円</td>
+                  <td className="px-4 py-3 font-medium">44,000円</td>
+                </tr>
+                <tr className="bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">伊予絣 反物</td>
+                  <td className="px-4 py-3 font-medium">約6,309円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">44,000円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E4%BC%8A%E4%BA%88%E7%B5%A3/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション 落札相場「伊予絣」
+            </a>
+            ／
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E4%BC%8A%E4%BA%88%E7%B5%A3%20%E5%8F%8D%E7%89%A9/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「伊予絣 反物」
+            </a>
+            （2026年7月取得）
+            <br />
+            参考：
+            <a
+              href="https://aucfan.com/intro/q-~b0cbcdbde5b3/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              オークファン（aucfan）
+            </a>
+            の集計では、直近30日の落札件数30件・平均落札価格約5,435円。伊予絣は最安200円台の落札例もあり、状態・証紙の有無で幅があります。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。数百円台の安値は証紙なし・状態不良・入札不成立に近い例も含むため、価格帯の“幅”の参考としてご覧ください。木綿の絣は正絹の着物より相場が控えめになりやすく、金額は取得時点のもので、相場は時期・状態・証紙で大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              証紙あり・状態の良い伊予絣は業者で査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ伊予絣でも、証紙・産地表示の有無、絣の質、保存状態によって評価は上下します。前提として伊予絣は木綿の絣（日常着系）のため、正絹の紬や訪問着ほど高額にはなりにくいものの、上質品・希少なものはその中で相対的に評価されます。前述の実売データの“幅”も、多くはこうした状態差から生まれています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙・産地表示あり", "◎ プラス", "織元や産地を示す証紙・産地表示があると、伊予絣としての裏付けになり評価が安定します。"],
+                  ["証紙なし", "△ 下がりやすい", "産地の証明が難しく、一般的な木綿着物として慎重に査定されがち。たとう紙や箱など他の手がかりが重要に。"],
+                  ["藍染め・精緻な絣柄の上質品", "◎ プラス", "手間のかかる細かい絣括りや、深みのある本藍染めの上質なものは、木綿絣の中では相対的に高く評価されやすいです。"],
+                  ["木綿絣（日常着）", "△〜○ 控えめ", "伊予絣は普段着として織られた木綿絣が中心のため、正絹の着物ほど高額にはなりにくいのが正直なところです。状態が良ければ日常着需要で値がつきます。"],
+                  ["作家物・希少柄", "◎ プラス", "作家名や希少な絵絣・凝った文様が確認できるものは、コレクター需要もあり別格の評価になることがあります。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様・未仕立てに近いものは、木綿絣の中では最も高くなりやすい状態です。反物なら好みのサイズに仕立てられ需要も広がります。"],
+                  ["美品（着用少・難なし）", "○ 良好", "目立つシミ・色あせ・ほつれがなければ、安定した評価が期待できます。"],
+                  ["シミ・色あせ・難あり", "△ マイナス", "汗染み・色あせ・虫食い・ほつれなどは減額対象。木綿は色あせが進みやすいため、状態が良いうちの査定がおすすめです。自己クリーニングは避け現状のまま。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。木綿絣は単体で値がつきにくいこともあるため、正絹の着物・帯とまとめて査定に出すと全体の評価が上がりやすくなります。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">
