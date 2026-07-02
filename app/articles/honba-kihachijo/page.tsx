@@ -579,6 +579,167 @@ export default function HonbaKihachijoPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの黄八丈のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。なお「黄八丈」の検索結果には、本場黄八丈（八丈島産）だけでなく米沢黄八丈・秋田黄八丈など他産地のものや黄八丈風の品も含まれるため、価格帯は大きくばらつきます。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">黄八丈（全般・他産地含む）</td>
+                  <td className="px-4 py-3 font-medium">約19,613円</td>
+                  <td className="px-4 py-3 font-medium">440,000円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">着物 黄八丈</td>
+                  <td className="px-4 py-3 font-medium">約9,334円</td>
+                  <td className="px-4 py-3 font-medium">99,000円</td>
+                </tr>
+                <tr className="bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">黄八丈 反物</td>
+                  <td className="px-4 py-3 font-medium">約14,423円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">99,000円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E9%BB%84%E5%85%AB%E4%B8%88/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション 落札相場「黄八丈」
+            </a>
+            ／
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E7%9D%80%E7%89%A9%20%E9%BB%84%E5%85%AB%E4%B8%88/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「着物 黄八丈」
+            </a>
+            ／
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E9%BB%84%E5%85%AB%E4%B8%88%20%E5%8F%8D%E7%89%A9/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「黄八丈 反物」
+            </a>
+            （いずれも直近180日集計・2026年7月取得）
+            <br />
+            参考：
+            <a
+              href="https://aucfan.com/intro/q-~cbdcbeecb2abc8acbee6/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              オークファン（aucfan）「本場黄八丈」
+            </a>
+            の集計では直近30日の落札は22件・平均約47,251円、
+            <a
+              href="https://aucfan.com/intro/q-~b2abc8acbee6/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「黄八丈」
+            </a>
+            は54件・平均約21,613円、
+            <a
+              href="https://aucfan.com/intro/q-~b2abc8acbee620bbb3b2bcc8acc9b4bbd2/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「黄八丈 山下八百子」
+            </a>
+            は4件・平均約49,616円でした（2026年7月取得）。「本場」指定や作家名指定で平均が大きく上がる傾向が実データからも読み取れます。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。1円〜の極端な安値は本場黄八丈でない他産地品・黄八丈風・証紙なし・状態不良・入札不成立に近い例も含み、数十万円の高値は証紙付きの本場黄八丈や山下八百子など著名作家の作品といったごく一部です。「黄八丈」の検索集計には八丈島産以外も混ざるため、本場黄八丈の実力値はこの平均より高めに出やすい点にもご注意ください。金額は取得時点のもので、相場は時期・状態・証紙・産地・作家で大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              証紙あり・作家物の本場黄八丈は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・作家・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ黄八丈でも、証紙の有無・八丈島産（本場）かどうか・作家・保存状態によって査定額は大きく変わります。前述の実売データの“幅”も、多くはこうした状態差から生まれています。とくに草木染の絹織物は日焼けによる褪色が出やすく、状態の良し悪しが価値に直結します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（黄八丈織物協同組合・伝統証紙）", "◎ 大きくプラス", "黄八丈織物協同組合の証紙や伝統的工芸品の伝統証紙は、八丈島産＝本場黄八丈であることを示す最も重要な手がかり。評価が安定します。"],
+                  ["本場黄八丈（八丈島産・草木染・手織り）", "◎ 別格", "コブナグサ・マダミ・椎による草木染と手織りの本場黄八丈は希少。米沢黄八丈・秋田黄八丈など他産地品や黄八丈風とは評価が大きく異なります。"],
+                  ["著名作家・工房（山下めゆ・山下八百子など）", "◎ 高評価", "東京都指定無形文化財の保持者に認定された山下めゆ・山下八百子や、黄八丈めゆ工房の作品は銘・落款があると高く評価されやすい状態です（国の人間国宝としての指定は確認できていません）。"],
+                  ["地色（黄八丈・鳶八丈・黒八丈）", "○ 良好", "黄・樺（鳶）・黒のいずれも需要があります。染色を重ねて泥染めで仕上げる黒八丈は特に手間がかかり、色味の深さは評価のポイントになります。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみなら特に有利です。"],
+                  ["仕立て上がり（サイズ）", "○〜△", "裄・身丈が現代向けの大きめだと有利、寸法が小さいと下がる場合も。反物（未仕立て）は仕立て済みより評価されやすい傾向があります。"],
+                  ["シミ・褪色・難あり", "△ マイナス", "草木染は日焼けで褪色しやすく、一度褪色すると戻りません。シミ・カビとあわせて減額対象。自己クリーニングは避け、現状のまま査定へ。"],
+                  ["付属品あり（たとう紙・箱・購入時の証書）", "○ プラス材料", "購入時の箱や証書、たとう紙は保管状態の良さと来歴を示す材料になります。証紙とあわせて必ず一緒に査定へ出しましょう。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

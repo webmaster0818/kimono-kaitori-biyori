@@ -35,6 +35,12 @@ const dataPages = [
   { name: "紅型（びんがた）", href: "/articles/bingata/" },
   { name: "伊予絣", href: "/articles/iyo-gasuri/" },
   { name: "宮古上布", href: "/articles/miyako-jofu/" },
+  { name: "塩沢紬・本塩沢", href: "/articles/shiozawa-tsumugi/" },
+  { name: "江戸小紋", href: "/articles/edo-komon/" },
+  { name: "天蚕紬", href: "/articles/tensan-tsumugi/" },
+  { name: "黄八丈（本場黄八丈）", href: "/articles/honba-kihachijo/" },
+  { name: "阿波藍染", href: "/articles/awa-aizome/" },
+  { name: "小千谷縮", href: "/articles/ojiya-chijimi/" },
 ];
 
 const breadcrumbStructuredData = {

@@ -558,6 +558,135 @@ export default function OjiyaChijimiPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの小千谷縮のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。小千谷縮は本場の手仕事による品と機械織りの量産品、反物と仕立て上がり、状態の良し悪しが入り混じるため、価格帯は大きくばらつきます。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">小千谷縮（全般）</td>
+                  <td className="px-4 py-3 font-medium">約13,653円</td>
+                  <td className="px-4 py-3 font-medium">83,000円</td>
+                </tr>
+                <tr className="bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">小千谷縮 反物</td>
+                  <td className="px-4 py-3 font-medium">約16,640円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">59,800円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E5%B0%8F%E5%8D%83%E8%B0%B7%E7%B8%AE/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション 落札相場「小千谷縮」
+            </a>
+            ／
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E5%B0%8F%E5%8D%83%E8%B0%B7%20%E7%B8%AE%20%E5%8F%8D%E7%89%A9/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「小千谷 縮 反物」
+            </a>
+            （いずれも過去180日の集計・2026年7月取得）
+            <br />
+            参考：
+            <a
+              href="https://aucfan.com/search1/q-~beaec0e9c3abbdcc/s-ya/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              オークファン（aucfan）
+            </a>
+            の集計では、直近30日の「小千谷縮」の落札は47件・ページ内平均約13,014円でした。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。15円〜の極端な安値は機械織りの量産品・証紙なし・状態不良・入札不成立に近い例も含み、数万円台の高値は本場の手仕事による本麻の反物などごく一部です。また、検索集計には同じ小千谷産の絹織物「小千谷紬」など類似品が混ざる場合があります。小千谷縮は夏物の麻織物のため、需要期（春〜初夏）かどうかでも相場が動きます。金額は取得時点のもので、相場は時期・状態・証紙・本製かどうかで大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              証紙あり・本場の小千谷縮は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・本製・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ小千谷縮でも、証紙の有無・本場の手仕事による品かどうか・保存状態・仕立ての状態によって査定額は大きく変わります。前述の実売データの“幅”も、多くはこうした状態差から生まれています。とくに麻織物はシミ・カビ・ヤケが出やすく、状態の良し悪しが価値に直結します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（小千谷織物同業協同組合等の産地証紙）", "◎ 大きくプラス", "小千谷織物同業協同組合の証紙や伝統的工芸品の表示は、本場の小千谷縮であることを示す最も重要な手がかり。評価が安定します。"],
+                  ["証紙なし", "△ 下がりやすい", "本場の品か機械織りの量産品かの判別が難しく、慎重な査定になりがち。たとう紙・購入時の証明書など他の手がかりが重要に。"],
+                  ["本製（手績み苧麻・手くびり・いざり機・湯もみ足ぶみ・雪ざらし）", "◎ 別格", "重要無形文化財の指定要件を満たす手仕事の本製品は現在ごくわずかしか作られず希少。古法を伝える本物として最も高く評価されやすい状態です。"],
+                  ["機械織りの量産品（小千谷紬との区別も）", "○〜△ 控えめ", "機械麻糸による量産品は評価が控えめに。なお同じ小千谷産でも「小千谷紬」は絹織物で麻の縮とは別物のため、査定では区別されます。"],
+                  ["未使用・しつけ糸付き（たとう紙・証明書等の付属品あり）", "◎ 高評価", "新品同様は最も高くなりやすい状態。たとう紙や購入時の証明書などの付属品が揃っているとさらに有利です。"],
+                  ["美品（着用少・難なし）", "○ 良好", "目立つシミ・カビ・ヤケ・折りジワがなければ安定した評価が期待できます。"],
+                  ["反物か仕立て上がりか（サイズ）", "○〜△", "反物は仕立ての自由度が高く需要が広め。仕立て上がりは裄・身丈が現代向けの大きめだと有利、寸法が小さいと下がる場合も。夏物のため春〜初夏の需要期も影響します。"],
+                  ["シミ・カビ・難あり", "△ マイナス", "麻は湿気でシミ・カビ・ヤケが出やすく、これらは減額対象。難の程度・範囲で幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">

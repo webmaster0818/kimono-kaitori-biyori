@@ -561,6 +561,135 @@ export default function AwaAizomePage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの阿波藍染のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。「阿波藍染」を明記した出品は数が少なく、本藍染・化学染料・状態が入り混じるため、価格帯は大きくばらつきます。また阿波正藍しじら織は木綿織物のため、正絹の紬などに比べて実売価格も控えめな水準です。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">阿波藍染（全般）</td>
+                  <td className="px-4 py-3 font-medium">約8,808円</td>
+                  <td className="px-4 py-3 font-medium">66,000円</td>
+                </tr>
+                <tr className="bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">阿波しじら織</td>
+                  <td className="px-4 py-3 font-medium">約4,620円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">39,980円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E9%98%BF%E6%B3%A2%E8%97%8D%E6%9F%93/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション 落札相場「阿波藍染」
+            </a>
+            ／
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E9%98%BF%E6%B3%A2%E3%81%97%E3%81%98%E3%82%89%E7%B9%94/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「阿波しじら織」
+            </a>
+            （いずれも180日間の集計・2026年7月取得。取得時点の落札件数は「阿波藍染」64件・「阿波しじら織」252件）
+            <br />
+            参考：産地を限定しない
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E8%97%8D%E6%9F%93%20%E7%9D%80%E7%89%A9/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「藍染 着物」
+            </a>
+            全般では約1,374件・平均約9,783円・最高1,190,000円（2026年7月取得）と、作家物・アンティークを含めて価格の幅が非常に大きくなっています。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。100円〜の極端な安値は化学染料の藍色木綿・証紙なし・状態不良・入札不成立に近い例も含み、数万円台の高値は本藍染（天然灰汁発酵建て）の上質品や証紙付きの美品などごく一部です。「阿波藍染」を明記した出品は数が少ないため平均値の振れも大きく、価格帯の“幅”の参考としてご覧ください。金額は取得時点のもので、相場は時期・状態・証紙・本藍染かどうかで大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              証紙あり・本藍染の阿波藍染は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（本藍染・証紙・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ阿波藍染でも、本藍染（天然灰汁発酵建て）か化学染料か、証紙の有無、素材、保存状態によって査定額は大きく変わります。前述の実売データの“幅”も、多くはこうした状態差から生まれています。染料には法的な表示義務がないため、証紙や付属品が本藍染であることを示す重要な手がかりになります。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["本藍染（天然灰汁発酵建て）か化学染料か", "◎〜△ 最大の分かれ目", "徳島産すくもを天然灰汁発酵建てで染めた本藍染は評価されやすく、化学染料の藍色木綿は一般的な木綿着物としての評価になりやすい、最も大きな分かれ目です。"],
+                  ["日本藍染文化協会の認定証紙あり", "◎ 大きくプラス", "染料には表示義務がないため、本藍染製品に発行される第三者団体の認定証紙は本藍染の最も確かな裏付けになり、評価が安定します。"],
+                  ["阿波正藍しじら織の伝統的工芸品証紙（伝統マーク）", "○〜◎ プラス", "阿波正藍しじら織は1978年に国の伝統的工芸品に指定されており、伝統マークの証紙は産地と品質の裏付けになります。"],
+                  ["素材（木綿か正絹か）", "○〜△", "阿波正藍しじら織など木綿織物は、正絹の紬・訪問着に比べて相場が控えめになりやすい傾向です。正絹の藍染は素材面で有利になります。"],
+                  ["反物（未仕立て）か仕立て上がりか", "○〜△", "反物は仕立ての自由度があり評価されやすい一方、仕立て上がりは寸法が現代向けかどうかで評価が分かれます。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみなら特に有利です。"],
+                  ["シミ・日焼け・カビ・難あり", "△ マイナス", "藍染は日焼けや湿気で色合いが変化しやすく、シミ・カビとあわせて減額対象。難の程度・範囲で幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                  ["付属品（箱・説明書・しおり）あり", "○ プラス", "購入時の箱・説明書・しおりに「本藍染」「阿波藍」などの記載があれば、染めや産地を示す手がかりとして評価の助けになります。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">

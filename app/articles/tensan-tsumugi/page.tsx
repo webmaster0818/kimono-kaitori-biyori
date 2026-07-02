@@ -519,6 +519,135 @@ export default function TensanTsumugiPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの天蚕紬のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。天蚕紬は市場に出回る数自体が非常に少なく（直近180日の落札は「天蚕紬」17件・「山繭紬」7件）、天蚕糸の使用割合や状態も出品ごとに異なるため、平均値の振れが大きい点にご注意ください。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">天蚕紬（180日・17件）</td>
+                  <td className="px-4 py-3 font-medium">約4,062円</td>
+                  <td className="px-4 py-3 font-medium">12,001円</td>
+                </tr>
+                <tr className="bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">山繭紬（別称での出品・180日・7件）</td>
+                  <td className="px-4 py-3 font-medium">約5,076円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">13,750円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E5%A4%A9%E8%9A%95%E7%B4%AC/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション 落札相場「天蚕紬」
+            </a>
+            ／
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E5%B1%B1%E7%B9%AD%E7%B4%AC/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「山繭紬」
+            </a>
+            （2026年7月取得）
+            <br />
+            参考：
+            <a
+              href="https://aucfan.com/intro/q-~c5b7bbbd/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              オークファン（aucfan）
+            </a>
+            の「天蚕」の集計では、直近30日の落札は4件・平均約16,238円（着物以外の天蚕関連商品を含む）と、件数が少なく時期によって相場が大きく動きます。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。落札例は男物の羽織など仕立て上がり品が中心で、数十円〜千円台の極端な安値は天蚕糸の使用がごく一部・状態不良・入札不成立に近い例も含みます。天蚕紬はそもそも出品数が非常に少ないため、平均値の振れがとりわけ大きく、天蚕糸を多く使った希少な反物・作品の実力を必ずしも反映しません。価格帯の“幅”の参考としてご覧ください。金額は取得時点のもので、相場は時期・状態・天蚕糸の割合・証明資料の有無で大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              希少な天蚕紬は業者の知識によって査定額の差がとくに出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（天蚕糸の割合・証明資料・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ天蚕紬でも、天蚕糸の使用割合・産地や織り元を示す証明資料の有無・保存状態・仕立ての状態によって査定額は大きく変わります。前述の実売データの“幅”も、多くはこうした状態差から生まれています。とくに天蚕糸ならではの淡い緑がかった色味は日焼けで褪色しやすく、状態の良し悪しが価値に直結します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["天蚕糸を多く使った作品", "◎ 別格", "天蚕（ヤママユ）の糸は採取量がごくわずかな希少素材。反物全体に天蚕糸を多く使った作品は「繊維のダイヤモンド」の名にふさわしく、最も高く評価されやすい状態です。"],
+                  ["天蚕糸が一部使い（家蚕糸との交織）", "○〜△", "天蚕糸の量が限られるため、家蚕糸と組み合わせた作品が多数派。天蚕糸の使用箇所・割合が確認できるかで評価が分かれます。"],
+                  ["産地・織り元の証明資料あり（穂高天蚕・安曇野など）", "◎ 大きくプラス", "国内発祥の産地・長野県安曇野（旧穂高町有明）の「穂高天蚕」など、産地や織り元を示す説明書・購入時の書類は希少性の最重要の証明。評価が安定します。"],
+                  ["証明資料なし", "△ 下がりやすい", "天蚕紬には統一された組合証紙が必ず付くわけではないため、資料がないと一般の紬扱いになりがち。たとう紙・購入時の書類など他の手がかりが重要に。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。天蚕糸本来の淡い黄緑色と光沢が保たれていれば特に有利です。"],
+                  ["反物（未仕立て）", "○〜◎", "希少な天蚕糸の反物は流通量が少なく、状態と証明が揃えば高評価が期待できます。"],
+                  ["仕立て上がり（サイズ）", "○〜△", "裄・身丈が現代向けの大きめだと有利、寸法が小さいと下がる場合も。男物の羽織なども実売市場に見られます。"],
+                  ["日焼け・シミ・カビ・難あり", "△ マイナス", "天蚕糸の淡い緑がかった色味は日焼けで褪色しやすく、本来の魅力が損なわれると減額対象。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証明資料なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">

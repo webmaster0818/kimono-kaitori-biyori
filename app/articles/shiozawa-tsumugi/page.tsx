@@ -595,6 +595,150 @@ export default function ShiozawaTsumugiPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの塩沢紬・本塩沢のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。なお「塩沢紬」「本塩沢」のキーワード集計には、証紙付きの本物から証紙なし・小物・類似品まで幅広い出品が混在するため、価格帯は大きくばらつきます。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">落札件数（180日）</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">塩沢紬（全般）</td>
+                  <td className="px-4 py-3">161件</td>
+                  <td className="px-4 py-3 font-medium">約7,036円</td>
+                  <td className="px-4 py-3 font-medium">38,700円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">塩沢紬 反物</td>
+                  <td className="px-4 py-3">27件</td>
+                  <td className="px-4 py-3 font-medium">約11,714円</td>
+                  <td className="px-4 py-3 font-medium">38,700円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">本塩沢（全般）</td>
+                  <td className="px-4 py-3">954件</td>
+                  <td className="px-4 py-3 font-medium">約7,004円</td>
+                  <td className="px-4 py-3 font-medium">83,500円</td>
+                </tr>
+                <tr className="bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">本塩沢 反物</td>
+                  <td className="px-4 py-3">17件</td>
+                  <td className="px-4 py-3 font-medium">約13,315円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">35,700円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E5%A1%A9%E6%B2%A2%E7%B4%AC/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション 落札相場「塩沢紬」
+            </a>
+            ／
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E6%9C%AC%E5%A1%A9%E6%B2%A2/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「本塩沢」
+            </a>
+            （いずれも180日間の集計・2026年7月取得）
+            <br />
+            参考：
+            <a
+              href="https://aucfan.com/intro/q-~b1f6c2f4c4dd/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              オークファン（aucfan）
+            </a>
+            の集計では、直近30日の落札は「塩沢紬」22件・平均約4,274円、「本塩沢」158件・平均約4,156円と、集計期間・対象によって平均値は大きく変わります。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。数十円〜の極端な安値は証紙なし・状態不良・小物・入札不成立に近い例も含む“幅”の参考で、数万円台の高値は証紙付き・状態良好な反物などごく一部です。「塩沢紬」「本塩沢」のキーワード集計は両者や類似品が混在するため、金額は取得時点の目安であり、相場は時期・状態・証紙の有無で大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              証紙あり・作家物の塩沢紬・本塩沢は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・本塩沢・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ塩沢紬・本塩沢でも、証紙の有無・作家物かどうか・保存状態・仕立ての状態によって査定額は大きく変わります。前述の実売データの“幅”も、多くはこうした状態差から生まれています。正絹の絣織物は湿気・カビ・色褪せの影響を受けやすく、状態の良し悪しが価値に直結します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（塩沢織物工業協同組合）", "◎ 大きくプラス", "塩沢織物工業協同組合の証紙や伝統証紙は、塩沢産であることを示す最も重要な手がかり。類似の絣織物と区別でき、評価が安定します。"],
+                  ["証紙なし", "△ 下がりやすい", "塩沢産かどうかの証明が難しく、類似の絣織物として慎重な査定になりがち。たとう紙・購入時の箱など他の手がかりが重要に。"],
+                  ["本塩沢（塩沢お召・シボあり）", "○〜◎ 種類で評価", "よこ糸の強撚糸と湯もみによるシボが特徴の本塩沢は、さらりとした風合いで単衣の需要も。塩沢紬とは別物のため、証紙でどちらか確認して査定へ。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみなら特に有利です。"],
+                  ["仕立て上がりか反物か", "○〜△", "未仕立ての反物はシミ・折れがなければ仕立て済みより評価されやすい傾向。仕立て上がりは状態とサイズの確認が中心になります。"],
+                  ["シミ・カビ・色褪せ等難あり", "△ マイナス", "正絹は湿気によるカビ・シミ・色褪せ・ほつれが減額対象。難の程度・範囲で幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                  ["作家物・伝統工芸士の作品", "◎ 高評価", "作家銘や伝統工芸士の作品は、証紙・落款とセットで確認できるとさらに高めの評価が期待できます。"],
+                  ["サイズ・付属品", "○〜△", "裄・身丈が現代向けの大きめだと有利、小さいと下がる場合も。たとう紙・箱・購入時の書類などの付属品が揃っていると査定がスムーズです。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

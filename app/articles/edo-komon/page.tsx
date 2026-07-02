@@ -564,6 +564,153 @@ export default function EdoKomonPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの江戸小紋のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。江戸小紋は流通量が多く、一般的な普段着クラスから作家物まで幅広い品が混在するため、平均値は低め・高値は一部という分布になります。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold">最高落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">落札件数（180日）</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">江戸小紋（全般）</td>
+                  <td className="px-4 py-3 font-medium">約5,477円</td>
+                  <td className="px-4 py-3 font-medium">143,000円</td>
+                  <td className="px-4 py-3">約3,656件</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">江戸小紋 反物</td>
+                  <td className="px-4 py-3 font-medium">約7,067円</td>
+                  <td className="px-4 py-3 font-medium">64,348円</td>
+                  <td className="px-4 py-3">約252件</td>
+                </tr>
+                <tr className="bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">江戸小紋 鮫（三役）</td>
+                  <td className="px-4 py-3 font-medium">約4,869円</td>
+                  <td className="px-4 py-3 font-medium">132,000円</td>
+                  <td className="px-4 py-3 rounded-br-lg">約997件</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E6%B1%9F%E6%88%B8%E5%B0%8F%E7%B4%8B/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション 落札相場「江戸小紋」
+            </a>
+            ／
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E6%B1%9F%E6%88%B8%E5%B0%8F%E7%B4%8B%20%E5%8F%8D%E7%89%A9/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「江戸小紋 反物」
+            </a>
+            ／
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E6%B1%9F%E6%88%B8%E5%B0%8F%E7%B4%8B%20%E9%AE%AB/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              同「江戸小紋 鮫」
+            </a>
+            （2026年7月取得）
+            <br />
+            参考：
+            <a
+              href="https://aucfan.com/intro/q-~b9beb8cdbeaecce6/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              オークファン（aucfan）
+            </a>
+            の集計では、直近30日の「江戸小紋」の落札は382件・平均約4,163円でした。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。1円〜の極端な安値は化繊・状態不良・入札不成立に近い例や、江戸小紋柄の帯・小物などの関連品も含み、十万円超の高値は人間国宝・有名作家の作品や未使用の逸品などごく一部です。なお上記はキーワード「江戸小紋」での集計で、「小紋」全般（平均値はさらに下がる傾向）とは区別しています。金額は取得時点のもので、相場は時期・柄の格・作家・状態で大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              落款・証紙ありの江戸小紋は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（落款・証紙・柄の格・保存状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ江戸小紋でも、落款・証紙の有無・柄の格・染めの精緻さ・保存状態によって査定額は大きく変わります。前述の実売データの“幅”も、多くはこうした状態差から生まれています。とくに江戸小紋は淡い地色のものが多く、シミ・ヤケの有無が価値に直結します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["人間国宝・有名作家の作品（落款あり）", "◎ 別格", "江戸小紋（染め）の人間国宝には小宮康助・小宮康孝がおり、落款・作家名が確認できる作品は最も高く評価されやすい状態です。真贋は専門業者の目での確認が前提になります。"],
+                  ["証紙あり（東京染小紋など）", "◎ 大きくプラス", "国の伝統的工芸品「東京染小紋」の証紙や産地・組合の表示は、東京の型染めであることを裏付ける重要な手がかり。評価が安定します。"],
+                  ["三役（鮫・行儀・角通し）・五役の柄", "○〜◎ 高評価", "鮫・行儀・角通しの三役、大小あられ・万筋を加えた五役は格の高い古典柄。紋付きなら略礼装として使えるため需要が広く、評価されやすい柄です。"],
+                  ["型の細かさ・染めの精緻さ", "○〜◎", "極鮫・毛万筋など、遠目に無地に見えるほど細かい型ほど染めの難度が高く、評価につながります。細かさは伊勢型紙の彫りと染めの技術の証です。"],
+                  ["一つ紋付き（略礼装として使える）", "○ プラス", "三役・五役などの柄に一つ紋が入ると色無地に一つ紋を付けた場合に相当する格になり、色無地の代わりに探す層の需要も見込めるため有利です。"],
+                  ["正絹か化繊か", "○／△", "正絹の江戸小紋は安定した評価が期待できる一方、化繊（ポリエステル等）の江戸小紋風の品は大きく下がりやすく、一般品扱いになりがちです。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみなら特に有利です。"],
+                  ["シミ・ヤケ・カビ・難あり", "△ マイナス", "江戸小紋は淡い地色が多く、シミ・ヤケが目立ちやすいため減額対象になりやすい状態です。難の程度・範囲で幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙・落款なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">
