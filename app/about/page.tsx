@@ -40,6 +40,25 @@ export default function AboutPage() {
             </p>
           </section>
 
+          {/* 情報の確認方法・検証体制 */}
+          <section className="mb-10">
+            <h2 className="text-lg font-bold text-[#6b4c8a] mb-3">
+              情報の確認方法・検証体制
+            </h2>
+            <div className="text-sm text-gray-700 leading-relaxed space-y-3">
+              <ul className="list-disc pl-5 space-y-2">
+                <li><strong>業者情報</strong>: 各買取業者の公式サイト等の公開情報に基づいて掲載し、確認日を明記しています。料金・サービス内容は変更される場合があるため、最新情報は各社公式サイトでご確認ください。</li>
+                <li><strong>買取相場</strong>: 推定額を創作せず、公開オークションの落札実績など確認可能な実売データを出典・取得日付きで掲載しています。調査方法は<a href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調べ方・出典について</a>で公開しています。実売価格は買取査定額とは異なり、査定額を保証するものではありません。</li>
+                <li><strong>ランキング</strong>: <a href="/ranking/" className="text-[#6b4c8a] underline">おすすめ業者ランキング</a>に選定基準・作成方針を明記しています。広告の有無が順位・評価に影響することはありません。</li>
+                <li><strong>公的情報</strong>: 訪問購入のクーリング・オフなど法制度の記述は特定商取引法等の一般的な内容に基づき、各都道府県の消費生活センターへの公式リンクを到達確認の上で掲載しています。</li>
+                <li><strong>禁止事項</strong>: 架空の口コミ・体験談・買取実績は作成しません。人間国宝・伝統的工芸品などの指定情報は一次情報で確認し、不確実な場合は断定を避けます。</li>
+              </ul>
+              <p>
+                当サイトは着物買取の比較・情報メディアであり、買取業者ではありません。詳しい制作方針は<a href="/content-policy/" className="text-[#6b4c8a] underline">記事制作ポリシー</a>をご覧ください。
+              </p>
+            </div>
+          </section>
+
           {/* 運営会社 */}
           <section className="mb-10">
             <h2 className="text-lg font-bold text-[#6b4c8a] mb-3">

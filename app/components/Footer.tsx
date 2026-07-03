@@ -93,6 +93,7 @@ export default function Footer() {
 
         <div className="mt-10 pt-6 border-t border-purple-900/50 text-center">
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-6">
+            <p className="text-xs text-purple-200 mb-3">当サイトは着物買取の比較・情報メディアであり、買取業者ではありません。掲載情報は各社公式サイト等の公開情報に基づき、確認日を明記の上で更新しています。</p>
             <Link href="/about/" className="text-xs text-purple-300 hover:text-white transition-colors">運営者情報</Link>
             <Link href="/author/" className="text-xs text-purple-300 hover:text-white transition-colors">編集部紹介</Link>
             <Link href="/terms/" className="text-xs text-purple-300 hover:text-white transition-colors">利用規約</Link>

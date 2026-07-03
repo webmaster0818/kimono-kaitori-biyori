@@ -110,3 +110,10 @@
 - 回復本丸=相場一次データ化を6本に展開(並列agent6体・各page.tsxのみ編集): 塩沢紬(Yahoo!180日161件平均7,036/最高38,700・本塩沢954件7,004/83,500)/江戸小紋(3,656件5,477/143,000・鮫997件)/天蚕紬(17件4,062・出品少と正直注記)/黄八丈(456件19,613/440,000・本場はオークファン22件47,251・山下めゆ八百子=都指定無形文化財と正確表記)/阿波藍染(64件8,808/66,000・しじら252件4,620)/小千谷縮(166件13,653/83,000)。全て実取得値のみ・スニペット古値は不採用・取得不能は列省略=捏造ゼロ。id=auction-data+id=condition(8条件◎○△質的のみ)
 - souba-methodハブ17→23件(host側)。実売掲載=計23織物/item。sitemap lastmod7件(169不変)。deploy=kimono-kaitori-biyori-deploy厳守(remote確認済)・本番title「着物買取…」確認・6/6ページ反映+SoubaNote維持をcache回避curl検証・GSC再送信
 - 残(回復プラン): ②47県ページ品質テコ入れ+薄い県noindex,follow ③E-E-A-T(運営者/methodology/確認日) ④持ち込みカニバリ再確認 ⑤週次GSC観測(回復は2-3か月スパン)
+
+## 2026-07-03 回復②: 県ページのティア分け実施（MediaXAI「回復プラン②進めて」）✅
+- 被弾前(5/1-6/26)GSCでティア分け: TierA=表示20以上12ページ(山梨78/香川64/島根46/長崎43/高知42/岩手35/北九州29/新潟市26/山口22/神戸20/沖縄20/山形20)を強化、表示ゼロのテンプレ19ページをnoindex,follow(可逆・metadata robots + sitemap 169→150同期)。※hokkaido/miyagi/kanagawa/aichiは県ページ自体が存在しない(市ページのみ)
+- TierA強化(並列agent6体×2ページ): id=local-support「公的な相談先」=特商法の訪問購入クーリングオフ8日+引渡し拒絶権+**各県消費生活センター(全12件公式URL実到達確認・404排除)**+188+確認日+trouble-prevention内部リンク。番号付き構成のページ(山口/神戸/沖縄/山形)は目次も整合
+- 織物専門リンク補完: 北九州→hakata-ori/kurume-gasuri(新規)・山形→yonezawa-ori(新規)・沖縄/新潟市=既存充足で重複回避。該当織物が無い県は正直にスキップ(甲斐絹/保多織/広瀬絣/土佐綿紬/南部紫根染/柳井縞=専門ページ無し)
+- noindex 19: akita/ibaraki/chiba/niigata/toyama/fukui/gifu/shizuoka/mie/nara/wakayama/tottori/okayama/saga/kumamoto/oita/kagoshima/kawasaki/saitama-city
+- 料金/業者文言/SoubaNote不変更。deploy=kimono-kaitori-biyori-deploy(remote確認済)・本番4指標(title着物/local-support/akita noindex/sitemap150)cache回避curl検証・GSC再送信。残: ③E-E-A-T ④持ち込みカニバリ再確認 ⑤週次観測+手動対策欄の確認結果待ち
