@@ -117,3 +117,9 @@
 - 織物専門リンク補完: 北九州→hakata-ori/kurume-gasuri(新規)・山形→yonezawa-ori(新規)・沖縄/新潟市=既存充足で重複回避。該当織物が無い県は正直にスキップ(甲斐絹/保多織/広瀬絣/土佐綿紬/南部紫根染/柳井縞=専門ページ無し)
 - noindex 19: akita/ibaraki/chiba/niigata/toyama/fukui/gifu/shizuoka/mie/nara/wakayama/tottori/okayama/saga/kumamoto/oita/kagoshima/kawasaki/saitama-city
 - 料金/業者文言/SoubaNote不変更。deploy=kimono-kaitori-biyori-deploy(remote確認済)・本番4指標(title着物/local-support/akita noindex/sitemap150)cache回避curl検証・GSC再送信。残: ③E-E-A-T ④持ち込みカニバリ再確認 ⑤週次観測+手動対策欄の確認結果待ち
+
+## 2026-07-04 回復③E-E-A-T（MediaXAI「③進めよう」）✅
+- 精査: about/content-policy/ranking選定基準/souba-methodは既存→欠けていた2点のみ実装
+- Footer全172ページに「比較・情報メディアであり買取業者ではない+確認日運用」の1行明示（shoenehou/keta型の透明化）
+- /about/ に「情報の確認方法・検証体制」セクション新設: 業者情報(公式準拠+確認日)/相場(実売のみ・souba-methodリンク)/ランキング(広告非影響)/公的情報(到達確認)/禁止事項(架空口コミ作らない)の5項目で分散方針を集約
+- sitemap lastmod(about)・deploy=kimono-kaitori-biyori-deploy(remote確認)・本番2指標curl検証・GSC再送信。回復①②③完了。残: ④持ち込みカニバリ再確認 ⑤週次観測(回復2-3か月スパン)+手動対策欄の回答待ち

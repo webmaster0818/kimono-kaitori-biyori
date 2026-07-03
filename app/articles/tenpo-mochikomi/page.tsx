@@ -28,7 +28,7 @@ const articleStructuredData = {
   "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取 店舗持ち込みおすすめ5選｜その場で現金化できる業者",
   description: "着物の持ち込み買取に対応したおすすめ業者5選。予約不要の店舗や持ち込みの流れも解説。",
-  datePublished: "2026-05-17", dateModified: "2026-05-17",
+  datePublished: "2026-05-17", dateModified: "2026-07-04",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/tenpo-mochikomi/" },
@@ -61,7 +61,21 @@ export default function TenpoMochikomiPage() {
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
               着物を店舗に持ち込んで、その場で査定・現金化したい方へ。予約不要で持ち込める店舗、持ち込み買取の流れ、メリット・デメリットを詳しく解説。出張買取や宅配買取との違いも比較します。
             </p>
-            <p className="mt-3 text-xs text-gray-400">最終更新：2026年5月17日</p>
+            <p className="mt-3 text-xs text-gray-400">最終更新：2026年7月4日</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-8">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#f5f0fa", border: "2px solid #6b4c8a" }}>
+            <h2 className="text-lg font-bold text-[#6b4c8a] mb-4">先に結論：店舗持ち込みの3つの即答</h2>
+            <ul className="space-y-3 text-sm leading-relaxed">
+              <li className="flex items-start gap-2"><span className="text-[#6b4c8a] mt-1 font-bold">&#10003;</span><span><strong>どこに持ち込める？</strong> 全国に店舗網を持つ大手着物買取業者なら、最寄り店舗への持ち込み査定に対応しています（<a href="#recommended" className="text-[#6b4c8a] underline">対応業者5選はこちら</a>）。事前に公式サイトで最寄り店舗と持ち込み可否の確認を。</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#6b4c8a] mt-1 font-bold">&#10003;</span><span><strong>予約は必要？</strong> 予約なしで入れる店舗もありますが、待ち時間や査定員の在店を考えると<strong>事前予約がおすすめ</strong>です。</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#6b4c8a] mt-1 font-bold">&#10003;</span><span><strong>何を持っていく？</strong> 着物本体に加えて<strong>証紙・付属品・本人確認書類</strong>。その場で査定・現金化まで完結できるのが持ち込みの最大のメリットです（<a href="#prepare" className="text-[#6b4c8a] underline">準備チェックリスト</a>）。</span></li>
+            </ul>
+            <p className="text-xs text-gray-500 mt-4">持ち込み以外の方法（出張・宅配）との違いは<a href="/articles/mochikomi-kaitori/" className="text-[#6b4c8a] underline">持ち込み買取のやり方・流れガイド</a>で解説しています。</p>
           </div>
         </div>
       </section>
