@@ -200,6 +200,25 @@ export default function IwatePage() {
           </ol>
         </section>
 
+        <section id="local-support" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            岩手県の消費生活相談窓口｜買取トラブルに備える
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            自宅で査定を受ける出張買取（訪問購入）は特定商取引法の対象で、契約書面を受け取った日を含めて8日間はクーリング・オフ（無条件解約）ができます。クーリング・オフ期間中は、業者に対して着物の引き渡しを拒否することもできます（引渡しの拒絶）。
+          </p>
+          <div className="border border-[#e8ddd0] rounded-lg p-5 mb-4 bg-[#faf8f5]">
+            <h3 className="font-bold text-gray-900 text-sm mb-2">岩手県立県民生活センター</h3>
+            <p className="text-sm text-gray-600 leading-relaxed mb-2">
+              強引な勧誘や「押し買い」など着物買取のトラブルに遭ったときは、<a href="https://www.pref.iwate.jp/soshiki/kankyou/1016004.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">岩手県立県民生活センター</a>（消費生活相談）に相談できます。全国共通の消費者ホットライン「188（いやや）」に電話すると、最寄りの消費生活相談窓口につながります。
+            </p>
+            <p className="text-xs text-gray-500">※2026年7月に公式サイトで確認</p>
+          </div>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            悪質な訪問買取の手口と具体的な対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>で詳しく解説しています。
+          </p>
+        </section>
+
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
             <span className="text-[#c9a76c]">5.</span> よくある質問（FAQ）

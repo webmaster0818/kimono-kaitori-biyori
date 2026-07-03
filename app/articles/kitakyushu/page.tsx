@@ -130,6 +130,9 @@ export default function KitakyushuPage() {
               ))}
             </div>
           </div>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            福岡県は<Link href="/articles/hakata-ori/" className="text-[#6b4c8a] underline">博多織</Link>や<Link href="/articles/kurume-gasuri/" className="text-[#6b4c8a] underline">久留米絣</Link>といった伝統織物の産地としても知られ、北九州市のご家庭の箪笥からもこうした産地物の帯や着物が見つかることがあります。証紙付きの産地物は査定で高く評価されやすいため、見つけたらそのまま査定に出しましょう。
+          </p>
           <p className="text-sm text-gray-700 leading-relaxed">
             福岡全体の織物や産地の特徴・買取相場は<Link href="/articles/fukuoka/" className="text-[#6b4c8a] underline">福岡の着物買取ガイド</Link>でも詳しく解説しています。あわせてご覧ください。
           </p>
@@ -192,6 +195,21 @@ export default function KitakyushuPage() {
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">② 2〜3社で相見積もりを取る</span><br />北九州市は業者の選択肢が多いので、複数社で比較を。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] underline">高く売るコツ</Link>も参考に。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">③ 早めに・まとめて売る</span><br />着物は時間とともに劣化します。帯・小物もセットで出すと評価が上がります。</li>
           </ol>
+        </section>
+
+        <section id="local-support" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            北九州市の相談窓口｜訪問購入のクーリング・オフ
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            自宅に業者を招く出張買取（訪問購入）は特定商取引法の対象で、契約書面を受け取った日を含めて<strong>8日間はクーリング・オフ（無条件解約）</strong>ができます。さらにクーリング・オフ期間中は、業者に着物など品物の引き渡しを拒むことができます（引渡し拒否権）。
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.kitakyushu.lg.jp/contents/924_00146.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">北九州市立消費生活センター</a>（戸畑区・ウェルとばた7階）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            押し買いの手口や対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>で詳しく解説しています。
+          </p>
         </section>
 
         <section id="faq" className="mb-12">

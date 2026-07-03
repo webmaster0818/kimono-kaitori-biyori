@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026年最新】熊本の着物買取おすすめ5選｜天草更紗を高く売る",
   description:
     "熊本県で着物買取を依頼するならどこがおすすめ？南蛮文様を写した彩り豊かな「天草更紗」や素朴な「肥後木綿」など熊本が誇る織物・染めの買取相場と、出張・持込・宅配に対応したおすすめ業者5選を比較。高く売るコツも解説します。",

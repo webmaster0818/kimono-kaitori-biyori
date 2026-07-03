@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026年最新】三重の着物買取おすすめ5選｜松阪木綿・伊勢木綿を高く売る",
   description:
     "三重県で着物買取を依頼するならどこがおすすめ？松阪木綿・伊勢木綿など三重が誇る織物の買取相場と、出張・持込・宅配に対応したおすすめ業者5選を比較。証紙の重要性や高く売るコツも解説します。",

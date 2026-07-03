@@ -118,7 +118,8 @@ export default function YamaguchiPage() {
             <li><a href="#osusume" className="hover:underline">2. 山口の着物買取おすすめ業者5選</a></li>
             <li><a href="#houhou" className="hover:underline">3. 出張・持込・宅配の選び方</a></li>
             <li><a href="#kotsu" className="hover:underline">4. 山口で着物を高く売る3つのコツ</a></li>
-            <li><a href="#faq" className="hover:underline">5. よくある質問（FAQ）</a></li>
+            <li><a href="#local-support" className="hover:underline">5. 山口県の消費生活相談窓口とクーリング・オフ</a></li>
+            <li><a href="#faq" className="hover:underline">6. よくある質問（FAQ）</a></li>
           </ol>
         </nav>
 
@@ -200,9 +201,28 @@ export default function YamaguchiPage() {
           </ol>
         </section>
 
+        <section id="local-support" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            <span className="text-[#c9a76c]">5.</span> 山口県の消費生活相談窓口とクーリング・オフ
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-6">
+            出張買取（訪問購入）は特定商取引法の対象で、契約書面を受け取った日を含めて8日間はクーリング・オフ（無条件解約）ができます。このクーリング・オフ期間中は、売却した着物の引き渡し自体を拒むこともできます（引渡しの拒絶権）。
+          </p>
+          <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
+            <p className="text-[#6b4c8a] font-bold text-sm mb-2">困ったときの相談先（山口県）</p>
+            <p className="text-sm text-gray-700 leading-relaxed mb-3">
+              押し買いや契約トラブルで困ったときは、<a href="https://www.pref.yamaguchi.lg.jp/site/shohi-center-top/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">山口県消費生活センター</a>に相談できます。局番なしの消費者ホットライン「188（いやや）」に電話すると、最寄りの消費生活相談窓口につながります。
+            </p>
+            <p className="text-xs text-gray-500 mb-3">※2026年7月に公式サイトで確認</p>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              悪質業者の手口と対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取トラブル事例5選と回避法</Link>で詳しく解説しています。
+            </p>
+          </div>
+        </section>
+
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            <span className="text-[#c9a76c]">5.</span> よくある質問（FAQ）
+            <span className="text-[#c9a76c]">6.</span> よくある質問（FAQ）
           </h2>
           <div className="space-y-3">
             {faqs.map((f) => (

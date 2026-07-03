@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026年最新】川崎市の着物買取おすすめ5選｜無料出張・持込・宅配対応",
   description:
     "川崎市で着物買取を依頼するならどこがおすすめ？出張・持込・宅配に対応した川崎市内のおすすめ業者5選を比較。市内の対応エリアや買取相場、高く売るコツを解説します。",

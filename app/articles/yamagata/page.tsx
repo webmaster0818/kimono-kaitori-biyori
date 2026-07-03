@@ -118,7 +118,8 @@ export default function YamagataPage() {
             <li><a href="#osusume" className="hover:underline">2. 山形の着物買取おすすめ業者5選</a></li>
             <li><a href="#houhou" className="hover:underline">3. 出張・持込・宅配の選び方</a></li>
             <li><a href="#kotsu" className="hover:underline">4. 山形で着物を高く売る3つのコツ</a></li>
-            <li><a href="#faq" className="hover:underline">5. よくある質問（FAQ）</a></li>
+            <li><a href="#local-support" className="hover:underline">5. 訪問購入のクーリング・オフと山形県の相談窓口</a></li>
+            <li><a href="#faq" className="hover:underline">6. よくある質問（FAQ）</a></li>
           </ol>
         </nav>
 
@@ -135,10 +136,15 @@ export default function YamagataPage() {
               </div>
             ))}
           </div>
-          <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
+          <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-4">
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
             <p className="text-sm text-gray-700 leading-relaxed">白鷹お召・長井紬・米沢紬などの置賜紬は、産地組合の証紙や伝統的工芸品マークが付いているかどうかで査定額が大きく変わります。タンスにしまったままの証紙・たとう紙の証明書も必ず一緒に査定へ出しましょう。</p>
           </div>
+          <Link href="/articles/yonezawa-ori/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+            <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
+            <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">米沢織・置賜紬の買取相場</p>
+            <p className="text-xs text-gray-500 mt-1">米沢織・置賜紬（白鷹お召・長井紬・米沢紬）の買取相場と証紙のポイントを専門ガイドで詳しく解説</p>
+          </Link>
         </section>
 
         <section id="osusume" className="mb-12">
@@ -200,9 +206,37 @@ export default function YamagataPage() {
           </ol>
         </section>
 
+        <section id="local-support" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            <span className="text-[#c9a76c]">5.</span> 訪問購入のクーリング・オフと山形県の相談窓口
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            出張買取（訪問購入）は特定商取引法の規制対象で、契約書面を受け取った日を含めて8日間はクーリング・オフ（無条件解約）ができます。
+            また、このクーリング・オフ期間中は、売却した着物の引き渡しを拒むこと（引渡しの拒絶）もできます。
+          </p>
+          <div className="border border-[#e8ddd0] rounded-lg p-5 mb-4">
+            <p className="text-sm font-bold text-gray-900 mb-2">困ったときの相談窓口</p>
+            <ul className="text-sm text-gray-700 leading-relaxed space-y-2">
+              <li>
+                <a href="https://www.pref.yamagata.jp/kurashi/shohi/shouhiseikatsucenter/index.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">山形県消費生活センター</a>
+                …押し買い・訪問購入のトラブルなど、消費生活に関する相談を受け付けています。
+              </li>
+              <li>
+                消費者ホットライン<span className="font-bold">「188（いやや！）」</span>…最寄りの消費生活相談窓口を案内してもらえます。
+              </li>
+            </ul>
+            <p className="text-xs text-gray-500 mt-3">※2026年7月に公式サイトで確認</p>
+          </div>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            悪質な買取業者の手口や具体的な対処法は
+            <Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>
+            で詳しく解説しています。
+          </p>
+        </section>
+
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            <span className="text-[#c9a76c]">5.</span> よくある質問（FAQ）
+            <span className="text-[#c9a76c]">6.</span> よくある質問（FAQ）
           </h2>
           <div className="space-y-3">
             {faqs.map((f) => (

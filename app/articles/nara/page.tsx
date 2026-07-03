@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026年最新】奈良の着物買取おすすめ5選｜奈良晒を高く売る",
   description:
     "奈良県で着物買取を依頼するならどこがおすすめ？さらりとした上質な麻織物「奈良晒（ならざらし）」など奈良が誇る織物の買取相場と、出張・持込・宅配に対応したおすすめ業者5選を比較。証紙の重要性や高く売るコツも解説します。",

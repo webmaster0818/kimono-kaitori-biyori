@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026年最新】鹿児島の着物買取おすすめ5選｜本場大島紬を高く売る",
   description:
     "鹿児島県で着物買取を依頼するならどこがおすすめ？本場大島紬（泥染め・絣・マルキ）・薩摩絣など鹿児島が誇る織物の買取相場と、出張・持込・宅配に対応したおすすめ業者5選を比較。証紙（旗印・地球印）の重要性や高く売るコツも解説します。",

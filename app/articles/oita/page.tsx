@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026年最新】大分の着物買取おすすめ5選｜豊後の絹織物を高く売る",
   description:
     "大分県で着物買取を依頼するならどこがおすすめ？古くから養蚕が盛んだった豊後の絹織物や正絹の着物の買取相場と、出張・持込・宅配に対応したおすすめ業者5選を比較。証紙の重要性や高く売るコツも解説します。",

@@ -200,6 +200,20 @@ export default function NagasakiPage() {
           </ol>
         </section>
 
+        <section id="local-support" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            長崎県で着物買取のトラブルにあったら（公的な相談先）
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            訪問買取（訪問購入）は特定商取引法の規制対象で、契約書面を受け取った日を含む8日間はクーリング・オフ（無条件解約）ができ、その期間中は着物や貴金属などの品物の引き渡しを拒むこともできます。強引な勧誘や査定額への不安など、業者とのトラブルで困ったときは、長崎県が運営する
+            <a href="https://www.nagasaki-shouhi.jp/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">長崎県消費生活センター（ながさき消費生活館）</a>
+            （消費生活相談）に相談できます。また、全国共通の消費者ホットライン「<span className="font-bold">188</span>（いやや）」に局番なしでかけると、最寄りの消費生活相談窓口を案内してもらえます。※2026年7月に公式サイトで確認
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            契約前の不安がある場合は、当サイトの<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル回避ガイド</Link>もあわせてご覧ください。
+          </p>
+        </section>
+
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
             <span className="text-[#c9a76c]">5.</span> よくある質問（FAQ）

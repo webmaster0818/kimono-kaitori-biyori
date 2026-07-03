@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026年最新】岐阜の着物買取おすすめ5選｜郡上紬を高く売る",
   description:
     "岐阜県で着物買取を依頼するならどこがおすすめ？郡上紬（宗廣力三が再興した草木染の紬）など岐阜が誇る織物の買取相場と、出張・持込・宅配に対応したおすすめ業者5選を比較。証紙の重要性や高く売るコツも解説します。",
