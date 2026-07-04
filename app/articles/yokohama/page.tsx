@@ -558,6 +558,27 @@ export default function YokohamaPage() {
         </div>
       </section>
 
+      {/* 相談窓口 */}
+      <section id="local-support" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            横浜市の相談窓口｜訪問購入のクーリング・オフ
+          </h2>
+          <div className="space-y-4 text-sm md:text-base leading-relaxed text-gray-700">
+            <p>
+              自宅に業者を招く出張買取（訪問購入）は特定商取引法の対象で、契約書面を受け取った日を含めて<strong>8日間はクーリング・オフ（無条件解約）</strong>ができます。さらにクーリング・オフ期間中は、業者に着物など品物の引き渡しを拒むことができます（引渡し拒否権）。
+            </p>
+            <p>
+              「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.yokohama-consumer.or.jp/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">横浜市消費生活総合センター</a>（港南区上大岡西・ゆめおおおかオフィスタワー4階）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
+            </p>
+            <p>
+              押し買いの手口や対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>で詳しく解説しています。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

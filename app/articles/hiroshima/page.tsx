@@ -210,8 +210,13 @@ export default function HiroshimaPage() {
                   </a>
                 </li>
                 <li>
+                  <a href="#local-support" className="text-[#6b4c8a] hover:underline">
+                    8. 広島市の相談窓口｜訪問購入のクーリング・オフ
+                  </a>
+                </li>
+                <li>
                   <a href="#faq" className="text-[#6b4c8a] hover:underline">
-                    8. よくある質問
+                    9. よくある質問
                   </a>
                 </li>
               </ol>
@@ -676,6 +681,25 @@ export default function HiroshimaPage() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* 相談窓口 */}
+      <section id="local-support" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            広島市の相談窓口｜訪問購入のクーリング・オフ
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            自宅に業者を招く出張買取（訪問購入）は特定商取引法の対象で、契約書面を受け取った日を含めて<strong>8日間はクーリング・オフ（無条件解約）</strong>ができます。さらにクーリング・オフ期間中は、業者に着物など品物の引き渡しを拒むことができます（引渡し拒否権）。
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.hiroshima.lg.jp/living/soudan/1006026/1003215.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">広島市消費生活センター</a>（中区・アクア広島センター街8階）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            押し買いの手口や対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>で詳しく解説しています。
+          </p>
         </div>
       </section>
 

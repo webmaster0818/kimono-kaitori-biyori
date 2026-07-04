@@ -194,6 +194,21 @@ export default function ChibaCityPage() {
           </ol>
         </section>
 
+        <section id="local-support" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            千葉市の相談窓口｜訪問購入のクーリング・オフ
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            自宅に業者を招く出張買取（訪問購入）は特定商取引法の対象で、契約書面を受け取った日を含めて<strong>8日間はクーリング・オフ（無条件解約）</strong>ができます。さらにクーリング・オフ期間中は、業者に着物など品物の引き渡しを拒むことができます（引渡し拒否権）。
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.chiba.jp/shimin/seikatsubunka/shohi/soudan-top.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">千葉市消費生活センター</a>（中央区弁天・暮らしのプラザ2階）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            押し買いの手口や対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>で詳しく解説しています。
+          </p>
+        </section>
+
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
             <span className="text-[#c9a76c]">5.</span> よくある質問（FAQ）

@@ -118,7 +118,8 @@ export default function GunmaPage() {
             <li><a href="#osusume" className="hover:underline">2. 群馬の着物買取おすすめ業者5選</a></li>
             <li><a href="#houhou" className="hover:underline">3. 出張・持込・宅配の選び方</a></li>
             <li><a href="#kotsu" className="hover:underline">4. 群馬で着物を高く売る3つのコツ</a></li>
-            <li><a href="#faq" className="hover:underline">5. よくある質問（FAQ）</a></li>
+            <li><a href="#local-support" className="hover:underline">5. 群馬県で着物買取のトラブルにあったら（公的な相談先）</a></li>
+            <li><a href="#faq" className="hover:underline">6. よくある質問（FAQ）</a></li>
           </ol>
         </nav>
 
@@ -126,7 +127,7 @@ export default function GunmaPage() {
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
             <span className="text-[#c9a76c]">1.</span> 群馬が誇る着物・織物と買取のポイント
           </h2>
-          <p className="text-sm text-gray-700 leading-relaxed mb-6">群馬県は古くから養蚕と織物が盛んな土地で、桐生市の「桐生織」は国の伝統的工芸品に指定され、お召や帯地など格の高い織物で知られます。伊勢崎市の伊勢崎絣（伊勢崎銘仙）も伝統的工芸品で、買取市場でも証紙付きの上質品が評価されます。</p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-6">群馬県は古くから養蚕と織物が盛んな土地で、桐生市の「桐生織」は国の伝統的工芸品に指定され、お召や帯地など格の高い織物で知られます。伊勢崎市の伊勢崎絣（伊勢崎銘仙）も伝統的工芸品で、買取市場でも証紙付きの上質品が評価されます。桐生織そのものの価値や証紙の見方は<Link href="/articles/kiryu-ori/" className="text-[#6b4c8a] underline font-medium">桐生織の買取相場</Link>で詳しく解説しています。</p>
           <div className="space-y-3 mb-6">
             {orimono.map((o) => (
               <div key={o.name} className="border border-[#e8ddd0] rounded-lg p-4">
@@ -200,9 +201,23 @@ export default function GunmaPage() {
           </ol>
         </section>
 
+        <section id="local-support" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            <span className="text-[#c9a76c]">5.</span> 群馬県で着物買取のトラブルにあったら（公的な相談先）
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            訪問買取（訪問購入）は特定商取引法の規制対象で、契約書面を受け取った日を含む8日間はクーリング・オフ（無条件解約）ができ、その期間中は着物や貴金属などの品物の引き渡しを拒むこともできます。強引な勧誘や査定額への不安など、業者とのトラブルで困ったときは、群馬県が運営する
+            <a href="https://www.pref.gunma.jp/page/8392.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">群馬県消費生活センター</a>
+            に相談できます。また、全国共通の消費者ホットライン「<span className="font-bold">188</span>（いやや）」に局番なしでかけると、最寄りの消費生活相談窓口を案内してもらえます。※2026年7月に公式サイトで確認
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            契約前の不安がある場合は、当サイトの<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル回避ガイド</Link>もあわせてご覧ください。
+          </p>
+        </section>
+
         <section id="faq" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            <span className="text-[#c9a76c]">5.</span> よくある質問（FAQ）
+            <span className="text-[#c9a76c]">6.</span> よくある質問（FAQ）
           </h2>
           <div className="space-y-3">
             {faqs.map((f) => (
