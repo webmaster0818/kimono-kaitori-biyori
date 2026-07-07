@@ -6,14 +6,14 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
   description:
-    "買取大吉の着物買取サービスを徹底検証。全国1,800店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
+    "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/daikichi/",
   },
   openGraph: {
     title: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
     description:
-      "買取大吉の着物買取サービスを徹底検証。全国1,800店超の実績、査定員の質、買取価格の相場を正直にレビュー。",
+      "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場を正直にレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/daikichi/",
     siteName: "着物の買取びより",
     type: "article",
@@ -25,7 +25,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
   description:
-    "買取大吉の着物買取サービスを徹底検証。全国1,800店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。",
+    "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -65,7 +65,7 @@ const faqStructuredData = {
       name: "買取大吉の出張買取はどの地域に対応していますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "買取大吉は全国1,800店舗以上を展開しており、ほぼ全国で出張買取に対応しています。お近くの店舗に問い合わせることで対応エリアを確認できます。",
+        text: "買取大吉は全国2,000店舗以上を展開しており、ほぼ全国で出張買取に対応しています。お近くの店舗に問い合わせることで対応エリアを確認できます。",
       },
     },
     {
@@ -81,7 +81,7 @@ const faqStructuredData = {
       name: "買取大吉の査定から入金までどれくらいかかりますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "店頭買取・出張買取の場合は、査定後にその場で現金を受け取れます。宅配買取の場合は査定完了後、通常1〜3営業日で振込されます。",
+        text: "店舗買取・出張買取・催事買取のいずれも、査定後にその場で現金を受け取れます。買取大吉は宅配買取には対応していません。",
       },
     },
   ],
@@ -116,7 +116,7 @@ const localBusinessStructuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "買取大吉",
-  "description": "買取大吉は全国1,800店舗超を展開する着物買取サービスです。出張・店頭・宅配の3つの買取方法に対応。",
+  "description": "買取大吉は全国2,000店舗超を展開する着物買取サービスです。店舗・出張・催事の3つの買取方法に対応。",
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "3.8",
@@ -178,7 +178,7 @@ export default function DaikichiReviewPage() {
             を徹底検証
           </h1>
           <p className="text-gray-600 leading-relaxed">
-            全国1,800店舗以上を展開する買取大吉。着物買取においても専門査定員が在籍し、振袖・訪問着・帯・和装小物まで幅広く対応しています。
+            全国2,000店舗以上を展開する買取大吉。着物買取においても専門査定員が在籍し、振袖・訪問着・帯・和装小物まで幅広く対応しています。
             本記事では、実際の利用者の口コミ・評判をもとに、買取大吉の着物買取サービスを徹底検証します。
           </p>
         </header>
@@ -243,13 +243,13 @@ export default function DaikichiReviewPage() {
                   <th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">
                     店舗数
                   </th>
-                  <td className="px-4 py-3">全国1,800店舗以上</td>
+                  <td className="px-4 py-3">全国2,000店舗以上</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0]">
                   <th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">
                     買取方法
                   </th>
-                  <td className="px-4 py-3">出張買取・店頭買取・宅配買取</td>
+                  <td className="px-4 py-3">店舗買取・出張買取・催事買取</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0]">
                   <th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">
@@ -278,7 +278,7 @@ export default function DaikichiReviewPage() {
                     入金方法
                   </th>
                   <td className="px-4 py-3">
-                    店頭・出張はその場で現金、宅配は銀行振込
+                    店舗・出張・催事いずれもその場で現金払い
                   </td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0]">
@@ -291,10 +291,10 @@ export default function DaikichiReviewPage() {
             </table>
           </div>
           <p className="mt-4 text-xs text-gray-500 bg-[#faf8f5] border border-[#e8ddd0] rounded-md px-4 py-3 leading-relaxed">
-            ※本ページに記載のサービス情報（買取方法・対応エリア・手数料・クーリングオフ等）は、公式サイト（kaitori-daikichi.jp）で2026年7月に確認していますが、宅配買取の取扱い・店舗数など一部の項目は最新状況が変動する場合があります。ご利用前に必ず公式サイトで最新の内容をご確認ください。
+            ※本ページに記載のサービス情報（買取方法・対応エリア・手数料・クーリングオフ等）は、公式サイト（kaitori-daikichi.jp）で2026年7月に確認しています。店舗数など一部の項目は最新状況が変動する場合がありますので、ご利用前に必ず公式サイトで最新の内容をご確認ください。
           </p>
           <p className="mt-4 text-gray-600 leading-relaxed">
-            買取大吉は、株式会社エンパワーが運営する大手買取チェーンです。フランチャイズ展開により全国1,800店舗以上を有し、
+            買取大吉は、株式会社エンパワーが運営する大手買取チェーンです。フランチャイズ展開により全国2,000店舗以上を有し、
             着物をはじめ、ブランド品・貴金属・切手・骨董品など幅広いジャンルの買取を行っています。
             着物買取では専門の査定員が在籍しており、証紙や落款の確認、生地の状態チェックなど
             専門的な視点で適正な査定を行ってくれる点が特徴です。
@@ -394,18 +394,6 @@ export default function DaikichiReviewPage() {
 
             <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
               <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">50代女性・北海道</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                宅配買取を利用しましたが、査定結果の連絡が遅く、送ってから1週間以上待ちました。
-                問い合わせたところ「混み合っている」とのことでしたが、もう少し迅速に対応してほしかったです。
-                査定額自体は妥当だったと思いますが、スピード感に不満が残りました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
                 <span className="text-[#c9a76c] text-sm">★★★☆☆</span>
                 <span className="text-xs text-gray-500">60代女性・京都府</span>
               </div>
@@ -437,13 +425,13 @@ export default function DaikichiReviewPage() {
                 <li className="flex items-start gap-2">
                   <span className="text-[#6b4c8a] mt-0.5 shrink-0">&#10003;</span>
                   <span>
-                    全国1,800店舗以上の圧倒的なネットワークで、どこに住んでいても利用しやすい
+                    全国2,000店舗以上の圧倒的なネットワークで、どこに住んでいても利用しやすい
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#6b4c8a] mt-0.5 shrink-0">&#10003;</span>
                   <span>
-                    出張・店頭・宅配の3つの買取方法から選べる柔軟性
+                    店舗・出張・催事の3つの買取方法から選べる柔軟性
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
@@ -461,7 +449,7 @@ export default function DaikichiReviewPage() {
                 <li className="flex items-start gap-2">
                   <span className="text-[#6b4c8a] mt-0.5 shrink-0">&#10003;</span>
                   <span>
-                    店頭・出張買取ではその場で現金を受け取れるスピード感
+                    店舗・出張・催事買取いずれもその場で現金を受け取れるスピード感
                   </span>
                 </li>
               </ul>
@@ -490,7 +478,7 @@ export default function DaikichiReviewPage() {
                 <li className="flex items-start gap-2">
                   <span className="text-red-500 mt-0.5 shrink-0">&#10007;</span>
                   <span>
-                    宅配買取の査定に時間がかかる場合がある（繁忙期は1週間以上）
+                    宅配買取には対応しておらず、売却は店舗・出張・催事のいずれかに限られる
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
@@ -524,8 +512,8 @@ export default function DaikichiReviewPage() {
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
                   電話、Web、LINEのいずれかで問い合わせ。出張買取の場合は訪問日時を予約、
-                  店頭買取の場合は予約不要で直接来店も可能です。宅配買取の場合は申し込み後に
-                  無料の宅配キットが届きます。
+                  店舗買取の場合は予約不要で直接来店も可能です。催事買取は
+                  開催情報を確認のうえ会場へお持ち込みください。
                 </p>
               </div>
             </div>
@@ -580,8 +568,7 @@ export default function DaikichiReviewPage() {
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
                   査定額に同意したら、本人確認書類を提示して契約書にサイン。
-                  店頭・出張買取の場合はその場で現金を受け取れます。
-                  宅配買取の場合は指定口座に振込されます。
+                  店舗・出張・催事買取いずれもその場で現金を受け取れます。
                 </p>
               </div>
             </div>
@@ -622,7 +609,7 @@ export default function DaikichiReviewPage() {
                     近くの店舗で気軽に査定してほしい方
                   </span>
                   <p className="mt-1 text-gray-600">
-                    全国1,800店舗以上あるため、自宅や職場の近くに店舗がある可能性が高いです。
+                    全国2,000店舗以上あるため、自宅や職場の近くに店舗がある可能性が高いです。
                     予約なしでも対応可能な店舗が多く、買い物のついでに立ち寄れます。
                   </p>
                 </div>
@@ -678,7 +665,7 @@ export default function DaikichiReviewPage() {
                     即日で現金が必要な方
                   </span>
                   <p className="mt-1 text-gray-600">
-                    店頭・出張買取ではその場で現金を受け取れます。
+                    店舗・出張・催事買取いずれもその場で現金を受け取れます。
                     急ぎで現金化したい場合に便利です。
                   </p>
                 </div>
@@ -711,7 +698,7 @@ export default function DaikichiReviewPage() {
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
               <p className="text-sm font-bold text-gray-900 mb-1">3. 店舗によって対応に差がある</p>
               <p className="text-sm text-gray-700">
-                全国1,800店以上のフランチャイズ展開のため、スタッフの経験値や対応品質に差が出ることがあります。口コミで最寄り店舗の評判を事前にチェックするのがおすすめです。
+                全国2,000店以上のフランチャイズ展開のため、スタッフの経験値や対応品質に差が出ることがあります。口コミで最寄り店舗の評判を事前にチェックするのがおすすめです。
               </p>
             </div>
           </div>
@@ -742,7 +729,6 @@ export default function DaikichiReviewPage() {
                 A.
                 いいえ、買取大吉では査定料・出張料・キャンセル料はすべて無料です。
                 査定だけでも気軽に利用でき、金額に納得できなければ無料でお断りできます。
-                宅配買取の送料も無料です。
               </div>
             </details>
 
@@ -774,7 +760,7 @@ export default function DaikichiReviewPage() {
               </summary>
               <div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">
                 A.
-                買取大吉は全国1,800店舗以上を展開しており、ほぼ全国で出張買取に対応しています。
+                買取大吉は全国2,000店舗以上を展開しており、ほぼ全国で出張買取に対応しています。
                 ただし、一部離島や山間部では対応できない場合があります。
                 お近くの店舗に電話で問い合わせるか、公式サイトから対応エリアを確認できます。
               </div>
@@ -809,10 +795,9 @@ export default function DaikichiReviewPage() {
               </summary>
               <div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">
                 A.
-                店頭買取・出張買取の場合は、査定後にその場で現金を受け取れます。
+                店舗買取・出張買取・催事買取のいずれも、査定後にその場で現金を受け取れます。
                 所要時間は点数によりますが、5〜10点であれば30分〜1時間程度です。
-                宅配買取の場合は着物到着後2〜5営業日で査定結果が通知され、
-                同意後1〜3営業日で指定口座に振込されます。
+                買取大吉は宅配買取には対応していないため、郵送での査定・振込は行っていません。
               </div>
             </details>
           </div>
@@ -825,7 +810,7 @@ export default function DaikichiReviewPage() {
           </h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <p className="text-gray-700 text-sm leading-relaxed mb-4">
-              買取大吉は、全国1,800店舗以上の圧倒的なネットワークと、出張・店頭・宅配の3つの買取方法に対応する
+              買取大吉は、全国2,000店舗以上の圧倒的なネットワークと、店舗・出張・催事の3つの買取方法に対応する
               総合力の高い買取業者です。着物専門の査定員が在籍しており、振袖・訪問着・帯・和装小物まで幅広く対応。
               手数料がすべて無料なので、初めて着物を売る方でも安心して利用できます。
             </p>

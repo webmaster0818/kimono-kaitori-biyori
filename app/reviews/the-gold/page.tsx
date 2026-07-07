@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "ザ・ゴールドの着物買取｜口コミ・評判を徹底検証",
   description:
-    "ザ・ゴールドの着物買取サービスを徹底検証。全国約70店舗の直営店展開、着物専門査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
+    "ザ・ゴールドの着物買取サービスを徹底検証。全国70店舗以上の直営店展開、着物専門査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/the-gold/",
   },
@@ -116,7 +116,7 @@ const localBusinessStructuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "ザ・ゴールド",
-  "description": "ザ・ゴールドは全国約70店舗の直営店を展開し、着物専門査定員が在籍する着物買取サービスです。",
+  "description": "ザ・ゴールドは全国70店舗以上の直営店を展開し、着物専門査定員が在籍する着物買取サービスです。",
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "3.7",
@@ -177,7 +177,7 @@ export default function TheGoldReviewPage() {
             を徹底検証
           </h1>
           <p className="text-gray-600 leading-relaxed">
-            ザ・ゴールドは、株式会社マックスガイが運営する買取専門店で、全国約70店舗をすべて直営で展開しています。着物買取にも力を入れており、着物の知識を持つ査定員が在籍。テレビCMでも知名度が高く、着物買取業界で確固たるポジションを築いています。本記事では、実際の口コミや評判をもとにザ・ゴールドの実力を検証します。
+            ザ・ゴールドは、株式会社マックスガイが運営する買取専門店で、全国70店舗以上をすべて直営で展開しています。着物買取にも力を入れており、着物の知識を持つ査定員が在籍。テレビCMでも知名度が高く、着物買取業界で確固たるポジションを築いています。本記事では、実際の口コミや評判をもとにザ・ゴールドの実力を検証します。
           </p>
         </header>
 
@@ -219,7 +219,7 @@ export default function TheGoldReviewPage() {
                 </tr>
                 <tr className="border-b border-[#e8ddd0]">
                   <th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">店舗数</th>
-                  <td className="px-4 py-3">全国約70店舗（すべて直営）</td>
+                  <td className="px-4 py-3">全国70店舗以上（すべて直営）</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0]">
                   <th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">買取方法</th>
@@ -244,7 +244,7 @@ export default function TheGoldReviewPage() {
             ※本ページに記載のサービス情報（買取方法・対応エリア・査定料／出張料／キャンセル料・クーリングオフ）は、公式サイト（the-gold.jp）で2026年7月に確認しています。最新の内容は公式サイトをご確認ください。
           </p>
           <p className="mt-4 text-gray-600 leading-relaxed">
-            ザ・ゴールドは、1962年創業の老舗企業・株式会社マックスガイが運営する買取専門店です。60年以上の歴史を持ち、全国約70店舗をすべて直営で展開しているのが最大の特徴です。フランチャイズ展開ではないため、全店舗で統一されたサービス品質と査定基準を維持しています。着物買取にも注力しており、着物の知識を持つ専門査定員が各店舗に配置されています。
+            ザ・ゴールドは、1962年創業の老舗企業・株式会社マックスガイが運営する買取専門店です。60年以上の歴史を持ち、全国70店舗以上をすべて直営で展開しているのが最大の特徴です。フランチャイズ展開ではないため、全店舗で統一されたサービス品質と査定基準を維持しています。着物買取にも注力しており、着物の知識を持つ専門査定員が各店舗に配置されています。
           </p>
         </section>
 
@@ -256,7 +256,7 @@ export default function TheGoldReviewPage() {
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
               <h3 className="font-bold text-gray-900 mb-2">1. 全店舗直営による統一された品質</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                ザ・ゴールドはフランチャイズ展開をせず、全約70店舗をすべて直営で運営しています。そのため、どの店舗を利用しても統一された査定基準と接客品質でサービスを受けられます。フランチャイズ店にありがちな「店舗ごとの査定額のばらつき」が起きにくいのが大きなメリットです。
+                ザ・ゴールドはフランチャイズ展開をせず、70店舗以上をすべて直営で運営しています。そのため、どの店舗を利用しても統一された査定基準と接客品質でサービスを受けられます。フランチャイズ店にありがちな「店舗ごとの査定額のばらつき」が起きにくいのが大きなメリットです。
               </p>
             </div>
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
@@ -268,7 +268,7 @@ export default function TheGoldReviewPage() {
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
               <h3 className="font-bold text-gray-900 mb-2">3. 地域密着の店舗展開</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                全国約70店舗は主に東日本を中心に展開されており、地域に密着したサービスを提供しています。店舗スタッフは地元に根付いた対応を心がけており、特に高齢の方からの信頼が厚いのが特徴です。店舗では予約不要で気軽に査定を依頼できます。
+                全国70店舗以上は主に東日本を中心に展開されており、地域に密着したサービスを提供しています。店舗スタッフは地元に根付いた対応を心がけており、特に高齢の方からの信頼が厚いのが特徴です。店舗では予約不要で気軽に査定を依頼できます。
               </p>
             </div>
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
@@ -534,7 +534,7 @@ export default function TheGoldReviewPage() {
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">3</span>
                 <div>
                   <span className="font-bold text-gray-900">東日本にお住まいで店舗持ち込みしたい方</span>
-                  <p className="mt-1 text-gray-600">東日本を中心に約70店舗あり、予約不要で気軽に持ち込めます。</p>
+                  <p className="mt-1 text-gray-600">東日本を中心に70店舗以上あり、予約不要で気軽に持ち込めます。</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -625,7 +625,7 @@ export default function TheGoldReviewPage() {
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-[#faf8f5]">
                   <td className="px-3 py-3 font-medium">店舗数</td>
-                  <td className="px-3 py-3 text-center">約70店</td>
+                  <td className="px-3 py-3 text-center">70店以上</td>
                   <td className="px-3 py-3 text-center">少数</td>
                   <td className="px-3 py-3 text-center">少数</td>
                 </tr>
@@ -690,7 +690,7 @@ export default function TheGoldReviewPage() {
                 <span className="font-medium text-gray-900 text-sm pr-4">Q. ザ・ゴールドはフランチャイズですか？</span>
                 <span className="text-[#6b4c8a] group-open:rotate-180 transition-transform text-lg shrink-0">&#9662;</span>
               </summary>
-              <div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">A. いいえ、全約70店舗がすべて直営です。統一された査定基準とサービス品質が保たれています。</div>
+              <div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">A. いいえ、70店舗以上すべてが直営です。統一された査定基準とサービス品質が保たれています。</div>
             </details>
           </div>
         </section>

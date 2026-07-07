@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "RECLO（リクロ）の着物買取｜宅配買取の評判・口コミを検証",
   description:
     "RECLO（リクロ）の着物買取サービスを徹底検証。宅配買取特化で高級品に強い実力、送料無料・キャンセル返送料無料の安心体制、実際の口コミ・評判を正直にレビューします。",
+  robots: { index: false, follow: true },
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/reclo/",
   },
@@ -27,7 +28,7 @@ const articleStructuredData = {
   description:
     "RECLO（リクロ）の着物買取サービスを徹底検証。宅配買取特化で高級品に強い実力を口コミとともにレビュー。",
   datePublished: "2026-04-15",
-  dateModified: "2026-04-15",
+  dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -177,6 +178,10 @@ export default function RecloReviewPage() {
             <span className="text-[#6b4c8a]">宅配買取の評判・口コミ</span>
             を検証
           </h1>
+          <div className="rounded-lg border border-amber-300 bg-amber-50 p-4 my-4 text-sm text-gray-800 leading-relaxed">
+            <p className="font-bold text-amber-800 mb-1">【2026年7月更新のお知らせ】</p>
+            <p>2026年7月時点で、RECLO（リクロ）の公式買取サービスはブランドバッグ・衣料・時計・ジュエリー等のブランド品買取に特化しており、公式サイト上で着物買取の受付ページを確認できませんでした。本ページの内容は過去の情報にもとづくものです。着物の買取をお急ぎの方は、着物買取に対応している他社（<a href="/reviews/buysell/" className="text-[#6b4c8a] underline">バイセル</a>・<a href="/reviews/fukuchan/" className="text-[#6b4c8a] underline">福ちゃん</a>など）や<a href="/ranking/" className="text-[#6b4c8a] underline">おすすめランキング</a>をご検討ください。最新の取扱状況はRECLO公式サイトでご確認ください。</p>
+          </div>
           <p className="text-gray-600 leading-relaxed">
             RECLO（リクロ）は宅配買取に特化した買取サービスで、高級品の取り扱いに強みがあります。
             着物・骨董品・ジュエリーなど幅広いカテゴリに対応し、送料無料・キャンセル返送料無料の

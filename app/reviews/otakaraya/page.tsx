@@ -6,13 +6,13 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "おたからやの着物買取｜フランチャイズ店の実力を検証",
   description:
-    "おたからやの着物買取サービスを徹底検証。全国1,300店舗超のフランチャイズ展開、査定の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯の買取を検討中の方必見。",
+    "おたからやの着物買取サービスを徹底検証。世界約1,880店舗超のフランチャイズ展開、査定の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/otakaraya/",
   },
   openGraph: {
     title: "おたからやの着物買取｜フランチャイズ店の実力を検証",
-    description: "おたからやの着物買取を徹底検証。全国1,300店超のFC展開と口コミを正直にレビュー。",
+    description: "おたからやの着物買取を徹底検証。世界約1,880店超のFC展開と口コミを正直にレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/otakaraya/",
     siteName: "着物の買取びより",
     type: "article",
@@ -23,7 +23,7 @@ const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "おたからやの着物買取｜フランチャイズ店の実力を検証",
-  description: "おたからやの着物買取を徹底検証。全国1,300店超のFC展開と口コミを正直にレビュー。",
+  description: "おたからやの着物買取を徹底検証。世界約1,880店超のFC展開と口コミを正直にレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -38,8 +38,8 @@ const faqStructuredData = {
     { "@type": "Question", name: "おたからやで着物は買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、おたからやでは着物の買取に対応しています。ただし、フランチャイズ店のため店舗によって着物の取扱い対応が異なります。事前に最寄り店舗に着物買取が可能か確認することをおすすめします。" } },
     { "@type": "Question", name: "おたからやの着物買取の手数料はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "おたからやでは基本的に査定料・出張料は無料です。ただし、フランチャイズ店のため、店舗によって条件が異なる場合があります。事前に確認することをおすすめします。" } },
     { "@type": "Question", name: "おたからやはフランチャイズですが査定の質は大丈夫ですか？", acceptedAnswer: { "@type": "Answer", text: "おたからやは本部が研修制度を設けていますが、フランチャイズ展開のため店舗オーナーの経験や知識レベルによって査定の質にばらつきがあるのが実状です。特に着物は専門知識が必要なジャンルのため、着物に詳しいスタッフがいる店舗を選ぶことが重要です。" } },
-    { "@type": "Question", name: "おたからやの出張買取は全国どこでも対応していますか？", acceptedAnswer: { "@type": "Answer", text: "おたからやは全国1,300店舗以上を展開しており、多くの地域で出張買取に対応しています。ただし、出張対応は各フランチャイズ店の判断となるため、最寄り店舗に直接問い合わせて確認する必要があります。" } },
-    { "@type": "Question", name: "おたからやと買取大吉の違いは何ですか？", acceptedAnswer: { "@type": "Answer", text: "どちらもフランチャイズ展開の買取チェーンですが、買取大吉は全国1,800店超で店舗数が多く、おたからやは約1,300店舗です。着物買取においては、どちらも総合買取店のため着物専門の査定力では専門店に劣る面があります。複数社で査定を比較することをおすすめします。" } },
+    { "@type": "Question", name: "おたからやの出張買取は全国どこでも対応していますか？", acceptedAnswer: { "@type": "Answer", text: "おたからやは世界約1,880店舗以上を展開しており、多くの地域で出張買取に対応しています。ただし、出張対応は各フランチャイズ店の判断となるため、最寄り店舗に直接問い合わせて確認する必要があります。" } },
+    { "@type": "Question", name: "おたからやと買取大吉の違いは何ですか？", acceptedAnswer: { "@type": "Answer", text: "どちらもフランチャイズ展開の買取チェーンです。買取大吉は全国1,800店超、おたからやは世界約1,880店舗以上と、いずれも大規模なチェーンです。着物買取においては、どちらも総合買取店のため着物専門の査定力では専門店に劣る面があります。複数社で査定を比較することをおすすめします。" } },
   ],
 };
 
@@ -73,7 +73,7 @@ export default function OtakarayaReviewPage() {
             <span className="text-[#6b4c8a]">フランチャイズ店の実力</span>を検証
           </h1>
           <p className="text-gray-600 leading-relaxed">
-            おたからやは、株式会社いーふらんが運営する買取専門チェーンで、全国1,300店舗以上をフランチャイズ展開しています。貴金属・ブランド品を主力としつつ、着物の買取にも対応。買取大吉と並ぶFC系大手買取チェーンの一つです。本記事では、おたからやの着物買取の実力を口コミや評判をもとに検証します。
+            おたからやは、株式会社いーふらんが運営する買取専門チェーンで、世界約1,880店舗以上をフランチャイズ展開しています。貴金属・ブランド品を主力としつつ、着物の買取にも対応。買取大吉と並ぶFC系大手買取チェーンの一つです。本記事では、おたからやの着物買取の実力を口コミや評判をもとに検証します。
           </p>
         </header>
 
@@ -102,7 +102,7 @@ export default function OtakarayaReviewPage() {
                 <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700 w-1/3">運営会社</th><td className="px-4 py-3">株式会社いーふらん</td></tr>
                 <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">設立</th><td className="px-4 py-3">2000年</td></tr>
                 <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">本社所在地</th><td className="px-4 py-3">神奈川県横浜市神奈川区鶴屋町3-33-2 横浜鶴屋町ビル7F</td></tr>
-                <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">店舗数</th><td className="px-4 py-3">全国1,300店舗以上（フランチャイズ）</td></tr>
+                <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">店舗数</th><td className="px-4 py-3">世界約1,880店舗以上（フランチャイズ）</td></tr>
                 <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">買取方法</th><td className="px-4 py-3">店頭買取・出張買取</td></tr>
                 <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">対応エリア</th><td className="px-4 py-3">全国（店舗所在地周辺）</td></tr>
                 <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">手数料</th><td className="px-4 py-3">査定料・出張料無料（店舗による）</td></tr>
@@ -111,7 +111,7 @@ export default function OtakarayaReviewPage() {
             </table>
           </div>
           <p className="mt-4 text-gray-600 leading-relaxed">
-            おたからやは、2000年に設立された株式会社いーふらんが運営する買取専門チェーンです。フランチャイズ方式で全国1,300店舗以上を展開しており、貴金属・ブランド品・時計の買取を主力としています。着物の買取にも対応していますが、着物の取扱いは店舗によって対応が異なります。フランチャイズのため各店舗のオーナーが独立して運営しており、サービスの質は店舗ごとに差があるのが特徴です。
+            おたからやは、2000年に設立された株式会社いーふらんが運営する買取専門チェーンです。フランチャイズ方式で世界約1,880店舗以上を展開しており、貴金属・ブランド品・時計の買取を主力としています。着物の買取にも対応していますが、着物の取扱いは店舗によって対応が異なります。フランチャイズのため各店舗のオーナーが独立して運営しており、サービスの質は店舗ごとに差があるのが特徴です。
           </p>
           <p className="mt-4 text-xs text-gray-500">※本ページのサービス情報（買取方法・査定料・出張料など）は公式サイトで2026年7月に確認しています。店舗数など一部の数値は変動するため、最新の内容は公式サイトをご確認ください。</p>
         </section>
@@ -120,8 +120,8 @@ export default function OtakarayaReviewPage() {
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">サービスの特徴</h2>
           <div className="space-y-6">
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
-              <h3 className="font-bold text-gray-900 mb-2">1. 全国1,300店舗超の広いネットワーク</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">おたからやは全国に1,300店舗以上を展開しており、自宅や職場の近くに店舗がある可能性が高いです。気軽に持ち込みで査定を依頼できる利便性は大きなメリットです。</p>
+              <h3 className="font-bold text-gray-900 mb-2">1. 世界約1,880店舗超の広いネットワーク</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">おたからやは世界に約1,880店舗以上を展開しており、国内でも多くの地域に店舗があるため、自宅や職場の近くに店舗がある可能性が高いです。気軽に持ち込みで査定を依頼できる利便性は大きなメリットです。</p>
             </div>
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
               <h3 className="font-bold text-gray-900 mb-2">2. 貴金属・ブランド品との同時査定</h3>
@@ -237,7 +237,7 @@ export default function OtakarayaReviewPage() {
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
               <h3 className="text-lg font-bold text-[#6b4c8a] mb-4 flex items-center gap-2"><span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#6b4c8a] text-white text-sm">○</span>メリット</h3>
               <ul className="space-y-3 text-sm text-gray-700">
-                <li className="flex items-start gap-2"><span className="text-[#6b4c8a] mt-0.5 shrink-0">&#10003;</span><span>全国1,300店超で近くに店舗がある可能性が高い</span></li>
+                <li className="flex items-start gap-2"><span className="text-[#6b4c8a] mt-0.5 shrink-0">&#10003;</span><span>世界約1,880店超（国内にも多数）で近くに店舗がある可能性が高い</span></li>
                 <li className="flex items-start gap-2"><span className="text-[#6b4c8a] mt-0.5 shrink-0">&#10003;</span><span>予約不要で気軽に持ち込み可能</span></li>
                 <li className="flex items-start gap-2"><span className="text-[#6b4c8a] mt-0.5 shrink-0">&#10003;</span><span>貴金属・ブランド品と着物をまとめて査定可能</span></li>
                 <li className="flex items-start gap-2"><span className="text-[#6b4c8a] mt-0.5 shrink-0">&#10003;</span><span>個人オーナーならではの柔軟な対応</span></li>
@@ -260,7 +260,7 @@ export default function OtakarayaReviewPage() {
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">こんな人におすすめ</h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <ul className="space-y-4 text-sm text-gray-700">
-              <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">1</span><div><span className="font-bold text-gray-900">近くの店舗で気軽に査定してもらいたい方</span><p className="mt-1 text-gray-600">全国1,300店超で、近所に店舗がある可能性が高いです。</p></div></li>
+              <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">1</span><div><span className="font-bold text-gray-900">近くの店舗で気軽に査定してもらいたい方</span><p className="mt-1 text-gray-600">世界約1,880店超（国内にも多数）で、近所に店舗がある可能性が高いです。</p></div></li>
               <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">2</span><div><span className="font-bold text-gray-900">貴金属・ブランド品と着物をまとめて売りたい方</span><p className="mt-1 text-gray-600">特に貴金属の査定に強いので、一緒に持ち込むと便利です。</p></div></li>
               <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">3</span><div><span className="font-bold text-gray-900">まずは査定額の目安を知りたい方</span><p className="mt-1 text-gray-600">無料で査定してもらえるので、他社との比較材料にできます。</p></div></li>
               <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">4</span><div><span className="font-bold text-gray-900">着物に詳しいオーナーの店舗を知っている方</span><p className="mt-1 text-gray-600">口コミで評判の良い店舗なら、専門性の高い査定が期待できます。</p></div></li>
@@ -286,7 +286,7 @@ export default function OtakarayaReviewPage() {
               <thead><tr className="bg-[#6b4c8a] text-white"><th className="px-3 py-3 text-left">項目</th><th className="px-3 py-3 text-center">おたからや</th><th className="px-3 py-3 text-center">買取大吉</th><th className="px-3 py-3 text-center">バイセル</th></tr></thead>
               <tbody>
                 <tr className="border-b border-[#e8ddd0]"><td className="px-3 py-3 font-medium">運営形態</td><td className="px-3 py-3 text-center">FC</td><td className="px-3 py-3 text-center">FC</td><td className="px-3 py-3 text-center">直営・上場</td></tr>
-                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5]"><td className="px-3 py-3 font-medium">店舗数</td><td className="px-3 py-3 text-center">約1,300店</td><td className="px-3 py-3 text-center">約1,800店</td><td className="px-3 py-3 text-center">少数</td></tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5]"><td className="px-3 py-3 font-medium">店舗数</td><td className="px-3 py-3 text-center">世界約1,880店</td><td className="px-3 py-3 text-center">約1,800店</td><td className="px-3 py-3 text-center">少数</td></tr>
                 <tr className="border-b border-[#e8ddd0]"><td className="px-3 py-3 font-medium">着物専門性</td><td className="px-3 py-3 text-center">低〜中</td><td className="px-3 py-3 text-center">中</td><td className="px-3 py-3 text-center">中〜高</td></tr>
                 <tr className="border-b border-[#e8ddd0] bg-[#faf8f5]"><td className="px-3 py-3 font-medium">査定品質の安定性</td><td className="px-3 py-3 text-center">店舗による</td><td className="px-3 py-3 text-center">店舗による</td><td className="px-3 py-3 text-center">安定</td></tr>
                 <tr className="border-b border-[#e8ddd0]"><td className="px-3 py-3 font-medium">手数料</td><td className="px-3 py-3 text-center">原則無料</td><td className="px-3 py-3 text-center">完全無料</td><td className="px-3 py-3 text-center">完全無料</td></tr>
@@ -302,14 +302,14 @@ export default function OtakarayaReviewPage() {
             <details className="group border border-[#e8ddd0] rounded-lg overflow-hidden"><summary className="flex items-center justify-between cursor-pointer px-5 py-4 bg-[#faf8f5] hover:bg-[#f5f0eb] transition-colors"><span className="font-medium text-gray-900 text-sm pr-4">Q. 手数料はかかりますか？</span><span className="text-[#6b4c8a] group-open:rotate-180 transition-transform text-lg shrink-0">&#9662;</span></summary><div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">A. 基本的に査定料・出張料は無料ですが、FC店のため店舗によって条件が異なる場合があります。</div></details>
             <details className="group border border-[#e8ddd0] rounded-lg overflow-hidden"><summary className="flex items-center justify-between cursor-pointer px-5 py-4 bg-[#faf8f5] hover:bg-[#f5f0eb] transition-colors"><span className="font-medium text-gray-900 text-sm pr-4">Q. フランチャイズでも査定の質は大丈夫ですか？</span><span className="text-[#6b4c8a] group-open:rotate-180 transition-transform text-lg shrink-0">&#9662;</span></summary><div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">A. 本部研修はありますが、着物の専門知識は店舗オーナーの経験に依存します。口コミで評判の良い店舗を選ぶことが重要です。</div></details>
             <details className="group border border-[#e8ddd0] rounded-lg overflow-hidden"><summary className="flex items-center justify-between cursor-pointer px-5 py-4 bg-[#faf8f5] hover:bg-[#f5f0eb] transition-colors"><span className="font-medium text-gray-900 text-sm pr-4">Q. 出張買取は全国対応ですか？</span><span className="text-[#6b4c8a] group-open:rotate-180 transition-transform text-lg shrink-0">&#9662;</span></summary><div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">A. 出張対応は各FC店の判断となるため、最寄り店舗に直接問い合わせる必要があります。</div></details>
-            <details className="group border border-[#e8ddd0] rounded-lg overflow-hidden"><summary className="flex items-center justify-between cursor-pointer px-5 py-4 bg-[#faf8f5] hover:bg-[#f5f0eb] transition-colors"><span className="font-medium text-gray-900 text-sm pr-4">Q. 買取大吉との違いは？</span><span className="text-[#6b4c8a] group-open:rotate-180 transition-transform text-lg shrink-0">&#9662;</span></summary><div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">A. どちらもFC展開の総合買取店です。買取大吉は約1,800店でおたからやより店舗数が多く、着物査定の研修体制も整っている傾向があります。</div></details>
+            <details className="group border border-[#e8ddd0] rounded-lg overflow-hidden"><summary className="flex items-center justify-between cursor-pointer px-5 py-4 bg-[#faf8f5] hover:bg-[#f5f0eb] transition-colors"><span className="font-medium text-gray-900 text-sm pr-4">Q. 買取大吉との違いは？</span><span className="text-[#6b4c8a] group-open:rotate-180 transition-transform text-lg shrink-0">&#9662;</span></summary><div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">A. どちらもFC展開の総合買取店です。買取大吉は全国約1,800店、おたからやは世界約1,880店舗以上と、いずれも大規模なチェーンです。着物査定はどちらも総合買取店のため、複数社での比較をおすすめします。</div></details>
           </div>
         </section>
 
         <section className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">まとめ：おたからやは近所の店舗で気軽に売りたい方向け</h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
-            <p className="text-gray-700 text-sm leading-relaxed mb-4">おたからやは全国1,300店超のネットワークを持つFC買取チェーンで、近くの店舗で気軽に着物を売れる利便性が魅力です。貴金属やブランド品と一緒にまとめて査定できるのも便利なポイントです。</p>
+            <p className="text-gray-700 text-sm leading-relaxed mb-4">おたからやは世界約1,880店超のネットワークを持つFC買取チェーンで、国内でも近くの店舗で気軽に着物を売れる利便性が魅力です。貴金属やブランド品と一緒にまとめて査定できるのも便利なポイントです。</p>
             <p className="text-gray-700 text-sm leading-relaxed mb-4">一方で、FC運営のため店舗ごとの査定額や対応の質にばらつきが大きい点は注意が必要です。着物だけを高く売りたい場合は、着物専門の査定力を持つバイセルや福ちゃんとの併用をおすすめします。</p>
             <p className="text-gray-700 text-sm leading-relaxed">着物の相見積もりの一つとして利用するか、貴金属と着物をまとめて売りたい場合に検討するのが賢い使い方です。</p>
           </div>

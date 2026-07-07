@@ -220,7 +220,7 @@ export default function HikakakuReviewPage() {
                   <th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">
                     運営会社
                   </th>
-                  <td className="px-4 py-3">株式会社ジラフ</td>
+                  <td className="px-4 py-3">株式会社じげん（ZIGExN Co., Ltd.）</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0]">
                   <th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">
@@ -262,7 +262,7 @@ export default function HikakakuReviewPage() {
             </table>
           </div>
           <p className="mt-4 text-gray-600 leading-relaxed">
-            ヒカカク！は、株式会社ジラフが運営する買取比較・一括査定プラットフォームです。
+            ヒカカク！は、株式会社じげん（ZIGExN Co., Ltd.）が運営する買取比較・一括査定プラットフォームです。
             ヒカカク自体が買取を行うわけではなく、登録された複数の買取業者に一括で査定依頼を出し、
             各社の見積もりを比較できるサービスです。着物・振袖カテゴリも充実しており、
             着物専門店から総合買取店まで幅広い業者が登録されています。

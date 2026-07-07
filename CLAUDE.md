@@ -147,3 +147,9 @@
 - 🐛deploy repoリモート先行(前回TierB deploy分)でpush rejected→`git fetch`→`git reset --soft origin/main`(ワークツリー=最新ビルド保持)→再commit/pushでリコンサイル
 - souba-methodハブ23→28件・sitemap150不変(既存ページ)lastmod6件・deploy=kimono-kaitori-biyori-deploy厳守(remote確認)・本番5/5(auction-data/condition/免責/実売数値/タイトル着物)cache回避curl検証・GSC再送信。料金/業者文言/SoubaNote不変更
 - 残: P3 reviews確認日(要承認)/週次GSC観測(スパム被弾からの回復2-3か月スパン)/手動対策欄の回答待ち
+
+## 2026-07-07 回復P3: reviews公式確認日付与（MediaXAI「p3進めて」）✅→差異承認待ち
+- 並列agent3体で全11レビューを各社公式サイトで突合。**8社は公式一致で確認日付与**(buysell/fukuchan/the-gold/komehyo/otakaraya/tifana/hikakaku/mangakuya=基本情報直下に「本ページのサービス情報は公式サイトで2026年7月に確認」注記+dateModified 2026-07-07)。料金/業者文言/口コミ不変更
+- ★誠実突合で重大差異を発見(文言未変更・承認依頼: id 1523981716782448800): ①買取大吉=現「宅配買取あり」vs公式「店舗/出張/催事のみ宅配なし」・店舗1,800→2,000(確認日は「一部要確認」注記のみ) ②ウリエル=運営「株式会社ウリエル」は架空(正=株式会社クオーレ・愛知大府)・買取方法/エリア差異→確認日付けず保留 ③RECLO=公式がブランド品特化に変更・着物LP404/着物カテゴリ消滅→着物サービス現存疑い・確認日付けず保留(ページ存続/リライト方針相談) ④ヒカカク=運営ジラフ→じげん(2024承継) ⑤まんがく屋=本社住所移転疑い ⑥おたからや1,300→1,880店・the-gold70→76店
+- 虚偽の確認日を書かない原則を厳守(差異大の2社は確認日を付けずに保留)。sitemap lastmod9件(150不変)・deploy=kimono-kaitori-biyori-deploy厳守・本番8/8確認日+reclo/uriel確認日なし+title着物をcache回避curl検証・GSC再送信
+- 残: 差異②③①優先の是正(承認後)/週次回復観測(スパム被弾2-3か月)/手動対策欄の回答待ち。★回復プラン①〜④+P1〜P3完遂

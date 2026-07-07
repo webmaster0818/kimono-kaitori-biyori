@@ -100,7 +100,7 @@ export default function MangakuyaReviewPage() {
             <table className="w-full border-collapse text-sm">
               <tbody>
                 <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700 w-1/3">運営会社</th><td className="px-4 py-3">株式会社まんがく屋</td></tr>
-                <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">本社所在地</th><td className="px-4 py-3">大阪府吹田市片山町1-18-6 ベルベナー吹田ビル3F</td></tr>
+                <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">本社所在地</th><td className="px-4 py-3">〒564-0027 大阪府吹田市朝日町27-17 富士ビル2階</td></tr>
                 <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">買取方法</th><td className="px-4 py-3">出張買取・宅配買取・店頭買取</td></tr>
                 <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">対応エリア</th><td className="px-4 py-3">全国対応（出張買取は一部地域を除く）</td></tr>
                 <tr className="border-b border-[#e8ddd0]"><th className="bg-[#faf8f5] text-left px-4 py-3 font-medium text-gray-700">手数料</th><td className="px-4 py-3">査定料・出張料・キャンセル料すべて無料</td></tr>
