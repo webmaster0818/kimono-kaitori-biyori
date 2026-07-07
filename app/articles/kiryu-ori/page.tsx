@@ -538,6 +538,126 @@ export default function KiryuOriPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの桐生織のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。桐生織は帯が主流のため、帯を中心に品目を分けて集計しています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">落札件数</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">桐生織（全般）</td>
+                  <td className="px-4 py-3 font-medium">52件</td>
+                  <td className="px-4 py-3 font-medium">約7,157円</td>
+                  <td className="px-4 py-3 font-medium">47,740円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">桐生織 帯</td>
+                  <td className="px-4 py-3 font-medium">21件</td>
+                  <td className="px-4 py-3 font-medium">約12,541円</td>
+                  <td className="px-4 py-3 font-medium">47,740円</td>
+                </tr>
+                <tr className="bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">桐生織 名古屋帯</td>
+                  <td className="px-4 py-3 font-medium">8件</td>
+                  <td className="px-4 py-3 font-medium">約25,253円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">47,740円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E6%A1%90%E7%94%9F%E7%B9%94%20%E5%B8%AF/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション（旧ヤフオク!）「桐生織 帯」ほか各キーワードの落札相場
+            </a>
+            （直近180日の集計・2026年7月取得）
+            <br />
+            ※ 桐生織はオークションでの出品数が限られる品目のため、集計は数件〜数十件規模です。とくに「名古屋帯」など件数の少ない品目は、数点の高額・安値で平均が動きやすい点にご留意ください。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。証紙なし・状態不良の品や、逆に精緻な紋織・作家物・著名織元の作品では価格が大きく上下するため、上表の平均はあくまで価格帯の“目安”としてご覧ください。金額は取得時点のもので、相場は時期・状態・証紙・織りで大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札相場集計から、品目・落札件数・平均落札価格・最高落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              証紙あり・作家物・精緻な紋織の桐生織は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・織り・状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ桐生織でも、証紙の有無、織り技法や織りの精緻さ、帯の種類、素材や保存状態によって査定額は大きく変わります。前述の実売データに見られる価格の“幅”も、多くはこうした状態差から生まれています。下表のような条件で評価が上下します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（桐生織物協同組合）", "◎ 大きくプラス", "桐生織物協同組合の証紙は、桐生で織られた製品であることを示す品質の裏付けになります。証紙がそろっていると産地の確認がしやすく、評価が安定します。"],
+                  ["証紙なし", "△ 下がりやすい", "桐生織であることの確認が難しくなり、織りの種類も特定しづらいため慎重な査定になりがち。たとう紙や箱の表示など、他の手がかりが重要になります。"],
+                  ["精緻な紋織・格の高い織り", "◎ 高評価", "「西の西陣、東の桐生」と称される先染め紋織の産地だけに、織りの密度や技法の難度が高い作品ほど評価されやすい傾向。凝った紋織や格調高い古典柄は上振れしやすくなります。"],
+                  ["作家物・著名織元の作品", "◎ 別格の評価", "織元や作家が明確で、落款・証紙で確認できる作品は別格の評価につながることがあります。銘や証紙の有無を確認しておくと有利です。"],
+                  ["袋帯（礼装・準礼装向け）", "○ 用途で差", "格の高い袋帯は礼装向けとして需要があり、精緻な紋織であれば評価が上がりやすい傾向。名古屋帯やカジュアル向けは柄・状態次第で幅が出ます。"],
+                  ["正絹（絹）", "◎ 有利", "正絹の帯は素材面でも評価されやすい状態。化繊（ポリエステル等）の織物は評価が大幅に下がる傾向があります。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみで難がなければ特に有利です。"],
+                  ["金銀糸の変色・シミ・ヤケ・難あり", "△ マイナス", "桐生織は金糸・銀糸を使った帯も多く、金銀糸の変色やヤケ、シミ、締めジワは減額対象。難の程度・範囲で幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">

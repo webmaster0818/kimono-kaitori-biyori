@@ -41,6 +41,11 @@ const dataPages = [
   { name: "黄八丈（本場黄八丈）", href: "/articles/honba-kihachijo/" },
   { name: "阿波藍染", href: "/articles/awa-aizome/" },
   { name: "小千谷縮", href: "/articles/ojiya-chijimi/" },
+  { name: "秩父銘仙", href: "/articles/chichibu-meisen/" },
+  { name: "首里織", href: "/articles/shuri-ori/" },
+  { name: "桐生織（帯）", href: "/articles/kiryu-ori/" },
+  { name: "博多織（帯）", href: "/articles/hakata-ori/" },
+  { name: "久留米絣", href: "/articles/kurume-gasuri/" },
 ];
 
 const breadcrumbStructuredData = {

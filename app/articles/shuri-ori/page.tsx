@@ -498,6 +498,120 @@ export default function ShuriOriPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの首里織のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。首里織は沖縄の希少な織物で、公開オークションでの出品自体が少ない品目です。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">落札件数（180日集計）</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">首里織</td>
+                  <td className="px-4 py-3 font-medium">11件</td>
+                  <td className="px-4 py-3 font-medium">約40,795円</td>
+                  <td className="px-4 py-3 font-medium">143,000円</td>
+                </tr>
+                <tr className="bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">首里花織</td>
+                  <td className="px-4 py-3 font-medium">13件</td>
+                  <td className="px-4 py-3 font-medium">約40,914円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">121,000円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E9%A6%96%E9%87%8C%E7%B9%94/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション「首里織」「首里花織」の落札相場
+            </a>
+            （180日の集計・2026年7月取得）
+            <br />
+            ※ 首里織は出品数が非常に少なく、180日でも十数件規模です。件数が少ないため、証紙・作家の有無や織りの種類によって平均が大きく振れやすく、上表の数値は“幅”の参考としてご覧ください。作家物・希少な技法の一点物が上限を押し上げる一方、産地不明の品は下限に沈むなど、価格差が大きいのが実情です。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。証紙なし・作家不明・状態不良の品や、逆に人間国宝・著名作家の作品、花倉織など希少な技法では価格が大きく上下するため、上表の平均はあくまで価格帯の“目安”としてご覧ください。金額は取得時点のもので、相場は時期・状態・証紙・作家・織りの種類で大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札相場集計から、品目・落札件数・平均落札価格・最高落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              証紙あり・作家物の首里織は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・作家・織りの種類でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ首里織でも、証紙・落款の有無、作家物か否か、織りの種類や保存状態によって査定額は大きく変わります。前述の実売データに見られる価格の“幅”も、多くはこうした状態差から生まれています。下表のような条件で評価が上下します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["証紙あり（那覇伝統織物事業協同組合の検査・伝統マーク）", "◎ 大きくプラス", "伝統的工芸品の首里織には、産地の検査を経た伝統マークと合格証（証紙）が付きます。証紙がそろっていると産地・品質の裏付けになり、評価が安定します。"],
+                  ["証紙なし", "△ 下がりやすい", "本場の首里織か、他産地の類似織物かの判別が難しくなり、慎重な査定になりがち。落款・付属品（箱・しおり）など他の手がかりが重要になります。"],
+                  ["作家物・落款あり", "◎ 高評価", "著名作家の落款がある作品は評価が高くなりやすい要素です。証紙・付属品とあわせて作り手が確認できると有利です。"],
+                  ["人間国宝・重要無形文化財に関わる作品", "◎ 別格の評価", "重要無形文化財「首里の織物」の保持者（宮平初子・祝嶺恭子）に連なる作品は別格の評価。確かな裏付けがあれば特に高く評価されます。"],
+                  ["織りの種類（花倉織・道屯織・首里花織など）", "◎〜○", "花倉織のような最高級・希少な技法は特に評価されやすい傾向。技法によって希少性が異なり、査定額の幅につながります。"],
+                  ["手織りの一点物か機械織り・量産か", "◎／△", "手織りの一点物は評価が高い傾向。機械織りや量産品、首里織「風」の品は、意匠が似ていても評価は控えめになりやすい。"],
+                  ["帯・反物・仕立て済み着物の別", "○ 需要で変動", "未仕立ての反物や状態の良い帯は需要があり評価されやすいことがあります。仕立て済みの着物はサイズも評価に影響します。"],
+                  ["日焼け・汗染み・難あり", "△ マイナス", "絹の織物は日焼け・汗染み・虫食いで価値が下がりやすく、状態不良は減額対象。難の程度・範囲で幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">

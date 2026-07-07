@@ -128,3 +128,9 @@
 - GSC実測(90日query×page): 6/18の役割分離は機能済み=「着物 店舗 持ち込み」はtenpo-mochikomi 67i/29.1位が支配・mochikomi-kaitoriは6i/45.8位のみ(反物/浴衣系の受け皿として正常)。残る課題はカニバリでなく勝ちページの順位(29位)
 - tenpo-mochikomi強化: 冒頭「先に結論3即答」box(どこに持ち込める/予約要否/持ち物=スニペット狙い)+mochikomi-kaitoriへの役割明示リンク+鮮度更新(dateModified 2026-07-04)。業者文言/料金不変更
 - deploy(remote確認)・本番curl検証・GSC再送信。残: ⑤週次観測(来週頭に被弾後推移を計測)+手動対策欄の回答待ち
+
+## 2026-07-04 P1: TierB16県市の品質テコ入れ第2弾（MediaXAI「p1進めよう！」）✅
+- 並列agent8体×2ページ: tochigi/gunma/nagano/ehime/tokushima/saitama/fukushima/aomori/miyazaki/shiga/hamamatsu/sakai/yokohama/chiba-city/sendai/hiroshima にid=local-support(消費生活センター実URL到達確認16件・404/誤URL排除の実例多数=徳島「消費者情報センター」が正式/長野は独自ドメインnagano-shohi.net/福島・青森の404候補排除)+クーリングオフ+188+確認日
+- 織物リンク新規3件(栃木→yuki-tsumugi/群馬→kiryu-ori/宮崎→oshima-tsumugi)・既存4県は重複回避。番号付き構成のページは目次整合(仙台広島=8追加でFAQ9等)
+- ★これで28県市ページ全てが公的一次情報つき固有コンテンツに(TierA12+TierB16、表示ゼロ19はnoindex済み)=テンプレ比率解消の完成
+- sitemap lastmod16件(150URL不変)・deploy(remote確認)・本番8サンプルcurl検証・GSC再送信。残: P2実売完全体化(首里織/秩父銘仙/桐生織等)/P3 reviews確認日(要承認)/週次観測

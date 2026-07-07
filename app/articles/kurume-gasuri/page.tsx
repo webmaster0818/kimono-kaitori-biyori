@@ -517,6 +517,122 @@ export default function KurumeGasuriPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの久留米絣のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。久留米絣は木綿の絣のため、絹織物と比べると相場は控えめで、数千円〜1万円台が中心です。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">品目</th>
+                  <th className="px-4 py-3 text-left font-semibold">直近180日の落札件数</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">平均落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">久留米絣 着物</td>
+                  <td className="px-4 py-3 font-medium">574件</td>
+                  <td className="px-4 py-3 font-medium">約6,612円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">久留米絣 反物</td>
+                  <td className="px-4 py-3 font-medium">201件</td>
+                  <td className="px-4 py-3 font-medium">約9,268円</td>
+                </tr>
+                <tr className="bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">久留米絣 ワンピース</td>
+                  <td className="px-4 py-3 font-medium">34件</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">約10,905円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E4%B9%85%E7%95%99%E7%B1%B3%E7%B5%A3%20%E5%8F%8D%E7%89%A9/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション「久留米絣 反物」ほか各品目の落札相場
+            </a>
+            （直近180日の集計・2026年7月取得）
+            <br />
+            ※ 久留米絣は木綿絣のため出品・落札価格は絹織物より控えめで、最安値は数百円〜数十円台の例も含まれます。件数が少ない品目は、数点の高額・安値で平均が動きやすい点にご留意ください。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。証紙なし・機械織り・状態不良の品や、逆に重要無形文化財の証紙付き・作家物では価格が大きく上下するため、上表の平均はあくまで価格帯の“目安”としてご覧ください。金額は取得時点のもので、相場は時期・状態・証紙・技法（手織りか機械織りか）で大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札相場集計から、品目・落札件数・平均落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              重要無形文化財の証紙付き・手織りの久留米絣は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・技法・状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ久留米絣でも、証紙の有無、手織りか機械織りか、天然藍染か化学染料か、絣柄の精緻さや保存状態によって査定額は大きく変わります。前述の実売データに見られる価格の“幅”も、多くはこうした状態差から生まれています。下表のような条件で評価が上下します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["重要無形文化財の指定基準に合致（手括り・純正天然藍・手織り）", "◎ 大きくプラス", "1957年に指定された重要無形文化財は、手括りによる絣糸・純正天然藍での染め・投杼（なげひ）の手織りの3要件をすべて満たし検査に合格した品のみです。この基準に合致し証紙が付くと、希少性が明確になり評価が安定します。"],
+                  ["久留米絣協同組合の証紙", "◎ プラス", "組合の手織り製品の認定などの証紙は、産地・技法の裏づけになります。反物の端やたとう紙の中に保管されていることが多く、証紙がそろっていると査定がスムーズです。"],
+                  ["純正天然藍染か化学染料か", "◎ 天然藍は有利", "純正天然藍で染めた品は重要無形文化財の要件でもあり、評価されやすい状態です。化学染料による藍風の染めは、意匠が似ていても評価は控えめになりやすい傾向があります。"],
+                  ["手織りか機械織りか", "◎／△ 差が大きい", "投杼の手織りは手仕事の品として評価され、機械織りの普及品は普段着の木綿として控えめな相場になりやすい状態です。久留米絣は現在も機械織りが広く生産されており、この差が査定額を大きく分けます。"],
+                  ["名工・作家の手による品", "○〜◎ 評価されやすい", "手仕事に長けた作り手による精緻な作品は評価が上がりやすい傾向です。落款や証紙で作り手が確認できると有利になります（作り手の特定は現物と証紙での確認が前提です）。"],
+                  ["絣柄の精緻さ（細かな絣・複雑な絵絣）", "○ プラス", "括り・染め・織りに手間がかかる細かい絣や複雑な絵絣は、技術の高さが評価につながりやすい状態です。単純な縞・格子より手間がかかる分、評価されやすい傾向があります。"],
+                  ["反物（未仕立て）か仕立て上がりか", "○ 反物・美品は有利", "未仕立ての反物や未使用に近い美品は需要が見込みやすく有利です。仕立て上がりでも、サイズや状態によって評価が変わります。"],
+                  ["傷み・色あせ・虫食い", "△ マイナス", "木綿の織物は湿気によるカビ・虫食い、藍の退色が起きやすく、状態不良は減額対象です。自己クリーニングは避け、現状のまま早めに査定へ出すのがおすすめです。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「機械織り」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">

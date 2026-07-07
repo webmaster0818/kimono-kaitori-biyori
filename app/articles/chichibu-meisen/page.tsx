@@ -518,6 +518,120 @@ export default function ChichibuMeisenPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの秩父銘仙のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">落札件数（180日集計）</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">秩父銘仙</td>
+                  <td className="px-4 py-3 font-medium">14件</td>
+                  <td className="px-4 py-3 font-medium">約4,756円</td>
+                  <td className="px-4 py-3 font-medium">22,550円</td>
+                </tr>
+                <tr className="bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">銘仙（全般）</td>
+                  <td className="px-4 py-3 font-medium">1,750件</td>
+                  <td className="px-4 py-3 font-medium">約3,096円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">78,000円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E7%A7%A9%E7%88%B6%E9%8A%98%E4%BB%99/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション「秩父銘仙」「銘仙」の落札相場
+            </a>
+            （180日の集計・2026年7月取得）
+            <br />
+            ※ 「秩父銘仙」に産地名を含めて出品される品は数十件規模と少なく、平均は数点の落札で動きやすい点にご留意ください。「銘仙（全般）」は他産地（伊勢崎・足利など）を含む幅広い集計です。銘仙はもともと普段着・おしゃれ着の絹織物のため、落札額は数百〜数千円台が中心で、大柄・状態良好なアンティークが上限を押し上げています。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。証紙なし・状態不良の品や、逆に大柄でモダンな人気の柄・保存状態の良いアンティークでは価格が大きく上下するため、上表の平均はあくまで価格帯の“目安”としてご覧ください。金額は取得時点のもので、相場は時期・状態・柄・産地の裏付けで大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札相場集計から、品目・落札件数・平均落札価格・最高落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              大柄でモダンな柄・状態の良いアンティーク秩父銘仙は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（柄・状態・産地の裏付けでどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ秩父銘仙でも、柄の魅力、保存状態、産地の裏付け（証紙・銘仙特有の風合い）によって査定額は変わります。前述の実売データに見られる価格の“幅”も、多くはこうした状態差から生まれています。下表のような条件で評価が上下します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["ほぐし捺染（解し織り）の表裏のない柄", "◎ プラス", "糸の段階で型染めする銘仙特有の技法で、表裏のない鮮やかな柄が銘仙らしさの裏付けになります。手仕事による柄のにじみや風合いも見どころとして評価されます。"],
+                  ["大柄・モダンな配色の人気の柄", "◎ 高評価", "大正ロマンを感じさせる大柄で華やかな図案は、アンティーク着物・リメイク素材として需要が高く、上限に近い評価につながりやすい要素です。逆に地味な小柄は控えめになりがち。"],
+                  ["アンティーク（大正〜昭和初期）か現代物か", "○ 需要で変動", "銘仙は当時の華やかな図案に人気が集まり、状態の良いアンティークは需要があります。現代物は状態が良くても、柄の魅力次第で評価が分かれます。"],
+                  ["玉虫効果など色の魅力", "○ 加点", "経糸と緯糸の色の関係で、見る角度により色が変わって見える玉虫効果が出る品は、華やかさが評価されやすい要素です。"],
+                  ["証紙・組合の表示（秩父産の手がかり）", "○〜◎", "秩父産であることの裏付けになりますが、銘仙は古い普段着のため証紙が残っていないことも多く、その場合はほぐし捺染の風合いなど品自体から判断されます。"],
+                  ["正絹（絹）か", "○ 有利", "秩父銘仙は平織の絹織物です。ウール銘仙や化繊の銘仙風は、意匠が似ていても素材面で評価が下がる傾向があります。"],
+                  ["サイズ（裄・身丈）", "○〜△", "古い着物は現代人には小さいことが多く、裄・身丈が大きめのものは着用需要が広がり有利になりやすい要素です。"],
+                  ["シミ・ヤケ・虫食い等の難あり", "△ マイナス", "古い絹物はシミ・ヤケ・虫食いが生じやすく、状態不良は減額対象。難の程度・範囲で幅があります。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・柄の需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">

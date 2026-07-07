@@ -514,6 +514,132 @@ export default function HakataOriPage() {
         </div>
       </section>
 
+      {/* 実売データ（公開オークション落札相場） */}
+      <section id="auction-data" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            【実売データ】公開オークションでの博多織のリアルな落札相場
+          </h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。博多織は帯が主流のため、帯を中心に品目を分けて集計しています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#6b4c8a] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">区分</th>
+                  <th className="px-4 py-3 text-left font-semibold">落札件数</th>
+                  <th className="px-4 py-3 text-left font-semibold">平均落札価格</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">最高落札価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">博多織 帯</td>
+                  <td className="px-4 py-3 font-medium">3,908件</td>
+                  <td className="px-4 py-3 font-medium">約6,944円</td>
+                  <td className="px-4 py-3 font-medium">99,000円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">博多織 名古屋帯</td>
+                  <td className="px-4 py-3 font-medium">2,134件</td>
+                  <td className="px-4 py-3 font-medium">約7,928円</td>
+                  <td className="px-4 py-3 font-medium">99,000円</td>
+                </tr>
+                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">博多織 袋帯</td>
+                  <td className="px-4 py-3 font-medium">641件</td>
+                  <td className="px-4 py-3 font-medium">約9,359円</td>
+                  <td className="px-4 py-3 font-medium">89,650円</td>
+                </tr>
+                <tr className="bg-white hover:bg-[#faf8f5] transition-colors">
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">博多献上 帯（献上柄）</td>
+                  <td className="px-4 py-3 font-medium">218件</td>
+                  <td className="px-4 py-3 font-medium">約4,513円</td>
+                  <td className="px-4 py-3 font-medium rounded-br-lg">110,000円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典：
+            <a
+              href="https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E5%8D%9A%E5%A4%9A%E7%B9%94%20%E5%B8%AF/0/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-[#6b4c8a] hover:underline"
+            >
+              Yahoo!オークション（旧ヤフオク!）「博多織 帯」ほか各キーワードの落札相場
+            </a>
+            （直近180日の集計・2026年7月取得）
+            <br />
+            ※ 博多織は帯の流通量が比較的多く、集計は数百件〜数千件規模です。それでも証紙の有無・織りの精緻さ・状態で価格に大きな幅があるため、平均はあくまで価格帯の目安としてご覧ください。
+          </p>
+
+          <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700 mt-6">
+            <p className="leading-relaxed">
+              ⚠ 上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。証紙なし・状態不良の品や、逆に多色使いの凝った紋織・状態の良い作品では価格が大きく上下するため、上表の平均はあくまで価格帯の“目安”としてご覧ください。金額は取得時点のもので、相場は時期・状態・証紙・織りで大きく変動し、査定額を保証するものではありません。
+            </p>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 調査方法：本データは公開オークションの落札相場集計から、品目・落札件数・平均落札価格・最高落札価格・出典・取得日を記録したものです（取得：2026年7月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+
+          <div className="mt-6">
+            <Link href="/ranking/" className="text-sm text-[#6b4c8a] font-semibold hover:underline">
+              証紙あり・伝統マーク付き・凝った紋織の博多織は査定額の差が出やすいため、複数社で相見積もりを取れる「着物買取おすすめランキング」で比較するのがおすすめです →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 状態別の買取価値 */}
+      <section id="condition" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            状態別の買取価値（証紙・織り・状態でどう変わるか）
+          </h2>
+          <p className="text-sm md:text-base leading-relaxed mb-6">
+            同じ博多織でも、証紙や伝統マークの有無、献上柄か凝った紋織か、帯の種類、素材や保存状態によって査定額は大きく変わります。前述の実売データに見られる価格の“幅”も、多くはこうした状態差から生まれています。下表のような条件で評価が上下します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-[#c9a76c] text-white">
+                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">状態・条件</th>
+                  <th className="px-4 py-3 text-left font-semibold">査定への影響</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">解説</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["産地の証紙・伝統マークあり（博多織工業組合）", "◎ 大きくプラス", "博多織工業組合の証紙は博多織であることを示す手がかりになり、伝統的な技法による製品には伝統マークが付く場合があります。証紙・伝統マークがそろっていると産地・品質の確認がしやすく、評価が安定します。"],
+                  ["証紙なし", "△ 下がりやすい", "博多織であることの証明が難しくなり、一般的な帯として扱われやすくなります。たとう紙や箱の表示など、他の手がかりが重要になります。"],
+                  ["献上柄（伝統的な文様）", "○ 定番で安定", "独鈷・華皿・子持ち縞を組み合わせた献上柄は博多帯の定番で、需要が安定しています。シンプルな献上柄は価格帯も落ち着きやすい傾向です。"],
+                  ["多色使い・凝った紋織", "◎ 高評価", "シンプルな献上柄より、多色使いの華やかな紋織や格の高い作品のほうが評価が上がりやすい傾向。織りの密度や柄の出来栄えが査定を左右します。"],
+                  ["正絹（絹）", "◎ 有利", "正絹の博多織は素材面でも評価されやすい状態。化繊（ポリエステル等）の博多織風は評価が大幅に下がる傾向があります。"],
+                  ["帯の種類（袋帯／名古屋帯／半幅帯）", "○〜△ 用途で差", "格の高い袋帯や八寸名古屋帯は需要があり評価されやすい一方、半幅帯や小物はカジュアル向けで価格が控えめになりやすい傾向です。"],
+                  ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみで難がなければ特に有利です。"],
+                  ["締めジワ・擦れ・シミ・ヤケ・難あり", "△ マイナス", "博多織は実用的な帯として使われることが多く、締めジワや擦れ、シミ、ヤケは減額対象。たれ先やお太鼓部分の状態は特に影響します。自己クリーニングは避け、現状のまま査定へ。"],
+                ].map(([cond, impact, note], i) => (
+                  <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
+                    <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
+                    <td className="px-4 py-3 font-medium text-[#6b4c8a] whitespace-nowrap">{impact}</td>
+                    <td className="px-4 py-3 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+            ※ 上表は一般的な評価傾向で、実際の査定額は現物の状態・需要・各業者の基準により異なります。とくに「証紙なし」「難あり」は業者による差が出やすいため、状態に不安がある場合ほど複数社で相見積もりを取ると安心です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="max-w-4xl mx-auto px-4">
