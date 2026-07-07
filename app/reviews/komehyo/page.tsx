@@ -27,7 +27,7 @@ const articleStructuredData = {
   description:
     "コメ兵の着物買取を徹底検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを正直にレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/reviews/komehyo/" },
@@ -133,6 +133,7 @@ export default function KomehyoReviewPage() {
           <p className="mt-4 text-gray-600 leading-relaxed">
             コメ兵は1947年に名古屋で創業した老舗リユース企業です。ブランドバッグ・時計・宝石・衣料品の買取販売で知られ、東証スタンダードに上場しています。着物買取については、名古屋本店の「KOMEHYO名古屋本店きもの館」を筆頭に一部大型店舗で取り扱っています。75年以上の歴史で培った鑑定力と、自社販売チャネルによる適正な査定が特徴です。
           </p>
+          <p className="mt-4 text-xs text-gray-500">※本ページのサービス情報（買取方法・査定料・送料など）は公式サイトで2026年7月に確認しています。最新の内容は公式サイトをご確認ください。</p>
         </section>
 
         <section id="features" className="mb-12">

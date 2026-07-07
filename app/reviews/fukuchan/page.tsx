@@ -27,7 +27,7 @@ const articleStructuredData = {
   description:
     "福ちゃんの着物買取サービスを徹底検証。着物専門査定員の質と口コミ・評判を正直にレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -307,6 +307,9 @@ export default function FukuchanReviewPage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-4 text-xs text-gray-500 bg-[#faf8f5] border border-[#e8ddd0] rounded-md px-4 py-3 leading-relaxed">
+            ※本ページに記載のサービス情報（買取方法・対応エリア・査定料／出張料／送料／キャンセル料・クーリングオフ）は、公式サイト（fuku-chan.info）で2026年7月に確認しています。最新の内容は公式サイトをご確認ください。
+          </p>
           <p className="mt-4 text-gray-600 leading-relaxed">
             福ちゃんは、2014年に設立された株式会社REGATEが運営する総合買取サービスです。着物・ブランド品・貴金属・切手・古銭などの買取を行っていますが、特に着物買取に注力しており、着物の専門知識を持つ査定員が多数在籍しています。テレビCMでも知られ、タレントの鈴木福さんを起用した広告でも有名です。大阪に本社を構え、東京・名古屋・福岡にも拠点を持っています。
           </p>

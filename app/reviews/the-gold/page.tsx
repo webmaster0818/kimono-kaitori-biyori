@@ -27,7 +27,7 @@ const articleStructuredData = {
   description:
     "ザ・ゴールドの着物買取サービスを徹底検証。直営店展開と着物専門査定の実力を正直にレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -240,6 +240,9 @@ export default function TheGoldReviewPage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-4 text-xs text-gray-500 bg-[#faf8f5] border border-[#e8ddd0] rounded-md px-4 py-3 leading-relaxed">
+            ※本ページに記載のサービス情報（買取方法・対応エリア・査定料／出張料／キャンセル料・クーリングオフ）は、公式サイト（the-gold.jp）で2026年7月に確認しています。最新の内容は公式サイトをご確認ください。
+          </p>
           <p className="mt-4 text-gray-600 leading-relaxed">
             ザ・ゴールドは、1962年創業の老舗企業・株式会社マックスガイが運営する買取専門店です。60年以上の歴史を持ち、全国約70店舗をすべて直営で展開しているのが最大の特徴です。フランチャイズ展開ではないため、全店舗で統一されたサービス品質と査定基準を維持しています。着物買取にも注力しており、着物の知識を持つ専門査定員が各店舗に配置されています。
           </p>

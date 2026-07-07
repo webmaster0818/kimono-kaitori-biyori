@@ -27,7 +27,7 @@ const articleStructuredData = {
   description:
     "バイセルの着物買取サービスを徹底検証。累計買取実績3,700万点超の実力と口コミ・評判を正直にレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -310,6 +310,9 @@ export default function BuysellReviewPage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-4 text-xs text-gray-500 bg-[#faf8f5] border border-[#e8ddd0] rounded-md px-4 py-3 leading-relaxed">
+            ※本ページに記載のサービス情報（買取方法・対応エリア・査定料／出張料／送料／キャンセル料・クーリングオフ）は、公式サイト（buysell-kaitori.com）で2026年7月に確認しています。最新の内容は公式サイトをご確認ください。
+          </p>
           <p className="mt-4 text-gray-600 leading-relaxed">
             バイセルは、2001年に設立された株式会社BuySell
             Technologiesが運営する総合買取サービスです。2019年に東証マザーズ（現グロース）に上場し、現在は着物・ブランド品・貴金属・切手・古銭など幅広いジャンルの買取を行っています。特に出張買取に強みを持ち、月間20,000件以上の出張買取実績を誇ります。上場企業が運営する安心感と、全国47都道府県をカバーする出張買取ネットワークが最大の特徴です。

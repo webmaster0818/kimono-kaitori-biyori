@@ -27,7 +27,7 @@ const articleStructuredData = {
   description:
     "ヒカカク！を使った着物の一括査定を徹底検証。最大20社に一括査定できる仕組みと口コミ・評判を正直にレビュー。",
   datePublished: "2026-04-15",
-  dateModified: "2026-04-15",
+  dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -268,6 +268,9 @@ export default function HikakakuReviewPage() {
             着物専門店から総合買取店まで幅広い業者が登録されています。
             各業者の口コミ・評価も掲載されているため、利用者の声を参考にしながら
             最適な業者を選ぶことができます。利用料は完全無料です。
+          </p>
+          <p className="mt-4 text-xs text-gray-500 leading-relaxed">
+            ※本ページの各社サービス情報は公式サイトで2026年7月に確認しています。最新の内容は公式サイトをご確認ください。
           </p>
         </section>
 

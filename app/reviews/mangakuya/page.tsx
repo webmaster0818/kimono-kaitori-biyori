@@ -25,7 +25,7 @@ const articleStructuredData = {
   headline: "まんがく屋の着物買取｜口コミ・評判を徹底検証",
   description: "まんがく屋の着物買取サービスを徹底検証。大阪発の買取業者の実力と口コミを正直にレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/reviews/mangakuya/" },
@@ -111,6 +111,9 @@ export default function MangakuyaReviewPage() {
           </div>
           <p className="mt-4 text-gray-600 leading-relaxed">
             まんがく屋は大阪府吹田市に本社を構える着物買取業者です。着物・帯・和装小物の買取を主力事業としており、特に関西エリアでの出張買取に強みを持っています。全国対応の出張買取と宅配買取を提供しており、骨董品やブランド品の買取にも対応しています。「一点からでも出張買取OK」を掲げており、少量の着物でも気軽に出張査定を依頼できるのが特徴です。
+          </p>
+          <p className="mt-4 text-xs text-gray-500 leading-relaxed">
+            ※本ページの各社サービス情報は公式サイトで2026年7月に確認しています。最新の内容は公式サイトをご確認ください。
           </p>
         </section>
 

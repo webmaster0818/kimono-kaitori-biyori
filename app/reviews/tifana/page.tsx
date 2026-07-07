@@ -26,7 +26,7 @@ const articleStructuredData = {
   description:
     "ティファナの着物買取サービスを徹底検証。総合リサイクルショップの実力を口コミとともにレビュー。",
   datePublished: "2026-04-15",
-  dateModified: "2026-04-15",
+  dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -291,6 +291,7 @@ export default function TifanaReviewPage() {
             幅広い着物を一点からでも買い取ってくれる間口の広さです。
             着物以外の不用品もまとめて処分できるため、引っ越しや遺品整理の際に特に便利なサービスです。
           </p>
+          <p className="mt-4 text-xs text-gray-500">※本ページのサービス情報（買取方法・査定料・出張料・対応エリアなど）は公式サイトで2026年7月に確認しています。宅配買取の対象品目など一部の条件は変更される場合があるため、最新の内容は公式サイトをご確認ください。</p>
         </section>
 
         {/* 良い口コミ */}

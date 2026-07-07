@@ -27,7 +27,7 @@ const articleStructuredData = {
   description:
     "買取大吉の着物買取サービスを徹底検証。全国1,800店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。",
   datePublished: "2026-04-15",
-  dateModified: "2026-04-15",
+  dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -290,6 +290,9 @@ export default function DaikichiReviewPage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-4 text-xs text-gray-500 bg-[#faf8f5] border border-[#e8ddd0] rounded-md px-4 py-3 leading-relaxed">
+            ※本ページに記載のサービス情報（買取方法・対応エリア・手数料・クーリングオフ等）は、公式サイト（kaitori-daikichi.jp）で2026年7月に確認していますが、宅配買取の取扱い・店舗数など一部の項目は最新状況が変動する場合があります。ご利用前に必ず公式サイトで最新の内容をご確認ください。
+          </p>
           <p className="mt-4 text-gray-600 leading-relaxed">
             買取大吉は、株式会社エンパワーが運営する大手買取チェーンです。フランチャイズ展開により全国1,800店舗以上を有し、
             着物をはじめ、ブランド品・貴金属・切手・骨董品など幅広いジャンルの買取を行っています。

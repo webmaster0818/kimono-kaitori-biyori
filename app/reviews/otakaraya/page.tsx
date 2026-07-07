@@ -25,7 +25,7 @@ const articleStructuredData = {
   headline: "おたからやの着物買取｜フランチャイズ店の実力を検証",
   description: "おたからやの着物買取を徹底検証。全国1,300店超のFC展開と口コミを正直にレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/reviews/otakaraya/" },
@@ -113,6 +113,7 @@ export default function OtakarayaReviewPage() {
           <p className="mt-4 text-gray-600 leading-relaxed">
             おたからやは、2000年に設立された株式会社いーふらんが運営する買取専門チェーンです。フランチャイズ方式で全国1,300店舗以上を展開しており、貴金属・ブランド品・時計の買取を主力としています。着物の買取にも対応していますが、着物の取扱いは店舗によって対応が異なります。フランチャイズのため各店舗のオーナーが独立して運営しており、サービスの質は店舗ごとに差があるのが特徴です。
           </p>
+          <p className="mt-4 text-xs text-gray-500">※本ページのサービス情報（買取方法・査定料・出張料など）は公式サイトで2026年7月に確認しています。店舗数など一部の数値は変動するため、最新の内容は公式サイトをご確認ください。</p>
         </section>
 
         <section id="features" className="mb-12">

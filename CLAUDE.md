@@ -134,3 +134,16 @@
 - 織物リンク新規3件(栃木→yuki-tsumugi/群馬→kiryu-ori/宮崎→oshima-tsumugi)・既存4県は重複回避。番号付き構成のページは目次整合(仙台広島=8追加でFAQ9等)
 - ★これで28県市ページ全てが公的一次情報つき固有コンテンツに(TierA12+TierB16、表示ゼロ19はnoindex済み)=テンプレ比率解消の完成
 - sitemap lastmod16件(150URL不変)・deploy(remote確認)・本番8サンプルcurl検証・GSC再送信。残: P2実売完全体化(首里織/秩父銘仙/桐生織等)/P3 reviews確認日(要承認)/週次観測
+
+## 2026-07-07 P2実売完全体化: 残5織物に実売+状態別（MediaXAI「p2進めてください」）✅
+- 実売未掲載だった織物5本(秩父銘仙/首里織/桐生織/博多織/久留米絣)に並列agent3体でid=auction-data+id=condition追加。WebSearch=Yahoo!落札closedsearch/オークファンの実集計値のみ(2026年7月取得・実売≠買取注記・bingata構造踏襲):
+  - 秩父銘仙: 14件平均4,756/22,550・銘仙全般1,750件3,096/78,000(全般は他産地含む広域と補足)
+  - 首里織: 11件平均40,795/143,000・首里花織13件40,914/121,000(希少・出品十数件で振れ大と正直注記)
+  - 桐生織: 全般52件7,157/47,740・帯21件12,541・名古屋帯8件25,253(袋帯は1件のみで列不採用)
+  - 博多織: 帯3,908件6,944/99,000・名古屋帯2,134件7,928・袋帯641件9,359・献上帯218件4,513/110,000(流通多・4品目)
+  - 久留米絣: 着物574件6,612・反物201件9,268・ワンピース34件10,905(木綿絣で控えめ・最高値列は数値不一致で捏造回避省略)
+- ★これで実売データ掲載=計28織物/item。証紙団体名は既存本文/公式確認範囲のみ・不確実な作家名/ラベル種別は一般化・架空円ゼロ
+- 🐛検証時の教訓: **本番ドメインは kimonokaitori-biyori.com(kimono+kaitori連結・間にハイフンなし)**。kimono-kaitori-biyori.comは誤り(000)。canonical(app/layout.tsx)で確認すること。GSCプロパティは sc-domain:kimonokaitori-biyori.com
+- 🐛deploy repoリモート先行(前回TierB deploy分)でpush rejected→`git fetch`→`git reset --soft origin/main`(ワークツリー=最新ビルド保持)→再commit/pushでリコンサイル
+- souba-methodハブ23→28件・sitemap150不変(既存ページ)lastmod6件・deploy=kimono-kaitori-biyori-deploy厳守(remote確認)・本番5/5(auction-data/condition/免責/実売数値/タイトル着物)cache回避curl検証・GSC再送信。料金/業者文言/SoubaNote不変更
+- 残: P3 reviews確認日(要承認)/週次GSC観測(スパム被弾からの回復2-3か月スパン)/手動対策欄の回答待ち
