@@ -155,6 +155,23 @@ export default function SoubaMethodPage() {
           </div>
         </section>
 
+        <section id="citation" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            本データの引用・転載について
+          </h2>
+          <div className="rounded-xl border border-[#e8ddd0] bg-[#faf8f5] p-5 md:p-6">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
+              当サイトの実売データ（28織物・品目の落札相場集計）と調査方法は、<strong>出典を明記いただければWebサイト・ブログ・資料でご自由に引用いただけます</strong>（数値の改変はご遠慮ください）。
+            </p>
+            <p className="text-sm font-bold text-gray-900 mb-2">クレジット表記の例</p>
+            <pre className="overflow-x-auto rounded bg-white p-3 text-xs text-gray-700 border border-[#e8ddd0] mb-4">{'出典: 着物の買取びより「相場データの調査方法」\nhttps://kimonokaitori-biyori.com/articles/souba-method/'}</pre>
+            <p className="text-sm font-bold text-gray-900 mb-2">コピー用HTML</p>
+            <pre className="overflow-x-auto whitespace-pre-wrap break-all rounded bg-white p-3 text-xs text-gray-700 border border-[#e8ddd0]">{'<a href="https://kimonokaitori-biyori.com/articles/souba-method/">着物の実売データ・相場調査（着物の買取びより）</a>'}</pre>
+            <p className="text-xs text-gray-500 mt-3">※各織物ページの実売データを引用される場合は、該当ページのURLを出典としてご利用ください。数値は取得時点の集計で、相場は変動します。</p>
+          </div>
+        </section>
+
         <section id="update" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
             <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />

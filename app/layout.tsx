@@ -53,6 +53,14 @@ const structuredData = {
         addressRegion: "東京都",
         addressCountry: "JP",
       },
+      publishingPrinciples: "https://kimonokaitori-biyori.com/about/",
+      knowsAbout: [
+        "着物買取",
+        "着物の買取相場",
+        "産地織物・伝統工芸の着物",
+        "着物買取業者の比較",
+        "訪問購入のクーリングオフ",
+      ],
     },
   ],
 };
