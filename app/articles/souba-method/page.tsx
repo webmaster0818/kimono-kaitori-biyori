@@ -29,7 +29,7 @@ const dataPages = [
   { name: "袋帯", href: "/articles/fukuro-obi/" },
   { name: "留袖（黒留袖・色留袖）", href: "/articles/tomesode/" },
   { name: "色無地", href: "/articles/iromuji/" },
-  { name: "米沢織（置賜紬）", href: "/articles/yonezawa-ori/" },
+  { name: "米沢織", href: "/articles/yonezawa-ori/" },
   { name: "丹後ちりめん", href: "/articles/tango-chirimen/" },
   { name: "越後上布", href: "/articles/echigo-jofu/" },
   { name: "紅型（びんがた）", href: "/articles/bingata/" },
@@ -45,7 +45,19 @@ const dataPages = [
   { name: "首里織", href: "/articles/shuri-ori/" },
   { name: "桐生織（帯）", href: "/articles/kiryu-ori/" },
   { name: "博多織（帯）", href: "/articles/hakata-ori/" },
-  { name: "久留米絣", href: "/articles/kurume-gasuri/" },
+    { name: "久留米絣", href: "/articles/kurume-gasuri/" },
+  { name: "久米島紬", href: "/articles/kumejima-tsumugi/" },
+  { name: "琉球絣", href: "/articles/ryukyu-gasuri/" },
+  { name: "芭蕉布", href: "/articles/bashofu/" },
+  { name: "八重山上布", href: "/articles/yaeyama-jofu/" },
+  { name: "能登上布", href: "/articles/noto-jofu/" },
+  { name: "近江上布", href: "/articles/omi-jofu/" },
+  { name: "十日町紬", href: "/articles/tokamachi-tsumugi/" },
+  { name: "上田紬（信州紬）", href: "/articles/ueda-tsumugi/" },
+  { name: "置賜紬（白鷹御召・長井紬）", href: "/articles/oitama-tsumugi/" },
+  { name: "村山大島紬", href: "/articles/murayama-oshima/" },
+  { name: "伊勢崎銘仙", href: "/articles/isesaki-meisen/" },
+  { name: "阿波しじら織", href: "/articles/awa-shijira/" },
 ];
 
 const breadcrumbStructuredData = {
@@ -162,7 +174,7 @@ export default function SoubaMethodPage() {
           </h2>
           <div className="rounded-xl border border-[#e8ddd0] bg-[#faf8f5] p-5 md:p-6">
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              当サイトの実売データ（28織物・品目の落札相場集計）と調査方法は、<strong>出典を明記いただければWebサイト・ブログ・資料でご自由に引用いただけます</strong>（数値の改変はご遠慮ください）。
+              当サイトの実売データ（40織物・品目の落札相場集計）と調査方法は、<strong>出典を明記いただければWebサイト・ブログ・資料でご自由に引用いただけます</strong>（数値の改変はご遠慮ください）。
             </p>
             <p className="text-sm font-bold text-gray-900 mb-2">クレジット表記の例</p>
             <pre className="overflow-x-auto rounded bg-white p-3 text-xs text-gray-700 border border-[#e8ddd0] mb-4">{'出典: 着物の買取びより「相場データの調査方法」\nhttps://kimonokaitori-biyori.com/articles/souba-method/'}</pre>
