@@ -134,6 +134,9 @@ export default function KobePage() {
           <p className="text-sm text-gray-700 leading-relaxed">
             兵庫全体の織物や産地の特徴・買取相場は<Link href="/articles/hyogo/" className="text-[#6b4c8a] underline">兵庫の着物買取ガイド</Link>でも詳しく解説しています。あわせてご覧ください。
           </p>
+          <p className="text-sm text-gray-600 mt-4">
+            大島紬・結城紬など全国の主要織物について、公開オークションの落札実績にもとづく実売データを<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法・一覧</Link>で公開しています。
+          </p>
         </section>
 
         <section id="osusume" className="mb-12">
@@ -206,6 +209,9 @@ export default function KobePage() {
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">困ったときの相談先（神戸市）</p>
             <p className="text-sm text-gray-700 leading-relaxed mb-3">
               押し買いや契約トラブルで困ったときは、<a href="https://kobe-consumer.smartkobe-portal.com/counter/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">神戸市消費生活センター</a>に相談できます。局番なしの消費者ホットライン「188（いやや）」に電話すると、最寄りの消費生活相談窓口につながります。
+            </p>
+            <p className="text-sm text-gray-700 leading-relaxed mb-3">
+              電話で相談する場合は、神戸市消費生活センターの相談窓口<span className="font-bold">078-371-1221</span>へ（受付は平日9時〜17時。祝日・年末年始を除く）。
             </p>
             <p className="text-xs text-gray-500 mb-3">※2026年7月に公式サイトで確認</p>
             <p className="text-sm text-gray-700 leading-relaxed">

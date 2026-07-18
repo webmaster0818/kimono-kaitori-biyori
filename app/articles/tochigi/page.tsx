@@ -128,6 +128,7 @@ export default function TochigiPage() {
             <span className="text-[#c9a76c]">1.</span> 栃木が誇る着物・織物と買取のポイント
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-6">栃木県は、足利市が銘仙の名産地、小山市が茨城県結城市と並ぶ本場結城紬の産地として知られます。真岡市の真岡木綿も江戸時代から続く丈夫な木綿織物。結城紬は証紙の有無、銘仙は柄の魅力が査定額を大きく左右します。茨城・栃木にまたがる産地で織られる結城紬そのものの価値や証紙の見方は<Link href="/articles/yuki-tsumugi/" className="text-[#6b4c8a] underline font-medium">結城紬の買取相場</Link>で詳しく解説しています。</p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-6">結城紬のページでは、公開オークションの落札実績にもとづく実売データも掲載しています。実売データの集め方・出典は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法・一覧</Link>で公開しています。</p>
           <div className="space-y-3 mb-6">
             {orimono.map((o) => (
               <div key={o.name} className="border border-[#e8ddd0] rounded-lg p-4">
@@ -209,6 +210,9 @@ export default function TochigiPage() {
             訪問買取（訪問購入）は特定商取引法の規制対象で、契約書面を受け取った日を含む8日間はクーリング・オフ（無条件解約）ができ、その期間中は着物や貴金属などの品物の引き渡しを拒むこともできます。強引な勧誘や査定額への不安など、業者とのトラブルで困ったときは、栃木県が運営する
             <a href="https://www.pref.tochigi.lg.jp/c03/life/shouhi/seikatsu/center-gaiyou.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">栃木県消費生活センター</a>
             に相談できます。また、全国共通の消費者ホットライン「<span className="font-bold">188</span>（いやや）」に局番なしでかけると、最寄りの消費生活相談窓口を案内してもらえます。※2026年7月に公式サイトで確認
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            電話で相談する場合は、栃木県消費生活センターの相談専用電話<span className="font-bold">028-625-2227</span>へ（相談は無料。通話料は自己負担）。
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
             契約前の不安がある場合は、当サイトの<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル回避ガイド</Link>もあわせてご覧ください。

@@ -563,6 +563,63 @@ export default function KyotoPage() {
         </div>
       </section>
 
+      {/* 京都の織物 実売データ */}
+      <section id="orimono-data" className="py-10 section-light">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            京都ゆかりの織物と実売データ
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            京都を代表する染織「西陣織」「京友禅」「丹後ちりめん」については、当サイトが公開オークション（ヤフオク!の落札相場）で実際の取引価格を調査し、各専門ページに実売データを掲載しています。売却前の相場感の目安にご覧ください。
+          </p>
+          <div className="space-y-4 mb-4">
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">
+                <Link href="/articles/nishijin-ori/" className="hover:underline">西陣織の買取相場と実売データ</Link>
+              </h3>
+              <p className="text-sm leading-relaxed text-gray-700">公開オークションの落札実績では、西陣織の帯全般は平均 約11,094円・最高 130,000円でした（件数・取得日・出典は専門ページに記載）。西陣織工業組合の証紙付きは評価が上がります。</p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">
+                <Link href="/articles/kyo-yuzen/" className="hover:underline">京友禅の買取相場と実売データ</Link>
+              </h3>
+              <p className="text-sm leading-relaxed text-gray-700">公開オークションの落札実績では、京友禅の反物は平均 約8,701円・最高 33,000円でした（件数・取得日・出典は専門ページに記載）。手描きか型友禅か、落款の有無で評価は大きく変わります。</p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">
+                <Link href="/articles/tango-chirimen/" className="hover:underline">丹後ちりめんの買取相場と実売データ</Link>
+              </h3>
+              <p className="text-sm leading-relaxed text-gray-700">公開オークションの落札実績では、丹後ちりめんの反物は平均 約7,012円・最高 89,650円でした（件数・取得日・出典は専門ページに記載）。白生地か染め上がり品かで価値の見方が変わります。</p>
+            </div>
+          </div>
+          <p className="text-xs text-gray-500 leading-relaxed">
+            ※実売価格は個人間取引（オークション）の成立価格で、買取査定額はこれより低くなるのが一般的です。数値の集め方は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+        </div>
+      </section>
+
+      {/* 押し買い予防 */}
+      <section id="oshigai" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
+            京都で訪問買取（押し買い）トラブルに遭わないために
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            「不用品を何でも買い取ります」と突然自宅を訪ね、着物や貴金属を強引に安値で買い取っていく、いわゆる「押し買い」は、特定商取引法の「訪問購入」として規制されています。消費者が頼んでいないのに自宅に来て勧誘する行為（不招請勧誘）自体が禁止されているため、約束のない飛び込みの買取業者はその場で断るのが最も安全です。
+          </p>
+          <ul className="space-y-2 text-sm text-gray-700 mb-4">
+            <li className="bg-white border border-[#e8ddd0] rounded-xl p-3">約束のない訪問買取は、玄関を開けずに断る。応対する場合も会社名・古物商許可を確認する</li>
+            <li className="bg-white border border-[#e8ddd0] rounded-xl p-3">「着物を見せるだけのつもりが貴金属も査定させてほしいと言われた」が典型的な流れ。売る気のない品は見せない・渡さない</li>
+            <li className="bg-white border border-[#e8ddd0] rounded-xl p-3">万一契約しても、契約書面を受け取った日を含め8日間はクーリング・オフ（無条件解約）ができ、期間中は品物の引き渡しを拒むことができます</li>
+          </ul>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            不安を感じたら、<a href="https://www.pref.kyoto.jp/shohise/15400137.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">京都府消費生活安全センター</a>（相談電話 075-671-0004）または全国共通の消費者ホットライン「<span className="font-bold">188</span>」に相談してください。※連絡先は2026年7月に公式サイトで確認。押し買いの手口や対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル回避ガイド</Link>で詳しく解説しています。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10 section-light">
         <div className="max-w-4xl mx-auto px-4">

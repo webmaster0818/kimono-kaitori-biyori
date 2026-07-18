@@ -201,6 +201,49 @@ export default function GunmaPage() {
           </ol>
         </section>
 
+        <section id="orimono-data" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            群馬ゆかりの織物と実売データ
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            群馬を代表する織物「桐生織」「伊勢崎銘仙（伊勢崎絣）」については、当サイトが公開オークション（ヤフオク!の落札相場）で実際の取引価格を調査し、専門ページに実売データを掲載しています。売却前の相場感の目安にご覧ください。
+          </p>
+          <div className="space-y-3 mb-4">
+            <div className="border border-[#e8ddd0] rounded-lg p-4">
+              <h3 className="font-bold text-gray-900 text-sm mb-1">
+                <Link href="/articles/kiryu-ori/" className="text-[#6b4c8a] underline">桐生織の買取相場と実売データ</Link>
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">公開オークションの落札実績では、桐生織全般（52件）は平均 約7,157円・最高 47,740円でした（取得日・出典は専門ページに記載）。証紙付きの帯・お召は評価が上がります。</p>
+            </div>
+            <div className="border border-[#e8ddd0] rounded-lg p-4">
+              <h3 className="font-bold text-gray-900 text-sm mb-1">
+                <Link href="/articles/isesaki-meisen/" className="text-[#6b4c8a] underline">伊勢崎銘仙の買取相場と実売データ</Link>
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">公開オークションの落札実績では、伊勢崎銘仙は平均 約4,524円・最高 25,000円でした（対象件数が少なく平均は振れやすい点に注意。詳細は専門ページに記載）。アンティークの着尺が上位に入る傾向です。</p>
+            </div>
+          </div>
+          <p className="text-xs text-gray-500 leading-relaxed">
+            ※実売価格は個人間取引（オークション）の成立価格で、買取査定額はこれより低くなるのが一般的です。数値の集め方は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
+          </p>
+        </section>
+
+        <section id="oshigai" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            群馬で訪問買取（押し買い）トラブルに遭わないために
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            「不用品を何でも買い取ります」と突然自宅を訪ね、着物や貴金属を強引に安値で買い取っていく、いわゆる「押し買い」は、特定商取引法の「訪問購入」として規制されています。消費者が頼んでいないのに自宅に来て勧誘する行為（不招請勧誘）自体が禁止されているため、約束のない飛び込みの買取業者はその場で断るのが最も安全です。
+          </p>
+          <ul className="space-y-2 text-sm text-gray-700 mb-4">
+            <li className="border border-[#e8ddd0] rounded-lg p-3">約束のない訪問買取は、玄関を開けずに断る。応対する場合も会社名・古物商許可を確認する</li>
+            <li className="border border-[#e8ddd0] rounded-lg p-3">「着物を見せるだけのつもりが貴金属も査定させてほしいと言われた」が典型的な流れ。売る気のない品は見せない・渡さない</li>
+            <li className="border border-[#e8ddd0] rounded-lg p-3">万一契約しても、契約書面を受け取った日を含め8日間はクーリング・オフ（無条件解約）ができ、期間中は品物の引き渡しを拒むことができます</li>
+          </ul>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            不安を感じたら、<a href="https://www.pref.gunma.jp/page/8392.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">群馬県消費生活センター</a>（相談電話 027-223-3001）または全国共通の消費者ホットライン「<span className="font-bold">188</span>」に相談してください。※連絡先は2026年7月に公式サイトで確認
+          </p>
+        </section>
+
         <section id="local-support" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
             <span className="text-[#c9a76c]">5.</span> 群馬県で着物買取のトラブルにあったら（公的な相談先）

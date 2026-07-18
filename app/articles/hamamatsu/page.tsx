@@ -133,6 +133,9 @@ export default function HamamatsuPage() {
           <p className="text-sm text-gray-700 leading-relaxed">
             静岡全体の織物や産地の特徴・買取相場は<Link href="/articles/shizuoka/" className="text-[#6b4c8a] underline">静岡の着物買取ガイド</Link>でも詳しく解説しています。あわせてご覧ください。
           </p>
+          <p className="text-sm text-gray-600 mt-4">
+            大島紬・結城紬など全国の主要織物について、公開オークションの落札実績にもとづく実売データを<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法・一覧</Link>で公開しています。
+          </p>
         </section>
 
         <section id="osusume" className="mb-12">
@@ -203,6 +206,9 @@ export default function HamamatsuPage() {
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.hamamatsu.shizuoka.jp/kurashi/info/index.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">浜松市くらしのセンター</a>（中央区海老塚町）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            電話で相談する場合は、浜松市くらしのセンターの契約など消費に関する相談<span className="font-bold">053-457-2205</span>へ。
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
             押し買いの手口や対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>で詳しく解説しています。

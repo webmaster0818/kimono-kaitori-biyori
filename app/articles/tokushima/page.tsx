@@ -209,6 +209,9 @@ export default function TokushimaPage() {
             <a href="https://www.pref.tokushima.lg.jp/shohi/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">徳島県消費者情報センター</a>
             （消費生活相談）に相談できます。また、全国共通の消費者ホットライン「<span className="font-bold">188</span>（いやや）」に局番なしでかけると、最寄りの消費生活相談窓口を案内してもらえます。※2026年7月に公式サイトで確認
           </p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            電話で相談する場合は、徳島県消費者情報センターの相談受付電話<span className="font-bold">088-623-0110</span>へ（受付時間は公式サイトでご確認ください）。
+          </p>
           <p className="text-sm text-gray-700 leading-relaxed">
             契約前の不安がある場合は、当サイトの<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル回避ガイド</Link>もあわせてご覧ください。
           </p>
@@ -269,7 +272,14 @@ export default function TokushimaPage() {
               <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">阿波藍染の買取相場</p>
               <p className="text-xs text-gray-500 mt-1">本藍染（すくもを用いた徳島の伝統的な藍染）の特徴と買取のポイントを解説</p>
             </Link>
+            <Link href="/articles/awa-shijira/" className="block bg-white border border-[#e8ddd0] rounded-lg p-4 hover:bg-[#faf8f5] transition-colors group">
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#6b4c8a] transition-colors">阿波しじら織の買取相場</p>
+              <p className="text-xs text-gray-500 mt-1">シボが特徴の木綿織物。「阿波正藍しじら織」は国の伝統的工芸品。公開オークションの実売データ付きで解説</p>
+            </Link>
           </div>
+          <p className="text-sm text-gray-600 mt-4">
+            各ページの落札実績の集め方・出典は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法・一覧</Link>で公開しています。
+          </p>
         </section>
 
         <section className="mb-8">

@@ -139,6 +139,12 @@ export default function SaitamaPage() {
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
             <p className="text-sm text-gray-700 leading-relaxed">秩父銘仙は証紙が残っていればプラス評価ですが、銘仙はアンティークとして柄や状態が重視される側面も大きい織物です。証紙・たとう紙の証明書があれば添えつつ、状態の良いものは柄が映えるよう査定へ出しましょう。</p>
           </div>
+          <div className="mt-6 bg-[#faf7f3] border border-[#e8ddd0] rounded-lg p-6">
+            <p className="text-[#6b4c8a] font-bold text-sm mb-2">埼玉ゆかりの織物と実売データ</p>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              埼玉ゆかりの秩父銘仙について、当サイトが公開オークション（Yahoo!オークション落札相場・180日集計・2026年7月取得）で集計した実売データでは、「秩父銘仙」と明記された品の平均落札価格は約4,756円（14件・最高22,550円）、他産地を含む銘仙（全般）は平均約3,096円（1,750件・最高78,000円）でした。産地名入りの出品は件数が少なく平均が動きやすい点にご注意ください。また実売価格は個人間取引の落札額であり、買取業者の査定額とは異なります（一般に買取価格は実売より低くなります）。数値の内訳と出典は<Link href="/articles/chichibu-meisen/" className="text-[#6b4c8a] underline">秩父銘仙の買取相場</Link>を、実売データの集め方・一覧は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法</Link>をご覧ください。
+            </p>
+          </div>
         </section>
 
         <section id="osusume" className="mb-12">
@@ -208,6 +214,9 @@ export default function SaitamaPage() {
             訪問買取（訪問購入）は特定商取引法の規制対象で、契約書面を受け取った日を含む8日間はクーリング・オフ（無条件解約）ができ、その期間中は着物や貴金属などの品物の引き渡しを拒むこともできます。強引な勧誘や査定額への不安など、業者とのトラブルで困ったときは、埼玉県が運営する
             <a href="https://www.pref.saitama.lg.jp/soshiki/b0304/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">埼玉県消費生活支援センター</a>
             （消費生活相談）に相談できます。また、全国共通の消費者ホットライン「<span className="font-bold">188</span>（いやや）」に局番なしでかけると、最寄りの消費生活相談窓口を案内してもらえます。※2026年7月に公式サイトで確認
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            電話相談は<span className="font-bold">048-261-0999</span>（埼玉県消費生活支援センター・相談専用／川口市上青木3-12-18 SKIPシティA1街区2階）へ。※電話番号も2026年7月に公式サイトで確認
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
             契約前の不安がある場合は、当サイトの<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル回避ガイド</Link>もあわせてご覧ください。

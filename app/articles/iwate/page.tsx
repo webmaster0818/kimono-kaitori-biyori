@@ -139,6 +139,9 @@ export default function IwatePage() {
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
             <p className="text-sm text-gray-700 leading-relaxed">南部紫根染・茜染などの染織品は、証紙や落款・証明書があると査定額が大きく変わります。たとう紙の証明書や作家名のわかる資料も必ず一緒に査定へ出しましょう。</p>
           </div>
+          <p className="text-sm text-gray-700 leading-relaxed mt-4">
+            大島紬や結城紬など全国の産地織物をお持ちの場合は、公開オークションの落札実績をもとにした当サイトの<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データ一覧（調査方法と掲載織物）</Link>もあわせてご覧ください。
+          </p>
         </section>
 
         <section id="osusume" className="mb-12">
@@ -210,7 +213,7 @@ export default function IwatePage() {
           <div className="border border-[#e8ddd0] rounded-lg p-5 mb-4 bg-[#faf8f5]">
             <h3 className="font-bold text-gray-900 text-sm mb-2">岩手県立県民生活センター</h3>
             <p className="text-sm text-gray-600 leading-relaxed mb-2">
-              強引な勧誘や「押し買い」など着物買取のトラブルに遭ったときは、<a href="https://www.pref.iwate.jp/soshiki/kankyou/1016004.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">岩手県立県民生活センター</a>（消費生活相談）に相談できます。全国共通の消費者ホットライン「188（いやや）」に電話すると、最寄りの消費生活相談窓口につながります。
+              強引な勧誘や「押し買い」など着物買取のトラブルに遭ったときは、<a href="https://www.pref.iwate.jp/soshiki/kankyou/1016004.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">岩手県立県民生活センター</a>（消費生活相談専用電話 019-624-2209）に相談できます。全国共通の消費者ホットライン「188（いやや）」に電話すると、最寄りの消費生活相談窓口につながります。
             </p>
             <p className="text-xs text-gray-500">※2026年7月に公式サイトで確認</p>
           </div>

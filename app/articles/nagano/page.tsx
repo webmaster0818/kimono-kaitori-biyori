@@ -140,6 +140,21 @@ export default function NaganoPage() {
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
             <p className="text-sm text-gray-700 leading-relaxed">上田紬・飯田紬・伊那紬などの信州紬は、産地組合の証紙や伝統的工芸品マークが付いているかどうかで査定額が大きく変わります。希少な天蚕（山繭）紬は特に証明書の有無が重要です。たとう紙の証明書も必ず一緒に査定へ出しましょう。</p>
           </div>
+          <div className="grid sm:grid-cols-2 gap-4 mt-6">
+            <Link href="/articles/ueda-tsumugi/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">上田紬の買取相場（実売データ付き）</p>
+              <p className="text-xs text-gray-500 mt-1">真田氏ゆかりの縞・格子柄の紬。「信州紬」として国の伝統的工芸品に含まれる位置づけと落札実績を解説</p>
+            </Link>
+            <Link href="/articles/tensan-tsumugi/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">天蚕紬の買取相場（実売データ付き）</p>
+              <p className="text-xs text-gray-500 mt-1">天蚕（山繭）の希少な糸を用いた紬。証紙・証明書の見方と落札実績を解説</p>
+            </Link>
+          </div>
+          <p className="text-sm text-gray-600 mt-4">
+            各ページの落札実績の集め方・出典は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法・一覧</Link>で公開しています。
+          </p>
         </section>
 
         <section id="osusume" className="mb-12">
@@ -215,6 +230,9 @@ export default function NaganoPage() {
               <li>
                 <a href="https://www.nagano-shohi.net/madoguchi-matsumoto" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">長野県消費生活センター</a>
                 …押し買い・訪問購入のトラブルなど、消費生活に関する相談を受け付けています。
+              </li>
+              <li>
+                電話で相談する場合は<span className="font-bold">0263-40-3660</span>（長野県消費生活センター・松本市島立の県松本合同庁舎内）へ。
               </li>
               <li>
                 消費者ホットライン<span className="font-bold">「188（いやや！）」</span>…最寄りの消費生活相談窓口を案内してもらえます。

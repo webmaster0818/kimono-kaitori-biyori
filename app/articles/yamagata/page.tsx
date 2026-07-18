@@ -145,6 +145,14 @@ export default function YamagataPage() {
             <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">米沢織・置賜紬の買取相場</p>
             <p className="text-xs text-gray-500 mt-1">米沢織・置賜紬（白鷹お召・長井紬・米沢紬）の買取相場と証紙のポイントを専門ガイドで詳しく解説</p>
           </Link>
+          <Link href="/articles/oitama-tsumugi/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 mt-4 hover:bg-[#faf8f5] transition-colors group">
+            <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
+            <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">置賜紬の買取相場（実売データ付き）</p>
+            <p className="text-xs text-gray-500 mt-1">白鷹御召・長井紬など総称としての置賜紬（1976年国の伝統的工芸品）を、公開オークションの落札実績とあわせて解説</p>
+          </Link>
+          <p className="text-sm text-gray-600 mt-4">
+            各ページの落札実績の集め方・出典は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法・一覧</Link>で公開しています。
+          </p>
         </section>
 
         <section id="osusume" className="mb-12">
@@ -220,6 +228,9 @@ export default function YamagataPage() {
               <li>
                 <a href="https://www.pref.yamagata.jp/kurashi/shohi/shouhiseikatsucenter/index.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">山形県消費生活センター</a>
                 …押し買い・訪問購入のトラブルなど、消費生活に関する相談を受け付けています。
+              </li>
+              <li>
+                電話で相談する場合は<span className="font-bold">023-624-0999</span>（山形県消費生活センター・相談担当）へ。
               </li>
               <li>
                 消費者ホットライン<span className="font-bold">「188（いやや！）」</span>…最寄りの消費生活相談窓口を案内してもらえます。

@@ -202,7 +202,7 @@ export default function NiigataCityPage() {
             自宅に業者を招く出張買取（訪問購入）は特定商取引法の対象で、契約書面を受け取った日を含めて<strong>8日間はクーリング・オフ（無条件解約）</strong>ができます。さらにクーリング・オフ期間中は、業者に着物など品物の引き渡しを拒むことができます（引渡し拒否権）。
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.niigata.lg.jp/shisei/soshiki/soshikiinfo/shiminseikatsu/syouhicenter.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">新潟市消費生活センター</a>（中央区白山浦・白山ビル8階）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
+            「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.niigata.lg.jp/shisei/soshiki/soshikiinfo/shiminseikatsu/syouhicenter.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">新潟市消費生活センター</a>（中央区白山浦・白山ビル8階、相談専用電話 025-211-2370）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
             押し買いの手口や対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>で詳しく解説しています。
@@ -255,7 +255,15 @@ export default function NiigataCityPage() {
               <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">小千谷縮</p>
               <p className="text-xs text-gray-500 mt-1 leading-relaxed">小千谷が産地。重要無形文化財、シボのある麻織物。</p>
             </Link>
+            <Link href="/articles/tokamachi-tsumugi/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・織物別</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">十日町紬（十日町絣）</p>
+              <p className="text-xs text-gray-500 mt-1 leading-relaxed">十日町が産地。十日町絣・十日町明石ちぢみで知られる。</p>
+            </Link>
           </div>
+          <p className="text-sm text-gray-700 leading-relaxed mt-6">
+            いずれの織物も、各ページで公開オークションの落札実績にもとづく実売データを掲載しています。相場データの調べ方や掲載織物の一覧は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法</Link>でまとめています。
+          </p>
         </section>
 
         <section className="mb-8">

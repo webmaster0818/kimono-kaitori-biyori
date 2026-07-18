@@ -214,8 +214,11 @@ export default function MiyazakiPage() {
             <a href="https://www.pref.miyazaki.lg.jp/shouhi/index.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">宮崎県消費生活センター</a>
             （都城・延岡に支所あり）に相談できます。また、全国共通の消費者ホットライン「<span className="font-bold">188</span>（いやや）」に局番なしでかけると、最寄りの消費生活相談窓口を案内してもらえます。※2026年7月に公式サイトで確認
           </p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            電話相談は<span className="font-bold">0985-32-7171</span>（宮崎県消費生活センター／宮崎市江平西2丁目1番20号）へ。※電話番号も2026年7月に公式サイトで確認
+          </p>
           <p className="text-sm text-gray-700 leading-relaxed">
-            契約前の不安がある場合は、当サイトの<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル回避ガイド</Link>もあわせてご覧ください。
+            契約前の不安がある場合は、当サイトの<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル回避ガイド</Link>もあわせてご覧ください。なお、織物・着物の種類ごとの実際の落札相場（実売データ）は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法・一覧</Link>で公開しています。
           </p>
         </section>
 

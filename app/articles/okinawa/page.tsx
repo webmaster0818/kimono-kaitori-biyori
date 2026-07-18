@@ -255,6 +255,9 @@ export default function OkinawaPage() {
                 …押し買い・訪問購入のトラブルなど、消費生活に関する相談を受け付けています。
               </li>
               <li>
+                電話で相談する場合は<span className="font-bold">098-863-9214</span>（沖縄県消費生活センター）へ。
+              </li>
+              <li>
                 消費者ホットライン<span className="font-bold">「188（いやや！）」</span>…最寄りの消費生活相談窓口を案内してもらえます。
               </li>
             </ul>
@@ -349,7 +352,30 @@ export default function OkinawaPage() {
               <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">宮古上布の買取相場</p>
               <p className="text-xs text-gray-500 mt-1">重要無形文化財、苧麻による最高級の麻織物</p>
             </Link>
+            <Link href="/articles/kumejima-tsumugi/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">久米島紬の買取相場</p>
+              <p className="text-xs text-gray-500 mt-1">泥染めの絹織物。製作技術は重要無形文化財</p>
+            </Link>
+            <Link href="/articles/ryukyu-gasuri/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">琉球絣の買取相場</p>
+              <p className="text-xs text-gray-500 mt-1">御絵図帳由来の図柄。南風原町中心の伝統的工芸品</p>
+            </Link>
+            <Link href="/articles/bashofu/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">芭蕉布の買取相場</p>
+              <p className="text-xs text-gray-500 mt-1">喜如嘉の芭蕉布は重要無形文化財。人間国宝・平良敏子</p>
+            </Link>
+            <Link href="/articles/yaeyama-jofu/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+              <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
+              <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">八重山上布の買取相場</p>
+              <p className="text-xs text-gray-500 mt-1">苧麻を手績みし海晒しで仕上げる白地基調の上布</p>
+            </Link>
           </div>
+          <p className="text-sm text-gray-600 mt-4">
+            各ページの落札実績の集め方・出典は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法・一覧</Link>で公開しています。
+          </p>
         </section>
 
         <section className="mb-8">

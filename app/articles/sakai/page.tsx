@@ -204,8 +204,11 @@ export default function SakaiPage() {
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.sakai.lg.jp/kurashi/shohi/soudanmadoguchi/soudannogoannai.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">堺市立消費生活センター</a>（堺区北瓦町・堺富士ビル6階）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
           </p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            電話相談は<span className="font-bold">072-221-7146</span>（堺市立消費生活センター・相談専用）へ。※電話番号も2026年7月に公式サイトで確認
+          </p>
           <p className="text-sm text-gray-700 leading-relaxed">
-            押し買いの手口や対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>で詳しく解説しています。
+            押し買いの手口や対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>で詳しく解説しています。なお、織物・着物の種類ごとの実際の落札相場（実売データ）は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法・一覧</Link>で公開しています。
           </p>
         </section>
 

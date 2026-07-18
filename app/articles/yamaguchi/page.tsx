@@ -140,6 +140,9 @@ export default function YamaguchiPage() {
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
             <p className="text-sm text-gray-700 leading-relaxed">柳井縞などの織物は、証紙や作り手の証明書があると査定額が大きく変わります。たとう紙の証明書や落款のわかる資料も必ず一緒に査定へ出しましょう。</p>
           </div>
+          <p className="text-sm text-gray-600 mt-4">
+            大島紬・結城紬など全国の主要織物について、公開オークションの落札実績にもとづく実売データを<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法・一覧</Link>で公開しています。
+          </p>
         </section>
 
         <section id="osusume" className="mb-12">
@@ -212,6 +215,9 @@ export default function YamaguchiPage() {
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">困ったときの相談先（山口県）</p>
             <p className="text-sm text-gray-700 leading-relaxed mb-3">
               押し買いや契約トラブルで困ったときは、<a href="https://www.pref.yamaguchi.lg.jp/site/shohi-center-top/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">山口県消費生活センター</a>に相談できます。局番なしの消費者ホットライン「188（いやや）」に電話すると、最寄りの消費生活相談窓口につながります。
+            </p>
+            <p className="text-sm text-gray-700 leading-relaxed mb-3">
+              電話で相談する場合は、山口県消費生活センターの相談受付<span className="font-bold">083-924-0999</span>へ（受付は平日8時30分〜17時。来所相談も可）。
             </p>
             <p className="text-xs text-gray-500 mb-3">※2026年7月に公式サイトで確認</p>
             <p className="text-sm text-gray-700 leading-relaxed">

@@ -140,6 +140,12 @@ export default function EhimePage() {
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
             <p className="text-sm text-gray-700 leading-relaxed">伊予絣などの木綿絣は、産地の証紙や手織りの証明があるとプラス評価です。正絹の訪問着・紬・帯は特に証紙の有無で査定額が変わるため、証紙・たとう紙の証明書は必ず一緒に査定へ出しましょう。</p>
           </div>
+          <div className="mt-6 bg-[#faf7f3] border border-[#e8ddd0] rounded-lg p-6">
+            <p className="text-[#6b4c8a] font-bold text-sm mb-2">愛媛ゆかりの織物と実売データ</p>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              愛媛ゆかりの伊予絣について、当サイトが公開オークション（Yahoo!オークション落札相場・2026年7月取得）で集計した実売データでは、伊予絣（全般）の平均落札価格は約5,108円（最高44,000円）、反物は平均約6,309円でした。実売価格は個人間取引で実際に成立した落札額であり、買取業者の査定額とは異なります（一般に買取価格は実売より低くなります）。数値の内訳と出典は<Link href="/articles/iyo-gasuri/" className="text-[#6b4c8a] underline">伊予絣の買取相場</Link>を、実売データの集め方・一覧は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法</Link>をご覧ください。
+            </p>
+          </div>
         </section>
 
         <section id="osusume" className="mb-12">
@@ -215,6 +221,9 @@ export default function EhimePage() {
               <li>
                 <a href="https://www.pref.ehime.jp/site/ecc/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">愛媛県消費生活センター（消費者情報プラザ）</a>
                 …押し買い・訪問購入のトラブルなど、消費生活に関する相談を受け付けています。
+              </li>
+              <li>
+                電話：<span className="font-bold">089-926-2603</span>（事務室／松山市山越町450番地）。消費生活相談は局番なしの「188」からも受け付けています。
               </li>
               <li>
                 消費者ホットライン<span className="font-bold">「188（いやや！）」</span>…最寄りの消費生活相談窓口を案内してもらえます。

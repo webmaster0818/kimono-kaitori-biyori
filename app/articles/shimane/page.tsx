@@ -139,6 +139,9 @@ export default function ShimanePage() {
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
             <p className="text-sm text-gray-700 leading-relaxed">広瀬絣・出雲織などは、産地の証紙や手織りの証明があると査定額が変わります。出雲織の作家物や正絹の紬・帯は特に証紙が重要なので、たとう紙の証明書も必ず一緒に査定へ出しましょう。</p>
           </div>
+          <p className="text-sm text-gray-700 leading-relaxed mt-4">
+            大島紬や結城紬など全国の産地織物をお持ちの場合は、公開オークションの落札実績をもとにした当サイトの<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データ一覧（調査方法と掲載織物）</Link>もあわせてご覧ください。
+          </p>
         </section>
 
         <section id="osusume" className="mb-12">
@@ -207,7 +210,7 @@ export default function ShimanePage() {
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             訪問買取（訪問購入）は特定商取引法の規制対象で、契約書面を受け取った日を含む8日間はクーリング・オフ（無条件解約）ができ、その期間中は着物や貴金属などの品物の引き渡しを拒むこともできます。強引な勧誘や査定額への不安など、業者とのトラブルで困ったときは、島根県が運営する
             <a href="https://www.pref.shimane.lg.jp/cic/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">島根県消費者センター</a>
-            （消費生活相談）に相談できます。また、全国共通の消費者ホットライン「<span className="font-bold">188</span>（いやや）」に局番なしでかけると、最寄りの消費生活相談窓口を案内してもらえます。※2026年7月に公式サイトで確認
+            （消費生活相談 電話 0852-32-5916）に相談できます。また、全国共通の消費者ホットライン「<span className="font-bold">188</span>（いやや）」に局番なしでかけると、最寄りの消費生活相談窓口を案内してもらえます。※2026年7月に公式サイトで確認
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
             契約前の不安がある場合は、当サイトの<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル回避ガイド</Link>もあわせてご覧ください。
