@@ -4,6 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "着物買取 福岡のおすすめ業者5選｜博多織も高価買取",
   description:
     "福岡で着物を売るならどこがおすすめ？博多織・久留米絣など福岡ゆかりの着物も高価買取。出張買取・持ち込み・宅配対応のおすすめ業者5選を徹底比較します。",

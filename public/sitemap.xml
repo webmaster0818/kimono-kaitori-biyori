@@ -229,24 +229,6 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://kimonokaitori-biyori.com/articles/tokyo/</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kimonokaitori-biyori.com/articles/osaka/</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kimonokaitori-biyori.com/articles/nagoya/</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://kimonokaitori-biyori.com/articles/bulk-appraisal/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -314,12 +296,6 @@
   </url>
   <url>
     <loc>https://kimonokaitori-biyori.com/articles/mens-kimono/</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kimonokaitori-biyori.com/articles/fukuoka/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

@@ -4,6 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026年最新】東京の着物買取おすすめ5選｜無料出張・持込・宅配対応",
   description:
     "東京で着物買取を依頼するならどこがおすすめ？持ち込み買取・出張買取に対応した東京都内のおすすめ業者5選を比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの特徴や口コミ、東京エリアの買取相場を徹底解説します。",
