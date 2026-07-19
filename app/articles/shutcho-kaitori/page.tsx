@@ -1311,7 +1311,7 @@ export default function ShutchoKaitoriPage() {
               </p>
             </Link>
             <Link
-              href="/articles/mochikomi-kaitori/"
+              href="/articles/tenpo-mochikomi/"
               className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group"
             >
               <span className="text-xs text-[#e8a0b6] font-medium">

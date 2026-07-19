@@ -547,7 +547,7 @@ export default function SameDayCashPage() {
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">出張買取ガイド</h3>
               <p className="text-xs text-gray-600">出張買取のメリット・デメリットと利用の流れ。</p>
             </Link>
-            <Link href="/articles/mochikomi-kaitori/" className="card hover:border-[#6b4c8a] transition-colors group block">
+            <Link href="/articles/tenpo-mochikomi/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">持ち込み買取ガイド</h3>
               <p className="text-xs text-gray-600">持ち込み買取のメリットと高く売るコツ。</p>
             </Link>

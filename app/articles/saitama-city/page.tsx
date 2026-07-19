@@ -227,7 +227,7 @@ export default function SaitamaCityPage() {
               <span className="text-xs text-[#6b4c8a] font-medium">地域別ガイド</span>
               <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">埼玉の着物買取</p>
             </Link>
-            <Link href="/articles/mochikomi-kaitori/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
+            <Link href="/articles/tenpo-mochikomi/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
               <span className="text-xs text-[#c9a76c] font-medium">お役立ち情報</span>
               <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">持ち込み買取ガイド</p>
             </Link>

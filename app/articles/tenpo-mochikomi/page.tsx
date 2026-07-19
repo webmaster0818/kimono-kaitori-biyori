@@ -4,13 +4,13 @@ import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
-  title: "着物買取 店舗持ち込みおすすめ5選｜その場で現金化できる業者",
+  title: "着物買取の店舗持ち込みガイド｜おすすめ業者5選とやり方・当日の流れ【2026年】",
   description:
-    "着物を店舗に持ち込んでその場で現金化したい方向けに、持ち込み買取対応のおすすめ業者5選を比較。予約不要で持ち込める店舗、持ち込み買取の流れ、メリット・デメリット、高く売るコツを解説。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクを比較。",
+    "着物を店舗に持ち込んで売りたい方向けの総合ガイド。持ち込み買取対応のおすすめ業者5選の比較に加え、やり方・当日の流れ・予約の要否・必要な持ち物・運び方のコツ、店舗/出張/宅配の使い分けまで解説。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクを比較。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/tenpo-mochikomi/" },
   openGraph: {
-    title: "着物買取 店舗持ち込みおすすめ5選｜その場で現金化できる業者",
-    description: "着物の持ち込み買取に対応したおすすめ業者5選。予約不要の店舗や持ち込みの流れも解説。",
+    title: "着物買取の店舗持ち込みガイド｜おすすめ業者5選とやり方・当日の流れ【2026年】",
+    description: "着物の店舗持ち込み買取の総合ガイド。おすすめ業者5選と持ち込みのやり方・当日の流れ・必要な持ち物も解説。",
     url: "https://kimonokaitori-biyori.com/articles/tenpo-mochikomi/",
     siteName: "着物の買取びより", type: "article", locale: "ja_JP",
   },
@@ -26,9 +26,9 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "着物買取 店舗持ち込みおすすめ5選｜その場で現金化できる業者",
-  description: "着物の持ち込み買取に対応したおすすめ業者5選。予約不要の店舗や持ち込みの流れも解説。",
-  datePublished: "2026-05-17", dateModified: "2026-07-04",
+  headline: "着物買取の店舗持ち込みガイド｜おすすめ業者5選とやり方・当日の流れ【2026年】",
+  description: "着物の店舗持ち込み買取の総合ガイド。おすすめ業者5選と持ち込みのやり方・当日の流れ・必要な持ち物も解説。",
+  datePublished: "2026-05-17", dateModified: "2026-07-19",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/tenpo-mochikomi/" },
@@ -54,14 +54,14 @@ export default function TenpoMochikomiPage() {
           <div className="text-center">
             <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">店舗持ち込みガイド</span>
             <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4">
-              <span className="text-gradient">着物買取 店舗持ち込み</span>
+              <span className="text-gradient">着物買取の店舗持ち込みガイド</span>
               <br className="md:hidden" />
-              <span className="block mt-2 text-lg md:text-2xl text-gray-700">おすすめ5選｜その場で現金化できる業者</span>
+              <span className="block mt-2 text-lg md:text-2xl text-gray-700">おすすめ業者5選とやり方・当日の流れ【2026年】</span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
               着物を店舗に持ち込んで、その場で査定・現金化したい方へ。予約不要で持ち込める店舗、持ち込み買取の流れ、メリット・デメリットを詳しく解説。出張買取や宅配買取との違いも比較します。
             </p>
-            <p className="mt-3 text-xs text-gray-400">最終更新：2026年7月4日</p>
+            <p className="mt-3 text-xs text-gray-400">最終更新：2026年7月19日</p>
           </div>
         </div>
       </section>
@@ -75,7 +75,7 @@ export default function TenpoMochikomiPage() {
               <li className="flex items-start gap-2"><span className="text-[#6b4c8a] mt-1 font-bold">&#10003;</span><span><strong>予約は必要？</strong> 予約なしで入れる店舗もありますが、待ち時間や査定員の在店を考えると<strong>事前予約がおすすめ</strong>です。</span></li>
               <li className="flex items-start gap-2"><span className="text-[#6b4c8a] mt-1 font-bold">&#10003;</span><span><strong>何を持っていく？</strong> 着物本体に加えて<strong>証紙・付属品・本人確認書類</strong>。その場で査定・現金化まで完結できるのが持ち込みの最大のメリットです（<a href="#prepare" className="text-[#6b4c8a] underline">準備チェックリスト</a>）。</span></li>
             </ul>
-            <p className="text-xs text-gray-500 mt-4">持ち込み以外の方法（出張・宅配）との違いは<a href="/articles/mochikomi-kaitori/" className="text-[#6b4c8a] underline">持ち込み買取のやり方・流れガイド</a>で解説しています。</p>
+            <p className="text-xs text-gray-500 mt-4">持ち込み以外の方法（出張・宅配）との違いは<a href="#howto-guide" className="text-[#6b4c8a] underline">持ち込み買取のやり方・流れガイド</a>で解説しています。</p>
           </div>
         </div>
       </section>
@@ -89,9 +89,11 @@ export default function TenpoMochikomiPage() {
               <li><a href="#recommended" className="text-[#6b4c8a] hover:underline">2. 持ち込み対応のおすすめ業者5選</a></li>
               <li><a href="#comparison" className="text-[#6b4c8a] hover:underline">3. 3つの買取方法の比較</a></li>
               <li><a href="#flow" className="text-[#6b4c8a] hover:underline">4. 持ち込み買取の流れ</a></li>
+              <li><a href="#howto-guide" className="text-[#6b4c8a] hover:underline">4-2. やり方の詳細（予約・持ち物・運び方のコツ）</a></li>
               <li><a href="#prepare" className="text-[#6b4c8a] hover:underline">5. 持ち込み前の準備チェックリスト</a></li>
               <li><a href="#tips" className="text-[#6b4c8a] hover:underline">6. 持ち込み買取で高く売る5つのコツ</a></li>
               <li><a href="#caution" className="text-[#6b4c8a] hover:underline">7. 持ち込み買取の注意点</a></li>
+              <li><a href="#tenpo-strengths" className="text-[#6b4c8a] hover:underline">7-2. 持ち込みならではの強みと買取方法の使い分け</a></li>
               <li><a href="#faq" className="text-[#6b4c8a] hover:underline">8. よくある質問</a></li>
             </ol></nav>
           </div>
@@ -126,7 +128,7 @@ export default function TenpoMochikomiPage() {
             </div>
           </div>
           <div className="mt-4 text-sm leading-relaxed">
-            <p>持ち込み買取の<Link href="/articles/mochikomi-kaitori/" className="text-[#6b4c8a] hover:underline">方法・流れ・店舗/出張/宅配の選び方はこちら</Link>で詳しく解説しています。本ページは、その中でも「店舗に持ち込めるおすすめ業者」を比較する受け皿です。</p>
+            <p>持ち込み買取の<Link href="#howto-guide" className="text-[#6b4c8a] hover:underline">方法・流れ・店舗/出張/宅配の選び方はこちら</Link>で詳しく解説しています。本ページは、その中でも「店舗に持ち込めるおすすめ業者」を比較する受け皿です。</p>
           </div>
         </div>
       </section>
@@ -243,6 +245,45 @@ export default function TenpoMochikomiPage() {
                 <p className="text-sm text-gray-700 flex items-center">{step}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 統合: 持ち込み買取のやり方 詳細ガイド（mochikomi-kaitoriより移植） */}
+      <section id="howto-guide" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />やり方の詳細（予約・持ち物・運び方のコツ）</h2>
+          <p className="text-sm md:text-base mb-6 leading-relaxed">
+            持ち込み買取は「店頭買取」とも呼ばれ、売りたい着物を自分で店舗に持参し、査定員と対面でやり取りして、納得すればその場で現金を受け取る最も伝統的な買取方法です。ここでは予約から当日までの実務ポイントを詳しく解説します。
+          </p>
+          <div className="space-y-4">
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">予約時に伝えておくとスムーズなこと</h3>
+              <p className="text-sm leading-relaxed text-gray-700">予約不要の店舗でも、事前に電話やWebで「着物の査定をお願いしたい」「着物が〇枚ある」と伝えておくのがおすすめです。着物の査定は専門の査定員が対応するため、事前連絡で確実に対応してもらえ、待ち時間も短縮できます。車で来店する場合は駐車場の有無、あわせて営業時間・定休日も確認しておきましょう。</p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">本人確認書類として使えるもの</h3>
+              <p className="text-sm leading-relaxed text-gray-700 mb-2">古物営業法により買取時の本人確認が義務付けられています。以下のいずれかを持参してください。</p>
+              <ul className="space-y-1 text-sm text-gray-700">
+                <li>・ 運転免許証</li>
+                <li>・ パスポート</li>
+                <li>・ マイナンバーカード（通知カードは不可）</li>
+                <li>・ 健康保険証（住所記載のもの）</li>
+                <li>・ 住民基本台帳カード</li>
+              </ul>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">証紙の探し場所</h3>
+              <p className="text-sm leading-relaxed text-gray-700">証紙は着物の産地や品質を証明する重要な書類で、有無で査定額が大きく変わることがあります。たとう紙の中、端布と一緒、タンスの引き出しの隅などに保管されていることが多いので、来店前に必ず探しましょう。購入時の領収書や保証書があれば、それも一緒に持参すると査定の参考になります。</p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">着物の持ち運び方のコツ</h3>
+              <p className="text-sm leading-relaxed text-gray-700">着物はたとう紙に包んだまま、大きめの風呂敷やショッピングバッグに入れて持ち運びましょう。ビニール袋は蒸れの原因になるため避けてください。車で来店する場合は、トランクに平置きしてシワがつかないよう注意しましょう。</p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">当日は「一部だけ売る」「持ち帰って検討」も自由</h3>
+              <p className="text-sm leading-relaxed text-gray-700">査定額の提示後は、「この着物だけ売って、残りは持ち帰る」という選択も可能です。金額に納得できない場合は「検討します」と伝えて一度持ち帰り、他の業者の査定と比較するのも良い方法です。持ち込み買取はキャンセル料がかからないのが一般的です。</p>
+            </div>
           </div>
         </div>
       </section>
@@ -419,6 +460,27 @@ export default function TenpoMochikomiPage() {
         </div>
       </section>
 
+      {/* 統合: 持ち込みならではの強みと使い分け（mochikomi-kaitoriより移植） */}
+      <section id="tenpo-strengths" className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />持ち込みならではの強みと買取方法の使い分け</h2>
+          <div className="space-y-4">
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">その場で価格交渉ができる</h3>
+              <p className="text-sm leading-relaxed text-gray-700">持ち込み買取では、提示された査定額に対して交渉できる場合があります。「他の業者ではもう少し高かった」といった交渉は、対面だからこそやりやすいのが特徴です。すべての交渉が成功するわけではありませんが、宅配買取では難しいリアルタイムのやり取りが可能です。交渉の際は、他社の査定額を事前に取っておくと説得力が増します。</p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">店舗の実在・信頼性を自分の目で確認できる</h3>
+              <p className="text-sm leading-relaxed text-gray-700">実際に店舗を訪れることで、業者の実在や信頼性を自分の目で確認できます。店舗の雰囲気やスタッフの対応を直接見て判断でき、古物商許可証が店舗に掲示されているかも確認できます。ネット上だけで完結する取引に不安を感じる方には大きな安心材料です。</p>
+            </div>
+            <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
+              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">クーリングオフを重視するなら出張買取という選択肢も</h3>
+              <p className="text-sm leading-relaxed text-gray-700">持ち込み買取と宅配買取はクーリングオフの対象外ですが、出張買取（訪問購入）は特定商取引法により8日間のクーリングオフが適用されます。「売ってから考え直せる余地を残したい」という方は、出張買取を選ぶのも一つの方法です。詳しくは<Link href="/articles/shutcho-kaitori/" className="text-[#6b4c8a] hover:underline">出張買取ガイド</Link>をご覧ください。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 持ち込み vs 出張 vs 宅配 シーン別比較 */}
       <section className="py-10">
         <div className="max-w-4xl mx-auto px-4">
@@ -487,7 +549,7 @@ export default function TenpoMochikomiPage() {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
           <div className="grid md:grid-cols-3 gap-4">
-            <Link href="/articles/mochikomi-kaitori/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">持ち込み買取の方法・流れ</h3><p className="text-xs text-gray-600">持ち込み買取のやり方・流れと店舗/出張/宅配の選び方。</p></Link>
+            <Link href="#howto-guide" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">持ち込み買取の方法・流れ</h3><p className="text-xs text-gray-600">持ち込み買取のやり方・流れと店舗/出張/宅配の選び方。</p></Link>
             <Link href="/articles/shutcho-kaitori/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">出張買取ガイド</h3><p className="text-xs text-gray-600">出張買取のメリットと利用の流れ。</p></Link>
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
           </div>
@@ -540,6 +602,10 @@ export default function TenpoMochikomiPage() {
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4 py-6">
+        <p className="text-xs text-gray-500">※本ページは『持ち込み買取のやり方』の解説を統合し、店舗持ち込みの総合ガイドとして再構成しました（2026年7月）</p>
+      </div>
 
       <SoubaNote />
     </>

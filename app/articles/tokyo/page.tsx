@@ -748,7 +748,7 @@ export default function TokyoPage() {
               </p>
             </Link>
             <Link
-              href="/articles/mochikomi-kaitori/"
+              href="/articles/tenpo-mochikomi/"
               className="card hover:border-[#6b4c8a] transition-colors group block"
             >
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">

@@ -235,7 +235,7 @@ export default function RentalVsSellPage() {
               レンタルの場合、着物レンタル業者に委託する方法と、個人間でシェアリングサービスを利用する方法があります。いずれの場合も、クリーニング代や保管費用などのランニングコストが発生するため、単純に「レンタル料金が入るから得」とは限りません。
             </p>
             <p>
-              一方、売却の場合は<Link href="/articles/shutcho-kaitori/" className="text-[#6b4c8a] hover:underline">出張買取</Link>、<Link href="/articles/takuhai-kaitori/" className="text-[#6b4c8a] hover:underline">宅配買取</Link>、<Link href="/articles/mochikomi-kaitori/" className="text-[#6b4c8a] hover:underline">持ち込み買取</Link>の3つの方法があり、いずれも査定料・送料・出張費が無料の業者が主流です。即日現金化も可能なため、手元に早く資金が欲しい方には売却が適しています。
+              一方、売却の場合は<Link href="/articles/shutcho-kaitori/" className="text-[#6b4c8a] hover:underline">出張買取</Link>、<Link href="/articles/takuhai-kaitori/" className="text-[#6b4c8a] hover:underline">宅配買取</Link>、<Link href="/articles/tenpo-mochikomi/" className="text-[#6b4c8a] hover:underline">持ち込み買取</Link>の3つの方法があり、いずれも査定料・送料・出張費が無料の業者が主流です。即日現金化も可能なため、手元に早く資金が欲しい方には売却が適しています。
             </p>
           </div>
 
