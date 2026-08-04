@@ -116,6 +116,8 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const datasetStructuredData = {"@context": "https://schema.org", "@type": "Dataset", "name": "久留米絣の実売相場データ（公開オークション落札相場）", "description": "久留米絣について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を集計した実売データ（一次情報）です。買取業者の査定額ではなく、個人間取引で成立した実売価格の集計値です。", "creator": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "publisher": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "isBasedOn": "https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E4%B9%85%E7%95%99%E7%B1%B3%E7%B5%A3%20%E5%8F%8D%E7%89%A9/0/", "variableMeasured": ["落札件数", "平均落札価格", "最高落札価格"], "measurementTechnique": "公開オークションの落札相場ページの手動集計（推定値・出典不明の数値は不採用）", "temporalCoverage": "P180D", "dateModified": "2026-06-13", "url": "https://kimonokaitori-biyori.com/articles/kurume-gasuri/#auction-data", "isAccessibleForFree": true};
+
 export default function KurumeGasuriPage() {
   return (
     <>
@@ -136,6 +138,10 @@ export default function KurumeGasuriPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbStructuredData),
         }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetStructuredData) }}
       />
 
       <Breadcrumb

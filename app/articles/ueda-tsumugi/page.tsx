@@ -116,6 +116,8 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const datasetStructuredData = {"@context": "https://schema.org", "@type": "Dataset", "name": "上田紬の実売相場データ（公開オークション落札相場）", "description": "上田紬について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を集計した実売データ（一次情報）です。買取業者の査定額ではなく、個人間取引で成立した実売価格の集計値です。", "creator": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "publisher": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "isBasedOn": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E4%B8%8A%E7%94%B0%E7%B4%AC", "variableMeasured": ["落札件数", "平均落札価格", "最高落札価格"], "measurementTechnique": "公開オークションの落札相場ページの手動集計（推定値・出典不明の数値は不採用）", "temporalCoverage": "P180D", "dateModified": "2026-07-16", "url": "https://kimonokaitori-biyori.com/articles/ueda-tsumugi/#auction-data", "isAccessibleForFree": true};
+
 export default function UedaTsumugiPage() {
   return (
     <>
@@ -136,6 +138,10 @@ export default function UedaTsumugiPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbStructuredData),
         }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetStructuredData) }}
       />
 
       <Breadcrumb

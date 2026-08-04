@@ -116,6 +116,8 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const datasetStructuredData = {"@context": "https://schema.org", "@type": "Dataset", "name": "米沢織の実売相場データ（公開オークション落札相場）", "description": "米沢織について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を集計した実売データ（一次情報）です。買取業者の査定額ではなく、個人間取引で成立した実売価格の集計値です。", "creator": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "publisher": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "isBasedOn": "https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E7%BD%AE%E8%B3%9C%E7%B4%AC/0/", "variableMeasured": ["落札件数", "平均落札価格", "最高落札価格"], "measurementTechnique": "公開オークションの落札相場ページの手動集計（推定値・出典不明の数値は不採用）", "temporalCoverage": "P180D", "dateModified": "2026-06-14", "url": "https://kimonokaitori-biyori.com/articles/yonezawa-ori/#auction-data", "isAccessibleForFree": true};
+
 export default function YonezawaOriPage() {
   return (
     <>
@@ -136,6 +138,10 @@ export default function YonezawaOriPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbStructuredData),
         }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetStructuredData) }}
       />
 
       <Breadcrumb

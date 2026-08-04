@@ -116,6 +116,8 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const datasetStructuredData = {"@context": "https://schema.org", "@type": "Dataset", "name": "村山大島紬の実売相場データ（公開オークション落札相場）", "description": "村山大島紬について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を集計した実売データ（一次情報）です。買取業者の査定額ではなく、個人間取引で成立した実売価格の集計値です。", "creator": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "publisher": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "isBasedOn": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E6%9D%91%E5%B1%B1%E5%A4%A7%E5%B3%B6%E7%B4%AC", "variableMeasured": ["落札件数", "平均落札価格", "最高落札価格"], "measurementTechnique": "公開オークションの落札相場ページの手動集計（推定値・出典不明の数値は不採用）", "temporalCoverage": "P180D", "dateModified": "2026-07-16", "url": "https://kimonokaitori-biyori.com/articles/murayama-oshima/#auction-data", "isAccessibleForFree": true};
+
 export default function MurayamaOshimaPage() {
   return (
     <>
@@ -136,6 +138,10 @@ export default function MurayamaOshimaPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbStructuredData),
         }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetStructuredData) }}
       />
 
       <Breadcrumb

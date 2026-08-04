@@ -70,12 +70,32 @@ const breadcrumbStructuredData = {
   ],
 };
 
+const dataCatalogStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  name: "着物の織物別 実売相場データベース（公開オークション落札相場）",
+  description:
+    "着物の産地織物40種について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を、出典・取得日つきで集計した実売データの一覧です。買取業者の査定額ではなく、個人間取引で成立した実売価格の一次データを、推定値・出典不明の数値を排除して手動集計しています。",
+  url: "https://kimonokaitori-biyori.com/articles/souba-method/",
+  creator: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
+  publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
+  measurementTechnique:
+    "公開オークションの落札相場ページの手動集計（自動収集は行わず、推定値・出典が確認できない数値は不採用）",
+  isBasedOn: "https://auctions.yahoo.co.jp/closedsearch/closedsearch/",
+  variableMeasured: ["落札件数", "平均落札価格", "最高落札価格"],
+  isAccessibleForFree: true,
+};
+
 export default function SoubaMethodPage() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(dataCatalogStructuredData) }}
       />
       <Breadcrumb
         items={[
