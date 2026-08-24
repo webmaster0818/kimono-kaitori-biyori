@@ -190,3 +190,7 @@
 - カニバリ対応: 置賜紬は総称+白鷹御召/長井紬軸で米沢織ページへ委譲(souba-methodハブの旧ラベル「米沢織（置賜紬）」→「米沢織」に整理)。十日町⇔塩沢、村山⇔本場大島の混同分離
 - souba-method: dataPages+12・28→40織物。sitemap 149→161(lastmod 2026-07-16)。deploy=kimono-kaitori-biyori-deploy両push・本番12/12 200+数値スポット+ハブ40+sitemap161をcache回避curl検証・GSC再送信
 - 残: Phase1ゲート観測(新規12本が4週以内にインデックス+表示)を週次定点観測に追加。Phase2(着物種類×実売の既存強化)はゲート到達後に相談
+
+## 2026-08-24 P4: 実売相場8月更新✅（「進めて」承認）
+- 主要8織物(oshima/yuki/kaga/nishijin/ushikubi/furisode/houmongi/fukuro-obi)のauction-dataセクション冒頭に「2026年8月の最新集計」box追加(件数/平均/最高値・出典・8/24取得)。旧区分別テーブルは前回集計として保持(取得日偽装なし)。Dataset dateModified=8/24・sitemap lastmod8件・両repo push・本番3サンプル検証・GSC再送信
+- ★収集の罠: 「裏山文庫 布語り」系の織物名羅列出品(志村ふくみ119万等)が大島/結城/牛首の3検索全ての最上位に同一出現→除外必須。振袖検索は刀剣(振袖茎)混入。西陣織はノイズ最大(帯単品114,301円を採用)。closedsearch実ページの期間表記は180日(120日でない)
