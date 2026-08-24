@@ -111,7 +111,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const datasetStructuredData = {"@context": "https://schema.org", "@type": "Dataset", "name": "大島紬の実売相場データ（公開オークション落札相場）", "description": "大島紬について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を集計した実売データ（一次情報）です。買取業者の査定額ではなく、個人間取引で成立した実売価格の集計値です。", "creator": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "publisher": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "isBasedOn": "https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E5%A4%A7%E5%B3%B6%E7%B4%AC/0/", "variableMeasured": ["落札件数", "平均落札価格", "最高落札価格"], "measurementTechnique": "公開オークションの落札相場ページの手動集計（推定値・出典不明の数値は不採用）", "temporalCoverage": "P180D", "dateModified": "2026-04-15", "url": "https://kimonokaitori-biyori.com/articles/oshima-tsumugi/#auction-data", "isAccessibleForFree": true};
+const datasetStructuredData = {"@context": "https://schema.org", "@type": "Dataset", "name": "大島紬の実売相場データ（公開オークション落札相場）", "description": "大島紬について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を集計した実売データ（一次情報）です。買取業者の査定額ではなく、個人間取引で成立した実売価格の集計値です。", "creator": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "publisher": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "isBasedOn": "https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E5%A4%A7%E5%B3%B6%E7%B4%AC/0/", "variableMeasured": ["落札件数", "平均落札価格", "最高落札価格"], "measurementTechnique": "公開オークションの落札相場ページの手動集計（推定値・出典不明の数値は不採用）", "temporalCoverage": "P180D", "dateModified": "2026-08-24", "url": "https://kimonokaitori-biyori.com/articles/oshima-tsumugi/#auction-data", "isAccessibleForFree": true};
 
 export default function OshimaTsumugiPage() {
   return (
@@ -372,6 +372,15 @@ export default function OshimaTsumugiPage() {
           <p className="text-sm md:text-base mb-6 leading-relaxed">
             ここで紹介するのは「買取相場」ではなく、公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額ではなく、個人間取引で実際に成立した落札価格のため、相場の“幅”を知るためのリアルな一次データとしてご覧ください。
           </p>
+          <div className="bg-white border-2 border-[#6b4c8a] rounded-xl p-5 mb-6">
+            <p className="font-bold text-[#6b4c8a] mb-2">2026年8月の最新集計（8月24日取得）</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
+              <div><span className="text-gray-500">落札件数（直近30日）</span><br /><span className="text-lg font-bold">2,729件</span></div>
+              <div><span className="text-gray-500">平均落札価格</span><br /><span className="text-lg font-bold">約3,434円</span></div>
+              <div><span className="text-gray-500">最高落札価格（過去約180日・単品）</span><br /><span className="text-lg font-bold">228,800円</span><br /><span className="text-xs text-gray-500">本場縞大島 訪問着(刺繍付・単品)</span></div>
+            </div>
+            <p className="text-xs text-gray-500 mt-3">出典: オークファン（aucfan.com）の大島紬落札相場ページ・Yahoo!オークション落札相場（2026年8月24日取得）。織物名を羅列したまとめ検索ノイズ(他織物の高額出品)を除外した単品実測値です。以下の区分別テーブルは前回集計（取得日記載）です。</p>
+          </div>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>

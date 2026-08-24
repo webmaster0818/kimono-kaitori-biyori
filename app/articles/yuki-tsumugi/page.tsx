@@ -114,7 +114,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const datasetStructuredData = {"@context": "https://schema.org", "@type": "Dataset", "name": "結城紬の実売相場データ（公開オークション落札相場）", "description": "結城紬について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を集計した実売データ（一次情報）です。買取業者の査定額ではなく、個人間取引で成立した実売価格の集計値です。", "creator": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "publisher": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "isBasedOn": "https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E6%9C%AC%E5%A0%B4%E7%B5%90%E5%9F%8E%E7%B4%AC/0/", "variableMeasured": ["落札件数", "平均落札価格", "最高落札価格"], "measurementTechnique": "公開オークションの落札相場ページの手動集計（推定値・出典不明の数値は不採用）", "temporalCoverage": "P180D", "dateModified": "2026-04-16", "url": "https://kimonokaitori-biyori.com/articles/yuki-tsumugi/#auction-data", "isAccessibleForFree": true};
+const datasetStructuredData = {"@context": "https://schema.org", "@type": "Dataset", "name": "結城紬の実売相場データ（公開オークション落札相場）", "description": "結城紬について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を集計した実売データ（一次情報）です。買取業者の査定額ではなく、個人間取引で成立した実売価格の集計値です。", "creator": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "publisher": {"@type": "Organization", "name": "着物の買取びより", "url": "https://kimonokaitori-biyori.com"}, "isBasedOn": "https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E6%9C%AC%E5%A0%B4%E7%B5%90%E5%9F%8E%E7%B4%AC/0/", "variableMeasured": ["落札件数", "平均落札価格", "最高落札価格"], "measurementTechnique": "公開オークションの落札相場ページの手動集計（推定値・出典不明の数値は不採用）", "temporalCoverage": "P180D", "dateModified": "2026-08-24", "url": "https://kimonokaitori-biyori.com/articles/yuki-tsumugi/#auction-data", "isAccessibleForFree": true};
 
 export default function YukiTsumugiPage() {
   return (
@@ -609,6 +609,15 @@ export default function YukiTsumugiPage() {
           <p className="text-sm md:text-base leading-relaxed mb-6">
             同じ結城紬でも、証紙「結」マークの有無・本場か一般（石下など）か・保存状態によって査定額は大きく変わります。前述の実売データの“幅”も、その多くはこうした状態・条件の差から生まれています。
           </p>
+          <div className="bg-white border-2 border-[#6b4c8a] rounded-xl p-5 mb-6">
+            <p className="font-bold text-[#6b4c8a] mb-2">2026年8月の最新集計（8月24日取得）</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
+              <div><span className="text-gray-500">落札件数（直近30日）</span><br /><span className="text-lg font-bold">475件</span></div>
+              <div><span className="text-gray-500">平均落札価格</span><br /><span className="text-lg font-bold">約4,947円</span></div>
+              <div><span className="text-gray-500">最高落札価格（過去約180日・単品）</span><br /><span className="text-lg font-bold">200,000円</span><br /><span className="text-xs text-gray-500">結城紬 着物(単品)</span></div>
+            </div>
+            <p className="text-xs text-gray-500 mt-3">出典: オークファン（aucfan.com）の結城紬落札相場ページ・Yahoo!オークション落札相場（2026年8月24日取得）。織物名羅列のノイズ出品を除外。本場結城紬確定の最上位は198,000円でした。以下の区分別テーブルは前回集計（取得日記載）です。</p>
+          </div>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>
