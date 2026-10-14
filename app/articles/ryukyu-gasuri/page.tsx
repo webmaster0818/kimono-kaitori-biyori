@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/ryukyu-gasuri/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】琉球絣の買取相場｜首里織との違い・証紙と手織りで価値が変わる",
     description:
       "琉球絣（沖縄・南風原町中心）の買取相場と高く売る方法。首里織との違い、証紙・手織りの有無で価値が変わる点を実売データとあわせて解説。",

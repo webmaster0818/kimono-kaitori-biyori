@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "着物の虫干し（陰干し）の正しいやり方と最適な時期を解説。年に何回行うべきか、湿度や天候の条件、虫干しに必要な道具、注意点まで詳しく紹介。虫干しをすることで着物の価値を保ち、高額買取につなげましょう。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/airing-guide/" },
-  openGraph: { title: "着物の虫干しの方法と時期｜正しいお手入れで価値を保つ", description: "着物の虫干し方法と最適な時期を解説。カビ・虫食い予防のポイント。", url: "https://kimonokaitori-biyori.com/articles/airing-guide/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物の虫干しの方法と時期｜正しいお手入れで価値を保つ", description: "着物の虫干し方法と最適な時期を解説。カビ・虫食い予防のポイント。", url: "https://kimonokaitori-biyori.com/articles/airing-guide/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

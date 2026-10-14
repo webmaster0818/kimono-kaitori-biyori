@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/nagasaki/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】長崎の着物買取おすすめ5選｜島原木綿を高く売る",
     description:
       "長崎県で着物を高く売るためのおすすめ買取業者5選。島原木綿・長崎更紗など地元織物の買取相場も解説。",

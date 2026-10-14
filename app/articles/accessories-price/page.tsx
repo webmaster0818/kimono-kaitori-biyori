@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "和装小物（帯締め・帯揚げ・草履）の買取相場まとめ",
   description: "帯締め・帯揚げ・草履・バッグ・半衿・重ね衿など和装小物の買取相場を徹底解説。小物単体の価格と着物セットで出した場合の査定額の違い、高く売るコツを紹介します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/accessories-price/" },
-  openGraph: { title: "和装小物（帯締め・帯揚げ・草履）の買取相場まとめ", description: "和装小物の買取相場を種類別に解説。", url: "https://kimonokaitori-biyori.com/articles/accessories-price/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "和装小物（帯締め・帯揚げ・草履）の買取相場まとめ", description: "和装小物の買取相場を種類別に解説。", url: "https://kimonokaitori-biyori.com/articles/accessories-price/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

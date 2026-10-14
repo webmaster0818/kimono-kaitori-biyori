@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "まんがく屋の着物買取｜口コミ・評判を徹底検証",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/mangakuya/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "まんがく屋の着物買取｜口コミ・評判を徹底検証",
     description: "まんがく屋の着物買取サービスを徹底検証。大阪発の買取業者の実力と口コミを正直にレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/mangakuya/",
@@ -329,6 +330,7 @@ export default function MangakuyaReviewPage() {
       </article>
 
       <SoubaNote />
+      <ThemeArticles current="/reviews/mangakuya/" />
     </>
   );
 }

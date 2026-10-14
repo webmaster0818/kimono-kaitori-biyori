@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/shizuoka/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】静岡の着物買取おすすめ5選｜遠州綿紬を高く売る",
     description:
       "静岡県で着物を高く売るためのおすすめ買取業者5選。遠州綿紬など地元織物の買取相場も解説。",

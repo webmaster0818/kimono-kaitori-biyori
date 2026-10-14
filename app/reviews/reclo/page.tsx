@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "RECLO（リクロ）の着物買取｜宅配買取の評判・口コミを検証",
   description:
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/reclo/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "RECLO（リクロ）の着物買取｜宅配買取の評判・口コミを検証",
     description:
       "RECLO（リクロ）の宅配買取特化の着物買取サービスを徹底検証。口コミ・評判・買取実績を正直にレビュー。",
@@ -889,6 +890,7 @@ export default function RecloReviewPage() {
       </article>
 
       <SoubaNote />
+      <ThemeArticles current="/reviews/reclo/" />
     </>
   );
 }

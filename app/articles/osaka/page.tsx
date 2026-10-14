@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/osaka/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 大阪のおすすめ業者5選｜関西エリアの出張買取",
     description:
       "大阪で着物を売るならどこがおすすめ？関西エリアの着物買取業者5選を徹底比較。出張買取・持ち込み対応の業者を口コミ・評判・買取実績とともにご紹介します。",

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/iwate/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】岩手の着物買取おすすめ5選｜南部紫根染を高く売る",
     description:
       "岩手県で着物を高く売るためのおすすめ買取業者5選。南部紫根染・茜染など地元染織の買取相場も解説。",

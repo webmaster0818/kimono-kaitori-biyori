@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/tokyo/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】東京の着物買取おすすめ5選｜無料出張・持込・宅配対応",
     description:
       "東京都内で着物を高く売るためのおすすめ買取業者5選。持ち込み・出張・宅配の対応状況を比較。",

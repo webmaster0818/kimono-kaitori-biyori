@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "着物の産地一覧マップ｜全国の有名産地と特徴",
   description: "全国の着物産地を一覧で解説。大島紬・結城紬・西陣織・加賀友禅・博多織など有名産地の特徴と買取相場をまとめました。産地証紙の見方も紹介。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/production-map/" },
-  openGraph: { title: "着物の産地一覧マップ｜全国の有名産地と特徴", description: "全国の着物産地を一覧で解説。有名産地の特徴と買取相場をまとめました。", url: "https://kimonokaitori-biyori.com/articles/production-map/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物の産地一覧マップ｜全国の有名産地と特徴", description: "全国の着物産地を一覧で解説。有名産地の特徴と買取相場をまとめました。", url: "https://kimonokaitori-biyori.com/articles/production-map/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

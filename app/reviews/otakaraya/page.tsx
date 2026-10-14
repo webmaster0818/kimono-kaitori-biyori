@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "おたからやの着物買取｜フランチャイズ店の実力を検証",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/otakaraya/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "おたからやの着物買取｜フランチャイズ店の実力を検証",
     description: "おたからやの着物買取を徹底検証。世界約1,880店超のFC展開と口コミを正直にレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/otakaraya/",
@@ -326,6 +327,7 @@ export default function OtakarayaReviewPage() {
       </article>
 
       <SoubaNote />
+      <ThemeArticles current="/reviews/otakaraya/" />
     </>
   );
 }

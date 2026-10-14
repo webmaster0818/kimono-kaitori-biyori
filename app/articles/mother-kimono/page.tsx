@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/mother-kimono/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【専門家監修】母親の着物の整理方法｜売る・残す・寄付の判断ガイド",
     description:
       "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を徹底解説。後悔しない整理の進め方をガイドします。",

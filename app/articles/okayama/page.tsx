@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/okayama/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】岡山の着物買取おすすめ5選｜作州絣を高く売る",
     description:
       "岡山県で着物を高く売るためのおすすめ買取業者5選。作州絣など地元織物の買取相場も解説。",

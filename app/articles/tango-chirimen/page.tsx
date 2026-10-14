@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/tango-chirimen/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】丹後ちりめんの買取相場｜後染め白生地の特徴と高く売るコツ",
     description:
       "丹後ちりめんの買取相場と高く売る方法を解説。京都・丹後の後染め用白生地、染め・仕立てが価値の鍵。",

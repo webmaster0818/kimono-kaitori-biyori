@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/hakata-ori/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】博多織の買取相場｜献上柄の帯・証紙の見方",
     description:
       "博多織の買取相場と高く売る方法を解説。福岡・博多の献上柄の帯、証紙が査定の鍵。",

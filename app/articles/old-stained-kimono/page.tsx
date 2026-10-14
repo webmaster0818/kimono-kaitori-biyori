@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/old-stained-kimono/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "古い着物・シミありでも売れる？買取可能な条件と業者選び",
     description:
       "古い着物やシミのある着物でも売れるのか徹底解説。買取可能な条件と業者選びのポイントをガイドします。",

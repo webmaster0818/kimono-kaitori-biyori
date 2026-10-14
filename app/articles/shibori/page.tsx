@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "絞り染め着物の種類と買取相場を徹底解説。有松絞り・京鹿の子絞り・辻が花など主要な絞り染めの特徴・産地・買取価格をまとめました。総絞りの振袖の価値も紹介。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/shibori/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "絞り染め着物の買取相場｜有松絞り・京鹿の子絞りの価値",
     description: "絞り染め着物の種類と買取相場を解説。有松絞り・京鹿の子絞り・辻が花の特徴と買取価格。",
     url: "https://kimonokaitori-biyori.com/articles/shibori/",

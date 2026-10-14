@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "着物のサイズ（身丈・裄丈）と買取価格の関係を解説",
   description: "着物のサイズ（身丈・裄丈・前幅・後幅）が買取価格にどう影響するのかを徹底解説。大きいサイズほど高く売れる理由、サイズの測り方、サイズ別の買取相場をまとめました。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/size-and-price/" },
-  openGraph: { title: "着物のサイズ（身丈・裄丈）と買取価格の関係を解説", description: "着物のサイズと買取価格の関係を解説。身丈・裄丈の測り方も紹介。", url: "https://kimonokaitori-biyori.com/articles/size-and-price/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物のサイズ（身丈・裄丈）と買取価格の関係を解説", description: "着物のサイズと買取価格の関係を解説。身丈・裄丈の測り方も紹介。", url: "https://kimonokaitori-biyori.com/articles/size-and-price/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

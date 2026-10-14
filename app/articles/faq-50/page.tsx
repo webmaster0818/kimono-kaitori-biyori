@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "着物買取のよくある質問50選｜総合FAQ",
   description: "着物買取に関するよくある質問50選を総合FAQ形式でまとめました。買取相場・査定方法・業者選び・着物の種類別の疑問にすべてお答えします。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/faq-50/" },
-  openGraph: { title: "着物買取のよくある質問50選｜総合FAQ", description: "着物買取に関するよくある質問50選。買取相場・査定方法・業者選びの疑問にお答え。", url: "https://kimonokaitori-biyori.com/articles/faq-50/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物買取のよくある質問50選｜総合FAQ", description: "着物買取に関するよくある質問50選。買取相場・査定方法・業者選びの疑問にお答え。", url: "https://kimonokaitori-biyori.com/articles/faq-50/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqCategories = [

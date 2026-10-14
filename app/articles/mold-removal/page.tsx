@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "着物にカビが生えてしまった場合の対処法を徹底解説。自宅でできる応急処置の方法、専門店（悉皆）に依頼した場合の費用相場、カビの予防策、カビがある着物の買取可否まで詳しく紹介します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/mold-removal/" },
-  openGraph: { title: "着物のカビ取り方法｜自宅でできる応急処置と専門店の費用", description: "着物のカビ取り方法と費用を解説。カビ着物の買取可否も。", url: "https://kimonokaitori-biyori.com/articles/mold-removal/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物のカビ取り方法｜自宅でできる応急処置と専門店の費用", description: "着物のカビ取り方法と費用を解説。カビ着物の買取可否も。", url: "https://kimonokaitori-biyori.com/articles/mold-removal/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

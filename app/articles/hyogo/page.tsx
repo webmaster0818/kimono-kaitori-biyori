@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/hyogo/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】兵庫の着物買取おすすめ5選｜丹波布を高く売る",
     description:
       "兵庫県で着物を高く売るためのおすすめ買取業者5選。丹波布など地元織物の買取相場も解説。",

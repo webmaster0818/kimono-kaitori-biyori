@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kimono-types-guide/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物の種類一覧｜普段着から礼装まで完全ガイド",
     description:
       "着物の種類を格式順に網羅。特徴・着用シーン・買取相場まで。",

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/moving-sale/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "引っ越し前の着物処分ガイド｜急ぎで売りたい時のベスト方法",
     description: "引っ越し前に着物を急いで処分するための方法と業者比較。日数別のおすすめ方法も解説。",
     url: "https://kimonokaitori-biyori.com/articles/moving-sale/",

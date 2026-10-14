@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "着物を売る前に知っておきたい用語集",
   description: "着物買取でよく使われる専門用語を初心者向けにわかりやすく解説。紬・友禅・証紙・落款・マルキ・絣・先染め・後染めなど、査定時に知っておくと役立つ用語をまとめました。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/glossary/" },
-  openGraph: { title: "着物を売る前に知っておきたい用語集", description: "着物買取で使われる専門用語を解説。査定時に知っておくと役立つ用語集。", url: "https://kimonokaitori-biyori.com/articles/glossary/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物を売る前に知っておきたい用語集", description: "着物買取で使われる専門用語を解説。査定時に知っておくと役立つ用語集。", url: "https://kimonokaitori-biyori.com/articles/glossary/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

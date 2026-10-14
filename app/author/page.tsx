@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/author/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "編集部メンバー紹介 | 着物の買取びより",
     description:
       "着物・和装・買取査定の専門知識を持つ編集者陣をご紹介します。",

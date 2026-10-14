@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/certificate-guide/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物の証紙とは？見方と査定への影響を徹底解説",
     description:
       "着物の証紙の種類、見方、主な産地別証紙一覧、査定への影響を徹底解説します。",

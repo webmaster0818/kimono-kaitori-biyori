@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/tochigi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】栃木の着物買取おすすめ5選｜足利銘仙・結城紬を高く売る",
     description:
       "栃木県で着物を高く売るためのおすすめ買取業者5選。足利銘仙・結城紬・真岡木綿など地元織物の買取相場も解説。",

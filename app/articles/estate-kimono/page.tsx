@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/estate-kimono/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "遺品整理で着物が出てきた時の対処法｜価値の見極め方と売り方",
     description:
       "遺品整理で着物が出てきたときの対処法を徹底解説。価値の見極め方から売却方法まで網羅的にガイドします。",

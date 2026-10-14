@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/awa-shijira/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】阿波しじら織の買取相場｜正藍染で価値が変わる・実売データつき",
     description:
       "阿波しじら織の買取相場と高く売る方法。シボのある木綿織物。「阿波正藍しじら織」は国の伝統的工芸品。実売データつきで解説。",

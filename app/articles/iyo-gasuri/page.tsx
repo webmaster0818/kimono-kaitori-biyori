@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/iyo-gasuri/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】伊予絣の買取相場｜日本三大絣・愛媛の絣を高く売る方法",
     description:
       "伊予絣（愛媛・松山）の買取相場と高く売る方法。藍染・木綿の絣括りが特徴。証紙の見方も解説。",

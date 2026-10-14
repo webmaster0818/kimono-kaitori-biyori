@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/bulk-selling/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物のまとめ売りガイド｜大量処分のコツとおすすめ業者",
     description:
       "着物を大量にまとめて売りたい方向けガイド。高額査定のポイントとおすすめ業者を紹介。",

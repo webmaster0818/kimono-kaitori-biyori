@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取の確定申告・税金ガイド｜30万円以上は申告が必要？",
   description: "着物を売ったときの税金について解説。30万円以上の買取で確定申告は必要？譲渡所得の計算方法、生活用動産の非課税ルール、確定申告が必要なケースをわかりやすく説明します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/tax-guide/" },
-  openGraph: { title: "着物買取の確定申告・税金ガイド｜30万円以上は申告が必要？", description: "着物を売った時の税金・確定申告について解説。", url: "https://kimonokaitori-biyori.com/articles/tax-guide/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物買取の確定申告・税金ガイド｜30万円以上は申告が必要？", description: "着物を売った時の税金・確定申告について解説。", url: "https://kimonokaitori-biyori.com/articles/tax-guide/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [
@@ -151,6 +152,7 @@ export default function TaxGuidePage() {
         <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">ほとんどの着物は非課税で売却できます。まずは無料査定でお手持ちの着物の価値を確認してみましょう。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
+      <ThemeArticles current="/articles/tax-guide/" />
     </>
   );
 }

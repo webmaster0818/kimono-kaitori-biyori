@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ヒカカクで着物を売る｜一括査定の使い方と口コミ・評判",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/hikakaku/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ヒカカクで着物を売る｜一括査定の使い方と口コミ・評判",
     description:
       "ヒカカク！を使った着物の一括査定を徹底検証。最大20社一括査定の口コミ・評判を正直にレビュー。",
@@ -876,6 +877,7 @@ export default function HikakakuReviewPage() {
       </article>
 
       <SoubaNote />
+      <ThemeArticles current="/reviews/hikakaku/" />
     </>
   );
 }

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "【2026年最新】村山大島紬の買取相場｜本場大島紬との違いと実売データで見る正直な価値",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/murayama-oshima/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】村山大島紬の買取相場｜本場大島紬との違いと実売データで見る正直な価値",
     description:
       "村山大島紬の買取相場と高く売る方法。板締め染色の伝統的工芸品。本場大島紬との違いと実売データを正直に解説。",
@@ -781,6 +782,7 @@ export default function MurayamaOshimaPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/murayama-oshima/" />
     </>
   );
 }

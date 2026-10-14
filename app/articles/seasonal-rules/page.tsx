@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/seasonal-rules/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物の季節ごとの着分けルール｜袷・単衣・薄物の時期",
     description:
       "袷・単衣・薄物の着分け時期と素材の違いを徹底解説。季節に合った着物選びの基本。",

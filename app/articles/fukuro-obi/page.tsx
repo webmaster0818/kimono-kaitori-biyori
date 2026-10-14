@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "【2026年最新】袋帯の買取相場｜種類・織りと高く売るコツ",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/fukuro-obi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】袋帯の買取相場｜種類・織りと高く売るコツ",
     description:
       "袋帯の買取相場と高く売るコツを解説。織りの種類・証紙・作家など価値を決めるポイント、公開オークションの実売データも。",
@@ -654,6 +655,7 @@ export default function FukuroObiPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/fukuro-obi/" />
     </>
   );
 }

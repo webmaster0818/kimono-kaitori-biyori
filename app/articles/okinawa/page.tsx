@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/okinawa/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】沖縄の着物買取おすすめ5選｜紅型・芭蕉布・宮古上布を高く売る",
     description:
       "沖縄県で着物を高く売るためのおすすめ買取業者5選。琉球紅型・芭蕉布・宮古上布など沖縄の染織品の買取相場も解説。",

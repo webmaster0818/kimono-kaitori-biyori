@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/ibaraki/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】茨城の着物買取おすすめ5選｜本場結城紬を高く売る",
     description:
       "茨城県で着物を高く売るためのおすすめ買取業者5選。本場結城紬・石下紬など地元織物の買取相場も解説。",

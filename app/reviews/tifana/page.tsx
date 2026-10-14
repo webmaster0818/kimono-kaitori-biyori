@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ティファナの着物買取｜総合リサイクル店の実力を検証",
   description:
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/tifana/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ティファナの着物買取｜総合リサイクル店の実力を検証",
     description:
       "ティファナの着物買取サービスを徹底検証。総合リサイクルショップの着物買取を口コミ・評判とともにレビュー。",
@@ -878,6 +879,7 @@ export default function TifanaReviewPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/reviews/tifana/" />
     </>
   );
 }

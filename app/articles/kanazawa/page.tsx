@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kanazawa/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 金沢のおすすめ業者5選｜加賀友禅に強い石川県の業者",
     description:
       "金沢・石川県で着物を売るならどこがおすすめ？加賀友禅に強い着物買取業者5選を徹底比較。出張買取・宅配対応の業者を口コミ・評判とともにご紹介します。",

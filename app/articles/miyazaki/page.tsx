@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/miyazaki/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】宮崎の着物買取おすすめ5選｜本場大島紬（都城）を高く売る",
     description:
       "宮崎県で着物を高く売るためのおすすめ買取業者5選。本場大島紬（都城）など地元織物の買取相場も解説。",

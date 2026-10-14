@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】着物の出張買取おすすめ3選｜無料出張・即日現金化対応",
     description:
       "着物の出張買取おすすめ3社を比較。自宅で完結する売り方を徹底ガイドします。",

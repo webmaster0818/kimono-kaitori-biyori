@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "【2026年最新】訪問着の買取相場｜格・種類と高く売るコツ",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/houmongi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】訪問着の買取相場｜格・種類と高く売るコツ",
     description:
       "訪問着の買取相場と価値を左右するポイント、高く売るコツを解説。公開オークションの実売データも掲載。",
@@ -656,6 +657,7 @@ export default function HoumongiPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/houmongi/" />
     </>
   );
 }

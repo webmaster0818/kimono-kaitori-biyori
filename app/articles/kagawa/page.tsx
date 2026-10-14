@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kagawa/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】香川の着物買取おすすめ5選｜保多織を高く売る",
     description:
       "香川県で着物を高く売るためのおすすめ買取業者5選。保多織など地元織物の買取相場も解説。",

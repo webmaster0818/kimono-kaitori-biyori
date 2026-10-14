@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/echigo-jofu/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】越後上布の買取相場｜重要無形文化財・証紙の見方と高く売るコツ",
     description:
       "越後上布の買取相場と高く売る方法を解説。新潟・魚沼の最高級麻織物、証紙と状態が査定の鍵。",

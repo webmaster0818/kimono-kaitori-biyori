@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/yamanashi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】山梨の着物買取おすすめ5選｜甲斐絹を高く売る",
     description:
       "山梨県で着物を高く売るためのおすすめ買取業者5選。甲斐絹（郡内織）など地元織物の買取相場も解説。",

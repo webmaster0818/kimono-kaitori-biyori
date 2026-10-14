@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "結城紬の買取相場と高く売るコツ【重要無形文化財の価値】",
   description:
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/yuki-tsumugi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "結城紬の買取相場と高く売るコツ【重要無形文化財の価値】",
     description:
       "結城紬の亀甲別買取相場と高く売るコツを解説。200亀甲以上の希少品は超高額査定も。",
@@ -1276,6 +1277,7 @@ export default function YukiTsumugiPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/yuki-tsumugi/" />
     </>
   );
 }

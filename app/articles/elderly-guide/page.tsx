@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/elderly-guide/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 高齢者向けガイド｜80代の祖母でも安心な業者の選び方",
     description:
       "高齢者が安心して着物買取を利用するための業者選びと注意点。出張買取・女性査定員対応も解説。",

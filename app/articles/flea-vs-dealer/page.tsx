@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/flea-vs-dealer/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物はフリマと買取業者どっちが高く売れる？メリット・デメリット比較",
     description: "フリマアプリと買取業者の着物売却方法を徹底比較。手数料、手間、売れやすさの違いを解説。",
     url: "https://kimonokaitori-biyori.com/articles/flea-vs-dealer/",

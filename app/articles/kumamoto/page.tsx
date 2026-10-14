@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kumamoto/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】熊本の着物買取おすすめ5選｜天草更紗を高く売る",
     description:
       "熊本県で着物を高く売るためのおすすめ買取業者5選。天草更紗・肥後木綿など地元織物の買取相場も解説。",

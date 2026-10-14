@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/isesaki-meisen/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】伊勢崎銘仙の買取相場｜アンティーク銘仙の需要と実売データ",
     description:
       "伊勢崎銘仙の買取相場と高く売る方法。「伊勢崎絣」として国の伝統的工芸品。アンティーク需要と実売データを解説。",

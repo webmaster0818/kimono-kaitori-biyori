@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/no-certificate/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "証紙なしの着物は売れる？買取価格への影響と対策",
     description:
       "証紙なしの着物は売れるのか徹底解説。査定額への影響と対策をガイドします。",

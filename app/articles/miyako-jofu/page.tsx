@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/miyako-jofu/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】宮古上布の買取相場｜苧麻と絣の特徴と高く売るコツ",
     description:
       "宮古上布の買取相場と高く売る方法を解説。沖縄・宮古島の最高級麻織物、証紙と状態が査定の鍵。",

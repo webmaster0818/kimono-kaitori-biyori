@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/bashofu/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】芭蕉布の買取相場｜喜如嘉の芭蕉布・人間国宝 平良敏子の作品は別格",
     description:
       "芭蕉布（沖縄・大宜味村喜如嘉など）の買取相場と高く売る方法。喜如嘉の芭蕉布・人間国宝 平良敏子に関わる作品で価値が変わる点を実売データとあわせて解説。",

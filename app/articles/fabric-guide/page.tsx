@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "着物の素材（正絹・化繊・ウール・木綿・麻）の見分け方を徹底解説。素材ごとの特徴、手触り、燃焼テスト、買取価格の違いをまとめました。素材によって買取価格が大きく変わる理由もわかります。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/fabric-guide/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物の素材の見分け方｜正絹・化繊・ウール・木綿の特徴と買取価格",
     description: "着物の素材の見分け方と買取価格の関係を解説。正絹・化繊・ウール・木綿の特徴も。",
     url: "https://kimonokaitori-biyori.com/articles/fabric-guide/",

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/free-appraisal/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物の無料査定おすすめ5選｜査定だけでもOKな業者",
     description:
       "着物の無料査定ができるおすすめ業者5選。査定だけでもOK・キャンセル無料の業者を厳選。",

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/yaeyama-jofu/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】八重山上布の買取相場｜白地の苧麻絣・出品僅少の希少織物を実売データで解説",
     description:
       "八重山上布（沖縄・石垣市／竹富町）の買取相場と高く売る方法。実売データと証紙・状態による評価の変わり方を解説。",

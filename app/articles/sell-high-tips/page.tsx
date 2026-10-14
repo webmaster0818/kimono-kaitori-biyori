@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/sell-high-tips/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物を高く売るための7つのコツ｜査定額アップの秘訣",
     description:
       "着物を高く売るための7つのコツを徹底解説。査定額アップの秘訣をお伝えします。",

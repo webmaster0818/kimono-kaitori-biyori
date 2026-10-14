@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取 横浜のおすすめ業者5選｜神奈川エリアの出張対応",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/yokohama/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 横浜のおすすめ業者5選｜神奈川エリアの出張対応",
     description:
       "横浜・神奈川で着物を売るならどこがおすすめ？出張買取対応の着物買取業者5選を徹底比較。口コミ・評判・買取実績をまとめました。",
@@ -649,6 +650,7 @@ export default function YokohamaPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/yokohama/" />
     </>
   );
 }

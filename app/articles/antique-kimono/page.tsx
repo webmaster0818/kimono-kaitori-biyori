@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/antique-kimono/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "アンティーク着物の買取相場｜大正・昭和の着物に価値はある？",
     description:

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "【2026年最新】牛首紬の買取相場｜石川県白山市｜釘抜紬・玉繭と証紙の見方",
   description:
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/ushikubi-tsumugi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】牛首紬の買取相場｜石川県白山市｜釘抜紬・玉繭と証紙の見方",
     description:
       "牛首紬の買取相場と高く売る方法を解説。証紙の有無が査定を左右します。",
@@ -765,6 +766,7 @@ export default function UshikubiTsumugiPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/ushikubi-tsumugi/" />
     </>
   );
 }

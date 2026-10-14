@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kagoshima/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】鹿児島の着物買取おすすめ5選｜本場大島紬を高く売る",
     description:
       "鹿児島県で着物を高く売るためのおすすめ買取業者5選。本場大島紬・薩摩絣など地元織物の買取相場も解説。",

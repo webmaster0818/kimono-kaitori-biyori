@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "【2026年最新】さいたま市の着物買取おすすめ5選｜無料出張・持込・宅配対応",
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/saitama-city/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】さいたま市の着物買取おすすめ5選｜無料出張・持込・宅配対応",
     description:
       "さいたま市で着物を高く売るためのおすすめ買取業者5選。市内の対応エリアや高く売るコツも解説。",
@@ -238,6 +239,7 @@ export default function SaitamaCityPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/saitama-city/" />
     </>
   );
 }

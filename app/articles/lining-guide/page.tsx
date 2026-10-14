@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "着物の裏地である八掛（はっかけ）と胴裏（どううら）の役割・素材・色選びを解説。裏地の状態が買取査定にどう影響するか、裏地交換の費用相場、購入・売却時のチェックポイントまで詳しく紹介します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/lining-guide/" },
-  openGraph: { title: "着物の裏地（八掛・胴裏）の素材と査定への影響", description: "着物の裏地の種類と素材、買取査定への影響を解説。", url: "https://kimonokaitori-biyori.com/articles/lining-guide/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物の裏地（八掛・胴裏）の素材と査定への影響", description: "着物の裏地の種類と素材、買取査定への影響を解説。", url: "https://kimonokaitori-biyori.com/articles/lining-guide/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

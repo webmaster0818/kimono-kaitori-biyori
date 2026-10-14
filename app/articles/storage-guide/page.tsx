@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "着物のたたみ方・保管方法ガイド｜正しい保管で価値を守る",
   description: "着物の正しいたたみ方と保管方法を解説。たとう紙・桐たんす・防湿剤の使い方、虫干しのタイミング、カビやシミを防ぐコツを紹介。正しい保管が買取価格を大きく左右します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/storage-guide/" },
-  openGraph: { title: "着物のたたみ方・保管方法ガイド｜正しい保管で価値を守る", description: "着物の正しい保管方法とたたみ方を解説。", url: "https://kimonokaitori-biyori.com/articles/storage-guide/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物のたたみ方・保管方法ガイド｜正しい保管で価値を守る", description: "着物の正しい保管方法とたたみ方を解説。", url: "https://kimonokaitori-biyori.com/articles/storage-guide/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

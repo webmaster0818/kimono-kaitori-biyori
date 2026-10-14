@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "人間国宝（重要無形文化財保持者）の着物作家一覧と買取相場を徹底解説。友禅・紬・型染め・織りなど分野別に代表的な人間国宝を紹介。作品の見分け方、証紙・落款の確認方法、高額買取のポイントまで詳しく解説します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/living-national-treasure/" },
-  openGraph: { title: "人間国宝の着物一覧｜作家別の買取相場と見分け方", description: "人間国宝の着物作家一覧と買取相場。作品の見分け方も解説。", url: "https://kimonokaitori-biyori.com/articles/living-national-treasure/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "人間国宝の着物一覧｜作家別の買取相場と見分け方", description: "人間国宝の着物作家一覧と買取相場。作品の見分け方も解説。", url: "https://kimonokaitori-biyori.com/articles/living-national-treasure/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

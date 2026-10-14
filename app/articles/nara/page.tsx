@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/nara/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】奈良の着物買取おすすめ5選｜奈良晒を高く売る",
     description:
       "奈良県で着物を高く売るためのおすすめ買取業者5選。奈良晒など地元織物の買取相場も解説。",

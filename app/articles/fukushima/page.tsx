@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/fukushima/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】福島の着物買取おすすめ5選｜会津木綿・からむし織を高く売る",
     description:
       "福島県で着物を高く売るためのおすすめ買取業者5選。会津木綿・からむし織など地元織物の買取相場も解説。",

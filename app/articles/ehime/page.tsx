@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/ehime/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】愛媛の着物買取おすすめ5選｜伊予絣を高く売る",
     description:
       "愛媛県で着物を高く売るためのおすすめ買取業者5選。伊予絣など地元織物の買取相場も解説。",

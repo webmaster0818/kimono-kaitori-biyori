@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "紋付き着物の買取相場｜五つ紋・三つ紋・一つ紋の価値の違い",
   description: "紋付き着物の買取相場を紋の数別に解説。五つ紋・三つ紋・一つ紋の格と買取価格の違い、家紋入りでも売れるのか、紋の種類（染め抜き・縫い紋・貼り紋）による評価の違いをまとめました。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/montsuki/" },
-  openGraph: { title: "紋付き着物の買取相場｜五つ紋・三つ紋・一つ紋の価値の違い", description: "紋付き着物の買取相場を紋の数別に解説。", url: "https://kimonokaitori-biyori.com/articles/montsuki/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "紋付き着物の買取相場｜五つ紋・三つ紋・一つ紋の価値の違い", description: "紋付き着物の買取相場を紋の数別に解説。", url: "https://kimonokaitori-biyori.com/articles/montsuki/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

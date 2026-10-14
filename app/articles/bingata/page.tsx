@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/bingata/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】琉球紅型の買取相場｜人間国宝・城間家の作品と証紙で価値が変わる",
     description:
       "琉球紅型（沖縄・びんがた）の買取相場と高く売る方法。作家物・証紙の有無で価値が変わる点を解説。",

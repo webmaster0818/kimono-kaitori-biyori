@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/kyo-yuzen/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】京友禅の買取相場｜金彩・刺繍の華やかさ｜人間国宝・証紙で価格が変わる",
     description:
       "京友禅の買取相場と高く売る方法を解説。証紙・人間国宝作品の有無が査定を左右します。",

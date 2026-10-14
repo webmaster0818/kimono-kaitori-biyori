@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/fukui/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】福井の着物買取おすすめ5選｜羽二重・越前墨流しを高く売る",
     description:
       "福井県で着物を高く売るためのおすすめ買取業者5選。福井羽二重・越前墨流しなど地元織物の買取相場も解説。",

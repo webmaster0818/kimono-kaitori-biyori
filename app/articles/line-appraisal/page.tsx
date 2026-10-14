@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "【2026年最新】着物のLINE査定おすすめ3選｜写真送るだけで概算買取額",
   description:
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/line-appraisal/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】着物のLINE査定おすすめ3選｜写真送るだけで概算買取額",
     description: "スマホで着物の写真を送るだけで買取額がわかるLINE査定。おすすめ業者と活用法を解説。",
     url: "https://kimonokaitori-biyori.com/articles/line-appraisal/",
@@ -442,6 +443,7 @@ export default function LineAppraisalPage() {
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>
       </section>
+      <ThemeArticles current="/articles/line-appraisal/" />
     </>
   );
 }

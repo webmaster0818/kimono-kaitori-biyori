@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/nishijin-ori/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】西陣織の買取相場｜帯の証紙の見方と高く売るコツ",
     description:
       "西陣織の買取相場と高く売る方法を解説。京都・西陣の先染め紋織物、証紙が査定の鍵。",

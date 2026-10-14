@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "バイセルの着物買取｜口コミ・評判・買取実績を徹底検証",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/buysell/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "バイセルの着物買取｜口コミ・評判・買取実績を徹底検証",
     description:
       "バイセルの着物買取サービスを徹底検証。累計買取実績3,700万点超の実力と口コミ・評判を正直にレビュー。",
@@ -1000,6 +1001,7 @@ export default function BuysellReviewPage() {
       </article>
 
       <SoubaNote />
+      <ThemeArticles current="/reviews/buysell/" />
     </>
   );
 }

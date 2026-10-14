@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "着物のクリーニングは売る前にすべき？査定額への影響を解説",
   description: "着物を売る前にクリーニングすべきかどうかを徹底解説。クリーニング費用と査定額アップの関係、クリーニングが逆効果になるケース、売る前にすべき簡単なお手入れ方法を紹介します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/cleaning-before-selling/" },
-  openGraph: { title: "着物のクリーニングは売る前にすべき？査定額への影響を解説", description: "着物を売る前のクリーニングは必要？費用と査定額の関係を解説。", url: "https://kimonokaitori-biyori.com/articles/cleaning-before-selling/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物のクリーニングは売る前にすべき？査定額への影響を解説", description: "着物を売る前のクリーニングは必要？費用と査定額の関係を解説。", url: "https://kimonokaitori-biyori.com/articles/cleaning-before-selling/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

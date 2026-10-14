@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/kaga-yuzen/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】加賀友禅の買取相場｜作家物は100万円超｜証紙・落款で価格倍増",
     description:
       "加賀友禅の作家別買取価格表と高く売る方法を解説。人間国宝の作品は超高額査定。",

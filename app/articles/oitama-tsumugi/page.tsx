@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/oitama-tsumugi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】置賜紬の買取相場｜白鷹御召・長井紬を含む総称と証紙の見方",
     description:
       "置賜紬の買取相場と高く売る方法を実売データ付きで解説。白鷹御召・長井紬など地区ごとの織物と証紙の見方を整理します。",

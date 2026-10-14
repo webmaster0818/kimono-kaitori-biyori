@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/houmongi-tomesode/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】訪問着・留袖の買取相場｜高く売れる条件と相場価格",
     description:
       "訪問着・色留袖・黒留袖の買取相場と、加賀友禅・京友禅など高く売れる条件を解説。",

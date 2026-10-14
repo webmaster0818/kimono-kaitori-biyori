@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/auction-guide/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物のネットオークション出品ガイド｜ヤフオク・メルカリの相場と売り方",
     description: "ヤフオク・メルカリでの着物の売り方と相場。買取業者との比較も解説。",
     url: "https://kimonokaitori-biyori.com/articles/auction-guide/",

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/tanmono/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "反物の買取相場｜着物より高く売れるケースも？種類別に解説",
     description:
       "反物の種類別買取相場と、着物より反物が高く売れるケースを解説。",

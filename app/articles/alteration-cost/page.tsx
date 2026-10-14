@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "着物の仕立て直し（サイズ直し・洗い張り・裏地交換など）の費用と期間を作業内容別に解説。売却前に仕立て直しをすべきかの判断基準や、仕立て直しで価値が上がるケースと上がらないケースも紹介します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/alteration-cost/" },
-  openGraph: { title: "着物の仕立て直し費用と期間｜サイズ直しで価値は上がる？", description: "着物の仕立て直し費用・期間・売却前の判断基準を解説。", url: "https://kimonokaitori-biyori.com/articles/alteration-cost/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物の仕立て直し費用と期間｜サイズ直しで価値は上がる？", description: "着物の仕立て直し費用・期間・売却前の判断基準を解説。", url: "https://kimonokaitori-biyori.com/articles/alteration-cost/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

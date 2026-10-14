@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "小紋・付け下げの買取相場｜江戸小紋の三役は高額査定",
   description:
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/komon-tsukesage/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "小紋・付け下げの買取相場｜江戸小紋の三役は高額査定",
     description:
       "小紋・付け下げの種類別買取相場と高く売るコツを解説。江戸小紋の三役は特に高額。",
@@ -923,6 +924,7 @@ export default function KomonTsukesagePage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/komon-tsukesage/" />
     </>
   );
 }

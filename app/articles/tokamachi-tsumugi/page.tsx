@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/tokamachi-tsumugi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】十日町紬の買取相場｜十日町絣との関係と証紙の見方",
     description:
       "十日町紬の買取相場と高く売る方法を実売データ付きで解説。十日町絣・塩沢紬との違いも整理します。",

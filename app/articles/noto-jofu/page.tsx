@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/noto-jofu/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】能登上布の買取相場｜石川県指定無形文化財・本麻手織と絣で価値が変わる",
     description:
       "能登上布（石川県中能登町など）の買取相場と高く売る方法。実売データと証紙・状態による評価の変わり方を解説。",

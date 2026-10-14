@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "着物買取で損しないための10の重要知識を解説。買取相場の調べ方、悪質業者の見分け方、高額査定を引き出すテクニックなど、売る前に知っておくべきポイントをまとめました。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/avoid-loss/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取で損しないための10の知識",
     description: "着物買取で損しないための重要知識を解説。高額査定を引き出すポイントをまとめました。",
     url: "https://kimonokaitori-biyori.com/articles/avoid-loss/",

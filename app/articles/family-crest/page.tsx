@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "着物に入れる家紋（紋）の種類と意味を解説。五つ紋・三つ紋・一つ紋の格式の違い、染め抜き紋・縫い紋・貼り紋の技法の違い、紋の有無が買取価格に与える影響まで詳しく紹介します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/family-crest/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物の家紋の種類と意味｜紋の有無で価値はどう変わる？",
     description: "着物の家紋の種類・格式・買取相場への影響を徹底解説。",
     url: "https://kimonokaitori-biyori.com/articles/family-crest/",

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "着物の染み抜き費用を種類別に徹底解説。汗ジミ・飲食シミ・カビジミなど汚れの種類ごとの費用相場と対処法、自宅でできる応急処置、そして売却前に染み抜きすべきかの判断基準まで詳しく紹介します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/stain-removal-cost/" },
-  openGraph: { title: "着物の染み抜き費用と方法｜売る前にやるべき？", description: "着物の染み抜き費用相場と売却前にやるべきかの判断基準を解説。", url: "https://kimonokaitori-biyori.com/articles/stain-removal-cost/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "着物の染み抜き費用と方法｜売る前にやるべき？", description: "着物の染み抜き費用相場と売却前にやるべきかの判断基準を解説。", url: "https://kimonokaitori-biyori.com/articles/stain-removal-cost/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

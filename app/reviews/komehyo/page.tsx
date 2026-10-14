@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "コメ兵の着物買取｜ブランド買取大手の実力を検証",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/komehyo/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "コメ兵の着物買取｜ブランド買取大手の実力を検証",
     description:
       "コメ兵の着物買取を徹底検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを正直にレビュー。",
@@ -351,6 +352,7 @@ export default function KomehyoReviewPage() {
       </article>
 
       <SoubaNote />
+      <ThemeArticles current="/reviews/komehyo/" />
     </>
   );
 }

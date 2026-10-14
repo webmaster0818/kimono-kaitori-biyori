@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/bulk-appraisal/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物の一括査定おすすめ｜複数業者の見積もりで最高額を狙う方法",
     description:
       "着物を最高額で売るための一括査定サービスの活用法を解説。複数業者の比較で損をしない売り方。",

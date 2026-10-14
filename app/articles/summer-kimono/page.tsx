@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "夏着物（絽・紗・麻・上布）の種類と買取相場を徹底解説。宮古上布・越後上布など高級夏着物の価値、売り時のベストシーズン、高く売るコツをまとめました。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/summer-kimono/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "夏着物（絽・紗・麻）の買取相場｜シーズンと売り時",
     description: "夏着物の種類と買取相場を解説。絽・紗・麻の特徴と売り時のベストシーズンを紹介。",
     url: "https://kimonokaitori-biyori.com/articles/summer-kimono/",

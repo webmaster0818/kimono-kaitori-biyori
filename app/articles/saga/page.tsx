@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/saga/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】佐賀の着物買取おすすめ5選｜佐賀錦を高く売る",
     description:
       "佐賀県で着物を高く売るためのおすすめ買取業者5選。佐賀錦など地元織物・帯の買取相場も解説。",

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "着物を店舗に持ち込んで売りたい方向けの総合ガイド。持ち込み買取対応のおすすめ業者5選の比較に加え、やり方・当日の流れ・予約の要否・必要な持ち物・運び方のコツ、店舗/出張/宅配の使い分けまで解説。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクを比較。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/tenpo-mochikomi/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取の店舗持ち込みガイド｜おすすめ業者5選とやり方・当日の流れ【2026年】",
     description: "着物の店舗持ち込み買取の総合ガイド。おすすめ業者5選と持ち込みのやり方・当日の流れ・必要な持ち物も解説。",
     url: "https://kimonokaitori-biyori.com/articles/tenpo-mochikomi/",

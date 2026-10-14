@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/dye-vs-weave/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物の染めと織りの違い｜価値が高いのはどっち？",
     description:
       "染めの着物と織りの着物の違いを解説。格式・買取相場の比較も。",

@@ -3,12 +3,13 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取 夜間・土日対応の業者まとめ｜平日忙しい方向け",
   description:
     "平日忙しい方のために、土日・夜間に着物買取対応できる業者をまとめました。土日の出張買取・持ち込み買取、夜間対応のオンライン査定など、仕事が忙しい方でも利用できる着物買取サービスを徹底比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの対応状況を解説。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/weekend-night/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 夜間・土日対応の業者まとめ｜平日忙しい方向け",
     description: "土日・夜間に着物買取を利用したい方向け。各社の営業時間・休日対応を比較。",
     url: "https://kimonokaitori-biyori.com/articles/weekend-night/",
@@ -517,6 +518,7 @@ export default function WeekendNightPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/weekend-night/" />
     </>
   );
 }

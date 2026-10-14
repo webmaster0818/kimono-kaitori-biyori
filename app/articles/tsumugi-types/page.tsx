@@ -3,12 +3,13 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "紬の種類と買取相場まとめ｜大島紬・結城紬・塩沢紬・牛首紬",
   description:
     "紬の種類と買取相場を徹底解説。大島紬・結城紬・塩沢紬・牛首紬・久米島紬など主要な紬の特徴・産地・買取価格をまとめました。証紙の見分け方も紹介。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/tsumugi-types/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "紬の種類と買取相場まとめ｜大島紬・結城紬・塩沢紬・牛首紬",
     description: "紬の種類と買取相場を徹底解説。大島紬・結城紬・塩沢紬・牛首紬の特徴と買取価格。",
     url: "https://kimonokaitori-biyori.com/articles/tsumugi-types/",
@@ -349,6 +350,7 @@ export default function TsumugiTypesPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/tsumugi-types/" />
     </>
   );
 }

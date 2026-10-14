@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/remake/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物リメイク業者おすすめ｜バッグ・ドレスに生まれ変わる",
     description:
       "着物リメイクのおすすめ業者と活用法。バッグ・ドレスなどリメイクアイデアと費用相場を解説。",

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/appraisal-criteria/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【査定員直伝】着物買取の査定基準10項目｜評価ポイント完全解説",
     description:
       "着物買取の査定基準を徹底解説。査定員が見る7つのポイントと高額査定のコツをガイドします。",

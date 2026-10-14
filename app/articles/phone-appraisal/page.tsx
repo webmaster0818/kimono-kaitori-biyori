@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取 電話査定対応の業者3選｜電話で概算がわかる",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/phone-appraisal/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 電話査定対応の業者3選｜電話で概算がわかる",
     description:
       "電話1本で着物の概算買取額がわかる。電話査定対応業者3社と利用の流れを解説。",
@@ -666,6 +667,7 @@ export default function PhoneAppraisalPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/phone-appraisal/" />
     </>
   );
 }

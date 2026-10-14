@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/edo-komon/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】江戸小紋の買取相場｜三役・五役の柄と格・高く売るコツ",
     description:
       "江戸小紋の買取相場と高く売る方法を解説。東京の極細密な型染め、柄の格と作家が査定の鍵。",

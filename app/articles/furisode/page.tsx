@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "振袖の買取相場｜成人式後に売る方法と高価買取のコツ",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/furisode/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "振袖の買取相場｜成人式後に売る方法と高価買取のコツ",
     description:
       "振袖の買取相場と成人式後に高く売る方法を解説。ブランド品・作家物の価格目安も。",
@@ -916,6 +917,7 @@ export default function FurisodePage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/furisode/" />
     </>
   );
 }

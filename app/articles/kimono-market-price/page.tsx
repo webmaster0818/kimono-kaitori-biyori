@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kimono-market-price/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取の相場一覧【2026年最新】種類別の買取価格まとめ",
     description:
       "着物買取の相場を種類別に徹底解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",

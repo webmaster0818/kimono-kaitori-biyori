@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kurume-gasuri/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】久留米絣の買取相場｜重要無形文化財・藍染の木綿絣",
     description:
       "久留米絣の買取相場と高く売る方法を解説。福岡・久留米の藍染木綿絣、証紙が査定の鍵。",

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "当サイトが掲載する着物の「実売データ（公開オークションの落札相場）」の集め方・出典・更新方針を公開しています。実売価格と買取価格の違い、査定額を保証しない理由まで、透明性をもって解説します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/souba-method/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "当サイトの相場データ調査方法｜実売（落札）データの集め方と注意点",
     description:
       "着物の実売データ（公開オークションの落札相場）の集め方・出典・更新方針・注意点を公開。",

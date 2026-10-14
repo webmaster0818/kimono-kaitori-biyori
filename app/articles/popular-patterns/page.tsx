@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】着物の人気柄ランキング｜昭和レトロ・古典柄・モダン柄の相場",
   description: "着物の年代別人気柄を徹底解説。昭和レトロ・古典柄・モダン柄の特徴と買取相場、中古市場で人気のデザインをまとめました。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/popular-patterns/" },
-  openGraph: { title: "【2026年最新】着物の人気柄ランキング｜昭和レトロ・古典柄・モダン柄の相場", description: "着物の年代別人気柄を解説。昭和レトロ・古典柄・モダン柄の特徴と買取相場。", url: "https://kimonokaitori-biyori.com/articles/popular-patterns/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
+  openGraph: { images: ["/og-default.png"], title: "【2026年最新】着物の人気柄ランキング｜昭和レトロ・古典柄・モダン柄の相場", description: "着物の年代別人気柄を解説。昭和レトロ・古典柄・モダン柄の特徴と買取相場。", url: "https://kimonokaitori-biyori.com/articles/popular-patterns/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [

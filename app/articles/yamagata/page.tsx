@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/yamagata/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】山形の着物買取おすすめ5選｜置賜紬・米沢織を高く売る",
     description:
       "山形県で着物を高く売るためのおすすめ買取業者5選。置賜紬・米沢織・紅花染など地元織物の買取相場も解説。",

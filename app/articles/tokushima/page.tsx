@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/tokushima/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】徳島の着物買取おすすめ5選｜阿波しじら織・阿波藍を高く売る",
     description:
       "徳島県で着物を高く売るためのおすすめ買取業者5選。阿波しじら織・阿波藍など地元織物の買取相場も解説。",

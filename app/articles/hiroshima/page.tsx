@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/hiroshima/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 広島のおすすめ業者5選｜中国地方の出張・宅配対応",
     description:
       "広島で着物を売るならどこがおすすめ？中国地方の着物買取業者5選を徹底比較。出張買取・宅配買取に対応した業者の口コミ・評判・買取実績をまとめました。",

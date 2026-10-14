@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取 仙台のおすすめ業者5選｜宮城エリアの出張・宅配対応",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/sendai/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 仙台のおすすめ業者5選｜宮城エリアの出張・宅配対応",
     description:
       "仙台・宮城で着物を売るならどこがおすすめ？出張買取・宅配買取に対応した着物買取業者5選を徹底比較。口コミ・評判・買取実績をまとめました。",
@@ -820,6 +821,7 @@ export default function SendaiPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/sendai/" />
     </>
   );
 }

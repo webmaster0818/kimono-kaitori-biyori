@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "帯の買取相場｜袋帯・名古屋帯・丸帯の値段と高く売る方法",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/obi-price/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "帯の買取相場｜袋帯・名古屋帯・丸帯の値段と高く売る方法",
     description:
       "袋帯・名古屋帯・丸帯の買取相場と高く売る方法を解説。西陣織・博多織の高額買取情報も。",
@@ -879,6 +880,7 @@ export default function ObiPricePage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/obi-price/" />
     </>
   );
 }

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/awa-aizome/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】阿波藍染の買取相場｜本藍染の見分け方と証紙で価値が変わる",
     description:
       "阿波藍染（徳島・阿波藍）の買取相場と高く売る方法。本藍染と化学染料の違い、証紙の見方を解説。",

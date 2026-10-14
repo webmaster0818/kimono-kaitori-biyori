@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/shiozawa-tsumugi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】塩沢紬・本塩沢の買取相場｜新潟県南魚沼｜蚊絣と証紙の見方",
     description:
       "塩沢紬・本塩沢の買取相場と高く売る方法を解説。証紙の有無が査定を左右します。",

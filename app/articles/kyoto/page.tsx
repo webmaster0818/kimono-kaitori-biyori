@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kyoto/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 京都のおすすめ業者5選｜西陣織・京友禅の本場",
     description:
       "京都で着物を売るならどこがおすすめ？西陣織・京友禅の本場ならではの着物買取業者5選を徹底比較。出張買取・持ち込み対応の業者を口コミ・評判とともにご紹介します。",

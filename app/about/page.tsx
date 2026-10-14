@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/about/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "運営者情報 | 着物の買取びより",
     description:
       "着物の買取びよりの運営者情報・編集方針・免責事項についてご説明します。",

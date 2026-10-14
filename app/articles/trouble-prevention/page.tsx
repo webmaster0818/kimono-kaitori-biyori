@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/trouble-prevention/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取トラブル事例5選と回避法｜押し買い・安値買い叩きに注意",
     description:
       "着物買取でよくあるトラブル5選と回避法を解説。押し買い・安値買い叩きから身を守る方法をガイドします。",

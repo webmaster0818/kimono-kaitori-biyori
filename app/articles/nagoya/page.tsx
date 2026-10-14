@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "着物買取 名古屋のおすすめ業者5選｜愛知県の持ち込み・出張対応",
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/nagoya/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 名古屋のおすすめ業者5選｜愛知県の持ち込み・出張対応",
     description:
       "名古屋・愛知で着物を売るならどこがおすすめ？有松絞りなど地元着物も高価買取。持ち込み・出張対応の着物買取業者5選を徹底比較します。",
@@ -626,6 +627,7 @@ export default function NagoyaPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/nagoya/" />
     </>
   );
 }

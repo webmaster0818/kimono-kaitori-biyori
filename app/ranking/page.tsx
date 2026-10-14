@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/ranking/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "【2026年最新】着物買取おすすめ5選を徹底比較！口コミ・評判・買取相場まで",
     description:

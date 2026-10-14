@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kumejima-tsumugi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】久米島紬の買取相場｜重要無形文化財・泥染めと証紙で価値が変わる",
     description:
       "久米島紬（沖縄県久米島町）の買取相場と高く売る方法。重要無形文化財の一貫制作・泥染め・証紙の有無で価値が変わる点を実売データとあわせて解説。",

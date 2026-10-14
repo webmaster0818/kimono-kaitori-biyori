@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物の写真査定のやり方ガイド｜撮影のコツと査定精度",
   description:
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/photo-appraisal/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物の写真査定のやり方ガイド｜撮影のコツと査定精度",
     description: "着物の写真査定のやり方と撮影のコツを解説。査定精度を上げるポイントも紹介。",
     url: "https://kimonokaitori-biyori.com/articles/photo-appraisal/",
@@ -429,6 +430,7 @@ export default function PhotoAppraisalPage() {
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>
       </section>
+      <ThemeArticles current="/articles/photo-appraisal/" />
     </>
   );
 }

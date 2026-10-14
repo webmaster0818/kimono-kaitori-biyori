@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/tensan-tsumugi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "【2026年最新】天蚕紬の買取相場｜繊維のダイヤモンド・希少な天蚕糸の価値",
     description:

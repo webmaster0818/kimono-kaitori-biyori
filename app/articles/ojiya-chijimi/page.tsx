@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/ojiya-chijimi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "【2026年最新】小千谷縮の買取相場｜重要無形文化財の麻織物と高く売るコツ",
     description:

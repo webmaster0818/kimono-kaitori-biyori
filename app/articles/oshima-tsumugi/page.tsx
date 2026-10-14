@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "大島紬の買取相場と高く売るコツ【2026年最新】",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/oshima-tsumugi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "大島紬の買取相場と高く売るコツ【2026年最新】",
     description:
       "大島紬の種類別買取相場と高く売るコツを解説。泥染め・藍大島・白大島の価格比較も。",
@@ -950,6 +951,7 @@ export default function OshimaTsumugiPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/oshima-tsumugi/" />
     </>
   );
 }

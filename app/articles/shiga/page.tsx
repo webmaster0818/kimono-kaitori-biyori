@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/shiga/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】滋賀の着物買取おすすめ5選｜近江上布・秦荘紬を高く売る",
     description:
       "滋賀県で着物を高く売るためのおすすめ買取業者5選。近江上布・秦荘紬など地元織物の買取相場も解説。",

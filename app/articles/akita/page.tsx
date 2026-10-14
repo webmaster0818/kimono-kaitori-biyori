@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/akita/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】秋田の着物買取おすすめ5選｜秋田八丈を高く売る",
     description:
       "秋田県で着物を高く売るためのおすすめ買取業者5選。秋田八丈など地元織物の買取相場も解説。",

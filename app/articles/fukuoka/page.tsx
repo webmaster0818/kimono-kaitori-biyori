@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/fukuoka/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 福岡のおすすめ業者5選｜博多織も高価買取",
     description:
       "福岡で着物を高く売るためのおすすめ買取業者5選。博多織・久留米絣の買取相場も解説。",

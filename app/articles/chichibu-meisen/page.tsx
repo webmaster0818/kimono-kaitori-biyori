@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/chichibu-meisen/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】秩父銘仙の買取相場｜ほぐし捺染の特徴と高く売るコツ",
     description:
       "秩父銘仙の買取相場と高く売る方法を解説。埼玉・秩父の平織絹織物、状態と柄が査定の鍵。",

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/shuri-ori/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】首里織の買取相場｜人間国宝・宮平初子の作品と証紙で価値が変わる",
     description:
       "首里織（沖縄・那覇市首里）の買取相場と高く売る方法。作家物・証紙の有無で価値が変わる点を解説。",

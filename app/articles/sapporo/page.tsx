@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取 札幌のおすすめ業者5選｜北海道の出張・宅配対応",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/sapporo/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 札幌のおすすめ業者5選｜北海道の出張・宅配対応",
     description:
       "札幌・北海道で着物を売るならどこがおすすめ？出張買取・宅配買取に対応した着物買取業者5選を徹底比較。口コミ・評判・買取実績をまとめました。",
@@ -652,6 +653,7 @@ export default function SapporoPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/sapporo/" />
     </>
   );
 }

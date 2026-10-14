@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/honba-kihachijo/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】本場黄八丈の買取相場｜八丈島の草木染｜証紙・作家で価格が変わる",
     description:
       "本場黄八丈の買取相場と高く売る方法を解説。草木染の縞・格子、証紙の有無が査定を左右します。",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ウリエルの着物買取｜出張買取の評判・口コミを検証",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/uriel/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ウリエルの着物買取｜出張買取の評判・口コミを検証",
     description:
       "ウリエルの出張買取専門の着物買取サービスを徹底検証。口コミ・評判・買取実績を正直にレビュー。",
@@ -885,6 +886,7 @@ export default function UrielReviewPage() {
       </article>
 
       <SoubaNote />
+      <ThemeArticles current="/reviews/uriel/" />
     </>
   );
 }

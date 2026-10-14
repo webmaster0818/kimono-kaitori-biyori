@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/chiba/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】千葉の着物買取おすすめ5選｜館山唐桟を高く売る",
     description:
       "千葉県で着物を高く売るためのおすすめ買取業者5選。館山唐桟など地元織物の買取相場も解説。",

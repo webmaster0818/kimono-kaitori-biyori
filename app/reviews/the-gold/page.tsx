@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ザ・ゴールドの着物買取｜口コミ・評判を徹底検証",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/the-gold/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ザ・ゴールドの着物買取｜口コミ・評判を徹底検証",
     description:
       "ザ・ゴールドの着物買取サービスを徹底検証。直営店展開と着物専門査定の実力を正直にレビュー。",
@@ -732,6 +733,7 @@ export default function TheGoldReviewPage() {
       </article>
 
       <SoubaNote />
+      <ThemeArticles current="/reviews/the-gold/" />
     </>
   );
 }

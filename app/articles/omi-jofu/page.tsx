@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/omi-jofu/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】近江上布の買取相場｜国の伝統的工芸品・着物のみの実売データで解説",
     description:
       "近江上布（滋賀県湖東地方）の買取相場と高く売る方法。着物のみに絞った実売データと証紙・状態による評価の変わり方を解説。",

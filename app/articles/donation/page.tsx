@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/donation/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物の寄付ができる場所一覧｜売れない着物の活用法",
     description: "着物を寄付できる団体・施設の一覧と寄付の方法。売れない着物の有効活用法を紹介。",
     url: "https://kimonokaitori-biyori.com/articles/donation/",

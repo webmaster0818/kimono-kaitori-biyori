@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "買取大吉 vs ウリエル 徹底比較｜どちらに売るべき？",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/daikichi-vs-uriel/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "買取大吉 vs ウリエル 徹底比較｜どちらに売るべき？",
     description: "買取大吉とウリエルの着物買取を6つの視点で徹底比較。あなたに合うのはどちら？",
     url: "https://kimonokaitori-biyori.com/articles/daikichi-vs-uriel/",
@@ -267,6 +268,7 @@ export default function DaikichiVsUrielPage() {
       </article>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/daikichi-vs-uriel/" />
     </>
   );
 }

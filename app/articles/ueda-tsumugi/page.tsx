@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/ueda-tsumugi/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】上田紬の買取相場｜信州紬の一つ・縞と格子の丈夫な織物",
     description:
       "上田紬の買取相場と高く売る方法を実売データ付きで解説。信州紬としての位置づけと証紙の見方も整理します。",

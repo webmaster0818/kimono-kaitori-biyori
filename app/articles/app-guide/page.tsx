@@ -3,12 +3,13 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取アプリおすすめ比較｜スマホで完結する売り方ガイド",
   description:
     "着物をスマホアプリで売りたい方向けの完全ガイド。メルカリ・ヤフオク・ラクマなどのフリマアプリと、買取業者のオンライン査定アプリを比較。スマホだけで着物を売る方法、撮影のコツ、手数料比較を解説。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクも紹介。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/app-guide/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取アプリおすすめ比較｜スマホで完結する売り方ガイド",
     description: "スマホで着物を売る方法を完全ガイド。フリマアプリと買取業者アプリの比較も。",
     url: "https://kimonokaitori-biyori.com/articles/app-guide/",
@@ -523,6 +524,7 @@ export default function AppGuidePage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/app-guide/" />
     </>
   );
 }

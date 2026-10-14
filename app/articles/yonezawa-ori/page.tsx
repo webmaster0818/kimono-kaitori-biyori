@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/yonezawa-ori/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】米沢織の買取相場｜置賜紬の証紙の見方と高く売るコツ",
     description:
       "米沢織の買取相場と高く売る方法を解説。山形・米沢の紅花染の先染め織物、証紙が査定の鍵。",

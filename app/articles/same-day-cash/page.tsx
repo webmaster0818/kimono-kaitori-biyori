@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取 即日現金化｜最短当日入金のおすすめ業者比較",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/same-day-cash/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物買取 即日現金化｜最短当日入金のおすすめ業者比較",
     description:
       "最短当日に着物を現金化できるおすすめ業者5選。出張・持ち込み・宅配の即日対応状況を比較。",
@@ -571,6 +572,7 @@ export default function SameDayCashPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/same-day-cash/" />
     </>
   );
 }

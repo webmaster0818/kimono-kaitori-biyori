@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "【2026年最新】留袖（黒留袖・色留袖）の買取相場｜格と高く売るコツ",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/tomesode/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】留袖（黒留袖・色留袖）の買取相場｜格と高く売るコツ",
     description:
       "留袖の買取相場と高く売る方法を解説。黒留袖・色留袖の違い、家紋入りの注意点、実売データも。",
@@ -566,6 +567,7 @@ export default function TomesodePage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/tomesode/" />
     </>
   );
 }

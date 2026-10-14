@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/mie/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】三重の着物買取おすすめ5選｜松阪木綿・伊勢木綿を高く売る",
     description:
       "三重県で着物を高く売るためのおすすめ買取業者5選。松阪木綿・伊勢木綿など地元織物の買取相場も解説。",

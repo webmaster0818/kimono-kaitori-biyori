@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical:
       "https://kimonokaitori-biyori.com/articles/takuhai-kaitori/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "【2026年最新】着物の宅配買取おすすめ3選｜送料無料・キャンセル返送無料",
     description:
       "着物の宅配買取おすすめ3社を比較。送るだけで完了する簡単買取を徹底ガイドします。",

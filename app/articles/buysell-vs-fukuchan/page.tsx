@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "バイセル vs 福ちゃん 徹底比較｜業界2強の違い",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/buysell-vs-fukuchan/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "バイセル vs 福ちゃん 徹底比較｜業界2強の違い",
     description: "バイセルと福ちゃんの着物買取を徹底比較。業界2強の違いとあなたに合う選び方を解説。",
     url: "https://kimonokaitori-biyori.com/articles/buysell-vs-fukuchan/",
@@ -285,6 +286,7 @@ export default function BuysellVsFukuchanPage() {
       </article>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/buysell-vs-fukuchan/" />
     </>
   );
 }

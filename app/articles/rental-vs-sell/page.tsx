@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物レンタル vs 売却｜どちらがお得か徹底比較",
   description:
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/rental-vs-sell/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "着物レンタル vs 売却｜どちらがお得か徹底比較",
     description:
       "着物をレンタルに出すか売却するか、費用対効果で徹底比較。保管コスト・収益シミュレーション付き。",
@@ -623,6 +624,7 @@ export default function RentalVsSellPage() {
       </section>
 
       <SoubaNote />
+      <ThemeArticles current="/articles/rental-vs-sell/" />
     </>
   );
 }
