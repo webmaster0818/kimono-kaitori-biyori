@@ -4,14 +4,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
-  title: "着物買取の相場一覧【2026年最新】種類別の買取価格まとめ",
+  title: "着物買取の相場一覧【2026年最新】振袖・留袖・訪問着など種類別の買取価格",
   description:
     "着物買取の相場を種類別に徹底解説。振袖・訪問着・留袖・小紋・付け下げ・紬・帯・和装小物の買取価格一覧表と、高額買取になる条件・高く売るコツをまとめました。2026年最新の相場情報です。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kimono-market-price/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "着物買取の相場一覧【2026年最新】種類別の買取価格まとめ",
+    title: "着物買取の相場一覧【2026年最新】振袖・留袖・訪問着など種類別の買取価格",
     description:
       "着物買取の相場を種類別に徹底解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
     url: "https://kimonokaitori-biyori.com/articles/kimono-market-price/",
@@ -52,11 +52,11 @@ const faqs = [
 const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "着物買取の相場一覧【2026年最新】種類別の買取価格まとめ",
+  headline: "着物買取の相場一覧【2026年最新】振袖・留袖・訪問着など種類別の買取価格",
   description:
     "着物買取の相場を種類別に徹底解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
   datePublished: "2026-04-15",
-  dateModified: "2026-04-15",
+  dateModified: "2026-10-15",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -366,6 +366,44 @@ export default function KimonoMarketPricePage() {
           <p className="text-xs text-gray-500 mt-3">
             ※ 上記は正絹素材の場合の目安です。化繊・ウール素材は大幅に安くなります。
           </p>
+          <div id="furisode-tomesode" className="bg-white border-2 border-[#6b4c8a] rounded-xl p-5 mt-6">
+            <h3 className="font-bold text-[#6b4c8a] mb-2">振袖・留袖の実売データ（オークションの落札相場）</h3>
+            <p className="text-sm text-gray-700 leading-relaxed mb-3">
+              上の表は買取価格の目安です。実際に個人間で売買された価格（落札価格）は、当サイトの各ページで集計しています。買取価格は一般に落札価格より低くなります。
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="bg-[#6b4c8a] text-white">
+                    <th className="border border-[#e8ddd0] px-3 py-2 text-left">種類</th>
+                    <th className="border border-[#e8ddd0] px-3 py-2 text-left">落札件数</th>
+                    <th className="border border-[#e8ddd0] px-3 py-2 text-left">平均落札価格</th>
+                    <th className="border border-[#e8ddd0] px-3 py-2 text-left">最高落札価格（単品）</th>
+                    <th className="border border-[#e8ddd0] px-3 py-2 text-left">取得日</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border border-[#e8ddd0] px-3 py-2"><Link href="/articles/furisode/" className="text-[#6b4c8a] underline">振袖</Link></td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2,771件（直近30日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約7,395円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">330,000円（作家物）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年8月24日</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-[#e8ddd0] px-3 py-2"><Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">黒留袖</Link></td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約140件（直近180日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約3,938円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">43,544円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年6月</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-gray-500 mt-3">
+              出典：オークファン（aucfan.com）・Yahoo!オークション落札相場（振袖はまとめ売りなどを除いた集計）。留袖は家紋入りが多く買い手が限られるため、未使用品でも平均は低めです。区分別の内訳と読み方は<Link href="/articles/furisode/" className="text-[#6b4c8a] underline">振袖の買取相場</Link>・<Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">留袖（黒留袖・色留袖）の買取相場</Link>をご覧ください。
+            </p>
+          </div>
         </div>
       </section>
 
