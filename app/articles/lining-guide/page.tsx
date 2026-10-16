@@ -16,7 +16,7 @@ const faqs = [
   { question: "八掛の色は買取価格に影響しますか？", answer: "はい、八掛の色は買取価格に影響することがあります。着物の表地に合った上品な配色の八掛は好まれますが、個性的すぎる色や現代の好みに合わない色は若干マイナス評価になることがあります。ただし、八掛だけで大幅に査定額が変わることは少なく、表地の種類・素材・状態の方がはるかに重要です。" },
   { question: "裏地が傷んでいる着物でも買取してもらえますか？", answer: "はい、裏地が傷んでいても買取は可能です。表地の状態が良ければ、裏地を交換して再利用できるためです。ただし、裏地交換の費用分が査定額から差し引かれることがあります。八掛のスレ（毛羽立ち）や胴裏の黄変は、着用頻度や保管状態の目安にもなるため、査定ポイントの一つとして確認されます。" },
   { question: "裏地が正絹でない着物は査定に影響しますか？", answer: "裏地が化繊の着物は、裏地が正絹の着物と比べて若干査定が低くなる傾向があります。正絹の裏地は通気性や保湿性に優れ、着心地が良いため、中古市場での人気が高い傾向があります。ただし、表地が正絹であれば裏地が化繊でも問題なく買取されます。最も重要なのは表地の素材と状態です。" },
-  { question: "裏地の交換（八掛替え）はいくらかかりますか？", answer: "八掛の交換費用は、素材によって異なります。正絹の八掛で仕立て代込み2万〜4万円程度、化繊の八掛で1万〜2万円程度が一般的です。胴裏の交換も同様に2万〜4万円程度です。売却前に裏地交換をすべきかどうかは、交換費用と買取価格アップ分を比較して判断しましょう。多くの場合、裏地交換はせずにそのまま売却する方が得策です。" },
+  { question: "裏地の交換（八掛替え）はいくらかかりますか？", answer: "八掛の交換費用は、素材によって異なります。正絹の八掛で仕立て代込み2万〜4万円程度、化繊の八掛で1万〜2万円程度が一般的です。胴裏の交換も同様に2万〜4万円程度です。売却前に裏地交換をすべきかどうかは、交換費用と買取価格アップ分を比較して判断してください。多くの場合、裏地交換はせずにそのまま売却する方が得策です。" },
 ];
 
 const articleStructuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png", headline: "着物の裏地（八掛・胴裏）の素材と査定への影響", description: "着物の裏地の種類と素材、買取査定への影響を解説。", datePublished: "2026-05-17", dateModified: "2026-05-17", author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" }, publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/lining-guide/" } };
@@ -180,7 +180,7 @@ export default function LiningGuidePage() {
             </tbody>
           </table>
         </div>
-        <p className="text-sm mt-4 leading-relaxed text-gray-700">売却前に裏地交換をすべきかどうかは、着物の価値によって判断します。高額な作家物や伝統工芸品であれば、裏地交換で査定額が大幅にアップする可能性がありますが、一般的な着物では交換費用が査定アップ分を上回ることが多く見られます。迷った場合は、まず<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>で現状の評価を確認してから判断しましょう。</p>
+        <p className="text-sm mt-4 leading-relaxed text-gray-700">売却前に裏地交換をすべきかどうかは、着物の価値によって判断します。高額な作家物や伝統工芸品であれば、裏地交換で査定額が大幅にアップする可能性がありますが、一般的な着物では交換費用が査定アップ分を上回ることが多く見られます。迷った場合は、まず<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>で現状の評価を確認してから判断してください。</p>
       </div></section>
 
       <section id="faq" className="py-10"><div className="max-w-4xl mx-auto px-4">
@@ -204,7 +204,7 @@ export default function LiningGuidePage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">裏地の状態も含めて適正に評価します</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">裏地のスレや黄変があっても、表地の価値を正しく評価できる専門査定員が対応。無料査定でまずは価値を確認してみましょう。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">裏地のスレや黄変があっても、表地の価値を正しく評価できる専門査定員が対応。無料査定でまずは価値を確認してんでください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
 

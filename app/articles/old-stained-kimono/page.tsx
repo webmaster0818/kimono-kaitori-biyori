@@ -59,7 +59,7 @@ const faqStructuredData = {
       name: "シミがある着物は自分でクリーニングしてから売るべきですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "いいえ、自分でクリーニングする必要はありません。専門のクリーニングは費用が高く（数千円〜数万円）、クリーニング代を回収できない場合があります。買取業者は自社でクリーニングできるため、シミがあるままの状態で査定に出しましょう。",
+        text: "いいえ、自分でクリーニングする必要はありません。専門のクリーニングは費用が高く（数千円〜数万円）、クリーニング代を回収できない場合があります。買取業者は自社でクリーニングできるため、シミがあるままの状態で査定に出してください。",
       },
     },
     {
@@ -232,14 +232,14 @@ export default function OldStainedKimonoPage() {
               着物買取業者の多くは、古い着物やシミのある着物でも査定・買取に対応しています。
               特に正絹の着物、有名産地の着物、人間国宝の作品などは、多少の難があっても
               買取需要があります。「どうせ売れないだろう」と諦めて捨ててしまうのが
-              最ももったいない選択です。まずは査定に出してみましょう。
+              最ももったいない選択です。まずは査定に出してんでください。
             </p>
           </div>
 
           <p className="text-gray-700 text-sm leading-relaxed mb-4">
             ただし、すべての古い着物やシミのある着物が買い取ってもらえるわけではありません。
             素材、産地、作家、状態、サイズなど複数の要素で総合的に判断されます。
-            以下のセクションで、具体的な基準を詳しく見ていきましょう。
+            以下のセクションで、具体的な基準を詳しく見ていいてください。
           </p>
 
           <div className="grid grid-cols-2 gap-4">
@@ -289,7 +289,7 @@ export default function OldStainedKimonoPage() {
                 <p className="text-xs text-gray-600">
                   正絹は光沢があり、手触りがしっとりしています。生地の端を少しこすると
                   「キュッキュッ」と音がするのも特徴です。ポリエステルは軽くてシワになりにくく、
-                  化学繊維特有の光沢があります。判断が難しい場合は査定員に見てもらいましょう。
+                  化学繊維特有の光沢があります。判断が難しい場合は査定員に見てもらってください。
                 </p>
               </div>
             </div>
@@ -353,7 +353,7 @@ export default function OldStainedKimonoPage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             シミや汚れがあっても買取可能かどうかは、その程度や場所によって異なります。
-            以下の表で、一般的な許容範囲を確認しましょう。
+            以下の表で、一般的な許容範囲をご確認ください。
           </p>
 
           <div className="overflow-x-auto mb-6">
@@ -429,7 +429,7 @@ export default function OldStainedKimonoPage() {
               <span className="font-bold">重要なポイント：</span>
               シミや汚れがあっても、素材や産地の価値が高ければ買取してもらえる可能性は十分あります。
               「シミがあるから売れないだろう」と自己判断で捨ててしまわず、
-              まずは着物専門の買取業者に査定を依頼しましょう。
+              まずは着物専門の買取業者に査定を依頼することをおすすめします。
             </p>
           </div>
 
@@ -532,7 +532,7 @@ export default function OldStainedKimonoPage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             古い着物やシミのある着物への対応は、買取業者によって大きく異なります。
-            業者選びが買取価格を大きく左右するため、慎重に選びましょう。
+            業者選びが買取価格を大きく左右するため、慎重に選ぶことをおすすめします。
           </p>
 
           <div className="overflow-x-auto mb-6">
@@ -604,7 +604,7 @@ export default function OldStainedKimonoPage() {
               <div>
                 <p className="font-medium text-gray-900 text-sm">複数業者に見積もりを取る</p>
                 <p className="text-xs text-gray-600 mt-1">
-                  最低でも2〜3社に査定を依頼し、最も高い金額を提示した業者に売りましょう。
+                  最低でも2〜3社に査定を依頼し、最も高い金額を提示した業者に売ってください。
                   同じ着物でも業者によって数千円〜数万円の差がつくことがあります。
                 </p>
               </div>
@@ -615,7 +615,7 @@ export default function OldStainedKimonoPage() {
               <div>
                 <p className="font-medium text-gray-900 text-sm">証紙・付属品を一緒に出す</p>
                 <p className="text-xs text-gray-600 mt-1">
-                  証紙、たとう紙、購入時の書類などがあれば必ず一緒に査定に出しましょう。
+                  証紙、たとう紙、購入時の書類などがあれば必ず一緒に査定に出してください。
                   証紙の有無で買取価格が2倍以上変わることもあります。
                 </p>
               </div>
@@ -627,7 +627,7 @@ export default function OldStainedKimonoPage() {
                 <p className="font-medium text-gray-900 text-sm">帯・小物とセットで売る</p>
                 <p className="text-xs text-gray-600 mt-1">
                   着物単品よりも、帯や小物とセットで売ると査定額がアップすることがあります。
-                  着物に合わせた帯がある場合はセットで査定に出しましょう。
+                  着物に合わせた帯がある場合はセットで査定に出してください。
                 </p>
               </div>
             </div>
@@ -637,7 +637,7 @@ export default function OldStainedKimonoPage() {
               <div>
                 <p className="font-medium text-gray-900 text-sm">着物専門の買取業者を選ぶ</p>
                 <p className="text-xs text-gray-600 mt-1">
-                  リサイクルショップではなく、着物専門の買取業者を選びましょう。
+                  リサイクルショップではなく、着物専門の買取業者を選ぶことをおすすめします。
                   専門知識がある査定員が、着物の本来の価値を正しく評価してくれます。
                 </p>
               </div>
@@ -732,7 +732,7 @@ export default function OldStainedKimonoPage() {
                 いいえ、自分でクリーニングする必要はありません。専門のクリーニングは
                 費用が高く（1枚あたり3,000円〜15,000円）、クリーニング代を回収できない場合があります。
                 買取業者は自社でクリーニングや修復ができるため、
-                シミがあるままの状態で査定に出しましょう。
+                シミがあるままの状態で査定に出してください。
               </div>
             </details>
 
@@ -811,7 +811,7 @@ export default function OldStainedKimonoPage() {
             </p>
             <p className="text-gray-700 text-sm leading-relaxed">
               複数業者に見積もりを取って比較検討し、
-              最も納得のいく価格で売却しましょう。
+              最も納得のいく価格で売却してください。
             </p>
           </div>
         </section>
@@ -823,7 +823,7 @@ export default function OldStainedKimonoPage() {
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             着物専門の買取業者なら、古い着物やシミのある着物も適正に査定。<br />
-            まずは無料査定で価値を確認してみましょう。
+            まずは無料査定で価値を確認してんでください。
           </p>
           <Link
             href="/ranking/"

@@ -198,7 +198,7 @@ export default function FamilyCrestPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm mt-4 leading-relaxed text-gray-700">売却前に紋替えや紋消しを行うかどうかは、費用対効果を考えて判断しましょう。紋替えにかかる費用が買取価格アップ分を上回る場合は、そのまま売却した方がお得です。判断に迷う場合は、まず<Link href="/ranking/" className="text-[#6b4c8a] hover:underline">買取業者</Link>に相談してみてください。</p>
+          <p className="text-sm mt-4 leading-relaxed text-gray-700">売却前に紋替えや紋消しを行うかどうかは、費用対効果を考えて判断してください。紋替えにかかる費用が買取価格アップ分を上回る場合は、そのまま売却した方がお得です。判断に迷う場合は、まず<Link href="/ranking/" className="text-[#6b4c8a] hover:underline">買取業者</Link>に相談してみてください。</p>
         </div>
       </section>
 

@@ -22,11 +22,11 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { question: "千葉の館山唐桟は高く売れますか？", answer: "館山唐桟は千葉を代表する織物で、状態と証紙が揃っていれば評価されます。上質な手織りや証紙付き・作家物のものは特に高く、証紙がないと査定額が下がることがあるため、購入時の証紙は必ず一緒に査定へ出しましょう。正絹の紬・訪問着・帯と一緒にまとめて査定に出すと、全体の買取額が上がりやすくなります。" },
+  { question: "千葉の館山唐桟は高く売れますか？", answer: "館山唐桟は千葉を代表する織物で、状態と証紙が揃っていれば評価されます。上質な手織りや証紙付き・作家物のものは特に高く、証紙がないと査定額が下がることがあるため、購入時の証紙は必ず一緒に査定へ出してください。正絹の紬・訪問着・帯と一緒にまとめて査定に出すと、全体の買取額が上がりやすくなります。" },
   { question: "古い着物やシミのある着物も買取してもらえますか？", answer: "はい、状態の良くない着物や古い着物も買取対象です。産地物やアンティークは多少のシミ・傷みがあっても価値が認められることがあります。1点では値がつきにくい場合でも、まとめ買取なら評価されることが多いので、判断に迷う着物もまとめて査定に出すのがおすすめです。" },
   { question: "千葉県内で着物の出張買取は無料で来てもらえますか？", answer: "主要な着物買取業者であれば、千葉市・船橋市・館山市・松戸市など県内全域で無料の出張買取に対応しています。買取大吉やウリエルは出張費・査定料・キャンセル料すべて無料で、自宅にいながら査定を受けられます。まずは電話やLINEで対応エリアを確認するとスムーズです。" },
   { question: "千葉で大量の着物をまとめて売れますか？", answer: "はい、出張買取を利用すれば点数制限なく大量の着物をまとめて売却できます。蔵や箪笥に眠っている着物・帯・和装小物をまとめて査定してもらうことで、1点ずつでは値がつきにくい品もまとめ買取で評価されるケースがあります。遺品整理や生前整理でまとまった量がある場合は、事前に点数を伝えておくとスムーズです。" },
-  { question: "千葉の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取りましょう。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
+  { question: "千葉の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取ってください。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
 ];
 
 const articleStructuredData = {
@@ -108,7 +108,7 @@ export default function ChibaPage() {
         <div className="max-w-4xl mx-auto px-4 mt-4 mb-12">
           <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
             <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
-            <p>千葉で着物を高く売るなら、館山唐桟をはじめ上質な織物に詳しい専門業者へ、証紙を添えて出張買取を依頼するのが最善です。県内全域で無料出張に対応する業者が多く、必ず2〜3社で相見積もりを取りましょう。</p>
+            <p>千葉で着物を高く売るなら、館山唐桟をはじめ上質な織物に詳しい専門業者へ、証紙を添えて出張買取を依頼するのが最善です。県内全域で無料出張に対応する業者が多く、必ず2〜3社で相見積もりを取ってください。</p>
           </div>
         </div>
 
@@ -138,7 +138,7 @@ export default function ChibaPage() {
           </div>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
-            <p className="text-sm text-gray-700 leading-relaxed">館山唐桟などの織物は、証紙や作り手の証明書があると査定額が大きく変わります。たとう紙の証明書や落款のわかる資料も必ず一緒に査定へ出しましょう。</p>
+            <p className="text-sm text-gray-700 leading-relaxed">館山唐桟などの織物は、証紙や作り手の証明書があると査定額が大きく変わります。たとう紙の証明書や落款のわかる資料も必ず一緒に査定へ出してください。</p>
           </div>
         </section>
 
@@ -195,7 +195,7 @@ export default function ChibaPage() {
             <span className="text-[#c9a76c]">4.</span> 千葉で着物を高く売る3つのコツ
           </h2>
           <ol className="space-y-3 text-sm text-gray-700">
-            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />館山唐桟は絹のような風合いと粋な縞の精緻さが決め手。証紙・証明書があれば必ず添えましょう。</li>
+            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />館山唐桟は絹のような風合いと粋な縞の精緻さが決め手。証紙・証明書があれば必ず添えてください。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">② 2〜3社で相見積もりを取る</span><br />産地物に強い業者を含めて比較。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] underline">高く売るコツ</Link>も参考に。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">③ 早めに・まとめて売る</span><br />着物は時間とともに劣化します。帯・小物もセットで出すと評価が上がります。</li>
           </ol>
@@ -222,7 +222,7 @@ export default function ChibaPage() {
           <h3 className="text-white text-xl font-bold mb-3">千葉の着物、まずは無料査定で価値を確認</h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             館山唐桟など、千葉の織物は専門業者の目で正しく評価されます。<br />
-            信頼できる着物買取業者をランキングで比較してみましょう。
+            信頼できる着物買取業者をランキングで比較してんでください。
           </p>
           <Link href="/ranking/" className="inline-block bg-[#c9a76c] text-white font-bold px-8 py-4 rounded-lg hover:bg-[#b8965b] transition-colors">
             おすすめ着物買取業者ランキングを見る

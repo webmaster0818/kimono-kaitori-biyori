@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { question: "正絹とポリエステルの見分け方を教えてください", answer: "最も確実な方法は手触りです。正絹はしっとりとした柔らかい手触りで、肌に吸い付くような感触があります。ポリエステルはツルツルとした滑りやすい手触りで、静電気が起きやすいのが特徴です。また、正絹は燃やすと毛髪が焦げるような臭いがし、灰はもろく崩れます。ポリエステルは溶けて固まり、黒い塊になります。ただし、最近の高品質ポリエステルは見分けが難しいため、判断に迷ったら専門の査定員に見てもらいましょう。" },
+  { question: "正絹とポリエステルの見分け方を教えてください", answer: "最も確実な方法は手触りです。正絹はしっとりとした柔らかい手触りで、肌に吸い付くような感触があります。ポリエステルはツルツルとした滑りやすい手触りで、静電気が起きやすいのが特徴です。また、正絹は燃やすと毛髪が焦げるような臭いがし、灰はもろく崩れます。ポリエステルは溶けて固まり、黒い塊になります。ただし、最近の高品質ポリエステルは見分けが難しいため、判断に迷ったら専門の査定員に見てもらってください。" },
   { question: "化繊（ポリエステル）の着物は買い取ってもらえますか？", answer: "化繊の着物は買取対象外の業者が多く見られます。買取大吉やウリエルなどの大手業者でも、ポリエステルの着物は値段がつかないか、数百円程度の査定になることがほとんどです。ただし、有名デザイナーのブランド化繊着物や、新品・未使用の化繊着物であれば買い取ってもらえる場合もあります。" },
   { question: "ウールの着物は買取対象になりますか？", answer: "ウールの着物は買取対象になることがありますが、買取価格は一般的に低めです。ウール着物の買取相場は数百円〜2,000円程度が一般的です。ただし、有名産地のウール着物（米沢織など）やデザイン性の高いものは、やや高い査定がつくこともあります。" },
-  { question: "着物の素材がわからない場合はどうすればいいですか？", answer: "素材がわからない場合は、そのまま買取業者に査定を依頼しましょう。買取大吉やウリエルなどの専門業者であれば、査定員が素材を正確に判別してくれます。自分で判断して「化繊だから売れない」と思い込むのはもったいないです。実は正絹だったというケースもあります。" },
+  { question: "着物の素材がわからない場合はどうすればいいですか？", answer: "素材がわからない場合は、そのまま買取業者に査定を依頼することをおすすめします。買取大吉やウリエルなどの専門業者であれば、査定員が素材を正確に判別してくれます。自分で判断して「化繊だから売れない」と思い込むのはもったいないです。実は正絹だったというケースもあります。" },
   { question: "麻の着物の買取相場はどのくらいですか？", answer: "麻の着物は夏着物として需要があり、産地物であれば比較的高い買取価格がつきます。越後上布（新潟）や宮古上布（沖縄）などの伝統的な麻着物は5万円〜30万円以上の買取価格になることもあります。一般的な麻着物でも3,000円〜1万円程度の査定が期待できます。" },
 ];
 
@@ -237,7 +237,7 @@ export default function FabricGuidePage() {
             </table>
           </div>
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
-            <p className="text-sm leading-relaxed"><strong className="text-[#6b4c8a]">重要：</strong>素材がわからない着物でも、まずは買取業者に査定を依頼しましょう。買取大吉やウリエルなどの専門業者であれば、素材を正確に判別して適正価格をつけてくれます。自己判断で「化繊だから売れない」と決めつけるのはもったいないです。</p>
+            <p className="text-sm leading-relaxed"><strong className="text-[#6b4c8a]">重要：</strong>素材がわからない着物でも、まずは買取業者に査定を依頼することをおすすめします。買取大吉やウリエルなどの専門業者であれば、素材を正確に判別して適正価格をつけてくれます。自己判断で「化繊だから売れない」と決めつけるのはもったいないです。</p>
           </div>
         </div>
       </section>
@@ -254,7 +254,7 @@ export default function FabricGuidePage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">対処法2：LINE査定で聞く</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物の写真をLINE査定で送り、「素材がわかりません」と伝えれば、査定員が写真から素材の推定をしてくれます。買取大吉やRECLOのLINE査定を活用しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物の写真をLINE査定で送り、「素材がわかりません」と伝えれば、査定員が写真から素材の推定をしてくれます。買取大吉やRECLOのLINE査定を活用してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">対処法3：複数業者に査定を依頼</h3>
@@ -287,7 +287,7 @@ export default function FabricGuidePage() {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
           <div className="grid md:grid-cols-3 gap-4">
-            <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+            <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
             <Link href="/articles/certificate-guide/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">証紙ガイド</h3><p className="text-xs text-gray-600">証紙の見方と買取価格への影響。</p></Link>
             <Link href="/articles/size-and-price/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">サイズと買取価格</h3><p className="text-xs text-gray-600">身丈・裄丈と査定額の関係。</p></Link>
           </div>
@@ -297,7 +297,7 @@ export default function FabricGuidePage() {
       <section className="py-12 md:py-16 section-primary-light">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">素材がわからなくても大丈夫。まずは無料査定へ</h2>
-          <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">プロの査定員が素材を判別して適正価格をつけてくれます。完全無料の査定でお手持ちの着物の価値を確認しましょう。</p>
+          <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">プロの査定員が素材を判別して適正価格をつけてくれます。完全無料の査定でお手持ちの着物の価値をご確認ください。</p>
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>
       </section>

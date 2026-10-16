@@ -15,7 +15,7 @@ const faqs = [
   { question: "産地によって買取額はどのくらい違いますか？", answer: "産地によって買取額は大きく異なります。例えば同じ紬でも、大島紬（1万円〜15万円）と十日町紬（1,000円〜5,000円）では10倍以上の差があります。重要無形文化財に指定された産地の着物は特に高額になります。" },
   { question: "伝統的工芸品の着物は高く売れますか？", answer: "はい、経済産業大臣が指定する伝統的工芸品の着物は高い価値があります。伝統マーク（伝の字を丸で囲んだマーク）入りの証紙があると、産地と品質が保証され、高額査定が期待できます。" },
   { question: "沖縄の着物は高く売れますか？", answer: "はい、沖縄の着物は非常に高い価値を持つものが多く見られます。宮古上布・久米島紬は重要無形文化財に指定されており、芭蕉布や琉球紅型も高額買取が期待できます。沖縄の伝統織物は生産量が少ないため希少性が高い傾向があります。" },
-  { question: "産地証紙がない場合はどうすればよいですか？", answer: "証紙がなくても買取は可能です。ただし証紙がある場合と比べて査定額は2〜5割程度下がる傾向があります。たとう紙の中やタンスの引き出しに証紙が紛れていないか確認しましょう。見つからない場合は、買取大吉やウリエルなど着物専門の業者に査定を依頼しましょう。" },
+  { question: "産地証紙がない場合はどうすればよいですか？", answer: "証紙がなくても買取は可能です。ただし証紙がある場合と比べて査定額は2〜5割程度下がる傾向があります。たとう紙の中やタンスの引き出しに証紙が紛れていないかご確認ください。見つからない場合は、買取大吉やウリエルなど着物専門の業者に査定を依頼することをおすすめします。" },
 ];
 
 const articleStructuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png", headline: "着物の産地一覧マップ｜全国の有名産地と特徴", description: "全国の着物産地を一覧で解説。有名産地の特徴と買取相場をまとめました。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" }, publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/production-map/" } };
@@ -126,7 +126,7 @@ export default function ProductionMapPage() {
         <div className="space-y-4">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">伝統マーク証紙</h3><p className="text-sm leading-relaxed text-gray-700">経済産業大臣が指定する伝統的工芸品には「伝統マーク」（伝の字を丸で囲んだマーク）入りの証紙が付きます。この証紙がある着物は産地と伝統技法が保証されています。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">産地組合の証紙</h3><p className="text-sm leading-relaxed text-gray-700">各産地の織物組合が発行する独自の証紙もあります。大島紬の地球印（奄美）・旗印（鹿児島）、西陣織の証紙番号、博多織の金印・銀印などが代表例。産地と製法の特定に使われます。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">証紙の保管場所</h3><p className="text-sm leading-relaxed text-gray-700">証紙はたとう紙の中に挟まっていることが多く見られます。タンスの引き出しの底や、着物を購入した際の箱の中に入っていることもあります。査定前に必ず確認しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">証紙の保管場所</h3><p className="text-sm leading-relaxed text-gray-700">証紙はたとう紙の中に挟まっていることが多く見られます。タンスの引き出しの底や、着物を購入した際の箱の中に入っていることもあります。査定前に必ずご確認ください。</p></div>
         </div>
       </div></section>
 
@@ -148,7 +148,7 @@ export default function ProductionMapPage() {
       <section className="py-10 section-light"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           <Link href="/articles/tsumugi-types/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">紬の種類と買取相場</h3><p className="text-xs text-gray-600">全国の紬を種類別に解説。</p></Link>
           <Link href="/articles/certificate-guide/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">証紙の見方ガイド</h3><p className="text-xs text-gray-600">産地証紙の読み方を解説。</p></Link>
         </div>

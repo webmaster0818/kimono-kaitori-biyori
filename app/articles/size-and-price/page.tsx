@@ -111,10 +111,10 @@ export default function SizeAndPricePage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />サイズが小さい着物を高く売るコツ</h2>
         <div className="space-y-5">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：着物専門の買取業者を選ぶ</h3><p className="text-sm leading-relaxed text-gray-700">総合リサイクルショップではサイズの小さい着物は一律で低い査定になりがちですが、買取大吉やウリエルなどの着物専門業者は、仕立て直しの可能性も考慮して適正な価格をつけてくれます。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：複数業者で比較する</h3><p className="text-sm leading-relaxed text-gray-700">サイズの評価基準は業者によって異なります。ヒカカクの一括査定で複数社の見積もりを比較しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：複数業者で比較する</h3><p className="text-sm leading-relaxed text-gray-700">サイズの評価基準は業者によって異なります。ヒカカクの一括査定で複数社の見積もりを比較することをおすすめします。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：帯や小物とセットで出す</h3><p className="text-sm leading-relaxed text-gray-700">着物単体のサイズが小さくても、帯や和装小物とセットで出すことで、トータルの買取額を上げることができます。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：海外販路のある業者を選ぶ</h3><p className="text-sm leading-relaxed text-gray-700">RECLOなど海外販路を持つ業者では、小柄な外国人女性からの需要もあるため、小さいサイズでも比較的高い査定がつく場合があります。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：証紙や証明書を添える</h3><p className="text-sm leading-relaxed text-gray-700">サイズが小さくても、証紙や作家物の証明があれば、それだけで高い評価を受けます。証紙は必ず一緒に査定に出しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：証紙や証明書を添える</h3><p className="text-sm leading-relaxed text-gray-700">サイズが小さくても、証紙や作家物の証明があれば、それだけで高い評価を受けます。証紙は必ず一緒に査定に出してください。</p></div>
         </div>
       </div></section>
 
@@ -131,7 +131,7 @@ export default function SizeAndPricePage() {
       <section className="py-10 section-light"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           <Link href="/articles/fabric-guide/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">素材の見分け方</h3><p className="text-xs text-gray-600">正絹・化繊の見分け方と買取価格。</p></Link>
           <Link href="/articles/appraisal-criteria/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">査定基準ガイド</h3><p className="text-xs text-gray-600">着物の査定で見られるポイント。</p></Link>
         </div>
@@ -139,7 +139,7 @@ export default function SizeAndPricePage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">サイズに関わらず、まずは無料査定へ</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">サイズが小さくても、素材や作家によっては高額査定の可能性があります。プロに査定してもらいましょう。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">サイズが小さくても、素材や作家によっては高額査定の可能性があります。プロに査定してもらってください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
 

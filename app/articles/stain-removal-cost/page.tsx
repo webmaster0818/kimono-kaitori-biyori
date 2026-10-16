@@ -13,10 +13,10 @@ export const metadata: Metadata = {
 
 const faqs = [
   { question: "着物の染み抜きは自宅でもできますか？", answer: "軽微な汚れであれば応急処置は可能です。水溶性の汚れ（お茶・ジュースなど）は、汚れの下に白い布を敷き、湿らせた布で軽く叩くようにして汚れを下の布に移します。ただし、正絹の着物に素人が本格的な染み抜きを行うのは非常にリスクが高く、生地を傷めたり色落ちを起こしたりする可能性があります。高価な着物は専門店に任せることを強くおすすめします。" },
-  { question: "古いシミでも染み抜きで落とせますか？", answer: "シミの種類と経過時間によります。付着から数日以内であれば多くのシミは専門店で落とせます。しかし、数か月〜数年経過した古いシミは酸化して生地の繊維と一体化しており、完全に落とすのは困難な場合があります。特に黄変した汗ジミやカビジミは漂白処理が必要になり、費用も高額になります。専門店に相談して見積もりを取ってから判断しましょう。" },
+  { question: "古いシミでも染み抜きで落とせますか？", answer: "シミの種類と経過時間によります。付着から数日以内であれば多くのシミは専門店で落とせます。しかし、数か月〜数年経過した古いシミは酸化して生地の繊維と一体化しており、完全に落とすのは困難な場合があります。特に黄変した汗ジミやカビジミは漂白処理が必要になり、費用も高額になります。専門店に相談して見積もりを取ってから判断してください。" },
   { question: "染み抜きの費用は着物の種類によって変わりますか？", answer: "着物の種類よりも、シミの種類・大きさ・経過時間・位置によって費用が変わります。ただし、金彩加工や刺繍がある着物は染み抜き作業が複雑になるため、追加費用がかかることがあります。また、正絹と化繊では使える薬品が異なるため、事前に素材を確認しておくことが重要です。" },
   { question: "売る前に染み抜きをした方が高く売れますか？", answer: "必ずしもそうとは限りません。染み抜き費用が5,000円で、それにより買取価格が1万円アップするなら得ですが、2万円の染み抜き費用で買取価格が5,000円しかアップしないなら損です。一般的な着物の場合、大きなシミでなければそのまま売る方が得策なケースが多く見られます。高額な作家物や伝統工芸品であれば、染み抜きで大幅な査定アップが見込めるため、費用対効果が高くなります。" },
-  { question: "染み抜きの費用が高すぎる場合はどうすればいいですか？", answer: "染み抜き費用が着物の買取価格を上回るような場合は、シミがある状態のまま買取に出すのが合理的です。大手の買取業者は自社でクリーニング工房を持っているか、提携先の悉皆店に安価で依頼できるため、シミありの着物でも買取してくれます。まずは複数の業者に無料査定を依頼し、シミがある状態での査定額を確認してから判断しましょう。" },
+  { question: "染み抜きの費用が高すぎる場合はどうすればいいですか？", answer: "染み抜き費用が着物の買取価格を上回るような場合は、シミがある状態のまま買取に出すのが合理的です。大手の買取業者は自社でクリーニング工房を持っているか、提携先の悉皆店に安価で依頼できるため、シミありの着物でも買取してくれます。まずは複数の業者に無料査定を依頼し、シミがある状態での査定額を確認してから判断してください。" },
 ];
 
 const articleStructuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png", headline: "着物の染み抜き費用と方法｜売る前にやるべき？", description: "着物の染み抜き費用相場と売却前にやるべきかの判断基準を解説。", datePublished: "2026-05-17", dateModified: "2026-05-17", author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" }, publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/stain-removal-cost/" } };
@@ -82,13 +82,13 @@ export default function StainRemovalCostPage() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-gray-500 mt-3">※ 費用はシミの大きさ・数・着物の素材により変動します。事前に見積もりを取ってから依頼しましょう。</p>
+        <p className="text-xs text-gray-500 mt-3">※ 費用はシミの大きさ・数・着物の素材により変動します。事前に見積もりを取ってから依頼することをおすすめします。</p>
       </div></section>
 
       <section id="home-care" className="py-10 section-light"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />自宅でできる応急処置</h2>
         <div className="space-y-4">
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">水溶性シミの応急処置</h3><p className="text-sm leading-relaxed text-gray-700">シミの裏側に白い布（ガーゼなど）を当て、水を少量含ませた別の布で表面から軽く叩きます。こすらずに叩くことがポイントです。汚れを下の布に移すイメージで行います。処置後は乾いたタオルで水分を吸い取り、自然乾燥させます。ただし、正絹の着物は水でシミが広がるリスクがあるため、高価な着物は応急処置せずに専門店に持ち込みましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">水溶性シミの応急処置</h3><p className="text-sm leading-relaxed text-gray-700">シミの裏側に白い布（ガーゼなど）を当て、水を少量含ませた別の布で表面から軽く叩きます。こすらずに叩くことがポイントです。汚れを下の布に移すイメージで行います。処置後は乾いたタオルで水分を吸い取り、自然乾燥させます。ただし、正絹の着物は水でシミが広がるリスクがあるため、高価な着物は応急処置せずに専門店に持ち込んでください。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#c9a76c] mb-2 text-base">絶対にやってはいけないこと</h3>
             <ul className="space-y-2 text-sm text-gray-700 mt-2">
               <li>シミをこする（繊維を傷め、シミを広げる原因）</li>
@@ -132,7 +132,7 @@ export default function StainRemovalCostPage() {
           </div>
         </div>
         <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
-          <p className="text-sm leading-relaxed"><strong className="text-[#6b4c8a]">迷ったらまず無料査定を：</strong>染み抜きすべきかどうか判断できない場合は、シミがある状態のまま<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>に出してみましょう。査定員から「このシミを取ればもっと高くなります」とアドバイスをもらえることもあります。<Link href="/articles/cleaning-before-selling/" className="text-[#6b4c8a] hover:underline">売る前のクリーニング</Link>についても参考にしてください。</p>
+          <p className="text-sm leading-relaxed"><strong className="text-[#6b4c8a]">迷ったらまず無料査定を：</strong>染み抜きすべきかどうか判断できない場合は、シミがある状態のまま<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>に出してんでください。査定員から「このシミを取ればもっと高くなります」とアドバイスをもらえることもあります。<Link href="/articles/cleaning-before-selling/" className="text-[#6b4c8a] hover:underline">売る前のクリーニング</Link>についても参考にしてください。</p>
         </div>
       </div></section>
 
@@ -140,8 +140,8 @@ export default function StainRemovalCostPage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />シミを防ぐためのお手入れ</h2>
         <div className="space-y-4">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">着用後はすぐにお手入れを</h3><p className="text-sm leading-relaxed text-gray-700">着物を脱いだ後は、衣紋掛けに掛けて1〜2日陰干しして汗の湿気を飛ばします。汚れがないか点検し、衿元のファンデーション汚れなどがあれば早めに対処します。着用後すぐのお手入れが、シミの定着を防ぐ最大のポイントです。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">汗をかきやすい場面では汗除け対策を</h3><p className="text-sm leading-relaxed text-gray-700">夏場や暖房の効いた室内で着物を着る場合は、汗除けの補正パッドや肌着を活用しましょう。特に脇や背中は汗をかきやすいため、汗取りパッド付きの肌襦袢がおすすめです。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">定期的な虫干しで早期発見</h3><p className="text-sm leading-relaxed text-gray-700"><Link href="/articles/airing-guide/" className="text-[#6b4c8a] hover:underline">定期的な虫干し</Link>を行い、シミの早期発見に努めましょう。早く見つけるほど染み抜きの成功率が上がり、費用も安く済みます。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">汗をかきやすい場面では汗除け対策を</h3><p className="text-sm leading-relaxed text-gray-700">夏場や暖房の効いた室内で着物を着る場合は、汗除けの補正パッドや肌着を活用してください。特に脇や背中は汗をかきやすいため、汗取りパッド付きの肌襦袢がおすすめです。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">定期的な虫干しで早期発見</h3><p className="text-sm leading-relaxed text-gray-700"><Link href="/articles/airing-guide/" className="text-[#6b4c8a] hover:underline">定期的な虫干し</Link>を行い、シミの早期発見に努めてください。早く見つけるほど染み抜きの成功率が上がり、費用も安く済みます。</p></div>
         </div>
       </div></section>
 
@@ -175,7 +175,7 @@ export default function StainRemovalCostPage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">シミがあっても無料査定は可能です</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">シミの状態も含めて適正に評価する専門査定員が対応。まずは無料査定で現在の買取価格を確認してみましょう。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">シミの状態も含めて適正に評価する専門査定員が対応。まずは無料査定で現在の買取価格を確認してんでください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
 

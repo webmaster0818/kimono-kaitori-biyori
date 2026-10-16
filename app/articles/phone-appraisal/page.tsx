@@ -374,7 +374,7 @@ export default function PhoneAppraisalPage() {
                 STEP 1：手元に着物と証紙を用意する
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                電話をかける前に、査定したい着物を手元に用意しましょう。可能であれば<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙や証明書</Link>も準備します。着物のたとう紙に記載されている情報（作家名・産地名など）もメモしておくと、スムーズに伝えられます。サイズ（身丈・裄丈）を測っておくとより正確な概算が出ます。
+                電話をかける前に、査定したい着物を手元にご用意ください。可能であれば<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙や証明書</Link>も準備します。着物のたとう紙に記載されている情報（作家名・産地名など）もメモしておくと、スムーズに伝えられます。サイズ（身丈・裄丈）を測っておくとより正確な概算が出ます。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -461,7 +461,7 @@ export default function PhoneAppraisalPage() {
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
             <p className="text-sm leading-relaxed">
               <strong className="text-[#6b4c8a]">おすすめの活用法：</strong>
-              まず電話査定で概算金額を確認し、有望な業者には<Link href="/articles/line-appraisal/" className="text-[#6b4c8a] hover:underline">LINE査定</Link>や<Link href="/articles/photo-appraisal/" className="text-[#6b4c8a] hover:underline">写真査定</Link>でより詳細な見積もりを依頼するのが効率的です。最終的には出張買取で実物を見てもらい、正式な査定額を確定させましょう。
+              まず電話査定で概算金額を確認し、有望な業者には<Link href="/articles/line-appraisal/" className="text-[#6b4c8a] hover:underline">LINE査定</Link>や<Link href="/articles/photo-appraisal/" className="text-[#6b4c8a] hover:underline">写真査定</Link>でより詳細な見積もりを依頼するのが効率的です。最終的には出張買取で実物を見てもらい、正式な査定額を確定させてください。
             </p>
           </div>
         </div>
@@ -481,7 +481,7 @@ export default function PhoneAppraisalPage() {
                 1. 証紙・証明書の情報を正確に伝える
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                証紙の有無は査定額に大きく影響します。「証紙あり」と伝えるだけでなく、証紙に記載されている産地名・製造者名なども読み上げましょう。証紙がない場合でも、購入時のレシートや品質表示があれば伝えてください。
+                証紙の有無は査定額に大きく影響します。「証紙あり」と伝えるだけでなく、証紙に記載されている産地名・製造者名なども読み上げてください。証紙がない場合でも、購入時のレシートや品質表示があれば伝えてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -489,7 +489,7 @@ export default function PhoneAppraisalPage() {
                 2. 着物の状態を正確に、かつ具体的に伝える
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                「状態は良い方です」だけでなく、「シミはなく、たとう紙に包んで桐箪笥で保管していました」のように具体的に伝えると、査定員は高い概算額を出しやすくなります。ただし、実物確認で相違が判明すると信用を損なうため、状態は正確に申告しましょう。
+                「状態は良い方です」だけでなく、「シミはなく、たとう紙に包んで桐箪笥で保管していました」のように具体的に伝えると、査定員は高い概算額を出しやすくなります。ただし、実物確認で相違が判明すると信用を損なうため、状態は正確に申告してください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -497,7 +497,7 @@ export default function PhoneAppraisalPage() {
                 3. 複数枚あることを伝える
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                着物が複数枚ある場合は、最初にその旨を伝えましょう。まとめて査定に出すことで、1点あたりの査定額がアップする場合があります。帯や和装小物もある場合は一緒に伝えてください。<Link href="/articles/bulk-appraisal/" className="text-[#6b4c8a] hover:underline">一括査定のメリット</Link>も参考にしてください。
+                着物が複数枚ある場合は、最初にその旨を伝えてください。まとめて査定に出すことで、1点あたりの査定額がアップする場合があります。帯や和装小物もある場合は一緒に伝えてください。<Link href="/articles/bulk-appraisal/" className="text-[#6b4c8a] hover:underline">一括査定のメリット</Link>も参考にしてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -542,7 +542,7 @@ export default function PhoneAppraisalPage() {
                 注意3：電話査定だけで売却を決めない
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                電話査定はあくまで事前確認です。概算金額に納得できても、必ず出張査定や宅配査定で実物を見てもらった上で最終判断をしましょう。実物査定では、電話では伝えにくい細部の価値も正確に評価してもらえます。
+                電話査定はあくまで事前確認です。概算金額に納得できても、必ず出張査定や宅配査定で実物を見てもらった上で最終判断をしてください。実物査定では、電話では伝えにくい細部の価値も正確に評価してもらえます。
               </p>
             </div>
           </div>
@@ -561,13 +561,13 @@ export default function PhoneAppraisalPage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">概算額に納得できた場合</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                最も概算額が高かった業者に、<Link href="/articles/shutcho-kaitori/" className="text-[#6b4c8a] hover:underline">出張買取</Link>または<Link href="/articles/takuhai-kaitori/" className="text-[#6b4c8a] hover:underline">宅配買取</Link>を依頼しましょう。出張買取なら査定員が自宅に来てその場で現金払い、宅配買取なら着物を送るだけで指定口座に振込されます。どちらも査定料・送料・出張費は無料です。
+                最も概算額が高かった業者に、<Link href="/articles/shutcho-kaitori/" className="text-[#6b4c8a] hover:underline">出張買取</Link>または<Link href="/articles/takuhai-kaitori/" className="text-[#6b4c8a] hover:underline">宅配買取</Link>を依頼することをおすすめします。出張買取なら査定員が自宅に来てその場で現金払い、宅配買取なら着物を送るだけで指定口座に振込されます。どちらも査定料・送料・出張費は無料です。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">概算額に納得できない場合</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                概算額が期待より低い場合は、別の業者にも電話査定を依頼してみましょう。業者ごとに得意分野が異なるため、ある業者で低い査定額でも、別の業者では高い金額がつくことがあります。また、<Link href="/articles/flea-vs-dealer/" className="text-[#6b4c8a] hover:underline">フリマアプリでの個人売買</Link>も選択肢として検討できます。
+                概算額が期待より低い場合は、別の業者にも電話査定を依頼してんでください。業者ごとに得意分野が異なるため、ある業者で低い査定額でも、別の業者では高い金額がつくことがあります。また、<Link href="/articles/flea-vs-dealer/" className="text-[#6b4c8a] hover:underline">フリマアプリでの個人売買</Link>も選択肢として検討できます。
               </p>
             </div>
           </div>
@@ -644,7 +644,7 @@ export default function PhoneAppraisalPage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。
+                買取大吉・ウリエルなどおすすめ5社を比較。
               </p>
             </Link>
           </div>
@@ -658,7 +658,7 @@ export default function PhoneAppraisalPage() {
             まずは電話1本で概算額を確認しよう
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            通話料無料のフリーダイヤルで、自宅にいながら着物の概算買取額がわかります。複数社に電話して、最も高い業者を見つけましょう。
+            通話料無料のフリーダイヤルで、自宅にいながら着物の概算買取額がわかります。複数社に電話して、最も高い業者を見つけてください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

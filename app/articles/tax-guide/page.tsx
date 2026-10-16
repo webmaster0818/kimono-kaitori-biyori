@@ -125,7 +125,7 @@ export default function TaxGuidePage() {
       <section id="note" className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />注意点とアドバイス</h2>
         <div className="space-y-4">
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">売却の記録を残しておく</h3><p className="text-sm leading-relaxed text-gray-700">万が一のために、売却した着物の内容、売却額、業者名、日付などの記録を残しておきましょう。確定申告が必要になった場合に役立ちます。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">売却の記録を残しておく</h3><p className="text-sm leading-relaxed text-gray-700">万が一のために、売却した着物の内容、売却額、業者名、日付などの記録を残しておいてください。確定申告が必要になった場合に役立ちます。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">不安な場合は税理士に相談</h3><p className="text-sm leading-relaxed text-gray-700">高額な着物を売却する場合や、税金について不安がある場合は、税理士に相談することをおすすめします。初回無料相談を受け付けている税理士事務所も多く見られます。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">本記事は一般的な情報提供です</h3><p className="text-sm leading-relaxed text-gray-700">本記事の内容は一般的な税務情報の提供を目的としたものであり、個別の税務アドバイスではありません。具体的な税務判断については、税理士または最寄りの税務署にご相談ください。</p></div>
         </div>
@@ -141,7 +141,7 @@ export default function TaxGuidePage() {
       <section className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           <Link href="/articles/sell-high-tips/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物を高く売るコツ</h3><p className="text-xs text-gray-600">高額買取のテクニック。</p></Link>
           <Link href="/articles/estate-kimono/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">遺品整理の着物買取</h3><p className="text-xs text-gray-600">遺品の着物を売る方法。</p></Link>
         </div>
@@ -149,7 +149,7 @@ export default function TaxGuidePage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">税金の心配は不要。まずは無料査定へ</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">ほとんどの着物は非課税で売却できます。まずは無料査定でお手持ちの着物の価値を確認してみましょう。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">ほとんどの着物は非課税で売却できます。まずは無料査定でお手持ちの着物の価値を確認してんでください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
       <ThemeArticles current="/articles/tax-guide/" />

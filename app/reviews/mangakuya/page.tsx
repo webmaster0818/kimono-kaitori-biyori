@@ -5,15 +5,15 @@ import SoubaNote from "../../components/SoubaNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
-  title: "まんがく屋の着物買取｜口コミ・評判を徹底検証",
+  title: "まんがく屋の着物買取｜口コミ・評判を検証",
   description:
-    "まんがく屋の着物買取サービスを徹底検証。大阪発の着物買取業者の特徴、買取対応品目、買取相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。出張買取・宅配買取の対応状況も解説。",
+    "まんがく屋の着物買取サービスを検証。大阪発の着物買取業者の特徴、買取対応品目、買取相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。出張買取・宅配買取の対応状況も解説。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/mangakuya/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "まんがく屋の着物買取｜口コミ・評判を徹底検証",
-    description: "まんがく屋の着物買取サービスを徹底検証。大阪発の買取業者の実力と口コミを公開情報と実売データにもとづいてレビュー。",
+    title: "まんがく屋の着物買取｜口コミ・評判を検証",
+    description: "まんがく屋の着物買取サービスを検証。大阪発の買取業者の実力と口コミを公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/mangakuya/",
     siteName: "着物の買取びより",
     type: "article",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
 const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "まんがく屋の着物買取｜口コミ・評判を徹底検証",
-  description: "まんがく屋の着物買取サービスを徹底検証。大阪発の買取業者の実力と口コミを公開情報と実売データにもとづいてレビュー。",
+  headline: "まんがく屋の着物買取｜口コミ・評判を検証",
+  description: "まんがく屋の着物買取サービスを検証。大阪発の買取業者の実力と口コミを公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -71,7 +71,7 @@ export default function MangakuyaReviewPage() {
           </div>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             まんがく屋の着物買取<br className="md:hidden" />
-            <span className="text-[#6b4c8a]">口コミ・評判</span>を徹底検証
+            <span className="text-[#6b4c8a]">口コミ・評判</span>を検証
           </h1>
           <p className="text-gray-600 leading-relaxed">
             まんがく屋は、大阪府吹田市に本社を構える着物買取業者です。着物・帯・和装小物の買取を中心に、骨董品やブランド品の買取にも対応しています。全国対応の出張買取と宅配買取を提供しており、特に関西エリアでの知名度が高いサービスです。本記事では、まんがく屋の着物買取の実力を口コミや評判をもとに検証します。

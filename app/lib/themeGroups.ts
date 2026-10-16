@@ -129,7 +129,7 @@ export const themeGroups: { name: string; items: ThemeItem[] }[] = [
       },
       {
         "href": "/articles/rental-vs-sell/",
-        "title": "着物レンタル vs 売却 どちらがお得か徹底比較"
+        "title": "着物レンタル vs 売却 どちらがお得か比較"
       },
       {
         "href": "/articles/tax-guide/",
@@ -154,15 +154,15 @@ export const themeGroups: { name: string; items: ThemeItem[] }[] = [
     "items": [
       {
         "href": "/reviews/buysell/",
-        "title": "バイセルの着物買取 口コミ・評判・買取実績 を徹底検証"
+        "title": "バイセルの着物買取 口コミ・評判・買取実績 を検証"
       },
       {
         "href": "/reviews/daikichi/",
-        "title": "買取大吉の着物買取 口コミ・評判・買取実績 を徹底検証"
+        "title": "買取大吉の着物買取 口コミ・評判・買取実績 を検証"
       },
       {
         "href": "/reviews/fukuchan/",
-        "title": "福ちゃんの着物買取 口コミ・評判・買取実績 を徹底検証"
+        "title": "福ちゃんの着物買取 口コミ・評判・買取実績 を検証"
       },
       {
         "href": "/reviews/hikakaku/",
@@ -174,7 +174,7 @@ export const themeGroups: { name: string; items: ThemeItem[] }[] = [
       },
       {
         "href": "/reviews/mangakuya/",
-        "title": "まんがく屋の着物買取 口コミ・評判 を徹底検証"
+        "title": "まんがく屋の着物買取 口コミ・評判 を検証"
       },
       {
         "href": "/reviews/otakaraya/",
@@ -186,7 +186,7 @@ export const themeGroups: { name: string; items: ThemeItem[] }[] = [
       },
       {
         "href": "/reviews/the-gold/",
-        "title": "ザ・ゴールドの着物買取 口コミ・評判 を徹底検証"
+        "title": "ザ・ゴールドの着物買取 口コミ・評判 を検証"
       },
       {
         "href": "/reviews/tifana/",
@@ -198,11 +198,11 @@ export const themeGroups: { name: string; items: ThemeItem[] }[] = [
       },
       {
         "href": "/articles/daikichi-vs-uriel/",
-        "title": "買取大吉 vs ウリエル 徹底比較 ｜どちらに売るべき？"
+        "title": "買取大吉 vs ウリエル 比較 ｜どちらに売るべき？"
       },
       {
         "href": "/articles/buysell-vs-fukuchan/",
-        "title": "バイセル vs 福ちゃん 徹底比較 ｜業界2強の違い"
+        "title": "バイセル vs 福ちゃん 比較 ｜業界2強の違い"
       }
     ]
   }

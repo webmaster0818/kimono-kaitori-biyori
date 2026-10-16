@@ -259,7 +259,7 @@ export default function TenpoMochikomiPage() {
           <div className="space-y-4">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">予約時に伝えておくとスムーズなこと</h3>
-              <p className="text-sm leading-relaxed text-gray-700">予約不要の店舗でも、事前に電話やWebで「着物の査定をお願いしたい」「着物が〇枚ある」と伝えておくのがおすすめです。着物の査定は専門の査定員が対応するため、事前連絡で確実に対応してもらえ、待ち時間も短縮できます。車で来店する場合は駐車場の有無、あわせて営業時間・定休日も確認しておきましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">予約不要の店舗でも、事前に電話やWebで「着物の査定をお願いしたい」「着物が〇枚ある」と伝えておくのがおすすめです。着物の査定は専門の査定員が対応するため、事前連絡で確実に対応してもらえ、待ち時間も短縮できます。車で来店する場合は駐車場の有無、あわせて営業時間・定休日も確認しておいてください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">本人確認書類として使えるもの</h3>
@@ -274,11 +274,11 @@ export default function TenpoMochikomiPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">証紙の探し場所</h3>
-              <p className="text-sm leading-relaxed text-gray-700">証紙は着物の産地や品質を証明する重要な書類で、有無で査定額が大きく変わることがあります。たとう紙の中、端布と一緒、タンスの引き出しの隅などに保管されていることが多いので、来店前に必ず探しましょう。購入時の領収書や保証書があれば、それも一緒に持参すると査定の参考になります。</p>
+              <p className="text-sm leading-relaxed text-gray-700">証紙は着物の産地や品質を証明する重要な書類で、有無で査定額が大きく変わることがあります。たとう紙の中、端布と一緒、タンスの引き出しの隅などに保管されていることが多いので、来店前に必ず探してください。購入時の領収書や保証書があれば、それも一緒に持参すると査定の参考になります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">着物の持ち運び方のコツ</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物はたとう紙に包んだまま、大きめの風呂敷やショッピングバッグに入れて持ち運びましょう。ビニール袋は蒸れの原因になるため避けてください。車で来店する場合は、トランクに平置きしてシワがつかないよう注意しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物はたとう紙に包んだまま、大きめの風呂敷やショッピングバッグに入れて持ち運んでください。ビニール袋は蒸れの原因になるため避けてください。車で来店する場合は、トランクに平置きしてシワがつかないようご注意ください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">当日は「一部だけ売る」「持ち帰って検討」も自由</h3>
@@ -310,7 +310,7 @@ export default function TenpoMochikomiPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：証紙と証明書を持参する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">証紙があるだけで査定額が数倍になることも。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙ガイド</Link>を確認し、忘れずに持参しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">証紙があるだけで査定額が数倍になることも。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙ガイド</Link>を確認し、忘れずに持参してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：事前にオンライン査定で相場を把握する</h3>
@@ -326,7 +326,7 @@ export default function TenpoMochikomiPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：複数店舗で見積もりを取る</h3>
-              <p className="text-sm leading-relaxed text-gray-700">1店舗だけで即決せず、2〜3店舗で見積もりを取りましょう。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] hover:underline">高く売るコツ</Link>も参考にしてください。</p>
+              <p className="text-sm leading-relaxed text-gray-700">1店舗だけで即決せず、2〜3店舗で見積もりを取ってください。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] hover:underline">高く売るコツ</Link>も参考にしてください。</p>
             </div>
           </div>
         </div>
@@ -373,7 +373,7 @@ export default function TenpoMochikomiPage() {
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
             <p className="text-sm leading-relaxed">
               <strong className="text-[#6b4c8a]">近くに店舗がない場合：</strong>
-              持ち込み買取ができる店舗が近くにない場合は、出張買取を利用しましょう。買取大吉やウリエルは全国各地で出張買取に対応しており、出張費・査定料は無料です。<Link href="/articles/shutcho-kaitori/" className="text-[#6b4c8a] hover:underline">出張買取ガイド</Link>も参考にしてください。また、RECLOの宅配買取なら全国どこからでも送料無料で利用できます。
+              持ち込み買取ができる店舗が近くにない場合は、出張買取をご利用ください。買取大吉やウリエルは全国各地で出張買取に対応しており、出張費・査定料は無料です。<Link href="/articles/shutcho-kaitori/" className="text-[#6b4c8a] hover:underline">出張買取ガイド</Link>も参考にしてください。また、RECLOの宅配買取なら全国どこからでも送料無料で利用できます。
             </p>
           </div>
         </div>
@@ -387,7 +387,7 @@ export default function TenpoMochikomiPage() {
             持ち込み買取の着物別買取相場
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            持ち込み買取でも出張買取でも査定基準は同じです。以下の相場を参考に、提示された金額が妥当かどうか判断しましょう。
+            持ち込み買取でも出張買取でも査定基準は同じです。以下の相場を参考に、提示された金額が妥当かどうか判断してください。
           </p>
 
           <div className="overflow-x-auto">
@@ -446,7 +446,7 @@ export default function TenpoMochikomiPage() {
           <div className="space-y-4">
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">持ち込み買取にはクーリングオフが適用されない</h3>
-              <p className="text-sm leading-relaxed text-gray-700">持ち込み買取（店舗買取）は消費者が自らの意思で店舗に赴くため、特定商取引法のクーリングオフ制度の対象外です。一度売却したら原則として取り消しはできません。慎重に判断しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">持ち込み買取（店舗買取）は消費者が自らの意思で店舗に赴くため、特定商取引法のクーリングオフ制度の対象外です。一度売却したら原則として取り消しはできません。慎重に判断してください。</p>
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">対面のプレッシャーに注意</h3>
@@ -454,7 +454,7 @@ export default function TenpoMochikomiPage() {
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">総合リサイクルショップでの安売りに注意</h3>
-              <p className="text-sm leading-relaxed text-gray-700">大手総合リサイクルショップでは着物の専門知識がない場合が多く、一律で低い価格をつけられることがあります。着物は必ず着物専門の査定員がいる業者に持ち込みましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">大手総合リサイクルショップでは着物の専門知識がない場合が多く、一律で低い価格をつけられることがあります。着物は必ず着物専門の査定員がいる業者に持ち込んでください。</p>
             </div>
           </div>
         </div>
@@ -489,7 +489,7 @@ export default function TenpoMochikomiPage() {
             シーン別・最適な買取方法の選び方
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            着物の量や状況によって最適な買取方法は異なります。以下のシーン別ガイドを参考に、あなたに合った方法を選びましょう。
+            着物の量や状況によって最適な買取方法は異なります。以下のシーン別ガイドを参考に、あなたに合った方法を選ぶことをおすすめします。
           </p>
           <div className="space-y-4">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -551,7 +551,7 @@ export default function TenpoMochikomiPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="#howto-guide" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">持ち込み買取の方法・流れ</h3><p className="text-xs text-gray-600">持ち込み買取のやり方・流れと店舗/出張/宅配の選び方。</p></Link>
             <Link href="/articles/shutcho-kaitori/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">出張買取ガイド</h3><p className="text-xs text-gray-600">出張買取のメリットと利用の流れ。</p></Link>
-            <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+            <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           </div>
         </div>
       </section>
@@ -571,7 +571,7 @@ export default function TenpoMochikomiPage() {
               <ul className="space-y-2">
                 <li className="flex gap-2">
                   <span className="text-[#c9a76c] font-bold flex-shrink-0">1.</span>
-                  <span><strong>必ず複数店舗で見積もりを取る：</strong>1店舗で即決せず、2〜3店舗で比較。ヒカカクの事前オンライン査定も活用しましょう。</span>
+                  <span><strong>必ず複数店舗で見積もりを取る：</strong>1店舗で即決せず、2〜3店舗で比較。ヒカカクの事前オンライン査定も活用してください。</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#c9a76c] font-bold flex-shrink-0">2.</span>
@@ -583,7 +583,7 @@ export default function TenpoMochikomiPage() {
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#c9a76c] font-bold flex-shrink-0">4.</span>
-                  <span><strong>クーリングオフが適用されないことを理解する：</strong>持ち込み買取は自分の意思で店舗に行くため、クーリングオフの対象外です。慎重に判断しましょう。</span>
+                  <span><strong>クーリングオフが適用されないことを理解する：</strong>持ち込み買取は自分の意思で店舗に行くため、クーリングオフの対象外です。慎重に判断してください。</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#c9a76c] font-bold flex-shrink-0">5.</span>

@@ -463,7 +463,7 @@ export default function AppraisalCriteriaPage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             着物の状態は査定額に直接影響します。
-            査定員がチェックするポイントを把握しておきましょう。
+            査定員がチェックするポイントを把握しておいてください。
           </p>
 
           <div className="overflow-x-auto mb-6">
@@ -577,7 +577,7 @@ export default function AppraisalCriteriaPage() {
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold">アドバイス：</span>
               着物を売る前に、たとう紙の中やタンスの引き出しの隅を確認して、
-              証紙がないか探してみましょう。証紙1枚で査定額が数万円変わることもあります。
+              証紙がないか探してんでください。証紙1枚で査定額が数万円変わることもあります。
               端布に縫い付けられていたり、購入時の箱に入っている場合もあります。
             </p>
           </div>
@@ -729,7 +729,7 @@ export default function AppraisalCriteriaPage() {
               着物専門店の査定員は「手触り・匂い」など五感を使って素材や状態を判断します（てまり屋のデータより）。一方、総合型リサイクルショップでは汚れチェックなど形式的な判断にとどまる場合があり、着物本来の価値が正しく反映されないことがあります。
             </p>
             <p className="text-gray-700 leading-relaxed">
-              特に作家物や産地物など高額着物の場合は、必ず着物専門の査定員が在籍している業者を選びましょう。専門知識を持つ査定員がいるかどうかで、査定額に大きな差が生まれます。
+              特に作家物や産地物など高額着物の場合は、必ず着物専門の査定員が在籍している業者を選ぶことをおすすめします。専門知識を持つ査定員がいるかどうかで、査定額に大きな差が生まれます。
             </p>
           </div>
         </section>
@@ -863,7 +863,7 @@ export default function AppraisalCriteriaPage() {
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             着物専門の査定員が、7つの基準で丁寧に査定してくれます。<br />
-            まずは無料査定で着物の価値を確認してみましょう。
+            まずは無料査定で着物の価値を確認してんでください。
           </p>
           <Link
             href="/ranking/"

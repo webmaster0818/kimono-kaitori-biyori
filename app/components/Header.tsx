@@ -20,7 +20,7 @@ export default function Header() {
         <Link href="/" className="flex flex-col leading-tight">
           <span className="text-xl font-bold text-gradient">着物の買取びより</span>
           <span className="text-[10px] text-gray-500 tracking-wide">
-            着物買取おすすめ業者を徹底比較
+            着物買取おすすめ業者を比較
           </span>
         </Link>
 

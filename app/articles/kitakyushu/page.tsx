@@ -23,10 +23,10 @@ export const metadata: Metadata = {
 
 const faqs = [
   { question: "北九州市で着物の持ち込み買取はできますか？", answer: "はい、北九州市内には着物の持ち込み買取に対応した店舗があります。買取大吉などは主要エリアに店舗を展開しており、少量の着物なら持ち込みでその場査定が可能です。点数が多い場合は無料の出張買取の方が手間がかからずおすすめです。事前に電話やLINEで対応店舗・予約の要否を確認するとスムーズです。" },
-  { question: "北九州市内は出張買取に無料で対応していますか？", answer: "主要な着物買取業者であれば、北九州市内全域で出張費・査定料・キャンセル料すべて無料の出張買取に対応しています。買取大吉やウリエルは自宅にいながら査定を受けられ、その場で現金化も可能です。まずは対応エリアと日時を電話・LINEで確認しましょう。" },
+  { question: "北九州市内は出張買取に無料で対応していますか？", answer: "主要な着物買取業者であれば、北九州市内全域で出張費・査定料・キャンセル料すべて無料の出張買取に対応しています。買取大吉やウリエルは自宅にいながら査定を受けられ、その場で現金化も可能です。まずは対応エリアと日時を電話・LINEでご確認ください。" },
   { question: "古い着物やシミのある着物も北九州市で売れますか？", answer: "はい、状態の良くない着物や古い着物も買取対象です。産地物やアンティークは多少のシミ・傷みがあっても価値が認められることがあります。1点では値がつきにくい場合でも、まとめ買取なら評価されることが多いので、判断に迷う着物もまとめて査定に出すのがおすすめです。" },
   { question: "北九州市でまとめて大量の着物を売れますか？", answer: "はい、出張買取を利用すれば点数制限なく大量の着物をまとめて売却できます。箪笥や蔵に眠っている着物・帯・和装小物をまとめて査定してもらうことで、1点ずつでは値がつきにくい品もまとめ買取で評価されるケースがあります。遺品整理や引っ越しでまとまった量がある場合は、事前に点数を伝えておくとスムーズです。" },
-  { question: "北九州市の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取りましょう。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
+  { question: "北九州市の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取ってください。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
 ];
 
 const articleStructuredData = {
@@ -103,7 +103,7 @@ export default function KitakyushuPage() {
         <div className="max-w-4xl mx-auto px-4 mt-4 mb-12">
           <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
             <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
-            <p>北九州市で着物を高く売るなら、市内全域で無料出張に対応する全国対応の専門業者へ、証紙を添えて依頼するのが最善です。持込・出張・宅配から選び、必ず2〜3社で相見積もりを取りましょう。</p>
+            <p>北九州市で着物を高く売るなら、市内全域で無料出張に対応する全国対応の専門業者へ、証紙を添えて依頼するのが最善です。持込・出張・宅配から選び、必ず2〜3社で相見積もりを取ってください。</p>
           </div>
         </div>
 
@@ -132,7 +132,7 @@ export default function KitakyushuPage() {
             </div>
           </div>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            福岡県は<Link href="/articles/hakata-ori/" className="text-[#6b4c8a] underline">博多織</Link>や<Link href="/articles/kurume-gasuri/" className="text-[#6b4c8a] underline">久留米絣</Link>といった伝統織物の産地としても知られ、北九州市のご家庭の箪笥からもこうした産地物の帯や着物が見つかることがあります。証紙付きの産地物は査定で高く評価されやすいため、見つけたらそのまま査定に出しましょう。
+            福岡県は<Link href="/articles/hakata-ori/" className="text-[#6b4c8a] underline">博多織</Link>や<Link href="/articles/kurume-gasuri/" className="text-[#6b4c8a] underline">久留米絣</Link>といった伝統織物の産地としても知られ、北九州市のご家庭の箪笥からもこうした産地物の帯や着物が見つかることがあります。証紙付きの産地物は査定で高く評価されやすいため、見つけたらそのまま査定に出してください。
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             博多織・久留米絣はいずれも、当サイトの各ページで公開オークションの落札実績にもとづく実売データを掲載しています。産地織物の相場データの調べ方や掲載織物の一覧は<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データの調査方法</Link>でまとめています。
@@ -195,7 +195,7 @@ export default function KitakyushuPage() {
             <span className="text-[#c9a76c]">4.</span> 北九州市で着物を高く売る3つのコツ
           </h2>
           <ol className="space-y-3 text-sm text-gray-700">
-            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />正絹の訪問着や紬・帯は証紙・作家物が高評価の決め手。証明書があれば必ず添えましょう。</li>
+            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />正絹の訪問着や紬・帯は証紙・作家物が高評価の決め手。証明書があれば必ず添えてください。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">② 2〜3社で相見積もりを取る</span><br />北九州市は業者の選択肢が多いので、複数社で比較を。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] underline">高く売るコツ</Link>も参考に。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">③ 早めに・まとめて売る</span><br />着物は時間とともに劣化します。帯・小物もセットで出すと評価が上がります。</li>
           </ol>
@@ -209,7 +209,7 @@ export default function KitakyushuPage() {
             自宅に業者を招く出張買取（訪問購入）は特定商取引法の対象で、契約書面を受け取った日を含めて<strong>8日間はクーリング・オフ（無条件解約）</strong>ができます。さらにクーリング・オフ期間中は、業者に着物など品物の引き渡しを拒むことができます（引渡し拒否権）。
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.kitakyushu.lg.jp/contents/924_00146.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">北九州市立消費生活センター</a>（戸畑区・ウェルとばた7階、相談専用電話 093-861-0999）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
+            「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.kitakyushu.lg.jp/contents/924_00146.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">北九州市立消費生活センター</a>（戸畑区・ウェルとばた7階、相談専用電話 093-861-0999）にご相談ください。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
             押し買いの手口や対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>で詳しく解説しています。
@@ -235,7 +235,7 @@ export default function KitakyushuPage() {
 
         <div className="bg-[#6b4c8a] rounded-lg p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">北九州市で着物を売るなら、まず無料査定から</p>
-          <p className="text-white/90 text-sm mb-5">北九州市内なら持込・出張・宅配と選択肢が豊富。複数業者の無料査定で最高額を確認しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">北九州市内なら持込・出張・宅配と選択肢が豊富。複数業者の無料査定で最高額をご確認ください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#6b4c8a] font-bold px-6 py-3 rounded-lg hover:bg-[#faf8f5] transition-colors">
             おすすめ着物買取業者ランキングを見る
           </Link>

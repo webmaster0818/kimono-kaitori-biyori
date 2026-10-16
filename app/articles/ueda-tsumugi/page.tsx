@@ -427,7 +427,7 @@ export default function UedaTsumugiPage() {
                 証紙と織元の情報が価値の裏付けに
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                伝統的工芸品の要件を満たす信州紬（上田紬）には伝統証紙が付くものがあり、産地・品質の裏付けになります。また、上田紬は織元が数軒に限られるため、織元の名前やしおり・落款が確認できると評価の助けになります。証紙・付属品は反物の端やたとう紙の中に保管されていることが多いので、必ず探して一緒に査定に出しましょう。
+                伝統的工芸品の要件を満たす信州紬（上田紬）には伝統証紙が付くものがあり、産地・品質の裏付けになります。また、上田紬は織元が数軒に限られるため、織元の名前やしおり・落款が確認できると評価の助けになります。証紙・付属品は反物の端やたとう紙の中に保管されていることが多いので、必ず探して一緒に査定に出してください。
               </p>
             </div>
           </div>
@@ -501,7 +501,7 @@ export default function UedaTsumugiPage() {
                 ポイント1：証紙・付属品をそろえて査定に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                証紙・織元のしおり・購入時の箱は、産地と作り手を示す重要な手がかりです。実売データでも証紙のある未使用帯が高値になる傾向が見られました。たとう紙や箱の中を必ず確認しましょう。
+                証紙・織元のしおり・購入時の箱は、産地と作り手を示す重要な手がかりです。実売データでも証紙のある未使用帯が高値になる傾向が見られました。たとう紙や箱の中を必ずご確認ください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -509,7 +509,7 @@ export default function UedaTsumugiPage() {
                 ポイント2：紬に詳しい着物専門業者を選ぶ
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                上田紬は流通量が少なく、一般的なリサイクルショップでは他の紬と区別されずに扱われることがあります。信州紬・産地織物の知識がある着物専門の買取業者に依頼しましょう。
+                上田紬は流通量が少なく、一般的なリサイクルショップでは他の紬と区別されずに扱われることがあります。信州紬・産地織物の知識がある着物専門の買取業者に依頼することをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -517,7 +517,7 @@ export default function UedaTsumugiPage() {
                 ポイント3：複数業者で相見積もりを取る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                流通量が少ない織物は業者によって評価や販路が異なり、査定額に差が出やすくなります。最低でも複数社に無料査定を依頼し、提示された金額と説明を比較してから売却先を決めましょう。
+                流通量が少ない織物は業者によって評価や販路が異なり、査定額に差が出やすくなります。最低でも複数社に無料査定を依頼し、提示された金額と説明を比較してから売却先を決めてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -699,7 +699,7 @@ export default function UedaTsumugiPage() {
               上田紬を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              上田紬は証紙・織元・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              上田紬は証紙・織元・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -714,7 +714,7 @@ export default function UedaTsumugiPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・織元・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・織元・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -807,7 +807,7 @@ export default function UedaTsumugiPage() {
             上田紬の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            上田紬の買取相場はあくまで目安です。証紙・織元・状態によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの上田紬の正確な価値を確認しましょう。
+            上田紬の買取相場はあくまで目安です。証紙・織元・状態によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの上田紬の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

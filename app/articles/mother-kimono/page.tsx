@@ -51,7 +51,7 @@ const faqStructuredData = {
       name: "母親の着物は全部残すべきですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "すべて残す必要はありません。思い出深い1〜2枚を形見として残し、残りは売却やリメイクなど有効活用するのが現実的です。保管スペースや管理の手間も考慮しましょう。",
+        text: "すべて残す必要はありません。思い出深い1〜2枚を形見として残し、残りは売却やリメイクなど有効活用するのが現実的です。保管スペースや管理の手間も考慮してください。",
       },
     },
     {
@@ -339,7 +339,7 @@ export default function MotherKimonoPage() {
           <div className="bg-[#faf8f5] border-l-4 border-[#c9a76c] p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold">ポイント：</span>
-              残す着物は「具体的な用途や理由がある」ものに絞りましょう。
+              残す着物は「具体的な用途や理由がある」ものに絞ってください。
               「いつか着るかもしれない」という曖昧な理由で残すと、結局タンスの肥やしになり、
               保管中に劣化してしまうリスクがあります。
             </p>
@@ -370,7 +370,7 @@ export default function MotherKimonoPage() {
                     着る予定がまったくない
                   </td>
                   <td className="px-4 py-3 text-gray-600">
-                    着物は着てこそ価値があります。着る機会がなければ、次の持ち主に届けてあげましょう。
+                    着物は着てこそ価値があります。着る機会がなければ、次の持ち主に届けてあげてください。
                     保管しているだけで劣化は進みます。
                   </td>
                 </tr>
@@ -398,7 +398,7 @@ export default function MotherKimonoPage() {
                   </td>
                   <td className="px-4 py-3 text-gray-600">
                     訪問着が5枚、小紋が10枚など同じ種類が大量にある場合、
-                    すべて残す必要はありません。特にお気に入りの1〜2枚を残して残りは売却しましょう。
+                    すべて残す必要はありません。特にお気に入りの1〜2枚を残して残りは売却してください。
                   </td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0]">
@@ -443,7 +443,7 @@ export default function MotherKimonoPage() {
                 全体量を把握する
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-2">
-                まずはすべての着物をたんすから出して、一覧できる状態にしましょう。
+                まずはすべての着物をたんすから出して、一覧できる状態にしてください。
                 種類ごと（振袖、訪問着、留袖、小紋、紬、帯、小物）に分けて並べると
                 全体像が把握しやすくなります。
               </p>
@@ -461,7 +461,7 @@ export default function MotherKimonoPage() {
                 状態をチェックする
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-2">
-                1枚ずつ広げて、以下のポイントをチェックしましょう。
+                1枚ずつ広げて、以下のポイントをチェックしてください。
               </p>
               <ul className="text-sm text-gray-600 space-y-1 ml-4">
                 <li>・シミ、黄ばみ、カビの有無</li>
@@ -507,7 +507,7 @@ export default function MotherKimonoPage() {
                 家族と相談する
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                仕分けの結果を家族と共有し、意見をすり合わせましょう。
+                仕分けの結果を家族と共有し、意見をすり合わせてください。
                 特に兄弟姉妹がいる場合は、形見として欲しいものがないか確認することが重要です。
                 後々のトラブルを防ぐためにも、この段階で全員の合意を得ておくことをおすすめします。
               </p>
@@ -521,10 +521,10 @@ export default function MotherKimonoPage() {
                 売却・処分を実行する
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                売ると決めた着物は、着物専門の買取業者に査定を依頼しましょう。
+                売ると決めた着物は、着物専門の買取業者に査定を依頼することをおすすめします。
                 複数の業者に見積もりを取ることで、適正な価格で売却できます。
                 処分する着物は、自治体のルールに従って廃棄するか、
-                古布として回収してくれるサービスを利用しましょう。
+                古布として回収してくれるサービスをご利用ください。
               </p>
             </div>
           </div>
@@ -552,7 +552,7 @@ export default function MotherKimonoPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#c9a76c] mt-1">&#9656;</span>
-                  目上の方に形見分けをするのは失礼にあたるとされる場合もあるので、相手の関係性を考慮しましょう。
+                  目上の方に形見分けをするのは失礼にあたるとされる場合もあるので、相手の関係性を考慮してください。
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#c9a76c] mt-1">&#9656;</span>
@@ -560,7 +560,7 @@ export default function MotherKimonoPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#c9a76c] mt-1">&#9656;</span>
-                  着物をもらう側にも保管スペースが必要です。事前に希望を確認しましょう。
+                  着物をもらう側にも保管スペースが必要です。事前に希望をご確認ください。
                 </li>
               </ul>
             </div>
@@ -570,7 +570,7 @@ export default function MotherKimonoPage() {
                 形見分け後の着物整理のタイミング
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                形見分けが終わったら、残った着物の売却に進みましょう。
+                形見分けが終わったら、残った着物の売却に進んでください。
                 着物の劣化を防ぐためにも、形見分け後はなるべく早く行動するのがおすすめです。
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
@@ -585,7 +585,7 @@ export default function MotherKimonoPage() {
                 親族間でトラブルを避けるために
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                着物の整理は親族間でトラブルになりやすい問題です。以下の点に注意しましょう。
+                着物の整理は親族間でトラブルになりやすい問題です。以下の点にご注意ください。
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
@@ -616,7 +616,7 @@ export default function MotherKimonoPage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             母親の着物を売ると決めたら、どこに売るかが重要です。
-            売却先によって買取価格は大きく異なるため、慎重に選びましょう。
+            売却先によって買取価格は大きく異なるため、慎重に選ぶことをおすすめします。
           </p>
 
           <div className="space-y-4 mb-6">
@@ -680,7 +680,7 @@ export default function MotherKimonoPage() {
               大量の着物を一度に査定してもらえる出張買取は、母親の着物の整理に最適です。
               自宅に来てもらえるので重い着物を持ち運ぶ必要がなく、
               査定員の説明を聞きながら1点ずつ売るかどうか判断できます。
-              信頼できる着物専門の買取業者を選びましょう。
+              信頼できる着物専門の買取業者を選ぶことをおすすめします。
             </p>
             <Link
               href="/ranking/"
@@ -822,7 +822,7 @@ export default function MotherKimonoPage() {
                 A.
                 すべて残す必要はありません。思い出深い1〜2枚を形見として残し、
                 残りは売却やリメイクなど有効活用するのが現実的です。
-                保管スペースや管理の手間も考慮しましょう。
+                保管スペースや管理の手間も考慮してください。
                 着物は適切に保管しないとカビや虫食いで劣化してしまうため、
                 管理できる量に絞ることが大切です。
               </div>
@@ -917,7 +917,7 @@ export default function MotherKimonoPage() {
             </p>
             <p className="text-gray-700 text-sm leading-relaxed mb-4">
               後悔しないためのポイントは、「残す理由が明確な着物だけを残す」こと。
-              そして売ると決めた着物は、着物専門の買取業者に依頼して適正価格で売却しましょう。
+              そして売ると決めた着物は、着物専門の買取業者に依頼して適正価格で売却してください。
               複数業者に見積もりを取ることで、納得のいく価格で手放すことができます。
             </p>
             <p className="text-gray-700 text-sm leading-relaxed">
@@ -934,7 +934,7 @@ export default function MotherKimonoPage() {
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             着物の価値を知ることが、整理の第一歩です。<br />
-            信頼できる着物買取業者に無料査定を依頼してみましょう。
+            信頼できる着物買取業者に無料査定を依頼してんでください。
           </p>
           <Link
             href="/ranking/"

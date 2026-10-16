@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "着物買取 福岡のおすすめ業者5選｜博多織も高価買取",
   description:
-    "福岡で着物を売るならどこがおすすめ？博多織・久留米絣など福岡ゆかりの着物も高価買取。出張買取・持ち込み・宅配対応のおすすめ業者5選を徹底比較します。",
+    "福岡で着物を売るならどこがおすすめ？博多織・久留米絣など福岡ゆかりの着物も高価買取。出張買取・持ち込み・宅配対応のおすすめ業者5選を比較します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/fukuoka/",
   },
@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "シミや汚れのある着物でも福岡で買い取ってもらえますか？",
     answer:
-      "はい、買取大吉やウリエルはシミ・汚れ・色褪せがある着物でも査定してくれます。状態が悪い場合でも素材や産地によっては値段がつく場合があります。まずは無料査定に出して確認しましょう。",
+      "はい、買取大吉やウリエルはシミ・汚れ・色褪せがある着物でも査定してくれます。状態が悪い場合でも素材や産地によっては値段がつく場合があります。まずは無料査定に出してご確認ください。",
   },
 ];
 
@@ -156,7 +156,7 @@ export default function FukuokaPage() {
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              福岡で着物を売りたい方に向けて、博多織・久留米絣など地元ゆかりの着物も高価買取してくれるおすすめ業者5選を徹底比較。出張買取・持ち込み・宅配対応の情報もまとめました。
+              福岡で着物を売りたい方に向けて、博多織・久留米絣など地元ゆかりの着物も高価買取してくれるおすすめ業者5選を比較。出張買取・持ち込み・宅配対応の情報もまとめました。
             </p>
             <p className="mt-3 text-xs text-gray-400">
               最終更新：2026年4月26日
@@ -537,7 +537,7 @@ export default function FukuokaPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：博多織は証紙と一緒に査定へ</h3>
-              <p className="text-sm leading-relaxed text-gray-700">博多織の帯は証紙（伝統的工芸品証紙・博多織工業組合の証紙）が付いていると査定額が大きくアップします。金印・銀印の区別で価格帯も変わるため、必ず一緒に出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">博多織の帯は証紙（伝統的工芸品証紙・博多織工業組合の証紙）が付いていると査定額が大きくアップします。金印・銀印の区別で価格帯も変わるため、必ず一緒に出してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：久留米絣は手織り・本藍染めが高額</h3>
@@ -545,15 +545,15 @@ export default function FukuokaPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：着物専門の業者を選ぶ</h3>
-              <p className="text-sm leading-relaxed text-gray-700">総合リサイクルショップでは博多織や久留米絣の価値を見落とされる場合があります。買取大吉やウリエルなど着物専門の査定員がいる業者を選びましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">総合リサイクルショップでは博多織や久留米絣の価値を見落とされる場合があります。買取大吉やウリエルなど着物専門の査定員がいる業者を選ぶことをおすすめします。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：複数社で見積もりを比較する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">3社以上に査定を依頼して比較しましょう。ヒカカクの一括比較を使えば手間なく最高額を見つけられます。福岡は業者の選択肢が多い地域です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">3社以上に査定を依頼して比較することをおすすめします。ヒカカクの一括比較を使えば手間なく最高額を見つけられます。福岡は業者の選択肢が多い地域です。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：梅雨前に売却を検討する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">福岡は梅雨が長く湿度が高い地域です。カビやシミの発生リスクが高まる前に売却するのがベスト。状態が良いうちに査定に出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">福岡は梅雨が長く湿度が高い地域です。カビやシミの発生リスクが高まる前に売却するのがベスト。状態が良いうちに査定に出してください。</p>
             </div>
           </div>
         </div>
@@ -596,7 +596,7 @@ export default function FukuokaPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/osaka/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">大阪の着物買取業者5選</h3>
@@ -617,7 +617,7 @@ export default function FukuokaPage() {
             福岡で着物を売るなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            博多織や久留米絣など、福岡ならではの着物も適正価格で買取。複数業者の無料査定で最高額を確認しましょう。
+            博多織や久留米絣など、福岡ならではの着物も適正価格で買取。複数業者の無料査定で最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

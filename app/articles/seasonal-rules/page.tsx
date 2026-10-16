@@ -294,7 +294,7 @@ export default function SeasonalRulesPage() {
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
             <p className="text-sm leading-relaxed text-gray-700">
               <strong className="text-[#6b4c8a]">単衣を仕立てる際のポイント：</strong>
-              単衣は裏地がないため、表地の生地感がそのまま表れます。生地が透けやすい薄い色の場合は、居敷当て（いしきあて）という部分的な裏地を付けることがあります。また、単衣は裏地による補強がないため、袷より生地が傷みやすい傾向があります。<Link href="/articles/storage-guide/" className="text-[#6b4c8a] hover:underline">保管方法</Link>に注意して長持ちさせましょう。
+              単衣は裏地がないため、表地の生地感がそのまま表れます。生地が透けやすい薄い色の場合は、居敷当て（いしきあて）という部分的な裏地を付けることがあります。また、単衣は裏地による補強がないため、袷より生地が傷みやすい傾向があります。<Link href="/articles/storage-guide/" className="text-[#6b4c8a] hover:underline">保管方法</Link>に注意して長持ちさせてください。
             </p>
           </div>
         </div>

@@ -6,14 +6,14 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "着物買取 金沢のおすすめ業者5選｜加賀友禅に強い石川県の業者",
   description:
-    "金沢・石川県で着物を売るならどこがおすすめ？加賀友禅に強い着物買取業者5選を徹底比較。出張買取・宅配対応の業者を口コミ・評判とともにご紹介します。",
+    "金沢・石川県で着物を売るならどこがおすすめ？加賀友禅に強い着物買取業者5選を比較。出張買取・宅配対応の業者を口コミ・評判とともにご紹介します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kanazawa/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取 金沢のおすすめ業者5選｜加賀友禅に強い石川県の業者",
     description:
-      "金沢・石川県で着物を売るならどこがおすすめ？加賀友禅に強い着物買取業者5選を徹底比較。出張買取・宅配対応の業者を口コミ・評判とともにご紹介します。",
+      "金沢・石川県で着物を売るならどこがおすすめ？加賀友禅に強い着物買取業者5選を比較。出張買取・宅配対応の業者を口コミ・評判とともにご紹介します。",
     url: "https://kimonokaitori-biyori.com/articles/kanazawa/",
     siteName: "着物の買取びより",
     type: "article",
@@ -155,7 +155,7 @@ export default function KanazawaPage() {
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              金沢・石川県で着物を売りたい方に向けて、加賀友禅・牛首紬などの伝統工芸品に強いおすすめ業者5選を徹底比較。石川県は日本有数の着物産地であり、適正な価値を見極められる専門業者選びが高額買取の鍵です。
+              金沢・石川県で着物を売りたい方に向けて、加賀友禅・牛首紬などの伝統工芸品に強いおすすめ業者5選を比較。石川県は日本有数の着物産地であり、適正な価値を見極められる専門業者選びが高額買取の鍵です。
             </p>
             <p className="mt-3 text-xs text-gray-400">
               最終更新：2026年5月17日
@@ -597,19 +597,19 @@ export default function KanazawaPage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：加賀友禅の証紙・落款を確認する</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                加賀友禅には石川県染色組合が発行する証紙と、作家の落款が入っています。これらが揃っていれば真贋の証明になり、査定額が大幅にアップします。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙の見方</Link>を事前に確認しておきましょう。
+                加賀友禅には石川県染色組合が発行する証紙と、作家の落款が入っています。これらが揃っていれば真贋の証明になり、査定額が大幅にアップします。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙の見方</Link>を事前に確認しておいてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：着物専門の査定員に依頼する</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                加賀友禅や牛首紬の価値を正しく評価できるのは着物専門の査定員だけです。総合リサイクルショップでは伝統工芸品の価値が見逃されることが多いため、買取大吉やウリエルなど専門知識を持つ業者に依頼しましょう。
+                加賀友禅や牛首紬の価値を正しく評価できるのは着物専門の査定員だけです。総合リサイクルショップでは伝統工芸品の価値が見逃されることが多いため、買取大吉やウリエルなど専門知識を持つ業者に依頼することをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：複数社に見積もりを取る</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                加賀友禅のような高額着物は業者によって査定額に大きな差が出ます。最低3社以上に見積もりを依頼し、ヒカカクの一括査定も活用して最高額を引き出しましょう。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] hover:underline">高く売るコツ</Link>も参考にしてください。
+                加賀友禅のような高額着物は業者によって査定額に大きな差が出ます。最低3社以上に見積もりを依頼し、ヒカカクの一括査定も活用して最高額を引き出してください。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] hover:underline">高く売るコツ</Link>も参考にしてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -735,7 +735,7 @@ export default function KanazawaPage() {
             </Link>
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">おすすめ5社を徹底比較。口コミ・評判・実績まで。</p>
+              <p className="text-xs text-gray-600">おすすめ5社を比較。口コミ・評判・実績まで。</p>
             </Link>
           </div>
         </div>
@@ -748,7 +748,7 @@ export default function KanazawaPage() {
             金沢で着物を売るなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            加賀友禅・牛首紬など石川県の伝統工芸品は専門査定員に見てもらうことが大切。複数業者の無料査定で最高額を確認しましょう。
+            加賀友禅・牛首紬など石川県の伝統工芸品は専門査定員に見てもらうことが大切。複数業者の無料査定で最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

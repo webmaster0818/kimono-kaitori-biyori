@@ -17,11 +17,11 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { question: "総絞りの振袖はどのくらいで売れますか？", answer: "総絞りの振袖は制作に年単位の時間がかかる非常に高価な着物です。証紙付きの本絞り（京鹿の子絞り）であれば10万円〜50万円以上の買取が期待できます。ただし、プリント絞り風のものは数千円程度になります。買取大吉やウリエルなど専門業者に査定を依頼しましょう。" },
+  { question: "総絞りの振袖はどのくらいで売れますか？", answer: "総絞りの振袖は制作に年単位の時間がかかる非常に高価な着物です。証紙付きの本絞り（京鹿の子絞り）であれば10万円〜50万円以上の買取が期待できます。ただし、プリント絞り風のものは数千円程度になります。買取大吉やウリエルなど専門業者に査定を依頼することをおすすめします。" },
   { question: "有松絞りの浴衣は買取してもらえますか？", answer: "はい、有松絞りの浴衣は伝統的工芸品として需要があり、証紙付きであれば3,000円〜3万円程度の買取が期待できます。本藍染めの有松絞りは特に高く評価されます。" },
   { question: "絞り染めとプリント絞り風はどう見分けますか？", answer: "本物の絞り染めは生地に凹凸（しぼ）があり、裏面にも柄が出ています。プリント絞り風は生地が平らで裏面は白いままです。また、本絞りは1粒1粒手で括っているため微妙な個体差があります。" },
   { question: "辻が花の着物は高く売れますか？", answer: "辻が花は室町〜桃山時代に流行した幻の染色技法で、現代作家による辻が花の作品は非常に高額です。久保田一竹の辻が花は10万円〜100万円以上の買取実績があります。" },
-  { question: "絞り染めの着物を高く売るコツは？", answer: "証紙を一緒に出す、本絞りかプリント風かを確認する、総絞りは特に複数社で比較する、着物専門の業者に依頼する、の4つが重要です。特に総絞りは業者間で査定額の差が大きいため、ヒカカクの一括比較を活用しましょう。" },
+  { question: "絞り染めの着物を高く売るコツは？", answer: "証紙を一緒に出す、本絞りかプリント風かを確認する、総絞りは特に複数社で比較する、着物専門の業者に依頼する、の4つが重要です。特に総絞りは業者間で査定額の差が大きいため、ヒカカクの一括比較を活用してください。" },
 ];
 
 const articleStructuredData = {
@@ -238,19 +238,19 @@ export default function ShiboriPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：証紙を確認して一緒に出す</h3>
-              <p className="text-sm leading-relaxed text-gray-700">有松絞りの伝統工芸品証紙、京鹿の子絞りの産地証紙など、証紙があると買取額が大きくアップします。たとう紙の中に挟まっていないか確認しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">有松絞りの伝統工芸品証紙、京鹿の子絞りの産地証紙など、証紙があると買取額が大きくアップします。たとう紙の中に挟まっていないかご確認ください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：本絞りかプリント風かを把握する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">生地の凹凸や裏面の色を確認して、本絞りかプリント風かを把握しておきましょう。本絞りであることがわかると査定がスムーズです。</p>
+              <p className="text-sm leading-relaxed text-gray-700">生地の凹凸や裏面の色を確認して、本絞りかプリント風かを把握しておいてください。本絞りであることがわかると査定がスムーズです。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：着物専門の業者に依頼する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">総絞りや辻が花は非常に高価な着物ですが、専門知識のない業者では適正な評価が難しくなります。買取大吉やウリエルなど着物専門の査定員に依頼しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">総絞りや辻が花は非常に高価な着物ですが、専門知識のない業者では適正な評価が難しくなります。買取大吉やウリエルなど着物専門の査定員に依頼することをおすすめします。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：複数社で比較する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">絞り染めは業者によって査定額の差が特に大きいジャンルです。ヒカカクの一括比較を活用して3社以上の見積もりを取りましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">絞り染めは業者によって査定額の差が特に大きいジャンルです。ヒカカクの一括比較を活用して3社以上の見積もりを取ってください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：アイロンをかけない</h3>
@@ -311,7 +311,7 @@ export default function ShiboriPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/nagoya/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">名古屋の着物買取業者5選</h3>
@@ -329,7 +329,7 @@ export default function ShiboriPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">絞り染めの着物を売るなら、まず無料査定から</h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            総絞りや辻が花など高額買取が期待できる絞り染め。証紙と一緒に無料査定に出して最高額を確認しましょう。
+            総絞りや辻が花など高額買取が期待できる絞り染め。証紙と一緒に無料査定に出して最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>

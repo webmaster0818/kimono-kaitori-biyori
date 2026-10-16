@@ -17,7 +17,7 @@ export default function MarketPriceIndex() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">買取相場</span>
           <h1 className="text-2xl md:text-3xl font-bold mb-3"><span className="text-gradient">着物の買取相場</span></h1>
-          <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">着物の種類別に買取相場の目安をまとめました。お持ちの着物がどのくらいで売れるか、種類から確認してみましょう。</p>
+          <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">着物の種類別に買取相場の目安をまとめました。お持ちの着物がどのくらいで売れるか、種類から確認してんでください。</p>
           <p className="mt-3 text-xs text-gray-400">※掲載の相場はあくまで目安です。実際の査定額は状態・需要・業者により変動します。</p>
         </div>
       </section>

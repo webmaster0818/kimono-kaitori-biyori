@@ -25,7 +25,7 @@ const faqs = [
   { question: "絣や紬の着物も買取してもらえますか？", answer: "はい、広瀬絣・出雲織などの絣・紬は買取対象です。手織りの上質品や証紙付き・作家物は特に評価されます。1点では値がつきにくい場合でも、まとめ買取なら評価されることが多いので、まとめて査定に出すのがおすすめです。" },
   { question: "島根県内で着物の出張買取は無料で来てもらえますか？", answer: "主要な着物買取業者であれば、松江市・出雲市・浜田市・安来市など県内全域で無料の出張買取に対応しています。買取大吉やウリエルは出張費・査定料・キャンセル料すべて無料で、自宅にいながら査定を受けられます。まずは電話やLINEで対応エリアを確認するとスムーズです。" },
   { question: "島根で大量の着物をまとめて売れますか？", answer: "はい、出張買取を利用すれば点数制限なく大量の着物をまとめて売却できます。蔵や箪笥に眠っている着物・帯・和装小物をまとめて査定してもらうことで、1点ずつでは値がつきにくい品もまとめ買取で評価されるケースがあります。遺品整理や生前整理でまとまった量がある場合は、事前に点数を伝えておくとスムーズです。" },
-  { question: "島根の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取りましょう。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
+  { question: "島根の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取ってください。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
 ];
 
 const articleStructuredData = {
@@ -107,7 +107,7 @@ export default function ShimanePage() {
         <div className="max-w-4xl mx-auto px-4 mt-4 mb-12">
           <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
             <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
-            <p>島根で着物を高く売るなら、広瀬絣・出雲織などの絣織物に詳しい専門業者へ出張買取を依頼するのが最善です。上質な絵絣や証紙付きはきちんと評価されるので、必ず2〜3社で相見積もりを取りましょう。</p>
+            <p>島根で着物を高く売るなら、広瀬絣・出雲織などの絣織物に詳しい専門業者へ出張買取を依頼するのが最善です。上質な絵絣や証紙付きはきちんと評価されるので、必ず2〜3社で相見積もりを取ってください。</p>
           </div>
         </div>
 
@@ -137,7 +137,7 @@ export default function ShimanePage() {
           </div>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
-            <p className="text-sm text-gray-700 leading-relaxed">広瀬絣・出雲織などは、産地の証紙や手織りの証明があると査定額が変わります。出雲織の作家物や正絹の紬・帯は特に証紙が重要なので、たとう紙の証明書も必ず一緒に査定へ出しましょう。</p>
+            <p className="text-sm text-gray-700 leading-relaxed">広瀬絣・出雲織などは、産地の証紙や手織りの証明があると査定額が変わります。出雲織の作家物や正絹の紬・帯は特に証紙が重要なので、たとう紙の証明書も必ず一緒に査定へ出してください。</p>
           </div>
           <p className="text-sm text-gray-700 leading-relaxed mt-4">
             大島紬や結城紬など全国の産地織物をお持ちの場合は、公開オークションの落札実績をもとにした当サイトの<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">実売データ一覧（調査方法と掲載織物）</Link>もあわせてご覧ください。
@@ -197,7 +197,7 @@ export default function ShimanePage() {
             <span className="text-[#c9a76c]">4.</span> 島根で着物を高く売る3つのコツ
           </h2>
           <ol className="space-y-3 text-sm text-gray-700">
-            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />広瀬絣・出雲織は上質な絵絣・手織り・証紙付きが評価されます。作家物は証明書を必ず添えましょう。</li>
+            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />広瀬絣・出雲織は上質な絵絣・手織り・証紙付きが評価されます。作家物は証明書を必ず添えてください。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">② 2〜3社で相見積もりを取る</span><br />産地物に強い業者を含めて比較。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] underline">高く売るコツ</Link>も参考に。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">③ 早めに・まとめて売る</span><br />着物は時間とともに劣化します。帯・小物もセットで出すと評価が上がります。</li>
           </ol>
@@ -238,7 +238,7 @@ export default function ShimanePage() {
           <h3 className="text-white text-xl font-bold mb-3">島根の着物、まずは無料査定で価値を確認</h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             広瀬絣・出雲織など、島根の織物は専門業者の目で正しく評価されます。<br />
-            信頼できる着物買取業者をランキングで比較してみましょう。
+            信頼できる着物買取業者をランキングで比較してんでください。
           </p>
           <Link href="/ranking/" className="inline-block bg-[#c9a76c] text-white font-bold px-8 py-4 rounded-lg hover:bg-[#b8965b] transition-colors">
             おすすめ着物買取業者ランキングを見る

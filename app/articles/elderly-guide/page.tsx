@@ -24,7 +24,7 @@ const faqs = [
   {
     question: "80代の祖母一人でも出張買取を依頼して大丈夫ですか？",
     answer:
-      "大手買取業者であれば安心して依頼できます。ウリエルや買取大吉は女性査定員の指名が可能で、丁寧な対応に定評があります。ただし、ご心配であればご家族が同席されることをおすすめします。電話での事前相談も可能なので、不安な点は事前に確認しておきましょう。クーリングオフ制度（8日間）も適用されるため、万が一のときも安心です。",
+      "大手買取業者であれば安心して依頼できます。ウリエルや買取大吉は女性査定員の指名が可能で、丁寧な対応に定評があります。ただし、ご心配であればご家族が同席されることをおすすめします。電話での事前相談も可能なので、不安な点は事前に確認しておいてください。クーリングオフ制度（8日間）も適用されるため、万が一のときも安心です。",
   },
   {
     question: "認知症の家族の着物を代わりに売ることはできますか？",
@@ -44,7 +44,7 @@ const faqs = [
   {
     question: "生前整理として着物を買取してもらう場合の注意点は？",
     answer:
-      "生前整理で着物を買取に出す場合は、(1)家族に相談してから進める、(2)思い出の品は残す・売る・譲るを分けておく、(3)証紙や購入証明書を探しておく、(4)複数の業者に見積もりを依頼する、(5)急がされても即決しない、の5点に注意しましょう。また、クーリングオフ制度を知っておくと安心です。",
+      "生前整理で着物を買取に出す場合は、(1)家族に相談してから進める、(2)思い出の品は残す・売る・譲るを分けておく、(3)証紙や購入証明書を探しておく、(4)複数の業者に見積もりを依頼する、(5)急がされても即決しない、の5点にご注意ください。また、クーリングオフ制度を知っておくと安心です。",
   },
 ];
 
@@ -230,7 +230,7 @@ export default function ElderlyGuidePage() {
             高齢者が注意すべき悪質業者の手口
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            国民生活センターには毎年、高齢者からの「訪問購入」に関する相談が多数寄せられています。以下のような手口に注意しましょう。詳しくは<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] hover:underline">着物買取トラブル防止ガイド</Link>もご覧ください。
+            国民生活センターには毎年、高齢者からの「訪問購入」に関する相談が多数寄せられています。以下のような手口にご注意ください。詳しくは<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] hover:underline">着物買取トラブル防止ガイド</Link>もご覧ください。
           </p>
 
           <div className="space-y-4">
@@ -274,7 +274,7 @@ export default function ElderlyGuidePage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. 古物商許可証を持っている</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                中古品の売買には古物商許可証が必須です。Webサイトや名刺に許可番号が記載されているか確認しましょう。買取大吉やウリエルなど大手業者は、公式サイトに許可番号を明記しています。
+                中古品の売買には古物商許可証が必須です。Webサイトや名刺に許可番号が記載されているかご確認ください。買取大吉やウリエルなど大手業者は、公式サイトに許可番号を明記しています。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -286,19 +286,19 @@ export default function ElderlyGuidePage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">3. クーリングオフの説明がある</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                出張買取（訪問購入）ではクーリングオフ制度が適用されます。契約時に書面でクーリングオフについて説明してくれる業者は信頼できます。不明点があれば査定員に遠慮なく質問しましょう。
+                出張買取（訪問購入）ではクーリングオフ制度が適用されます。契約時に書面でクーリングオフについて説明してくれる業者は信頼できます。不明点があれば査定員に遠慮なく質問してください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">4. キャンセルが自由にできる</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                査定額に納得できない場合、無理な営業をせずにキャンセルを受け入れてくれる業者を選びましょう。買取大吉・ウリエル・RECLOはいずれもキャンセル料無料で、断っても費用は一切かかりません。
+                査定額に納得できない場合、無理な営業をせずにキャンセルを受け入れてくれる業者を選ぶことをおすすめします。買取大吉・ウリエル・RECLOはいずれもキャンセル料無料で、断っても費用は一切かかりません。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">5. 口コミ・評判が良い</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                Googleの口コミやSNSでの評判を確認しましょう。特に「対応が丁寧だった」「高齢の母でも安心できた」といった口コミがある業者は信頼性が高い傾向があります。<Link href="/ranking/" className="text-[#6b4c8a] hover:underline">おすすめランキング</Link>も参考にしてください。
+                Googleの口コミやSNSでの評判をご確認ください。特に「対応が丁寧だった」「高齢の母でも安心できた」といった口コミがある業者は信頼性が高い傾向があります。<Link href="/ranking/" className="text-[#6b4c8a] hover:underline">おすすめランキング</Link>も参考にしてください。
               </p>
             </div>
           </div>
@@ -484,21 +484,21 @@ export default function ElderlyGuidePage() {
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#6b4c8a] text-white flex items-center justify-center font-bold text-lg">2</div>
               <div>
                 <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">訪問日時の調整</h3>
-                <p className="text-sm text-gray-700">都合の良い日時を指定します。可能であればご家族が同席できる日を選びましょう。女性査定員を希望する場合はこの時点で伝えます。</p>
+                <p className="text-sm text-gray-700">都合の良い日時を指定します。可能であればご家族が同席できる日を選ぶことをおすすめします。女性査定員を希望する場合はこの時点で伝えます。</p>
               </div>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex gap-4">
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#6b4c8a] text-white flex items-center justify-center font-bold text-lg">3</div>
               <div>
                 <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">査定員が訪問・査定</h3>
-                <p className="text-sm text-gray-700">約束の日時に査定員が訪問します。本人確認書類（運転免許証・健康保険証・マイナンバーカード等）を用意しておきましょう。査定は1時間程度で終わることが多く見られます。</p>
+                <p className="text-sm text-gray-700">約束の日時に査定員が訪問します。本人確認書類（運転免許証・健康保険証・マイナンバーカード等）を用意しておいてください。査定は1時間程度で終わることが多く見られます。</p>
               </div>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex gap-4">
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#6b4c8a] text-white flex items-center justify-center font-bold text-lg">4</div>
               <div>
                 <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">査定額の提示・検討</h3>
-                <p className="text-sm text-gray-700">各着物の査定額が提示されます。<strong>その場で即決する必要はありません。</strong>「家族と相談してから返事します」と伝えて問題ありません。他社との比較も検討しましょう。</p>
+                <p className="text-sm text-gray-700">各着物の査定額が提示されます。<strong>その場で即決する必要はありません。</strong>「家族と相談してから返事します」と伝えて問題ありません。他社との比較もご検討ください。</p>
               </div>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex gap-4">
@@ -553,7 +553,7 @@ export default function ElderlyGuidePage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">業者選び・見積もり依頼を代行する</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                インターネットでの業者比較や、ヒカカクでの一括見積もり依頼はご家族が代行できます。複数社の見積もり結果をまとめて、一緒に最適な業者を選びましょう。
+                インターネットでの業者比較や、ヒカカクでの一括見積もり依頼はご家族が代行できます。複数社の見積もり結果をまとめて、一緒に最適な業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -565,13 +565,13 @@ export default function ElderlyGuidePage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">証紙・証明書を事前に確認する</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                着物の付属品（証紙・落款・購入証明書・たとう紙）を事前に探しておきましょう。これらの有無で査定額が大きく変わります。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙の見方ガイド</Link>を参考に確認してください。
+                着物の付属品（証紙・落款・購入証明書・たとう紙）を事前に探しておいてください。これらの有無で査定額が大きく変わります。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙の見方ガイド</Link>を参考に確認してください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">思い出の整理を手伝う</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                着物には思い出が詰まっています。「これは結婚式のとき」「これはお茶の先生からもらった」など、思い出話を聞きながら、残すもの・売るもの・譲るものを一緒に整理しましょう。記念写真を撮っておくのも良い方法です。
+                着物には思い出が詰まっています。「これは結婚式のとき」「これはお茶の先生からもらった」など、思い出話を聞きながら、残すもの・売るもの・譲るものを一緒に整理してください。記念写真を撮っておくのも良い方法です。
               </p>
             </div>
           </div>
@@ -623,7 +623,7 @@ export default function ElderlyGuidePage() {
             </Link>
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">おすすめ5社を徹底比較。口コミ・評判・実績まで。</p>
+              <p className="text-xs text-gray-600">おすすめ5社を比較。口コミ・評判・実績まで。</p>
             </Link>
           </div>
         </div>

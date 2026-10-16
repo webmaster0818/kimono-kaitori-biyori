@@ -5,16 +5,16 @@ import SoubaNote from "../../components/SoubaNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
-  title: "ザ・ゴールドの着物買取｜口コミ・評判を徹底検証",
+  title: "ザ・ゴールドの着物買取｜口コミ・評判を検証",
   description:
-    "ザ・ゴールドの着物買取サービスを徹底検証。全国70店舗以上の直営店展開、着物専門査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
+    "ザ・ゴールドの着物買取サービスを検証。全国70店舗以上の直営店展開、着物専門査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/the-gold/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "ザ・ゴールドの着物買取｜口コミ・評判を徹底検証",
+    title: "ザ・ゴールドの着物買取｜口コミ・評判を検証",
     description:
-      "ザ・ゴールドの着物買取サービスを徹底検証。直営店展開と着物専門査定の実力を公開情報と実売データにもとづいてレビュー。",
+      "ザ・ゴールドの着物買取サービスを検証。直営店展開と着物専門査定の実力を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/the-gold/",
     siteName: "着物の買取びより",
     type: "article",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "ザ・ゴールドの着物買取｜口コミ・評判を徹底検証",
+  headline: "ザ・ゴールドの着物買取｜口コミ・評判を検証",
   description:
-    "ザ・ゴールドの着物買取サービスを徹底検証。直営店展開と着物専門査定の実力を公開情報と実売データにもとづいてレビュー。",
+    "ザ・ゴールドの着物買取サービスを検証。直営店展開と着物専門査定の実力を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -175,7 +175,7 @@ export default function TheGoldReviewPage() {
             ザ・ゴールドの着物買取
             <br className="md:hidden" />
             <span className="text-[#6b4c8a]">口コミ・評判</span>
-            を徹底検証
+            を検証
           </h1>
           <p className="text-gray-600 leading-relaxed">
             ザ・ゴールドは、株式会社マックスガイが運営する買取専門店で、全国70店舗以上をすべて直営で展開しています。着物買取にも力を入れており、着物の知識を持つ査定員が在籍。テレビCMでも知名度が高く、着物買取業界で確固たるポジションを築いています。本記事では、実際の口コミや評判をもとにザ・ゴールドの実力を検証します。

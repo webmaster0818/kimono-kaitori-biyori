@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "着物の虫干しの方法と時期｜正しいお手入れで価値を保つ",
   description:
-    "着物の虫干し（陰干し）の正しいやり方と最適な時期を解説。年に何回行うべきか、湿度や天候の条件、虫干しに必要な道具、注意点まで詳しく紹介。虫干しをすることで着物の価値を保ち、高額買取につなげましょう。",
+    "着物の虫干し（陰干し）の正しいやり方と最適な時期を解説。年に何回行うべきか、湿度や天候の条件、虫干しに必要な道具、注意点まで詳しく紹介。虫干しをすることで着物の価値を保ち、高額買取につなげてください。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/airing-guide/" },
   openGraph: { images: ["/og-default.png"], title: "着物の虫干しの方法と時期｜正しいお手入れで価値を保つ", description: "着物の虫干し方法と最適な時期を解説。カビ・虫食い予防のポイント。", url: "https://kimonokaitori-biyori.com/articles/airing-guide/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [
-  { question: "虫干しは年に何回行えばいいですか？", answer: "理想的には年に3回、季節の変わり目に行うのがベストです。伝統的には「土用干し（7月下旬〜8月上旬）」「虫干し（10月〜11月）」「寒干し（1月〜2月）」の3回が推奨されます。最低でも年に1回は行いましょう。忙しい場合は、箪笥の引き出しを開けて風を通すだけでも効果があります。" },
-  { question: "虫干しに適した天候の条件は？", answer: "晴天が2〜3日続いた後の、湿度の低い日が最適です。理想的な条件は湿度50%以下、気温15〜25度程度です。前日に雨が降った日は地面からの湿気が上がるため避けましょう。風通しは大切ですが、強風の日は着物が飛ばされるリスクがあるため注意が必要です。時間帯は午前10時〜午後3時頃が最適です。" },
+  { question: "虫干しは年に何回行えばいいですか？", answer: "理想的には年に3回、季節の変わり目に行うのがベストです。伝統的には「土用干し（7月下旬〜8月上旬）」「虫干し（10月〜11月）」「寒干し（1月〜2月）」の3回が推奨されます。最低でも年に1回は行ってください。忙しい場合は、箪笥の引き出しを開けて風を通すだけでも効果があります。" },
+  { question: "虫干しに適した天候の条件は？", answer: "晴天が2〜3日続いた後の、湿度の低い日が最適です。理想的な条件は湿度50%以下、気温15〜25度程度です。前日に雨が降った日は地面からの湿気が上がるため避けてください。風通しは大切ですが、強風の日は着物が飛ばされるリスクがあるため注意が必要です。時間帯は午前10時〜午後3時頃が最適です。" },
   { question: "虫干しの際に直射日光に当てても大丈夫ですか？", answer: "いいえ、着物は直射日光に当ててはいけません。紫外線により色褪せが起こるためです。必ず日陰で陰干ししてください。室内で行う場合は、カーテンを閉めた部屋で窓を開けて風通しをよくします。衣紋掛けに掛けて吊るすか、畳紙から出して広げるだけでも効果があります。" },
   { question: "虫干しをしていない着物は買取価格が下がりますか？", answer: "虫干しをしていないこと自体が直接の減額理由にはなりませんが、虫干しを怠った結果としてカビ・虫食い・シミが発生した場合は大幅に査定額が下がります。定期的な虫干しをしている着物は状態が良好に保たれるため、結果として高い買取価格がつきやすい傾向があります。" },
   { question: "虫干しの代わりにクリーニングに出した方がいいですか？", answer: "虫干しとクリーニングは目的が異なります。虫干しは湿気を飛ばしてカビや虫害を予防するための日常的なお手入れです。クリーニングは汚れを落とすためのもので、頻繁に行うと生地を傷める可能性があります。日常のお手入れは虫干しで十分で、クリーニングは着用後の汚れがひどい場合や長期保管前に行うのが適切です。" },
@@ -82,11 +82,11 @@ export default function AiringGuidePage() {
       <section id="how" className="py-10 section-light"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />虫干しの正しい手順</h2>
         <div className="space-y-5">
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順1：天気と湿度を確認する</h3><p className="text-sm leading-relaxed text-gray-700">虫干しは晴天が2〜3日続いた後の乾燥した日に行います。湿度計があれば50%以下を目安にします。天気予報で午後から雨の予報が出ている日は避けましょう。時間帯は午前10時〜午後3時が最適です。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順2：着物を箪笥から出す</h3><p className="text-sm leading-relaxed text-gray-700">たとう紙ごと着物を箪笥から出します。この時、箪笥の引き出しも開けて内部の湿気を飛ばしましょう。たとう紙は着物と別に広げて乾燥させます。湿気を吸って変色しているたとう紙は新しいものに交換しましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順3：衣紋掛けに掛けて陰干しする</h3><p className="text-sm leading-relaxed text-gray-700">着物用の衣紋掛け（着物ハンガー）に着物を掛け、日陰の風通しの良い場所で2〜4時間干します。直射日光は絶対に避けてください。色褪せの原因になります。室内で行う場合は、カーテン越しの窓際で窓を開けて風を通します。帯も同様に干しましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順4：状態をチェックする</h3><p className="text-sm leading-relaxed text-gray-700">干している間に着物の状態を丁寧にチェックします。シミ・汚れ・カビ・虫食い・色褪せがないか確認しましょう。裏地（八掛）の状態も忘れずに。問題を発見した場合は<Link href="/articles/stain-removal-cost/" className="text-[#6b4c8a] hover:underline">染み抜き</Link>や<Link href="/articles/mold-removal/" className="text-[#6b4c8a] hover:underline">カビ取り</Link>の対処を検討します。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順5：新しいたとう紙で包んで収納する</h3><p className="text-sm leading-relaxed text-gray-700">十分に乾燥させたら、新しいたとう紙（または状態の良いたとう紙）に包んで箪笥に戻します。防虫剤や防湿剤も一緒に入れ直しましょう。防虫剤は直接着物に触れない位置に置くこと。異なる種類の防虫剤を混ぜると化学反応を起こすことがあるため、1種類に統一します。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順1：天気と湿度を確認する</h3><p className="text-sm leading-relaxed text-gray-700">虫干しは晴天が2〜3日続いた後の乾燥した日に行います。湿度計があれば50%以下を目安にします。天気予報で午後から雨の予報が出ている日は避けてください。時間帯は午前10時〜午後3時が最適です。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順2：着物を箪笥から出す</h3><p className="text-sm leading-relaxed text-gray-700">たとう紙ごと着物を箪笥から出します。この時、箪笥の引き出しも開けて内部の湿気を飛ばしてください。たとう紙は着物と別に広げて乾燥させます。湿気を吸って変色しているたとう紙は新しいものに交換してください。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順3：衣紋掛けに掛けて陰干しする</h3><p className="text-sm leading-relaxed text-gray-700">着物用の衣紋掛け（着物ハンガー）に着物を掛け、日陰の風通しの良い場所で2〜4時間干します。直射日光は絶対に避けてください。色褪せの原因になります。室内で行う場合は、カーテン越しの窓際で窓を開けて風を通します。帯も同様に干してください。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順4：状態をチェックする</h3><p className="text-sm leading-relaxed text-gray-700">干している間に着物の状態を丁寧にチェックします。シミ・汚れ・カビ・虫食い・色褪せがないかご確認ください。裏地（八掛）の状態も忘れずに。問題を発見した場合は<Link href="/articles/stain-removal-cost/" className="text-[#6b4c8a] hover:underline">染み抜き</Link>や<Link href="/articles/mold-removal/" className="text-[#6b4c8a] hover:underline">カビ取り</Link>の対処を検討します。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順5：新しいたとう紙で包んで収納する</h3><p className="text-sm leading-relaxed text-gray-700">十分に乾燥させたら、新しいたとう紙（または状態の良いたとう紙）に包んで箪笥に戻します。防虫剤や防湿剤も一緒に入れ直してください。防虫剤は直接着物に触れない位置に置くこと。異なる種類の防虫剤を混ぜると化学反応を起こすことがあるため、1種類に統一します。</p></div>
         </div>
       </div></section>
 
@@ -130,7 +130,7 @@ export default function AiringGuidePage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />虫干し時のチェックポイント</h2>
         <div className="space-y-4">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">カビのチェック</h3><p className="text-sm leading-relaxed text-gray-700">白い粉状のもの、黄色や茶色の斑点がないか確認します。特に衿（えり）周り、脇、裾は湿気がこもりやすくカビが発生しやすい部位です。カビの臭いがする場合も要注意です。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">虫食いのチェック</h3><p className="text-sm leading-relaxed text-gray-700">小さな穴が開いていないか、特に正絹の着物は念入りに確認します。虫の糞（小さな黒い粒）が見つかった場合は、虫食いが進行している可能性があります。防虫剤の効果が切れていないかも確認しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">虫食いのチェック</h3><p className="text-sm leading-relaxed text-gray-700">小さな穴が開いていないか、特に正絹の着物は念入りに確認します。虫の糞（小さな黒い粒）が見つかった場合は、虫食いが進行している可能性があります。防虫剤の効果が切れていないかもご確認ください。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">シミ・変色のチェック</h3><p className="text-sm leading-relaxed text-gray-700">以前はなかったシミや変色がないか確認します。汗ジミや飲食物のシミは、時間が経つと酸化して黄色く変色することがあります。早めの<Link href="/articles/stain-removal-cost/" className="text-[#6b4c8a] hover:underline">染み抜き</Link>で対処できるケースもあります。</p></div>
         </div>
       </div></section>
@@ -139,7 +139,7 @@ export default function AiringGuidePage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />虫干しと買取価格の関係</h2>
         <div className="space-y-4 text-sm md:text-base leading-relaxed">
           <p>定期的な虫干しをしている着物は、カビ・虫食い・シミの発生が抑えられ、状態が良好に保たれます。着物の買取において最も重要な査定ポイントの一つが「状態」です。同じ種類・素材の着物でも、状態の良いものと悪いものでは買取価格に数倍の差がつくことがあります。</p>
-          <p>虫干しは着物の価値を守るための投資と考えましょう。ただし、もう着る予定がなく、いずれ売却を考えているのであれば、保管にコストと手間をかけ続けるよりも、状態の良いうちに<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>を受けて売却するのも賢い選択です。</p>
+          <p>虫干しは着物の価値を守るための投資と考えてください。ただし、もう着る予定がなく、いずれ売却を考えているのであれば、保管にコストと手間をかけ続けるよりも、状態の良いうちに<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>を受けて売却するのも賢い選択です。</p>
           <p>特に、虫干しをしていたつもりでもカビやシミが発見された場合は、これ以上の劣化を防ぐためにも早めの売却を検討してください。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] hover:underline">高く売るコツ</Link>を実践すれば、少しでも高い査定額を引き出せます。</p>
         </div>
       </div></section>

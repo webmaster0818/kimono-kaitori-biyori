@@ -7,13 +7,13 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "おたからやの着物買取｜フランチャイズ店の実力を検証",
   description:
-    "おたからやの着物買取サービスを徹底検証。世界約1,880店舗超のフランチャイズ展開、査定の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯の買取を検討中の方必見。",
+    "おたからやの着物買取サービスを検証。世界約1,880店舗超のフランチャイズ展開、査定の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/otakaraya/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "おたからやの着物買取｜フランチャイズ店の実力を検証",
-    description: "おたからやの着物買取を徹底検証。世界約1,880店超のFC展開と口コミを公開情報と実売データにもとづいてレビュー。",
+    description: "おたからやの着物買取を検証。世界約1,880店超のFC展開と口コミを公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/otakaraya/",
     siteName: "着物の買取びより",
     type: "article",
@@ -24,7 +24,7 @@ const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "おたからやの着物買取｜フランチャイズ店の実力を検証",
-  description: "おたからやの着物買取を徹底検証。世界約1,880店超のFC展開と口コミを公開情報と実売データにもとづいてレビュー。",
+  description: "おたからやの着物買取を検証。世界約1,880店超のFC展開と口コミを公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },

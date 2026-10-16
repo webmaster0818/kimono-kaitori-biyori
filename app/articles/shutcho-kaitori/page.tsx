@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "【2026年最新】着物の出張買取おすすめ3選｜無料出張・即日現金化対応",
   description:
-    "着物の出張買取おすすめ業者3選を徹底比較。自宅にいながら査定から現金化まで完結する出張買取のメリット・デメリット、利用の流れ5ステップ、トラブル回避法（クーリングオフ8日間）まで詳しく解説します。",
+    "着物の出張買取おすすめ業者3選を比較。自宅にいながら査定から現金化まで完結する出張買取のメリット・デメリット、利用の流れ5ステップ、トラブル回避法（クーリングオフ8日間）まで詳しく解説します。",
   alternates: {
     canonical:
       "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/",
@@ -25,7 +25,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物の出張買取おすすめ業者3選｜自宅で完結する売り方ガイド",
   description:
-    "着物の出張買取おすすめ業者3選を徹底比較。自宅にいながら査定から現金化まで完結する出張買取のメリット・デメリット、利用の流れ、トラブル回避法まで詳しく解説します。",
+    "着物の出張買取おすすめ業者3選を比較。自宅にいながら査定から現金化まで完結する出張買取のメリット・デメリット、利用の流れ、トラブル回避法まで詳しく解説します。",
   datePublished: "2026-04-16",
   dateModified: "2026-04-16",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -50,7 +50,7 @@ const faqStructuredData = {
       name: "出張買取は本当に無料ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、本記事で紹介している業者はすべて出張料・査定料・キャンセル料が無料です。査定額に納得できない場合もキャンセル料は発生しません。ただし、一部の業者では地域によって出張対応外となる場合がありますので、事前に確認しましょう。",
+        text: "はい、本記事で紹介している業者はすべて出張料・査定料・キャンセル料が無料です。査定額に納得できない場合もキャンセル料は発生しません。ただし、一部の業者では地域によって出張対応外となる場合がありますので、事前にご確認ください。",
       },
     },
     {
@@ -130,7 +130,7 @@ const howToStructuredData = {
     { "@type": "HowToStep", position: 2, name: "査定員の訪問", text: "予約日時に査定員が自宅を訪問。身分証を提示し、買取依頼書に記入します。古物営業法に基づく本人確認のため必須です。", url: "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/#step2" },
     { "@type": "HowToStep", position: 3, name: "その場での査定", text: "目の前で着物を1点ずつ査定します。査定額の内訳・根拠を丁寧に説明してくれる業者かどうかが信頼性の指標です。30分〜1時間程度。", url: "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/#step3" },
     { "@type": "HowToStep", position: 4, name: "金額の確認・契約", text: "提示された買取金額を確認し、納得すれば契約書にサイン。納得できない品物は売らずに残せます（部分買取OK）。", url: "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/#step4" },
-    { "@type": "HowToStep", position: 5, name: "現金受領・クーリングオフ案内", text: "その場で現金を受け取ります。出張買取は特定商取引法の対象なので、契約日含む8日間のクーリングオフが可能。説明を必ず受けましょう。", url: "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/#step5" },
+    { "@type": "HowToStep", position: 5, name: "現金受領・クーリングオフ案内", text: "その場で現金を受け取ります。出張買取は特定商取引法の対象なので、契約日含む8日間のクーリングオフが可能。説明を必ず受けてください。", url: "https://kimonokaitori-biyori.com/articles/shutcho-kaitori/#step5" },
   ],
 };
 
@@ -409,7 +409,7 @@ export default function ShutchoKaitoriPage() {
                 ただし、大手業者は接客マナーの教育を徹底しており、
                 強引な買取はしないよう管理されています。
                 また、女性査定員を指名できる業者もありますので、
-                不安な方は事前に確認しましょう。
+                不安な方は事前にご確認ください。
               </p>
             </div>
 
@@ -423,7 +423,7 @@ export default function ShutchoKaitoriPage() {
                 離島や一部の地方エリアでは対応していない場合があります。
                 また、業者によっては出張対応エリアが限られており、
                 地方では選べる業者が少なくなることもあります。
-                申し込み前に自分のエリアが対応範囲内かを確認しましょう。
+                申し込み前に自分のエリアが対応範囲内かをご確認ください。
                 対応外の場合は、宅配買取を検討するのがおすすめです。
               </p>
             </div>
@@ -450,7 +450,7 @@ export default function ShutchoKaitoriPage() {
               <span className="font-bold">まとめ：</span>
               デメリットはあるものの、出張料・査定料が無料でキャンセルも自由な業者を選べば、
               リスクはほとんどありません。
-              「まずは試してみる」という気持ちで査定を依頼してみましょう。
+              「まずは試してみる」という気持ちで査定を依頼してんでください。
             </p>
           </div>
         </section>
@@ -732,9 +732,9 @@ export default function ShutchoKaitoriPage() {
                   業者から連絡があり、訪問日時を確定します。
                   最短で翌日対応の業者もありますが、
                   通常は3日〜1週間程度の余裕を持って予約するのがおすすめです。
-                  女性査定員を希望する場合は、この段階で必ず伝えましょう。
+                  女性査定員を希望する場合は、この段階で必ず伝えてください。
                   訪問当日に本人確認書類（運転免許証など）が必要になるため、
-                  事前に準備しておきましょう。
+                  事前に準備しておいてください。
                 </p>
               </div>
             </div>
@@ -751,7 +751,7 @@ export default function ShutchoKaitoriPage() {
                   指定日時に査定員が自宅を訪問します。
                   着物を1点ずつ確認し、素材・産地・状態・市場価値などを
                   総合的に判断して査定額を算出します。
-                  この時、証紙や購入時の領収書があれば必ず提示しましょう。
+                  この時、証紙や購入時の領収書があれば必ず提示してください。
                   査定中に疑問があれば遠慮なく質問してください。
                   良い業者であれば、査定額の根拠をきちんと説明してくれます。
                 </p>
@@ -773,7 +773,7 @@ export default function ShutchoKaitoriPage() {
                   「一部だけ売って、残りは返してもらう」ということも可能です。
                   契約時には法律で定められた書面の交付を受けます。
                   この書面はクーリングオフの際に必要になるため、
-                  必ず保管しておきましょう。
+                  必ず保管しておいてください。
                 </p>
               </div>
             </div>
@@ -846,7 +846,7 @@ export default function ShutchoKaitoriPage() {
               <p className="text-sm text-gray-600 leading-relaxed">
                 クーリングオフは消費者を守るための法律上の権利です。
                 「クーリングオフはできません」と言う業者は違法ですので、
-                絶対に取引しないようにしましょう。
+                絶対に取引しないようにしてください。
                 契約時に交付される書面は必ず保管してください。
               </p>
             </div>
@@ -858,7 +858,7 @@ export default function ShutchoKaitoriPage() {
               <p className="text-sm text-gray-600 leading-relaxed mb-3">
                 一人暮らしの女性やご高齢の方が出張買取を利用する際、
                 見知らぬ男性を自宅に上げることに不安を感じる場合は、
-                女性査定員を指名しましょう。
+                女性査定員を指名してください。
               </p>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
@@ -917,7 +917,7 @@ export default function ShutchoKaitoriPage() {
                 トラブルに遭った場合の相談先
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                万が一トラブルに遭った場合は、以下の窓口に相談しましょう。
+                万が一トラブルに遭った場合は、以下の窓口にご相談ください。
               </p>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
@@ -1026,7 +1026,7 @@ export default function ShutchoKaitoriPage() {
           <div className="bg-[#faf8f5] border-l-4 border-[#c9a76c] p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold">ポイント：</span>
-              出張買取が向いていない方は、宅配買取や持ち込み買取を検討しましょう。
+              出張買取が向いていない方は、宅配買取や持ち込み買取をご検討ください。
               宅配買取なら対面不要で全国対応、持ち込み買取なら
               その場で査定結果がわかります。
               自分に合った方法を選ぶことが、満足のいく買取につながります。
@@ -1145,7 +1145,7 @@ export default function ShutchoKaitoriPage() {
                 はい、本記事で紹介している業者はすべて出張料・査定料・キャンセル料が無料です。
                 査定額に納得できない場合もキャンセル料は発生しません。
                 ただし、一部の業者では地域によって出張対応外となる場合がありますので、
-                事前に確認しましょう。
+                事前にご確認ください。
               </div>
             </details>
 
@@ -1258,7 +1258,7 @@ export default function ShutchoKaitoriPage() {
               出張買取は、自宅にいながら着物を売れる便利な方法です。
               特に大量の着物がある方、重い着物を運ぶのが難しい方にとって、
               最も効率的な買取方法と言えます。
-              まずは信頼できる業者に無料の出張査定を依頼してみましょう。
+              まずは信頼できる業者に無料の出張査定を依頼してんでください。
               複数業者に査定を依頼して比較することで、
               最も高い金額で売却できます。
             </p>
@@ -1268,7 +1268,7 @@ export default function ShutchoKaitoriPage() {
         {/* CTA */}
         <div className="text-center bg-gradient-to-r from-[#6b4c8a] to-[#8b6aaa] rounded-lg p-8 mb-12">
           <h3 className="text-white text-xl font-bold mb-3">
-            まずは無料の出張査定を依頼してみましょう
+            まずは無料の出張査定を依頼してんでください
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             出張料・査定料・キャンセル料すべて無料。<br />

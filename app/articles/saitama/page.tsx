@@ -25,7 +25,7 @@ const faqs = [
   { question: "アンティークの銘仙やシミのある着物も買取対象ですか？", answer: "はい、アンティーク銘仙は柄に価値があるため、多少のシミや傷みがあっても買取対象になります。大正ロマン・昭和レトロの大胆な柄は国内外のコレクターに人気で、状態が良ければ高評価です。判断に迷う着物もまとめて査定に出すと良いでしょう。" },
   { question: "埼玉県内で着物の出張買取は無料で来てもらえますか？", answer: "主要な着物買取業者であれば、さいたま市・川越市・秩父市・所沢市など県内全域で無料の出張買取に対応しています。買取大吉やウリエルは出張費・査定料・キャンセル料すべて無料で、自宅にいながら査定を受けられます。東京に近く対応も手厚いエリアです。" },
   { question: "埼玉で大量の着物をまとめて売れますか？", answer: "はい、出張買取を利用すれば点数制限なく大量の着物をまとめて売却できます。箪笥に眠っている着物・帯・和装小物をまとめて査定してもらうことで、1点ずつでは値がつきにくい品もまとめ買取で評価されるケースがあります。遺品整理や生前整理でまとまった量がある場合は、事前に点数を伝えておくとスムーズです。" },
-  { question: "埼玉の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取りましょう。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
+  { question: "埼玉の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取ってください。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
 ];
 
 const articleStructuredData = {
@@ -137,7 +137,7 @@ export default function SaitamaPage() {
           </div>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
-            <p className="text-sm text-gray-700 leading-relaxed">秩父銘仙は証紙が残っていればプラス評価ですが、銘仙はアンティークとして柄や状態が重視される側面も大きい織物です。証紙・たとう紙の証明書があれば添えつつ、状態の良いものは柄が映えるよう査定へ出しましょう。</p>
+            <p className="text-sm text-gray-700 leading-relaxed">秩父銘仙は証紙が残っていればプラス評価ですが、銘仙はアンティークとして柄や状態が重視される側面も大きい織物です。証紙・たとう紙の証明書があれば添えつつ、状態の良いものは柄が映えるよう査定へ出してください。</p>
           </div>
           <div className="mt-6 bg-[#faf7f3] border border-[#e8ddd0] rounded-lg p-6">
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">埼玉ゆかりの織物と実売データ</p>
@@ -200,7 +200,7 @@ export default function SaitamaPage() {
             <span className="text-[#c9a76c]">4.</span> 埼玉で着物を高く売る3つのコツ
           </h2>
           <ol className="space-y-3 text-sm text-gray-700">
-            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />秩父銘仙は柄の魅力と状態が査定の決め手。証紙があれば添え、シミがあっても諦めず査定に出しましょう。</li>
+            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />秩父銘仙は柄の魅力と状態が査定の決め手。証紙があれば添え、シミがあっても諦めず査定に出してください。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">② 2〜3社で相見積もりを取る</span><br />産地物に強い業者を含めて比較。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] underline">高く売るコツ</Link>も参考に。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">③ 早めに・まとめて売る</span><br />着物は時間とともに劣化します。帯・小物もセットで出すと評価が上がります。</li>
           </ol>
@@ -244,7 +244,7 @@ export default function SaitamaPage() {
           <h3 className="text-white text-xl font-bold mb-3">埼玉の着物、まずは無料査定で価値を確認</h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             秩父銘仙やアンティーク着物は、専門業者の目で正しく評価されます。<br />
-            信頼できる着物買取業者をランキングで比較してみましょう。
+            信頼できる着物買取業者をランキングで比較してんでください。
           </p>
           <Link href="/ranking/" className="inline-block bg-[#c9a76c] text-white font-bold px-8 py-4 rounded-lg hover:bg-[#b8965b] transition-colors">
             おすすめ着物買取業者ランキングを見る

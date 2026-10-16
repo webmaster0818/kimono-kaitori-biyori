@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "本場黄八丈に証紙が付いていないと売れませんか？",
     answer:
-      "証紙がなくても買取自体は可能ですが、八丈島産である証明ができないため評価は下がりやすくなります。本場黄八丈には八丈島の黄八丈織物協同組合が発行する証紙や、伝統的工芸品の伝統証紙が付くのが一般的です。証紙はたとう紙や購入時の箱に保管されていることが多いので、必ず探して一緒に査定に出しましょう。",
+      "証紙がなくても買取自体は可能ですが、八丈島産である証明ができないため評価は下がりやすくなります。本場黄八丈には八丈島の黄八丈織物協同組合が発行する証紙や、伝統的工芸品の伝統証紙が付くのが一般的です。証紙はたとう紙や購入時の箱に保管されていることが多いので、必ず探して一緒に査定に出してください。",
   },
   {
     question: "本場黄八丈は人間国宝の作品ですか？",
@@ -550,7 +550,7 @@ export default function HonbaKihachijoPage() {
                 ポイント1：証紙を必ずセットで査定に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                黄八丈織物協同組合の証紙や伝統証紙は、八丈島産であることを証明する最も重要な書類です。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出しましょう。証紙があるかどうかで評価が大きく変わります。
+                黄八丈織物協同組合の証紙や伝統証紙は、八丈島産であることを証明する最も重要な書類です。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出してください。証紙があるかどうかで評価が大きく変わります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -560,7 +560,7 @@ export default function HonbaKihachijoPage() {
               <p className="text-sm leading-relaxed text-gray-700">
                 本場黄八丈は作家や産地の知識がないと正しく評価できません。一般的なリサイクルショップでは安く買い取られてしまうことがあります。
                 <Link href="/articles/tsumugi-types/" className="text-[#6b4c8a] underline">紬の種類</Link>
-                や草木染に詳しい着物専門の買取業者を選びましょう。
+                や草木染に詳しい着物専門の買取業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -570,7 +570,7 @@ export default function HonbaKihachijoPage() {
               <p className="text-sm leading-relaxed text-gray-700">
                 本場黄八丈は業者の販路や在庫状況によって査定額が変わります。最低でも3社に
                 <Link href="/articles/free-appraisal/" className="text-[#6b4c8a] underline">無料査定</Link>
-                を依頼し、最も高い価格を提示した業者を選びましょう。
+                を依頼し、最も高い価格を提示した業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -578,7 +578,7 @@ export default function HonbaKihachijoPage() {
                 ポイント4：状態を良好に保ち、早めに売る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                草木染の絹織物は、日焼けや湿気、カビに弱い素材です。特に色味は日焼けで褪色しやすく、一度褪色すると価値が下がります。たとう紙に包んで暗所で保管し、売ると決めたら早めに査定に出しましょう。
+                草木染の絹織物は、日焼けや湿気、カビに弱い素材です。特に色味は日焼けで褪色しやすく、一度褪色すると価値が下がります。たとう紙に包んで暗所で保管し、売ると決めたら早めに査定に出してください。
               </p>
             </div>
           </div>
@@ -729,7 +729,7 @@ export default function HonbaKihachijoPage() {
                   ["未使用・しつけ糸付き", "◎ 高評価", "新品同様は最も高くなりやすい状態。保管ジワのみなら特に有利です。"],
                   ["仕立て上がり（サイズ）", "○〜△", "裄・身丈が現代向けの大きめだと有利、寸法が小さいと下がる場合も。反物（未仕立て）は仕立て済みより評価されやすい傾向があります。"],
                   ["シミ・褪色・難あり", "△ マイナス", "草木染は日焼けで褪色しやすく、一度褪色すると戻りません。シミ・カビとあわせて減額対象。自己クリーニングは避け、現状のまま査定へ。"],
-                  ["付属品あり（たとう紙・箱・購入時の証書）", "○ プラス材料", "購入時の箱や証書、たとう紙は保管状態の良さと来歴を示す材料になります。証紙とあわせて必ず一緒に査定へ出しましょう。"],
+                  ["付属品あり（たとう紙・箱・購入時の証書）", "○ プラス材料", "購入時の箱や証書、たとう紙は保管状態の良さと来歴を示す材料になります。証紙とあわせて必ず一緒に査定へ出してください。"],
                 ].map(([cond, impact, note], i) => (
                   <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
                     <td className="px-4 py-3 font-semibold whitespace-nowrap">{cond}</td>
@@ -789,7 +789,7 @@ export default function HonbaKihachijoPage() {
               本場黄八丈を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              本場黄八丈は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              本場黄八丈は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -804,7 +804,7 @@ export default function HonbaKihachijoPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -862,7 +862,7 @@ export default function HonbaKihachijoPage() {
             本場黄八丈の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            本場黄八丈の買取相場はあくまで目安です。証紙・作家・状態によって実際の査定額は大きく変わります。草木染の織物に詳しい査定員に無料査定を依頼して、お手持ちの本場黄八丈の正確な価値を確認しましょう。
+            本場黄八丈の買取相場はあくまで目安です。証紙・作家・状態によって実際の査定額は大きく変わります。草木染の織物に詳しい査定員に無料査定を依頼して、お手持ちの本場黄八丈の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

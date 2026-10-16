@@ -5,16 +5,16 @@ import SoubaNote from "../../components/SoubaNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
-  title: "バイセルの着物買取｜口コミ・評判・買取実績を徹底検証",
+  title: "バイセルの着物買取｜口コミ・評判・買取実績を検証",
   description:
-    "バイセル（BUYSELL）の着物買取サービスを徹底検証。累計買取実績3,700万点超、月間20,000件の出張買取対応、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
+    "バイセル（BUYSELL）の着物買取サービスを検証。累計買取実績3,700万点超、月間20,000件の出張買取対応、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/buysell/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "バイセルの着物買取｜口コミ・評判・買取実績を徹底検証",
+    title: "バイセルの着物買取｜口コミ・評判・買取実績を検証",
     description:
-      "バイセルの着物買取サービスを徹底検証。累計買取実績3,700万点超の実力と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
+      "バイセルの着物買取サービスを検証。累計買取実績3,700万点超の実力と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/buysell/",
     siteName: "着物の買取びより",
     type: "article",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "バイセルの着物買取｜口コミ・評判・買取実績を徹底検証",
+  headline: "バイセルの着物買取｜口コミ・評判・買取実績を検証",
   description:
-    "バイセルの着物買取サービスを徹底検証。累計買取実績3,700万点超の実力と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
+    "バイセルの着物買取サービスを検証。累計買取実績3,700万点超の実力と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -176,11 +176,11 @@ export default function BuysellReviewPage() {
             バイセルの着物買取
             <br className="md:hidden" />
             <span className="text-[#6b4c8a]">口コミ・評判・買取実績</span>
-            を徹底検証
+            を検証
           </h1>
           <p className="text-gray-600 leading-relaxed">
             バイセル（BUYSELL）は、東証グロース上場企業の株式会社BuySell
-            Technologiesが運営する大手買取サービスです。累計買取実績3,700万点を超え、着物買取においても業界トップクラスのシェアを誇ります。本記事では、実際の利用者の口コミや評判をもとに、バイセルの着物買取サービスを徹底検証します。
+            Technologiesが運営する大手買取サービスです。累計買取実績3,700万点を超え、着物買取においても業界トップクラスのシェアを誇ります。本記事では、実際の利用者の口コミや評判をもとに、バイセルの着物買取サービスを検証します。
           </p>
         </header>
 
@@ -982,7 +982,7 @@ export default function BuysellReviewPage() {
                 比較
               </span>
               <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">
-                バイセル vs 福ちゃん 徹底比較
+                バイセル vs 福ちゃん 比較
               </p>
             </Link>
             <Link

@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "天蚕紬に証紙はありますか？",
     answer:
-      "天蚕紬は天蚕糸を使った紬の総称で、加賀友禅や西陣織のような統一された組合証紙が必ず付くわけではありません。産地や工房によっては独自のラベルや説明書、購入時の証明書が添えられている場合があります。天蚕糸の使用を示す資料・たとう紙・購入時の書類が残っていれば、希少性の証明になり査定にプラスに働くため、必ず一緒に査定へ出しましょう。",
+      "天蚕紬は天蚕糸を使った紬の総称で、加賀友禅や西陣織のような統一された組合証紙が必ず付くわけではありません。産地や工房によっては独自のラベルや説明書、購入時の証明書が添えられている場合があります。天蚕糸の使用を示す資料・たとう紙・購入時の書類が残っていれば、希少性の証明になり査定にプラスに働くため、必ず一緒に査定へ出してください。",
   },
   {
     question: "天蚕紬を高く売るにはどうすればよいですか？",
@@ -494,7 +494,7 @@ export default function TensanTsumugiPage() {
                 ポイント1：証明資料・たとう紙を必ず一緒に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                天蚕糸の使用や産地を示す説明書・購入時の書類・たとう紙があれば、希少性の証明になり査定額が上がりやすくなります。箱や引き出しの中などに保管されていることが多いので、必ず探して一緒に査定へ出しましょう。
+                天蚕糸の使用や産地を示す説明書・購入時の書類・たとう紙があれば、希少性の証明になり査定額が上がりやすくなります。箱や引き出しの中などに保管されていることが多いので、必ず探して一緒に査定へ出してください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -510,7 +510,7 @@ export default function TensanTsumugiPage() {
                 ポイント3：複数業者で相見積もりを取る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                天蚕紬のような希少な織物は、業者の知識や販路によって査定額に差が出やすいものです。最低でも3社に無料査定を依頼し、最も高い価格を提示した業者を選びましょう。
+                天蚕紬のような希少な織物は、業者の知識や販路によって査定額に差が出やすいものです。最低でも3社に無料査定を依頼し、最も高い価格を提示した業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -695,7 +695,7 @@ export default function TensanTsumugiPage() {
               天蚕紬を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              天蚕紬は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              天蚕紬は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -710,7 +710,7 @@ export default function TensanTsumugiPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -732,7 +732,7 @@ export default function TensanTsumugiPage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。口コミ・評判・買取実績まで。
+                買取大吉・ウリエルなどおすすめ5社を比較。口コミ・評判・買取実績まで。
               </p>
             </Link>
             <Link
@@ -768,7 +768,7 @@ export default function TensanTsumugiPage() {
             天蚕紬の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            天蚕紬の買取相場はあくまで目安です。天蚕糸の使用割合・産地・状態・証明資料の有無によって実際の査定額は大きく変わります。紬に詳しい着物専門の査定員に無料査定を依頼して、お手持ちの天蚕紬の正確な価値を確認しましょう。
+            天蚕紬の買取相場はあくまで目安です。天蚕糸の使用割合・産地・状態・証明資料の有無によって実際の査定額は大きく変わります。紬に詳しい着物専門の査定員に無料査定を依頼して、お手持ちの天蚕紬の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

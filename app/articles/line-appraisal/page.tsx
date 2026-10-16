@@ -311,7 +311,7 @@ export default function LineAppraisalPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">全体と部分の両方を撮る</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物を広げた全体像に加えて、柄のアップ、証紙、落款、タグなどの部分写真も撮りましょう。合計4〜6枚の写真を送ると正確な査定ができます。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物を広げた全体像に加えて、柄のアップ、証紙、落款、タグなどの部分写真も撮ってください。合計4〜6枚の写真を送ると正確な査定ができます。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">シミ・汚れはそのまま撮影する</h3>
@@ -319,7 +319,7 @@ export default function LineAppraisalPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">証紙は必ず撮影する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">証紙があるかないかで査定額が大きく変わります。証紙が見つかったら、文字が読めるようにアップで撮影して送りましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">証紙があるかないかで査定額が大きく変わります。証紙が見つかったら、文字が読めるようにアップで撮影して送ってください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">着物の情報をテキストで補足</h3>
@@ -419,7 +419,7 @@ export default function LineAppraisalPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/photo-appraisal/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">写真査定のやり方ガイド</h3>
@@ -436,9 +436,9 @@ export default function LineAppraisalPage() {
       {/* CTA */}
       <section className="py-12 md:py-16 section-primary-light">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-xl md:text-2xl font-bold mb-4">まずはLINE査定で着物の価値を確認しましょう</h2>
+          <h2 className="text-xl md:text-2xl font-bold mb-4">まずはLINE査定で着物の価値をご確認ください</h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            スマホで写真を送るだけで概算額がわかります。複数業者のLINE査定を比較して、最高額の業者を見つけましょう。
+            スマホで写真を送るだけで概算額がわかります。複数業者のLINE査定を比較して、最高額の業者を見つけてください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>

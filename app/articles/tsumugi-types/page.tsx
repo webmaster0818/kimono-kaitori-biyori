@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { question: "紬の着物は高く売れますか？", answer: "はい、紬は着物の中でも特に人気が高く、高額買取が期待できるジャンルです。特に大島紬・結城紬は需要が安定しており、証紙付きであれば数万円〜数十万円の買取が可能です。買取大吉やウリエルなど着物専門の査定員に見てもらいましょう。" },
+  { question: "紬の着物は高く売れますか？", answer: "はい、紬は着物の中でも特に人気が高く、高額買取が期待できるジャンルです。特に大島紬・結城紬は需要が安定しており、証紙付きであれば数万円〜数十万円の買取が可能です。買取大吉やウリエルなど着物専門の査定員に見てもらってください。" },
   { question: "大島紬と結城紬、どちらが高く売れますか？", answer: "一般的に、重要無形文化財に指定されている本場結城紬の方が希少性が高く、買取相場も高めです。ただし大島紬でも12マルキ以上の細かい絣模様のものは非常に高額になります。いずれも証紙の有無が査定額を大きく左右します。" },
-  { question: "紬の証紙がない場合、査定額は下がりますか？", answer: "はい、証紙がないと産地や製法の証明が難しくなるため、査定額は2〜5割程度下がる傾向があります。ただし、経験豊富な査定員なら生地の質感や織り方から産地を判断できる場合もあります。買取大吉やウリエルなど専門業者に査定を依頼しましょう。" },
+  { question: "紬の証紙がない場合、査定額は下がりますか？", answer: "はい、証紙がないと産地や製法の証明が難しくなるため、査定額は2〜5割程度下がる傾向があります。ただし、経験豊富な査定員なら生地の質感や織り方から産地を判断できる場合もあります。買取大吉やウリエルなど専門業者に査定を依頼することをおすすめします。" },
   { question: "機械織りの紬でも売れますか？", answer: "はい、機械織りでも売れます。ただし手織りに比べると買取額は低くなります。大島紬の場合、手織りは「手織り」の証紙、機械織りは「織機」の証紙で区別されます。機械織りでも正絹で状態が良ければ数千円〜数万円の値がつきます。" },
-  { question: "紬の着物を高く売るコツは？", answer: "証紙を一緒に出す、複数社で査定を比較する、帯とセットで出す、状態が良いうちに売る、の4つが重要です。特に証紙は買取額に数万円の差が出ることがあるため、必ず探して一緒に査定に出しましょう。" },
+  { question: "紬の着物を高く売るコツは？", answer: "証紙を一緒に出す、複数社で査定を比較する、帯とセットで出す、状態が良いうちに売る、の4つが重要です。特に証紙は買取額に数万円の差が出ることがあるため、必ず探して一緒に査定に出してください。" },
 ];
 
 const articleStructuredData = {
@@ -248,7 +248,7 @@ export default function TsumugiTypesPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：証紙は必ず一緒に出す</h3>
-              <p className="text-sm leading-relaxed text-gray-700">紬の証紙は産地と品質の証明です。証紙の有無で買取額が2〜5倍変わることもあります。たとう紙の中やタンスの引き出しに入っていないか確認しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">紬の証紙は産地と品質の証明です。証紙の有無で買取額が2〜5倍変わることもあります。たとう紙の中やタンスの引き出しに入っていないかご確認ください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：着物専門の業者に依頼する</h3>
@@ -256,11 +256,11 @@ export default function TsumugiTypesPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：複数社で比較する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">紬は業者によって得意・不得意があり査定額に差が出やすいジャンルです。ヒカカクの一括比較を活用して3社以上の見積もりを取りましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">紬は業者によって得意・不得意があり査定額に差が出やすいジャンルです。ヒカカクの一括比較を活用して3社以上の見積もりを取ってください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：帯とセットで出す</h3>
-              <p className="text-sm leading-relaxed text-gray-700">紬に合う帯（名古屋帯・半幅帯など）とセットで出すとプラス査定になる可能性があります。和装小物もまとめて出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">紬に合う帯（名古屋帯・半幅帯など）とセットで出すとプラス査定になる可能性があります。和装小物もまとめて出してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：状態が良いうちに売る</h3>
@@ -324,7 +324,7 @@ export default function TsumugiTypesPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/oshima-tsumugi/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">大島紬の買取相場</h3>
@@ -343,7 +343,7 @@ export default function TsumugiTypesPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">紬の着物を売るなら、まず無料査定から</h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            大島紬・結城紬など高額買取が期待できる紬。証紙と一緒に無料査定に出して最高額を確認しましょう。
+            大島紬・結城紬など高額買取が期待できる紬。証紙と一緒に無料査定に出して最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>

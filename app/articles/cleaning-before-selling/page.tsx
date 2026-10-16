@@ -14,7 +14,7 @@ const faqs = [
   { question: "シミがある着物はクリーニングしてから売った方がいいですか？", answer: "シミがある場合でも、基本的にはクリーニングせずそのまま査定に出すことをおすすめします。シミの種類や程度によっては、専門業者のクリーニングでも完全に落ちないことがあり、その場合はクリーニング費用が無駄になります。買取業者にそのまま見せて、査定額を確認した方が合理的です。" },
   { question: "クリーニングに出すと着物が傷むことはありますか？", answer: "はい、着物のクリーニングはリスクがゼロではありません。特に古い着物や繊細な染めの着物は、クリーニングによって色落ち・色あせ・縮みが発生する可能性があります。また、金糸銀糸を使った帯や着物は、クリーニングで光沢が失われることもあります。売却前のクリーニングはリスクに見合わないことが多く見られます。" },
   { question: "売る前にできる簡単なお手入れはありますか？", answer: "はい、いくつかの簡単なお手入れで着物の見た目を改善できます。陰干しで風を通す、柔らかいブラシでホコリを払う、たとう紙を新しいものに替えるなどです。これらの作業は着物を傷める心配がなく、査定時の第一印象が良くなります。" },
-  { question: "カビが生えた着物はクリーニングしてから売るべきですか？", answer: "カビが生えた着物のクリーニングは費用が高額（1万円〜3万円以上）になることが多く、完全にカビを除去できない場合もあります。まずはそのまま買取業者に査定を依頼し、買取可能か確認しましょう。買取大吉やウリエルなどの大手業者であれば、カビのある着物でも買い取ってくれるケースがあります。" },
+  { question: "カビが生えた着物はクリーニングしてから売るべきですか？", answer: "カビが生えた着物のクリーニングは費用が高額（1万円〜3万円以上）になることが多く、完全にカビを除去できない場合もあります。まずはそのまま買取業者に査定を依頼し、買取可能かご確認ください。買取大吉やウリエルなどの大手業者であれば、カビのある着物でも買い取ってくれるケースがあります。" },
 ];
 
 const articleStructuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png", headline: "着物のクリーニングは売る前にすべき？査定額への影響を解説", description: "着物を売る前のクリーニングは必要？費用と査定額の関係を解説。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" }, publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/cleaning-before-selling/" } };
@@ -53,7 +53,7 @@ export default function CleaningBeforeSellingPage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />結論：クリーニングは基本不要</h2>
         <div className="bg-white border-2 border-[#c9a76c] rounded-xl p-6 mb-6">
           <p className="text-base font-bold text-[#6b4c8a] mb-3">着物を売る前のクリーニングは、ほとんどのケースで不要です。</p>
-          <p className="text-sm leading-relaxed text-gray-700">その理由は3つあります。1つ目は、クリーニング費用に見合うだけ査定額がアップするケースが稀であること。2つ目は、買取業者は自社でクリーニングを行う体制を持っていること。3つ目は、クリーニングによる着物の損傷リスクがあること。そのままの状態で査定に出し、プロに任せましょう。</p>
+          <p className="text-sm leading-relaxed text-gray-700">その理由は3つあります。1つ目は、クリーニング費用に見合うだけ査定額がアップするケースが稀であること。2つ目は、買取業者は自社でクリーニングを行う体制を持っていること。3つ目は、クリーニングによる着物の損傷リスクがあること。そのままの状態で査定に出し、プロに任せてください。</p>
         </div>
       </div></section>
 
@@ -87,10 +87,10 @@ export default function CleaningBeforeSellingPage() {
       <section id="care" className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />売る前にすべき簡単なお手入れ</h2>
         <div className="space-y-5">
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. 陰干しで風を通す</h3><p className="text-sm leading-relaxed text-gray-700">査定前に着物を風通しの良い日陰で1〜2時間干しましょう。保管臭やタンスの匂いを軽減できます。直射日光は色あせの原因になるので避けてください。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">2. ホコリを払う</h3><p className="text-sm leading-relaxed text-gray-700">柔らかい洋服ブラシで、着物の表面のホコリをやさしく払いましょう。力を入れすぎると生地を傷めるので注意。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">3. たとう紙を新しくする</h3><p className="text-sm leading-relaxed text-gray-700">古くなったたとう紙は交換しましょう。新しいたとう紙に包まれた着物は見た目の印象が良くなり、査定員への第一印象もアップします。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">4. 証紙・証明書を探しておく</h3><p className="text-sm leading-relaxed text-gray-700">証紙や購入証明書があれば必ず一緒に出しましょう。クリーニングよりも、証紙を添えることの方が査定額アップに直結します。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. 陰干しで風を通す</h3><p className="text-sm leading-relaxed text-gray-700">査定前に着物を風通しの良い日陰で1〜2時間干してください。保管臭やタンスの匂いを軽減できます。直射日光は色あせの原因になるので避けてください。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">2. ホコリを払う</h3><p className="text-sm leading-relaxed text-gray-700">柔らかい洋服ブラシで、着物の表面のホコリをやさしく払ってください。力を入れすぎると生地を傷めるので注意。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">3. たとう紙を新しくする</h3><p className="text-sm leading-relaxed text-gray-700">古くなったたとう紙は交換してください。新しいたとう紙に包まれた着物は見た目の印象が良くなり、査定員への第一印象もアップします。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">4. 証紙・証明書を探しておく</h3><p className="text-sm leading-relaxed text-gray-700">証紙や購入証明書があれば必ず一緒に出してください。クリーニングよりも、証紙を添えることの方が査定額アップに直結します。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">5. 帯・小物をまとめておく</h3><p className="text-sm leading-relaxed text-gray-700">着物と一緒に帯や和装小物もまとめて査定に出すと、コーディネート価値が加算されて買取額がアップする可能性があります。</p></div>
         </div>
       </div></section>
@@ -134,7 +134,7 @@ export default function CleaningBeforeSellingPage() {
       <section className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           <Link href="/articles/storage-guide/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物の保管方法ガイド</h3><p className="text-xs text-gray-600">正しい保管で価値を守る方法。</p></Link>
           <Link href="/articles/old-stained-kimono/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">シミ・汚れのある着物の買取</h3><p className="text-xs text-gray-600">状態が悪い着物でも売れる？</p></Link>
         </div>

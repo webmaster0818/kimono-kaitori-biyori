@@ -7,14 +7,14 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取 仙台のおすすめ業者5選｜宮城エリアの出張・宅配対応",
   description:
-    "仙台・宮城で着物を売るならどこがおすすめ？出張買取・宅配買取に対応した着物買取業者5選を徹底比較。口コミ・評判・買取実績をまとめました。",
+    "仙台・宮城で着物を売るならどこがおすすめ？出張買取・宅配買取に対応した着物買取業者5選を比較。口コミ・評判・買取実績をまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/sendai/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取 仙台のおすすめ業者5選｜宮城エリアの出張・宅配対応",
     description:
-      "仙台・宮城で着物を売るならどこがおすすめ？出張買取・宅配買取に対応した着物買取業者5選を徹底比較。口コミ・評判・買取実績をまとめました。",
+      "仙台・宮城で着物を売るならどこがおすすめ？出張買取・宅配買取に対応した着物買取業者5選を比較。口コミ・評判・買取実績をまとめました。",
     url: "https://kimonokaitori-biyori.com/articles/sendai/",
     siteName: "着物の買取びより",
     type: "article",
@@ -156,7 +156,7 @@ export default function SendaiPage() {
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              仙台・宮城県で着物を売りたい方に向けて、出張買取・宅配買取に対応したおすすめ業者5選を徹底比較。各社の特徴、対応エリア、買取実績をまとめました。東北地方は伝統工芸品の産地でもあり、適正な価値をつけてくれる業者選びが重要です。
+              仙台・宮城県で着物を売りたい方に向けて、出張買取・宅配買取に対応したおすすめ業者5選を比較。各社の特徴、対応エリア、買取実績をまとめました。東北地方は伝統工芸品の産地でもあり、適正な価値をつけてくれる業者選びが重要です。
             </p>
             <p className="mt-3 text-xs text-gray-400">
               最終更新：2026年5月17日
@@ -606,7 +606,7 @@ export default function SendaiPage() {
             東北の伝統工芸品と買取ポイント
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            宮城県・東北地方には独自の染織技術を持つ伝統工芸品が多く存在します。これらは一般的な着物よりも高額で買取される可能性があります。お手持ちの着物の価値を正しく知るためにも、専門知識を持つ査定員に依頼しましょう。
+            宮城県・東北地方には独自の染織技術を持つ伝統工芸品が多く存在します。これらは一般的な着物よりも高額で買取される可能性があります。お手持ちの着物の価値を正しく知るためにも、専門知識を持つ査定員に依頼することをおすすめします。
           </p>
 
           <div className="space-y-4">
@@ -625,7 +625,7 @@ export default function SendaiPage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-3 text-base">東北地方の染織品（米沢織・置賜紬等）</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                東北地方には宮城県だけでなく、山形県の米沢織・置賜紬、秋田県の秋田八丈、岩手県の南部紫根染など、多様な伝統的染織品があります。これらの着物は証紙があれば高額買取が期待できます。仙台にお住まいで東北各地の染織品をお持ちの方は、伝統工芸品に詳しい査定員がいる買取大吉やウリエルに相談してみましょう。
+                東北地方には宮城県だけでなく、山形県の米沢織・置賜紬、秋田県の秋田八丈、岩手県の南部紫根染など、多様な伝統的染織品があります。これらの着物は証紙があれば高額買取が期待できます。仙台にお住まいで東北各地の染織品をお持ちの方は、伝統工芸品に詳しい査定員がいる買取大吉やウリエルに相談してんでください。
               </p>
             </div>
           </div>
@@ -646,7 +646,7 @@ export default function SendaiPage() {
                 コツ1：複数の業者に無料査定を依頼する
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                仙台は東京ほど業者の選択肢が多くないからこそ、利用できる業者すべてに査定を依頼することが重要です。買取大吉（持ち込み）、ウリエル（出張）、RECLO（宅配）と異なる方法で3社以上に見積もりを取りましょう。ヒカカクの一括査定も活用すると効率的です。
+                仙台は東京ほど業者の選択肢が多くないからこそ、利用できる業者すべてに査定を依頼することが重要です。買取大吉（持ち込み）、ウリエル（出張）、RECLO（宅配）と異なる方法で3社以上に見積もりを取ってください。ヒカカクの一括査定も活用すると効率的です。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -654,7 +654,7 @@ export default function SendaiPage() {
                 コツ2：証紙・証明書を必ず添える
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                産地証明の証紙、作家の落款、購入時の証明書があれば必ず一緒に出しましょう。特に仙台平や東北の伝統工芸品は証紙の有無で買取額が大幅に変わります。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙・証明書の詳しい解説</Link>も参考にしてください。
+                産地証明の証紙、作家の落款、購入時の証明書があれば必ず一緒に出してください。特に仙台平や東北の伝統工芸品は証紙の有無で買取額が大幅に変わります。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙・証明書の詳しい解説</Link>も参考にしてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -670,7 +670,7 @@ export default function SendaiPage() {
                 コツ4：帯や小物もまとめて出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                着物と一緒に帯・帯締め・帯揚げ・草履などをセットで出すと、コーディネートとしての付加価値が認められます。使わない和装小物はすべてまとめて査定に出しましょう。<Link href="/articles/accessories-price/" className="text-[#6b4c8a] hover:underline">和装小物の買取相場</Link>も事前にチェックしておくと安心です。
+                着物と一緒に帯・帯締め・帯揚げ・草履などをセットで出すと、コーディネートとしての付加価値が認められます。使わない和装小物はすべてまとめて査定に出してください。<Link href="/articles/accessories-price/" className="text-[#6b4c8a] hover:underline">和装小物の買取相場</Link>も事前にチェックしておくと安心です。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -678,7 +678,7 @@ export default function SendaiPage() {
                 コツ5：保管状態を維持して早めに売る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                宮城県は夏の湿度が高く、着物にカビやシミが発生しやすい環境です。たとう紙で包み、定期的に虫干しをして保管状態を維持しましょう。ただし、長期保管はリスクが伴うため、売ると決めたらなるべく早く行動することが大切です。<Link href="/articles/storage-guide/" className="text-[#6b4c8a] hover:underline">着物の保管方法ガイド</Link>も参考にしてください。
+                宮城県は夏の湿度が高く、着物にカビやシミが発生しやすい環境です。たとう紙で包み、定期的に虫干しをして保管状態を維持してください。ただし、長期保管はリスクが伴うため、売ると決めたらなるべく早く行動することが大切です。<Link href="/articles/storage-guide/" className="text-[#6b4c8a] hover:underline">着物の保管方法ガイド</Link>も参考にしてください。
               </p>
             </div>
           </div>
@@ -720,7 +720,7 @@ export default function SendaiPage() {
             自宅に業者を招く出張買取（訪問購入）は特定商取引法の対象で、契約書面を受け取った日を含めて<strong>8日間はクーリング・オフ（無条件解約）</strong>ができます。さらにクーリング・オフ期間中は、業者に着物など品物の引き渡しを拒むことができます（引渡し拒否権）。
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.sendai.jp/kurashi/tetsuzuki/shohi/index.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">仙台市消費生活センター</a>（青葉区・141ビル5階）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
+            「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.sendai.jp/kurashi/tetsuzuki/shohi/index.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">仙台市消費生活センター</a>（青葉区・141ビル5階）にご相談ください。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
             押し買いの手口や対処法は<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] underline">着物買取のトラブル防止ガイド</Link>で詳しく解説しています。
@@ -776,7 +776,7 @@ export default function SendaiPage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。口コミ・評判・買取実績まで。
+                買取大吉・ウリエルなどおすすめ5社を比較。口コミ・評判・買取実績まで。
               </p>
             </Link>
             <Link
@@ -812,7 +812,7 @@ export default function SendaiPage() {
             仙台で着物を売るなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            宮城県内なら出張買取・宅配買取で自宅にいながら査定が可能。複数業者の無料査定で、お手持ちの着物の最高額を確認してみましょう。
+            宮城県内なら出張買取・宅配買取で自宅にいながら査定が可能。複数業者の無料査定で、お手持ちの着物の最高額を確認してんでください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

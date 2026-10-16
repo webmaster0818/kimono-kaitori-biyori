@@ -65,11 +65,11 @@ export default function MoldRemovalPage() {
           <div className="space-y-4">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">白カビ（初期段階）</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物の表面に白い粉状のものが付着している状態です。カビの初期段階で、比較的対処しやすい傾向があります。放置すると生地の奥まで浸透し、除去が困難になります。発見したらすぐに対処しましょう。自宅での応急処置も可能ですが、根の除去は専門店に依頼するのが確実です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物の表面に白い粉状のものが付着している状態です。カビの初期段階で、比較的対処しやすい傾向があります。放置すると生地の奥まで浸透し、除去が困難になります。発見したらすぐに対処してください。自宅での応急処置も可能ですが、根の除去は専門店に依頼するのが確実です。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#c9a76c] mb-2 text-base">黄カビ・茶カビ（中期段階）</h3>
-              <p className="text-sm leading-relaxed text-gray-700">白カビが進行し、黄色や茶色の斑点（シミ）として定着した状態です。この段階になると自宅での除去は困難で、専門店での処理が必要です。洗い張りや染み抜きの技術を持つ悉皆（しっかい）店に相談しましょう。費用は1万円〜3万円程度かかりますが、生地へのダメージが少なければ回復の可能性があります。</p>
+              <p className="text-sm leading-relaxed text-gray-700">白カビが進行し、黄色や茶色の斑点（シミ）として定着した状態です。この段階になると自宅での除去は困難で、専門店での処理が必要です。洗い張りや染み抜きの技術を持つ悉皆（しっかい）店にご相談ください。費用は1万円〜3万円程度かかりますが、生地へのダメージが少なければ回復の可能性があります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-gray-600 mb-2 text-base">黒カビ（重度）</h3>
@@ -85,11 +85,11 @@ export default function MoldRemovalPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順1：風通しの良い場所で乾燥させる</h3>
-              <p className="text-sm leading-relaxed text-gray-700">カビが生えた着物を箪笥から取り出し、直射日光の当たらない風通しの良い場所に広げます。衣紋掛け（着物ハンガー）に掛けるのが理想です。最低でも半日〜1日は乾燥させましょう。湿気がカビの原因なので、まず乾燥させることが最も重要です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">カビが生えた着物を箪笥から取り出し、直射日光の当たらない風通しの良い場所に広げます。衣紋掛け（着物ハンガー）に掛けるのが理想です。最低でも半日〜1日は乾燥させてください。湿気がカビの原因なので、まず乾燥させることが最も重要です。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順2：カビを払い落とす</h3>
-              <p className="text-sm leading-relaxed text-gray-700">十分に乾燥させたら、着物用の柔らかいブラシ（なければ柔らかい歯ブラシ）で、カビを優しく払い落とします。この作業は必ず屋外で行い、カビの胞子を室内に飛散させないようにしましょう。マスクの着用も推奨します。強くこすると生地を傷めるので、あくまで軽く払うように動かします。</p>
+              <p className="text-sm leading-relaxed text-gray-700">十分に乾燥させたら、着物用の柔らかいブラシ（なければ柔らかい歯ブラシ）で、カビを優しく払い落とします。この作業は必ず屋外で行い、カビの胞子を室内に飛散させないようにしてください。マスクの着用も推奨します。強くこすると生地を傷めるので、あくまで軽く払うように動かします。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">手順3：乾いた布で拭き取る</h3>
@@ -159,7 +159,7 @@ export default function MoldRemovalPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">定期的な虫干し</h3>
-              <p className="text-sm leading-relaxed text-gray-700">年に2〜3回の<Link href="/articles/airing-guide/" className="text-[#6b4c8a] hover:underline">虫干し</Link>を行いましょう。着物を箪笥から出して風を通すことで、湿気を逃がし、カビの予防になります。虫干しの際にカビの早期発見もできるため、一石二鳥です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">年に2〜3回の<Link href="/articles/airing-guide/" className="text-[#6b4c8a] hover:underline">虫干し</Link>を行ってください。着物を箪笥から出して風を通すことで、湿気を逃がし、カビの予防になります。虫干しの際にカビの早期発見もできるため、一石二鳥です。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">桐箪笥での保管</h3>

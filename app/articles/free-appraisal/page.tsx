@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "LINE査定の精度はどのくらいですか？",
     answer:
-      "LINE査定は写真から概算価格を出すため、実物査定と比べると精度は低くなります。あくまで目安として利用し、正式な査定は出張や持ち込みで行いましょう。ただし「値段がつくかどうか」の判断には十分役立ちます。",
+      "LINE査定は写真から概算価格を出すため、実物査定と比べると精度は低くなります。あくまで目安として利用し、正式な査定は出張や持ち込みで行ってください。ただし「値段がつくかどうか」の判断には十分役立ちます。",
   },
   {
     question: "出張査定ではどのくらい時間がかかりますか？",
@@ -198,7 +198,7 @@ export default function FreeAppraisalPage() {
               着物の無料査定とは、査定料・出張費・送料・キャンセル料がすべて無料で着物の価値を鑑定してもらえるサービスです。売る前に「いくらになるか」を確認でき、<strong>査定額に納得できなければ売らなくてもOK</strong>です。
             </p>
             <p>
-              近年は多くの買取業者が無料査定に対応しており、複数社に査定を依頼して最高額を比較するのが賢い売り方です。まずは気軽に無料査定を利用してみましょう。
+              近年は多くの買取業者が無料査定に対応しており、複数社に査定を依頼して最高額を比較するのが賢い売り方です。まずは気軽に無料査定を利用してんでください。
             </p>
             <p>
               ただし「無料」と謳いながら出張費やキャンセル料を請求する悪質な業者も存在します。この記事では、実際にすべて無料で利用できる信頼性の高い業者のみを厳選しています。
@@ -531,19 +531,19 @@ export default function FreeAppraisalPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：複数社に査定を依頼する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">業者によって得意ジャンルや査定基準が異なるため、3社以上に査定を依頼して比較しましょう。ヒカカクの一括比較を活用すると効率的です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">業者によって得意ジャンルや査定基準が異なるため、3社以上に査定を依頼して比較することをおすすめします。ヒカカクの一括比較を活用すると効率的です。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：証紙・たとう紙を一緒に出す</h3>
-              <p className="text-sm leading-relaxed text-gray-700">産地の証紙や作家の落款があると査定額が大幅にアップします。たとう紙（畳紙）も着物と一緒に出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">産地の証紙や作家の落款があると査定額が大幅にアップします。たとう紙（畳紙）も着物と一緒に出してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：着物と帯をセットで出す</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物と帯をコーディネートとしてセットで出すと、単体よりも高額査定になる可能性があります。和装小物もまとめて出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物と帯をコーディネートとしてセットで出すと、単体よりも高額査定になる可能性があります。和装小物もまとめて出してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：着物専門の業者を選ぶ</h3>
-              <p className="text-sm leading-relaxed text-gray-700">総合リサイクルショップでは着物の価値を見落とされがちです。買取大吉やウリエルなど着物に精通した査定員のいる業者を選びましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">総合リサイクルショップでは着物の価値を見落とされがちです。買取大吉やウリエルなど着物に精通した査定員のいる業者を選ぶことをおすすめします。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：クリーニングは不要</h3>
@@ -590,7 +590,7 @@ export default function FreeAppraisalPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/photo-appraisal/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">写真査定のコツ</h3>
@@ -611,7 +611,7 @@ export default function FreeAppraisalPage() {
             まずは無料査定で着物の価値を確認
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            査定だけでもOK・キャンセル無料。複数業者の無料査定で着物の最高額を確認しましょう。
+            査定だけでもOK・キャンセル無料。複数業者の無料査定で着物の最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

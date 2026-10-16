@@ -119,10 +119,10 @@ export default function KimonoRankPage() {
       <section id="tips" className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />格別・高く売るコツ</h2>
         <div className="space-y-5">
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">礼装（留袖・振袖）：帯とセットで出す</h3><p className="text-sm leading-relaxed text-gray-700">礼装は帯とセットで使うことが多いため、袋帯と一緒に出すとセットとしての価値が認められます。和装小物もまとめて出しましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">準礼装（訪問着・付け下げ）：作家物かチェック</h3><p className="text-sm leading-relaxed text-gray-700">訪問着・付け下げは手描き友禅の作家物が多いジャンル。落款を確認し、作家物であれば査定員に伝えましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">紬：証紙が最重要</h3><p className="text-sm leading-relaxed text-gray-700">紬は証紙の有無で買取額が数倍変わります。大島紬・結城紬の証紙は特に重要。必ず探して一緒に査定に出しましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">すべての着物：複数社で比較</h3><p className="text-sm leading-relaxed text-gray-700">格に関係なく、複数社で査定を比較するのが最も重要。ヒカカクの一括比較を活用して3社以上の見積もりを取りましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">礼装（留袖・振袖）：帯とセットで出す</h3><p className="text-sm leading-relaxed text-gray-700">礼装は帯とセットで使うことが多いため、袋帯と一緒に出すとセットとしての価値が認められます。和装小物もまとめて出してください。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">準礼装（訪問着・付け下げ）：作家物かチェック</h3><p className="text-sm leading-relaxed text-gray-700">訪問着・付け下げは手描き友禅の作家物が多いジャンル。落款を確認し、作家物であれば査定員に伝えてください。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">紬：証紙が最重要</h3><p className="text-sm leading-relaxed text-gray-700">紬は証紙の有無で買取額が数倍変わります。大島紬・結城紬の証紙は特に重要。必ず探して一緒に査定に出してください。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">すべての着物：複数社で比較</h3><p className="text-sm leading-relaxed text-gray-700">格に関係なく、複数社で査定を比較するのが最も重要。ヒカカクの一括比較を活用して3社以上の見積もりを取ってください。</p></div>
         </div>
       </div></section>
 
@@ -144,7 +144,7 @@ export default function KimonoRankPage() {
       <section className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           <Link href="/articles/tsumugi-types/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">紬の種類と買取相場</h3><p className="text-xs text-gray-600">大島紬・結城紬の買取価格を解説。</p></Link>
           <Link href="/articles/houmongi-tomesode/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">訪問着・留袖の買取相場</h3><p className="text-xs text-gray-600">フォーマル着物の買取価格を解説。</p></Link>
         </div>
@@ -152,7 +152,7 @@ export default function KimonoRankPage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">お手持ちの着物の価値を無料査定で確認</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">格にかかわらず、着物専門の査定員なら適正に評価。まずは無料査定で確認しましょう。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">格にかかわらず、着物専門の査定員なら適正に評価。まずは無料査定でご確認ください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
 

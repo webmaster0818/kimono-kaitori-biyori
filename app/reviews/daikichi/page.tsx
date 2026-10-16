@@ -5,16 +5,16 @@ import SoubaNote from "../../components/SoubaNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
-  title: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
+  title: "買取大吉の着物買取｜口コミ・評判・買取実績を検証",
   description:
-    "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
+    "買取大吉の着物買取サービスを検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/daikichi/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
+    title: "買取大吉の着物買取｜口コミ・評判・買取実績を検証",
     description:
-      "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場を公開情報と実売データにもとづいてレビュー。",
+      "買取大吉の着物買取サービスを検証。全国2,000店超の実績、査定員の質、買取価格の相場を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/daikichi/",
     siteName: "着物の買取びより",
     type: "article",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
+  headline: "買取大吉の着物買取｜口コミ・評判・買取実績を検証",
   description:
-    "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。",
+    "買取大吉の着物買取サービスを検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -176,11 +176,11 @@ export default function DaikichiReviewPage() {
             買取大吉の着物買取
             <br className="md:hidden" />
             <span className="text-[#6b4c8a]">口コミ・評判・買取実績</span>
-            を徹底検証
+            を検証
           </h1>
           <p className="text-gray-600 leading-relaxed">
             全国2,000店舗以上を展開する買取大吉。着物買取においても専門査定員が在籍し、振袖・訪問着・帯・和装小物まで幅広く対応しています。
-            本記事では、実際の利用者の口コミ・評判をもとに、買取大吉の着物買取サービスを徹底検証します。
+            本記事では、実際の利用者の口コミ・評判をもとに、買取大吉の着物買取サービスを検証します。
           </p>
         </header>
 
@@ -693,7 +693,7 @@ export default function DaikichiReviewPage() {
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
               <p className="text-sm font-bold text-gray-900 mb-1">2. 出張買取は1.5時間程度かかる場合がある</p>
               <p className="text-sm text-gray-700">
-                丁寧な査定を行うため、出張買取では到着から完了まで1〜1.5時間ほどかかるケースがあります。時間に余裕を持ってスケジュールしましょう。
+                丁寧な査定を行うため、出張買取では到着から完了まで1〜1.5時間ほどかかるケースがあります。時間に余裕を持ってスケジュールしてください。
               </p>
             </div>
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
@@ -746,7 +746,7 @@ export default function DaikichiReviewPage() {
                 A.
                 振袖、訪問着、留袖、小紋、紬、付け下げ、色無地、帯、和装小物など幅広い着物が買取対象です。
                 シミや汚れがあるものでも査定してもらえます。ただし、状態が著しく悪い場合は
-                買取不可となる場合もあります。証紙や落款がある場合は必ず一緒に提示しましょう。
+                買取不可となる場合もあります。証紙や落款がある場合は必ず一緒に提示してください。
               </div>
             </details>
 

@@ -5,15 +5,15 @@ import SoubaNote from "../../components/SoubaNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
-  title: "買取大吉 vs ウリエル 徹底比較｜どちらに売るべき？",
+  title: "買取大吉 vs ウリエル 比較｜どちらに売るべき？",
   description:
-    "買取大吉とウリエルの着物買取を徹底比較。買取方法、対応エリア、査定の質、買取価格、口コミ・評判の違いを詳しく解説。あなたの着物はどちらに売るべきか、タイプ別のおすすめも紹介します。",
+    "買取大吉とウリエルの着物買取を比較。買取方法、対応エリア、査定の質、買取価格、口コミ・評判の違いを詳しく解説。あなたの着物はどちらに売るべきか、タイプ別のおすすめも紹介します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/daikichi-vs-uriel/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "買取大吉 vs ウリエル 徹底比較｜どちらに売るべき？",
-    description: "買取大吉とウリエルの着物買取を6つの視点で徹底比較。あなたに合うのはどちら？",
+    title: "買取大吉 vs ウリエル 比較｜どちらに売るべき？",
+    description: "買取大吉とウリエルの着物買取を6つの視点で比較。あなたに合うのはどちら？",
     url: "https://kimonokaitori-biyori.com/articles/daikichi-vs-uriel/",
     siteName: "着物の買取びより",
     type: "article",
@@ -30,8 +30,8 @@ const faqs = [
 
 const articleStructuredData = {
   "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "買取大吉 vs ウリエル 徹底比較｜どちらに売るべき？",
-  description: "買取大吉とウリエルの着物買取を6つの視点で徹底比較。あなたに合うのはどちら？",
+  headline: "買取大吉 vs ウリエル 比較｜どちらに売るべき？",
+  description: "買取大吉とウリエルの着物買取を6つの視点で比較。あなたに合うのはどちら？",
   datePublished: "2026-05-17", dateModified: "2026-05-17",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
@@ -64,15 +64,15 @@ export default function DaikichiVsUrielPage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <header className="mb-12 rounded-2xl p-6 md:p-10 border border-[#e8ddd0]" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/daikichi-vs-uriel.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
           <div className="flex items-center gap-3 mb-4">
-            <span className="inline-block bg-[#6b4c8a] text-white text-xs font-bold px-3 py-1 rounded-full">徹底比較</span>
+            <span className="inline-block bg-[#6b4c8a] text-white text-xs font-bold px-3 py-1 rounded-full">比較</span>
             <time dateTime="2026-05-17" className="text-xs text-gray-500">2026年5月17日</time>
           </div>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             買取大吉 vs ウリエル<br className="md:hidden" />
-            <span className="text-[#6b4c8a]">徹底比較</span>｜どちらに売るべき？
+            <span className="text-[#6b4c8a]">比較</span>｜どちらに売るべき？
           </h1>
           <p className="text-gray-600 leading-relaxed">
-            着物を売ろうと考えた時、「買取大吉とウリエル、どちらが良いのか？」と迷う方は多いでしょう。買取大吉は全国1,800店超のフランチャイズチェーン、ウリエルは直営で着物買取に注力するサービスと、両社の特徴は大きく異なります。本記事では、運営形態・買取方法・査定の質・買取価格・口コミなど6つの視点で徹底比較し、あなたの着物はどちらに売るべきかを解説します。
+            着物を売ろうと考えた時、「買取大吉とウリエル、どちらが良いのか？」と迷う方は多いでしょう。買取大吉は全国1,800店超のフランチャイズチェーン、ウリエルは直営で着物買取に注力するサービスと、両社の特徴は大きく異なります。本記事では、運営形態・買取方法・査定の質・買取価格・口コミなど6つの視点で比較し、あなたの着物はどちらに売るべきかを解説します。
           </p>
         </header>
 
@@ -229,7 +229,7 @@ export default function DaikichiVsUrielPage() {
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-lg p-6">
             <h3 className="font-bold text-gray-900 mb-3">最適な選び方</h3>
             <p className="text-sm text-gray-700 leading-relaxed mb-3">最も賢い方法は、両社に査定を依頼して比較することです。どちらも査定料・キャンセル料は無料なので、リスクなく相見積もりが取れます。</p>
-            <p className="text-sm text-gray-700 leading-relaxed">特に高額な作家物や希少な着物をお持ちの場合は、必ず複数社で査定を比較しましょう。着物の種類や状態によって、有利な業者は変わります。</p>
+            <p className="text-sm text-gray-700 leading-relaxed">特に高額な作家物や希少な着物をお持ちの場合は、必ず複数社で査定を比較することをおすすめします。着物の種類や状態によって、有利な業者は変わります。</p>
           </div>
         </section>
 
@@ -253,7 +253,7 @@ export default function DaikichiVsUrielPage() {
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <p className="text-gray-700 text-sm leading-relaxed mb-4">買取大吉とウリエルは、それぞれ異なる強みを持つ買取サービスです。買取大吉は全国1,800店超の圧倒的な店舗ネットワークと気軽に持ち込める利便性が魅力。ウリエルは直営による統一された査定基準と着物の専門性の高さが強みです。</p>
             <p className="text-gray-700 text-sm leading-relaxed mb-4">着物を最も高く売るためには、一社だけに依頼するのではなく、両社に査定を依頼して比較するのが正解です。どちらも査定料・キャンセル料は完全無料なので、リスクなく相見積もりが取れます。</p>
-            <p className="text-gray-700 text-sm leading-relaxed">まずは気軽に査定を依頼し、納得のいく価格で大切な着物を手放しましょう。</p>
+            <p className="text-gray-700 text-sm leading-relaxed">まずは気軽に査定を依頼し、納得のいく価格で大切な着物を手放してください。</p>
           </div>
         </section>
 

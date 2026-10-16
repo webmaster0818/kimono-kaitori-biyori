@@ -57,7 +57,7 @@ export default function AppGuidePage() {
             <span className="block mt-2 text-lg md:text-2xl text-gray-700">スマホで完結する売り方ガイド</span>
           </h1>
           <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-            「スマホだけで着物を売りたい」という方に向けて、フリマアプリ（メルカリ・ヤフオク・ラクマ）と買取業者のオンライン査定を徹底比較。それぞれのメリット・デメリット、手数料、使い方のコツを解説します。
+            「スマホだけで着物を売りたい」という方に向けて、フリマアプリ（メルカリ・ヤフオク・ラクマ）と買取業者のオンライン査定を比較。それぞれのメリット・デメリット、手数料、使い方のコツを解説します。
           </p>
           <p className="mt-3 text-xs text-gray-400">最終更新：2026年5月17日</p>
         </div></div>
@@ -210,7 +210,7 @@ export default function AppGuidePage() {
           <div className="space-y-4">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. 自然光の下で撮影する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">蛍光灯や白熱灯の下では色味が変わってしまいます。窓際や日中の屋外の日陰で撮影すると、実物に近い色合いで撮れます。フラッシュは使わないようにしましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">蛍光灯や白熱灯の下では色味が変わってしまいます。窓際や日中の屋外の日陰で撮影すると、実物に近い色合いで撮れます。フラッシュは使わないようにしてください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">2. 全体→部分→証紙の順で撮る</h3>
@@ -222,7 +222,7 @@ export default function AppGuidePage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">4. 背景はシンプルに</h3>
-              <p className="text-sm leading-relaxed text-gray-700">白い布や畳の上に広げると着物の柄が映えます。ごちゃごちゃした背景は避け、着物に注目が集まるように撮影しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">白い布や畳の上に広げると着物の柄が映えます。ごちゃごちゃした背景は避け、着物に注目が集まるように撮影してください。</p>
             </div>
           </div>
         </div>
@@ -260,7 +260,7 @@ export default function AppGuidePage() {
             着物の種類別・最適なアプリ活用法
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            着物の種類や状態によって、最適な売り方は変わります。以下の表を参考に、あなたの着物に合った方法を選びましょう。
+            着物の種類や状態によって、最適な売り方は変わります。以下の表を参考に、あなたの着物に合った方法を選ぶことをおすすめします。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
@@ -322,25 +322,25 @@ export default function AppGuidePage() {
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">フリマアプリでの値下げ交渉に注意</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                メルカリでは値下げ交渉が頻繁に行われます。最初から最低売りたい価格ギリギリに設定するのではなく、交渉分を上乗せした価格で出品しましょう。ただし、あまりに高すぎる価格設定は閲覧数が減る原因になります。相場の1.2〜1.3倍程度が目安です。
+                メルカリでは値下げ交渉が頻繁に行われます。最初から最低売りたい価格ギリギリに設定するのではなく、交渉分を上乗せした価格で出品してください。ただし、あまりに高すぎる価格設定は閲覧数が減る原因になります。相場の1.2〜1.3倍程度が目安です。
               </p>
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">偽物と間違われないための対策</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                高額着物（作家物・伝統工芸品）をフリマアプリで出品する際は、証紙・落款の鮮明な写真を必ず載せましょう。購入者から「偽物ではないか」という質問を受けることがありますが、証紙の写真があれば信頼性が増します。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙ガイド</Link>も参考に。
+                高額着物（作家物・伝統工芸品）をフリマアプリで出品する際は、証紙・落款の鮮明な写真を必ず載せてください。購入者から「偽物ではないか」という質問を受けることがありますが、証紙の写真があれば信頼性が増します。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙ガイド</Link>も参考に。
               </p>
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">返品トラブルの防止策</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                「実物と色が違う」「シミがあるとは思わなかった」といったトラブルを防ぐために、商品説明には状態を正確に記載し、シミや汚れの写真も載せましょう。サイズ（身丈・裄丈・袖丈・前幅・後幅）の実測値も記載必須です。<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] hover:underline">トラブル防止ガイド</Link>もチェック。
+                「実物と色が違う」「シミがあるとは思わなかった」といったトラブルを防ぐために、商品説明には状態を正確に記載し、シミや汚れの写真も載せてください。サイズ（身丈・裄丈・袖丈・前幅・後幅）の実測値も記載必須です。<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] hover:underline">トラブル防止ガイド</Link>もチェック。
               </p>
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">個人情報の取り扱い</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                メルカリ便やヤフネコパックなどの匿名配送を利用すれば、購入者に住所・氏名を知られずに取引できます。プライバシーが気になる方は匿名配送に対応したアプリ・配送方法を選びましょう。
+                メルカリ便やヤフネコパックなどの匿名配送を利用すれば、購入者に住所・氏名を知られずに取引できます。プライバシーが気になる方は匿名配送に対応したアプリ・配送方法を選ぶことをおすすめします。
               </p>
             </div>
           </div>
@@ -408,7 +408,7 @@ export default function AppGuidePage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/articles/auction-guide/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">ネットオークション出品ガイド</h3><p className="text-xs text-gray-600">ヤフオク・メルカリでの売り方を詳しく解説。</p></Link>
             <Link href="/articles/line-appraisal/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">LINE査定ガイド</h3><p className="text-xs text-gray-600">LINEで簡単に査定額を確認する方法。</p></Link>
-            <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+            <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           </div>
         </div>
       </section>
@@ -506,7 +506,7 @@ export default function AppGuidePage() {
                 </div>
               </div>
               <p className="mt-4">
-                どちらか迷ったら、まずは買取業者のオンライン査定で相場を確認するところから始めましょう。無料で使えるため、リスクはゼロです。
+                どちらか迷ったら、まずは買取業者のオンライン査定で相場を確認するところから始めてください。無料で使えるため、リスクはゼロです。
               </p>
             </div>
           </div>
@@ -517,7 +517,7 @@ export default function AppGuidePage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">スマホで着物の価値を今すぐチェック</h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            LINE査定・写真査定で概算額を確認。まずは無料で相場をチェックしてみましょう。
+            LINE査定・写真査定で概算額を確認。まずは無料で相場をチェックしてんでください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>

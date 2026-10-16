@@ -555,7 +555,7 @@ export default function OshimaTsumugiPage() {
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
             <p className="text-sm leading-relaxed">
               <strong className="text-[#6b4c8a]">ポイント：</strong>
-              作家物の大島紬を見分けるには、反物の端や証紙に記された落款（作家のサイン・印）を確認しましょう。落款があれば作家物として高い評価を受けられます。落款が不明な場合でも、着物専門の買取業者であれば織りの特徴から作家を特定できることがあります。
+              作家物の大島紬を見分けるには、反物の端や証紙に記された落款（作家のサイン・印）をご確認ください。落款があれば作家物として高い評価を受けられます。落款が不明な場合でも、着物専門の買取業者であれば織りの特徴から作家を特定できることがあります。
             </p>
           </div>
         </div>
@@ -670,7 +670,7 @@ export default function OshimaTsumugiPage() {
                 ポイント1：証紙は必ず一緒に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                証紙があるかないかで買取価格は大きく変わります。たとう紙の中、購入時の箱の中、着物と一緒に保管している袋の中など、心当たりのある場所をすべて探しましょう。証紙だけでなく、購入時のレシートや保証書なども査定時の参考になります。
+                証紙があるかないかで買取価格は大きく変わります。たとう紙の中、購入時の箱の中、着物と一緒に保管している袋の中など、心当たりのある場所をすべて探してください。証紙だけでなく、購入時のレシートや保証書なども査定時の参考になります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -678,7 +678,7 @@ export default function OshimaTsumugiPage() {
                 ポイント2：着物専門の買取業者に依頼する
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                大島紬は専門知識がないと正当な評価が難しい着物です。リサイクルショップや総合買取店ではなく、着物に精通した専門の買取業者に査定を依頼しましょう。大島紬の種類・マルキ数・作家を見分けられる査定員がいる業者を選ぶことが大切です。
+                大島紬は専門知識がないと正当な評価が難しい着物です。リサイクルショップや総合買取店ではなく、着物に精通した専門の買取業者に査定を依頼することをおすすめします。大島紬の種類・マルキ数・作家を見分けられる査定員がいる業者を選ぶことが大切です。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -686,7 +686,7 @@ export default function OshimaTsumugiPage() {
                 ポイント3：複数業者で相見積もり
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                大島紬の査定は業者によって数万円の差が出ることがあります。最低でも3社以上に無料査定を依頼し、最も高い価格を提示した業者を選びましょう。出張買取を利用すれば、自宅にいながら複数業者の査定を受けることができます。
+                大島紬の査定は業者によって数万円の差が出ることがあります。最低でも3社以上に無料査定を依頼し、最も高い価格を提示した業者を選ぶことをおすすめします。出張買取を利用すれば、自宅にいながら複数業者の査定を受けることができます。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -694,7 +694,7 @@ export default function OshimaTsumugiPage() {
                 ポイント4：保管状態を良好に保つ
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                大島紬は正絹のため、湿気やカビに弱い素材です。たとう紙に包み、防湿剤と一緒に通気性の良い場所で保管しましょう。年に1〜2回は風通しの良い日陰で虫干しを行うと、カビの発生を防げます。売ると決めたら、なるべく早く査定に出すことも大切です。
+                大島紬は正絹のため、湿気やカビに弱い素材です。たとう紙に包み、防湿剤と一緒に通気性の良い場所で保管してください。年に1〜2回は風通しの良い日陰で虫干しを行うと、カビの発生を防げます。売ると決めたら、なるべく早く査定に出すことも大切です。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -702,7 +702,7 @@ export default function OshimaTsumugiPage() {
                 ポイント5：帯もセットで査定に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                大島紬に合わせていた帯がある場合は、セットで査定に出すと全体の買取額がアップすることがあります。特に西陣織の袋帯や、大島紬に合う名古屋帯は単体でも価値があります。帯締め・帯揚げなどの小物も一緒に出しましょう。
+                大島紬に合わせていた帯がある場合は、セットで査定に出すと全体の買取額がアップすることがあります。特に西陣織の袋帯や、大島紬に合う名古屋帯は単体でも価値があります。帯締め・帯揚げなどの小物も一緒に出してください。
               </p>
             </div>
           </div>
@@ -717,7 +717,7 @@ export default function OshimaTsumugiPage() {
             大島紬と他の紬の買取価格比較
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            大島紬の買取相場を他の有名な紬と比較してみましょう。産地やブランドによって買取価格は大きく異なります。
+            大島紬の買取相場を他の有名な紬と比較してんでください。産地やブランドによって買取価格は大きく異なります。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
@@ -858,7 +858,7 @@ export default function OshimaTsumugiPage() {
               大島紬を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              大島紬は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              大島紬は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -873,7 +873,7 @@ export default function OshimaTsumugiPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -895,7 +895,7 @@ export default function OshimaTsumugiPage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。口コミ・評判・買取実績まで。
+                買取大吉・ウリエルなどおすすめ5社を比較。口コミ・評判・買取実績まで。
               </p>
             </Link>
             <Link
@@ -942,7 +942,7 @@ export default function OshimaTsumugiPage() {
             大島紬の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            大島紬の買取相場はあくまで目安です。種類・マルキ数・作家・状態によって実際の査定額は大きく変わります。着物専門の査定員がいる信頼できる業者に無料査定を依頼して、お手持ちの大島紬の正確な価値を確認しましょう。
+            大島紬の買取相場はあくまで目安です。種類・マルキ数・作家・状態によって実際の査定額は大きく変わります。着物専門の査定員がいる信頼できる業者に無料査定を依頼して、お手持ちの大島紬の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

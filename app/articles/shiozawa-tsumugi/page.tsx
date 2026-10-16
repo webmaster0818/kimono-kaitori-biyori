@@ -36,12 +36,12 @@ const faqs = [
   {
     question: "塩沢紬は重要無形文化財ですか？",
     answer:
-      "塩沢紬・本塩沢そのものは重要無形文化財ではなく、国の伝統的工芸品に指定されています（塩沢紬は1975年、本塩沢は1976年指定）。重要無形文化財に指定されているのは、同じ地域で作られる「越後上布・小千谷縮」で、1955年に指定され、2009年にはユネスコ無形文化遺産にも登録されています。越後上布は苧麻を原料とする麻織物で、塩沢紬とは別の織物です。混同されやすいので注意しましょう。",
+      "塩沢紬・本塩沢そのものは重要無形文化財ではなく、国の伝統的工芸品に指定されています（塩沢紬は1975年、本塩沢は1976年指定）。重要無形文化財に指定されているのは、同じ地域で作られる「越後上布・小千谷縮」で、1955年に指定され、2009年にはユネスコ無形文化遺産にも登録されています。越後上布は苧麻を原料とする麻織物で、塩沢紬とは別の織物です。混同されやすいのでご注意ください。",
   },
   {
     question: "塩沢紬の証紙はどこを見ればわかりますか？",
     answer:
-      "塩沢紬・本塩沢には、塩沢織物工業協同組合が発行する証紙が付きます。経済産業大臣指定の伝統的工芸品であることを示す伝統証紙のほか、産地を示す証紙などが付くのが一般的です。証紙は反物の端やたとう紙の中、購入時の箱などに保管されていることが多いので、必ず探して一緒に査定に出しましょう。証紙があるかどうかで評価が大きく変わります。",
+      "塩沢紬・本塩沢には、塩沢織物工業協同組合が発行する証紙が付きます。経済産業大臣指定の伝統的工芸品であることを示す伝統証紙のほか、産地を示す証紙などが付くのが一般的です。証紙は反物の端やたとう紙の中、購入時の箱などに保管されていることが多いので、必ず探して一緒に査定に出してください。証紙があるかどうかで評価が大きく変わります。",
   },
   {
     question: "塩沢紬を高く売るにはどうすればいいですか？",
@@ -293,7 +293,7 @@ export default function ShiozawaTsumugiPage() {
             塩沢紬と本塩沢の違い
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            塩沢地方の織物には「塩沢紬」と「本塩沢（塩沢お召）」があり、混同されがちですが、素材や織りの特徴が異なります。買取でも種類によって評価が変わるため、違いを整理しておきましょう。
+            塩沢地方の織物には「塩沢紬」と「本塩沢（塩沢お召）」があり、混同されがちですが、素材や織りの特徴が異なります。買取でも種類によって評価が変わるため、違いを整理しておいてください。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
@@ -361,7 +361,7 @@ export default function ShiozawaTsumugiPage() {
           <div className="mt-6 bg-[#faf8f5] border border-[#e8ddd0] rounded-xl p-5">
             <p className="text-sm leading-relaxed text-gray-700">
               <strong className="text-[#6b4c8a]">ポイント：</strong>
-              本塩沢は、よこ糸の強撚糸が織り上げ後の湯もみで戻る力によって、生地表面に細かなシボが生まれます。さらりとした独特の風合いが特徴です。どちらも証紙で種類を確認できるため、査定時には証紙を一緒に提示しましょう。
+              本塩沢は、よこ糸の強撚糸が織り上げ後の湯もみで戻る力によって、生地表面に細かなシボが生まれます。さらりとした独特の風合いが特徴です。どちらも証紙で種類を確認できるため、査定時には証紙を一緒に提示してください。
             </p>
           </div>
         </div>
@@ -566,7 +566,7 @@ export default function ShiozawaTsumugiPage() {
                 ポイント1：証紙を必ずセットで査定に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                塩沢織物工業協同組合の証紙や伝統証紙は、塩沢産であることを証明する最も重要な書類です。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出しましょう。証紙の有無で評価が大きく変わります。
+                塩沢織物工業協同組合の証紙や伝統証紙は、塩沢産であることを証明する最も重要な書類です。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出してください。証紙の有無で評価が大きく変わります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -576,7 +576,7 @@ export default function ShiozawaTsumugiPage() {
               <p className="text-sm leading-relaxed text-gray-700">
                 塩沢紬は産地や作家の知識がないと正しく評価できません。一般的なリサイクルショップでは安く買い取られてしまうことがあります。
                 <Link href="/articles/tsumugi-types/" className="text-[#6b4c8a] underline">紬の種類</Link>
-                や絣の織物に詳しい着物専門の買取業者を選びましょう。
+                や絣の織物に詳しい着物専門の買取業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -586,7 +586,7 @@ export default function ShiozawaTsumugiPage() {
               <p className="text-sm leading-relaxed text-gray-700">
                 塩沢紬は業者の販路や在庫状況によって査定額が変わります。最低でも3社に
                 <Link href="/articles/free-appraisal/" className="text-[#6b4c8a] underline">無料査定</Link>
-                を依頼し、最も高い価格を提示した業者を選びましょう。
+                を依頼し、最も高い価格を提示した業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -594,7 +594,7 @@ export default function ShiozawaTsumugiPage() {
                 ポイント4：状態を良好に保ち、早めに売る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                塩沢紬は正絹の織物のため、湿気やカビ、日焼けに弱い素材です。色褪せやほつれが進むと価値が下がります。たとう紙に包んで暗所で保管し、売ると決めたら早めに査定に出しましょう。
+                塩沢紬は正絹の織物のため、湿気やカビ、日焼けに弱い素材です。色褪せやほつれが進むと価値が下がります。たとう紙に包んで暗所で保管し、売ると決めたら早めに査定に出してください。
               </p>
             </div>
           </div>
@@ -788,7 +788,7 @@ export default function ShiozawaTsumugiPage() {
               塩沢紬・本塩沢を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              塩沢紬・本塩沢は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              塩沢紬・本塩沢は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -803,7 +803,7 @@ export default function ShiozawaTsumugiPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -861,7 +861,7 @@ export default function ShiozawaTsumugiPage() {
             塩沢紬の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            塩沢紬・本塩沢の買取相場はあくまで目安です。証紙・作家・状態によって実際の査定額は大きく変わります。紬や絣の織物に詳しい査定員に無料査定を依頼して、お手持ちの塩沢紬の正確な価値を確認しましょう。
+            塩沢紬・本塩沢の買取相場はあくまで目安です。証紙・作家・状態によって実際の査定額は大きく変わります。紬や絣の織物に詳しい査定員に無料査定を依頼して、お手持ちの塩沢紬の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

@@ -7,14 +7,14 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取 横浜のおすすめ業者5選｜神奈川エリアの出張対応",
   description:
-    "横浜・神奈川で着物を売るならどこがおすすめ？出張買取対応の着物買取業者5選を徹底比較。口コミ・評判・買取実績をまとめました。",
+    "横浜・神奈川で着物を売るならどこがおすすめ？出張買取対応の着物買取業者5選を比較。口コミ・評判・買取実績をまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/yokohama/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取 横浜のおすすめ業者5選｜神奈川エリアの出張対応",
     description:
-      "横浜・神奈川で着物を売るならどこがおすすめ？出張買取対応の着物買取業者5選を徹底比較。口コミ・評判・買取実績をまとめました。",
+      "横浜・神奈川で着物を売るならどこがおすすめ？出張買取対応の着物買取業者5選を比較。口コミ・評判・買取実績をまとめました。",
     url: "https://kimonokaitori-biyori.com/articles/yokohama/",
     siteName: "着物の買取びより",
     type: "article",
@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "古い着物やシミがある着物でも買い取ってもらえますか？",
     answer:
-      "はい、買取大吉やウリエルはシミ・汚れ・色褪せがある着物でも査定してくれます。正絹の素材や有名作家の作品であれば、多少の難があっても値段がつく可能性があります。まずは無料査定に出してみましょう。",
+      "はい、買取大吉やウリエルはシミ・汚れ・色褪せがある着物でも査定してくれます。正絹の素材や有名作家の作品であれば、多少の難があっても値段がつく可能性があります。まずは無料査定に出してんでください。",
   },
   {
     question: "横浜で着物と一緒に和装小物も売れますか？",
@@ -156,7 +156,7 @@ export default function YokohamaPage() {
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              横浜・神奈川で着物を売りたい方に向けて、出張買取・持ち込み・宅配に対応したおすすめ業者5選を徹底比較。横浜エリアならではの着物事情や高く売るコツもまとめました。
+              横浜・神奈川で着物を売りたい方に向けて、出張買取・持ち込み・宅配に対応したおすすめ業者5選を比較。横浜エリアならではの着物事情や高く売るコツもまとめました。
             </p>
             <p className="mt-3 text-xs text-gray-400">
               最終更新：2026年4月26日
@@ -541,7 +541,7 @@ export default function YokohamaPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：証紙・たとう紙を一緒に出す</h3>
-              <p className="text-sm leading-relaxed text-gray-700">産地の証紙やたとう紙（畳紙）があると査定額がアップします。購入時の領収書やブランドタグも保管している場合は一緒に出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">産地の証紙やたとう紙（畳紙）があると査定額がアップします。購入時の領収書やブランドタグも保管している場合は一緒に出してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：着物専門の業者を選ぶ</h3>
@@ -549,7 +549,7 @@ export default function YokohamaPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：帯と着物をセットで出す</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物と帯をコーディネートとしてセットで出すと、単体よりも高額査定になる可能性があります。和装小物もまとめて出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物と帯をコーディネートとしてセットで出すと、単体よりも高額査定になる可能性があります。和装小物もまとめて出してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：ヒカカクで一括比較を活用</h3>
@@ -571,7 +571,7 @@ export default function YokohamaPage() {
               自宅に業者を招く出張買取（訪問購入）は特定商取引法の対象で、契約書面を受け取った日を含めて<strong>8日間はクーリング・オフ（無条件解約）</strong>ができます。さらにクーリング・オフ期間中は、業者に着物など品物の引き渡しを拒むことができます（引渡し拒否権）。
             </p>
             <p>
-              「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.yokohama-consumer.or.jp/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">横浜市消費生活総合センター</a>（港南区上大岡西・ゆめおおおかオフィスタワー4階）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
+              「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.yokohama-consumer.or.jp/" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">横浜市消費生活総合センター</a>（港南区上大岡西・ゆめおおおかオフィスタワー4階）にご相談ください。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
             </p>
             <p>
               電話相談は<strong>045-845-6666</strong>（横浜市消費生活総合センター・相談専用／平日9時〜18時、土曜・日曜9時〜16時45分は電話相談のみ）へ。※電話番号も2026年7月に公式サイトで確認
@@ -620,7 +620,7 @@ export default function YokohamaPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/tokyo/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">東京の着物買取業者5選</h3>
@@ -641,7 +641,7 @@ export default function YokohamaPage() {
             横浜で着物を売るなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            横浜・神奈川エリアで着物を適正価格で買取。複数業者の無料査定で最高額を確認しましょう。
+            横浜・神奈川エリアで着物を適正価格で買取。複数業者の無料査定で最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

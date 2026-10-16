@@ -6,13 +6,13 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "着物はフリマと買取業者どっちが高く売れる？メリット・デメリット比較",
   description:
-    "着物を売るならフリマアプリ（メルカリ等）と買取業者どちらが高く売れるのか徹底比較。それぞれのメリット・デメリット、手数料、手間、トラブル事例を解説し、着物の種類別におすすめの売り方を提案します。",
+    "着物を売るならフリマアプリ（メルカリ等）と買取業者どちらが高く売れるのか比較。それぞれのメリット・デメリット、手数料、手間、トラブル事例を解説し、着物の種類別におすすめの売り方を提案します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/flea-vs-dealer/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物はフリマと買取業者どっちが高く売れる？メリット・デメリット比較",
-    description: "フリマアプリと買取業者の着物売却方法を徹底比較。手数料、手間、売れやすさの違いを解説。",
+    description: "フリマアプリと買取業者の着物売却方法を比較。手数料、手間、売れやすさの違いを解説。",
     url: "https://kimonokaitori-biyori.com/articles/flea-vs-dealer/",
     siteName: "着物の買取びより",
     type: "article",
@@ -47,7 +47,7 @@ const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物はフリマと買取業者どっちが高く売れる？メリット・デメリット比較",
-  description: "フリマアプリと買取業者の着物売却方法を徹底比較。手数料、手間、売れやすさの違いを解説。",
+  description: "フリマアプリと買取業者の着物売却方法を比較。手数料、手間、売れやすさの違いを解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -351,17 +351,17 @@ export default function FleaVsDealerPage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-red-600 mb-2 text-base">事例1：「正絹と書いてあったが化繊だった」</h3>
               <p className="text-sm leading-relaxed text-gray-700 mb-2">着物の素材を「正絹」と記載して出品したが、購入者から「化繊ではないか」とクレームが入り返品対応になったケース。</p>
-              <p className="text-sm leading-relaxed text-gray-700"><strong className="text-[#6b4c8a]">対策：</strong>素材が不明な場合は「素材不明」と記載しましょう。また、証紙の写真を掲載することで信頼性が高まります。</p>
+              <p className="text-sm leading-relaxed text-gray-700"><strong className="text-[#6b4c8a]">対策：</strong>素材が不明な場合は「素材不明」と記載してください。また、証紙の写真を掲載することで信頼性が高まります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-red-600 mb-2 text-base">事例2：「写真と色が違う」</h3>
               <p className="text-sm leading-relaxed text-gray-700 mb-2">蛍光灯の下で撮影した写真と実物の色味が異なり、購入者から不満のコメントが入ったケース。</p>
-              <p className="text-sm leading-relaxed text-gray-700"><strong className="text-[#6b4c8a]">対策：</strong>自然光で撮影し、「モニターによって色味が異なる場合があります」と注意書きを入れましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700"><strong className="text-[#6b4c8a]">対策：</strong>自然光で撮影し、「モニターによって色味が異なる場合があります」と注意書きを入れてください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-red-600 mb-2 text-base">事例3：「シミがあるのに記載がなかった」</h3>
               <p className="text-sm leading-relaxed text-gray-700 mb-2">気づかなかった小さなシミについてクレームが入り、返品＋往復送料を負担することになったケース。</p>
-              <p className="text-sm leading-relaxed text-gray-700"><strong className="text-[#6b4c8a]">対策：</strong>出品前に着物全体を入念にチェックし、小さなシミでも写真を撮って商品説明に記載しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700"><strong className="text-[#6b4c8a]">対策：</strong>出品前に着物全体を入念にチェックし、小さなシミでも写真を撮って商品説明に記載してください。</p>
             </div>
           </div>
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -438,7 +438,7 @@ export default function FleaVsDealerPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">おすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/sell-high-tips/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物を高く売るコツ</h3>

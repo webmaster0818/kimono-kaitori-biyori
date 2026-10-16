@@ -21,11 +21,11 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { question: "山形の置賜紬や白鷹お召は高く売れますか？", answer: "はい、置賜紬（白鷹お召・長井紬・米沢紬）は国の伝統的工芸品で、状態と証紙が揃っていれば高価買取が期待できます。特に板締小絣の白鷹お召は生産量が少なく希少で、証紙付きのものは評価が高くなります。証紙がないと正絹であっても査定額が下がるため、購入時の証紙は必ず一緒に査定へ出しましょう。" },
+  { question: "山形の置賜紬や白鷹お召は高く売れますか？", answer: "はい、置賜紬（白鷹お召・長井紬・米沢紬）は国の伝統的工芸品で、状態と証紙が揃っていれば高価買取が期待できます。特に板締小絣の白鷹お召は生産量が少なく希少で、証紙付きのものは評価が高くなります。証紙がないと正絹であっても査定額が下がるため、購入時の証紙は必ず一緒に査定へ出してください。" },
   { question: "紅花染の着物も買取対象ですか？", answer: "はい、山形特産の紅花で染めた紅花紬・紅花染の着物は買取対象です。独特の優しい色合いに価値があり、作家物や証紙付きのものは特に評価が高くなります。証明書があれば必ず添えて査定に出してください。" },
   { question: "山形県内で着物の出張買取は無料で来てもらえますか？", answer: "主要な着物買取業者であれば、山形市・米沢市・鶴岡市・酒田市など県内全域で無料の出張買取に対応しています。買取大吉やウリエルは出張費・査定料・キャンセル料すべて無料で、自宅にいながら査定を受けられます。雪深い地域でも対応可能なことが多いので、まずは電話やLINEで対応エリアを確認するとスムーズです。" },
   { question: "山形で大量の着物をまとめて売れますか？", answer: "はい、出張買取を利用すれば点数制限なく大量の着物をまとめて売却できます。蔵や箪笥に眠っている着物・帯・和装小物をまとめて査定してもらうことで、1点ずつでは値がつきにくい品もまとめ買取で評価されるケースがあります。遺品整理や生前整理でまとまった量がある場合は、事前に点数を伝えておくと当日の査定がスムーズです。" },
-  { question: "山形の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取りましょう。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
+  { question: "山形の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取ってください。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
 ];
 
 const articleStructuredData = {
@@ -138,7 +138,7 @@ export default function YamagataPage() {
           </div>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-4">
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
-            <p className="text-sm text-gray-700 leading-relaxed">白鷹お召・長井紬・米沢紬などの置賜紬は、産地組合の証紙や伝統的工芸品マークが付いているかどうかで査定額が大きく変わります。タンスにしまったままの証紙・たとう紙の証明書も必ず一緒に査定へ出しましょう。</p>
+            <p className="text-sm text-gray-700 leading-relaxed">白鷹お召・長井紬・米沢紬などの置賜紬は、産地組合の証紙や伝統的工芸品マークが付いているかどうかで査定額が大きく変わります。タンスにしまったままの証紙・たとう紙の証明書も必ず一緒に査定へ出してください。</p>
           </div>
           <Link href="/articles/yonezawa-ori/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:bg-[#faf8f5] transition-colors group">
             <span className="text-xs text-[#6b4c8a] font-medium">産地・種類</span>
@@ -208,7 +208,7 @@ export default function YamagataPage() {
             <span className="text-[#c9a76c]">4.</span> 山形で着物を高く売る3つのコツ
           </h2>
           <ol className="space-y-3 text-sm text-gray-700">
-            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />置賜紬・米沢織は証紙の有無で査定額が大きく変わります。紅花染・草木染の証明書もあれば添えましょう。</li>
+            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />置賜紬・米沢織は証紙の有無で査定額が大きく変わります。紅花染・草木染の証明書もあれば添えてください。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">② 2〜3社で相見積もりを取る</span><br />産地物に強い業者を含めて比較。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] underline">高く売るコツ</Link>も参考に。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">③ 早めに・まとめて売る</span><br />着物は時間とともに劣化します。帯・小物もセットで出すと評価が上がります。</li>
           </ol>
@@ -266,7 +266,7 @@ export default function YamagataPage() {
           <h3 className="text-white text-xl font-bold mb-3">山形の着物、まずは無料査定で価値を確認</h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             置賜紬・米沢織・紅花染など、山形の織物は専門業者の目で正しく評価されます。<br />
-            信頼できる着物買取業者をランキングで比較してみましょう。
+            信頼できる着物買取業者をランキングで比較してんでください。
           </p>
           <Link href="/ranking/" className="inline-block bg-[#c9a76c] text-white font-bold px-8 py-4 rounded-lg hover:bg-[#b8965b] transition-colors">
             おすすめ着物買取業者ランキングを見る

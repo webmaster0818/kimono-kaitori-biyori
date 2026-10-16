@@ -47,7 +47,7 @@ const faqs = [
   {
     question: "小千谷縮を高く売るにはどうすればよいですか？",
     answer:
-      "小千谷縮は、産地証明や重要無形文化財・伝統的工芸品であることを示す証紙・証明とともに査定に出すことが重要です。本場の手績み苧麻・いざり機による作品か、機械織りの量産品かで評価が大きく変わるため、麻織物に詳しい専門業者を選びましょう。複数社の無料査定を比較し、麻はシミ・カビ・ヤケが出やすいため、状態が良いうちに早めに査定へ出すのが有利です。",
+      "小千谷縮は、産地証明や重要無形文化財・伝統的工芸品であることを示す証紙・証明とともに査定に出すことが重要です。本場の手績み苧麻・いざり機による作品か、機械織りの量産品かで評価が大きく変わるため、麻織物に詳しい専門業者を選ぶことをおすすめします。複数社の無料査定を比較し、麻はシミ・カビ・ヤケが出やすいため、状態が良いうちに早めに査定へ出すのが有利です。",
   },
 ];
 
@@ -533,7 +533,7 @@ export default function OjiyaChijimiPage() {
                 ポイント1：証紙・証明は必ず一緒に査定に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                産地証紙や、重要無形文化財・伝統的工芸品であることを示す証明は、本場の小千谷縮であることを裏付ける最も重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して反物・着物と一緒に査定へ出しましょう。
+                産地証紙や、重要無形文化財・伝統的工芸品であることを示す証明は、本場の小千谷縮であることを裏付ける最も重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して反物・着物と一緒に査定へ出してください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -549,7 +549,7 @@ export default function OjiyaChijimiPage() {
                 ポイント3：複数業者で相見積もりを取る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                小千谷縮は、業者の販路や在庫状況によって査定額に差が出ることがあります。最低でも3社に無料査定を依頼し、最も高い価格を提示した業者を選びましょう。
+                小千谷縮は、業者の販路や在庫状況によって査定額に差が出ることがあります。最低でも3社に無料査定を依頼し、最も高い価格を提示した業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -734,7 +734,7 @@ export default function OjiyaChijimiPage() {
               小千谷縮を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              小千谷縮は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              小千谷縮は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -749,7 +749,7 @@ export default function OjiyaChijimiPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -771,7 +771,7 @@ export default function OjiyaChijimiPage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。口コミ・評判・買取実績まで。
+                買取大吉・ウリエルなどおすすめ5社を比較。口コミ・評判・買取実績まで。
               </p>
             </Link>
             <Link
@@ -807,7 +807,7 @@ export default function OjiyaChijimiPage() {
             小千谷縮の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            小千谷縮の買取相場はあくまで目安です。糸の素材・織りの技法・状態・証紙や証明の有無によって実際の査定額は大きく変わります。着物・麻織物に詳しい査定員に無料査定を依頼して、お手持ちの小千谷縮の正確な価値を確認しましょう。
+            小千谷縮の買取相場はあくまで目安です。糸の素材・織りの技法・状態・証紙や証明の有無によって実際の査定額は大きく変わります。着物・麻織物に詳しい査定員に無料査定を依頼して、お手持ちの小千谷縮の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

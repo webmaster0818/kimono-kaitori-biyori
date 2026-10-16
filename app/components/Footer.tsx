@@ -9,8 +9,8 @@ export default function Footer() {
           <div>
             <p className="text-lg font-bold mb-2">着物の買取びより</p>
             <p className="text-sm text-purple-200 leading-relaxed">
-              着物買取業者を実際に比較し、
-              検証結果にもとづく情報を掲載するレビューサイトです。
+              着物買取業者の情報を、各社の公式サイト等の
+              公開情報をもとに比較する情報サイトです。
               大切な着物を納得のいく価格で手放すお手伝いをします。
             </p>
           </div>

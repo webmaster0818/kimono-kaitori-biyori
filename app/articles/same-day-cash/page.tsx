@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "大量の着物でも即日で買い取ってもらえますか？",
     answer:
-      "数点〜十数点程度であれば、出張買取で即日対応が可能です。ただし、数十枚以上の大量買取の場合は査定に時間がかかるため、当日中に完了しない場合もあります。大量の着物を即日で売りたい場合は、事前に点数を伝えて時間の確保をお願いしましょう。",
+      "数点〜十数点程度であれば、出張買取で即日対応が可能です。ただし、数十枚以上の大量買取の場合は査定に時間がかかるため、当日中に完了しない場合もあります。大量の着物を即日で売りたい場合は、事前に点数を伝えて時間の確保をお願いしてください。",
   },
 ];
 
@@ -142,7 +142,7 @@ export default function SameDayCashPage() {
             即日現金化できる3つの買取方法
           </h2>
           <div className="space-y-4 text-sm md:text-base leading-relaxed">
-            <p>着物を即日で現金化する方法は大きく3つあります。それぞれの特徴とスピード感を比較しましょう。</p>
+            <p>着物を即日で現金化する方法は大きく3つあります。それぞれの特徴とスピード感を比較することをおすすめします。</p>
           </div>
 
           <div className="mt-6 grid md:grid-cols-3 gap-4">
@@ -430,11 +430,11 @@ export default function SameDayCashPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. 本人確認書類を用意する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">運転免許証・マイナンバーカード・パスポートなど、有効期限内の本人確認書類を用意しましょう。古物営業法で必須です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">運転免許証・マイナンバーカード・パスポートなど、有効期限内の本人確認書類をご用意ください。古物営業法で必須です。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">2. 証紙・証明書をまとめておく</h3>
-              <p className="text-sm leading-relaxed text-gray-700">産地証紙・作家の落款・購入証明書があれば、査定がスムーズに進みます。事前に探して着物と一緒にまとめておきましょう。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙ガイド</Link>も参考に。</p>
+              <p className="text-sm leading-relaxed text-gray-700">産地証紙・作家の落款・購入証明書があれば、査定がスムーズに進みます。事前に探して着物と一緒にまとめておいてください。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙ガイド</Link>も参考に。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">3. 売りたい着物の点数を把握する</h3>
@@ -463,7 +463,7 @@ export default function SameDayCashPage() {
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">1社だけで即決しない</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                急いでいるとつい最初の業者で決めてしまいがちですが、業者によって査定額は数万円〜数十万円の差がつくことがあります。可能であれば2〜3社に見積もりを取ってから決めましょう。ヒカカクの一括査定なら短時間で複数社の相場感がわかります。
+                急いでいるとつい最初の業者で決めてしまいがちですが、業者によって査定額は数万円〜数十万円の差がつくことがあります。可能であれば2〜3社に見積もりを取ってから決めてください。ヒカカクの一括査定なら短時間で複数社の相場感がわかります。
               </p>
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
@@ -475,7 +475,7 @@ export default function SameDayCashPage() {
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">クーリングオフの書面を必ず受け取る</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                出張買取の場合、クーリングオフの書面交付は法律で義務付けられています。書面を受け取り、8日以内であれば契約を取り消せることを覚えておきましょう。
+                出張買取の場合、クーリングオフの書面交付は法律で義務付けられています。書面を受け取り、8日以内であれば契約を取り消せることを覚えておいてください。
               </p>
             </div>
           </div>
@@ -554,7 +554,7 @@ export default function SameDayCashPage() {
             </Link>
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">おすすめ5社を比較。</p>
             </Link>
           </div>
         </div>
@@ -565,7 +565,7 @@ export default function SameDayCashPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">今すぐ着物を現金化するなら</h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            出張買取・持ち込み買取なら最短30分で現金受け取り。まずは無料査定で金額を確認しましょう。
+            出張買取・持ち込み買取なら最短30分で現金受け取り。まずは無料査定で金額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>

@@ -7,7 +7,7 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "RECLO（リクロ）の着物買取｜宅配買取の評判・口コミを検証",
   description:
-    "RECLO（リクロ）の着物買取サービスを徹底検証。宅配買取特化で高級品に強い実力、送料無料・キャンセル返送料無料の安心体制、実際の口コミ・評判を公開情報と実売データにもとづいてレビューします。",
+    "RECLO（リクロ）の着物買取サービスを検証。宅配買取特化で高級品に強い実力、送料無料・キャンセル返送料無料の安心体制、実際の口コミ・評判を公開情報と実売データにもとづいてレビューします。",
   robots: { index: false, follow: true },
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/reclo/",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "RECLO（リクロ）の着物買取｜宅配買取の評判・口コミを検証",
     description:
-      "RECLO（リクロ）の宅配買取特化の着物買取サービスを徹底検証。口コミ・評判・買取実績を公開情報と実売データにもとづいてレビュー。",
+      "RECLO（リクロ）の宅配買取特化の着物買取サービスを検証。口コミ・評判・買取実績を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/reclo/",
     siteName: "着物の買取びより",
     type: "article",
@@ -27,7 +27,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "RECLO（リクロ）の着物買取｜宅配買取の評判・口コミを検証",
   description:
-    "RECLO（リクロ）の着物買取サービスを徹底検証。宅配買取特化で高級品に強い実力を口コミとともにレビュー。",
+    "RECLO（リクロ）の着物買取サービスを検証。宅配買取特化で高級品に強い実力を口コミとともにレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -186,7 +186,7 @@ export default function RecloReviewPage() {
           <p className="text-gray-600 leading-relaxed">
             RECLO（リクロ）は宅配買取に特化した買取サービスで、高級品の取り扱いに強みがあります。
             着物・骨董品・ジュエリーなど幅広いカテゴリに対応し、送料無料・キャンセル返送料無料の
-            安心体制が整っています。本記事では、RECLOの着物買取サービスを口コミとともに徹底検証します。
+            安心体制が整っています。本記事では、RECLOの着物買取サービスを口コミとともに検証します。
           </p>
         </header>
 

@@ -10,11 +10,11 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { question: "着物を保管する際に最も注意すべきことは何ですか？", answer: "最も注意すべきは「湿気」です。着物は湿気に非常に弱く、カビやシミの最大の原因になります。防湿剤（シリカゲル）をたとう紙の中に入れ、桐たんすや通気性の良い場所で保管しましょう。また、年に1〜2回の虫干しで湿気を飛ばすことも重要です。" },
-  { question: "たとう紙はどのくらいの頻度で交換すべきですか？", answer: "たとう紙は1〜2年に1回を目安に交換することをおすすめします。たとう紙自体が湿気を吸って劣化するため、古くなると防湿効果が低下します。黄ばみやカビの跡が見られたら、すぐに新しいものに交換しましょう。" },
-  { question: "桐たんす以外で着物を保管する方法はありますか？", answer: "桐たんすがない場合は、プラスチック製の衣装ケースでも保管できます。ただし、プラスチックは通気性がないため、防湿剤を必ず入れ、定期的にフタを開けて風を通すようにしましょう。また、たとう紙に包んだ状態で保管することが重要です。" },
-  { question: "防虫剤と着物を一緒に入れても大丈夫ですか？", answer: "防虫剤は着物に直接触れないように注意してください。防虫剤の成分が着物に直接触れると変色やシミの原因になります。たとう紙の外側に置くか、防虫剤専用のケースに入れて使用しましょう。また、異なる種類の防虫剤を混ぜて使用しないでください。" },
-  { question: "着物を長期間保管する場合、売った方がいいですか？", answer: "着物を長期間着る予定がないのであれば、早めに売却することをおすすめします。保管期間が長くなるほど、シミ・カビ・色あせ・虫食いのリスクが高まり、買取価格が下がる可能性があります。状態が良いうちに売った方が高く売れます。買取大吉やウリエルなどの無料査定で価値を確認してみましょう。" },
+  { question: "着物を保管する際に最も注意すべきことは何ですか？", answer: "最も注意すべきは「湿気」です。着物は湿気に非常に弱く、カビやシミの最大の原因になります。防湿剤（シリカゲル）をたとう紙の中に入れ、桐たんすや通気性の良い場所で保管してください。また、年に1〜2回の虫干しで湿気を飛ばすことも重要です。" },
+  { question: "たとう紙はどのくらいの頻度で交換すべきですか？", answer: "たとう紙は1〜2年に1回を目安に交換することをおすすめします。たとう紙自体が湿気を吸って劣化するため、古くなると防湿効果が低下します。黄ばみやカビの跡が見られたら、すぐに新しいものに交換してください。" },
+  { question: "桐たんす以外で着物を保管する方法はありますか？", answer: "桐たんすがない場合は、プラスチック製の衣装ケースでも保管できます。ただし、プラスチックは通気性がないため、防湿剤を必ず入れ、定期的にフタを開けて風を通すようにしてください。また、たとう紙に包んだ状態で保管することが重要です。" },
+  { question: "防虫剤と着物を一緒に入れても大丈夫ですか？", answer: "防虫剤は着物に直接触れないように注意してください。防虫剤の成分が着物に直接触れると変色やシミの原因になります。たとう紙の外側に置くか、防虫剤専用のケースに入れて使用してください。また、異なる種類の防虫剤を混ぜて使用しないでください。" },
+  { question: "着物を長期間保管する場合、売った方がいいですか？", answer: "着物を長期間着る予定がないのであれば、早めに売却することをおすすめします。保管期間が長くなるほど、シミ・カビ・色あせ・虫食いのリスクが高まり、買取価格が下がる可能性があります。状態が良いうちに売った方が高く売れます。買取大吉やウリエルなどの無料査定で価値を確認してんでください。" },
 ];
 
 const articleStructuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png", headline: "着物のたたみ方・保管方法ガイド｜正しい保管で価値を守る", description: "着物の正しい保管方法とたたみ方を解説。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" }, publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/storage-guide/" } };
@@ -60,7 +60,7 @@ export default function StorageGuidePage() {
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex items-start gap-4"><span className="bg-[#6b4c8a] text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">2</span><div><h3 className="font-bold text-[#6b4c8a] mb-1">下前（右側）を脇縫いに沿ってたたむ</h3><p className="text-sm text-gray-700">右側の衿を手前に返し、脇縫いで折り返します。おくみ線で折り返して衿を整えます。</p></div></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex items-start gap-4"><span className="bg-[#6b4c8a] text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">3</span><div><h3 className="font-bold text-[#6b4c8a] mb-1">上前（左側）を重ねる</h3><p className="text-sm text-gray-700">左側の衿を下前の衿に重ね、脇縫い同士を合わせます。背縫いが一番上にくるようにします。</p></div></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex items-start gap-4"><span className="bg-[#6b4c8a] text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">4</span><div><h3 className="font-bold text-[#6b4c8a] mb-1">袖を折り返す</h3><p className="text-sm text-gray-700">上になっている袖を身頃の上に折り返し、下の袖は下に折り返します。</p></div></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex items-start gap-4"><span className="bg-[#c9a76c] text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">5</span><div><h3 className="font-bold text-[#6b4c8a] mb-1">身丈を半分に折る</h3><p className="text-sm text-gray-700">裾を衿のところまで持ち上げて半分に折ります。たとう紙のサイズに合わせてたたみましょう。</p></div></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex items-start gap-4"><span className="bg-[#c9a76c] text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">5</span><div><h3 className="font-bold text-[#6b4c8a] mb-1">身丈を半分に折る</h3><p className="text-sm text-gray-700">裾を衿のところまで持ち上げて半分に折ります。たとう紙のサイズに合わせてたたんでください。</p></div></div>
         </div>
       </div></section>
 
@@ -68,7 +68,7 @@ export default function StorageGuidePage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />たとう紙の選び方と交換時期</h2>
         <div className="space-y-4">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">和紙のたとう紙がベスト</h3><p className="text-sm leading-relaxed text-gray-700">着物の保管には和紙製のたとう紙が最適です。和紙は吸湿性に優れ、着物の湿気を吸収してくれます。安価な紙製のたとう紙よりも和紙製の方が長持ちし、防湿効果も高い傾向があります。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">交換時期は1〜2年に1回</h3><p className="text-sm leading-relaxed text-gray-700">たとう紙は湿気を吸って劣化するため、1〜2年に1回は新しいものに交換しましょう。黄ばみ・カビ・シミが見られたらすぐに交換です。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">交換時期は1〜2年に1回</h3><p className="text-sm leading-relaxed text-gray-700">たとう紙は湿気を吸って劣化するため、1〜2年に1回は新しいものに交換してください。黄ばみ・カビ・シミが見られたらすぐに交換です。</p></div>
         </div>
       </div></section>
 
@@ -89,8 +89,8 @@ export default function StorageGuidePage() {
       <section id="moisture" className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />防湿・防虫対策</h2>
         <div className="space-y-4">
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">防湿剤（シリカゲル）を入れる</h3><p className="text-sm leading-relaxed text-gray-700">たとう紙の中にシリカゲルを入れると湿気を効果的に吸収してくれます。3〜6ヶ月ごとに交換しましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">防虫剤は直接触れないように</h3><p className="text-sm leading-relaxed text-gray-700">防虫剤は着物に直接触れないよう、たとう紙の外側に置きましょう。また、異なる種類の防虫剤を混ぜるとシミの原因になるため、1種類だけを使用してください。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">防湿剤（シリカゲル）を入れる</h3><p className="text-sm leading-relaxed text-gray-700">たとう紙の中にシリカゲルを入れると湿気を効果的に吸収してくれます。3〜6ヶ月ごとに交換してください。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">防虫剤は直接触れないように</h3><p className="text-sm leading-relaxed text-gray-700">防虫剤は着物に直接触れないよう、たとう紙の外側に置いてください。また、異なる種類の防虫剤を混ぜるとシミの原因になるため、1種類だけを使用してください。</p></div>
         </div>
       </div></section>
 
@@ -111,9 +111,9 @@ export default function StorageGuidePage() {
       <section id="ng" className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />やってはいけない保管方法</h2>
         <div className="space-y-4">
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-red-600 mb-2 text-base">ビニール袋での保管</h3><p className="text-sm text-gray-700">ビニール袋は通気性がないため、湿気がこもってカビの原因になります。必ずたとう紙で包んでから保管しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-red-600 mb-2 text-base">ビニール袋での保管</h3><p className="text-sm text-gray-700">ビニール袋は通気性がないため、湿気がこもってカビの原因になります。必ずたとう紙で包んでから保管してください。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-red-600 mb-2 text-base">重ねすぎ</h3><p className="text-sm text-gray-700">着物を何枚も重ねて保管すると、下の着物にシワがついたり、重みで生地が痛んだりします。桐たんすの引き出しには2〜3枚が限度です。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-red-600 mb-2 text-base">ハンガーにかけたまま保管</h3><p className="text-sm text-gray-700">着物は洋服と違い、ハンガーにかけたまま長期保管すると、肩の部分が伸びたり型崩れしたりします。必ずたたんで保管しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-red-600 mb-2 text-base">ハンガーにかけたまま保管</h3><p className="text-sm text-gray-700">着物は洋服と違い、ハンガーにかけたまま長期保管すると、肩の部分が伸びたり型崩れしたりします。必ずたたんで保管してください。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-red-600 mb-2 text-base">何年も放置する</h3><p className="text-sm text-gray-700">着物を何年もチェックせずに放置すると、気づかないうちにカビやシミが発生していることがあります。定期的な確認が重要です。</p></div>
         </div>
       </div></section>
@@ -122,7 +122,7 @@ export default function StorageGuidePage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />保管が面倒なら売却も選択肢</h2>
         <div className="space-y-4 text-sm md:text-base leading-relaxed">
           <p>正しい保管には手間とコストがかかります。たとう紙の交換、防湿剤の補充、年に1〜2回の虫干し。これらが面倒と感じるなら、<strong>状態が良いうちに売却する</strong>のも賢い選択です。</p>
-          <p>買取大吉やウリエルなら出張買取で自宅まで来てくれるため、着物を運ぶ手間もかかりません。まずは無料査定で価値を確認してみましょう。</p>
+          <p>買取大吉やウリエルなら出張買取で自宅まで来てくれるため、着物を運ぶ手間もかかりません。まずは無料査定で価値を確認してんでください。</p>
         </div>
       </div></section>
 
@@ -136,7 +136,7 @@ export default function StorageGuidePage() {
       <section className="py-10 section-light"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           <Link href="/articles/cleaning-before-selling/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">クリーニングと査定額</h3><p className="text-xs text-gray-600">売る前のクリーニングは必要？</p></Link>
           <Link href="/articles/sell-high-tips/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物を高く売るコツ</h3><p className="text-xs text-gray-600">高額買取のテクニック。</p></Link>
         </div>
@@ -144,7 +144,7 @@ export default function StorageGuidePage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">保管に悩むなら、まず無料査定で価値を確認</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">着る予定のない着物は、状態が良いうちに売る方が高く売れます。まずは無料査定で価値を確認しましょう。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">着る予定のない着物は、状態が良いうちに売る方が高く売れます。まずは無料査定で価値をご確認ください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
     </>

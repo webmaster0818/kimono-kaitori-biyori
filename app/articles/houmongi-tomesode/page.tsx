@@ -40,7 +40,7 @@ const faqs = [
   {
     question: "古い留袖でも買い取ってもらえますか？",
     answer:
-      "はい、古い留袖でも買取対象になることが多く見られます。ただし、経年劣化によるシミ・カビ・色あせがある場合は査定額が大幅に下がります。特に黒留袖は黒地のため、色あせや退色が目立ちやすい傾向があります。逆に、状態の良い昭和〜平成初期の高級品は、クラシックな柄として再評価されることもあります。まずは無料査定で確認しましょう。",
+      "はい、古い留袖でも買取対象になることが多く見られます。ただし、経年劣化によるシミ・カビ・色あせがある場合は査定額が大幅に下がります。特に黒留袖は黒地のため、色あせや退色が目立ちやすい傾向があります。逆に、状態の良い昭和〜平成初期の高級品は、クラシックな柄として再評価されることもあります。まずは無料査定でご確認ください。",
   },
   {
     question: "訪問着・留袖を高く売るにはどの業者がいいですか？",
@@ -398,7 +398,7 @@ export default function HoumongiTomesodePage() {
             訪問着と留袖の買取価格比較
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            訪問着と留袖（色留袖・黒留袖）の買取相場を一覧で比較してみましょう。
+            訪問着と留袖（色留袖・黒留袖）の買取相場を一覧で比較してんでください。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
@@ -607,7 +607,7 @@ export default function HoumongiTomesodePage() {
                 ポイント1：着物専門の買取業者に依頼
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                訪問着・留袖の価値を正しく見極めるには、友禅の技法や作家の知識が不可欠です。リサイクルショップではなく、着物専門の査定員がいる業者に依頼しましょう。加賀友禅や京友禅の落款を識別できる業者であれば、正当な評価が期待できます。
+                訪問着・留袖の価値を正しく見極めるには、友禅の技法や作家の知識が不可欠です。リサイクルショップではなく、着物専門の査定員がいる業者に依頼することをおすすめします。加賀友禅や京友禅の落款を識別できる業者であれば、正当な評価が期待できます。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -615,7 +615,7 @@ export default function HoumongiTomesodePage() {
                 ポイント2：証紙・落款を必ず添える
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                加賀友禅の「加賀染振興協会」証紙や京友禅の証紙、作家の落款は、査定額を大きく左右します。たとう紙の中や購入時の箱を確認し、必ず着物と一緒に提出しましょう。
+                加賀友禅の「加賀染振興協会」証紙や京友禅の証紙、作家の落款は、査定額を大きく左右します。たとう紙の中や購入時の箱を確認し、必ず着物と一緒に提出してください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -623,7 +623,7 @@ export default function HoumongiTomesodePage() {
                 ポイント3：複数業者で相見積もり
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                業者によって査定基準が異なるため、同じ訪問着でも数万円の差がつくことがあります。3社以上の無料査定を利用して、最も高い金額を提示した業者に売りましょう。
+                業者によって査定基準が異なるため、同じ訪問着でも数万円の差がつくことがあります。3社以上の無料査定を利用して、最も高い金額を提示した業者に売ってください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -631,7 +631,7 @@ export default function HoumongiTomesodePage() {
                 ポイント4：状態を良好に保つ
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                シミ・カビ・色あせがあると大幅に減額されます。たとう紙に包み、防湿剤と一緒に通気性の良い場所で保管しましょう。売ると決めたら早めに査定に出すことが大切です。
+                シミ・カビ・色あせがあると大幅に減額されます。たとう紙に包み、防湿剤と一緒に通気性の良い場所で保管してください。売ると決めたら早めに査定に出すことが大切です。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -711,7 +711,7 @@ export default function HoumongiTomesodePage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。口コミ・評判・買取実績まで。
+                買取大吉・ウリエルなどおすすめ5社を比較。口コミ・評判・買取実績まで。
               </p>
             </Link>
             <Link
@@ -747,7 +747,7 @@ export default function HoumongiTomesodePage() {
             訪問着・留袖の正確な買取価格を知るなら
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            訪問着や留袖の買取相場はあくまで目安です。友禅の技法や作家、状態によって実際の査定額は大きく異なります。着物専門の買取業者に無料査定を依頼して、お手持ちの着物の正確な価値を確認しましょう。
+            訪問着や留袖の買取相場はあくまで目安です。友禅の技法や作家、状態によって実際の査定額は大きく異なります。着物専門の買取業者に無料査定を依頼して、お手持ちの着物の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

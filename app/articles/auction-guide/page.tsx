@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     question: "着物の出品写真はどのように撮ればいいですか？",
-    answer: "着物の出品写真は、(1)全体を広げた状態の写真、(2)柄のアップ、(3)証紙・落款のアップ、(4)シミ・汚れがある場合はその部分のアップ、最低4枚は用意しましょう。自然光の下で撮影し、色味が実物と異なりすぎないよう注意してください。ハンガーにかけた状態よりも、畳の上に広げた写真の方が着物の柄が見やすい傾向があります。",
+    answer: "着物の出品写真は、(1)全体を広げた状態の写真、(2)柄のアップ、(3)証紙・落款のアップ、(4)シミ・汚れがある場合はその部分のアップ、最低4枚はご用意ください。自然光の下で撮影し、色味が実物と異なりすぎないよう注意してください。ハンガーにかけた状態よりも、畳の上に広げた写真の方が着物の柄が見やすい傾向があります。",
   },
   {
     question: "着物の発送方法はどうすればいいですか？",
@@ -182,15 +182,15 @@ export default function AuctionGuidePage() {
           <div className="space-y-4">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. タイトルにキーワードを入れる</h3>
-              <p className="text-sm leading-relaxed text-gray-700">「正絹 訪問着 加賀友禅 由水十久 証紙付き」のように、素材・種類・ブランド・作家名・付属品を含めましょう。検索で見つけてもらうために重要です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">「正絹 訪問着 加賀友禅 由水十久 証紙付き」のように、素材・種類・ブランド・作家名・付属品を含めてください。検索で見つけてもらうために重要です。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">2. サイズを正確に記載する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">身丈・裄丈・袖丈・前幅・後幅を実測値で記載しましょう。着物のサイズは規格が統一されていないため、購入者はサイズを重視します。<Link href="/articles/size-and-price/" className="text-[#6b4c8a] hover:underline">サイズと価格の関係</Link>も参考にしてください。</p>
+              <p className="text-sm leading-relaxed text-gray-700">身丈・裄丈・袖丈・前幅・後幅を実測値で記載してください。着物のサイズは規格が統一されていないため、購入者はサイズを重視します。<Link href="/articles/size-and-price/" className="text-[#6b4c8a] hover:underline">サイズと価格の関係</Link>も参考にしてください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">3. 状態を正確に記載する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">シミ・汚れ・色あせ・裾の傷みなどは正確に記載し、写真も添えましょう。クレームやトラブルの防止になります。</p>
+              <p className="text-sm leading-relaxed text-gray-700">シミ・汚れ・色あせ・裾の傷みなどは正確に記載し、写真も添えてください。クレームやトラブルの防止になります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">4. 証紙・落款の写真を載せる</h3>
@@ -198,7 +198,7 @@ export default function AuctionGuidePage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">5. 送料込みで出品する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">メルカリでは送料込みの方が圧倒的に売れやすい傾向があります。送料を含めた価格設定にしましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">メルカリでは送料込みの方が圧倒的に売れやすい傾向があります。送料を含めた価格設定にしてください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">6. 需要が高まる時期に出品する</h3>
@@ -289,25 +289,25 @@ export default function AuctionGuidePage() {
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">「色が違う」クレームの防止</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                着物の色味は照明によって大きく変わります。必ず自然光の下で撮影し、「実物はやや○○色寄りです」など、色味の補足説明を記載しましょう。蛍光灯下の写真と自然光の写真を両方載せるのも効果的です。
+                着物の色味は照明によって大きく変わります。必ず自然光の下で撮影し、「実物はやや○○色寄りです」など、色味の補足説明を記載してください。蛍光灯下の写真と自然光の写真を両方載せるのも効果的です。
               </p>
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">サイズに関する返品要求の防止</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                着物のサイズは個体差が大きいため、身丈・裄丈・袖丈・前幅・後幅の実測値を必ず記載しましょう。「○○cm前後」のような曖昧な表記ではなく、正確な数値を記載することが重要です。<Link href="/articles/size-and-price/" className="text-[#6b4c8a] hover:underline">サイズと価格の関係</Link>も参考にしてください。
+                着物のサイズは個体差が大きいため、身丈・裄丈・袖丈・前幅・後幅の実測値を必ず記載してください。「○○cm前後」のような曖昧な表記ではなく、正確な数値を記載することが重要です。<Link href="/articles/size-and-price/" className="text-[#6b4c8a] hover:underline">サイズと価格の関係</Link>も参考にしてください。
               </p>
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">偽物疑惑への対策</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                高額着物を出品する際は、証紙・落款の鮮明な写真を必ず載せましょう。「購入時の百貨店レシートあり」「○○染色組合の証紙付き」など、真贋を証明できる情報をすべて記載します。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙の見方ガイド</Link>も確認しておくと安心です。
+                高額着物を出品する際は、証紙・落款の鮮明な写真を必ず載せてください。「購入時の百貨店レシートあり」「○○染色組合の証紙付き」など、真贋を証明できる情報をすべて記載します。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙の見方ガイド</Link>も確認しておくと安心です。
               </p>
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">配送中の破損防止</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                着物は繊細な織物のため、配送中の水濡れや折りじわに注意が必要です。たとう紙→ビニール袋→段ボールの三重梱包で、防水と衝撃対策を徹底しましょう。配送保険付きの発送方法を選ぶことも重要です。
+                着物は繊細な織物のため、配送中の水濡れや折りじわに注意が必要です。たとう紙→ビニール袋→段ボールの三重梱包で、防水と衝撃対策を徹底してください。配送保険付きの発送方法を選ぶことも重要です。
               </p>
             </div>
           </div>
@@ -322,7 +322,7 @@ export default function AuctionGuidePage() {
             着物出品の商品説明テンプレート
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            以下のテンプレートを参考に、商品説明を記載しましょう。情報が充実しているほど、購入者の安心感が増し、高値で売れやすくなります。
+            以下のテンプレートを参考に、商品説明を記載してください。情報が充実しているほど、購入者の安心感が増し、高値で売れやすくなります。
           </p>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-6">
             <div className="text-sm text-gray-700 space-y-2 font-mono">
@@ -419,7 +419,7 @@ export default function AuctionGuidePage() {
             売却コストシミュレーション
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            フリマアプリで着物を売った場合の実質受取額をシミュレーションしてみましょう。手数料・送料を差し引いた実際の手取り額を把握することが大切です。
+            フリマアプリで着物を売った場合の実質受取額をシミュレーションしてんでください。手数料・送料を差し引いた実際の手取り額を把握することが大切です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
@@ -505,7 +505,7 @@ export default function AuctionGuidePage() {
             </Link>
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">おすすめランキング</h3>
-              <p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">おすすめ5社を比較。</p>
             </Link>
           </div>
         </div>

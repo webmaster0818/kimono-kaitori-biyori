@@ -5,16 +5,16 @@ import SoubaNote from "../../components/SoubaNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
-  title: "福ちゃんの着物買取｜口コミ・評判・買取実績を徹底検証",
+  title: "福ちゃんの着物買取｜口コミ・評判・買取実績を検証",
   description:
-    "福ちゃんの着物買取サービスを徹底検証。累計買取実績800万点超、着物買取に特化した専門査定員、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
+    "福ちゃんの着物買取サービスを検証。累計買取実績800万点超、着物買取に特化した専門査定員、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/fukuchan/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "福ちゃんの着物買取｜口コミ・評判・買取実績を徹底検証",
+    title: "福ちゃんの着物買取｜口コミ・評判・買取実績を検証",
     description:
-      "福ちゃんの着物買取サービスを徹底検証。着物専門査定員の質と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
+      "福ちゃんの着物買取サービスを検証。着物専門査定員の質と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/fukuchan/",
     siteName: "着物の買取びより",
     type: "article",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "福ちゃんの着物買取｜口コミ・評判・買取実績を徹底検証",
+  headline: "福ちゃんの着物買取｜口コミ・評判・買取実績を検証",
   description:
-    "福ちゃんの着物買取サービスを徹底検証。着物専門査定員の質と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
+    "福ちゃんの着物買取サービスを検証。着物専門査定員の質と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -176,10 +176,10 @@ export default function FukuchanReviewPage() {
             福ちゃんの着物買取
             <br className="md:hidden" />
             <span className="text-[#6b4c8a]">口コミ・評判・買取実績</span>
-            を徹底検証
+            を検証
           </h1>
           <p className="text-gray-600 leading-relaxed">
-            福ちゃんは、株式会社REGATEが運営する買取サービスで、特に着物買取に強みを持つことで知られています。累計買取実績800万点を超え、着物専門の査定員による丁寧な査定が高く評価されています。本記事では、実際の利用者の口コミや評判をもとに、福ちゃんの着物買取サービスを徹底検証します。
+            福ちゃんは、株式会社REGATEが運営する買取サービスで、特に着物買取に強みを持つことで知られています。累計買取実績800万点を超え、着物専門の査定員による丁寧な査定が高く評価されています。本記事では、実際の利用者の口コミや評判をもとに、福ちゃんの着物買取サービスを検証します。
           </p>
         </header>
 
@@ -844,7 +844,7 @@ export default function FukuchanReviewPage() {
               福ちゃんは、着物専門の査定員が在籍し、作家物やブランド着物の査定力に定評がある買取サービスです。LINE・WEB査定による事前確認、シミ・汚れがある着物の買取対応、女性査定員の指名が可能な点など、利用者目線のサービスが充実しています。
             </p>
             <p className="text-gray-700 text-sm leading-relaxed mb-4">
-              一方で、出張買取の予約が取りにくい時期がある点や、宅配買取の査定に時間がかかる場合がある点は留意が必要です。急ぎの場合はバイセルとの併用も検討しましょう。
+              一方で、出張買取の予約が取りにくい時期がある点や、宅配買取の査定に時間がかかる場合がある点は留意が必要です。急ぎの場合はバイセルとの併用もご検討ください。
             </p>
             <p className="text-gray-700 text-sm leading-relaxed">
               「作家物や高級着物を適正に評価してほしい」「事前に査定額の目安を知りたい」「シミがある着物も売りたい」という方には、福ちゃんは最適な選択肢の一つです。
@@ -873,7 +873,7 @@ export default function FukuchanReviewPage() {
             >
               <span className="text-xs text-[#6b4c8a] font-medium">比較</span>
               <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">
-                バイセル vs 福ちゃん 徹底比較
+                バイセル vs 福ちゃん 比較
               </p>
             </Link>
             <Link

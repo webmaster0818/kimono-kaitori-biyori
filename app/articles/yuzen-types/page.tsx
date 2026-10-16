@@ -310,7 +310,7 @@ export default function YuzenTypesPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：落款を確認する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">手描き友禅には作家の落款（サイン）が入っています。裾裏やおくみ下部を確認し、落款があれば必ず査定員に伝えましょう。人間国宝の落款は特に高額査定につながります。</p>
+              <p className="text-sm leading-relaxed text-gray-700">手描き友禅には作家の落款（サイン）が入っています。裾裏やおくみ下部を確認し、落款があれば必ず査定員に伝えてください。人間国宝の落款は特に高額査定につながります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：証紙を一緒に出す</h3>
@@ -322,11 +322,11 @@ export default function YuzenTypesPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：複数社で見積もりを比較</h3>
-              <p className="text-sm leading-relaxed text-gray-700">友禅は高額品ほど業者間の査定額の差が大きくなります。ヒカカクの一括比較を活用して3社以上の見積もりを取りましょう。RECLOの海外販路も高額査定のチャンスです。</p>
+              <p className="text-sm leading-relaxed text-gray-700">友禅は高額品ほど業者間の査定額の差が大きくなります。ヒカカクの一括比較を活用して3社以上の見積もりを取ってください。RECLOの海外販路も高額査定のチャンスです。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：保存状態を保つ</h3>
-              <p className="text-sm leading-relaxed text-gray-700">友禅は染料の色あせやシミが査定額に大きく影響します。直射日光を避け、桐たんすで保管。売却を決めたら早めに査定に出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">友禅は染料の色あせやシミが査定額に大きく影響します。直射日光を避け、桐たんすで保管。売却を決めたら早めに査定に出してください。</p>
             </div>
           </div>
         </div>
@@ -386,7 +386,7 @@ export default function YuzenTypesPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/kaga-yuzen/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">加賀友禅の買取相場</h3>
@@ -405,7 +405,7 @@ export default function YuzenTypesPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">友禅の着物を売るなら、まず無料査定から</h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            加賀友禅・京友禅など高額買取が期待できる友禅。落款・証紙と一緒に無料査定に出して最高額を確認しましょう。
+            加賀友禅・京友禅など高額買取が期待できる友禅。落款・証紙と一緒に無料査定に出して最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>

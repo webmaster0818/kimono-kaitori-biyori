@@ -6,14 +6,14 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ティファナの着物買取｜総合リサイクル店の実力を検証",
   description:
-    "ティファナの着物買取サービスを徹底検証。総合リサイクルショップならではの幅広い対応力、出張・宅配・店頭の3つの買取方法、ノーブランドからハイブランドまで対応する実力を口コミとともにレビュー。",
+    "ティファナの着物買取サービスを検証。総合リサイクルショップならではの幅広い対応力、出張・宅配・店頭の3つの買取方法、ノーブランドからハイブランドまで対応する実力を口コミとともにレビュー。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/tifana/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "ティファナの着物買取｜総合リサイクル店の実力を検証",
     description:
-      "ティファナの着物買取サービスを徹底検証。総合リサイクルショップの着物買取を口コミ・評判とともにレビュー。",
+      "ティファナの着物買取サービスを検証。総合リサイクルショップの着物買取を口コミ・評判とともにレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/tifana/",
     siteName: "着物の買取びより",
     type: "article",
@@ -25,7 +25,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "ティファナの着物買取｜総合リサイクル店の実力を検証",
   description:
-    "ティファナの着物買取サービスを徹底検証。総合リサイクルショップの実力を口コミとともにレビュー。",
+    "ティファナの着物買取サービスを検証。総合リサイクルショップの実力を口コミとともにレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -181,7 +181,7 @@ export default function TifanaReviewPage() {
             ティファナは東京を中心に展開する総合リサイクルショップです。着物・帯はもちろん、
             洋服からブランド品、家電まで幅広いジャンルの買取に対応。ノーブランドからハイブランドまで
             一点からでも査定してくれる間口の広さが魅力です。
-            本記事では、ティファナの着物買取サービスを口コミとともに徹底検証します。
+            本記事では、ティファナの着物買取サービスを口コミとともに検証します。
           </p>
         </header>
 
@@ -697,13 +697,13 @@ export default function TifanaReviewPage() {
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
               <p className="text-sm font-bold text-gray-900 mb-1">ウール・化繊の着物は買取対象外</p>
               <p className="text-sm text-gray-700">
-                ティファナでは<strong>ウールや化学繊維（ポリエステル等）の着物は買取対象外</strong>です。正絹（シルク）の着物であれば買取可能ですので、素材を事前に確認しましょう。
+                ティファナでは<strong>ウールや化学繊維（ポリエステル等）の着物は買取対象外</strong>です。正絹（シルク）の着物であれば買取可能ですので、素材を事前にご確認ください。
               </p>
             </div>
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
               <p className="text-sm font-bold text-gray-900 mb-1">袋帯以外の帯は受付不可の場合あり</p>
               <p className="text-sm text-gray-700">
-                名古屋帯や半幅帯など、袋帯以外の帯は買取を受け付けてもらえない場合があります。帯の種類を確認してから依頼しましょう。
+                名古屋帯や半幅帯など、袋帯以外の帯は買取を受け付けてもらえない場合があります。帯の種類を確認してから依頼することをおすすめします。
               </p>
             </div>
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">

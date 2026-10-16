@@ -25,7 +25,7 @@ const faqs = [
   {
     question: "伊勢崎銘仙はどのくらいで買い取ってもらえますか？",
     answer:
-      "伊勢崎銘仙は普段着・おしゃれ着として大量に流通した絹織物で、買取では一般に高額になりにくい傾向があります。公開オークションの実売データ（2026年7月16日取得）では、着物の単品出品8件で平均 約4,524円・中央値 2,322円・最高 25,000円でした。ただし件数が極端に少ないため平均は大きく振れます。実売価格は個人間取引の成立価格であり、買取業者の査定額は一般にこれより低くなります。正確な金額は着物専門業者の無料査定で確認しましょう。",
+      "伊勢崎銘仙は普段着・おしゃれ着として大量に流通した絹織物で、買取では一般に高額になりにくい傾向があります。公開オークションの実売データ（2026年7月16日取得）では、着物の単品出品8件で平均 約4,524円・中央値 2,322円・最高 25,000円でした。ただし件数が極端に少ないため平均は大きく振れます。実売価格は個人間取引の成立価格であり、買取業者の査定額は一般にこれより低くなります。正確な金額は着物専門業者の無料査定でご確認ください。",
   },
   {
     question: "伊勢崎銘仙と伊勢崎絣はどう違うのですか？",
@@ -40,7 +40,7 @@ const faqs = [
   {
     question: "未仕立ての着尺や反物でも売れますか？",
     answer:
-      "売れます。むしろ伊勢崎銘仙の実売データでは、アンティークの着尺（未仕立て）が上位に入る傾向が見られました。未仕立ての生地は仕立てる楽しみやリメイク素材としての自由度があり、需要があります。保管状態が良ければ、仕立て済みの中古着物より評価されるケースもあるため、反物・着尺の状態でも遠慮なく査定に出しましょう。",
+      "売れます。むしろ伊勢崎銘仙の実売データでは、アンティークの着尺（未仕立て）が上位に入る傾向が見られました。未仕立ての生地は仕立てる楽しみやリメイク素材としての自由度があり、需要があります。保管状態が良ければ、仕立て済みの中古着物より評価されるケースもあるため、反物・着尺の状態でも遠慮なく査定に出してください。",
   },
   {
     question: "伊勢崎銘仙を高く売るにはどうすればよいですか？",
@@ -491,7 +491,7 @@ export default function IsesakiMeisenPage() {
                 ポイント1：アンティークに強い業者を選ぶ
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                銘仙の価値はアンティーク着物・リメイク需要への販路を持つ業者ほど正当に評価できます。着物専門で、アンティーク・銘仙の扱い実績がある業者を選びましょう。
+                銘仙の価値はアンティーク着物・リメイク需要への販路を持つ業者ほど正当に評価できます。着物専門で、アンティーク・銘仙の扱い実績がある業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -507,7 +507,7 @@ export default function IsesakiMeisenPage() {
                 ポイント3：未仕立ての着尺・反物はそのまま出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                未仕立ての着尺は銘仙の中でも需要のある形態です。仕立てずにそのままの状態で査定に出しましょう。たとう紙・ラベルなど購入時の付属品があれば一緒に出すと産地の手がかりになります。
+                未仕立ての着尺は銘仙の中でも需要のある形態です。仕立てずにそのままの状態で査定に出してください。たとう紙・ラベルなど購入時の付属品があれば一緒に出すと産地の手がかりになります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -515,7 +515,7 @@ export default function IsesakiMeisenPage() {
                 ポイント4：複数業者で相見積もりを取る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                銘仙は業者によって評価が大きく分かれる品目です。最低でも複数社に無料査定を依頼し、提示された金額と説明を比較してから売却先を決めましょう。
+                銘仙は業者によって評価が大きく分かれる品目です。最低でも複数社に無料査定を依頼し、提示された金額と説明を比較してから売却先を決めてください。
               </p>
             </div>
           </div>
@@ -682,13 +682,13 @@ export default function IsesakiMeisenPage() {
               伊勢崎銘仙を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              伊勢崎銘仙は柄・状態・仕立てによって評価が変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              伊勢崎銘仙は柄・状態・仕立てによって評価が変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
                 <p className="text-xs font-bold text-[#c9a76c] mb-1">柄が魅力的・状態が良い・未仕立ての着尺</p>
                 <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] text-sm mb-1">複数社の相見積もりで比較する</h3>
-                <p className="text-xs text-gray-600">アンティーク需要のある銘仙は業者で評価が分かれます。おすすめ買取業者ランキングで複数社を比較しましょう。</p>
+                <p className="text-xs text-gray-600">アンティーク需要のある銘仙は業者で評価が分かれます。おすすめ買取業者ランキングで複数社を比較することをおすすめします。</p>
               </Link>
               <Link href="/articles/shutcho-kaitori/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
                 <p className="text-xs font-bold text-[#c9a76c] mb-1">状態に不安・他の着物もまとめて</p>
@@ -697,7 +697,7 @@ export default function IsesakiMeisenPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は柄・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は柄・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -755,7 +755,7 @@ export default function IsesakiMeisenPage() {
             伊勢崎銘仙の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            伊勢崎銘仙の実売データは件数が少なく、あくまで参考の幅です。柄・状態・仕立てによって実際の査定額は変わります。着物専門の査定員に無料査定を依頼して、お手持ちの銘仙の正確な価値を確認しましょう。
+            伊勢崎銘仙の実売データは件数が少なく、あくまで参考の幅です。柄・状態・仕立てによって実際の査定額は変わります。着物専門の査定員に無料査定を依頼して、お手持ちの銘仙の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

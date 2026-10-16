@@ -58,7 +58,7 @@ const faqStructuredData = {
       name: "押し買いとは何ですか？どう対処すべきですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "押し買いとは、業者が突然訪問して強引に着物を安値で買い取ろうとする行為です。特定商取引法で規制されており、飛び込み訪問での買取は違法です。対処法は、きっぱり断ること。帰らない場合は警察に連絡しましょう。",
+        text: "押し買いとは、業者が突然訪問して強引に着物を安値で買い取ろうとする行為です。特定商取引法で規制されており、飛び込み訪問での買取は違法です。対処法は、きっぱり断ること。帰らない場合は警察に連絡してください。",
       },
     },
     {
@@ -74,7 +74,7 @@ const faqStructuredData = {
       name: "悪質な買取業者を見分けるポイントは何ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "悪質な業者の特徴は、飛び込み訪問をする、査定額の根拠を説明しない、強引に契約を迫る、他の品物も見せるよう執拗に求める、会社情報が不透明などです。古物商許可番号の確認、口コミの調査、キャンセル料の有無を事前にチェックしましょう。",
+        text: "悪質な業者の特徴は、飛び込み訪問をする、査定額の根拠を説明しない、強引に契約を迫る、他の品物も見せるよう執拗に求める、会社情報が不透明などです。古物商許可番号の確認、口コミの調査、キャンセル料の有無を事前にチェックしてください。",
       },
     },
     {
@@ -439,7 +439,7 @@ export default function TroublePreventionPage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             トラブルを避けるためには、信頼できる業者を選ぶことが最も重要です。
-            以下のチェックリストで業者を確認しましょう。
+            以下のチェックリストで業者をご確認ください。
           </p>
 
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-6">
@@ -452,7 +452,7 @@ export default function TroublePreventionPage() {
                 <div>
                   <p className="font-medium text-gray-900 text-sm">古物商許可番号を公表している</p>
                   <p className="text-xs text-gray-600 mt-1">
-                    古物営業法に基づく許可を受けている業者か確認しましょう。
+                    古物営業法に基づく許可を受けている業者かご確認ください。
                     公式サイトに古物商許可番号が記載されているのが基本です。
                   </p>
                 </div>
@@ -464,7 +464,7 @@ export default function TroublePreventionPage() {
                   <p className="font-medium text-gray-900 text-sm">会社情報が明確</p>
                   <p className="text-xs text-gray-600 mt-1">
                     会社名、所在地、代表者名、電話番号が公式サイトに明記されていること。
-                    所在地がバーチャルオフィスでないかも確認しましょう。
+                    所在地がバーチャルオフィスでないかもご確認ください。
                   </p>
                 </div>
               </div>
@@ -475,7 +475,7 @@ export default function TroublePreventionPage() {
                   <p className="font-medium text-gray-900 text-sm">手数料がすべて無料</p>
                   <p className="text-xs text-gray-600 mt-1">
                     査定料、出張料、キャンセル料がすべて無料であること。
-                    これが基本であり、手数料を請求する業者は避けましょう。
+                    これが基本であり、手数料を請求する業者は避けてください。
                   </p>
                 </div>
               </div>
@@ -496,7 +496,7 @@ export default function TroublePreventionPage() {
                 <div>
                   <p className="font-medium text-gray-900 text-sm">口コミ・評判が良い</p>
                   <p className="text-xs text-gray-600 mt-1">
-                    Google口コミ、SNS、比較サイトなどで評判を確認しましょう。
+                    Google口コミ、SNS、比較サイトなどで評判をご確認ください。
                     悪い口コミが極端に多い業者は避けた方が無難です。
                   </p>
                 </div>
@@ -507,7 +507,7 @@ export default function TroublePreventionPage() {
                 <div>
                   <p className="font-medium text-gray-900 text-sm">着物専門の査定員が在籍</p>
                   <p className="text-xs text-gray-600 mt-1">
-                    着物の価値を正しく判断できる専門査定員が在籍しているか確認しましょう。
+                    着物の価値を正しく判断できる専門査定員が在籍しているかご確認ください。
                     総合買取の場合、着物に詳しくないスタッフが査定することがあります。
                   </p>
                 </div>
@@ -594,7 +594,7 @@ export default function TroublePreventionPage() {
               <li className="flex items-start gap-2">
                 <span className="text-[#6b4c8a] font-bold">3.</span>
                 <span>
-                  特定記録郵便や簡易書留で送り、発送の記録を残しましょう。
+                  特定記録郵便や簡易書留で送り、発送の記録を残してください。
                   コピーも手元に保管してください。
                 </span>
               </li>
@@ -611,7 +611,7 @@ export default function TroublePreventionPage() {
           <div className="bg-[#faf8f5] border-l-4 border-[#c9a76c] p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold">相談先：</span>
-              トラブルに遭った場合は、消費者ホットライン「188（いやや）」に電話しましょう。
+              トラブルに遭った場合は、消費者ホットライン「188（いやや）」に電話してください。
               最寄りの消費生活センターにつながり、クーリングオフの手続き方法や
               対処法についてアドバイスを受けられます。
             </p>
@@ -626,7 +626,7 @@ export default function TroublePreventionPage() {
           <div className="space-y-4">
             <p className="text-sm text-gray-600 leading-relaxed">
               出張買取は特定商取引法の「訪問購入」に該当するため、<span className="font-medium text-gray-900">クーリングオフが適用されます（8日間）</span>。
-              以下の手順で手続きを行いましょう。
+              以下の手順で手続きを行ってください。
             </p>
             <ol className="space-y-3">
               <li className="flex items-start gap-3 bg-white border border-[#e8ddd0] rounded-lg p-4">
@@ -658,7 +658,7 @@ export default function TroublePreventionPage() {
               <p className="text-sm text-gray-700 leading-relaxed">
                 <span className="font-bold">注意：</span>
                 店頭持ち込みや宅配買取はクーリングオフの対象外です。
-                業者がクーリングオフを拒否した場合は、消費生活センター（<span className="font-medium">188</span>）に相談しましょう。
+                業者がクーリングオフを拒否した場合は、消費生活センター（<span className="font-medium">188</span>）にご相談ください。
               </p>
             </div>
           </div>
@@ -702,7 +702,7 @@ export default function TroublePreventionPage() {
                 A.
                 押し買いとは、業者が突然訪問して強引に着物を安値で買い取ろうとする行為です。
                 特定商取引法で規制されており、飛び込み訪問での買取は違法です。
-                対処法は、きっぱり断ること。「帰ってください」と明確に伝えましょう。
+                対処法は、きっぱり断ること。「帰ってください」と明確に伝えてください。
                 帰らない場合は不退去罪に該当するため、警察に連絡してください。
               </div>
             </details>
@@ -740,7 +740,7 @@ export default function TroublePreventionPage() {
                 悪質な業者の特徴は、飛び込み訪問をする、査定額の根拠を説明しない、
                 強引に契約を迫る、他の品物も見せるよう執拗に求める、
                 会社情報が不透明などです。古物商許可番号の確認、口コミの調査、
-                キャンセル料の有無を事前にチェックしましょう。
+                キャンセル料の有無を事前にチェックしてください。
               </div>
             </details>
 
@@ -758,7 +758,7 @@ export default function TroublePreventionPage() {
                 消費者ホットライン（188）に電話すると、最寄りの消費生活センターにつながります。
                 また、国民生活センターのウェブサイトでも相談を受け付けています。
                 クーリングオフの手続き方法や、業者との交渉のアドバイスなども
-                教えてもらえますので、一人で悩まずに相談しましょう。
+                教えてもらえますので、一人で悩まずにご相談ください。
               </div>
             </details>
           </div>
@@ -773,7 +773,7 @@ export default function TroublePreventionPage() {
             <p className="text-gray-700 text-sm leading-relaxed mb-4">
               着物買取のトラブルは、業者選びの段階で大部分を防ぐことができます。
               古物商許可番号の確認、口コミのチェック、手数料の確認など、
-              基本的なポイントを押さえて信頼できる業者を選びましょう。
+              基本的なポイントを押さえて信頼できる業者を選ぶことをおすすめします。
             </p>
             <p className="text-gray-700 text-sm leading-relaxed mb-4">
               万が一トラブルに遭ってしまった場合は、クーリングオフ制度を活用したり、

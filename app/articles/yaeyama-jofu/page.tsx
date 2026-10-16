@@ -40,7 +40,7 @@ const faqs = [
   {
     question: "八重山上布は証紙がなくても売れますか？",
     answer:
-      "証紙がなくても買取自体は可能ですが、八重山上布かどうかの特定が難しくなるため、査定額は下がりやすくなります。伝統的工芸品として所定の検査に合格した品には伝統マーク付きの証紙が貼られるのが一般的で、証紙がそろっていれば産地と品質の裏付けになります。たとう紙・箱・購入時のしおりなどの付属品も一緒に査定に出しましょう。",
+      "証紙がなくても買取自体は可能ですが、八重山上布かどうかの特定が難しくなるため、査定額は下がりやすくなります。伝統的工芸品として所定の検査に合格した品には伝統マーク付きの証紙が貼られるのが一般的で、証紙がそろっていれば産地と品質の裏付けになります。たとう紙・箱・購入時のしおりなどの付属品も一緒に査定に出してください。",
   },
   {
     question: "八重山上布を高く売るにはどうすればよいですか？",
@@ -469,7 +469,7 @@ export default function YaeyamaJofuPage() {
                 ポイント1：証紙・付属品をそろえて査定に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                証紙・購入時のしおり・箱などは、八重山上布であることを示す最も重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出しましょう。流通量が少ない織物ほど、裏付け資料の有無で評価が変わります。
+                証紙・購入時のしおり・箱などは、八重山上布であることを示す最も重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出してください。流通量が少ない織物ほど、裏付け資料の有無で評価が変わります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -477,7 +477,7 @@ export default function YaeyamaJofuPage() {
                 ポイント2：沖縄の織物・上布に詳しい専門業者を選ぶ
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                八重山上布は取扱経験のない査定員には価値の判断が難しい織物です。一般的なリサイクルショップではなく、沖縄の染織や上布類の取扱実績がある着物専門の買取業者に依頼しましょう。
+                八重山上布は取扱経験のない査定員には価値の判断が難しい織物です。一般的なリサイクルショップではなく、沖縄の染織や上布類の取扱実績がある着物専門の買取業者に依頼することをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -485,7 +485,7 @@ export default function YaeyamaJofuPage() {
                 ポイント3：複数業者で相見積もりを取る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                流通量が少なく相場が形成されにくい織物は、業者による評価差が特に出やすくなります。最低でも複数社に無料査定を依頼し、金額と説明を比較してから売却先を決めましょう。
+                流通量が少なく相場が形成されにくい織物は、業者による評価差が特に出やすくなります。最低でも複数社に無料査定を依頼し、金額と説明を比較してから売却先を決めてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -669,7 +669,7 @@ export default function YaeyamaJofuPage() {
               八重山上布を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              八重山上布は証紙・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              八重山上布は証紙・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -684,7 +684,7 @@ export default function YaeyamaJofuPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -751,7 +751,7 @@ export default function YaeyamaJofuPage() {
             八重山上布の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            八重山上布は流通量が非常に少なく、実売データの平均もあくまで“幅”の参考です。証紙・状態・仕立てによって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの八重山上布の正確な価値を確認しましょう。
+            八重山上布は流通量が非常に少なく、実売データの平均もあくまで“幅”の参考です。証紙・状態・仕立てによって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの八重山上布の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

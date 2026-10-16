@@ -23,10 +23,10 @@ export const metadata: Metadata = {
 
 const faqs = [
   { question: "神戸市で着物の持ち込み買取はできますか？", answer: "はい、神戸市内には着物の持ち込み買取に対応した店舗があります。買取大吉などは主要エリアに店舗を展開しており、少量の着物なら持ち込みでその場査定が可能です。点数が多い場合は無料の出張買取の方が手間がかからずおすすめです。事前に電話やLINEで対応店舗・予約の要否を確認するとスムーズです。" },
-  { question: "神戸市内は出張買取に無料で対応していますか？", answer: "主要な着物買取業者であれば、神戸市内全域で出張費・査定料・キャンセル料すべて無料の出張買取に対応しています。買取大吉やウリエルは自宅にいながら査定を受けられ、その場で現金化も可能です。まずは対応エリアと日時を電話・LINEで確認しましょう。" },
+  { question: "神戸市内は出張買取に無料で対応していますか？", answer: "主要な着物買取業者であれば、神戸市内全域で出張費・査定料・キャンセル料すべて無料の出張買取に対応しています。買取大吉やウリエルは自宅にいながら査定を受けられ、その場で現金化も可能です。まずは対応エリアと日時を電話・LINEでご確認ください。" },
   { question: "古い着物やシミのある着物も神戸市で売れますか？", answer: "はい、状態の良くない着物や古い着物も買取対象です。産地物やアンティークは多少のシミ・傷みがあっても価値が認められることがあります。1点では値がつきにくい場合でも、まとめ買取なら評価されることが多いので、判断に迷う着物もまとめて査定に出すのがおすすめです。" },
   { question: "神戸市でまとめて大量の着物を売れますか？", answer: "はい、出張買取を利用すれば点数制限なく大量の着物をまとめて売却できます。箪笥や蔵に眠っている着物・帯・和装小物をまとめて査定してもらうことで、1点ずつでは値がつきにくい品もまとめ買取で評価されるケースがあります。遺品整理や引っ越しでまとまった量がある場合は、事前に点数を伝えておくとスムーズです。" },
-  { question: "神戸市の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取りましょう。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
+  { question: "神戸市の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取ってください。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
 ];
 
 const articleStructuredData = {
@@ -103,7 +103,7 @@ export default function KobePage() {
         <div className="max-w-4xl mx-auto px-4 mt-4 mb-12">
           <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
             <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
-            <p>神戸市で着物を高く売るなら、市内全域で無料出張に対応する全国対応の専門業者へ、証紙を添えて依頼するのが最善です。持込・出張・宅配から選び、必ず2〜3社で相見積もりを取りましょう。</p>
+            <p>神戸市で着物を高く売るなら、市内全域で無料出張に対応する全国対応の専門業者へ、証紙を添えて依頼するのが最善です。持込・出張・宅配から選び、必ず2〜3社で相見積もりを取ってください。</p>
           </div>
         </div>
 
@@ -193,7 +193,7 @@ export default function KobePage() {
             <span className="text-[#c9a76c]">4.</span> 神戸市で着物を高く売る3つのコツ
           </h2>
           <ol className="space-y-3 text-sm text-gray-700">
-            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />正絹の訪問着や紬・帯は証紙・作家物が高評価の決め手。証明書があれば必ず添えましょう。</li>
+            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />正絹の訪問着や紬・帯は証紙・作家物が高評価の決め手。証明書があれば必ず添えてください。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">② 2〜3社で相見積もりを取る</span><br />神戸市は業者の選択肢が多いので、複数社で比較を。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] underline">高く売るコツ</Link>も参考に。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">③ 早めに・まとめて売る</span><br />着物は時間とともに劣化します。帯・小物もセットで出すと評価が上がります。</li>
           </ol>
@@ -240,7 +240,7 @@ export default function KobePage() {
 
         <div className="bg-[#6b4c8a] rounded-lg p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">神戸市で着物を売るなら、まず無料査定から</p>
-          <p className="text-white/90 text-sm mb-5">神戸市内なら持込・出張・宅配と選択肢が豊富。複数業者の無料査定で最高額を確認しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">神戸市内なら持込・出張・宅配と選択肢が豊富。複数業者の無料査定で最高額をご確認ください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#6b4c8a] font-bold px-6 py-3 rounded-lg hover:bg-[#faf8f5] transition-colors">
             おすすめ着物買取業者ランキングを見る
           </Link>

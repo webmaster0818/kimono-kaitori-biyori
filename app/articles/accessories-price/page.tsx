@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const faqs = [
   { question: "帯締め1本だけでも買い取ってもらえますか？", answer: "帯締め1本だけでも買取対象にはなりますが、単体では100円〜1,000円程度と低い査定額になるのが一般的です。ただし、道明（みちあけ）や龍工房などの高級ブランド品であれば1,000円〜5,000円程度の査定がつくこともあります。着物や帯と一緒にまとめて出すことで、コーディネート価値が加算される可能性があります。" },
-  { question: "草履やバッグは着物買取業者で売れますか？", answer: "はい、和装用の草履やバッグは着物買取業者で買い取ってもらえます。特に草履とバッグのセット品は需要があり、500円〜5,000円程度の買取相場です。エナメルや佐賀錦など高級素材のものは1万円以上になることもあります。買取大吉やウリエルで査定を依頼しましょう。" },
+  { question: "草履やバッグは着物買取業者で売れますか？", answer: "はい、和装用の草履やバッグは着物買取業者で買い取ってもらえます。特に草履とバッグのセット品は需要があり、500円〜5,000円程度の買取相場です。エナメルや佐賀錦など高級素材のものは1万円以上になることもあります。買取大吉やウリエルで査定を依頼することをおすすめします。" },
   { question: "使用済みの和装小物でも買い取ってもらえますか？", answer: "使用済みでも状態が良ければ買取対象です。ただし、汚れやシミが目立つもの、破損しているものは値段がつかない場合があります。足袋など直接肌に触れるものは、未使用品でなければ買取不可の業者もあります。" },
   { question: "和装小物だけでも出張買取に来てもらえますか？", answer: "和装小物だけの場合、出張買取には対応していない業者もあります。小物の買取額が低い場合、出張のコストに見合わないためです。小物だけの場合は宅配買取や持ち込み買取を利用するか、着物や帯と一緒にまとめて出張買取を依頼するのがおすすめです。" },
   { question: "和装小物の中で最も高く売れるものは何ですか？", answer: "和装小物の中で最も高く売れるのは、かんざし（珊瑚・べっ甲・金製のもの）で、素材によっては数万円〜数十万円の価値があります。次いで高いのは帯留め（宝石付き・貴金属製）で、1万円〜10万円以上。帯締めでは道明の高級品が5,000円〜1万円程度です。" },
@@ -108,9 +108,9 @@ export default function AccessoriesPricePage() {
         <div className="space-y-5">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：着物とセットで出す</h3><p className="text-sm text-gray-700">小物単品より着物とのコーディネートで出した方が高値がつきます。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：まとめて出す</h3><p className="text-sm text-gray-700">小物は数をまとめて出すほど、業者にとって取り扱いやすくなり、1点あたりの査定額もアップする傾向があります。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：着物専門の業者を選ぶ</h3><p className="text-sm text-gray-700">リサイクルショップでは和装小物の価値がわからず安く買い叩かれがち。買取大吉やウリエルなどの専門業者を選びましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：ブランド品は必ず伝える</h3><p className="text-sm text-gray-700">道明の帯締めや佐賀錦の草履バッグなど、ブランド品であることを査定員に伝えましょう。箱や袋があれば一緒に出すと信頼性アップ。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：珊瑚やべっ甲は貴金属扱い</h3><p className="text-sm text-gray-700">珊瑚やべっ甲のかんざし・帯留めは着物買取業者だけでなく、貴金属・宝石の専門買取業者にも査定を依頼してみましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：着物専門の業者を選ぶ</h3><p className="text-sm text-gray-700">リサイクルショップでは和装小物の価値がわからず安く買い叩かれがち。買取大吉やウリエルなどの専門業者を選ぶことをおすすめします。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：ブランド品は必ず伝える</h3><p className="text-sm text-gray-700">道明の帯締めや佐賀錦の草履バッグなど、ブランド品であることを査定員に伝えてください。箱や袋があれば一緒に出すと信頼性アップ。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：珊瑚やべっ甲は貴金属扱い</h3><p className="text-sm text-gray-700">珊瑚やべっ甲のかんざし・帯留めは着物買取業者だけでなく、貴金属・宝石の専門買取業者にも査定を依頼してんでください。</p></div>
         </div>
       </div></section>
 
@@ -133,7 +133,7 @@ export default function AccessoriesPricePage() {
       <section className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           <Link href="/articles/obi-price/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">帯の買取相場</h3><p className="text-xs text-gray-600">袋帯・名古屋帯の相場を解説。</p></Link>
           <Link href="/articles/kimono-market-price/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取の相場一覧</h3><p className="text-xs text-gray-600">種類別の買取価格をまとめた総合ガイド。</p></Link>
         </div>
@@ -141,7 +141,7 @@ export default function AccessoriesPricePage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">和装小物も捨てずに査定へ</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">帯締め・草履・バッグなど、使わない和装小物は着物と一緒にまとめて査定に出しましょう。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">帯締め・草履・バッグなど、使わない和装小物は着物と一緒にまとめて査定に出してください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
 

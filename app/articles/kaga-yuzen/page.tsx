@@ -862,7 +862,7 @@ export default function KagaYuzenPage() {
                 ポイント1：証紙と落款は必ずセットで査定に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                加賀友禅の買取では、加賀染振興協会の証紙と作家の落款が最も重要です。証紙はたとう紙の中、購入時の箱の中などに保管されていることが多いので、必ず探して一緒に査定に出しましょう。落款は着物の衿先にありますが、仕立て替えなどで隠れている場合もあるので注意が必要です。
+                加賀友禅の買取では、加賀染振興協会の証紙と作家の落款が最も重要です。証紙はたとう紙の中、購入時の箱の中などに保管されていることが多いので、必ず探して一緒に査定に出してください。落款は着物の衿先にありますが、仕立て替えなどで隠れている場合もあるので注意が必要です。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -878,7 +878,7 @@ export default function KagaYuzenPage() {
                 ポイント3：複数業者で相見積もりを取る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                加賀友禅の作家物は、業者によって数十万円の差が出ることもあります。特に人間国宝・木村雨山の作品や、由水十久・百貫華峰といった人気作家の作品は、業者の販路や在庫状況によって査定額が大きく変動します。最低でも3社に無料査定を依頼し、最も高い価格を提示した業者を選びましょう。
+                加賀友禅の作家物は、業者によって数十万円の差が出ることもあります。特に人間国宝・木村雨山の作品や、由水十久・百貫華峰といった人気作家の作品は、業者の販路や在庫状況によって査定額が大きく変動します。最低でも3社に無料査定を依頼し、最も高い価格を提示した業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -1062,7 +1062,7 @@ export default function KagaYuzenPage() {
               加賀友禅を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              加賀友禅は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              加賀友禅は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -1077,7 +1077,7 @@ export default function KagaYuzenPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -1099,7 +1099,7 @@ export default function KagaYuzenPage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。口コミ・評判・買取実績まで。
+                買取大吉・ウリエルなどおすすめ5社を比較。口コミ・評判・買取実績まで。
               </p>
             </Link>
             <Link
@@ -1146,7 +1146,7 @@ export default function KagaYuzenPage() {
             加賀友禅の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            加賀友禅の買取相場はあくまで目安です。作家・柄・状態・証紙の有無によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの加賀友禅の正確な価値を確認しましょう。
+            加賀友禅の買取相場はあくまで目安です。作家・柄・状態・証紙の有無によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの加賀友禅の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

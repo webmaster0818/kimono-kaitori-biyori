@@ -40,7 +40,7 @@ const faqs = [
   {
     question: "十日町紬に証紙がない場合でも売れますか？",
     answer:
-      "証紙がなくても買取は可能ですが、産地や品質の裏付けが難しくなるため査定額は下がりやすくなります。十日町の織物には産地組合（十日町織物工業協同組合）の証紙が付くものがあり、伝統的工芸品の十日町絣・十日町明石ちぢみには伝統証紙が付くものもあります。証紙は反物の端やたとう紙の中に保管されていることが多いので、必ず探して一緒に査定に出しましょう。",
+      "証紙がなくても買取は可能ですが、産地や品質の裏付けが難しくなるため査定額は下がりやすくなります。十日町の織物には産地組合（十日町織物工業協同組合）の証紙が付くものがあり、伝統的工芸品の十日町絣・十日町明石ちぢみには伝統証紙が付くものもあります。証紙は反物の端やたとう紙の中に保管されていることが多いので、必ず探して一緒に査定に出してください。",
   },
   {
     question: "十日町紬を高く売るにはどうすればよいですか？",
@@ -263,7 +263,7 @@ export default function TokamachiTsumugiPage() {
               <Link href="/articles/shiozawa-tsumugi/" className="text-[#6b4c8a] underline font-medium">
                 塩沢紬・本塩沢
               </Link>
-              と混同されやすいので注意しましょう。どちらも越後の麻織物の技術を絹に応用した背景を持ちますが、産地も証紙を発行する組合も別の織物です。麻織物そのものについては
+              と混同されやすいのでご注意ください。どちらも越後の麻織物の技術を絹に応用した背景を持ちますが、産地も証紙を発行する組合も別の織物です。麻織物そのものについては
               <Link href="/articles/echigo-jofu/" className="text-[#6b4c8a] underline font-medium">
                 越後上布
               </Link>
@@ -389,7 +389,7 @@ export default function TokamachiTsumugiPage() {
                 <Link href="/articles/tsumugi-types/" className="text-[#6b4c8a] underline">
                   紬の着物
                 </Link>
-                や帯・和装小物をお持ちの場合は、まとめて査定に出すと全体として評価されやすくなります。単品の価値と点数のバランスを見ながら売り方を選びましょう。
+                や帯・和装小物をお持ちの場合は、まとめて査定に出すと全体として評価されやすくなります。単品の価値と点数のバランスを見ながら売り方を選ぶことをおすすめします。
               </p>
             </div>
           </div>
@@ -492,7 +492,7 @@ export default function TokamachiTsumugiPage() {
                 ポイント1：証紙・付属品をそろえて査定に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                産地組合の証紙・伝統証紙・購入時の箱やしおりは、産地と種類を示す重要な手がかりです。「十日町紬」か「十日町絣」か「明石ちぢみ」かで評価の軸が変わるため、証紙の名称がわかる状態で査定に出しましょう。
+                産地組合の証紙・伝統証紙・購入時の箱やしおりは、産地と種類を示す重要な手がかりです。「十日町紬」か「十日町絣」か「明石ちぢみ」かで評価の軸が変わるため、証紙の名称がわかる状態で査定に出してください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -508,7 +508,7 @@ export default function TokamachiTsumugiPage() {
                 ポイント3：紬に詳しい専門業者で相見積もりを取る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                一般的なリサイクルショップでは、十日町絣と他産地の紬の区別がつかず一律に扱われることがあります。着物専門の買取業者に依頼し、最低でも複数社で相見積もりを取って評価と説明を比較しましょう。
+                一般的なリサイクルショップでは、十日町絣と他産地の紬の区別がつかず一律に扱われることがあります。着物専門の買取業者に依頼し、最低でも複数社で相見積もりを取って評価と説明を比較することをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -631,7 +631,7 @@ export default function TokamachiTsumugiPage() {
                   ["単衣仕立ての良品", "○ 評価されやすい", "実売データでは単衣仕立ての良品が上位に入る傾向が見られました。仕立ての質とサイズも評価に影響します。"],
                   ["未使用・しつけ糸付き", "◎ プラス", "未使用品や美品は状態評価が高く、同じ種類でも使用感のある品より評価されやすくなります。"],
                   ["反物（未仕立て）", "○ 需要で変動", "未仕立ての反物は用途の自由度が高く、状態が良ければ評価されやすいことがあります。"],
-                  ["まとめ売り・ロットの一部", "△ 単品評価が埋もれる", "まとめ売りでは一点ごとの価値が反映されにくくなります。証紙付き・作り手がわかる品は単品査定を検討しましょう。"],
+                  ["まとめ売り・ロットの一部", "△ 単品評価が埋もれる", "まとめ売りでは一点ごとの価値が反映されにくくなります。証紙付き・作り手がわかる品は単品査定をご検討ください。"],
                   ["日焼け・シミ・カビ・難あり", "△ マイナス", "絹の織物は日焼け・汗染み・虫食いで価値が下がりやすく、状態不良は減額対象。自己クリーニングは避け、現状のまま査定へ。"],
                 ].map(([cond, impact, note], i) => (
                   <tr key={cond} className={`border-b border-[#e8ddd0] ${i % 2 ? "bg-[#faf8f5]" : "bg-white"} hover:bg-white transition-colors`}>
@@ -690,7 +690,7 @@ export default function TokamachiTsumugiPage() {
               十日町紬を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              十日町紬は証紙・作り手・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              十日町紬は証紙・作り手・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -705,7 +705,7 @@ export default function TokamachiTsumugiPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・作り手・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・作り手・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -798,7 +798,7 @@ export default function TokamachiTsumugiPage() {
             十日町紬の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            十日町紬の買取相場はあくまで目安です。証紙・作り手・仕立て・状態によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの十日町紬の正確な価値を確認しましょう。
+            十日町紬の買取相場はあくまで目安です。証紙・作り手・仕立て・状態によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの十日町紬の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

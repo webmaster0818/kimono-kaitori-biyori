@@ -15,7 +15,7 @@ const faqs = [
   { question: "父や祖父の着物を売ることはできますか？", answer: "はい、お父様やお祖父様の着物でも買取対象になります。遺品整理で出てきた男性着物をまとめて売りたい場合は、買取大吉やウリエルの出張買取が便利です。紋付袴、羽織、角帯、袴などをまとめて査定してもらえます。" },
   { question: "男性着物の袴だけでも売れますか？", answer: "袴だけでも買取対象になりますが、単品では1,000円〜5,000円程度の査定額が一般的です。紋付き羽織とセットで出すとプラス評価される傾向があります。仙台平（せんだいひら）の袴は高級品として高額査定が期待できます。" },
   { question: "男性着物のサイズは買取に影響しますか？", answer: "はい、サイズは買取価格に影響します。男性着物も大きめのサイズ（身丈145cm以上、裄丈72cm以上）の方が需要が高く、高い査定額がつきます。小さいサイズは需要が限られるため、やや減額される傾向があります。" },
-  { question: "ウールやポリエステルの男性着物は買い取ってもらえますか？", answer: "ウールの男性着物は数百円〜2,000円程度で買取可能な業者もありますが、ポリエステルの場合は値段がつかないことが多く見られます。正絹の着物が最も高い買取価格がつきます。素材がわからない場合は、そのまま査定に出してプロに判断してもらいましょう。" },
+  { question: "ウールやポリエステルの男性着物は買い取ってもらえますか？", answer: "ウールの男性着物は数百円〜2,000円程度で買取可能な業者もありますが、ポリエステルの場合は値段がつかないことが多く見られます。正絹の着物が最も高い買取価格がつきます。素材がわからない場合は、そのまま査定に出してプロに判断してもらってください。" },
 ];
 
 const articleStructuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png", headline: "男性着物の買取相場｜紋付袴・着流し・羽織は売れる？", description: "男性着物の買取相場を種類別に解説。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" }, publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/mens-kimono/" } };
@@ -93,7 +93,7 @@ export default function MensKimonoPage() {
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">正絹であること</h3><p className="text-sm text-gray-700">男性着物も素材が最重要。正絹であれば基本的に買取対象。ウールやポリエステルは低額になりがちです。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">大島紬・結城紬などの産地物</h3><p className="text-sm text-gray-700">男性着物でも産地物の紬は高い評価を受けます。証紙があればさらに高額査定が期待できます。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">大きめのサイズ</h3><p className="text-sm text-gray-700">身丈145cm以上、裄丈72cm以上の大きめサイズは需要が高く、高い査定がつきます。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">セット品（紋付袴一式）</h3><p className="text-sm text-gray-700">紋付き着物・袴・羽織のセットはまとめて出すと高評価。角帯や羽織紐も一緒に出しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">セット品（紋付袴一式）</h3><p className="text-sm text-gray-700">紋付き着物・袴・羽織のセットはまとめて出すと高評価。角帯や羽織紐も一緒に出してください。</p></div>
         </div>
       </div></section>
 
@@ -103,7 +103,7 @@ export default function MensKimonoPage() {
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：着物専門の業者を選ぶ</h3><p className="text-sm text-gray-700">男性着物の価値を正しく評価できるのは専門業者だけ。買取大吉やウリエルなら男性着物の査定にも精通しています。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：セットでまとめて出す</h3><p className="text-sm text-gray-700">着物・袴・羽織・角帯・羽織紐をセットで出すと、コーディネートとしての価値が加算されます。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：証紙・証明書を必ず添える</h3><p className="text-sm text-gray-700">大島紬・結城紬の証紙があれば査定額が大幅にアップします。購入時のレシートや保証書も有効です。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：複数業者で見積もり比較</h3><p className="text-sm text-gray-700">男性着物の評価は業者によって差が大きくなります。ヒカカクの一括比較で3社以上に査定を依頼しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：複数業者で見積もり比較</h3><p className="text-sm text-gray-700">男性着物の評価は業者によって差が大きくなります。ヒカカクの一括比較で3社以上に査定を依頼することをおすすめします。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：状態が良いうちに早めに売る</h3><p className="text-sm text-gray-700">保管している間にシミやカビが発生するリスクがあります。着ない着物は早めに売却するのが賢明です。</p></div>
         </div>
       </div></section>
@@ -127,7 +127,7 @@ export default function MensKimonoPage() {
       <section className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           <Link href="/articles/montsuki/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">紋付き着物の買取相場</h3><p className="text-xs text-gray-600">五つ紋・三つ紋の価値の違い。</p></Link>
           <Link href="/articles/estate-kimono/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">遺品整理の着物買取</h3><p className="text-xs text-gray-600">遺品の着物をまとめて売る方法。</p></Link>
         </div>
@@ -135,7 +135,7 @@ export default function MensKimonoPage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">男性着物も価値あり。まずは無料査定へ</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">紋付袴や紬など、良質な男性着物は十分に買取価値があります。まずは無料査定で確認しましょう。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">紋付袴や紬など、良質な男性着物は十分に買取価値があります。まずは無料査定でご確認ください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
 

@@ -22,11 +22,11 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { question: "茨城の本場結城紬は高く売れますか？", answer: "はい、本場結城紬は最高級の紬で、状態と証紙が揃っていれば高価買取が期待できます。特に手紡ぎ・手括り・地機織りの重要無形文化財に該当するものや、亀甲数の多い精緻な絣は評価が高くなります。証紙がないと本場品であっても査定額が大きく下がるため、必ず証紙を一緒に査定へ出しましょう。" },
+  { question: "茨城の本場結城紬は高く売れますか？", answer: "はい、本場結城紬は最高級の紬で、状態と証紙が揃っていれば高価買取が期待できます。特に手紡ぎ・手括り・地機織りの重要無形文化財に該当するものや、亀甲数の多い精緻な絣は評価が高くなります。証紙がないと本場品であっても査定額が大きく下がるため、必ず証紙を一緒に査定へ出してください。" },
   { question: "結城紬の「亀甲」とは何ですか？査定に関係しますか？", answer: "亀甲とは結城紬の絣模様の単位で、反物の幅に何個の亀甲が並ぶかを示します。80亀甲・100亀甲・160亀甲などがあり、数が多いほど絣が細かく手間がかかっているため、一般に査定額も高くなります。証紙に記載されることが多いので、証紙は必ず添えてください。" },
   { question: "茨城県内で着物の出張買取は無料で来てもらえますか？", answer: "主要な着物買取業者であれば、水戸市・つくば市・結城市・日立市など県内全域で無料の出張買取に対応しています。買取大吉やウリエルは出張費・査定料・キャンセル料すべて無料で、自宅にいながら査定を受けられます。まずは電話やLINEで対応エリアを確認するとスムーズです。" },
   { question: "茨城で大量の着物をまとめて売れますか？", answer: "はい、出張買取を利用すれば点数制限なく大量の着物をまとめて売却できます。結城紬は1点でも高額になりやすいですが、他の着物・帯・和装小物もまとめて査定してもらうことで全体の買取額が上がるケースがあります。遺品整理や生前整理でまとまった量がある場合は、事前に点数を伝えておくと当日の査定がスムーズです。" },
-  { question: "茨城の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。結城紬は業者によって評価差が出やすいため、必ず複数社で相見積もりを取りましょう。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
+  { question: "茨城の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。結城紬は業者によって評価差が出やすいため、必ず複数社で相見積もりを取ってください。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
 ];
 
 const articleStructuredData = {
@@ -138,7 +138,7 @@ export default function IbarakiPage() {
           </div>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
-            <p className="text-sm text-gray-700 leading-relaxed">本場結城紬は、結城紬検査協会の証紙（紬マーク・地機/高機の表示など）が付いているかどうかで査定額が大きく変わります。亀甲数や工程が分かる証紙・証明書は必ず一緒に査定へ出しましょう。</p>
+            <p className="text-sm text-gray-700 leading-relaxed">本場結城紬は、結城紬検査協会の証紙（紬マーク・地機/高機の表示など）が付いているかどうかで査定額が大きく変わります。亀甲数や工程が分かる証紙・証明書は必ず一緒に査定へ出してください。</p>
           </div>
         </section>
 
@@ -195,7 +195,7 @@ export default function IbarakiPage() {
             <span className="text-[#c9a76c]">4.</span> 茨城で着物を高く売る3つのコツ
           </h2>
           <ol className="space-y-3 text-sm text-gray-700">
-            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />本場結城紬は証紙と亀甲の細かさ、地機か高機かで査定額が大きく変わります。証明書を必ず添えましょう。</li>
+            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />本場結城紬は証紙と亀甲の細かさ、地機か高機かで査定額が大きく変わります。証明書を必ず添えてください。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">② 2〜3社で相見積もりを取る</span><br />産地物に強い業者を含めて比較。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] underline">高く売るコツ</Link>も参考に。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">③ 早めに・まとめて売る</span><br />着物は時間とともに劣化します。帯・小物もセットで出すと評価が上がります。</li>
           </ol>
@@ -222,7 +222,7 @@ export default function IbarakiPage() {
           <h3 className="text-white text-xl font-bold mb-3">茨城の着物、まずは無料査定で価値を確認</h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             本場結城紬・石下紬など、茨城の織物は専門業者の目で正しく評価されます。<br />
-            信頼できる着物買取業者をランキングで比較してみましょう。
+            信頼できる着物買取業者をランキングで比較してんでください。
           </p>
           <Link href="/ranking/" className="inline-block bg-[#c9a76c] text-white font-bold px-8 py-4 rounded-lg hover:bg-[#b8965b] transition-colors">
             おすすめ着物買取業者ランキングを見る

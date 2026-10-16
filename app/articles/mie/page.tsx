@@ -26,7 +26,7 @@ const faqs = [
   { question: "木綿の着物や古い着物も買取してもらえますか？", answer: "はい、松阪木綿・伊勢木綿などの木綿織物や古い着物も買取対象です。状態が良くレトロな縞柄のものは需要があります。1点では値がつきにくい場合でも、まとめ買取なら評価されることが多いので、まとめて査定に出すのがおすすめです。" },
   { question: "三重県内で着物の出張買取は無料で来てもらえますか？", answer: "主要な着物買取業者であれば、津市・四日市市・松阪市・伊勢市など県内全域で無料の出張買取に対応しています。買取大吉やウリエルは出張費・査定料・キャンセル料すべて無料で、自宅にいながら査定を受けられます。まずは電話やLINEで対応エリアを確認するとスムーズです。" },
   { question: "三重で大量の着物をまとめて売れますか？", answer: "はい、出張買取を利用すれば点数制限なく大量の着物をまとめて売却できます。蔵や箪笥に眠っている着物・帯・和装小物をまとめて査定してもらうことで、1点ずつでは値がつきにくい品もまとめ買取で評価されるケースがあります。遺品整理や生前整理でまとまった量がある場合は、事前に点数を伝えておくとスムーズです。" },
-  { question: "三重の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取りましょう。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
+  { question: "三重の着物買取で注意すべき点はありますか？", answer: "突然訪問してきて着物や貴金属の買取を持ちかける「押し買い」には注意してください。信頼できる業者が自ら飛び込み営業をすることはありません。古物商許可を持ち、口コミや実績が確認できる業者を選び、必ず複数社で相見積もりを取ってください。出張買取は契約日を含め8日間のクーリングオフ対象です。" },
 ];
 
 const articleStructuredData = {
@@ -108,7 +108,7 @@ export default function MiePage() {
         <div className="max-w-4xl mx-auto px-4 mt-4 mb-12">
           <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
             <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
-            <p>三重で着物を高く売るなら、松阪木綿・伊勢木綿をはじめ着物全般に詳しい専門業者へ出張買取を依頼するのが最善です。木綿は正絹より評価が控えめになりがちですが、上質品や証紙付きはきちんと評価されます。必ず2〜3社で相見積もりを取りましょう。</p>
+            <p>三重で着物を高く売るなら、松阪木綿・伊勢木綿をはじめ着物全般に詳しい専門業者へ出張買取を依頼するのが最善です。木綿は正絹より評価が控えめになりがちですが、上質品や証紙付きはきちんと評価されます。必ず2〜3社で相見積もりを取ってください。</p>
           </div>
         </div>
 
@@ -138,7 +138,7 @@ export default function MiePage() {
           </div>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <p className="text-[#6b4c8a] font-bold text-sm mb-2">産地物は「証紙」で価値が決まる</p>
-            <p className="text-sm text-gray-700 leading-relaxed">松阪木綿・伊勢木綿などの木綿織物は、産地の証紙や手織りの証明があるとプラス評価です。正絹の訪問着・紬・帯は特に証紙の有無で査定額が変わるため、証紙・たとう紙の証明書は必ず一緒に査定へ出しましょう。</p>
+            <p className="text-sm text-gray-700 leading-relaxed">松阪木綿・伊勢木綿などの木綿織物は、産地の証紙や手織りの証明があるとプラス評価です。正絹の訪問着・紬・帯は特に証紙の有無で査定額が変わるため、証紙・たとう紙の証明書は必ず一緒に査定へ出してください。</p>
           </div>
         </section>
 
@@ -195,7 +195,7 @@ export default function MiePage() {
             <span className="text-[#c9a76c]">4.</span> 三重で着物を高く売る3つのコツ
           </h2>
           <ol className="space-y-3 text-sm text-gray-700">
-            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />松阪木綿・伊勢木綿は上質な手織り・証紙付きが評価されます。正絹の着物は証紙を必ず添えましょう。</li>
+            <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">① 証紙・証明書を必ず添える</span><br />松阪木綿・伊勢木綿は上質な手織り・証紙付きが評価されます。正絹の着物は証紙を必ず添えてください。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">② 2〜3社で相見積もりを取る</span><br />産地物に強い業者を含めて比較。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] underline">高く売るコツ</Link>も参考に。</li>
             <li className="border border-[#e8ddd0] rounded-lg p-4"><span className="font-bold text-[#6b4c8a]">③ 早めに・まとめて売る</span><br />着物は時間とともに劣化します。帯・小物もセットで出すと評価が上がります。</li>
           </ol>
@@ -222,7 +222,7 @@ export default function MiePage() {
           <h3 className="text-white text-xl font-bold mb-3">三重の着物、まずは無料査定で価値を確認</h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             松阪木綿・伊勢木綿など、三重の織物は専門業者の目で正しく評価されます。<br />
-            信頼できる着物買取業者をランキングで比較してみましょう。
+            信頼できる着物買取業者をランキングで比較してんでください。
           </p>
           <Link href="/ranking/" className="inline-block bg-[#c9a76c] text-white font-bold px-8 py-4 rounded-lg hover:bg-[#b8965b] transition-colors">
             おすすめ着物買取業者ランキングを見る

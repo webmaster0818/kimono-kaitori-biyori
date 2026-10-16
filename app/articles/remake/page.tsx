@@ -30,12 +30,12 @@ const faqs = [
   {
     question: "売るのとリメイクするの、どちらがお得ですか？",
     answer:
-      "買取額が高い着物（証紙付きの大島紬や京友禅など）は売却がお得です。一方、買取額がつかない着物（シミ・汚れが多い、化繊素材など）はリメイクで有効活用するのがおすすめです。まずは無料査定で買取額を確認してから判断しましょう。",
+      "買取額が高い着物（証紙付きの大島紬や京友禅など）は売却がお得です。一方、買取額がつかない着物（シミ・汚れが多い、化繊素材など）はリメイクで有効活用するのがおすすめです。まずは無料査定で買取額を確認してから判断してください。",
   },
   {
     question: "シミや汚れがある着物でもリメイクできますか？",
     answer:
-      "はい、シミや汚れがある部分を避けて使えるため、リメイクに向いています。むしろ「買取では値段がつかないがリメイクなら活用できる」という着物が多く見られます。リメイク業者に相談してみましょう。",
+      "はい、シミや汚れがある部分を避けて使えるため、リメイクに向いています。むしろ「買取では値段がつかないがリメイクなら活用できる」という着物が多く見られます。リメイク業者に相談してんでください。",
   },
   {
     question: "着物1枚からどのくらいのアイテムが作れますか？",
@@ -45,7 +45,7 @@ const faqs = [
   {
     question: "着物リメイクにはどのくらい時間がかかりますか？",
     answer:
-      "一般的に小物類で1〜2週間、ワンピースやドレスで3〜6週間程度です。繁忙期や複雑なデザインの場合はさらに時間がかかることがあります。事前にリメイク業者に納期を確認しましょう。",
+      "一般的に小物類で1〜2週間、ワンピースやドレスで3〜6週間程度です。繁忙期や複雑なデザインの場合はさらに時間がかかることがあります。事前にリメイク業者に納期をご確認ください。",
   },
 ];
 
@@ -262,7 +262,7 @@ export default function RemakePage() {
                 <li>状態が良好な正絹の訪問着・振袖・留袖</li>
                 <li>思い入れが特にない着物</li>
               </ul>
-              <p className="mt-3 text-sm text-gray-700">まずは買取大吉やウリエルの無料査定で買取額を確認しましょう。</p>
+              <p className="mt-3 text-sm text-gray-700">まずは買取大吉やウリエルの無料査定で買取額をご確認ください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">リメイクした方がよいケース</h3>
@@ -310,7 +310,7 @@ export default function RemakePage() {
               <span className="bg-[#6b4c8a] text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
               <div>
                 <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">完成・受け取り</h3>
-                <p className="text-sm leading-relaxed text-gray-700">完成品が届いたら仕上がりを確認。微調整が必要な場合は業者に相談しましょう。</p>
+                <p className="text-sm leading-relaxed text-gray-700">完成品が届いたら仕上がりを確認。微調整が必要な場合は業者にご相談ください。</p>
               </div>
             </div>
           </div>
@@ -331,7 +331,7 @@ export default function RemakePage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：着物リメイク専門の業者を選ぶ</h3>
-              <p className="text-sm leading-relaxed text-gray-700">正絹は扱いが難しい素材です。着物リメイクの実績が豊富な専門業者に依頼しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">正絹は扱いが難しい素材です。着物リメイクの実績が豊富な専門業者に依頼することをおすすめします。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：完成イメージを明確に伝える</h3>
@@ -339,7 +339,7 @@ export default function RemakePage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：生地の状態を正確に伝える</h3>
-              <p className="text-sm leading-relaxed text-gray-700">シミ・汚れ・穴の位置を事前に伝えておくと、業者が適切に対応できます。隠さず正確に申告しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">シミ・汚れ・穴の位置を事前に伝えておくと、業者が適切に対応できます。隠さず正確に申告してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：余った生地の活用も相談する</h3>
@@ -407,7 +407,7 @@ export default function RemakePage() {
             リメイクの前に、まず無料査定で買取額を確認
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            高額がつく着物は売却がお得。まずは複数業者の無料査定で着物の価値を確認しましょう。
+            高額がつく着物は売却がお得。まずは複数業者の無料査定で着物の価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

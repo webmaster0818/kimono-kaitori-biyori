@@ -7,14 +7,14 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "コメ兵の着物買取｜ブランド買取大手の実力を検証",
   description:
-    "コメ兵（KOMEHYO）の着物買取サービスを徹底検証。創業75年超の老舗ブランド買取企業の着物買取の実力、査定基準、買取相場、口コミ・評判を公開情報と実売データにもとづいてレビュー。名古屋発の大手リユース企業の着物買取を検討中の方必見。",
+    "コメ兵（KOMEHYO）の着物買取サービスを検証。創業75年超の老舗ブランド買取企業の着物買取の実力、査定基準、買取相場、口コミ・評判を公開情報と実売データにもとづいてレビュー。名古屋発の大手リユース企業の着物買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/komehyo/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "コメ兵の着物買取｜ブランド買取大手の実力を検証",
     description:
-      "コメ兵の着物買取を徹底検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを公開情報と実売データにもとづいてレビュー。",
+      "コメ兵の着物買取を検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/komehyo/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,7 +26,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "コメ兵の着物買取｜ブランド買取大手の実力を検証",
   description:
-    "コメ兵の着物買取を徹底検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを公開情報と実売データにもとづいてレビュー。",
+    "コメ兵の着物買取を検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -336,7 +336,7 @@ export default function KomehyoReviewPage() {
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">まとめ：コメ兵は名古屋近郊やブランド品も売りたい方に最適</h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <p className="text-gray-700 text-sm leading-relaxed mb-4">コメ兵は75年以上の歴史を持つ老舗リユース企業で、上場企業の信頼性と自社販売チャネルによる適正な査定が魅力です。特に名古屋本店のきもの館は着物専門の査定を受けられる貴重な拠点です。</p>
-            <p className="text-gray-700 text-sm leading-relaxed mb-4">一方で、出張買取に対応していない点や着物取扱い店舗が限定的な点は、利便性の面でマイナスです。着物だけを売りたい場合は、出張買取に対応しているバイセルや福ちゃんとの併用を検討しましょう。</p>
+            <p className="text-gray-700 text-sm leading-relaxed mb-4">一方で、出張買取に対応していない点や着物取扱い店舗が限定的な点は、利便性の面でマイナスです。着物だけを売りたい場合は、出張買取に対応しているバイセルや福ちゃんとの併用をご検討ください。</p>
             <p className="text-gray-700 text-sm leading-relaxed">「名古屋近郊にお住まいの方」「ブランド品と着物をまとめて売りたい方」「上場企業の安心感を求める方」にはコメ兵がおすすめです。</p>
           </div>
         </section>

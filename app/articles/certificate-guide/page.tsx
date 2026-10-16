@@ -74,7 +74,7 @@ const faqStructuredData = {
       name: "証紙の偽物はありますか？見分け方は？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "残念ながら、証紙の偽物が出回ることもあります。偽物は印刷の質が粗い、紙質が異なる、登録番号がないなどの特徴があります。正規の証紙は各産地の組合が管理番号を付けて発行しているため、番号の照合で真贋を確認できます。不安な場合は着物専門の買取業者に見てもらいましょう。",
+        text: "残念ながら、証紙の偽物が出回ることもあります。偽物は印刷の質が粗い、紙質が異なる、登録番号がないなどの特徴があります。正規の証紙は各産地の組合が管理番号を付けて発行しているため、番号の照合で真贋を確認できます。不安な場合は着物専門の買取業者に見てもらってください。",
       },
     },
     {
@@ -520,7 +520,7 @@ export default function CertificateGuidePage() {
               <span className="font-bold">補足：</span>
               上記以外にも、牛首紬、黄八丈、上田紬、小千谷縮、越後上布など
               多くの産地で独自の証紙が発行されています。
-              お手持ちの着物に紙片が付いていたら、捨てずに必ず保管しておきましょう。
+              お手持ちの着物に紙片が付いていたら、捨てずに必ず保管しておいてください。
             </p>
           </div>
         </section>
@@ -621,7 +621,7 @@ export default function CertificateGuidePage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             証紙は着物の価値を証明する重要な書類です。
-            紛失しないよう、適切に保管しましょう。
+            紛失しないよう、適切に保管してください。
           </p>
 
           <div className="space-y-4 mb-6">
@@ -688,7 +688,7 @@ export default function CertificateGuidePage() {
           </h3>
           <div className="space-y-4">
             <p className="text-sm text-gray-600 leading-relaxed">
-              主要な産地の証紙には、それぞれ特徴的なデザインや色があります。お手持ちの着物に付いている証紙と照らし合わせてみましょう。
+              主要な産地の証紙には、それぞれ特徴的なデザインや色があります。お手持ちの着物に付いている証紙と照らし合わせてんでください。
             </p>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse text-sm">
@@ -828,7 +828,7 @@ export default function CertificateGuidePage() {
                 偽物は印刷の質が粗い、紙質が異なる、登録番号がないなどの特徴があります。
                 正規の証紙は各産地の組合が管理番号を付けて発行しているため、
                 番号の照合で真贋を確認できます。
-                不安な場合は着物専門の買取業者に見てもらいましょう。
+                不安な場合は着物専門の買取業者に見てもらってください。
               </div>
             </details>
 
@@ -862,7 +862,7 @@ export default function CertificateGuidePage() {
             <p className="text-gray-700 text-sm leading-relaxed mb-4">
               証紙は着物の産地・素材・製法を公的に証明する重要な書類です。
               証紙の有無で買取価格が2倍以上変わることもあるため、
-              着物を売る際には必ず証紙を探して一緒に査定に出しましょう。
+              着物を売る際には必ず証紙を探して一緒に査定に出してください。
             </p>
             <p className="text-gray-700 text-sm leading-relaxed mb-4">
               証紙が見当たらない場合でも、たとう紙の中やタンスの引き出しの隅を
@@ -881,7 +881,7 @@ export default function CertificateGuidePage() {
             証紙付きの着物を高く売るなら
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
-            証紙の価値を正しく評価できる着物専門の買取業者に査定を依頼しましょう。<br />
+            証紙の価値を正しく評価できる着物専門の買取業者に査定を依頼することをおすすめします。<br />
             信頼できる業者をランキングで比較できます。
           </p>
           <Link

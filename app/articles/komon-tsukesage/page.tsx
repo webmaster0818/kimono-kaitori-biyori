@@ -773,7 +773,7 @@ export default function KomonTsukesagePage() {
                 ポイント1：江戸小紋は柄の種類を伝える
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                江戸小紋をお持ちの場合は、査定時に柄の種類（三役・五役など）を伝えましょう。肉眼では区別しにくい柄もあるため、購入時の説明書や証紙があれば一緒に提示すると正確な査定が受けられます。柄の種類がわからない場合でも、着物専門の査定員であれば見分けられます。
+                江戸小紋をお持ちの場合は、査定時に柄の種類（三役・五役など）を伝えてください。肉眼では区別しにくい柄もあるため、購入時の説明書や証紙があれば一緒に提示すると正確な査定が受けられます。柄の種類がわからない場合でも、着物専門の査定員であれば見分けられます。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -781,7 +781,7 @@ export default function KomonTsukesagePage() {
                 ポイント2：証紙・落款は必ずセットで出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                作家物の江戸小紋や付け下げは、証紙と落款の有無で査定額が大きく変わります。たとう紙の中、購入時の箱の中、着物と一緒に保管している袋の中を探しましょう。特に人間国宝の作品は、証紙なしでは適正評価を受けにくくなります。
+                作家物の江戸小紋や付け下げは、証紙と落款の有無で査定額が大きく変わります。たとう紙の中、購入時の箱の中、着物と一緒に保管している袋の中を探してください。特に人間国宝の作品は、証紙なしでは適正評価を受けにくくなります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -789,7 +789,7 @@ export default function KomonTsukesagePage() {
                 ポイント3：着物専門の買取業者に依頼する
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                小紋や付け下げはリサイクルショップでは一律数百円で買い叩かれることがあります。江戸小紋の三役と五役の違いや、作家物の価値を正しく評価できる着物専門の買取業者に依頼しましょう。専門業者であれば、柄の希少性や染めの品質まで見極めて適正価格を提示してくれます。
+                小紋や付け下げはリサイクルショップでは一律数百円で買い叩かれることがあります。江戸小紋の三役と五役の違いや、作家物の価値を正しく評価できる着物専門の買取業者に依頼することをおすすめします。専門業者であれば、柄の希少性や染めの品質まで見極めて適正価格を提示してくれます。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -879,7 +879,7 @@ export default function KomonTsukesagePage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。口コミ・評判・買取実績まで。
+                買取大吉・ウリエルなどおすすめ5社を比較。口コミ・評判・買取実績まで。
               </p>
             </Link>
             <Link
@@ -915,7 +915,7 @@ export default function KomonTsukesagePage() {
             小紋・付け下げの正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            小紋・付け下げの買取相場はあくまで目安です。江戸小紋の柄の種類、作家、ブランド、状態によって実際の査定額は大きく変わります。着物専門の査定員がいる信頼できる業者に無料査定を依頼しましょう。
+            小紋・付け下げの買取相場はあくまで目安です。江戸小紋の柄の種類、作家、ブランド、状態によって実際の査定額は大きく変わります。着物専門の査定員がいる信頼できる業者に無料査定を依頼することをおすすめします。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

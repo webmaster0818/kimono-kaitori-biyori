@@ -7,14 +7,14 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ウリエルの着物買取｜出張買取の評判・口コミを検証",
   description:
-    "ウリエルの着物買取サービスを徹底検証。運営は株式会社クオーレ。出張買取・催事買取に対応し、関東・中部・近畿・岡山の対応エリア、クーリングオフ8日間、即現金払いの実力を口コミとともにレビュー。",
+    "ウリエルの着物買取サービスを検証。運営は株式会社クオーレ。出張買取・催事買取に対応し、関東・中部・近畿・岡山の対応エリア、クーリングオフ8日間、即現金払いの実力を口コミとともにレビュー。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/uriel/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "ウリエルの着物買取｜出張買取の評判・口コミを検証",
     description:
-      "ウリエルの出張買取専門の着物買取サービスを徹底検証。口コミ・評判・買取実績を公開情報と実売データにもとづいてレビュー。",
+      "ウリエルの出張買取専門の着物買取サービスを検証。口コミ・評判・買取実績を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/uriel/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,7 +26,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "ウリエルの着物買取｜出張買取の評判・口コミを検証",
   description:
-    "ウリエルの着物買取サービスを徹底検証。運営は株式会社クオーレ。出張買取・催事買取に対応。口コミ・評判を公開情報と実売データにもとづいてレビュー。",
+    "ウリエルの着物買取サービスを検証。運営は株式会社クオーレ。出張買取・催事買取に対応。口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -715,7 +715,7 @@ export default function UrielReviewPage() {
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
               <p className="text-sm font-bold text-gray-900 mb-1">時期限定の買取金額アップキャンペーン</p>
               <p className="text-sm text-gray-700">
-                時期によって<strong>買取金額7倍キャンペーン</strong>を実施していることがあります。査定依頼前に公式サイトで最新のキャンペーン情報を確認しましょう。
+                時期によって<strong>買取金額7倍キャンペーン</strong>を実施していることがあります。査定依頼前に公式サイトで最新のキャンペーン情報をご確認ください。
               </p>
             </div>
           </div>

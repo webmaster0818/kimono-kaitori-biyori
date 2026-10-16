@@ -7,7 +7,7 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取 夜間・土日対応の業者まとめ｜平日忙しい方向け",
   description:
-    "平日忙しい方のために、土日・夜間に着物買取対応できる業者をまとめました。土日の出張買取・持ち込み買取、夜間対応のオンライン査定など、仕事が忙しい方でも利用できる着物買取サービスを徹底比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの対応状況を解説。",
+    "平日忙しい方のために、土日・夜間に着物買取対応できる業者をまとめました。土日の出張買取・持ち込み買取、夜間対応のオンライン査定など、仕事が忙しい方でも利用できる着物買取サービスを比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの対応状況を解説。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/weekend-night/" },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取 夜間・土日対応の業者まとめ｜平日忙しい方向け",
@@ -194,7 +194,7 @@ export default function WeekendNightPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex gap-4">
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#c9a76c] text-white flex items-center justify-center font-bold text-lg">木</div>
-              <div><h3 className="font-bold text-[#6b4c8a] mb-1 text-base">木曜夜：帰宅後に梱包</h3><p className="text-sm text-gray-700">着物を段ボールに入れるだけ。証紙や証明書も一緒に入れましょう。所要時間15分。</p></div>
+              <div><h3 className="font-bold text-[#6b4c8a] mb-1 text-base">木曜夜：帰宅後に梱包</h3><p className="text-sm text-gray-700">着物を段ボールに入れるだけ。証紙や証明書も一緒に入れてください。所要時間15分。</p></div>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex gap-4">
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#c9a76c] text-white flex items-center justify-center font-bold text-lg">金</div>
@@ -240,7 +240,7 @@ export default function WeekendNightPage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">早めの予約がカギ</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                土日の出張買取は人気が高く、直前だと希望の時間帯が取れないことがあります。特に連休の週末は混雑するため、1週間前には予約を入れておきましょう。買取大吉やウリエルは電話・Webの両方で予約を受け付けています。
+                土日の出張買取は人気が高く、直前だと希望の時間帯が取れないことがあります。特に連休の週末は混雑するため、1週間前には予約を入れておいてください。買取大吉やウリエルは電話・Webの両方で予約を受け付けています。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -252,7 +252,7 @@ export default function WeekendNightPage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">事前準備は平日夜に済ませる</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                土日の査定日を有効活用するため、着物の整理・証紙の確認・本人確認書類の準備は平日夜のうちに済ませておきましょう。当日スムーズに査定が進み、短時間で完了します。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙ガイド</Link>で事前に確認しておくと安心です。
+                土日の査定日を有効活用するため、着物の整理・証紙の確認・本人確認書類の準備は平日夜のうちに済ませておいてください。当日スムーズに査定が進み、短時間で完了します。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙ガイド</Link>で事前に確認しておくと安心です。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -277,7 +277,7 @@ export default function WeekendNightPage() {
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">フルタイム勤務（土日休み）の方</h3>
               <p className="text-sm leading-relaxed text-gray-700">
                 <strong>おすすめ：</strong>土曜午前に出張買取 + 平日夜にオンライン査定で相場確認<br />
-                平日夜にヒカカクやRECLOのオンライン査定で概算額を確認。土曜午前に買取大吉またはウリエルの出張買取を予約し、相場を知った上で査定を受けましょう。
+                平日夜にヒカカクやRECLOのオンライン査定で概算額を確認。土曜午前に買取大吉またはウリエルの出張買取を予約し、相場を知った上で査定を受けてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -315,11 +315,11 @@ export default function WeekendNightPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：証紙と証明書は事前にまとめておく</h3>
-              <p className="text-sm leading-relaxed text-gray-700">週末の査定日までに、証紙・証明書・たとう紙を着物と一緒にまとめておきましょう。当日バタバタして探す手間を省けます。</p>
+              <p className="text-sm leading-relaxed text-gray-700">週末の査定日までに、証紙・証明書・たとう紙を着物と一緒にまとめておいてください。当日バタバタして探す手間を省けます。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：出張買取は土曜午前を狙う</h3>
-              <p className="text-sm leading-relaxed text-gray-700">土日の出張買取は人気が高いため、できるだけ早めに予約しましょう。土曜午前は比較的予約が取りやすく、午後には別の業者の査定を入れて比較することも可能です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">土日の出張買取は人気が高いため、できるだけ早めに予約してください。土曜午前は比較的予約が取りやすく、午後には別の業者の査定を入れて比較することも可能です。</p>
             </div>
           </div>
         </div>
@@ -380,7 +380,7 @@ export default function WeekendNightPage() {
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
             <p className="text-sm leading-relaxed">
               <strong className="text-[#6b4c8a]">夜間持ち込みのポイント：</strong>
-              夜間に店舗持ち込みを利用する場合は、事前に電話で「本日○時頃に持ち込みたい」と連絡しておくとスムーズです。閉店間際の来店は査定が翌日に持ち越しになることもあるため、閉店の1時間前までには来店しましょう。詳しくは<Link href="/articles/tenpo-mochikomi/" className="text-[#6b4c8a] hover:underline">店舗持ち込みガイド</Link>もご覧ください。
+              夜間に店舗持ち込みを利用する場合は、事前に電話で「本日○時頃に持ち込みたい」と連絡しておくとスムーズです。閉店間際の来店は査定が翌日に持ち越しになることもあるため、閉店の1時間前までには来店してください。詳しくは<Link href="/articles/tenpo-mochikomi/" className="text-[#6b4c8a] hover:underline">店舗持ち込みガイド</Link>もご覧ください。
             </p>
           </div>
         </div>
@@ -394,7 +394,7 @@ export default function WeekendNightPage() {
             着物の種類別買取相場（参考）
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            土日の査定に臨む前に、大まかな相場を把握しておきましょう。提示された金額が妥当かどうかの判断材料になります。
+            土日の査定に臨む前に、大まかな相場を把握しておいてください。提示された金額が妥当かどうかの判断材料になります。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
@@ -463,7 +463,7 @@ export default function WeekendNightPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/articles/takuhai-kaitori/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">宅配買取ガイド</h3><p className="text-xs text-gray-600">自宅で完結する宅配買取の手順。</p></Link>
             <Link href="/articles/line-appraisal/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">LINE査定ガイド</h3><p className="text-xs text-gray-600">スマホで簡単に査定額がわかる。</p></Link>
-            <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+            <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           </div>
         </div>
       </section>
@@ -481,7 +481,7 @@ export default function WeekendNightPage() {
               <div>
                 <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">平日夜：オンラインで相場確認（5分）</h3>
                 <p className="text-sm text-gray-700">
-                  帰宅後のスキマ時間に、ヒカカクの一括査定やRECLOの写真査定で概算額を確認しましょう。スマホで写真を送るだけなので5分もかかりません。相場を知っておくことで、週末の査定で安く買い叩かれるリスクを防げます。
+                  帰宅後のスキマ時間に、ヒカカクの一括査定やRECLOの写真査定で概算額をご確認ください。スマホで写真を送るだけなので5分もかかりません。相場を知っておくことで、週末の査定で安く買い叩かれるリスクを防げます。
                 </p>
               </div>
             </div>
@@ -490,7 +490,7 @@ export default function WeekendNightPage() {
               <div>
                 <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">平日夜：証紙・着物の準備（15分）</h3>
                 <p className="text-sm text-gray-700">
-                  売りたい着物を選び、証紙・証明書・たとう紙をまとめておきます。本人確認書類も用意しておきましょう。この準備が週末の査定をスムーズにします。
+                  売りたい着物を選び、証紙・証明書・たとう紙をまとめておきます。本人確認書類も用意しておいてください。この準備が週末の査定をスムーズにします。
                 </p>
               </div>
             </div>
@@ -499,7 +499,7 @@ export default function WeekendNightPage() {
               <div>
                 <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">土日：出張買取 or 持ち込みで売却</h3>
                 <p className="text-sm text-gray-700">
-                  事前に予約しておいた出張買取を受けるか、買取大吉の店舗に持ち込みましょう。相場を把握済みなので、提示額が妥当か即判断でき、短時間で売却完了。その場で現金を受け取れます。
+                  事前に予約しておいた出張買取を受けるか、買取大吉の店舗に持ち込んでください。相場を把握済みなので、提示額が妥当か即判断でき、短時間で売却完了。その場で現金を受け取れます。
                 </p>
               </div>
             </div>

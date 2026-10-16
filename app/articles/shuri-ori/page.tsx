@@ -473,7 +473,7 @@ export default function ShuriOriPage() {
                 ポイント1：証紙・付属品をそろえて査定に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                証紙・購入時の箱・しおりなどは、産地や作家を示す重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出しましょう。付属品の有無で評価が変わることがあります。
+                証紙・購入時の箱・しおりなどは、産地や作家を示す重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出してください。付属品の有無で評価が変わることがあります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -481,7 +481,7 @@ export default function ShuriOriPage() {
                 ポイント2：沖縄の織物に詳しい専門業者を選ぶ
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                首里織は織りの種類や作家によって価値が大きく変わるため、沖縄の染織に詳しい査定員がいる業者を選ぶことが大切です。一般的なリサイクルショップでは作家物でも安く扱われることがあるため、着物専門の買取業者に依頼しましょう。
+                首里織は織りの種類や作家によって価値が大きく変わるため、沖縄の染織に詳しい査定員がいる業者を選ぶことが大切です。一般的なリサイクルショップでは作家物でも安く扱われることがあるため、着物専門の買取業者に依頼することをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -489,7 +489,7 @@ export default function ShuriOriPage() {
                 ポイント3：複数業者で相見積もりを取る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                作家物は業者によって評価や販路が異なり、査定額に差が出ることがあります。最低でも複数社に無料査定を依頼し、提示された金額と説明を比較してから売却先を決めましょう。
+                作家物は業者によって評価や販路が異なり、査定額に差が出ることがあります。最低でも複数社に無料査定を依頼し、提示された金額と説明を比較してから売却先を決めてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -659,7 +659,7 @@ export default function ShuriOriPage() {
               首里織を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              首里織は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              首里織は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -674,7 +674,7 @@ export default function ShuriOriPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -732,7 +732,7 @@ export default function ShuriOriPage() {
             首里織の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            首里織の買取相場はあくまで目安です。織りの種類・作家・証紙・状態によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの首里織の正確な価値を確認しましょう。
+            首里織の買取相場はあくまで目安です。織りの種類・作家・証紙・状態によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの首里織の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

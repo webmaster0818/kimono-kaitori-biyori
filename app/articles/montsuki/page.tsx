@@ -103,18 +103,18 @@ export default function MontsukiPage() {
           <p>しかし、業者側で「紋替え」（既存の紋を消して別の紋を入れる）や「紋消し」を行うことで再販売が可能なため、<strong>家紋入りだからといって売れないわけではありません</strong>。特に高品質な正絹の着物や作家物であれば、家紋があっても高額査定がつくケースは多く見られます。</p>
         </div>
         <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
-          <p className="text-sm leading-relaxed"><strong className="text-[#6b4c8a]">ポイント：</strong>家紋入りの着物は紋替え・紋消しの費用（5,000円〜1万円程度）を考慮して査定されることがあるため、紋なしに比べてその分だけ減額される傾向です。自分で紋消しをする必要はなく、そのまま査定に出しましょう。</p>
+          <p className="text-sm leading-relaxed"><strong className="text-[#6b4c8a]">ポイント：</strong>家紋入りの着物は紋替え・紋消しの費用（5,000円〜1万円程度）を考慮して査定されることがあるため、紋なしに比べてその分だけ減額される傾向です。自分で紋消しをする必要はなく、そのまま査定に出してください。</p>
         </div>
       </div></section>
 
       <section id="tips" className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />紋付き着物を高く売るコツ</h2>
         <div className="space-y-5">
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：着物専門の業者を選ぶ</h3><p className="text-sm text-gray-700">紋付き着物の格や紋の種類を正しく評価できるのは着物専門の査定員です。買取大吉やウリエルを選びましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：紋消しは不要</h3><p className="text-sm text-gray-700">紋消しの費用をかけても、査定額のアップにはつながりにくい傾向があります。そのまま査定に出しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：着物専門の業者を選ぶ</h3><p className="text-sm text-gray-700">紋付き着物の格や紋の種類を正しく評価できるのは着物専門の査定員です。買取大吉やウリエルを選ぶことをおすすめします。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：紋消しは不要</h3><p className="text-sm text-gray-700">紋消しの費用をかけても、査定額のアップにはつながりにくい傾向があります。そのまま査定に出してください。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：証紙・証明書を添える</h3><p className="text-sm text-gray-700">作家物やブランド品の証紙があれば、紋の有無に関わらず高額査定が期待できます。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：帯や小物とセットで出す</h3><p className="text-sm text-gray-700">留袖と袋帯のセット、紋付袴のフルセットなど、まとめて出すと付加価値がつきます。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：複数業者で見積もり比較</h3><p className="text-sm text-gray-700">紋付き着物の評価は業者によって異なります。ヒカカクの一括比較で最高額を見つけましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：複数業者で見積もり比較</h3><p className="text-sm text-gray-700">紋付き着物の評価は業者によって異なります。ヒカカクの一括比較で最高額を見つけてください。</p></div>
         </div>
       </div></section>
 
@@ -126,7 +126,7 @@ export default function MontsukiPage() {
       <section className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p></Link>
+          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">おすすめ5社を比較。</p></Link>
           <Link href="/articles/houmongi-tomesode/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">訪問着・留袖の買取相場</h3><p className="text-xs text-gray-600">留袖・訪問着の相場を解説。</p></Link>
           <Link href="/articles/mens-kimono/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">男性着物の買取相場</h3><p className="text-xs text-gray-600">紋付袴・羽織の相場を解説。</p></Link>
         </div>

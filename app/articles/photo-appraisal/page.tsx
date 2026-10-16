@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "写真査定に必要な写真は何枚ですか？",
-    answer: "最低でも4枚は撮影しましょう。着物の全体像（表）、柄のアップ、証紙・落款の写真、シミや汚れがある場合はその箇所の写真が必要です。理想的には6〜8枚程度撮影すると、査定員がより正確な概算額を出せます。",
+    answer: "最低でも4枚は撮影してください。着物の全体像（表）、柄のアップ、証紙・落款の写真、シミや汚れがある場合はその箇所の写真が必要です。理想的には6〜8枚程度撮影すると、査定員がより正確な概算額を出せます。",
   },
   {
     question: "写真査定はスマホのカメラで十分ですか？",
@@ -162,7 +162,7 @@ export default function PhotoAppraisalPage() {
             <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />必要な写真チェックリスト
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            写真査定で正確な概算額を得るために、以下の写真を撮影しましょう。最低4枚、理想的には6〜8枚あると査定精度が上がります。
+            写真査定で正確な概算額を得るために、以下の写真を撮影してください。最低4枚、理想的には6〜8枚あると査定精度が上がります。
           </p>
 
           <div className="overflow-x-auto">
@@ -227,7 +227,7 @@ export default function PhotoAppraisalPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. 自然光で撮影する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">蛍光灯は着物の色を正確に再現できません。窓際や屋外の日陰など、自然光の入る場所で撮影しましょう。直射日光は色が飛ぶので避けてください。</p>
+              <p className="text-sm leading-relaxed text-gray-700">蛍光灯は着物の色を正確に再現できません。窓際や屋外の日陰など、自然光の入る場所で撮影してください。直射日光は色が飛ぶので避けてください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">2. 白い背景で撮る</h3>
@@ -239,11 +239,11 @@ export default function PhotoAppraisalPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">4. ピントをしっかり合わせる</h3>
-              <p className="text-sm leading-relaxed text-gray-700">特に証紙や落款のアップ撮影では、文字が読めるレベルにピントを合わせることが重要です。スマホの場合、画面をタップしてピントを合わせてから撮影しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">特に証紙や落款のアップ撮影では、文字が読めるレベルにピントを合わせることが重要です。スマホの場合、画面をタップしてピントを合わせてから撮影してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">5. フラッシュは使わない</h3>
-              <p className="text-sm leading-relaxed text-gray-700">フラッシュを使うと色が飛んだり、テカリが出たりして正確な色合いが伝わりません。自然光が十分でない場合は、部屋の照明を複数つけて明るさを確保しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">フラッシュを使うと色が飛んだり、テカリが出たりして正確な色合いが伝わりません。自然光が十分でない場合は、部屋の照明を複数つけて明るさを確保してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">6. シミ・汚れは隠さず撮る</h3>
@@ -406,7 +406,7 @@ export default function PhotoAppraisalPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">おすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/line-appraisal/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">LINE査定おすすめ業者</h3>
@@ -423,7 +423,7 @@ export default function PhotoAppraisalPage() {
       {/* CTA */}
       <section className="py-12 md:py-16 section-primary-light">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-xl md:text-2xl font-bold mb-4">まずは写真査定で着物の価値を確認しましょう</h2>
+          <h2 className="text-xl md:text-2xl font-bold mb-4">まずは写真査定で着物の価値をご確認ください</h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
             スマホで写真を撮って送るだけ。完全無料で着物の概算買取額がわかります。
           </p>

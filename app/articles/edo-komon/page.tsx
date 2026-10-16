@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "江戸小紋を高く売るにはどうすればよいですか？",
     answer:
-      "江戸小紋は、証紙・落款・作家名がわかる資料を一緒に査定に出すことが重要です。三役・五役など格の高い柄や、人間国宝・有名作家の作品は高評価につながります。着物に詳しい専門業者を選び、複数社の無料査定を比較しましょう。シミ・ヤケ・カビは価値を下げるため、たとう紙で湿気を避けて保管し、状態が良いうちに早めの査定が有利です。",
+      "江戸小紋は、証紙・落款・作家名がわかる資料を一緒に査定に出すことが重要です。三役・五役など格の高い柄や、人間国宝・有名作家の作品は高評価につながります。着物に詳しい専門業者を選び、複数社の無料査定を比較することをおすすめします。シミ・ヤケ・カビは価値を下げるため、たとう紙で湿気を避けて保管し、状態が良いうちに早めの査定が有利です。",
   },
 ];
 
@@ -539,7 +539,7 @@ export default function EdoKomonPage() {
                 ポイント1：証紙・落款・作家の資料を一緒に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                証紙や落款、作家名がわかる資料は、産地や作り手を裏付ける重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して着物と一緒に査定へ出しましょう。
+                証紙や落款、作家名がわかる資料は、産地や作り手を裏付ける重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して着物と一緒に査定へ出してください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -555,7 +555,7 @@ export default function EdoKomonPage() {
                 ポイント3：複数業者で相見積もりを取る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                江戸小紋は、業者の販路や在庫状況によって査定額に差が出ることがあります。最低でも3社に無料査定を依頼し、最も高い価格を提示した業者を選びましょう。
+                江戸小紋は、業者の販路や在庫状況によって査定額に差が出ることがあります。最低でも3社に無料査定を依頼し、最も高い価格を提示した業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -758,7 +758,7 @@ export default function EdoKomonPage() {
               江戸小紋を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              江戸小紋は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              江戸小紋は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -773,7 +773,7 @@ export default function EdoKomonPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -795,7 +795,7 @@ export default function EdoKomonPage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。口コミ・評判・買取実績まで。
+                買取大吉・ウリエルなどおすすめ5社を比較。口コミ・評判・買取実績まで。
               </p>
             </Link>
             <Link
@@ -831,7 +831,7 @@ export default function EdoKomonPage() {
             江戸小紋の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            江戸小紋の買取相場はあくまで目安です。柄の格・作家・紋の有無・状態によって実際の査定額は大きく変わります。着物に詳しい査定員に無料査定を依頼して、お手持ちの江戸小紋の正確な価値を確認しましょう。
+            江戸小紋の買取相場はあくまで目安です。柄の格・作家・紋の有無・状態によって実際の査定額は大きく変わります。着物に詳しい査定員に無料査定を依頼して、お手持ちの江戸小紋の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

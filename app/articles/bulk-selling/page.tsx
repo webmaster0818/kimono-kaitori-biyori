@@ -40,12 +40,12 @@ const faqs = [
   {
     question: "値段がつかない着物が混ざっていても大丈夫ですか？",
     answer:
-      "はい、値段がつかない着物が混ざっていても問題ありません。値段がつく着物だけを買い取ってもらい、残りは引き取りをお願いできる業者もあります。まずは全部まとめて査定に出しましょう。",
+      "はい、値段がつかない着物が混ざっていても問題ありません。値段がつく着物だけを買い取ってもらい、残りは引き取りをお願いできる業者もあります。まずは全部まとめて査定に出してください。",
   },
   {
     question: "着物と一緒に帯や和装小物もまとめて売れますか？",
     answer:
-      "はい、帯・帯締め・帯揚げ・草履・バッグ・かんざしなどの和装小物もまとめて売れます。着物と帯をセットで出すと査定額がアップする可能性もあります。使わない和装品はすべてまとめて出しましょう。",
+      "はい、帯・帯締め・帯揚げ・草履・バッグ・かんざしなどの和装小物もまとめて売れます。着物と帯をセットで出すと査定額がアップする可能性もあります。使わない和装品はすべてまとめて出してください。",
   },
 ];
 
@@ -274,7 +274,7 @@ export default function BulkSellingPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：証紙・付属品を忘れずに</h3>
-              <p className="text-sm leading-relaxed text-gray-700">大量の着物の中に証紙やたとう紙が紛れていることがあります。査定前に確認し、対応する着物と一緒にまとめておきましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">大量の着物の中に証紙やたとう紙が紛れていることがあります。査定前に確認し、対応する着物と一緒にまとめておいてください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：セットで出す</h3>
@@ -282,11 +282,11 @@ export default function BulkSellingPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：仕分けは不要</h3>
-              <p className="text-sm leading-relaxed text-gray-700">「値段がつくもの」と「つかないもの」の仕分けは不要です。プロの査定員がすべて鑑定してくれるので、全部まとめて出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">「値段がつくもの」と「つかないもの」の仕分けは不要です。プロの査定員がすべて鑑定してくれるので、全部まとめて出してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：複数社で比較する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">大量買取ほど業者間の査定額の差が大きくなります。ヒカカクの一括比較を活用して、3社以上の見積もりを取りましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">大量買取ほど業者間の査定額の差が大きくなります。ヒカカクの一括比較を活用して、3社以上の見積もりを取ってください。</p>
             </div>
           </div>
         </div>
@@ -345,7 +345,7 @@ export default function BulkSellingPage() {
           <div className="space-y-4 text-sm md:text-base leading-relaxed">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">注意1：「キロ買い」業者には要注意</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物を重量（キロ）で買い取る業者は、1枚あたりの価値を正しく評価していない可能性があります。1枚ずつ査定してくれる業者を選びましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物を重量（キロ）で買い取る業者は、1枚あたりの価値を正しく評価していない可能性があります。1枚ずつ査定してくれる業者を選ぶことをおすすめします。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">注意2：出張費・キャンセル料を事前確認</h3>
@@ -353,7 +353,7 @@ export default function BulkSellingPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">注意3：総額だけでなく明細を確認</h3>
-              <p className="text-sm leading-relaxed text-gray-700">まとめ売りの場合、個別の査定額を確認しましょう。総額だけ提示する業者もいますが、内訳を聞いて高額品が適正に評価されているか確認することが大切です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">まとめ売りの場合、個別の査定額をご確認ください。総額だけ提示する業者もいますが、内訳を聞いて高額品が適正に評価されているか確認することが大切です。</p>
             </div>
           </div>
         </div>
@@ -396,7 +396,7 @@ export default function BulkSellingPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/estate-kimono/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">遺品整理の着物買取</h3>
@@ -417,7 +417,7 @@ export default function BulkSellingPage() {
             着物のまとめ売りなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            大量の着物も出張買取なら自宅で楽々。複数業者の無料査定で最高額を確認しましょう。
+            大量の着物も出張買取なら自宅で楽々。複数業者の無料査定で最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

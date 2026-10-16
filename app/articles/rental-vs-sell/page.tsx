@@ -5,16 +5,16 @@ import SoubaNote from "../../components/SoubaNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
-  title: "着物レンタル vs 売却｜どちらがお得か徹底比較",
+  title: "着物レンタル vs 売却｜どちらがお得か比較",
   description:
-    "着物を手放すか迷っている方へ。レンタルに回す場合と買取で売却する場合の費用対効果を徹底比較。保管コスト・メンテナンス費用・レンタル収入・買取相場をもとに、最適な判断ができるよう詳しく解説します。",
+    "着物を手放すか迷っている方へ。レンタルに回す場合と買取で売却する場合の費用対効果を比較。保管コスト・メンテナンス費用・レンタル収入・買取相場をもとに、最適な判断ができるよう詳しく解説します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/rental-vs-sell/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "着物レンタル vs 売却｜どちらがお得か徹底比較",
+    title: "着物レンタル vs 売却｜どちらがお得か比較",
     description:
-      "着物をレンタルに出すか売却するか、費用対効果で徹底比較。保管コスト・収益シミュレーション付き。",
+      "着物をレンタルに出すか売却するか、費用対効果で比較。保管コスト・収益シミュレーション付き。",
     url: "https://kimonokaitori-biyori.com/articles/rental-vs-sell/",
     siteName: "着物の買取びより",
     type: "article",
@@ -53,9 +53,9 @@ const faqs = [
 const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "着物レンタル vs 売却｜どちらがお得か徹底比較",
+  headline: "着物レンタル vs 売却｜どちらがお得か比較",
   description:
-    "着物をレンタルに出すか売却するか、費用対効果で徹底比較。保管コスト・収益シミュレーション付き。",
+    "着物をレンタルに出すか売却するか、費用対効果で比較。保管コスト・収益シミュレーション付き。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -152,7 +152,7 @@ export default function RentalVsSellPage() {
               <span className="text-gradient">着物レンタル vs 売却</span>
               <br className="md:hidden" />
               <span className="block mt-2 text-lg md:text-2xl text-gray-700">
-                どちらがお得か徹底比較
+                どちらがお得か比較
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
@@ -361,7 +361,7 @@ export default function RentalVsSellPage() {
             コスト比較シミュレーション
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            振袖（購入時50万円）を例に、レンタルと売却の5年間の収支を比較してみましょう。
+            振袖（購入時50万円）を例に、レンタルと売却の5年間の収支を比較してんでください。
           </p>
 
           <div className="overflow-x-auto">
@@ -481,7 +481,7 @@ export default function RentalVsSellPage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">「迷ったら早めに」が鉄則</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                着物は保管しているだけで劣化が進みます。特に日本の湿度の高い環境では、カビやシミのリスクが常にあります。「もう少し待てば高く売れるかも」と考えているうちに状態が悪化し、結果的に買取価格が下がるケースが非常に多く見られます。迷っているなら、まず<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>を受けて現在の価値を把握しましょう。
+                着物は保管しているだけで劣化が進みます。特に日本の湿度の高い環境では、カビやシミのリスクが常にあります。「もう少し待てば高く売れるかも」と考えているうちに状態が悪化し、結果的に買取価格が下がるケースが非常に多く見られます。迷っているなら、まず<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>を受けて現在の価値を把握してください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -508,7 +508,7 @@ export default function RentalVsSellPage() {
                 ステップ1：証紙・付属品を揃える
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                <Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙や証明書</Link>は買取価格を大きく左右します。購入時に付いていた箱、たとう紙、証紙、鑑定書などがあれば必ず一緒に出しましょう。帯や和装小物もまとめて査定に出すと、コーディネートとしての付加価値がつく場合があります。
+                <Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙や証明書</Link>は買取価格を大きく左右します。購入時に付いていた箱、たとう紙、証紙、鑑定書などがあれば必ず一緒に出してください。帯や和装小物もまとめて査定に出すと、コーディネートとしての付加価値がつく場合があります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -516,7 +516,7 @@ export default function RentalVsSellPage() {
                 ステップ2：複数業者に無料査定を依頼する
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                最低でも3社以上に査定を依頼しましょう。<Link href="/ranking/" className="text-[#6b4c8a] hover:underline">おすすめ買取業者ランキング</Link>から、出張買取・宅配買取に対応した業者を選ぶと便利です。査定額には業者間で2倍以上の差がつくこともあるため、比較は必須です。
+                最低でも3社以上に査定を依頼することをおすすめします。<Link href="/ranking/" className="text-[#6b4c8a] hover:underline">おすすめ買取業者ランキング</Link>から、出張買取・宅配買取に対応した業者を選ぶと便利です。査定額には業者間で2倍以上の差がつくこともあるため、比較は必須です。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -524,7 +524,7 @@ export default function RentalVsSellPage() {
                 ステップ3：査定額を比較して最高値で売る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                各社の査定額が出揃ったら、金額だけでなくサービスの質も含めて総合的に判断しましょう。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] hover:underline">高く売るコツ</Link>を実践することで、査定額がさらにアップする可能性もあります。
+                各社の査定額が出揃ったら、金額だけでなくサービスの質も含めて総合的に判断してください。<Link href="/articles/sell-high-tips/" className="text-[#6b4c8a] hover:underline">高く売るコツ</Link>を実践することで、査定額がさらにアップする可能性もあります。
               </p>
             </div>
           </div>
@@ -579,7 +579,7 @@ export default function RentalVsSellPage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。口コミ・評判・買取実績まで。
+                買取大吉・ウリエルなどおすすめ5社を比較。口コミ・評判・買取実績まで。
               </p>
             </Link>
             <Link
@@ -615,7 +615,7 @@ export default function RentalVsSellPage() {
             着物の価値を確認するなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            レンタルに出すか売るか迷っているなら、まず現在の買取価格を確認しましょう。査定は完全無料、キャンセルも自由です。
+            レンタルに出すか売るか迷っているなら、まず現在の買取価格をご確認ください。査定は完全無料、キャンセルも自由です。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

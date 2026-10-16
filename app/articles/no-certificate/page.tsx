@@ -74,7 +74,7 @@ const faqStructuredData = {
       name: "証紙はどこに保管されていることが多いですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "証紙は一般的に、たとう紙（着物を包む和紙）に挟まれていたり、着物の端布と一緒に保管されていることが多く見られます。また、購入時の箱や袋の中に入っていることもあります。着物を売る前に、たとう紙の中やタンスの引き出しの隅を確認してみましょう。",
+        text: "証紙は一般的に、たとう紙（着物を包む和紙）に挟まれていたり、着物の端布と一緒に保管されていることが多く見られます。また、購入時の箱や袋の中に入っていることもあります。着物を売る前に、たとう紙の中やタンスの引き出しの隅を確認してんでください。",
       },
     },
     {
@@ -390,7 +390,7 @@ export default function NoCertificatePage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             証紙がなくても、以下のものがあれば査定額の低下をある程度防ぐことができます。
-            売却前に確認してみましょう。
+            売却前に確認してんでください。
           </p>
 
           <div className="space-y-4 mb-6">
@@ -416,7 +416,7 @@ export default function NoCertificatePage() {
                 着物を包んでいるたとう紙（和紙）に、購入店や産地、
                 品質表示などが記載されていることがあります。
                 証紙ほどの証明力はありませんが、査定の参考になります。
-                たとう紙は捨てずに一緒に査定に出しましょう。
+                たとう紙は捨てずに一緒に査定に出してください。
               </p>
             </div>
 
@@ -440,7 +440,7 @@ export default function NoCertificatePage() {
               <p className="text-sm text-gray-600 leading-relaxed">
                 仕立て時に余った端布が残っていることがあります。
                 端布に証紙が縫い付けられていたり、品質表示が付いていることがあるので、
-                端布も捨てずに保管しておきましょう。
+                端布も捨てずに保管しておいてください。
               </p>
             </div>
 
@@ -533,7 +533,7 @@ export default function NoCertificatePage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             「証紙がない」と思っていても、意外な場所から見つかることがあります。
-            売却前に、以下の場所を改めて確認してみましょう。
+            売却前に、以下の場所を改めて確認してんでください。
           </p>
 
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
@@ -544,7 +544,7 @@ export default function NoCertificatePage() {
                   <span className="font-medium">たとう紙の中</span>
                   <p className="text-gray-600 text-xs mt-1">
                     着物を包んでいるたとう紙の中に挟まっていることが多く見られます。
-                    たとう紙を開いて裏面もチェックしましょう。
+                    たとう紙を開いて裏面もチェックしてください。
                   </p>
                 </div>
               </li>
@@ -554,7 +554,7 @@ export default function NoCertificatePage() {
                   <span className="font-medium">端布と一緒に</span>
                   <p className="text-gray-600 text-xs mt-1">
                     仕立て時の端布（余り布）と一緒に保管されていることがあります。
-                    端布が別の場所に保管されていないか確認しましょう。
+                    端布が別の場所に保管されていないかご確認ください。
                   </p>
                 </div>
               </li>
@@ -564,7 +564,7 @@ export default function NoCertificatePage() {
                   <span className="font-medium">タンスの引き出しの隅</span>
                   <p className="text-gray-600 text-xs mt-1">
                     証紙が着物から外れて、引き出しの隅に落ちていることがあります。
-                    引き出しの奥や底もしっかり確認しましょう。
+                    引き出しの奥や底もしっかりご確認ください。
                   </p>
                 </div>
               </li>
@@ -584,7 +584,7 @@ export default function NoCertificatePage() {
                   <span className="font-medium">着物に縫い付けられている</span>
                   <p className="text-gray-600 text-xs mt-1">
                     一部の着物では、証紙が着物の裏側に直接縫い付けられていることがあります。
-                    衿裏や裾裏を確認してみましょう。
+                    衿裏や裾裏を確認してんでください。
                   </p>
                 </div>
               </li>
@@ -599,7 +599,7 @@ export default function NoCertificatePage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             証紙がない着物を売る場合、業者選びが特に重要です。
-            以下のポイントを押さえた業者を選びましょう。
+            以下のポイントを押さえた業者を選ぶことをおすすめします。
           </p>
 
           <div className="space-y-3 mb-6">
@@ -610,7 +610,7 @@ export default function NoCertificatePage() {
                 <p className="text-xs text-gray-600 mt-1">
                   証紙がなくても、経験豊富な専門査定員なら生地や織りの特徴から
                   産地や品質を見極められます。総合リサイクルショップではなく、
-                  着物に特化した買取業者を選びましょう。
+                  着物に特化した買取業者を選ぶことをおすすめします。
                 </p>
               </div>
             </div>
@@ -656,7 +656,7 @@ export default function NoCertificatePage() {
             </h3>
             <p className="text-sm leading-relaxed mb-4 text-purple-100">
               証紙がない着物こそ、着物専門の買取業者に査定を依頼することが大切です。
-              複数業者に見積もりを取って比較し、最も高い評価をしてくれる業者に売りましょう。
+              複数業者に見積もりを取って比較し、最も高い評価をしてくれる業者に売ってください。
             </p>
             <Link
               href="/ranking/"
@@ -727,7 +727,7 @@ export default function NoCertificatePage() {
                 査定額が下がる傾向にあります。着物専門の査定員であれば、
                 生地の質感や織りの特徴から産地を推定できるため、
                 証紙なしでも適正な評価を受けられる可能性があります。
-                まずは着物専門の買取業者に相談してみましょう。
+                まずは着物専門の買取業者に相談してんでください。
               </div>
             </details>
 
@@ -782,7 +782,7 @@ export default function NoCertificatePage() {
                 証紙は一般的に、たとう紙（着物を包む和紙）に挟まれていたり、
                 着物の端布と一緒に保管されていることが多く見られます。
                 また、購入時の箱や袋の中に入っていることもあります。
-                着物を売る前に、たとう紙の中やタンスの引き出しの隅を確認してみましょう。
+                着物を売る前に、たとう紙の中やタンスの引き出しの隅を確認してんでください。
                 着物の裏側に直接縫い付けられている場合もあります。
               </div>
             </details>
@@ -802,7 +802,7 @@ export default function NoCertificatePage() {
                 証紙がなくても高額査定が期待できます。
                 特に人間国宝や有名作家の落款があれば、証紙なしでも
                 数万円〜数十万円の値がつくことがあります。
-                落款はおくみの裏側や衿先に押されていることが多いので確認してみましょう。
+                落款はおくみの裏側や衿先に押されていることが多いので確認してんでください。
               </div>
             </details>
           </div>
@@ -824,7 +824,7 @@ export default function NoCertificatePage() {
               大切なのは、着物専門の買取業者に査定を依頼すること。
               経験豊富な査定員であれば、証紙がなくても着物の本来の価値を
               見極めてくれます。複数業者に見積もりを取って比較し、
-              最も高い評価をしてくれた業者に売りましょう。
+              最も高い評価をしてくれた業者に売ってください。
             </p>
             <p className="text-gray-700 text-sm leading-relaxed">
               また、売却前にたとう紙やタンスの隅を確認して、
@@ -840,7 +840,7 @@ export default function NoCertificatePage() {
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             着物専門の買取業者なら、証紙がなくても適正に査定してくれます。<br />
-            まずは無料査定で着物の価値を確認してみましょう。
+            まずは無料査定で着物の価値を確認してんでください。
           </p>
           <Link
             href="/ranking/"

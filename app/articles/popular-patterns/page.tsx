@@ -122,10 +122,10 @@ export default function PopularPatternsPage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />柄別・高く売るコツ</h2>
         <div className="space-y-5">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：季節柄はシーズン前に売る</h3><p className="text-sm leading-relaxed text-gray-700">桜柄は2〜3月、紅葉柄は8〜9月に売ると需要が高く査定額がアップ。四季の花の組み合わせなど通年柄はいつでもOK。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：アンティーク着物は専門業者へ</h3><p className="text-sm leading-relaxed text-gray-700">大正〜昭和初期の着物は一般のリサイクルショップでは価値を見落とされがち。買取大吉やウリエルなど着物専門の業者に査定を依頼しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：アンティーク着物は専門業者へ</h3><p className="text-sm leading-relaxed text-gray-700">大正〜昭和初期の着物は一般のリサイクルショップでは価値を見落とされがち。買取大吉やウリエルなど着物専門の業者に査定を依頼することをおすすめします。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：帯と柄のコーディネートでセット売り</h3><p className="text-sm leading-relaxed text-gray-700">着物と帯の柄をコーディネートとしてセットで出すと、セットとしての価値が認められて査定額がアップする可能性があります。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：作家物の落款を確認</h3><p className="text-sm leading-relaxed text-gray-700">柄が美しい着物には作家の落款が入っている可能性があります。裾裏やおくみを確認し、落款がある場合は必ず査定員に伝えましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：複数社で比較する</h3><p className="text-sm leading-relaxed text-gray-700">柄の評価は業者によって異なります。ヒカカクの一括比較を活用して3社以上の見積もりを取り、最高額を提示してくれた業者を選びましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：作家物の落款を確認</h3><p className="text-sm leading-relaxed text-gray-700">柄が美しい着物には作家の落款が入っている可能性があります。裾裏やおくみを確認し、落款がある場合は必ず査定員に伝えてください。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：複数社で比較する</h3><p className="text-sm leading-relaxed text-gray-700">柄の評価は業者によって異なります。ヒカカクの一括比較を活用して3社以上の見積もりを取り、最高額を提示してくれた業者を選ぶことをおすすめします。</p></div>
         </div>
       </div></section>
 
@@ -147,7 +147,7 @@ export default function PopularPatternsPage() {
       <section className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p></Link>
+          <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3><p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p></Link>
           <Link href="/articles/antique-kimono/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">アンティーク着物の買取</h3><p className="text-xs text-gray-600">大正〜昭和初期の着物の価値を詳しく解説。</p></Link>
           <Link href="/articles/kimono-rank/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物の格付け一覧</h3><p className="text-xs text-gray-600">留袖から紬まで着物の格を詳しく解説。</p></Link>
         </div>
@@ -155,7 +155,7 @@ export default function PopularPatternsPage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">お手持ちの着物の柄、高く売れるかも？</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">古典柄もレトロ柄も、着物専門の査定員なら適正に評価。まずは無料査定で価値を確認しましょう。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">古典柄もレトロ柄も、着物専門の査定員なら適正に評価。まずは無料査定で価値をご確認ください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
 

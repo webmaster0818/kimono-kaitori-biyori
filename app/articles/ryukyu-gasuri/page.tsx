@@ -40,7 +40,7 @@ const faqs = [
   {
     question: "証紙がない琉球絣でも売れますか？",
     answer:
-      "証紙がなくても買取自体は可能ですが、本場の琉球絣かどうか、手織りかどうかの判別が難しくなるため、査定額は下がりやすくなります。産地組合（琉球絣事業協同組合）の検査を経た証紙は産地と品質の重要な裏付けです。購入時の証紙・たとう紙・箱などが残っていれば、必ず一緒に査定に出しましょう。",
+      "証紙がなくても買取自体は可能ですが、本場の琉球絣かどうか、手織りかどうかの判別が難しくなるため、査定額は下がりやすくなります。産地組合（琉球絣事業協同組合）の検査を経た証紙は産地と品質の重要な裏付けです。購入時の証紙・たとう紙・箱などが残っていれば、必ず一緒に査定に出してください。",
   },
   {
     question: "琉球絣を高く売るにはどうすればよいですか？",
@@ -490,7 +490,7 @@ export default function RyukyuGasuriPage() {
                 ポイント1：証紙・付属品をそろえて査定に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                証紙・購入時の箱・しおりなどは、本場琉球絣であることを示す重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出しましょう。付属品の有無で評価が変わることがあります。
+                証紙・購入時の箱・しおりなどは、本場琉球絣であることを示す重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出してください。付属品の有無で評価が変わることがあります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -498,7 +498,7 @@ export default function RyukyuGasuriPage() {
                 ポイント2：沖縄の織物に詳しい専門業者を選ぶ
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                琉球絣は手織りか否か、夏物か、著名工房の作品かによって価値が大きく変わるため、沖縄の染織に詳しい査定員がいる業者を選ぶことが大切です。一般的なリサイクルショップでは価値が見過ごされることがあるため、着物専門の買取業者に依頼しましょう。
+                琉球絣は手織りか否か、夏物か、著名工房の作品かによって価値が大きく変わるため、沖縄の染織に詳しい査定員がいる業者を選ぶことが大切です。一般的なリサイクルショップでは価値が見過ごされることがあるため、着物専門の買取業者に依頼することをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -506,7 +506,7 @@ export default function RyukyuGasuriPage() {
                 ポイント3：複数業者で相見積もりを取る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                証紙付きの手織り品や工房物は、業者によって評価や販路が異なり、査定額に差が出ることがあります。最低でも複数社に無料査定を依頼し、提示された金額と説明を比較してから売却先を決めましょう。
+                証紙付きの手織り品や工房物は、業者によって評価や販路が異なり、査定額に差が出ることがあります。最低でも複数社に無料査定を依頼し、提示された金額と説明を比較してから売却先を決めてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -707,7 +707,7 @@ export default function RyukyuGasuriPage() {
               琉球絣を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              琉球絣は証紙・織り・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              琉球絣は証紙・織り・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -722,7 +722,7 @@ export default function RyukyuGasuriPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・織り・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・織り・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -780,7 +780,7 @@ export default function RyukyuGasuriPage() {
             琉球絣の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            琉球絣の買取相場はあくまで目安です。証紙・織り・状態によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの琉球絣の正確な価値を確認しましょう。
+            琉球絣の買取相場はあくまで目安です。証紙・織り・状態によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの琉球絣の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

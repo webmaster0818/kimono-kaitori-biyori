@@ -274,15 +274,15 @@ export default function SummerKimonoPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：春先に売る</h3>
-              <p className="text-sm leading-relaxed text-gray-700">夏着物の査定額が最も高くなるのは3〜5月の春先です。業者が夏に向けて在庫を確保する時期に合わせて売却しましょう。ただし買取大吉やウリエルは年間通じて適正価格で買取しています。</p>
+              <p className="text-sm leading-relaxed text-gray-700">夏着物の査定額が最も高くなるのは3〜5月の春先です。業者が夏に向けて在庫を確保する時期に合わせて売却してください。ただし買取大吉やウリエルは年間通じて適正価格で買取しています。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：証紙を確認して一緒に出す</h3>
-              <p className="text-sm leading-relaxed text-gray-700">上布や小千谷縮などの伝統工芸品は証紙の有無で買取額が大きく変わります。たとう紙の中に証紙が挟まっていないか確認しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">上布や小千谷縮などの伝統工芸品は証紙の有無で買取額が大きく変わります。たとう紙の中に証紙が挟まっていないかご確認ください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：着物専門の業者に依頼する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">夏着物は種類が多く、素材の判別が難しい分野です。買取大吉やウリエルなど着物専門の査定員に見てもらいましょう。総合リサイクルショップでは上布の価値を見落とされるリスクがあります。</p>
+              <p className="text-sm leading-relaxed text-gray-700">夏着物は種類が多く、素材の判別が難しい分野です。買取大吉やウリエルなど着物専門の査定員に見てもらってください。総合リサイクルショップでは上布の価値を見落とされるリスクがあります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：夏帯も一緒に出す</h3>
@@ -290,7 +290,7 @@ export default function SummerKimonoPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：複数社で比較する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">夏着物は業者によって得意・不得意があります。ヒカカクの一括比較を活用して3社以上の見積もりを取りましょう。RECLOの海外販路も高額査定のチャンスです。</p>
+              <p className="text-sm leading-relaxed text-gray-700">夏着物は業者によって得意・不得意があります。ヒカカクの一括比較を活用して3社以上の見積もりを取ってください。RECLOの海外販路も高額査定のチャンスです。</p>
             </div>
           </div>
         </div>
@@ -347,7 +347,7 @@ export default function SummerKimonoPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/fabric-guide/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物の素材ガイド</h3>
@@ -365,7 +365,7 @@ export default function SummerKimonoPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">夏着物を売るなら、春先の無料査定がベスト</h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            宮古上布・越後上布など高額買取が期待できる夏着物。春先の無料査定で最高額を確認しましょう。
+            宮古上布・越後上布など高額買取が期待できる夏着物。春先の無料査定で最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>

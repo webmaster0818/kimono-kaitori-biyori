@@ -23,22 +23,22 @@ const faqs = [
   {
     question: "着物の寄付は無料でできますか？",
     answer:
-      "多くの受け入れ団体では着物の寄付を無料で受け付けています。ただし、送料は寄付者負担のケースがほとんどです。一部の団体では着払いで受け付けている場合もあるため、事前に確認しましょう。",
+      "多くの受け入れ団体では着物の寄付を無料で受け付けています。ただし、送料は寄付者負担のケースがほとんどです。一部の団体では着払いで受け付けている場合もあるため、事前にご確認ください。",
   },
   {
     question: "シミや汚れのある着物でも寄付できますか？",
     answer:
-      "団体によって異なります。リサイクル目的の団体はシミ・汚れがあっても受け入れてくれる場合がありますが、着用目的（留学生の着付け体験など）の団体は美品のみ受け入れるケースが多く見られます。事前に確認しましょう。",
+      "団体によって異なります。リサイクル目的の団体はシミ・汚れがあっても受け入れてくれる場合がありますが、着用目的（留学生の着付け体験など）の団体は美品のみ受け入れるケースが多く見られます。事前にご確認ください。",
   },
   {
     question: "寄付する前に買取査定を受けた方がよいですか？",
     answer:
-      "はい、寄付する前にまず無料査定を受けることをおすすめします。「売れないと思っていた着物に値段がついた」というケースも珍しくありません。買取大吉やウリエルの無料査定を利用してみましょう。",
+      "はい、寄付する前にまず無料査定を受けることをおすすめします。「売れないと思っていた着物に値段がついた」というケースも珍しくありません。買取大吉やウリエルの無料査定を利用してんでください。",
   },
   {
     question: "着物の寄付で税制上のメリットはありますか？",
     answer:
-      "認定NPO法人への寄付の場合、寄附金控除が受けられる場合があります。ただし着物の現物寄付の場合は時価評価が必要になるため、寄付先の団体に領収書の発行が可能か確認しましょう。",
+      "認定NPO法人への寄付の場合、寄附金控除が受けられる場合があります。ただし着物の現物寄付の場合は時価評価が必要になるため、寄付先の団体に領収書の発行が可能かご確認ください。",
   },
   {
     question: "帯や和装小物も寄付できますか？",
@@ -134,7 +134,7 @@ export default function DonationPage() {
           </h2>
           <div className="space-y-4 text-sm md:text-base leading-relaxed">
             <p>
-              「売れないだろう」と思い込んでいた着物に、実は値段がつくケースが少なくありません。寄付を決める前に、まずは<strong>買取大吉やウリエルの無料査定で買取額を確認</strong>しましょう。
+              「売れないだろう」と思い込んでいた着物に、実は値段がつくケースが少なくありません。寄付を決める前に、まずは<strong>買取大吉やウリエルの無料査定で買取額を確認</strong>してください。
             </p>
             <p>
               査定は完全無料で、値段に納得できなければ売らなくてもOKです。査定の結果、値段がつかなかった着物を寄付に回すのが最も合理的な流れです。
@@ -185,7 +185,7 @@ export default function DonationPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">自治体のリサイクルセンター</h3>
-              <p className="text-sm leading-relaxed text-gray-700">一部の自治体では衣類のリサイクル回収で着物も受け入れています。バザーや古着として再利用されます。お住まいの自治体に確認してみましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">一部の自治体では衣類のリサイクル回収で着物も受け入れています。バザーや古着として再利用されます。お住まいの自治体に確認してんでください。</p>
             </div>
           </div>
         </div>
@@ -203,14 +203,14 @@ export default function DonationPage() {
               <span className="bg-[#6b4c8a] text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
               <div>
                 <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">寄付先を選ぶ</h3>
-                <p className="text-sm leading-relaxed text-gray-700">受け入れ条件（着物の状態・種類・送料負担など）を確認して寄付先を選びましょう。</p>
+                <p className="text-sm leading-relaxed text-gray-700">受け入れ条件（着物の状態・種類・送料負担など）を確認して寄付先を選ぶことをおすすめします。</p>
               </div>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex gap-4 items-start">
               <span className="bg-[#6b4c8a] text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
               <div>
                 <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">事前連絡・確認</h3>
-                <p className="text-sm leading-relaxed text-gray-700">いきなり送るのではなく、事前に団体に連絡して受け入れ可能か確認しましょう。</p>
+                <p className="text-sm leading-relaxed text-gray-700">いきなり送るのではなく、事前に団体に連絡して受け入れ可能かご確認ください。</p>
               </div>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex gap-4 items-start">
@@ -258,15 +258,15 @@ export default function DonationPage() {
           <div className="space-y-4">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">注意1：送料は自己負担のケースが多い</h3>
-              <p className="text-sm leading-relaxed text-gray-700">多くの団体では送料は寄付者負担です。大量の着物を送ると送料が高額になるため、事前に確認しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">多くの団体では送料は寄付者負担です。大量の着物を送ると送料が高額になるため、事前にご確認ください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">注意2：受け入れ条件を確認する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">団体によって受け入れ可能な着物の状態や種類が異なります。化繊はNG、正絹のみなど条件がある場合があるため、事前に確認しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">団体によって受け入れ可能な着物の状態や種類が異なります。化繊はNG、正絹のみなど条件がある場合があるため、事前にご確認ください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">注意3：事前連絡なしに送らない</h3>
-              <p className="text-sm leading-relaxed text-gray-700">受け入れ態勢が整っていない団体に突然着物を送ると迷惑になることがあります。必ず事前に連絡して受け入れ可否を確認しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">受け入れ態勢が整っていない団体に突然着物を送ると迷惑になることがあります。必ず事前に連絡して受け入れ可否をご確認ください。</p>
             </div>
           </div>
         </div>
@@ -354,7 +354,7 @@ export default function DonationPage() {
             寄付の前に、まず無料査定で価値を確認
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            売れないと思っていた着物に値段がつくことも。まずは複数業者の無料査定で確認しましょう。
+            売れないと思っていた着物に値段がつくことも。まずは複数業者の無料査定でご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

@@ -131,7 +131,7 @@ export default function DyeVsWeavePage() {
               <span className="block mt-2 text-lg md:text-2xl text-gray-700">価値が高いのはどっち？</span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              着物は大きく「染めの着物」と「織りの着物」に分類されます。染めは白生地に後から色や柄を付ける技法、織りは糸を先に染めてから織り上げる技法です。格式は染めの方が上ですが、買取価格では織りの着物が上回ることも珍しくありません。この記事では、両者の違いを徹底比較します。
+              着物は大きく「染めの着物」と「織りの着物」に分類されます。染めは白生地に後から色や柄を付ける技法、織りは糸を先に染めてから織り上げる技法です。格式は染めの方が上ですが、買取価格では織りの着物が上回ることも珍しくありません。この記事では、両者の違いを比較します。
             </p>
             <p className="mt-3 text-xs text-gray-400">最終更新：2026年5月17日</p>
           </div>

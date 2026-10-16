@@ -5,17 +5,17 @@ import SoubaNote from "../components/SoubaNote";
 
 export const metadata: Metadata = {
   title:
-    "【2026年最新】着物買取おすすめ5選を徹底比較！口コミ・評判・買取相場まで",
+    "【2026年最新】着物買取おすすめ5選を比較！口コミ・評判・買取相場まで",
   description:
-    "着物買取はどこがいい？買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの5社を6つの基準で徹底比較。口コミ・評判・買取相場・手数料まで詳しく解説。タイプ別おすすめもご紹介。",
+    "着物買取はどこがいい？買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの5社を6つの基準で比較。口コミ・評判・買取相場・手数料まで詳しく解説。タイプ別おすすめもご紹介。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/ranking/",
   },
   openGraph: { images: ["/og-default.png"],
     title:
-      "【2026年最新】着物買取おすすめ5選を徹底比較！口コミ・評判・買取相場まで",
+      "【2026年最新】着物買取おすすめ5選を比較！口コミ・評判・買取相場まで",
     description:
-      "着物買取はどこがいい？買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの5社を6つの基準で徹底比較。",
+      "着物買取はどこがいい？買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの5社を6つの基準で比較。",
     url: "https://kimonokaitori-biyori.com/ranking/",
     siteName: "着物の買取びより",
     type: "article",
@@ -80,9 +80,9 @@ const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline:
-    "【2026年最新】着物買取おすすめ5選を徹底比較！口コミ・評判・買取相場まで",
+    "【2026年最新】着物買取おすすめ5選を比較！口コミ・評判・買取相場まで",
   description:
-    "着物買取はどこがいい？買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの5社を6つの基準で徹底比較。",
+    "着物買取はどこがいい？買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの5社を6つの基準で比較。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -186,7 +186,7 @@ export default function RankingPage() {
             2026年最新版 - 着物買取おすすめ比較
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            着物買取おすすめ5選を徹底比較
+            着物買取おすすめ5選を比較
             <span className="text-gradient">【2026年最新】</span>
           </h1>
           <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
@@ -241,7 +241,7 @@ export default function RankingPage() {
             </li>
             <li>
               <a href="#comparison" className="hover:text-[#6b4c8a] transition-colors">
-                3. 5社を6つの基準で徹底比較
+                3. 5社を6つの基準で比較
               </a>
             </li>
             <li>
@@ -276,7 +276,7 @@ export default function RankingPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            「着物を売りたいけど、どこに頼めばいいかわからない」という方は少なくありません。着物買取業者は数多くありますが、業者によって買取方法・対応エリア・得意分野が大きく異なります。大切な着物を適正価格で売るためには、以下の3つのポイントを必ず確認しましょう。
+            「着物を売りたいけど、どこに頼めばいいかわからない」という方は少なくありません。着物買取業者は数多くありますが、業者によって買取方法・対応エリア・得意分野が大きく異なります。大切な着物を適正価格で売るためには、以下の3つのポイントを必ずご確認ください。
           </p>
 
           {/* H3: 買取方法の違い */}
@@ -320,7 +320,7 @@ export default function RankingPage() {
               </table>
             </div>
             <p className="text-sm text-gray-700 leading-relaxed">
-              着物は1枚でもかなりの重さがあるため、大量に売りたい場合は出張買取が便利です。一方、数枚程度であれば宅配や店頭持ち込みも十分に検討できます。業者によって対応している買取方法が異なるため、事前に確認しておきましょう。
+              着物は1枚でもかなりの重さがあるため、大量に売りたい場合は出張買取が便利です。一方、数枚程度であれば宅配や店頭持ち込みも十分に検討できます。業者によって対応している買取方法が異なるため、事前に確認しておいてください。
             </p>
           </div>
 
@@ -338,7 +338,7 @@ export default function RankingPage() {
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-xl p-5 mb-4">
               <p className="text-sm font-bold text-[#6b4c8a] mb-2">ポイント</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                今回紹介する5社のうち、特に着物の専門性が高いのは<strong>買取大吉</strong>（着物専門査定員在籍）と<strong>RECLO</strong>（高級品専門のスタッフ在籍）です。「この着物は価値がありそう」と感じたら、これらの業者にまず相談してみましょう。
+                今回紹介する5社のうち、特に着物の専門性が高いのは<strong>買取大吉</strong>（着物専門査定員在籍）と<strong>RECLO</strong>（高級品専門のスタッフ在籍）です。「この着物は価値がありそう」と感じたら、これらの業者にまず相談してんでください。
               </p>
             </div>
           </div>
@@ -853,11 +853,11 @@ export default function RankingPage() {
         </section>
 
         {/* ========================================== */}
-        {/* H2: 5社を6つの基準で徹底比較 */}
+        {/* H2: 5社を6つの基準で比較 */}
         {/* ========================================== */}
         <section id="comparison" className="mb-16">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#6b4c8a]">
-            5社を6つの基準で徹底比較
+            5社を6つの基準で比較
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-8">
@@ -870,7 +870,7 @@ export default function RankingPage() {
               ① 買取方法・対応エリア比較
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-              買取方法と対応エリアは業者選びの最も基本的なポイントです。お住まいのエリアで利用可能か、希望する買取方法に対応しているかを確認しましょう。
+              買取方法と対応エリアは業者選びの最も基本的なポイントです。お住まいのエリアで利用可能か、希望する買取方法に対応しているかをご確認ください。
             </p>
             <div className="overflow-x-auto mb-4">
               <table className="w-full text-sm border-collapse min-w-[600px]">
@@ -931,7 +931,7 @@ export default function RankingPage() {
               ② 着物の買取実績・専門性
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-              着物の価値を正しく見極めるには専門知識が不可欠です。各社の着物に対する専門性と実績を比較してみましょう。
+              着物の価値を正しく見極めるには専門知識が不可欠です。各社の着物に対する専門性と実績を比較してんでください。
             </p>
             <div className="overflow-x-auto mb-4">
               <table className="w-full text-sm border-collapse min-w-[600px]">
@@ -1192,7 +1192,7 @@ export default function RankingPage() {
               ⑥ 対応スピード
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-              急いで着物を売りたい場合は、対応スピードも重要なポイントです。各社の対応スピードを比較してみましょう。
+              急いで着物を売りたい場合は、対応スピードも重要なポイントです。各社の対応スピードを比較してんでください。
             </p>
             <div className="overflow-x-auto mb-4">
               <table className="w-full text-sm border-collapse min-w-[600px]">
@@ -1444,7 +1444,7 @@ export default function RankingPage() {
                 <span className="inline-flex items-center justify-center w-8 h-8 bg-[#6b4c8a] text-white rounded-full text-sm font-bold shrink-0">1</span>
                 <div>
                   <p className="text-sm font-bold text-gray-900 mb-1">電話またはWebで申し込み</p>
-                  <p className="text-sm text-gray-700 leading-relaxed">買取業者の公式サイトまたは電話で出張買取を申し込みます。希望の日時・住所・買取希望品の概要を伝えましょう。ウリエルの場合、この時点で女性査定士の指名も可能です。</p>
+                  <p className="text-sm text-gray-700 leading-relaxed">買取業者の公式サイトまたは電話で出張買取を申し込みます。希望の日時・住所・買取希望品の概要を伝えてください。ウリエルの場合、この時点で女性査定士の指名も可能です。</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
@@ -1488,7 +1488,7 @@ export default function RankingPage() {
                 <span className="inline-flex items-center justify-center w-8 h-8 bg-[#c9a76c] text-white rounded-full text-sm font-bold shrink-0">2</span>
                 <div>
                   <p className="text-sm font-bold text-gray-900 mb-1">着物を梱包して発送</p>
-                  <p className="text-sm text-gray-700 leading-relaxed">着物を畳んで梱包し、身分証明書のコピーと一緒に発送します。送料は業者負担が一般的です。証紙や付属品がある場合は必ず一緒に入れましょう。</p>
+                  <p className="text-sm text-gray-700 leading-relaxed">着物を畳んで梱包し、身分証明書のコピーと一緒に発送します。送料は業者負担が一般的です。証紙や付属品がある場合は必ず一緒に入れてください。</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
@@ -1569,7 +1569,7 @@ export default function RankingPage() {
             着物買取で「がっかり」しないための3つの注意点
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            着物買取で「思ったより安かった」「値段がつかなかった」という声は少なくありません。実際に、マイベストの調査データによると<strong>着物専門店とリサイクルショップでは買取額に約5倍の差</strong>が生じるケースもあります。がっかりしないために、以下の3点を押さえましょう。
+            着物買取で「思ったより安かった」「値段がつかなかった」という声は少なくありません。実際に、マイベストの調査データによると<strong>着物専門店とリサイクルショップでは買取額に約5倍の差</strong>が生じるケースもあります。がっかりしないために、以下の3点を押さえてください。
           </p>
           <div className="space-y-4">
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
@@ -1581,7 +1581,7 @@ export default function RankingPage() {
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
               <p className="text-sm font-bold text-gray-900 mb-1">2. 複数業者で相見積もりを取る</p>
               <p className="text-sm text-gray-700">
-                1社だけの査定では適正価格かどうか判断できません。最低でも2〜3社に査定を依頼し、金額を比較しましょう。出張買取なら無料で査定してもらえる業者がほとんどです。
+                1社だけの査定では適正価格かどうか判断できません。最低でも2〜3社に査定を依頼し、金額を比較することをおすすめします。出張買取なら無料で査定してもらえる業者がほとんどです。
               </p>
             </div>
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">
@@ -1602,7 +1602,7 @@ export default function RankingPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            着物買取に関してよく寄せられる質問と回答をまとめました。不安や疑問を解消してから、安心して査定を依頼しましょう。
+            着物買取に関してよく寄せられる質問と回答をまとめました。不安や疑問を解消してから、安心して査定を依頼することをおすすめします。
           </p>
 
           <div className="space-y-4">
@@ -1649,7 +1649,7 @@ export default function RankingPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            着物買取おすすめ5社を6つの基準で徹底比較してきました。最後に、各社の特徴をもう一度整理しておきます。
+            着物買取おすすめ5社を6つの基準で比較してきました。最後に、各社の特徴をもう一度整理しておきます。
           </p>
 
           <div className="overflow-x-auto mb-6">
@@ -1690,7 +1690,7 @@ export default function RankingPage() {
               着物買取で最も大切なのは、<strong>複数の業者に査定を依頼して比較すること</strong>です。同じ着物でも業者によって査定額が数千円〜数万円変わることは珍しくありません。
             </p>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-              迷ったら、まずは<strong>買取大吉</strong>で着物専門の査定員に見てもらい、並行して<strong>ヒカカク！</strong>で複数社の査定額を比較するのがおすすめです。高級着物であれば<strong>RECLO</strong>にも査定を依頼してみましょう。
+              迷ったら、まずは<strong>買取大吉</strong>で着物専門の査定員に見てもらい、並行して<strong>ヒカカク！</strong>で複数社の査定額を比較するのがおすすめです。高級着物であれば<strong>RECLO</strong>にも査定を依頼してんでください。
             </p>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               いずれの業者も査定は無料です。大切な着物を納得のいく価格で手放すために、ぜひ複数社の査定を活用してください。
@@ -1717,7 +1717,7 @@ export default function RankingPage() {
           <p className="text-sm text-gray-600 mb-8 leading-relaxed">
             査定は完全無料。納得いかなければキャンセルもOKです。
             <br className="hidden md:block" />
-            大切な着物を、信頼できる業者に任せましょう。
+            大切な着物を、信頼できる業者に任せてください。
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/reviews/daikichi/" className="btn-cta text-base">

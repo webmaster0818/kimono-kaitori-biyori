@@ -7,14 +7,14 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取 札幌のおすすめ業者5選｜北海道の出張・宅配対応",
   description:
-    "札幌・北海道で着物を売るならどこがおすすめ？出張買取・宅配買取に対応した着物買取業者5選を徹底比較。口コミ・評判・買取実績をまとめました。",
+    "札幌・北海道で着物を売るならどこがおすすめ？出張買取・宅配買取に対応した着物買取業者5選を比較。口コミ・評判・買取実績をまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/sapporo/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取 札幌のおすすめ業者5選｜北海道の出張・宅配対応",
     description:
-      "札幌・北海道で着物を売るならどこがおすすめ？出張買取・宅配買取に対応した着物買取業者5選を徹底比較。口コミ・評判・買取実績をまとめました。",
+      "札幌・北海道で着物を売るならどこがおすすめ？出張買取・宅配買取に対応した着物買取業者5選を比較。口コミ・評判・買取実績をまとめました。",
     url: "https://kimonokaitori-biyori.com/articles/sapporo/",
     siteName: "着物の買取びより",
     type: "article",
@@ -156,7 +156,7 @@ export default function SapporoPage() {
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              札幌・北海道で着物を売りたい方に向けて、出張買取・宅配買取に対応したおすすめ業者5選を徹底比較。北海道ならではの着物事情や高く売るコツもまとめました。
+              札幌・北海道で着物を売りたい方に向けて、出張買取・宅配買取に対応したおすすめ業者5選を比較。北海道ならではの着物事情や高く売るコツもまとめました。
             </p>
             <p className="mt-3 text-xs text-gray-400">
               最終更新：2026年4月26日
@@ -351,7 +351,7 @@ export default function SapporoPage() {
                 <h3 className="text-lg font-bold text-[#6b4c8a]">ヒカカク</h3>
               </div>
               <p className="text-sm leading-relaxed text-gray-700 mb-4">
-                複数の買取業者から一括で見積もりが取れる比較サイト。北海道の業者を含む多数の提携先から最高額を提示してくれた業者を選べます。業者選びに迷ったらまずここで比較しましょう。
+                複数の買取業者から一括で見積もりが取れる比較サイト。北海道の業者を含む多数の提携先から最高額を提示してくれた業者を選べます。業者選びに迷ったらまずここで比較することをおすすめします。
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
                 <div className="bg-[#faf8f5] rounded-lg p-3">
@@ -544,15 +544,15 @@ export default function SapporoPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：証紙やたとう紙を一緒に出す</h3>
-              <p className="text-sm leading-relaxed text-gray-700">大島紬や結城紬など産地証紙がある着物は、証紙の有無で買取額が大きく変わります。保管時のたとう紙（畳紙）も一緒に出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">大島紬や結城紬など産地証紙がある着物は、証紙の有無で買取額が大きく変わります。保管時のたとう紙（畳紙）も一緒に出してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：暖房による乾燥に注意</h3>
-              <p className="text-sm leading-relaxed text-gray-700">北海道の冬は暖房を多用するため、室内が極端に乾燥することがあります。正絹の着物は乾燥しすぎると生地が傷むため、売却を決めたら早めに査定に出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">北海道の冬は暖房を多用するため、室内が極端に乾燥することがあります。正絹の着物は乾燥しすぎると生地が傷むため、売却を決めたら早めに査定に出してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：着物専門の業者を選ぶ</h3>
-              <p className="text-sm leading-relaxed text-gray-700">総合リサイクルショップでは着物の価値を見落とされることがあります。買取大吉やウリエルなど着物専門の査定員がいる業者を選びましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">総合リサイクルショップでは着物の価値を見落とされることがあります。買取大吉やウリエルなど着物専門の査定員がいる業者を選ぶことをおすすめします。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：複数社で見積もりを比較</h3>
@@ -623,7 +623,7 @@ export default function SapporoPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/takuhai-kaitori/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">宅配買取の流れ</h3>
@@ -644,7 +644,7 @@ export default function SapporoPage() {
             札幌で着物を売るなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            北海道の低湿度環境で保存状態の良い着物は高額査定のチャンス。複数業者の無料査定で最高額を確認しましょう。
+            北海道の低湿度環境で保存状態の良い着物は高額査定のチャンス。複数業者の無料査定で最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

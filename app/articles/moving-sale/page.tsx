@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "引っ越しまで1週間しかありません。着物を売れますか？",
-    answer: "はい、1週間あれば十分に着物を売ることができます。最も早い方法は出張買取で、当日〜翌日に査定員が訪問し、その場で現金化できます。買取大吉やウリエルは当日予約にも対応しています。持ち込み買取も即日対応が可能です。複数社に見積もりを取る時間もありますので、焦らず比較して売りましょう。",
+    answer: "はい、1週間あれば十分に着物を売ることができます。最も早い方法は出張買取で、当日〜翌日に査定員が訪問し、その場で現金化できます。買取大吉やウリエルは当日予約にも対応しています。持ち込み買取も即日対応が可能です。複数社に見積もりを取る時間もありますので、焦らず比較して売ってください。",
   },
   {
     question: "引っ越し業者に着物の処分を頼んでもいいですか？",
@@ -35,11 +35,11 @@ const faqs = [
   },
   {
     question: "引っ越し先に持っていくか売るか迷っています。判断基準は？",
-    answer: "判断基準として、(1)今後着る予定があるか、(2)保管スペースを確保できるか、(3)思い入れのある着物か、の3点で考えましょう。今後着る予定がなく、保管スペースも限られる場合は売却がおすすめです。迷うものは写真を撮って記録に残し、着物自体は売却するという方法もあります。",
+    answer: "判断基準として、(1)今後着る予定があるか、(2)保管スペースを確保できるか、(3)思い入れのある着物か、の3点で考えてください。今後着る予定がなく、保管スペースも限られる場合は売却がおすすめです。迷うものは写真を撮って記録に残し、着物自体は売却するという方法もあります。",
   },
   {
     question: "引っ越しで大量の着物を一度に売りたいのですが可能ですか？",
-    answer: "はい、出張買取であれば大量の着物も一度に売ることができます。買取大吉やウリエルは点数制限なく対応しています。数十枚以上の場合は事前に点数を伝えておくと、査定員が十分な時間を確保してくれます。大量買取の場合は査定に2〜3時間かかることもあるため、余裕を持ったスケジュールで依頼しましょう。",
+    answer: "はい、出張買取であれば大量の着物も一度に売ることができます。買取大吉やウリエルは点数制限なく対応しています。数十枚以上の場合は事前に点数を伝えておくと、査定員が十分な時間を確保してくれます。大量買取の場合は査定に2〜3時間かかることもあるため、余裕を持ったスケジュールで依頼することをおすすめします。",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function MovingSalePage() {
               <span className="block mt-2 text-lg md:text-2xl text-gray-700">急ぎで売りたい時のベスト方法</span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              引っ越しが決まって着物をどうするか困っている方へ。残り日数に合わせた最適な処分方法と、急ぎでも損しない売り方をご紹介します。捨てるのはもったいない着物を、適正価格で売却しましょう。
+              引っ越しが決まって着物をどうするか困っている方へ。残り日数に合わせた最適な処分方法と、急ぎでも損しない売り方をご紹介します。捨てるのはもったいない着物を、適正価格で売却してください。
             </p>
             <p className="mt-3 text-xs text-gray-400">最終更新：2026年5月17日</p>
           </div>
@@ -366,19 +366,19 @@ export default function MovingSalePage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">引っ越し後すぐにやること</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                引っ越し後は段ボールから出して、風通しの良い場所で陰干しをしましょう。段ボールに入れたまま放置すると湿気がこもり、カビの原因になります。梱包材のにおいが付くこともあるため、早めに出すことが大切です。
+                引っ越し後は段ボールから出して、風通しの良い場所で陰干しをしてください。段ボールに入れたまま放置すると湿気がこもり、カビの原因になります。梱包材のにおいが付くこともあるため、早めに出すことが大切です。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">新居での保管場所</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                理想は桐たんすですが、スペースが限られる場合はクローゼットの上段（湿気が少ない場所）にたとう紙で包んで保管しましょう。除湿剤や防虫剤も忘れずに。<Link href="/articles/storage-guide/" className="text-[#6b4c8a] hover:underline">着物の保管方法ガイド</Link>で詳しく解説しています。
+                理想は桐たんすですが、スペースが限られる場合はクローゼットの上段（湿気が少ない場所）にたとう紙で包んで保管してください。除湿剤や防虫剤も忘れずに。<Link href="/articles/storage-guide/" className="text-[#6b4c8a] hover:underline">着物の保管方法ガイド</Link>で詳しく解説しています。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">定期的なメンテナンス</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                年に2回（春と秋）は虫干しをして、着物の状態をチェックしましょう。シミやカビが見つかった場合は早めに対処することで、買取価格の低下を防げます。メンテナンスが難しいと感じたら、状態が良いうちに売却を検討することも一つの選択肢です。
+                年に2回（春と秋）は虫干しをして、着物の状態をチェックしてください。シミやカビが見つかった場合は早めに対処することで、買取価格の低下を防げます。メンテナンスが難しいと感じたら、状態が良いうちに売却を検討することも一つの選択肢です。
               </p>
             </div>
           </div>
@@ -453,7 +453,7 @@ export default function MovingSalePage() {
           <div className="space-y-4">
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
               <h3 className="font-bold text-red-700 mb-2 text-base">ゴミとして捨てる</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物は正絹であれば数千円〜数十万円の価値があります。特に作家物や伝統工芸品は高額買取の対象です。捨てる前に必ず査定を受けましょう。査定は無料です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物は正絹であれば数千円〜数十万円の価値があります。特に作家物や伝統工芸品は高額買取の対象です。捨てる前に必ず査定を受けてください。査定は無料です。</p>
             </div>
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
               <h3 className="font-bold text-red-700 mb-2 text-base">引っ越し業者の「不用品回収」に任せる</h3>
@@ -461,7 +461,7 @@ export default function MovingSalePage() {
             </div>
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
               <h3 className="font-bold text-red-700 mb-2 text-base">焦って1社だけで即決する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">引っ越しが迫っていると焦りがちですが、1社の査定額だけで決めてしまうのは損する可能性があります。最低2社、できれば3社に見積もりを取りましょう。<Link href="/articles/avoid-loss/" className="text-[#6b4c8a] hover:underline">損しないためのガイド</Link>もチェック。</p>
+              <p className="text-sm leading-relaxed text-gray-700">引っ越しが迫っていると焦りがちですが、1社の査定額だけで決めてしまうのは損する可能性があります。最低2社、できれば3社に見積もりを取ってください。<Link href="/articles/avoid-loss/" className="text-[#6b4c8a] hover:underline">損しないためのガイド</Link>もチェック。</p>
             </div>
           </div>
         </div>
@@ -475,7 +475,7 @@ export default function MovingSalePage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：証紙と証明書を必ず添える</h3>
-              <p className="text-sm leading-relaxed text-gray-700">時間がなくても、証紙と購入証明書だけは探してから査定に臨みましょう。これだけで査定額が数倍になることもあります。</p>
+              <p className="text-sm leading-relaxed text-gray-700">時間がなくても、証紙と購入証明書だけは探してから査定に臨んでください。これだけで査定額が数倍になることもあります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：ヒカカクで事前に相場を把握</h3>
@@ -483,7 +483,7 @@ export default function MovingSalePage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：帯・小物もまとめて出す</h3>
-              <p className="text-sm leading-relaxed text-gray-700">引っ越しの機会に和装関連品すべてをまとめて査定に出しましょう。セットで出すと付加価値が認められ、個別に売るより高額になります。</p>
+              <p className="text-sm leading-relaxed text-gray-700">引っ越しの機会に和装関連品すべてをまとめて査定に出してください。セットで出すと付加価値が認められ、個別に売るより高額になります。</p>
             </div>
           </div>
         </div>
@@ -526,7 +526,7 @@ export default function MovingSalePage() {
             </Link>
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">おすすめランキング</h3>
-              <p className="text-xs text-gray-600">おすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">おすすめ5社を比較。</p>
             </Link>
           </div>
         </div>
@@ -536,7 +536,7 @@ export default function MovingSalePage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">引っ越し前に着物を賢く売却</h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            捨てるのはもったいない着物を、適正価格で買い取ってもらいましょう。まずは無料査定から。
+            捨てるのはもったいない着物を、適正価格で買い取ってもらってください。まずは無料査定から。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
         </div>

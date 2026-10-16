@@ -445,15 +445,15 @@ export default function BulkAppraisalPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：できるだけ多くの業者に依頼する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">一括査定サイトだけでなく、直接個別の業者にも査定を依頼しましょう。買取大吉やウリエルに直接連絡し、ヒカカクの一括査定と合わせて5社以上の見積もりを集めるのが理想的です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">一括査定サイトだけでなく、直接個別の業者にも査定を依頼することをおすすめします。買取大吉やウリエルに直接連絡し、ヒカカクの一括査定と合わせて5社以上の見積もりを集めるのが理想的です。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：着物の情報を正確に伝える</h3>
-              <p className="text-sm leading-relaxed text-gray-700">素材（正絹・化繊）、種類（振袖・訪問着など）、状態（シミ・汚れの有無）、証紙の有無を正確に入力しましょう。情報が正確であるほど、概算額と実際の買取額の差が小さくなります。</p>
+              <p className="text-sm leading-relaxed text-gray-700">素材（正絹・化繊）、種類（振袖・訪問着など）、状態（シミ・汚れの有無）、証紙の有無を正確に入力してください。情報が正確であるほど、概算額と実際の買取額の差が小さくなります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：写真を添付する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物の全体像・証紙・状態がわかる写真を添付すると、より正確な概算額が出ます。自然光のもとで撮影し、色合いが正確に伝わるようにしましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物の全体像・証紙・状態がわかる写真を添付すると、より正確な概算額が出ます。自然光のもとで撮影し、色合いが正確に伝わるようにしてください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：他社の査定額を伝える</h3>
@@ -461,7 +461,7 @@ export default function BulkAppraisalPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：着物専門業者を必ず含める</h3>
-              <p className="text-sm leading-relaxed text-gray-700">総合買取店だけでなく、買取大吉やウリエルのような着物専門の査定員がいる業者を必ず比較対象に含めましょう。専門業者の方が着物の価値を正しく評価できます。</p>
+              <p className="text-sm leading-relaxed text-gray-700">総合買取店だけでなく、買取大吉やウリエルのような着物専門の査定員がいる業者を必ず比較対象に含めてください。専門業者の方が着物の価値を正しく評価できます。</p>
             </div>
           </div>
         </div>
@@ -525,7 +525,7 @@ export default function BulkAppraisalPage() {
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
             <p className="text-sm leading-relaxed">
               <strong className="text-[#6b4c8a]">重要：</strong>
-              このように同じ着物でも、業者によって2倍〜3倍以上の価格差がつくことがあります。1社だけの査定で売却してしまうと、数万円を損する可能性があります。一括査定で必ず複数社を比較しましょう。
+              このように同じ着物でも、業者によって2倍〜3倍以上の価格差がつくことがあります。1社だけの査定で売却してしまうと、数万円を損する可能性があります。一括査定で必ず複数社を比較することをおすすめします。
             </p>
           </div>
         </div>
@@ -568,7 +568,7 @@ export default function BulkAppraisalPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/line-appraisal/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">LINE査定おすすめ業者</h3>
@@ -586,10 +586,10 @@ export default function BulkAppraisalPage() {
       <section className="py-12 md:py-16 section-primary-light">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">
-            まずは一括査定で最高額を確認しましょう
+            まずは一括査定で最高額をご確認ください
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            着物の買取は1社だけでは損をする可能性があります。複数業者の無料査定で、お手持ちの着物の最高額を確認してみましょう。
+            着物の買取は1社だけでは損をする可能性があります。複数業者の無料査定で、お手持ちの着物の最高額を確認してんでください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

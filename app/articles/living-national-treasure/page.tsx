@@ -107,7 +107,7 @@ export default function LivingNationalTreasurePage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />人間国宝の作品の見分け方</h2>
         <div className="space-y-4">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">落款（らっかん）を確認する</h3><p className="text-sm leading-relaxed text-gray-700">人間国宝の作家は、作品に自分の落款（印章）を入れるのが一般的です。落款の位置は作家によって異なりますが、多くの場合、おくみや衿先などに朱色の印が押されています。作家ごとの落款のデザインは書籍やインターネットで確認できます。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">証紙を確認する</h3><p className="text-sm leading-relaxed text-gray-700"><Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙</Link>は産地や技法を証明する重要な書類です。人間国宝の作品には、作家名と「重要無形文化財保持者」の記載がある証紙が付属することがあります。証紙の有無で買取価格に数倍の差がつくこともあるため、必ず確認しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">証紙を確認する</h3><p className="text-sm leading-relaxed text-gray-700"><Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙</Link>は産地や技法を証明する重要な書類です。人間国宝の作品には、作家名と「重要無形文化財保持者」の記載がある証紙が付属することがあります。証紙の有無で買取価格に数倍の差がつくこともあるため、必ずご確認ください。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">共布（ともぬの）を確認する</h3><p className="text-sm leading-relaxed text-gray-700">共布とは、反物の端に付いている証明用の布です。作家名、技法名、産地名などが記されていることがあります。仕立て後に切り離されることもありますが、保管されていれば買取時に大きなプラス評価になります。</p></div>
         </div>
       </div></section>
@@ -115,9 +115,9 @@ export default function LivingNationalTreasurePage() {
       <section id="sell-tips" className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />高額買取のポイント</h2>
         <div className="space-y-4">
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. 証紙・落款・共布を揃える</h3><p className="text-sm leading-relaxed text-gray-700">人間国宝の作品は証紙の有無で買取価格に大きな差がつきます。購入時の箱や包み紙に証紙が入っていないか、たとう紙の中に共布がないか、徹底的に探しましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">2. 着物専門の査定員に依頼する</h3><p className="text-sm leading-relaxed text-gray-700">人間国宝の作品を適正に評価するには、高度な専門知識が必要です。総合リサイクルショップではなく、着物の専門知識を持つ査定員が在籍する<Link href="/ranking/" className="text-[#6b4c8a] hover:underline">おすすめ買取業者</Link>に依頼しましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">3. 必ず複数社に査定を依頼する</h3><p className="text-sm leading-relaxed text-gray-700">人間国宝の作品は高額なため、業者間の査定額の差も大きくなります。最低でも3社以上に<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>を依頼し、最も高い金額を提示した業者に売却しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. 証紙・落款・共布を揃える</h3><p className="text-sm leading-relaxed text-gray-700">人間国宝の作品は証紙の有無で買取価格に大きな差がつきます。購入時の箱や包み紙に証紙が入っていないか、たとう紙の中に共布がないか、徹底的に探してください。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">2. 着物専門の査定員に依頼する</h3><p className="text-sm leading-relaxed text-gray-700">人間国宝の作品を適正に評価するには、高度な専門知識が必要です。総合リサイクルショップではなく、着物の専門知識を持つ査定員が在籍する<Link href="/ranking/" className="text-[#6b4c8a] hover:underline">おすすめ買取業者</Link>に依頼することをおすすめします。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">3. 必ず複数社に査定を依頼する</h3><p className="text-sm leading-relaxed text-gray-700">人間国宝の作品は高額なため、業者間の査定額の差も大きくなります。最低でも3社以上に<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>を依頼し、最も高い金額を提示した業者に売却してください。</p></div>
         </div>
       </div></section>
 

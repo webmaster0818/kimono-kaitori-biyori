@@ -45,7 +45,7 @@ const faqs = [
   {
     question: "着物と帯はセットで売った方が高くなりますか？",
     answer:
-      "はい、着物と帯、さらに帯締め・帯揚げなどの和装小物をセットで査定に出すと、単品よりも高額になるケースが多く見られます。特にコーディネートが揃っている場合や、同じ作家・ブランドで統一されている場合は、セットとしての付加価値が認められやすくなります。不要な着物関連品はまとめて査定に出しましょう。",
+      "はい、着物と帯、さらに帯締め・帯揚げなどの和装小物をセットで査定に出すと、単品よりも高額になるケースが多く見られます。特にコーディネートが揃っている場合や、同じ作家・ブランドで統一されている場合は、セットとしての付加価値が認められやすくなります。不要な着物関連品はまとめて査定に出してください。",
   },
 ];
 
@@ -507,7 +507,7 @@ export default function KimonoMarketPricePage() {
             相場が下がる条件
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            逆に、以下の条件に該当すると買取価格は相場より低くなります。場合によっては買取不可になることもありますので、事前に確認しましょう。
+            逆に、以下の条件に該当すると買取価格は相場より低くなります。場合によっては買取不可になることもありますので、事前にご確認ください。
           </p>
 
           <div className="space-y-4">
@@ -592,7 +592,7 @@ export default function KimonoMarketPricePage() {
                 コツ2：証紙・落款を必ず添える
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                証紙（産地証明書）や落款（作家のサイン）は、着物の価値を証明する最も重要な要素です。購入時のたとう紙の中や箱の中に入っていることが多いので、査定前に必ず探して一緒に提出しましょう。証紙があるだけで査定額が2倍以上になることもあります。
+                証紙（産地証明書）や落款（作家のサイン）は、着物の価値を証明する最も重要な要素です。購入時のたとう紙の中や箱の中に入っていることが多いので、査定前に必ず探して一緒に提出してください。証紙があるだけで査定額が2倍以上になることもあります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -608,7 +608,7 @@ export default function KimonoMarketPricePage() {
                 コツ4：保管状態に気を配る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                査定前に、着物の状態をできるだけ良くしておきましょう。たとう紙に包み、防湿剤と一緒に桐たんすで保管するのが理想です。売ると決めたら早めに査定に出すことも大切です。時間が経つほど状態が悪化するリスクがあります。
+                査定前に、着物の状態をできるだけ良くしておいてください。たとう紙に包み、防湿剤と一緒に桐たんすで保管するのが理想です。売ると決めたら早めに査定に出すことも大切です。時間が経つほど状態が悪化するリスクがあります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -690,7 +690,7 @@ export default function KimonoMarketPricePage() {
             着物買取で「がっかり」する理由と対策
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            「着物を売ったら100円にしかならなかった」「期待していたのにがっかり」という声は珍しくありません。着物の買取価格は<strong>「格・産地・技法・作家」の4つの要素</strong>で決まります。がっかりする理由と、その対策を理解しておきましょう。
+            「着物を売ったら100円にしかならなかった」「期待していたのにがっかり」という声は珍しくありません。着物の買取価格は<strong>「格・産地・技法・作家」の4つの要素</strong>で決まります。がっかりする理由と、その対策を理解しておいてください。
           </p>
 
           <p className="text-sm font-bold text-gray-900 mb-2">がっかりする主な理由</p>
@@ -716,17 +716,17 @@ export default function KimonoMarketPricePage() {
           <div className="space-y-2">
             <div className="bg-gradient-to-r from-[#f3eef7] to-[#fdf2f6] border border-[#e8ddd0] rounded-lg p-3">
               <p className="text-sm text-gray-700">
-                <strong>1. 着物専門の買取業者を選ぶ：</strong>総合リサイクルショップではなく、着物の価値がわかる専門業者に依頼しましょう。査定額が数倍変わることがあります。
+                <strong>1. 着物専門の買取業者を選ぶ：</strong>総合リサイクルショップではなく、着物の価値がわかる専門業者に依頼することをおすすめします。査定額が数倍変わることがあります。
               </p>
             </div>
             <div className="bg-gradient-to-r from-[#f3eef7] to-[#fdf2f6] border border-[#e8ddd0] rounded-lg p-3">
               <p className="text-sm text-gray-700">
-                <strong>2. 複数業者で相見積もりを取る：</strong>最低2〜3社に査定を依頼し、最も高い金額を提示した業者を選びましょう。
+                <strong>2. 複数業者で相見積もりを取る：</strong>最低2〜3社に査定を依頼し、最も高い金額を提示した業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-gradient-to-r from-[#f3eef7] to-[#fdf2f6] border border-[#e8ddd0] rounded-lg p-3">
               <p className="text-sm text-gray-700">
-                <strong>3. 証紙を必ず確認：</strong>証紙（産地証明書）は着物の価値を証明する最も重要な書類です。紛失していないか、査定前に必ず確認しましょう。
+                <strong>3. 証紙を必ず確認：</strong>証紙（産地証明書）は着物の価値を証明する最も重要な書類です。紛失していないか、査定前に必ずご確認ください。
               </p>
             </div>
           </div>
@@ -784,7 +784,7 @@ export default function KimonoMarketPricePage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。口コミ・評判・買取実績まで。
+                買取大吉・ウリエルなどおすすめ5社を比較。口コミ・評判・買取実績まで。
               </p>
             </Link>
             <Link
@@ -820,7 +820,7 @@ export default function KimonoMarketPricePage() {
             着物の買取相場を調べたら、まずは無料査定へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            相場はあくまで目安です。実際の買取価格はお手持ちの着物の状態・作家・産地によって大きく変わります。まずは信頼できる業者に無料査定を依頼して、正確な買取価格を確認しましょう。
+            相場はあくまで目安です。実際の買取価格はお手持ちの着物の状態・作家・産地によって大きく変わります。まずは信頼できる業者に無料査定を依頼して、正確な買取価格をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

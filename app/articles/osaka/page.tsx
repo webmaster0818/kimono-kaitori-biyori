@@ -7,14 +7,14 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "着物買取 大阪のおすすめ業者5選｜関西エリアの出張買取",
   description:
-    "大阪で着物を売るならどこがおすすめ？関西エリアの着物買取業者5選を徹底比較。出張買取・持ち込み対応の業者を口コミ・評判・買取実績とともにご紹介します。",
+    "大阪で着物を売るならどこがおすすめ？関西エリアの着物買取業者5選を比較。出張買取・持ち込み対応の業者を口コミ・評判・買取実績とともにご紹介します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/osaka/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取 大阪のおすすめ業者5選｜関西エリアの出張買取",
     description:
-      "大阪で着物を売るならどこがおすすめ？関西エリアの着物買取業者5選を徹底比較。出張買取・持ち込み対応の業者を口コミ・評判・買取実績とともにご紹介します。",
+      "大阪で着物を売るならどこがおすすめ？関西エリアの着物買取業者5選を比較。出張買取・持ち込み対応の業者を口コミ・評判・買取実績とともにご紹介します。",
     url: "https://kimonokaitori-biyori.com/articles/osaka/",
     siteName: "着物の買取びより",
     type: "article",
@@ -156,7 +156,7 @@ export default function OsakaPage() {
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              大阪府内で着物を売りたい方に向けて、関西エリアの出張買取・持ち込み買取に対応したおすすめ業者5選を徹底比較。各社の特徴、対応エリア、買取相場をまとめました。
+              大阪府内で着物を売りたい方に向けて、関西エリアの出張買取・持ち込み買取に対応したおすすめ業者5選を比較。各社の特徴、対応エリア、買取相場をまとめました。
             </p>
             <p className="mt-3 text-xs text-gray-400">
               最終更新：2026年4月26日
@@ -526,7 +526,7 @@ export default function OsakaPage() {
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
             <p className="text-sm leading-relaxed">
               <strong className="text-[#6b4c8a]">ポイント：</strong>
-              関西ゆかりの着物は地元の買取業者の方が価値を正しく評価できるケースが多く見られます。特に京友禅や西陣織は、証紙（産地証明）の有無で買取額が大きく変わります。購入時の証紙があれば必ず添えて査定に出しましょう。
+              関西ゆかりの着物は地元の買取業者の方が価値を正しく評価できるケースが多く見られます。特に京友禅や西陣織は、証紙（産地証明）の有無で買取額が大きく変わります。購入時の証紙があれば必ず添えて査定に出してください。
             </p>
           </div>
         </div>
@@ -597,7 +597,7 @@ export default function OsakaPage() {
                 コツ2：関西ゆかりの着物は地元業者に強い
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                京友禅・西陣織・近江上布などの関西ゆかりの着物は、関西の業者の方が需要を把握しているため高く買い取ってくれる傾向があります。買取大吉やウリエルの大阪拠点に相談してみましょう。
+                京友禅・西陣織・近江上布などの関西ゆかりの着物は、関西の業者の方が需要を把握しているため高く買い取ってくれる傾向があります。買取大吉やウリエルの大阪拠点に相談してんでください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -613,7 +613,7 @@ export default function OsakaPage() {
                 コツ4：帯や小物もセットで出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                着物と帯・帯締め・草履などのコーディネートをまとめて出すと付加価値が認められやすい傾向があります。使わない和装小物も一緒に査定に出しましょう。
+                着物と帯・帯締め・草履などのコーディネートをまとめて出すと付加価値が認められやすい傾向があります。使わない和装小物も一緒に査定に出してください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -676,7 +676,7 @@ export default function OsakaPage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。
+                買取大吉・ウリエルなどおすすめ5社を比較。
               </p>
             </Link>
             <Link
@@ -712,7 +712,7 @@ export default function OsakaPage() {
             大阪で着物を売るなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            大阪府内なら出張買取が便利。複数業者の無料査定で、お手持ちの着物の最高額を確認してみましょう。
+            大阪府内なら出張買取が便利。複数業者の無料査定で、お手持ちの着物の最高額を確認してんでください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

@@ -492,7 +492,7 @@ export default function OitamaTsumugiPage() {
                 ポイント1：証紙・しおりで地区と技法を示す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                置賜紬は総称のため、「白鷹の板締小絣か」「白鷹御召か」「長井の絣か」「米沢の草木染紬か」で評価が大きく変わります。証紙・織元のしおり・購入時の箱は必ず探して一緒に査定に出しましょう。
+                置賜紬は総称のため、「白鷹の板締小絣か」「白鷹御召か」「長井の絣か」「米沢の草木染紬か」で評価が大きく変わります。証紙・織元のしおり・購入時の箱は必ず探して一緒に査定に出してください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -500,7 +500,7 @@ export default function OitamaTsumugiPage() {
                 ポイント2：希少技法の品は産地織物に強い業者へ
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                板締小絣や白鷹御召は限られた工房の希少な織物です。一般的なリサイクルショップでは価値が見過ごされることがあるため、産地織物の査定経験がある着物専門業者を選びましょう。
+                板締小絣や白鷹御召は限られた工房の希少な織物です。一般的なリサイクルショップでは価値が見過ごされることがあるため、産地織物の査定経験がある着物専門業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -683,7 +683,7 @@ export default function OitamaTsumugiPage() {
               置賜紬を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              置賜紬は証紙・技法・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              置賜紬は証紙・技法・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -698,7 +698,7 @@ export default function OitamaTsumugiPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・技法・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・技法・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -791,7 +791,7 @@ export default function OitamaTsumugiPage() {
             置賜紬の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            置賜紬の買取相場はあくまで目安です。白鷹御召・長井紬・草木染紬といった技法、証紙・状態によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの置賜紬の正確な価値を確認しましょう。
+            置賜紬の買取相場はあくまで目安です。白鷹御召・長井紬・草木染紬といった技法、証紙・状態によって実際の査定額は大きく変わります。着物専門の査定員に無料査定を依頼して、お手持ちの置賜紬の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る

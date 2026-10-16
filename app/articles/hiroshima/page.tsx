@@ -6,14 +6,14 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "着物買取 広島のおすすめ業者5選｜中国地方の出張・宅配対応",
   description:
-    "広島で着物を売るならどこがおすすめ？中国地方の着物買取業者5選を徹底比較。出張買取・宅配買取に対応した業者の口コミ・評判・買取実績をまとめました。",
+    "広島で着物を売るならどこがおすすめ？中国地方の着物買取業者5選を比較。出張買取・宅配買取に対応した業者の口コミ・評判・買取実績をまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/hiroshima/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取 広島のおすすめ業者5選｜中国地方の出張・宅配対応",
     description:
-      "広島で着物を売るならどこがおすすめ？中国地方の着物買取業者5選を徹底比較。出張買取・宅配買取に対応した業者の口コミ・評判・買取実績をまとめました。",
+      "広島で着物を売るならどこがおすすめ？中国地方の着物買取業者5選を比較。出張買取・宅配買取に対応した業者の口コミ・評判・買取実績をまとめました。",
     url: "https://kimonokaitori-biyori.com/articles/hiroshima/",
     siteName: "着物の買取びより",
     type: "article",
@@ -45,7 +45,7 @@ const faqs = [
   {
     question: "広島の着物買取で注意すべきポイントはありますか？",
     answer:
-      "広島では訪問営業で着物の買取を持ちかけてくる業者に注意が必要です。信頼できる業者は自ら営業訪問をすることはありません。また、リサイクルショップよりも着物専門の査定員がいる業者を選ぶことで、適正価格での買取が可能です。必ず複数社に査定を依頼し、口コミや評判を確認してから利用しましょう。",
+      "広島では訪問営業で着物の買取を持ちかけてくる業者に注意が必要です。信頼できる業者は自ら営業訪問をすることはありません。また、リサイクルショップよりも着物専門の査定員がいる業者を選ぶことで、適正価格での買取が可能です。必ず複数社に査定を依頼し、口コミや評判を確認してからご利用ください。",
   },
 ];
 
@@ -155,7 +155,7 @@ export default function HiroshimaPage() {
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              広島県で着物を売りたい方に向けて、出張買取・宅配買取に対応したおすすめ業者5選を徹底比較。各社の特徴、対応エリア、買取実績をまとめました。備後絣をはじめとする中国地方の伝統工芸品も適正価格で査定してもらうためのポイントを解説します。
+              広島県で着物を売りたい方に向けて、出張買取・宅配買取に対応したおすすめ業者5選を比較。各社の特徴、対応エリア、買取実績をまとめました。備後絣をはじめとする中国地方の伝統工芸品も適正価格で査定してもらうためのポイントを解説します。
             </p>
             <p className="mt-3 text-xs text-gray-400">
               最終更新：2026年5月17日
@@ -645,7 +645,7 @@ export default function HiroshimaPage() {
                 コツ1：複数の業者に無料査定を依頼する
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                広島でも最低3社以上に査定を依頼しましょう。買取大吉（持ち込み）、ウリエル（出張）、RECLO（宅配）と異なる方法で見積もりを取ると効率的です。ヒカカクの一括査定も活用して、最高額の業者を見つけましょう。
+                広島でも最低3社以上に査定を依頼することをおすすめします。買取大吉（持ち込み）、ウリエル（出張）、RECLO（宅配）と異なる方法で見積もりを取ると効率的です。ヒカカクの一括査定も活用して、最高額の業者を見つけてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -653,7 +653,7 @@ export default function HiroshimaPage() {
                 コツ2：証紙・証明書を必ず添える
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                産地証明の証紙、作家の落款、購入時の証明書があれば必ず一緒に出しましょう。特に備後絣など伝統工芸品は証紙の有無で査定額が大きく変わります。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙・証明書ガイド</Link>も参考にしてください。
+                産地証明の証紙、作家の落款、購入時の証明書があれば必ず一緒に出してください。特に備後絣など伝統工芸品は証紙の有無で査定額が大きく変わります。<Link href="/articles/certificate-guide/" className="text-[#6b4c8a] hover:underline">証紙・証明書ガイド</Link>も参考にしてください。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -661,7 +661,7 @@ export default function HiroshimaPage() {
                 コツ3：着物専門の査定員がいる業者を選ぶ
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                総合リサイクルショップよりも着物専門の査定員がいる業者を選びましょう。買取大吉やウリエルには着物専門の査定員がおり、中国地方の伝統工芸品の価値も正しく評価してくれます。<Link href="/articles/appraisal-criteria/" className="text-[#6b4c8a] hover:underline">査定基準の解説</Link>もチェック。
+                総合リサイクルショップよりも着物専門の査定員がいる業者を選ぶことをおすすめします。買取大吉やウリエルには着物専門の査定員がおり、中国地方の伝統工芸品の価値も正しく評価してくれます。<Link href="/articles/appraisal-criteria/" className="text-[#6b4c8a] hover:underline">査定基準の解説</Link>もチェック。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -677,7 +677,7 @@ export default function HiroshimaPage() {
                 コツ5：湿気対策をして保管状態を維持する
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                広島は瀬戸内海に面した温暖な気候で、夏場の湿度が高い地域です。着物にカビやシミが発生しやすいため、たとう紙で包み除湿剤を使って保管しましょう。ただし長期保管はリスクがあるため、売ると決めたら早めに行動することが大切です。
+                広島は瀬戸内海に面した温暖な気候で、夏場の湿度が高い地域です。着物にカビやシミが発生しやすいため、たとう紙で包み除湿剤を使って保管してください。ただし長期保管はリスクがあるため、売ると決めたら早めに行動することが大切です。
               </p>
             </div>
           </div>
@@ -695,7 +695,7 @@ export default function HiroshimaPage() {
             自宅に業者を招く出張買取（訪問購入）は特定商取引法の対象で、契約書面を受け取った日を含めて<strong>8日間はクーリング・オフ（無条件解約）</strong>ができます。さらにクーリング・オフ期間中は、業者に着物など品物の引き渡しを拒むことができます（引渡し拒否権）。
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.hiroshima.lg.jp/living/soudan/1006026/1003215.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">広島市消費生活センター</a>（中区・アクア広島センター街8階）に相談しましょう。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
+            「頼んでいないのに業者が来て買い取られた」「解約したいのに応じてくれない」といったトラブルに遭ったら、一人で抱え込まず<a href="https://www.city.hiroshima.lg.jp/living/soudan/1006026/1003215.html" target="_blank" rel="noopener noreferrer" className="text-[#6b4c8a] underline">広島市消費生活センター</a>（中区・アクア広島センター街8階）にご相談ください。全国共通の消費者ホットライン<strong>「188（いやや！）」</strong>に電話すると、お近くの相談窓口につながります。※2026年7月に公式サイトで確認
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             電話相談は<strong>082-225-3300</strong>（広島市消費生活センター・消費生活相談専用）へ。※電話番号も2026年7月に公式サイトで確認
@@ -754,7 +754,7 @@ export default function HiroshimaPage() {
                 着物買取おすすめランキング
               </h3>
               <p className="text-xs text-gray-600">
-                買取大吉・ウリエルなどおすすめ5社を徹底比較。
+                買取大吉・ウリエルなどおすすめ5社を比較。
               </p>
             </Link>
             <Link
@@ -790,7 +790,7 @@ export default function HiroshimaPage() {
             広島で着物を売るなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            広島県内なら出張買取・宅配買取で自宅にいながら査定が可能。複数業者の無料査定で最高額を確認しましょう。
+            広島県内なら出張買取・宅配買取で自宅にいながら査定が可能。複数業者の無料査定で最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

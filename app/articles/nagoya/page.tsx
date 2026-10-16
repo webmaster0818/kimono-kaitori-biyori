@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "着物買取 名古屋のおすすめ業者5選｜愛知県の持ち込み・出張対応",
   description:
-    "名古屋・愛知で着物を売るならどこがおすすめ？有松絞りなど地元着物も高価買取。持ち込み・出張対応の着物買取業者5選を徹底比較します。",
+    "名古屋・愛知で着物を売るならどこがおすすめ？有松絞りなど地元着物も高価買取。持ち込み・出張対応の着物買取業者5選を比較します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/nagoya/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取 名古屋のおすすめ業者5選｜愛知県の持ち込み・出張対応",
     description:
-      "名古屋・愛知で着物を売るならどこがおすすめ？有松絞りなど地元着物も高価買取。持ち込み・出張対応の着物買取業者5選を徹底比較します。",
+      "名古屋・愛知で着物を売るならどこがおすすめ？有松絞りなど地元着物も高価買取。持ち込み・出張対応の着物買取業者5選を比較します。",
     url: "https://kimonokaitori-biyori.com/articles/nagoya/",
     siteName: "着物の買取びより",
     type: "article",
@@ -32,7 +32,7 @@ const faqs = [
   {
     question: "有松絞りの着物は名古屋で高く売れますか？",
     answer:
-      "有松絞り（有松鳴海絞り）は名古屋の伝統工芸品であり、地元の買取業者は価値をよく理解しています。本藍染めの有松絞りであれば3万円〜15万円程度の買取相場が見込めます。証紙（伝統工芸品証紙）があればさらに高額査定が期待できます。買取大吉やウリエルなど着物専門の査定員がいる業者に依頼しましょう。",
+      "有松絞り（有松鳴海絞り）は名古屋の伝統工芸品であり、地元の買取業者は価値をよく理解しています。本藍染めの有松絞りであれば3万円〜15万円程度の買取相場が見込めます。証紙（伝統工芸品証紙）があればさらに高額査定が期待できます。買取大吉やウリエルなど着物専門の査定員がいる業者に依頼することをおすすめします。",
   },
   {
     question: "名古屋帯の買取相場はどのくらいですか？",
@@ -47,7 +47,7 @@ const faqs = [
   {
     question: "名古屋で着物と一緒に帯や和装小物も売れますか？",
     answer:
-      "はい、ほとんどの買取業者は着物と一緒に帯・帯締め・帯揚げ・草履・バッグなどの和装小物も買い取ってくれます。名古屋帯と着物をセットで出すと、コーディネートとしての付加価値が認められて査定額がアップする可能性があります。使わない小物はすべてまとめて査定に出しましょう。",
+      "はい、ほとんどの買取業者は着物と一緒に帯・帯締め・帯揚げ・草履・バッグなどの和装小物も買い取ってくれます。名古屋帯と着物をセットで出すと、コーディネートとしての付加価値が認められて査定額がアップする可能性があります。使わない小物はすべてまとめて査定に出してください。",
   },
 ];
 
@@ -157,7 +157,7 @@ export default function NagoyaPage() {
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              名古屋・愛知県で着物を売りたい方に向けて、持ち込み買取・出張買取に対応したおすすめ業者5選を徹底比較。有松絞りや名古屋帯など、地元ゆかりの着物の買取相場もまとめました。
+              名古屋・愛知県で着物を売りたい方に向けて、持ち込み買取・出張買取に対応したおすすめ業者5選を比較。有松絞りや名古屋帯など、地元ゆかりの着物の買取相場もまとめました。
             </p>
             <p className="mt-3 text-xs text-gray-400">
               最終更新：2026年4月26日
@@ -546,15 +546,15 @@ export default function NagoyaPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：着物専門の業者を選ぶ</h3>
-              <p className="text-sm leading-relaxed text-gray-700">総合リサイクルショップでは有松絞りや名古屋帯の価値を見落とされることがあります。買取大吉やウリエルなど、着物専門の査定員がいる業者を選びましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">総合リサイクルショップでは有松絞りや名古屋帯の価値を見落とされることがあります。買取大吉やウリエルなど、着物専門の査定員がいる業者を選ぶことをおすすめします。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：複数社で見積もりを比較</h3>
-              <p className="text-sm leading-relaxed text-gray-700">3社以上に査定を依頼して比較しましょう。ヒカカクの一括比較を使えば効率的です。名古屋は業者の選択肢が多い地域なので、比較するほど有利です。</p>
+              <p className="text-sm leading-relaxed text-gray-700">3社以上に査定を依頼して比較することをおすすめします。ヒカカクの一括比較を使えば効率的です。名古屋は業者の選択肢が多い地域なので、比較するほど有利です。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：湿気対策を万全にして保管</h3>
-              <p className="text-sm leading-relaxed text-gray-700">名古屋は夏の高温多湿が厳しい地域です。着物にカビやシミが発生する前に売却するのがベスト。売ると決めたらすぐに査定に出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">名古屋は夏の高温多湿が厳しい地域です。着物にカビやシミが発生する前に売却するのがベスト。売ると決めたらすぐに査定に出してください。</p>
             </div>
           </div>
         </div>
@@ -597,7 +597,7 @@ export default function NagoyaPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/tokyo/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">東京の着物買取業者5選</h3>
@@ -618,7 +618,7 @@ export default function NagoyaPage() {
             名古屋で着物を売るなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            有松絞りや嫁入り道具など、名古屋ならではの着物も適正価格で買取。複数業者の無料査定で最高額を確認しましょう。
+            有松絞りや嫁入り道具など、名古屋ならではの着物も適正価格で買取。複数業者の無料査定で最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

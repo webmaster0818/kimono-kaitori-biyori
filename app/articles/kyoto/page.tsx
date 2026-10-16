@@ -6,14 +6,14 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "着物買取 京都のおすすめ業者5選｜西陣織・京友禅の本場",
   description:
-    "京都で着物を売るならどこがおすすめ？西陣織・京友禅の本場ならではの着物買取業者5選を徹底比較。出張買取・持ち込み対応の業者を口コミ・評判とともにご紹介します。",
+    "京都で着物を売るならどこがおすすめ？西陣織・京友禅の本場ならではの着物買取業者5選を比較。出張買取・持ち込み対応の業者を口コミ・評判とともにご紹介します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kyoto/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取 京都のおすすめ業者5選｜西陣織・京友禅の本場",
     description:
-      "京都で着物を売るならどこがおすすめ？西陣織・京友禅の本場ならではの着物買取業者5選を徹底比較。出張買取・持ち込み対応の業者を口コミ・評判とともにご紹介します。",
+      "京都で着物を売るならどこがおすすめ？西陣織・京友禅の本場ならではの着物買取業者5選を比較。出張買取・持ち込み対応の業者を口コミ・評判とともにご紹介します。",
     url: "https://kimonokaitori-biyori.com/articles/kyoto/",
     siteName: "着物の買取びより",
     type: "article",
@@ -45,7 +45,7 @@ const faqs = [
   {
     question: "京都で古い着物や骨董的価値のある着物も売れますか？",
     answer:
-      "はい、京都は骨董市（弘法市・天神市など）も盛んで、アンティーク着物の需要が高い地域です。大正〜昭和初期の着物でも状態が良ければ高値がつく場合があります。買取大吉やウリエルなど着物専門の査定員に見てもらいましょう。",
+      "はい、京都は骨董市（弘法市・天神市など）も盛んで、アンティーク着物の需要が高い地域です。大正〜昭和初期の着物でも状態が良ければ高値がつく場合があります。買取大吉やウリエルなど着物専門の査定員に見てもらってください。",
   },
 ];
 
@@ -155,7 +155,7 @@ export default function KyotoPage() {
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              着物文化の本場・京都で着物を売りたい方に向けて、西陣織・京友禅など高級着物も適正価格で買い取ってくれるおすすめ業者5選を徹底比較。京都ゆかりの着物の買取相場も詳しく解説します。
+              着物文化の本場・京都で着物を売りたい方に向けて、西陣織・京友禅など高級着物も適正価格で買い取ってくれるおすすめ業者5選を比較。京都ゆかりの着物の買取相場も詳しく解説します。
             </p>
             <p className="mt-3 text-xs text-gray-400">
               最終更新：2026年4月26日
@@ -541,7 +541,7 @@ export default function KyotoPage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：西陣織は証紙番号を確認</h3>
-              <p className="text-sm leading-relaxed text-gray-700">西陣織工業組合が発行する証紙には固有の番号があり、製造元の特定が可能です。証紙があると買取額が数倍違うこともあるため、必ず一緒に査定に出しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">西陣織工業組合が発行する証紙には固有の番号があり、製造元の特定が可能です。証紙があると買取額が数倍違うこともあるため、必ず一緒に査定に出してください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：京友禅は落款を確認</h3>
@@ -549,15 +549,15 @@ export default function KyotoPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：着物専門の業者に依頼する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">京都は着物の質が高い分、専門知識のない業者では適正価格での買取が難しくなります。買取大吉やウリエルなど着物専門の査定員がいる業者を選びましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">京都は着物の質が高い分、専門知識のない業者では適正価格での買取が難しくなります。買取大吉やウリエルなど着物専門の査定員がいる業者を選ぶことをおすすめします。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：高額品は複数社で比較する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">西陣織や京友禅の高額品は業者によって査定額が大きく異なります。ヒカカクの一括比較を活用して、3社以上の見積もりを取りましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">西陣織や京友禅の高額品は業者によって査定額が大きく異なります。ヒカカクの一括比較を活用して、3社以上の見積もりを取ってください。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：保存状態を良好に保つ</h3>
-              <p className="text-sm leading-relaxed text-gray-700">京都は盆地特有の高温多湿な気候のため、カビや虫食いのリスクが高い地域です。桐たんすでの保管やたとう紙の定期交換を心がけ、状態が良いうちに売却しましょう。</p>
+              <p className="text-sm leading-relaxed text-gray-700">京都は盆地特有の高温多湿な気候のため、カビや虫食いのリスクが高い地域です。桐たんすでの保管やたとう紙の定期交換を心がけ、状態が良いうちに売却してください。</p>
             </div>
           </div>
         </div>
@@ -657,7 +657,7 @@ export default function KyotoPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/ranking/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取おすすめランキング</h3>
-              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を徹底比較。</p>
+              <p className="text-xs text-gray-600">買取大吉・ウリエルなどおすすめ5社を比較。</p>
             </Link>
             <Link href="/articles/kaga-yuzen/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">加賀友禅の買取相場</h3>
@@ -678,7 +678,7 @@ export default function KyotoPage() {
             京都で着物を売るなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            西陣織や京友禅など、京都ならではの高級着物も適正価格で買取。複数業者の無料査定で最高額を確認しましょう。
+            西陣織や京友禅など、京都ならではの高級着物も適正価格で買取。複数業者の無料査定で最高額をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

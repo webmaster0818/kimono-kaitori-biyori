@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "京友禅の証紙はどこを見ればわかりますか？",
     answer:
-      "京友禅には、京都友禅協同組合が発行する「京友禅証紙」が貼付されることがあります。これは友禅染の技法で京都にて染められた商品であることを示すもので、2005年から貼付が始まりました。あわせて、経済産業大臣指定の伝統的工芸品であることを示す伝統証紙（京友禅協同組合連合会が発行・管理）が付くこともあります。証紙はたとう紙や箱に保管されていることが多いので、必ず探して一緒に査定に出しましょう。",
+      "京友禅には、京都友禅協同組合が発行する「京友禅証紙」が貼付されることがあります。これは友禅染の技法で京都にて染められた商品であることを示すもので、2005年から貼付が始まりました。あわせて、経済産業大臣指定の伝統的工芸品であることを示す伝統証紙（京友禅協同組合連合会が発行・管理）が付くこともあります。証紙はたとう紙や箱に保管されていることが多いので、必ず探して一緒に査定に出してください。",
   },
 ];
 
@@ -583,7 +583,7 @@ export default function KyoYuzenPage() {
                 ポイント1：証紙・作家情報を必ずセットで査定に出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                京友禅証紙や伝統証紙、作家の落款・銘は、京都産であることや作家を証明する重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出しましょう。人間国宝や有名作家の作品であれば評価が大きく変わります。
+                京友禅証紙や伝統証紙、作家の落款・銘は、京都産であることや作家を証明する重要な手がかりです。たとう紙や箱の中に保管されていることが多いので、必ず探して一緒に査定に出してください。人間国宝や有名作家の作品であれば評価が大きく変わります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -593,7 +593,7 @@ export default function KyoYuzenPage() {
               <p className="text-sm leading-relaxed text-gray-700">
                 京友禅は分業制で作家物が見分けにくく、手描か型かの判断にも専門知識が必要です。一般的なリサイクルショップでは正しく評価されないことがあります。
                 <Link href="/articles/dye-vs-weave/" className="text-[#6b4c8a] underline">染めと織りの違い</Link>
-                を踏まえ、友禅に詳しい着物専門の買取業者を選びましょう。
+                を踏まえ、友禅に詳しい着物専門の買取業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -603,7 +603,7 @@ export default function KyoYuzenPage() {
               <p className="text-sm leading-relaxed text-gray-700">
                 京友禅は作家物の有無で査定額が大きく変わり、業者の販路によっても差が出ます。最低でも3社に
                 <Link href="/articles/free-appraisal/" className="text-[#6b4c8a] underline">無料査定</Link>
-                を依頼し、最も高い価格を提示した業者を選びましょう。
+                を依頼し、最も高い価格を提示した業者を選ぶことをおすすめします。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -611,7 +611,7 @@ export default function KyoYuzenPage() {
                 ポイント4：状態を良好に保ち、早めに売る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                京友禅は正絹で金彩・刺繍が施されているため、湿気やカビ、日焼け、金彩のはがれに注意が必要です。シミや褪色が進むと価値が下がります。たとう紙に包んで暗所で保管し、売ると決めたら早めに査定に出しましょう。
+                京友禅は正絹で金彩・刺繍が施されているため、湿気やカビ、日焼け、金彩のはがれに注意が必要です。シミや褪色が進むと価値が下がります。たとう紙に包んで暗所で保管し、売ると決めたら早めに査定に出してください。
               </p>
             </div>
           </div>
@@ -744,7 +744,7 @@ export default function KyoYuzenPage() {
               京友禅を売るなら｜状況別のおすすめ買取方法
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-5">
-              京友禅は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選びましょう。
+              京友禅は証紙・作家・状態によって評価が大きく変わります。あなたの状況に合わせて、最適な売り方を選ぶことをおすすめします。
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/ranking/" className="block bg-white border border-[#e8ddd0] rounded-lg p-5 hover:border-[#6b4c8a] transition-colors group">
@@ -759,7 +759,7 @@ export default function KyoYuzenPage() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却しましょう。
+              ※ 査定額は証紙・作家・状態・サイズ・時期で変動します。複数社で無料査定を比較し、納得のうえで売却してください。
             </p>
           </div>
         </div>
@@ -817,7 +817,7 @@ export default function KyoYuzenPage() {
             京友禅の正確な価値を知りたい方へ
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            京友禅の買取相場はあくまで目安です。作家・手描か型か・状態・証紙の有無によって実際の査定額は大きく変わります。友禅に詳しい査定員に無料査定を依頼して、お手持ちの京友禅の正確な価値を確認しましょう。
+            京友禅の買取相場はあくまで目安です。作家・手描か型か・状態・証紙の有無によって実際の査定額は大きく変わります。友禅に詳しい査定員に無料査定を依頼して、お手持ちの京友禅の正確な価値をご確認ください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングを見る
