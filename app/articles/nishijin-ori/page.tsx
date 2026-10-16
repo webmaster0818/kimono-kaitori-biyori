@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "【2026年最新】西陣織の買取相場｜帯の証紙の見方・12種の技法と高く売るコツ",
   description:
-    "西陣織（にしじんおり）の買取相場を徹底解説。京都・西陣の先染め紋織物、西陣織工業組合のメガネ型証紙の見方、伝統的工芸品に指定された12種の技法、帯を高く売るポイントを買取の視点でまとめました。",
+    "西陣織（にしじんおり）の買取相場を解説。京都・西陣の先染め紋織物、西陣織工業組合のメガネ型証紙の見方、伝統的工芸品に指定された12種の技法、帯を高く売るポイントを買取の視点でまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/nishijin-ori/",
   },

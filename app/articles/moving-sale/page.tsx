@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "引っ越し前の着物処分ガイド｜急ぎで売りたい時のベスト方法",
   description:
-    "引っ越し前に着物を処分したい方向けの完全ガイド。急ぎで着物を売りたい時の最適な方法を比較。出張買取・宅配買取・持ち込み買取のメリット・デメリット、引っ越しまでの日数別おすすめ方法を解説。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクを比較。",
+    "引っ越し前に着物を処分したい方向けのガイド。急ぎで着物を売りたい時の最適な方法を比較。出張買取・宅配買取・持ち込み買取のメリット・デメリット、引っ越しまでの日数別おすすめ方法を解説。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクを比較。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/moving-sale/",
   },
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     question: "引っ越し業者に着物の処分を頼んでもいいですか？",
-    answer: "引っ越し業者の不用品回収サービスでも着物を処分できますが、買取ではなく「処分」になるため費用がかかることが多いです。着物は買取業者に売れば現金になるため、引っ越し業者への依頼はおすすめしません。特にブランド着物や作家物は数万円〜数十万円の価値がつくこともあります。",
+    answer: "引っ越し業者の不用品回収サービスでも着物を処分できますが、買取ではなく「処分」になるため費用がかかることが多く見られます。着物は買取業者に売れば現金になるため、引っ越し業者への依頼はおすすめしません。特にブランド着物や作家物は数万円〜数十万円の価値がつくこともあります。",
   },
   {
     question: "引っ越しの荷造りと同時に着物の買取をしてもらえますか？",
@@ -142,11 +142,11 @@ export default function MovingSalePage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">4. リメイク・リサイクルに出す</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物をバッグや洋服にリメイクしたり、リサイクルショップに持ち込んだりする方法。ただし、リサイクルショップでは着物の専門知識がないため適正価格がつかないことが多いです。<Link href="/articles/remake/" className="text-[#6b4c8a] hover:underline">リメイクガイド</Link>も参考に。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物をバッグや洋服にリメイクしたり、リサイクルショップに持ち込んだりする方法。ただし、リサイクルショップでは着物の専門知識がないため適正価格がつかないことが多く見られます。<Link href="/articles/remake/" className="text-[#6b4c8a] hover:underline">リメイクガイド</Link>も参考に。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">5. 寄付・NPOに提供する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物を必要としているNPOや団体に寄付する方法もあります。社会貢献になりますが、送料は自己負担になることが多いです。<Link href="/articles/donation/" className="text-[#6b4c8a] hover:underline">着物の寄付ガイド</Link>をご覧ください。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物を必要としているNPOや団体に寄付する方法もあります。社会貢献になりますが、送料は自己負担になることが多く見られます。<Link href="/articles/donation/" className="text-[#6b4c8a] hover:underline">着物の寄付ガイド</Link>をご覧ください。</p>
             </div>
           </div>
         </div>
@@ -461,7 +461,7 @@ export default function MovingSalePage() {
             </div>
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
               <h3 className="font-bold text-red-700 mb-2 text-base">焦って1社だけで即決する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">引っ越しが迫っていると焦りがちですが、1社の査定額だけで決めてしまうのは損する可能性が高いです。最低2社、できれば3社に見積もりを取りましょう。<Link href="/articles/avoid-loss/" className="text-[#6b4c8a] hover:underline">損しないためのガイド</Link>もチェック。</p>
+              <p className="text-sm leading-relaxed text-gray-700">引っ越しが迫っていると焦りがちですが、1社の査定額だけで決めてしまうのは損する可能性があります。最低2社、できれば3社に見積もりを取りましょう。<Link href="/articles/avoid-loss/" className="text-[#6b4c8a] hover:underline">損しないためのガイド</Link>もチェック。</p>
             </div>
           </div>
         </div>

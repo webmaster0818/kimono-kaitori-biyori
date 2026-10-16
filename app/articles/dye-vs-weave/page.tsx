@@ -45,7 +45,7 @@ const faqs = [
   {
     question: "染めか織りかを見分ける方法はありますか？",
     answer:
-      "最も簡単な見分け方は、生地の表面を触ることです。織りの着物（紬など）は糸の節（ふし）が感じられ、表面に凹凸があります。染めの着物は滑らかで光沢のある生地が多いです。また、柄の入り方で見分けることもできます。染めは白生地に後から柄を付けるため鮮やかで繊細、織りは糸の色で柄を出すため素朴な風合いになります。証紙があれば最も確実に判別できます。",
+      "最も簡単な見分け方は、生地の表面を触ることです。織りの着物（紬など）は糸の節（ふし）が感じられ、表面に凹凸があります。染めの着物は滑らかで光沢のある生地が多く見られます。また、柄の入り方で見分けることもできます。染めは白生地に後から柄を付けるため鮮やかで繊細、織りは糸の色で柄を出すため素朴な風合いになります。証紙があれば最も確実に判別できます。",
   },
 ];
 
@@ -384,7 +384,7 @@ export default function DyeVsWeavePage() {
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
             <p className="text-sm leading-relaxed">
               <strong className="text-[#6b4c8a]">結論：</strong>
-              格式は染めが上ですが、買取価格は一概にどちらが高いとは言えません。結城紬や越後上布のような最高級の織り着物は、染めの着物の多くを上回る買取価格がつきます。一方、一般品同士を比較すると、需要の安定している訪問着や振袖（染め）の方が高いケースが多いです。<Link href="/articles/kimono-market-price/" className="text-[#6b4c8a] hover:underline">着物の買取相場</Link>も参考にしてください。
+              格式は染めが上ですが、買取価格は一概にどちらが高いとは言えません。結城紬や越後上布のような最高級の織り着物は、染めの着物の多くを上回る買取価格がつきます。一方、一般品同士を比較すると、需要の安定している訪問着や振袖（染め）の方が高いケースが多く見られます。<Link href="/articles/kimono-market-price/" className="text-[#6b4c8a] hover:underline">着物の買取相場</Link>も参考にしてください。
             </p>
           </div>
         </div>
@@ -408,7 +408,7 @@ export default function DyeVsWeavePage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">裏面を確認する</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                染めの着物は表と裏の柄が同じように見えます（染料が生地に浸透するため）。織りの着物は糸の色で柄を出すため、裏面は表面と異なる模様になることがあります。ただし、袷の場合は裏地がついているため、仕立て前の反物でないと確認が難しいです。
+                染めの着物は表と裏の柄が同じように見えます（染料が生地に浸透するため）。織りの着物は糸の色で柄を出すため、裏面は表面と異なる模様になることがあります。ただし、袷の場合は裏地がついているため、仕立て前の反物でないと確認が難しくなります。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">

@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "【査定員直伝】着物買取の査定基準10項目｜評価ポイント完全解説",
   description:
-    "着物買取の査定で査定員が見ているポイントを徹底解説。素材、産地、作家、状態、証紙、サイズ、需要の7つの査定基準と、素材別の評価、サイズの影響、季節性まで詳しくガイドします。",
+    "着物買取の査定で査定員が見ているポイントを解説。素材、産地、作家、状態、証紙、サイズ、需要の7つの査定基準と、素材別の評価、サイズの影響、季節性まで詳しくガイドします。",
   alternates: {
     canonical:
       "https://kimonokaitori-biyori.com/articles/appraisal-criteria/",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "【査定員直伝】着物買取の査定基準10項目｜評価ポイント完全解説",
     description:
-      "着物買取の査定基準を徹底解説。査定員が見る7つのポイントと高額査定のコツをガイドします。",
+      "着物買取の査定基準を解説。査定員が見る7つのポイントと高額査定のコツをガイドします。",
     url: "https://kimonokaitori-biyori.com/articles/appraisal-criteria/",
     siteName: "着物の買取びより",
     type: "article",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "着物買取の査定基準を徹底解説｜査定員は何を見ている？",
+  headline: "着物買取の査定基準を解説｜査定員は何を見ている？",
   description:
-    "着物買取の査定で査定員が見ているポイントを徹底解説。素材、産地、作家、状態、証紙、サイズ、需要の7つの査定基準を詳しくガイドします。",
+    "着物買取の査定で査定員が見ているポイントを解説。素材、産地、作家、状態、証紙、サイズ、需要の7つの査定基準を詳しくガイドします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -67,7 +67,7 @@ const faqStructuredData = {
       name: "ポリエステルの着物でも査定してもらえますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "査定自体は可能ですが、ポリエステルの着物は基本的に買取価格が非常に低いか、値がつかないケースが多いです。正絹の着物と比べると需要が大幅に低いためです。ブランドものや未使用品であれば少額の買取が可能な場合もあります。",
+        text: "査定自体は可能ですが、ポリエステルの着物は基本的に買取価格が非常に低いか、値がつかないケースが多く見られます。正絹の着物と比べると需要が大幅に低いためです。ブランドものや未使用品であれば少額の買取が可能な場合もあります。",
       },
     },
     {
@@ -155,7 +155,7 @@ export default function AppraisalCriteriaPage() {
             </time>
           </div>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            着物買取の査定基準を徹底解説
+            着物買取の査定基準を解説
             <br className="md:hidden" />
             <span className="text-[#6b4c8a]">査定員は何を見ている？</span>
           </h1>
@@ -163,7 +163,7 @@ export default function AppraisalCriteriaPage() {
             着物買取で査定員はどこを見て価格を決めているのか、気になりませんか？
             査定基準を知っておくことで、手持ちの着物の価値を事前に把握し、
             納得のいく取引ができるようになります。
-            本記事では、着物買取の査定で重視される7つのポイントを徹底解説。
+            本記事では、着物買取の査定で重視される7つのポイントを解説。
             素材別の評価、サイズの影響、季節性についても詳しくお伝えします。
           </p>
         </header>
@@ -711,7 +711,7 @@ export default function AppraisalCriteriaPage() {
               <span className="font-bold">重要：</span>
               季節を考慮することは大切ですが、待っている間に着物が劣化するリスクもあります。
               シミが広がったりカビが生えたりすると、季節に合わせて売っても査定額が下がります。
-              迷ったら「早めに売る」方が結果的に高値になることが多いです。
+              迷ったら「早めに売る」方が結果的に高値になることが多く見られます。
             </p>
           </div>
         </section>
@@ -788,7 +788,7 @@ export default function AppraisalCriteriaPage() {
               <div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">
                 A.
                 査定自体は可能ですが、ポリエステルの着物は基本的に
-                買取価格が非常に低いか、値がつかないケースが多いです。
+                買取価格が非常に低いか、値がつかないケースが多く見られます。
                 正絹の着物と比べると需要が大幅に低いためです。
                 ブランドものや未使用品であれば少額の買取が可能な場合もあります。
               </div>

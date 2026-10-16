@@ -605,7 +605,7 @@ export default function NagoyaPage() {
             </Link>
             <Link href="/articles/obi-price/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">帯の買取相場</h3>
-              <p className="text-xs text-gray-600">名古屋帯・袋帯・半幅帯の買取価格を徹底解説。</p>
+              <p className="text-xs text-gray-600">名古屋帯・袋帯・半幅帯の買取価格を解説。</p>
             </Link>
           </div>
         </div>

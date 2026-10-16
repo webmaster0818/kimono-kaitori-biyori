@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "【2026年最新】越後上布の買取相場｜重要無形文化財・証紙の見方と高く売るコツ",
   description:
-    "越後上布（えちごじょうふ）の買取相場を徹底解説。新潟県魚沼地方の苧麻を用いた最高級の麻織物で、重要無形文化財・ユネスコ無形文化遺産に指定。雪さらしや手績み糸の特徴、証紙の見方、高く売るポイントを買取の視点でまとめました。",
+    "越後上布（えちごじょうふ）の買取相場を解説。新潟県魚沼地方の苧麻を用いた最高級の麻織物で、重要無形文化財・ユネスコ無形文化遺産に指定。雪さらしや手績み糸の特徴、証紙の見方、高く売るポイントを買取の視点でまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/echigo-jofu/",
   },

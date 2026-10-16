@@ -6,14 +6,14 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "着物買取の相場一覧【2026年最新】振袖・留袖・訪問着など種類別の買取価格",
   description:
-    "着物買取の相場を種類別に徹底解説。振袖・訪問着・留袖・小紋・付け下げ・紬・帯・和装小物の買取価格一覧表と、高額買取になる条件・高く売るコツをまとめました。2026年最新の相場情報です。",
+    "着物買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・付け下げ・紬・帯・和装小物の買取価格一覧表と、高額買取になる条件・高く売るコツをまとめました。2026年最新の相場情報です。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kimono-market-price/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取の相場一覧【2026年最新】振袖・留袖・訪問着など種類別の買取価格",
     description:
-      "着物買取の相場を種類別に徹底解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
+      "着物買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
     url: "https://kimonokaitori-biyori.com/articles/kimono-market-price/",
     siteName: "着物の買取びより",
     type: "article",
@@ -30,7 +30,7 @@ const faqs = [
   {
     question: "古い着物でも買い取ってもらえますか？",
     answer:
-      "はい、古い着物でも買取対象になることが多いです。ただし、経年劣化によるシミ・カビ・色あせがある場合は査定額が大幅に下がります。逆にアンティーク着物として価値が認められるケースもあり、大正〜昭和初期の状態の良い着物は高額になることもあります。まずは無料査定で確認することをおすすめします。",
+      "はい、古い着物でも買取対象になることが多く見られます。ただし、経年劣化によるシミ・カビ・色あせがある場合は査定額が大幅に下がります。逆にアンティーク着物として価値が認められるケースもあり、大正〜昭和初期の状態の良い着物は高額になることもあります。まずは無料査定で確認することをおすすめします。",
   },
   {
     question: "証紙がないと買取価格は下がりますか？",
@@ -45,7 +45,7 @@ const faqs = [
   {
     question: "着物と帯はセットで売った方が高くなりますか？",
     answer:
-      "はい、着物と帯、さらに帯締め・帯揚げなどの和装小物をセットで査定に出すと、単品よりも高額になるケースが多いです。特にコーディネートが揃っている場合や、同じ作家・ブランドで統一されている場合は、セットとしての付加価値が認められやすくなります。不要な着物関連品はまとめて査定に出しましょう。",
+      "はい、着物と帯、さらに帯締め・帯揚げなどの和装小物をセットで査定に出すと、単品よりも高額になるケースが多く見られます。特にコーディネートが揃っている場合や、同じ作家・ブランドで統一されている場合は、セットとしての付加価値が認められやすくなります。不要な着物関連品はまとめて査定に出しましょう。",
   },
 ];
 
@@ -54,7 +54,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取の相場一覧【2026年最新】振袖・留袖・訪問着など種類別の買取価格",
   description:
-    "着物買取の相場を種類別に徹底解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
+    "着物買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
   datePublished: "2026-04-15",
   dateModified: "2026-10-15",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -697,7 +697,7 @@ export default function KimonoMarketPricePage() {
           <div className="space-y-2 mb-5">
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-3">
               <p className="text-sm text-gray-700">
-                <strong>ノーブランド品：</strong>産地物や作家物でない着物は、中古市場での需要が低く、数百円程度の査定になることが多いです。
+                <strong>ノーブランド品：</strong>産地物や作家物でない着物は、中古市場での需要が低く、数百円程度の査定になることが多く見られます。
               </p>
             </div>
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-3">

@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "夏着物（絽・紗・麻）の買取相場｜シーズンと売り時",
   description:
-    "夏着物（絽・紗・麻・上布）の種類と買取相場を徹底解説。宮古上布・越後上布など高級夏着物の価値、売り時のベストシーズン、高く売るコツをまとめました。",
+    "夏着物（絽・紗・麻・上布）の種類と買取相場を解説。宮古上布・越後上布など高級夏着物の価値、売り時のベストシーズン、高く売るコツをまとめました。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/summer-kimono/" },
   openGraph: { images: ["/og-default.png"],
     title: "夏着物（絽・紗・麻）の買取相場｜シーズンと売り時",
@@ -58,7 +58,7 @@ export default function SummerKimonoPage() {
               <span className="block mt-2 text-lg md:text-2xl text-gray-700">絽・紗・麻｜シーズンと売り時</span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              夏着物（絽・紗・麻・上布）の種類・特徴・買取相場を徹底解説。宮古上布・越後上布など高級夏着物の価値や、売り時のベストシーズン、高く売るためのコツをまとめました。
+              夏着物（絽・紗・麻・上布）の種類・特徴・買取相場を解説。宮古上布・越後上布など高級夏着物の価値や、売り時のベストシーズン、高く売るためのコツをまとめました。
             </p>
             <p className="mt-3 text-xs text-gray-400">最終更新：2026年4月26日</p>
           </div>

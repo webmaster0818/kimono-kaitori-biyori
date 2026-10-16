@@ -727,7 +727,7 @@ export default function KanazawaPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/articles/kaga-yuzen/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">加賀友禅の買取相場</h3>
-              <p className="text-xs text-gray-600">加賀友禅の特徴・作家・買取相場を徹底解説。</p>
+              <p className="text-xs text-gray-600">加賀友禅の特徴・作家・買取相場を解説。</p>
             </Link>
             <Link href="/articles/yuzen-types/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">友禅の種類と買取相場</h3>

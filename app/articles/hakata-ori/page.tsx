@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "【2026年最新】博多織の買取相場｜献上柄の帯・証紙の見方と高く売るコツ",
   description:
-    "博多織（はかたおり）の買取相場を徹底解説。福岡・博多の絹織物、独鈷と華皿の献上柄、博多織工業組合の証紙の見方、伝統的工芸品としての価値、博多帯を高く売るポイントを買取の視点でまとめました。",
+    "博多織（はかたおり）の買取相場を解説。福岡・博多の絹織物、独鈷と華皿の献上柄、博多織工業組合の証紙の見方、伝統的工芸品としての価値、博多帯を高く売るポイントを買取の視点でまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/hakata-ori/",
   },

@@ -545,7 +545,7 @@ export default function KyotoPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：京友禅は落款を確認</h3>
-              <p className="text-sm leading-relaxed text-gray-700">手描き京友禅には作家の落款（サイン）が入っています。人間国宝や著名作家の落款があれば高額査定が確定します。落款の位置は裾裏や衿裏に入っていることが多いです。</p>
+              <p className="text-sm leading-relaxed text-gray-700">手描き京友禅には作家の落款（サイン）が入っています。人間国宝や著名作家の落款があれば高額査定が確定します。落款の位置は裾裏や衿裏に入っていることが多く見られます。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：着物専門の業者に依頼する</h3>

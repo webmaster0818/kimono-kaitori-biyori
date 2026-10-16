@@ -7,14 +7,14 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
   description:
-    "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
+    "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/daikichi/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
     description:
-      "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場を正直にレビュー。",
+      "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/daikichi/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,7 +26,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "買取大吉の着物買取｜口コミ・評判・買取実績を徹底検証",
   description:
-    "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。",
+    "買取大吉の着物買取サービスを徹底検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -610,7 +610,7 @@ export default function DaikichiReviewPage() {
                     近くの店舗で気軽に査定してほしい方
                   </span>
                   <p className="mt-1 text-gray-600">
-                    全国2,000店舗以上あるため、自宅や職場の近くに店舗がある可能性が高いです。
+                    全国2,000店舗以上あるため、自宅や職場の近くに店舗がある可能性があります。
                     予約なしでも対応可能な店舗が多く、買い物のついでに立ち寄れます。
                   </p>
                 </div>

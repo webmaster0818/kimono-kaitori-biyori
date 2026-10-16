@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/family-crest/" },
   openGraph: { images: ["/og-default.png"],
     title: "着物の家紋の種類と意味｜紋の有無で価値はどう変わる？",
-    description: "着物の家紋の種類・格式・買取相場への影響を徹底解説。",
+    description: "着物の家紋の種類・格式・買取相場への影響を解説。",
     url: "https://kimonokaitori-biyori.com/articles/family-crest/",
     siteName: "着物の買取びより", type: "article", locale: "ja_JP",
   },
@@ -19,12 +19,12 @@ export const metadata: Metadata = {
 const faqs = [
   { question: "紋付きの着物は紋なしより高く売れますか？", answer: "一概には言えません。紋付きは格式が上がるためフォーマル需要がありますが、他家の家紋が入った着物は汎用性が下がるため買取価格が低くなることもあります。通紋（つうもん）や女紋など一般的な紋であれば汎用性が高く、買取にプラスに働きます。紋を入れ替える「紋替え」が可能な場合もあり、その費用は5,000円〜2万円程度です。" },
   { question: "家紋の種類は全部でいくつありますか？", answer: "日本の家紋は約2万種類以上あるとされています。代表的なものとして、桐紋・菊紋・藤紋・梅紋・片喰（かたばみ）紋・橘紋・鷹の羽紋・木瓜（もっこう）紋・沢瀉（おもだか）紋・茗荷紋などがあります。このうち「五大紋」と呼ばれる桐・藤・鷹の羽・木瓜・片喰が最も広く使われています。" },
-  { question: "通紋とは何ですか？", answer: "通紋（つうもん）とは、特定の家に限定されず誰でも使える紋のことです。代表的な通紋には「五三桐（ごさんのきり）」「蔦（つた）」「揚羽蝶（あげはちょう）」などがあります。レンタル着物や呉服店の既製品に入っている紋は通紋であることが多いです。通紋入りの着物は汎用性が高いため、買取市場でもプラス評価されやすいです。" },
+  { question: "通紋とは何ですか？", answer: "通紋（つうもん）とは、特定の家に限定されず誰でも使える紋のことです。代表的な通紋には「五三桐（ごさんのきり）」「蔦（つた）」「揚羽蝶（あげはちょう）」などがあります。レンタル着物や呉服店の既製品に入っている紋は通紋であることが多く見られます。通紋入りの着物は汎用性が高いため、買取市場でもプラス評価されやすい傾向があります。" },
   { question: "紋の入れ方にはどんな種類がありますか？", answer: "紋の入れ方には主に3種類あります。染め抜き紋（そめぬきもん）は最も格式が高く、生地を白く染め抜いて紋を入れます。縫い紋（ぬいもん）は糸で紋を刺繍する技法で、略式の紋です。貼り紋（はりもん）はシールのように貼り付けるもので、仮の紋として使われます。格式は染め抜き紋＞縫い紋＞貼り紋の順です。" },
   { question: "紋を消したり変えたりすることはできますか？", answer: "はい、可能です。紋替え（もんがえ）は専門の悉皆（しっかい）業者に依頼します。染め抜き紋を別の紋に変える場合は、一度紋を潰してから新しい紋を入れ直すため、費用は1か所あたり5,000円〜2万円、期間は2〜4週間程度です。紋を消すだけの場合は紋消し（もんけし）と呼ばれ、やや安価です。売却前に紋替えをする必要は通常ありませんが、汎用性が上がるため買取価格にプラスになる場合があります。" },
 ];
 
-const articleStructuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png", headline: "着物の家紋の種類と意味｜紋の有無で価値はどう変わる？", description: "着物の家紋の種類・格式・買取相場への影響を徹底解説。", datePublished: "2026-05-17", dateModified: "2026-05-17", author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" }, publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/family-crest/" } };
+const articleStructuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png", headline: "着物の家紋の種類と意味｜紋の有無で価値はどう変わる？", description: "着物の家紋の種類・格式・買取相場への影響を解説。", datePublished: "2026-05-17", dateModified: "2026-05-17", author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" }, publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/family-crest/" } };
 const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) };
 const breadcrumbStructuredData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://kimonokaitori-biyori.com/" }, { "@type": "ListItem", position: 2, name: "コラム", item: "https://kimonokaitori-biyori.com/articles/" }, { "@type": "ListItem", position: 3, name: "着物の家紋の種類と意味", item: "https://kimonokaitori-biyori.com/articles/family-crest/" }] };
 
@@ -118,7 +118,7 @@ export default function FamilyCrestPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">縫い紋（ぬいもん）</h3>
-              <p className="text-sm leading-relaxed text-gray-700">糸で紋を刺繍する技法です。染め抜き紋より格式は下がりますが、色無地や小紋など略式の着物に入れることが多いです。芥子縫い（けしぬい）、まつい縫い、すがすが縫いなど刺繍の技法も複数あり、手の込んだ縫い紋は工芸的な価値もあります。</p>
+              <p className="text-sm leading-relaxed text-gray-700">糸で紋を刺繍する技法です。染め抜き紋より格式は下がりますが、色無地や小紋など略式の着物に入れることが多く見られます。芥子縫い（けしぬい）、まつい縫い、すがすが縫いなど刺繍の技法も複数あり、手の込んだ縫い紋は工芸的な価値もあります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">貼り紋（はりもん）</h3>
@@ -156,7 +156,7 @@ export default function FamilyCrestPage() {
           <div className="space-y-4 text-sm md:text-base leading-relaxed">
             <p>女紋（おんなもん）とは、女性が代々母から娘へ受け継ぐ家紋のことです。主に関西地方で広まった文化で、婚家の紋ではなく実家の紋を着物に入れます。これに対し、関東では嫁ぎ先の紋を入れるのが一般的です。</p>
             <p>通紋（つうもん）は特定の家に限定されず、誰でも使える紋のことです。呉服店で既製品の紋付き着物に入っている紋は、多くの場合この通紋です。代表的な通紋は五三桐（ごさんのきり）、蔦（つた）、揚羽蝶（あげはちょう）、梅鉢（うめばち）などです。</p>
-            <p>買取市場では、通紋が入った着物は汎用性が高いためプラス評価されやすく、珍しい家紋が入った着物は好みが分かれるため買取価格がやや低くなる傾向があります。ただし、<Link href="/articles/montsuki/" className="text-[#6b4c8a] hover:underline">紋付き着物</Link>の需要は冠婚葬祭用として一定数あるため、紋の有無だけで大幅に価格が変わることは少ないです。</p>
+            <p>買取市場では、通紋が入った着物は汎用性が高いためプラス評価されやすく、珍しい家紋が入った着物は好みが分かれるため買取価格がやや低くなる傾向があります。ただし、<Link href="/articles/montsuki/" className="text-[#6b4c8a] hover:underline">紋付き着物</Link>の需要は冠婚葬祭用として一定数あるため、紋の有無だけで大幅に価格が変わることは少ない傾向があります。</p>
           </div>
         </div>
       </section>
@@ -171,11 +171,11 @@ export default function FamilyCrestPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#c9a76c] mb-2 text-base">紋がマイナスに働くケース</h3>
-              <p className="text-sm leading-relaxed text-gray-700">珍しい家紋や特定の家にしか使われない紋が入っている場合、購入希望者が限られるため買取価格がやや低くなることがあります。ただし、紋替えが可能なため大幅なマイナスにはなりにくいです。また、カジュアル着物（紬・小紋など）に紋が入っていると、使い勝手が限定されるためマイナス評価になることもあります。</p>
+              <p className="text-sm leading-relaxed text-gray-700">珍しい家紋や特定の家にしか使われない紋が入っている場合、購入希望者が限られるため買取価格がやや低くなることがあります。ただし、紋替えが可能なため大幅なマイナスにはなりにくい傾向があります。また、カジュアル着物（紬・小紋など）に紋が入っていると、使い勝手が限定されるためマイナス評価になることもあります。</p>
             </div>
           </div>
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
-            <p className="text-sm leading-relaxed"><strong className="text-[#6b4c8a]">重要：</strong>紋の有無よりも、着物全体の状態（シミ・汚れ・生地の劣化）、素材（正絹かどうか）、産地・作家・証紙の方が買取価格への影響は大きいです。紋のことで悩むよりも、状態の良いうちに<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>を受けることをおすすめします。</p>
+            <p className="text-sm leading-relaxed"><strong className="text-[#6b4c8a]">重要：</strong>紋の有無よりも、着物全体の状態（シミ・汚れ・生地の劣化）、素材（正絹かどうか）、産地・作家・証紙の方が買取価格への影響は大きくなります。紋のことで悩むよりも、状態の良いうちに<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>を受けることをおすすめします。</p>
           </div>
         </div>
       </section>

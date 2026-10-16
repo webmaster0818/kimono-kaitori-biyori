@@ -190,7 +190,7 @@ export default function RankingPage() {
             <span className="text-gradient">【2026年最新】</span>
           </h1>
           <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-            着物買取はどこがいい？失敗しない業者の選び方から、おすすめ5社の比較、口コミ・評判・買取相場まで徹底解説します。大切な着物を納得の価格で手放すために、ぜひ参考にしてください。
+            着物買取はどこがいい？失敗しない業者の選び方から、おすすめ5社の比較、口コミ・評判・買取相場まで解説します。大切な着物を納得の価格で手放すために、ぜひ参考にしてください。
           </p>
           <p className="text-xs text-gray-400 mt-3">
             更新日：2026年4月15日
@@ -1090,7 +1090,7 @@ export default function RankingPage() {
                   <span className="text-xs bg-[#edf7f0] text-green-700 px-2 py-0.5 rounded-full">何でも買い取ってくれる</span>
                 </div>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  「即日対応してくれて助かった」「他では断られた着物も買い取ってくれた」「引っ越し前にまとめて処分できた」という口コミが多いです。ただし「着物専門店ほどの査定額にはならなかった」という声もあり、着物の価値よりもスピードや利便性を重視する方に向いている印象です。
+                  「即日対応してくれて助かった」「他では断られた着物も買い取ってくれた」「引っ越し前にまとめて処分できた」という口コミが多く見られます。ただし「着物専門店ほどの査定額にはならなかった」という声もあり、着物の価値よりもスピードや利便性を重視する方に向いている印象です。
                 </p>
               </div>
               <div className="border border-[#e8ddd0] rounded-xl p-5 hover:bg-[#faf8f5] transition-colors">
@@ -1518,7 +1518,7 @@ export default function RankingPage() {
                 <span className="inline-flex items-center justify-center w-8 h-8 bg-[#e8a0b6] text-white rounded-full text-sm font-bold shrink-0">1</span>
                 <div>
                   <p className="text-sm font-bold text-gray-900 mb-1">店舗に着物を持参</p>
-                  <p className="text-sm text-gray-700 leading-relaxed">買取業者の店舗に着物を持ち込みます。予約不要で受け付けている店舗も多いですが、混雑を避けるために事前に電話で確認しておくとスムーズです。買取大吉は全国1,800店超なので、最寄りの店舗が見つかりやすいです。</p>
+                  <p className="text-sm text-gray-700 leading-relaxed">買取業者の店舗に着物を持ち込みます。予約不要で受け付けている店舗も多いですが、混雑を避けるために事前に電話で確認しておくとスムーズです。買取大吉は全国1,800店超なので、最寄りの店舗が見つかりやすい傾向があります。</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">

@@ -7,13 +7,13 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "まんがく屋の着物買取｜口コミ・評判を徹底検証",
   description:
-    "まんがく屋の着物買取サービスを徹底検証。大阪発の着物買取業者の特徴、買取対応品目、買取相場、良い口コミ・悪い口コミを正直にレビュー。出張買取・宅配買取の対応状況も解説。",
+    "まんがく屋の着物買取サービスを徹底検証。大阪発の着物買取業者の特徴、買取対応品目、買取相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。出張買取・宅配買取の対応状況も解説。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/mangakuya/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "まんがく屋の着物買取｜口コミ・評判を徹底検証",
-    description: "まんがく屋の着物買取サービスを徹底検証。大阪発の買取業者の実力と口コミを正直にレビュー。",
+    description: "まんがく屋の着物買取サービスを徹底検証。大阪発の買取業者の実力と口コミを公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/mangakuya/",
     siteName: "着物の買取びより",
     type: "article",
@@ -24,7 +24,7 @@ const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "まんがく屋の着物買取｜口コミ・評判を徹底検証",
-  description: "まんがく屋の着物買取サービスを徹底検証。大阪発の買取業者の実力と口コミを正直にレビュー。",
+  description: "まんがく屋の着物買取サービスを徹底検証。大阪発の買取業者の実力と口コミを公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },

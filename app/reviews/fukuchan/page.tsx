@@ -7,14 +7,14 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "福ちゃんの着物買取｜口コミ・評判・買取実績を徹底検証",
   description:
-    "福ちゃんの着物買取サービスを徹底検証。累計買取実績800万点超、着物買取に特化した専門査定員、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
+    "福ちゃんの着物買取サービスを徹底検証。累計買取実績800万点超、着物買取に特化した専門査定員、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/fukuchan/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "福ちゃんの着物買取｜口コミ・評判・買取実績を徹底検証",
     description:
-      "福ちゃんの着物買取サービスを徹底検証。着物専門査定員の質と口コミ・評判を正直にレビュー。",
+      "福ちゃんの着物買取サービスを徹底検証。着物専門査定員の質と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/fukuchan/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,7 +26,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "福ちゃんの着物買取｜口コミ・評判・買取実績を徹底検証",
   description:
-    "福ちゃんの着物買取サービスを徹底検証。着物専門査定員の質と口コミ・評判を正直にレビュー。",
+    "福ちゃんの着物買取サービスを徹底検証。着物専門査定員の質と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },

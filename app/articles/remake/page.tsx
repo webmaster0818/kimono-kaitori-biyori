@@ -35,7 +35,7 @@ const faqs = [
   {
     question: "シミや汚れがある着物でもリメイクできますか？",
     answer:
-      "はい、シミや汚れがある部分を避けて使えるため、リメイクに向いています。むしろ「買取では値段がつかないがリメイクなら活用できる」という着物が多いです。リメイク業者に相談してみましょう。",
+      "はい、シミや汚れがある部分を避けて使えるため、リメイクに向いています。むしろ「買取では値段がつかないがリメイクなら活用できる」という着物が多く見られます。リメイク業者に相談してみましょう。",
   },
   {
     question: "着物1枚からどのくらいのアイテムが作れますか？",
@@ -338,8 +338,8 @@ export default function RemakePage() {
               <p className="text-sm leading-relaxed text-gray-700">参考画像やイラストを用意して業者に伝えると、仕上がりのギャップが減ります。使用する生地部分の指定も可能です。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
-              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：生地の状態を正直に伝える</h3>
-              <p className="text-sm leading-relaxed text-gray-700">シミ・汚れ・穴の位置を事前に伝えておくと、業者が適切に対応できます。隠さず正直に伝えましょう。</p>
+              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：生地の状態を正確に伝える</h3>
+              <p className="text-sm leading-relaxed text-gray-700">シミ・汚れ・穴の位置を事前に伝えておくと、業者が適切に対応できます。隠さず正確に申告しましょう。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：余った生地の活用も相談する</h3>

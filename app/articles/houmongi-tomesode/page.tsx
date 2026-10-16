@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "【2026年最新】訪問着・留袖の買取相場｜高く売れる条件と相場価格",
   description:
-    "訪問着の買取相場（3,000〜5万円）、色留袖・黒留袖の相場を徹底解説。加賀友禅・京友禅は高額買取。紋の有無の影響や高く売れる条件をまとめました。2026年最新情報。",
+    "訪問着の買取相場（3,000〜5万円）、色留袖・黒留袖の相場を解説。加賀友禅・京友禅は高額買取。紋の有無の影響や高く売れる条件をまとめました。2026年最新情報。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/houmongi-tomesode/",
   },
@@ -40,7 +40,7 @@ const faqs = [
   {
     question: "古い留袖でも買い取ってもらえますか？",
     answer:
-      "はい、古い留袖でも買取対象になることが多いです。ただし、経年劣化によるシミ・カビ・色あせがある場合は査定額が大幅に下がります。特に黒留袖は黒地のため、色あせや退色が目立ちやすい傾向があります。逆に、状態の良い昭和〜平成初期の高級品は、クラシックな柄として再評価されることもあります。まずは無料査定で確認しましょう。",
+      "はい、古い留袖でも買取対象になることが多く見られます。ただし、経年劣化によるシミ・カビ・色あせがある場合は査定額が大幅に下がります。特に黒留袖は黒地のため、色あせや退色が目立ちやすい傾向があります。逆に、状態の良い昭和〜平成初期の高級品は、クラシックな柄として再評価されることもあります。まずは無料査定で確認しましょう。",
   },
   {
     question: "訪問着・留袖を高く売るにはどの業者がいいですか？",
@@ -504,7 +504,7 @@ export default function HoumongiTomesodePage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-3 text-base">京友禅</h3>
               <p className="text-sm leading-relaxed text-gray-700 mb-4">
-                京都で生産される友禅染め。華やかで雅な色彩が特徴で、手描き友禅に加えて刺繍・金箔・絞りなど多彩な技法を組み合わせた豪華な作品が多いです。千總・龍村美術織物など老舗ブランドの作品は特に高く評価されています。
+                京都で生産される友禅染め。華やかで雅な色彩が特徴で、手描き友禅に加えて刺繍・金箔・絞りなど多彩な技法を組み合わせた豪華な作品が多く見られます。千總・龍村美術織物など老舗ブランドの作品は特に高く評価されています。
               </p>
               <div className="overflow-x-auto">
                 <table className="w-full border-collapse text-sm">

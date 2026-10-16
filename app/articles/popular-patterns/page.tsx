@@ -5,7 +5,7 @@ import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
   title: "【2026年最新】着物の人気柄ランキング｜昭和レトロ・古典柄・モダン柄の相場",
-  description: "着物の年代別人気柄を徹底解説。昭和レトロ・古典柄・モダン柄の特徴と買取相場、中古市場で人気のデザインをまとめました。",
+  description: "着物の年代別人気柄を解説。昭和レトロ・古典柄・モダン柄の特徴と買取相場、中古市場で人気のデザインをまとめました。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/popular-patterns/" },
   openGraph: { images: ["/og-default.png"], title: "【2026年最新】着物の人気柄ランキング｜昭和レトロ・古典柄・モダン柄の相場", description: "着物の年代別人気柄を解説。昭和レトロ・古典柄・モダン柄の特徴と買取相場。", url: "https://kimonokaitori-biyori.com/articles/popular-patterns/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
@@ -72,7 +72,7 @@ export default function PopularPatternsPage() {
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">松竹梅（しょうちくばい）</h3><p className="text-sm leading-relaxed text-gray-700">おめでたい席にふさわしい代表的な吉祥文様。松は長寿、竹は成長、梅は気品を象徴。留袖・訪問着・振袖など格の高い着物に多く使われ、フォーマルシーンでの需要が高く買取相場も安定しています。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">鶴亀（つるかめ）</h3><p className="text-sm leading-relaxed text-gray-700">「鶴は千年、亀は万年」の長寿の象徴。婚礼衣裳や留袖に多用される格調高い文様。特に金銀の鶴亀文様は黒留袖の定番で、安定した需要があります。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">御所車（ごしょぐるま）・花車</h3><p className="text-sm leading-relaxed text-gray-700">平安貴族の牛車をモチーフにした雅な文様。花車は御所車に花を盛り込んだ華やかなデザイン。振袖や訪問着に人気で、豪華な印象が好まれます。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">四季の花（桜・菊・牡丹・梅）</h3><p className="text-sm leading-relaxed text-gray-700">季節の花を描いた柄は着物の定番。桜（春）、菊（秋）は特に人気が高く、四季の花を組み合わせた通年柄は季節を問わず着用でき、買取でも需要が高いです。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">四季の花（桜・菊・牡丹・梅）</h3><p className="text-sm leading-relaxed text-gray-700">季節の花を描いた柄は着物の定番。桜（春）、菊（秋）は特に人気が高く、四季の花を組み合わせた通年柄は季節を問わず着用でき、買取でも需要が高い傾向があります。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">熨斗（のし）・束ね熨斗</h3><p className="text-sm leading-relaxed text-gray-700">のし紙の元となった縁起物の文様。細長い帯状のリボンが優美に流れるデザインで、振袖や訪問着に多い。華やかでフォーマル感があり、婚礼や成人式で人気。</p></div>
         </div>
       </div></section>
@@ -93,7 +93,7 @@ export default function PopularPatternsPage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />モダン柄・現代デザインのトレンド</h2>
         <div className="space-y-4">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">デザイナーズ着物</h3><p className="text-sm leading-relaxed text-gray-700">有名デザイナーやブランドがデザインした現代的な着物。岡重・千總・菱屋カレンブロッソなどのブランド着物は、独特の世界観で若い世代に人気。中古市場でも高値で取引されています。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">無地・ぼかし</h3><p className="text-sm leading-relaxed text-gray-700">シンプルな色無地やぼかし染めは、帯で表情を変えられる汎用性の高さが魅力。フォーマルからカジュアルまで幅広く使え、茶道・華道を楽しむ方に需要が高いです。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">無地・ぼかし</h3><p className="text-sm leading-relaxed text-gray-700">シンプルな色無地やぼかし染めは、帯で表情を変えられる汎用性の高さが魅力。フォーマルからカジュアルまで幅広く使え、茶道・華道を楽しむ方に需要が高い傾向があります。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">北欧風・ミニマルデザイン</h3><p className="text-sm leading-relaxed text-gray-700">近年は北欧風の幾何学パターンやミニマルなデザインの着物も人気。モダンな着こなしを楽しむ若い世代に支持されています。</p></div>
         </div>
       </div></section>

@@ -5,7 +5,7 @@ import Breadcrumb from "../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "着物買取業者レビュー一覧｜口コミ・評判を徹底検証",
   description:
-    "着物買取の主要業者を実際に比較・検証したレビュー一覧。買取大吉・バイセル・福ちゃん・ウリエル・RECLOなど、各社の口コミ・評判・買取実績を正直にレビューします。",
+    "着物買取の主要業者を実際に比較・検証したレビュー一覧。買取大吉・バイセル・福ちゃん・ウリエル・RECLOなど、各社の口コミ・評判・買取実績を公開情報と実売データにもとづいてレビューします。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/reviews/" },
 };
 

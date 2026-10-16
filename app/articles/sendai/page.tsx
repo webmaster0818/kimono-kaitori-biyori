@@ -787,7 +787,7 @@ export default function SendaiPage() {
                 出張買取ガイド
               </h3>
               <p className="text-xs text-gray-600">
-                出張買取のメリット・デメリットと利用の流れを徹底解説。
+                出張買取のメリット・デメリットと利用の流れを解説。
               </p>
             </Link>
             <Link

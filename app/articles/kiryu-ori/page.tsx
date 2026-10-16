@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "【2026年最新】桐生織の買取相場｜帯の証紙の見方・7つの技法と高く売るコツ",
   description:
-    "桐生織（きりゅうおり）の買取相場を徹底解説。群馬県桐生市周辺の先染め紋織物、「西の西陣、東の桐生」と称される高級織物産地、桐生織物協同組合の証紙の見方、伝統的工芸品に指定された7つの技法、帯を高く売るポイントを買取の視点でまとめました。",
+    "桐生織（きりゅうおり）の買取相場を解説。群馬県桐生市周辺の先染め紋織物、「西の西陣、東の桐生」と称される高級織物産地、桐生織物協同組合の証紙の見方、伝統的工芸品に指定された7つの技法、帯を高く売るポイントを買取の視点でまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kiryu-ori/",
   },

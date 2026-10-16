@@ -5,16 +5,16 @@ import SoubaNote from "../../components/SoubaNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
-  title: "【2026年最新】村山大島紬の買取相場｜本場大島紬との違いと実売データで見る正直な価値",
+  title: "【2026年最新】村山大島紬の買取相場｜本場大島紬との違いと実売データで見る価値",
   description:
-    "村山大島紬（東京都武蔵村山市周辺）の買取相場を実売データで正直に解説。板締め染色による絣が特徴の国の伝統的工芸品ですが、本場大島紬とは製法も市場価格も異なります。公開オークションの落札データ（275件・平均 約2,018円）と、証紙・状態別の査定ポイントをまとめました。",
+    "村山大島紬（東京都武蔵村山市周辺）の買取相場を実売データをもとに解説。板締め染色による絣が特徴の国の伝統的工芸品ですが、本場大島紬とは製法も市場価格も異なります。公開オークションの落札データ（275件・平均 約2,018円）と、証紙・状態別の査定ポイントをまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/murayama-oshima/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "【2026年最新】村山大島紬の買取相場｜本場大島紬との違いと実売データで見る正直な価値",
+    title: "【2026年最新】村山大島紬の買取相場｜本場大島紬との違いと実売データで見る価値",
     description:
-      "村山大島紬の買取相場と高く売る方法。板締め染色の伝統的工芸品。本場大島紬との違いと実売データを正直に解説。",
+      "村山大島紬の買取相場と高く売る方法。板締め染色の伝統的工芸品。本場大島紬との違いと実売データをもとに解説。",
     url: "https://kimonokaitori-biyori.com/articles/murayama-oshima/",
     siteName: "着物の買取びより",
     type: "article",
@@ -56,7 +56,7 @@ const articleStructuredData = {
   image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "村山大島紬の買取相場｜本場大島紬との違いと実売データ",
   description:
-    "村山大島紬の買取相場と高く売る方法。板締め染色の伝統的工芸品。本場大島紬との違いと実売データを正直に解説。",
+    "村山大島紬の買取相場と高く売る方法。板締め染色の伝統的工芸品。本場大島紬との違いと実売データをもとに解説。",
   datePublished: "2026-07-16",
   dateModified: "2026-07-16",
   author: {
@@ -163,11 +163,11 @@ export default function MurayamaOshimaPage() {
               <span className="text-gradient">村山大島紬の買取相場</span>
               <br className="md:hidden" />
               <span className="block mt-2 text-lg md:text-2xl text-gray-700">
-                本場大島紬との違いと実売データで見る正直な価値
+                本場大島紬との違いと実売データで見る価値
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              村山大島紬（むらやまおおしまつむぎ）は、東京都武蔵村山市周辺で織られてきた絹織物で、1975年に国の伝統的工芸品に指定されています。文様を彫刻した絣板で糸を染める「板締め染色」による精緻な絣が特徴です。名前に「大島紬」とありますが、本場大島紬とは産地も製法も市場価格も異なる別の織物です。本ページでは公開オークションの実売データをもとに、期待させすぎない正直な相場感と高く売るポイントを解説します。
+              村山大島紬（むらやまおおしまつむぎ）は、東京都武蔵村山市周辺で織られてきた絹織物で、1975年に国の伝統的工芸品に指定されています。文様を彫刻した絣板で糸を染める「板締め染色」による精緻な絣が特徴です。名前に「大島紬」とありますが、本場大島紬とは産地も製法も市場価格も異なる別の織物です。本ページでは公開オークションの実売データをもとに、期待させすぎない現実的な相場感と高く売るポイントを解説します。
             </p>
             <p className="mt-3 text-xs text-gray-400">最終更新：2026年7月16日</p>
           </div>
@@ -373,7 +373,7 @@ export default function MurayamaOshimaPage() {
             村山大島紬の買取相場の傾向
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            村山大島紬の買取価格は、証紙の有無・状態・仕立てによって変わります。ここでは金額ではなく、査定で評価が分かれる「傾向」を正直に整理します。具体的な実売価格は後述の
+            村山大島紬の買取価格は、証紙の有無・状態・仕立てによって変わります。ここでは金額ではなく、査定で評価が分かれる「傾向」として整理します。具体的な実売価格は後述の
             <a href="#auction-data" className="text-[#6b4c8a] underline">実売データ</a>
             をご覧ください。
           </p>

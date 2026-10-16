@@ -7,7 +7,7 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "小紋・付け下げの買取相場｜江戸小紋の三役は高額査定",
   description:
-    "小紋・付け下げの買取相場を種類別に徹底解説。江戸小紋の三役（鮫・角通し・行儀）は5,000円〜5万円の高額査定も。作家物や伝統工芸品の価格差、高く売るためのポイントをまとめました。",
+    "小紋・付け下げの買取相場を種類別に解説。江戸小紋の三役（鮫・角通し・行儀）は5,000円〜5万円の高額査定も。作家物や伝統工芸品の価格差、高く売るためのポイントをまとめました。",
   alternates: {
     canonical:
       "https://kimonokaitori-biyori.com/articles/komon-tsukesage/",
@@ -805,7 +805,7 @@ export default function KomonTsukesagePage() {
                 ポイント5：季節を考慮して売る
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                小紋は季節柄のものが多いため、着用シーズンの少し前に売ると高額査定になりやすいです。桜柄なら冬〜早春、秋草柄なら夏頃に出すのが理想的です。付け下げは季節を問わず使えるものが多いため、状態が良いうちに早めに売るのがおすすめです。
+                小紋は季節柄のものが多いため、着用シーズンの少し前に売ると高額査定になりやすい傾向があります。桜柄なら冬〜早春、秋草柄なら夏頃に出すのが理想的です。付け下げは季節を問わず使えるものが多いため、状態が良いうちに早めに売るのがおすすめです。
               </p>
             </div>
           </div>
@@ -890,7 +890,7 @@ export default function KomonTsukesagePage() {
                 訪問着・留袖の買取相場
               </h3>
               <p className="text-xs text-gray-600">
-                訪問着・留袖の種類別買取価格と高く売るコツを徹底解説。
+                訪問着・留袖の種類別買取価格と高く売るコツを解説。
               </p>
             </Link>
             <Link

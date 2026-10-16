@@ -4,14 +4,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
-  title: "着物の種類一覧｜普段着から礼装まで完全ガイド",
+  title: "着物の種類一覧｜普段着から礼装までガイド",
   description:
     "着物の種類を格式順に完全網羅。黒留袖・色留袖・振袖・訪問着・付下げ・色無地・小紋・紬・浴衣まで、それぞれの特徴・着用シーン・買取相場をわかりやすく解説します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kimono-types-guide/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "着物の種類一覧｜普段着から礼装まで完全ガイド",
+    title: "着物の種類一覧｜普段着から礼装までガイド",
     description:
       "着物の種類を格式順に網羅。特徴・着用シーン・買取相場まで。",
     url: "https://kimonokaitori-biyori.com/articles/kimono-types-guide/",
@@ -52,7 +52,7 @@ const faqs = [
 const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "着物の種類一覧｜普段着から礼装まで完全ガイド",
+  headline: "着物の種類一覧｜普段着から礼装までガイド",
   description:
     "着物の種類を格式順に網羅。特徴・着用シーン・買取相場まで。",
   datePublished: "2026-05-17",
@@ -151,7 +151,7 @@ export default function KimonoTypesGuidePage() {
               <span className="text-gradient">着物の種類一覧</span>
               <br className="md:hidden" />
               <span className="block mt-2 text-lg md:text-2xl text-gray-700">
-                普段着から礼装まで完全ガイド
+                普段着から礼装までガイド
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
@@ -617,7 +617,7 @@ export default function KimonoTypesGuidePage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">紋の数で見分ける</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                紋は背中の中央、両袖の後ろ、両胸の5か所に入れることができます。五つ紋は最高格式、三つ紋は準礼装、一つ紋は略礼装です。紋の種類（染め抜き紋・縫い紋・貼り紋）によっても格式が異なり、染め抜き日向紋が最も格が高いです。
+                紋は背中の中央、両袖の後ろ、両胸の5か所に入れることができます。五つ紋は最高格式、三つ紋は準礼装、一つ紋は略礼装です。紋の種類（染め抜き紋・縫い紋・貼り紋）によっても格式が異なり、染め抜き日向紋が最も格が高い傾向があります。
               </p>
             </div>
           </div>
@@ -715,7 +715,7 @@ export default function KimonoTypesGuidePage() {
                 着物買取の相場ガイド
               </h3>
               <p className="text-xs text-gray-600">
-                種類・素材・ブランド別の買取相場を徹底解説。
+                種類・素材・ブランド別の買取相場を解説。
               </p>
             </Link>
           </div>

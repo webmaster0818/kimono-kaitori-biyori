@@ -314,8 +314,8 @@ export default function LineAppraisalPage() {
               <p className="text-sm leading-relaxed text-gray-700">着物を広げた全体像に加えて、柄のアップ、証紙、落款、タグなどの部分写真も撮りましょう。合計4〜6枚の写真を送ると正確な査定ができます。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
-              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">シミ・汚れがあれば正直に撮る</h3>
-              <p className="text-sm leading-relaxed text-gray-700">シミや汚れを隠して撮影すると、実物査定時にギャップが生まれます。正直に写した方が概算額と実際の買取額の差が少なくなり、スムーズです。</p>
+              <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">シミ・汚れはそのまま撮影する</h3>
+              <p className="text-sm leading-relaxed text-gray-700">シミや汚れを隠して撮影すると、実物査定時にギャップが生まれます。そのまま写した方が概算額と実際の買取額の差が少なくなり、スムーズです。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">証紙は必ず撮影する</h3>

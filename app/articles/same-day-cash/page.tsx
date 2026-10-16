@@ -7,7 +7,7 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取 即日現金化｜最短当日入金のおすすめ業者比較",
   description:
-    "着物を即日で現金化したい方向けに、最短当日入金に対応した着物買取業者5選を比較。出張買取なら最短30分で査定・現金受け取りが可能。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの即日対応状況を徹底解説。",
+    "着物を即日で現金化したい方向けに、最短当日入金に対応した着物買取業者5選を比較。出張買取なら最短30分で査定・現金受け取りが可能。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの即日対応状況を解説。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/same-day-cash/",
   },

@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "【2026年最新】天蚕紬の買取相場｜繊維のダイヤモンド・希少な天蚕糸の価値と高く売るコツ",
   description:
-    "天蚕紬（てんさんつむぎ）の買取相場を徹底解説。天蚕（ヤママユ）の希少な天然糸が生む緑がかった光沢、長野県安曇野・穂高の産地背景、証紙や状態で変わる査定額の傾向、高く売るポイントをまとめました。",
+    "天蚕紬（てんさんつむぎ）の買取相場を解説。天蚕（ヤママユ）の希少な天然糸が生む緑がかった光沢、長野県安曇野・穂高の産地背景、証紙や状態で変わる査定額の傾向、高く売るポイントをまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/tensan-tsumugi/",
   },

@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "着物買取トラブル事例5選と回避法｜押し買い・安値買い叩きに注意",
   description:
-    "着物買取でよくあるトラブル事例5選（押し買い、安値買い叩き、キャンセル拒否、追加品要求、連絡つかない）と回避法を徹底解説。信頼できる業者の見分け方、クーリングオフ制度についても詳しくガイドします。",
+    "着物買取でよくあるトラブル事例5選（押し買い、安値買い叩き、キャンセル拒否、追加品要求、連絡つかない）と回避法を解説。信頼できる業者の見分け方、クーリングオフ制度についても詳しくガイドします。",
   alternates: {
     canonical:
       "https://kimonokaitori-biyori.com/articles/trouble-prevention/",
@@ -25,7 +25,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取トラブル事例5選と回避法｜押し買い・安値買い叩きに注意",
   description:
-    "着物買取でよくあるトラブル事例5選と回避法を徹底解説。信頼できる業者の見分け方、クーリングオフ制度についても詳しくガイドします。",
+    "着物買取でよくあるトラブル事例5選と回避法を解説。信頼できる業者の見分け方、クーリングオフ制度についても詳しくガイドします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -164,7 +164,7 @@ export default function TroublePreventionPage() {
             「押し買い被害に遭った」「査定額が異常に安かった」「キャンセルできないと言われた」
             など、国民生活センターにも相談が寄せられています。
             本記事では、着物買取でよくあるトラブル5選とその回避法、
-            信頼できる業者の見分け方、そしてクーリングオフ制度について徹底解説します。
+            信頼できる業者の見分け方、そしてクーリングオフ制度について解説します。
           </p>
         </header>
 
@@ -840,7 +840,7 @@ export default function TroublePreventionPage() {
                 お役立ち情報
               </span>
               <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">
-                着物買取の査定基準を徹底解説
+                着物買取の査定基準を解説
               </p>
             </Link>
           </div>

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | 着物の買取びより",
   },
   description:
-    "着物買取のおすすめ業者5社を徹底比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの口コミ・評判・買取実績を正直にレビュー。",
+    "着物買取のおすすめ業者5社を徹底比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの口コミ・評判・買取実績を公開情報と実売データにもとづいてレビュー。",
   metadataBase: new URL("https://kimonokaitori-biyori.com"),
   robots: {
     index: true,
@@ -40,7 +40,7 @@ const structuredData = {
       name: "着物の買取びより",
       url: "https://kimonokaitori-biyori.com",
       description:
-        "着物買取のおすすめ業者5社を徹底比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの口コミ・評判・買取実績を正直にレビュー。",
+        "着物買取のおすすめ業者5社を徹底比較。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの口コミ・評判・買取実績を公開情報と実売データにもとづいてレビュー。",
     },
     {
       "@type": "Organization",

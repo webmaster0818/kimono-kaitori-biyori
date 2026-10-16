@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "古い着物・シミありでも売れる？買取可能な条件と業者選び",
   description:
-    "古い着物やシミ・汚れがある着物でも売れるのか徹底解説。買取可能な条件、シミの許容範囲、古くても高額になる着物の例、業者ごとの対応差まで詳しくガイドします。",
+    "古い着物やシミ・汚れがある着物でも売れるのか解説。買取可能な条件、シミの許容範囲、古くても高額になる着物の例、業者ごとの対応差まで詳しくガイドします。",
   alternates: {
     canonical:
       "https://kimonokaitori-biyori.com/articles/old-stained-kimono/",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "古い着物・シミありでも売れる？買取可能な条件と業者選び",
     description:
-      "古い着物やシミのある着物でも売れるのか徹底解説。買取可能な条件と業者選びのポイントをガイドします。",
+      "古い着物やシミのある着物でも売れるのか解説。買取可能な条件と業者選びのポイントをガイドします。",
     url: "https://kimonokaitori-biyori.com/articles/old-stained-kimono/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,7 +26,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "古い着物・シミありでも売れる？買取可能な条件と業者選び",
   description:
-    "古い着物やシミ・汚れがある着物でも売れるのか徹底解説。買取可能な条件、シミの許容範囲、古くても高額になる着物の例を詳しくガイドします。",
+    "古い着物やシミ・汚れがある着物でも売れるのか解説。買取可能な条件、シミの許容範囲、古くても高額になる着物の例を詳しくガイドします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -51,7 +51,7 @@ const faqStructuredData = {
       name: "30年以上前の着物でも売れますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、30年以上前の着物でも売れるケースは多いです。特に正絹の着物、有名産地の着物、人間国宝の作品などは古くても高値がつきます。ただし、保管状態が悪くシミやカビが広がっている場合は買取価格が下がります。",
+        text: "はい、30年以上前の着物でも売れるケースは多く見られます。特に正絹の着物、有名産地の着物、人間国宝の作品などは古くても高値がつきます。ただし、保管状態が悪くシミやカビが広がっている場合は買取価格が下がります。",
       },
     },
     {
@@ -67,7 +67,7 @@ const faqStructuredData = {
       name: "どの程度のシミなら買取可能ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "小さなシミや部分的な黄ばみであれば買取可能なケースが多いです。ただし、広範囲にわたるカビ、全体的な変色、生地の劣化がある場合は買取不可となることもあります。判断が難しい場合は、まず査定に出してみることをおすすめします。",
+        text: "小さなシミや部分的な黄ばみであれば買取可能なケースが多く見られます。ただし、広範囲にわたるカビ、全体的な変色、生地の劣化がある場合は買取不可となることもあります。判断が難しい場合は、まず査定に出してみることをおすすめします。",
       },
     },
     {
@@ -75,7 +75,7 @@ const faqStructuredData = {
       name: "ポリエステルの古い着物は売れますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ポリエステルの着物は基本的に買取価格が非常に低く、値がつかないケースが多いです。ただし、ブランドものや未使用品であれば少額の買取が可能な場合もあります。正絹の着物と比べると、買取需要は大幅に低くなります。",
+        text: "ポリエステルの着物は基本的に買取価格が非常に低く、値がつかないケースが多く見られます。ただし、ブランドものや未使用品であれば少額の買取が可能な場合もあります。正絹の着物と比べると、買取需要は大幅に低くなります。",
       },
     },
     {
@@ -162,7 +162,7 @@ export default function OldStainedKimonoPage() {
           </h1>
           <p className="text-gray-600 leading-relaxed">
             「この古い着物、売れるのかな...」「シミがあるけど買い取ってもらえる？」
-            こうした疑問をお持ちの方は多いのではないでしょうか。結論から言えば、
+            こうした疑問をお持ちの方は多いのではないでしょうか。
             古い着物やシミのある着物でも買取可能なケースは多数あります。
             本記事では、売れる着物と売れない着物の基準、シミ・汚れの許容範囲、
             古くても高額になる着物の例、そして業者ごとの対応差まで詳しく解説します。
@@ -282,7 +282,7 @@ export default function OldStainedKimonoPage() {
                 着物の素材は買取の可否と価格を左右する最も重要な要素です。
                 正絹（シルク）の着物は需要が高く、古くても買取対象となります。
                 一方、ポリエステルやウールの着物は基本的に買取価格が非常に低いか、
-                値がつかないケースが多いです。
+                値がつかないケースが多く見られます。
               </p>
               <div className="bg-[#faf8f5] rounded p-3">
                 <p className="text-xs text-[#6b4c8a] font-bold mb-1">素材の見分け方</p>
@@ -325,7 +325,7 @@ export default function OldStainedKimonoPage() {
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 当然ながら、状態が良いほど高値がつきます。ただし、多少のシミや
-                黄ばみがあっても買取可能なケースは多いです。
+                黄ばみがあっても買取可能なケースは多く見られます。
                 買取不可となりやすいのは、広範囲のカビ、生地の破れ・傷み、
                 強い臭い（防虫剤のナフタリン臭など）がある場合です。
               </p>
@@ -440,7 +440,7 @@ export default function OldStainedKimonoPage() {
             <p className="text-sm text-gray-600 leading-relaxed mb-3">
               基本的に、自分でクリーニングしてから売る必要はありません。
               着物の専門クリーニングは1枚あたり3,000円〜15,000円程度かかり、
-              クリーニング代を買取価格で回収できないことも多いです。
+              クリーニング代を買取価格で回収できないことも多く見られます。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed">
               買取業者は自社でクリーニングや修復を行えるため、
@@ -711,7 +711,7 @@ export default function OldStainedKimonoPage() {
               </summary>
               <div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">
                 A.
-                はい、30年以上前の着物でも売れるケースは多いです。特に正絹の着物、
+                はい、30年以上前の着物でも売れるケースは多く見られます。特に正絹の着物、
                 有名産地の着物（大島紬、結城紬、加賀友禅など）、人間国宝の作品などは
                 古くても高値がつきます。ただし、保管状態が悪くシミやカビが広がっている場合は
                 買取価格が下がります。まずは査定に出してみることをおすすめします。
@@ -747,7 +747,7 @@ export default function OldStainedKimonoPage() {
               </summary>
               <div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">
                 A.
-                小さなシミや部分的な黄ばみであれば買取可能なケースが多いです。
+                小さなシミや部分的な黄ばみであれば買取可能なケースが多く見られます。
                 ただし、広範囲にわたるカビ、全体的な変色、生地の劣化がある場合は
                 買取不可となることもあります。判断が難しい場合は、
                 まず査定に出してみることをおすすめします。
@@ -766,7 +766,7 @@ export default function OldStainedKimonoPage() {
               </summary>
               <div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">
                 A.
-                ポリエステルの着物は基本的に買取価格が非常に低く、値がつかないケースが多いです。
+                ポリエステルの着物は基本的に買取価格が非常に低く、値がつかないケースが多く見られます。
                 ただし、ブランドものや未使用品であれば少額の買取が可能な場合もあります。
                 正絹の着物と比べると、買取需要は大幅に低くなります。
                 フリマアプリで個人間取引する方が高値になることもあります。
@@ -800,7 +800,7 @@ export default function OldStainedKimonoPage() {
           </h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <p className="text-gray-700 text-sm leading-relaxed mb-4">
-              古い着物やシミのある着物でも、売れるケースは想像以上に多いです。
+              古い着物やシミのある着物でも、売れるケースは想像以上に多く見られます。
               特に正絹の着物、有名産地の着物、人間国宝の作品などは、
               多少の難があっても買取需要があります。
             </p>

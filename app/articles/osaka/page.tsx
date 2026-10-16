@@ -526,7 +526,7 @@ export default function OsakaPage() {
           <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
             <p className="text-sm leading-relaxed">
               <strong className="text-[#6b4c8a]">ポイント：</strong>
-              関西ゆかりの着物は地元の買取業者の方が価値を正しく評価できるケースが多いです。特に京友禅や西陣織は、証紙（産地証明）の有無で買取額が大きく変わります。購入時の証紙があれば必ず添えて査定に出しましょう。
+              関西ゆかりの着物は地元の買取業者の方が価値を正しく評価できるケースが多く見られます。特に京友禅や西陣織は、証紙（産地証明）の有無で買取額が大きく変わります。購入時の証紙があれば必ず添えて査定に出しましょう。
             </p>
           </div>
         </div>
@@ -613,7 +613,7 @@ export default function OsakaPage() {
                 コツ4：帯や小物もセットで出す
               </h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                着物と帯・帯締め・草履などのコーディネートをまとめて出すと付加価値が認められやすいです。使わない和装小物も一緒に査定に出しましょう。
+                着物と帯・帯締め・草履などのコーディネートをまとめて出すと付加価値が認められやすい傾向があります。使わない和装小物も一緒に査定に出しましょう。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">

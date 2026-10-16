@@ -351,7 +351,7 @@ export default function TakuhaiKaitoriPage() {
                 宅配買取ならそうした制限はありません。
                 離島や地方にお住まいの方でも、
                 都市部と同じクオリティの査定を受けられます。
-                買取店舗が近くにない方にとって、唯一の選択肢となることも多いです。
+                買取店舗が近くにない方にとって、唯一の選択肢となることも多く見られます。
               </p>
             </div>
 
@@ -461,7 +461,7 @@ export default function TakuhaiKaitoriPage() {
           <div className="bg-[#faf8f5] border-l-4 border-[#c9a76c] p-4 mt-6">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold">まとめ：</span>
-              デメリットはあるものの、対面不要で全国対応という利点は大きいです。
+              デメリットはあるものの、対面不要で全国対応という利点は大きくなります。
               「忙しくて時間が取れない」「対面が苦手」という方は、
               宅配買取を検討してみましょう。
             </p>

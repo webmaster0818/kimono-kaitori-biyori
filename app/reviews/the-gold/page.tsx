@@ -7,14 +7,14 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ザ・ゴールドの着物買取｜口コミ・評判を徹底検証",
   description:
-    "ザ・ゴールドの着物買取サービスを徹底検証。全国70店舗以上の直営店展開、着物専門査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
+    "ザ・ゴールドの着物買取サービスを徹底検証。全国70店舗以上の直営店展開、着物専門査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/the-gold/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "ザ・ゴールドの着物買取｜口コミ・評判を徹底検証",
     description:
-      "ザ・ゴールドの着物買取サービスを徹底検証。直営店展開と着物専門査定の実力を正直にレビュー。",
+      "ザ・ゴールドの着物買取サービスを徹底検証。直営店展開と着物専門査定の実力を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/the-gold/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,7 +26,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "ザ・ゴールドの着物買取｜口コミ・評判を徹底検証",
   description:
-    "ザ・ゴールドの着物買取サービスを徹底検証。直営店展開と着物専門査定の実力を正直にレビュー。",
+    "ザ・ゴールドの着物買取サービスを徹底検証。直営店展開と着物専門査定の実力を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },

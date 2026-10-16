@@ -450,7 +450,7 @@ export default function TenpoMochikomiPage() {
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">対面のプレッシャーに注意</h3>
-              <p className="text-sm leading-relaxed text-gray-700">店舗で対面査定を受けると、断りにくい雰囲気になることがあります。「他の店舗でも見積もりを取りたい」と正直に伝えれば問題ありません。信頼できる業者は快く応じてくれます。</p>
+              <p className="text-sm leading-relaxed text-gray-700">店舗で対面査定を受けると、断りにくい雰囲気になることがあります。「他の店舗でも見積もりを取りたい」とお伝えいただいて問題ありません。信頼できる業者は快く応じてくれます。</p>
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">総合リサイクルショップでの安売りに注意</h3>
@@ -579,7 +579,7 @@ export default function TenpoMochikomiPage() {
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#c9a76c] font-bold flex-shrink-0">3.</span>
-                  <span><strong>着物専門の査定員がいる店舗を選ぶ：</strong>総合リサイクルショップでは適正価格がつきにくいです。</span>
+                  <span><strong>着物専門の査定員がいる店舗を選ぶ：</strong>総合リサイクルショップでは適正価格がつきにくい傾向があります。</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#c9a76c] font-bold flex-shrink-0">4.</span>

@@ -67,7 +67,7 @@ export default function StorageGuidePage() {
       <section id="tatou" className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />たとう紙の選び方と交換時期</h2>
         <div className="space-y-4">
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">和紙のたとう紙がベスト</h3><p className="text-sm leading-relaxed text-gray-700">着物の保管には和紙製のたとう紙が最適です。和紙は吸湿性に優れ、着物の湿気を吸収してくれます。安価な紙製のたとう紙よりも和紙製の方が長持ちし、防湿効果も高いです。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">和紙のたとう紙がベスト</h3><p className="text-sm leading-relaxed text-gray-700">着物の保管には和紙製のたとう紙が最適です。和紙は吸湿性に優れ、着物の湿気を吸収してくれます。安価な紙製のたとう紙よりも和紙製の方が長持ちし、防湿効果も高い傾向があります。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">交換時期は1〜2年に1回</h3><p className="text-sm leading-relaxed text-gray-700">たとう紙は湿気を吸って劣化するため、1〜2年に1回は新しいものに交換しましょう。黄ばみ・カビ・シミが見られたらすぐに交換です。</p></div>
         </div>
       </div></section>

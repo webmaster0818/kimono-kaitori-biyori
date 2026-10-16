@@ -7,14 +7,14 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "バイセルの着物買取｜口コミ・評判・買取実績を徹底検証",
   description:
-    "バイセル（BUYSELL）の着物買取サービスを徹底検証。累計買取実績3,700万点超、月間20,000件の出張買取対応、査定員の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
+    "バイセル（BUYSELL）の着物買取サービスを徹底検証。累計買取実績3,700万点超、月間20,000件の出張買取対応、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/buysell/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "バイセルの着物買取｜口コミ・評判・買取実績を徹底検証",
     description:
-      "バイセルの着物買取サービスを徹底検証。累計買取実績3,700万点超の実力と口コミ・評判を正直にレビュー。",
+      "バイセルの着物買取サービスを徹底検証。累計買取実績3,700万点超の実力と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/buysell/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,7 +26,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "バイセルの着物買取｜口コミ・評判・買取実績を徹底検証",
   description:
-    "バイセルの着物買取サービスを徹底検証。累計買取実績3,700万点超の実力と口コミ・評判を正直にレビュー。",
+    "バイセルの着物買取サービスを徹底検証。累計買取実績3,700万点超の実力と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -66,7 +66,7 @@ const faqStructuredData = {
       name: "バイセルの出張買取は最短でいつ来てもらえますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "バイセルの出張買取は最短で当日の対応が可能です。地域や予約状況によりますが、電話申し込みの場合は即日〜翌日の訪問が可能なケースが多いです。",
+        text: "バイセルの出張買取は最短で当日の対応が可能です。地域や予約状況によりますが、電話申し込みの場合は即日〜翌日の訪問が可能なケースが多く見られます。",
       },
     },
     {
@@ -905,7 +905,7 @@ export default function BuysellReviewPage() {
                 </span>
               </summary>
               <div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">
-                A. バイセルの出張買取は最短で当日の対応が可能です。地域や予約状況によりますが、電話申し込みの場合は即日〜翌日の訪問が可能なケースが多いです。Webフォームからの申し込みの場合は翌営業日以降となります。
+                A. バイセルの出張買取は最短で当日の対応が可能です。地域や予約状況によりますが、電話申し込みの場合は即日〜翌日の訪問が可能なケースが多く見られます。Webフォームからの申し込みの場合は翌営業日以降となります。
               </div>
             </details>
 

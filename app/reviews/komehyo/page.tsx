@@ -7,14 +7,14 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "コメ兵の着物買取｜ブランド買取大手の実力を検証",
   description:
-    "コメ兵（KOMEHYO）の着物買取サービスを徹底検証。創業75年超の老舗ブランド買取企業の着物買取の実力、査定基準、買取相場、口コミ・評判を正直にレビュー。名古屋発の大手リユース企業の着物買取を検討中の方必見。",
+    "コメ兵（KOMEHYO）の着物買取サービスを徹底検証。創業75年超の老舗ブランド買取企業の着物買取の実力、査定基準、買取相場、口コミ・評判を公開情報と実売データにもとづいてレビュー。名古屋発の大手リユース企業の着物買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/komehyo/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "コメ兵の着物買取｜ブランド買取大手の実力を検証",
     description:
-      "コメ兵の着物買取を徹底検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを正直にレビュー。",
+      "コメ兵の着物買取を徹底検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/komehyo/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,7 +26,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "コメ兵の着物買取｜ブランド買取大手の実力を検証",
   description:
-    "コメ兵の着物買取を徹底検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを正直にレビュー。",
+    "コメ兵の着物買取を徹底検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -244,7 +244,7 @@ export default function KomehyoReviewPage() {
           <div className="space-y-4">
             <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
               <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★☆☆☆</span><span className="text-xs text-gray-500">50代女性・福岡県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">最寄りのコメ兵の店舗では着物の取扱いがありませんでした。出張買取もないため、着物を売るには名古屋や東京の店舗まで行くか宅配買取を利用する必要があります。着物買取に関しては全国対応とは言いにくいです。</p>
+              <p className="text-gray-700 text-sm leading-relaxed">最寄りのコメ兵の店舗では着物の取扱いがありませんでした。出張買取もないため、着物を売るには名古屋や東京の店舗まで行くか宅配買取を利用する必要があります。着物買取に関しては全国対応とは言いにくい傾向があります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
               <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★☆☆</span><span className="text-xs text-gray-500">60代女性・北海道</span></div>
@@ -289,8 +289,8 @@ export default function KomehyoReviewPage() {
               <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">1</span><div><span className="font-bold text-gray-900">名古屋近郊にお住まいの方</span><p className="mt-1 text-gray-600">名古屋本店きもの館で着物専門の査定が受けられます。</p></div></li>
               <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">2</span><div><span className="font-bold text-gray-900">ブランド品と着物をまとめて売りたい方</span><p className="mt-1 text-gray-600">ブランド品・時計・宝石と着物を一度に査定可能です。</p></div></li>
               <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">3</span><div><span className="font-bold text-gray-900">上場企業の安心感で取引したい方</span><p className="mt-1 text-gray-600">東証スタンダード上場企業としての信頼性があります。</p></div></li>
-              <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">4</span><div><span className="font-bold text-gray-900">着物を大切に次の方に渡してほしい方</span><p className="mt-1 text-gray-600">コメ兵は自社店舗で着物を販売するため、着物好きの方に渡る可能性が高いです。</p></div></li>
-              <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">5</span><div><span className="font-bold text-gray-900">店舗で直接査定員と話しながら売りたい方</span><p className="mt-1 text-gray-600">対面での査定は安心感があり、質問もしやすいです。</p></div></li>
+              <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">4</span><div><span className="font-bold text-gray-900">着物を大切に次の方に渡してほしい方</span><p className="mt-1 text-gray-600">コメ兵は自社店舗で着物を販売するため、着物好きの方に渡る可能性があります。</p></div></li>
+              <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">5</span><div><span className="font-bold text-gray-900">店舗で直接査定員と話しながら売りたい方</span><p className="mt-1 text-gray-600">対面での査定は安心感があり、質問もしやすい傾向があります。</p></div></li>
             </ul>
           </div>
         </section>

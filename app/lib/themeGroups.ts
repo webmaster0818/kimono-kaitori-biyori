@@ -92,11 +92,11 @@ export const themeGroups: { name: string; items: ThemeItem[] }[] = [
     "items": [
       {
         "href": "/articles/murayama-oshima/",
-        "title": "村山大島紬の買取相場 本場大島紬との違いと実売データで見る正直な価値"
+        "title": "村山大島紬の買取相場 本場大島紬との違いと実売データで見る価値"
       },
       {
         "href": "/articles/oshima-tsumugi/",
-        "title": "大島紬の買取相場 高く売るコツを徹底解説"
+        "title": "大島紬の買取相場 高く売るコツを解説"
       },
       {
         "href": "/articles/tsumugi-types/",
@@ -104,7 +104,7 @@ export const themeGroups: { name: string; items: ThemeItem[] }[] = [
       },
       {
         "href": "/articles/yuki-tsumugi/",
-        "title": "結城紬の買取相場 高く売るコツを徹底解説"
+        "title": "結城紬の買取相場 高く売るコツを解説"
       },
       {
         "href": "/articles/ushikubi-tsumugi/",

@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "着物の染み抜き費用と方法｜売る前にやるべき？",
   description:
-    "着物の染み抜き費用を種類別に徹底解説。汗ジミ・飲食シミ・カビジミなど汚れの種類ごとの費用相場と対処法、自宅でできる応急処置、そして売却前に染み抜きすべきかの判断基準まで詳しく紹介します。",
+    "着物の染み抜き費用を種類別に解説。汗ジミ・飲食シミ・カビジミなど汚れの種類ごとの費用相場と対処法、自宅でできる応急処置、そして売却前に染み抜きすべきかの判断基準まで詳しく紹介します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/stain-removal-cost/" },
   openGraph: { images: ["/og-default.png"], title: "着物の染み抜き費用と方法｜売る前にやるべき？", description: "着物の染み抜き費用相場と売却前にやるべきかの判断基準を解説。", url: "https://kimonokaitori-biyori.com/articles/stain-removal-cost/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
@@ -15,7 +15,7 @@ const faqs = [
   { question: "着物の染み抜きは自宅でもできますか？", answer: "軽微な汚れであれば応急処置は可能です。水溶性の汚れ（お茶・ジュースなど）は、汚れの下に白い布を敷き、湿らせた布で軽く叩くようにして汚れを下の布に移します。ただし、正絹の着物に素人が本格的な染み抜きを行うのは非常にリスクが高く、生地を傷めたり色落ちを起こしたりする可能性があります。高価な着物は専門店に任せることを強くおすすめします。" },
   { question: "古いシミでも染み抜きで落とせますか？", answer: "シミの種類と経過時間によります。付着から数日以内であれば多くのシミは専門店で落とせます。しかし、数か月〜数年経過した古いシミは酸化して生地の繊維と一体化しており、完全に落とすのは困難な場合があります。特に黄変した汗ジミやカビジミは漂白処理が必要になり、費用も高額になります。専門店に相談して見積もりを取ってから判断しましょう。" },
   { question: "染み抜きの費用は着物の種類によって変わりますか？", answer: "着物の種類よりも、シミの種類・大きさ・経過時間・位置によって費用が変わります。ただし、金彩加工や刺繍がある着物は染み抜き作業が複雑になるため、追加費用がかかることがあります。また、正絹と化繊では使える薬品が異なるため、事前に素材を確認しておくことが重要です。" },
-  { question: "売る前に染み抜きをした方が高く売れますか？", answer: "必ずしもそうとは限りません。染み抜き費用が5,000円で、それにより買取価格が1万円アップするなら得ですが、2万円の染み抜き費用で買取価格が5,000円しかアップしないなら損です。一般的な着物の場合、大きなシミでなければそのまま売る方が得策なケースが多いです。高額な作家物や伝統工芸品であれば、染み抜きで大幅な査定アップが見込めるため、費用対効果が高くなります。" },
+  { question: "売る前に染み抜きをした方が高く売れますか？", answer: "必ずしもそうとは限りません。染み抜き費用が5,000円で、それにより買取価格が1万円アップするなら得ですが、2万円の染み抜き費用で買取価格が5,000円しかアップしないなら損です。一般的な着物の場合、大きなシミでなければそのまま売る方が得策なケースが多く見られます。高額な作家物や伝統工芸品であれば、染み抜きで大幅な査定アップが見込めるため、費用対効果が高くなります。" },
   { question: "染み抜きの費用が高すぎる場合はどうすればいいですか？", answer: "染み抜き費用が着物の買取価格を上回るような場合は、シミがある状態のまま買取に出すのが合理的です。大手の買取業者は自社でクリーニング工房を持っているか、提携先の悉皆店に安価で依頼できるため、シミありの着物でも買取してくれます。まずは複数の業者に無料査定を依頼し、シミがある状態での査定額を確認してから判断しましょう。" },
 ];
 
@@ -103,7 +103,7 @@ export default function StainRemovalCostPage() {
       <section id="pro-flow" className="py-10"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />専門店での染み抜きの流れ</h2>
         <div className="space-y-5">
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. 持ち込み・見積もり</h3><p className="text-sm leading-relaxed text-gray-700">着物を専門店（悉皆店・和装クリーニング店）に持ち込み、シミの状態を見てもらいます。シミの種類・大きさ・経過時間から、落とせるかどうかの判断と費用の見積もりが出されます。見積もりは無料の店が多いです。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. 持ち込み・見積もり</h3><p className="text-sm leading-relaxed text-gray-700">着物を専門店（悉皆店・和装クリーニング店）に持ち込み、シミの状態を見てもらいます。シミの種類・大きさ・経過時間から、落とせるかどうかの判断と費用の見積もりが出されます。見積もりは無料の店が多く見られます。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">2. 染み抜き処理</h3><p className="text-sm leading-relaxed text-gray-700">職人がシミの種類に合った溶剤や技法を使い、手作業で染み抜きを行います。水溶性のシミには水性の薬品、油性のシミには揮発性の溶剤を使います。古いシミや黄変には漂白処理が行われることもあります。金彩や刺繍がある部分は特に慎重な処理が必要です。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">3. 仕上げ・引き取り</h3><p className="text-sm leading-relaxed text-gray-700">染み抜き後、必要に応じてプレス（仕上げ）が行われます。完了したら連絡が来るので引き取りに行きます。処理期間は通常1〜4週間程度です。仕上がりに納得できない場合は再処理を依頼できる店もあります。</p></div>
         </div>
@@ -148,7 +148,7 @@ export default function StainRemovalCostPage() {
       <section id="stained-sell" className="py-10 section-light"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />シミがある着物の買取事情</h2>
         <div className="space-y-4 text-sm md:text-base leading-relaxed">
-          <p>シミがある着物でも買取してもらえるかどうかは、多くの方が気にするポイントです。結論から言えば、シミがあっても買取は可能です。<Link href="/articles/old-stained-kimono/" className="text-[#6b4c8a] hover:underline">古くてシミのある着物の買取</Link>にも対応している大手業者は多数あります。</p>
+          <p>シミがある着物でも買取してもらえるかどうかは、多くの方が気にするポイントです。シミがあっても買取は可能です。<Link href="/articles/old-stained-kimono/" className="text-[#6b4c8a] hover:underline">古くてシミのある着物の買取</Link>にも対応している大手業者は多数あります。</p>
           <p>ただし、シミの程度によって査定額は変わります。小さなシミが1〜2か所ある程度なら大幅な減額にはなりませんが、大きなシミが複数ある場合や、全体的に変色している場合は査定額が大きく下がることがあります。</p>
           <p>重要なのは、シミがあるからと言って諦めずに、まず<Link href="/ranking/" className="text-[#6b4c8a] hover:underline">複数の業者に査定を依頼する</Link>ことです。業者によってシミの評価基準は異なるため、A社では値段がつかなかった着物がB社では数万円の値段がつくこともあります。</p>
         </div>

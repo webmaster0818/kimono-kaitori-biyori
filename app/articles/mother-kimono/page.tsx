@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "【専門家監修】母親の着物の整理方法｜売る・残す・寄付の判断ガイド",
   description:
-    "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を徹底解説。形見分けとの兼ね合い、整理の手順、売る場合のおすすめ業者まで後悔しない選択ガイドをお届けします。",
+    "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を解説。形見分けとの兼ね合い、整理の手順、売る場合のおすすめ業者まで後悔しない選択ガイドをお届けします。",
   alternates: {
     canonical:
       "https://kimonokaitori-biyori.com/articles/mother-kimono/",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "【専門家監修】母親の着物の整理方法｜売る・残す・寄付の判断ガイド",
     description:
-      "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を徹底解説。後悔しない整理の進め方をガイドします。",
+      "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を解説。後悔しない整理の進め方をガイドします。",
     url: "https://kimonokaitori-biyori.com/articles/mother-kimono/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,7 +26,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "母親の着物の整理方法｜売る？残す？後悔しない選択ガイド",
   description:
-    "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を徹底解説。形見分けとの兼ね合い、整理の手順、売る場合のおすすめ業者まで後悔しない選択ガイドをお届けします。",
+    "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を解説。形見分けとの兼ね合い、整理の手順、売る場合のおすすめ業者まで後悔しない選択ガイドをお届けします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -162,10 +162,10 @@ export default function MotherKimonoPage() {
           </h1>
           <p className="text-gray-600 leading-relaxed">
             「母が遺した着物、どうしよう...」「実家の片づけで大量の着物が出てきた」。
-            こうした悩みを抱える方は非常に多いです。母親の着物には思い出が詰まっているだけに、
+            こうした悩みを抱える方は非常に多く見られます。母親の着物には思い出が詰まっているだけに、
             安易に処分することに抵抗を感じるのは自然なこと。本記事では、残すべき着物と売るべき着物の判断基準、
             整理の具体的な手順、形見分けとの兼ね合い、そして売る場合のおすすめ業者まで、
-            後悔しない選択をするためのガイドを徹底解説します。
+            後悔しない選択をするためのガイドを解説します。
           </p>
         </header>
 
@@ -231,7 +231,7 @@ export default function MotherKimonoPage() {
                 <div>
                   <span className="font-medium">感情的な価値</span>
                   <p className="text-gray-600 mt-1">
-                    母が大切にしていた着物を手放すことへの罪悪感や寂しさを感じる方は多いです。
+                    母が大切にしていた着物を手放すことへの罪悪感や寂しさを感じる方は多く見られます。
                     特に母が亡くなった直後は、遺品を処分することに強い抵抗を感じるのは自然なことです。
                   </p>
                 </div>
@@ -389,7 +389,7 @@ export default function MotherKimonoPage() {
                   </td>
                   <td className="px-4 py-3 text-gray-600">
                     身丈や裄丈が大きく異なる場合、仕立て直しに5万〜10万円程度かかります。
-                    費用対効果を考えると売却が合理的なケースが多いです。
+                    費用対効果を考えると売却が合理的なケースが多く見られます。
                   </td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0]">
@@ -626,7 +626,7 @@ export default function MotherKimonoPage() {
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-3">
                 着物の価値を正しく判断できる専門査定員がいるため、
-                適正価格で買い取ってもらえる可能性が高いです。
+                適正価格で買い取ってもらえる可能性があります。
                 出張買取に対応している業者を選べば、大量の着物を持ち運ぶ必要がありません。
               </p>
               <div className="bg-[#faf8f5] rounded p-3">

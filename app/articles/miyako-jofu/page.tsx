@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "【2026年最新】宮古上布の買取相場｜証紙の見方・苧麻と絣の特徴と高く売るコツ",
   description:
-    "宮古上布（みやこじょうふ）の買取相場を徹底解説。沖縄・宮古島の苧麻を用いた最高級の麻織物、重要無形文化財・伝統的工芸品の指定、宮古上布保持団体や証紙の見方、手績み苧麻・藍染の細かい絣・砧打ちの特徴、高く売るポイントを買取の視点でまとめました。",
+    "宮古上布（みやこじょうふ）の買取相場を解説。沖縄・宮古島の苧麻を用いた最高級の麻織物、重要無形文化財・伝統的工芸品の指定、宮古上布保持団体や証紙の見方、手績み苧麻・藍染の細かい絣・砧打ちの特徴、高く売るポイントを買取の視点でまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/miyako-jofu/",
   },

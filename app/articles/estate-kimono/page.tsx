@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "遺品整理で着物が出てきた時の対処法｜価値の見極め方と売り方",
   description:
-    "遺品整理で大量の着物が出てきたときの対処法を徹底解説。着物の価値の見極め方、処分方法の選択肢（売る・寄付・リメイク）、出張買取が便利な理由、注意点まで網羅的にガイドします。",
+    "遺品整理で大量の着物が出てきたときの対処法を解説。着物の価値の見極め方、処分方法の選択肢（売る・寄付・リメイク）、出張買取が便利な理由、注意点まで網羅的にガイドします。",
   alternates: {
     canonical:
       "https://kimonokaitori-biyori.com/articles/estate-kimono/",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "遺品整理で着物が出てきた時の対処法｜価値の見極め方と売り方",
     description:
-      "遺品整理で着物が出てきたときの対処法を徹底解説。価値の見極め方から売却方法まで網羅的にガイドします。",
+      "遺品整理で着物が出てきたときの対処法を解説。価値の見極め方から売却方法まで網羅的にガイドします。",
     url: "https://kimonokaitori-biyori.com/articles/estate-kimono/",
     siteName: "着物の買取びより",
     type: "article",
@@ -25,7 +25,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "遺品整理で着物が出てきた時の対処法｜価値の見極め方と売り方",
   description:
-    "遺品整理で大量の着物が出てきたときの対処法を徹底解説。着物の価値の見極め方、処分方法の選択肢、出張買取が便利な理由を網羅的にガイドします。",
+    "遺品整理で大量の着物が出てきたときの対処法を解説。着物の価値の見極め方、処分方法の選択肢、出張買取が便利な理由を網羅的にガイドします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -66,7 +66,7 @@ const faqStructuredData = {
       name: "古くてシミがある遺品の着物でも売れますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "シミや汚れがあっても、素材が正絹であったり、有名産地の着物や人間国宝の作品であれば買取可能なケースが多いです。ただし、状態が悪いほど買取価格は下がります。まずは査定に出してみることをおすすめします。",
+        text: "シミや汚れがあっても、素材が正絹であったり、有名産地の着物や人間国宝の作品であれば買取可能なケースが多く見られます。ただし、状態が悪いほど買取価格は下がります。まずは査定に出してみることをおすすめします。",
       },
     },
     {
@@ -161,9 +161,9 @@ export default function EstateKimonoPage() {
           <p className="text-gray-600 leading-relaxed">
             遺品整理をしていると、タンスの中から大量の着物が出てくることがあります。
             「この着物に価値はあるのだろうか」「どう処分すればいいのかわからない」
-            と悩む方は非常に多いです。本記事では、遺品の着物の価値を見極める方法、
+            と悩む方は非常に多く見られます。本記事では、遺品の着物の価値を見極める方法、
             処分方法の選択肢（売る・寄付・リメイク）、そして出張買取が便利な理由まで
-            徹底解説します。故人の大切な着物を適切に扱うためのガイドとしてお役立てください。
+            解説します。故人の大切な着物を適切に扱うためのガイドとしてお役立てください。
           </p>
         </header>
 
@@ -265,7 +265,7 @@ export default function EstateKimonoPage() {
                 <p className="text-sm text-gray-600 leading-relaxed">
                   シミ、黄ばみ、カビ、虫食い、色あせなどの状態を確認します。
                   長期保管されていた着物は、見た目は綺麗でもカビ臭がすることがあります。
-                  状態の良し悪しは買取価格に大きく影響するため、正直に把握しておくことが大切です。
+                  状態の良し悪しは買取価格に大きく影響するため、正確に把握しておくことが重要です。
                 </p>
               </div>
             </div>
@@ -377,7 +377,7 @@ export default function EstateKimonoPage() {
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 人間国宝（重要無形文化財保持者）の作品や、有名作家の着物は高額買取が期待できます。
-                落款（らっかん：作家のサイン）がおくみの裏側や衿先に押されていることが多いです。
+                落款（らっかん：作家のサイン）がおくみの裏側や衿先に押されていることが多く見られます。
                 また、千總、龍村美術織物、川島織物などのブランド帯も高値がつきます。
               </p>
             </div>
@@ -771,7 +771,7 @@ export default function EstateKimonoPage() {
               <div className="px-5 py-4 text-sm text-gray-600 leading-relaxed">
                 A.
                 シミや汚れがあっても、素材が正絹であったり、有名産地の着物や人間国宝の作品であれば
-                買取可能なケースが多いです。ただし、状態が悪いほど買取価格は下がります。
+                買取可能なケースが多く見られます。ただし、状態が悪いほど買取価格は下がります。
                 まずは査定に出してみることをおすすめします。自分で判断して捨ててしまうのが
                 最ももったいない選択です。
               </div>

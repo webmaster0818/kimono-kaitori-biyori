@@ -546,7 +546,7 @@ export default function ShiozawaTsumugiPage() {
             </div>
           </div>
           <p className="text-sm text-gray-600 mt-5 leading-relaxed">
-            証紙は反物の端、たとう紙の中、購入時の箱などに保管されていることが多いです。証紙の見方をより詳しく知りたい方は
+            証紙は反物の端、たとう紙の中、購入時の箱などに保管されていることが多く見られます。証紙の見方をより詳しく知りたい方は
             <Link href="/articles/certificate-guide/" className="text-[#6b4c8a] underline">着物の証紙の見方ガイド</Link>
             も参考にしてください。
           </p>

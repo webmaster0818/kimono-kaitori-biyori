@@ -145,7 +145,7 @@ export default function BulkSellingPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">引越し・住み替え</h3>
-              <p className="text-sm leading-relaxed text-gray-700">引越しでスペースを確保したい場合。桐たんすに入りきらない着物を処分するケースが多いです。</p>
+              <p className="text-sm leading-relaxed text-gray-700">引越しでスペースを確保したい場合。桐たんすに入りきらない着物を処分するケースが多く見られます。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">断捨離・終活</h3>

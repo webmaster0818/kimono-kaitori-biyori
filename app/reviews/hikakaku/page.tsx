@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "ヒカカクで着物を売る｜一括査定の使い方と口コミ・評判",
     description:
-      "ヒカカク！を使った着物の一括査定を徹底検証。最大20社一括査定の口コミ・評判を正直にレビュー。",
+      "ヒカカク！を使った着物の一括査定を徹底検証。最大20社一括査定の口コミ・評判を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/hikakaku/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,7 +26,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "ヒカカクで着物を売る｜一括査定の使い方と口コミ・評判",
   description:
-    "ヒカカク！を使った着物の一括査定を徹底検証。最大20社に一括査定できる仕組みと口コミ・評判を正直にレビュー。",
+    "ヒカカク！を使った着物の一括査定を徹底検証。最大20社に一括査定できる仕組みと口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -58,7 +58,7 @@ const faqStructuredData = {
       name: "ヒカカクで着物の一括査定をすると、最大何社から見積もりが届きますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ヒカカクでは最大20社から見積もりが届きます。着物のカテゴリや地域によって対応業者数は異なりますが、通常5〜15社程度の見積もりが届くことが多いです。",
+        text: "ヒカカクでは最大20社から見積もりが届きます。着物のカテゴリや地域によって対応業者数は異なりますが、通常5〜15社程度の見積もりが届くことが多く見られます。",
       },
     },
     {
@@ -376,7 +376,7 @@ export default function HikakakuReviewPage() {
                 見積もりの金額は「概算」であり、実際に品物を見てもらうと金額が変わることがあります。
                 ヒカカクで最高値を出していた業者に実際に査定してもらったところ、
                 最初の概算から2割ほど下がりました。概算と実査定の差が大きい業者もあるので、
-                最初の金額を鵜呑みにしないほうが良いです。
+                最初の金額を鵜呑みにしないほうが適しています。
               </p>
             </div>
 

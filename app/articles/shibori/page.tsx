@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "絞り染め着物の買取相場｜有松絞り・京鹿の子絞りの価値",
   description:
-    "絞り染め着物の種類と買取相場を徹底解説。有松絞り・京鹿の子絞り・辻が花など主要な絞り染めの特徴・産地・買取価格をまとめました。総絞りの振袖の価値も紹介。",
+    "絞り染め着物の種類と買取相場を解説。有松絞り・京鹿の子絞り・辻が花など主要な絞り染めの特徴・産地・買取価格をまとめました。総絞りの振袖の価値も紹介。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/shibori/" },
   openGraph: { images: ["/og-default.png"],
     title: "絞り染め着物の買取相場｜有松絞り・京鹿の子絞りの価値",
@@ -58,7 +58,7 @@ export default function ShiboriPage() {
               <span className="block mt-2 text-lg md:text-2xl text-gray-700">有松絞り・京鹿の子絞りの価値</span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              日本の伝統的な染色技法「絞り染め」の種類・産地・特徴と買取相場を徹底解説。有松絞り・京鹿の子絞り・辻が花の価値や、総絞りの振袖の買取価格もまとめました。
+              日本の伝統的な染色技法「絞り染め」の種類・産地・特徴と買取相場を解説。有松絞り・京鹿の子絞り・辻が花の価値や、総絞りの振袖の買取価格もまとめました。
             </p>
             <p className="mt-3 text-xs text-gray-400">最終更新：2026年4月26日</p>
           </div>

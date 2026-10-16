@@ -7,7 +7,7 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "RECLO（リクロ）の着物買取｜宅配買取の評判・口コミを検証",
   description:
-    "RECLO（リクロ）の着物買取サービスを徹底検証。宅配買取特化で高級品に強い実力、送料無料・キャンセル返送料無料の安心体制、実際の口コミ・評判を正直にレビューします。",
+    "RECLO（リクロ）の着物買取サービスを徹底検証。宅配買取特化で高級品に強い実力、送料無料・キャンセル返送料無料の安心体制、実際の口コミ・評判を公開情報と実売データにもとづいてレビューします。",
   robots: { index: false, follow: true },
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/reclo/",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "RECLO（リクロ）の着物買取｜宅配買取の評判・口コミを検証",
     description:
-      "RECLO（リクロ）の宅配買取特化の着物買取サービスを徹底検証。口コミ・評判・買取実績を正直にレビュー。",
+      "RECLO（リクロ）の宅配買取特化の着物買取サービスを徹底検証。口コミ・評判・買取実績を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/reclo/",
     siteName: "着物の買取びより",
     type: "article",
@@ -363,7 +363,7 @@ export default function RecloReviewPage() {
               <p className="text-gray-700 text-sm leading-relaxed">
                 マイページで査定の進捗状況が確認できるのが便利でした。
                 「商品受領」「査定中」「査定完了」とステータスが更新されるので、
-                今どの段階にあるのかが分かりやすいです。査定完了後はマイページから
+                今どの段階にあるのかが分かりやすい傾向があります。査定完了後はマイページから
                 承認ボタンを押すだけで手続き完了。すべてオンラインで完結するスマートさが気に入っています。
               </p>
             </div>

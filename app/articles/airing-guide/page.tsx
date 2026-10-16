@@ -14,7 +14,7 @@ const faqs = [
   { question: "虫干しは年に何回行えばいいですか？", answer: "理想的には年に3回、季節の変わり目に行うのがベストです。伝統的には「土用干し（7月下旬〜8月上旬）」「虫干し（10月〜11月）」「寒干し（1月〜2月）」の3回が推奨されます。最低でも年に1回は行いましょう。忙しい場合は、箪笥の引き出しを開けて風を通すだけでも効果があります。" },
   { question: "虫干しに適した天候の条件は？", answer: "晴天が2〜3日続いた後の、湿度の低い日が最適です。理想的な条件は湿度50%以下、気温15〜25度程度です。前日に雨が降った日は地面からの湿気が上がるため避けましょう。風通しは大切ですが、強風の日は着物が飛ばされるリスクがあるため注意が必要です。時間帯は午前10時〜午後3時頃が最適です。" },
   { question: "虫干しの際に直射日光に当てても大丈夫ですか？", answer: "いいえ、着物は直射日光に当ててはいけません。紫外線により色褪せが起こるためです。必ず日陰で陰干ししてください。室内で行う場合は、カーテンを閉めた部屋で窓を開けて風通しをよくします。衣紋掛けに掛けて吊るすか、畳紙から出して広げるだけでも効果があります。" },
-  { question: "虫干しをしていない着物は買取価格が下がりますか？", answer: "虫干しをしていないこと自体が直接の減額理由にはなりませんが、虫干しを怠った結果としてカビ・虫食い・シミが発生した場合は大幅に査定額が下がります。定期的な虫干しをしている着物は状態が良好に保たれるため、結果として高い買取価格がつきやすいです。" },
+  { question: "虫干しをしていない着物は買取価格が下がりますか？", answer: "虫干しをしていないこと自体が直接の減額理由にはなりませんが、虫干しを怠った結果としてカビ・虫食い・シミが発生した場合は大幅に査定額が下がります。定期的な虫干しをしている着物は状態が良好に保たれるため、結果として高い買取価格がつきやすい傾向があります。" },
   { question: "虫干しの代わりにクリーニングに出した方がいいですか？", answer: "虫干しとクリーニングは目的が異なります。虫干しは湿気を飛ばしてカビや虫害を予防するための日常的なお手入れです。クリーニングは汚れを落とすためのもので、頻繁に行うと生地を傷める可能性があります。日常のお手入れは虫干しで十分で、クリーニングは着用後の汚れがひどい場合や長期保管前に行うのが適切です。" },
 ];
 
@@ -159,7 +159,7 @@ export default function AiringGuidePage() {
         <div className="grid md:grid-cols-3 gap-4">
           <Link href="/articles/mold-removal/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物のカビ取り方法</h3><p className="text-xs text-gray-600">カビが生えてしまった場合の対処法と費用。</p></Link>
           <Link href="/articles/storage-guide/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物の保管方法ガイド</h3><p className="text-xs text-gray-600">桐箪笥・たとう紙・防虫剤の正しい使い方。</p></Link>
-          <Link href="/articles/cleaning-before-selling/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">クリーニングしてから売るべき？</h3><p className="text-xs text-gray-600">売却前のクリーニングの必要性を徹底解説。</p></Link>
+          <Link href="/articles/cleaning-before-selling/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">クリーニングしてから売るべき？</h3><p className="text-xs text-gray-600">売却前のクリーニングの必要性を解説。</p></Link>
         </div>
       </div></section>
 

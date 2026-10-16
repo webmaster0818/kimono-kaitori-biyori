@@ -15,7 +15,7 @@ const faqs = [
   { question: "五つ紋の黒留袖は高く売れますか？", answer: "五つ紋の黒留袖は最も格の高い正礼装ですが、買取市場では需要が限定的です。黒留袖は結婚式で親族の女性が着るものであり、着用機会が少ないためです。一般品で1,000円〜1万円、ブランド品で1万円〜5万円、作家物で5万円〜20万円以上が目安です。" },
   { question: "紋の種類（染め抜き・縫い紋）で買取価格は変わりますか？", answer: "はい、紋の種類によって着物の格が変わるため、買取価格にも影響します。最も格の高い「染め抜き紋（日向紋）」が入った着物は高い評価を受けます。「縫い紋」は染め抜きよりやや格が下がりますが、技術的な価値が認められる場合もあります。「貼り紋」は最も格が低く、買取価格への影響は限定的です。" },
   { question: "紋を消してから売った方が高く売れますか？", answer: "一般的には紋を消す必要はありません。紋消しの費用（5,000円〜1万円程度）をかけても、それ以上に買取価格がアップするケースは稀です。また、紋消しの際に生地が傷むリスクもあります。そのままの状態で査定に出すのがベストです。" },
-  { question: "男性の紋付袴は買い取ってもらえますか？", answer: "はい、男性の紋付袴も買取対象です。特に五つ紋の黒紋付き羽織袴は男性の第一礼装として需要があります。買取相場は一般品で3,000円〜2万円、ブランド品で2万円〜5万円程度です。袴とセットで出すとプラス評価されることが多いです。" },
+  { question: "男性の紋付袴は買い取ってもらえますか？", answer: "はい、男性の紋付袴も買取対象です。特に五つ紋の黒紋付き羽織袴は男性の第一礼装として需要があります。買取相場は一般品で3,000円〜2万円、ブランド品で2万円〜5万円程度です。袴とセットで出すとプラス評価されることが多く見られます。" },
 ];
 
 const articleStructuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png", headline: "紋付き着物の買取相場｜五つ紋・三つ紋・一つ紋の価値の違い", description: "紋付き着物の買取相場を紋の数別に解説。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" }, publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/montsuki/" } };
@@ -100,7 +100,7 @@ export default function MontsukiPage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />家紋入りでも売れるのか</h2>
         <div className="space-y-4 text-sm md:text-base leading-relaxed">
           <p>家紋入りの着物は<strong>買取対象です</strong>。ただし、家紋は各家固有のものであるため、他の方がそのまま着用するのは難しいとされています。このため、紋なしの着物と比べてやや買取価格が下がる傾向があります。</p>
-          <p>しかし、業者側で「紋替え」（既存の紋を消して別の紋を入れる）や「紋消し」を行うことで再販売が可能なため、<strong>家紋入りだからといって売れないわけではありません</strong>。特に高品質な正絹の着物や作家物であれば、家紋があっても高額査定がつくケースは多いです。</p>
+          <p>しかし、業者側で「紋替え」（既存の紋を消して別の紋を入れる）や「紋消し」を行うことで再販売が可能なため、<strong>家紋入りだからといって売れないわけではありません</strong>。特に高品質な正絹の着物や作家物であれば、家紋があっても高額査定がつくケースは多く見られます。</p>
         </div>
         <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
           <p className="text-sm leading-relaxed"><strong className="text-[#6b4c8a]">ポイント：</strong>家紋入りの着物は紋替え・紋消しの費用（5,000円〜1万円程度）を考慮して査定されることがあるため、紋なしに比べてその分だけ減額される傾向です。自分で紋消しをする必要はなく、そのまま査定に出しましょう。</p>
@@ -111,7 +111,7 @@ export default function MontsukiPage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />紋付き着物を高く売るコツ</h2>
         <div className="space-y-5">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ1：着物専門の業者を選ぶ</h3><p className="text-sm text-gray-700">紋付き着物の格や紋の種類を正しく評価できるのは着物専門の査定員です。買取大吉やウリエルを選びましょう。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：紋消しは不要</h3><p className="text-sm text-gray-700">紋消しの費用をかけても、査定額のアップにはつながりにくいです。そのまま査定に出しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：紋消しは不要</h3><p className="text-sm text-gray-700">紋消しの費用をかけても、査定額のアップにはつながりにくい傾向があります。そのまま査定に出しましょう。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：証紙・証明書を添える</h3><p className="text-sm text-gray-700">作家物やブランド品の証紙があれば、紋の有無に関わらず高額査定が期待できます。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：帯や小物とセットで出す</h3><p className="text-sm text-gray-700">留袖と袋帯のセット、紋付袴のフルセットなど、まとめて出すと付加価値がつきます。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：複数業者で見積もり比較</h3><p className="text-sm text-gray-700">紋付き着物の評価は業者によって異なります。ヒカカクの一括比較で最高額を見つけましょう。</p></div>

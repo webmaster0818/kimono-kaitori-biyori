@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "ウリエルの着物買取｜出張買取の評判・口コミを検証",
     description:
-      "ウリエルの出張買取専門の着物買取サービスを徹底検証。口コミ・評判・買取実績を正直にレビュー。",
+      "ウリエルの出張買取専門の着物買取サービスを徹底検証。口コミ・評判・買取実績を公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/uriel/",
     siteName: "着物の買取びより",
     type: "article",
@@ -26,7 +26,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "ウリエルの着物買取｜出張買取の評判・口コミを検証",
   description:
-    "ウリエルの着物買取サービスを徹底検証。運営は株式会社クオーレ。出張買取・催事買取に対応。口コミ・評判を正直にレビュー。",
+    "ウリエルの着物買取サービスを徹底検証。運営は株式会社クオーレ。出張買取・催事買取に対応。口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },

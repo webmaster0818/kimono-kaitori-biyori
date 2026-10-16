@@ -3,17 +3,17 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "着物の証紙とは？見方と査定への影響を徹底解説",
+  title: "着物の証紙とは？見方と査定への影響を解説",
   description:
-    "着物の証紙とは何か、証紙の種類（産地証紙・伝統工芸品マーク）、証紙の見方・読み方、主な産地別証紙一覧、証紙が査定額に与える影響を徹底解説します。",
+    "着物の証紙とは何か、証紙の種類（産地証紙・伝統工芸品マーク）、証紙の見方・読み方、主な産地別証紙一覧、証紙が査定額に与える影響を解説します。",
   alternates: {
     canonical:
       "https://kimonokaitori-biyori.com/articles/certificate-guide/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "着物の証紙とは？見方と査定への影響を徹底解説",
+    title: "着物の証紙とは？見方と査定への影響を解説",
     description:
-      "着物の証紙の種類、見方、主な産地別証紙一覧、査定への影響を徹底解説します。",
+      "着物の証紙の種類、見方、主な産地別証紙一覧、査定への影響を解説します。",
     url: "https://kimonokaitori-biyori.com/articles/certificate-guide/",
     siteName: "着物の買取びより",
     type: "article",
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
 const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
-  headline: "着物の証紙とは？見方と査定への影響を徹底解説",
+  headline: "着物の証紙とは？見方と査定への影響を解説",
   description:
-    "着物の証紙とは何か、証紙の種類、見方・読み方、主な産地別証紙一覧、証紙が査定額に与える影響を徹底解説します。",
+    "着物の証紙とは何か、証紙の種類、見方・読み方、主な産地別証紙一覧、証紙が査定額に与える影響を解説します。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -50,7 +50,7 @@ const faqStructuredData = {
       name: "証紙と落款の違いは何ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "証紙は産地の組合や検査機関が発行する公的な品質証明書で、産地・素材・製法を証明します。落款は作家個人のサイン（印）で、その着物が特定の作家によって作られたことを示します。証紙は産地証明、落款は作家証明と考えるとわかりやすいです。",
+        text: "証紙は産地の組合や検査機関が発行する公的な品質証明書で、産地・素材・製法を証明します。落款は作家個人のサイン（印）で、その着物が特定の作家によって作られたことを示します。証紙は産地証明、落款は作家証明と考えるとわかりやすい傾向があります。",
       },
     },
     {
@@ -157,14 +157,14 @@ export default function CertificateGuidePage() {
             着物の証紙とは？
             <br className="md:hidden" />
             <span className="text-[#6b4c8a]">見方と査定への影響</span>
-            を徹底解説
+            を解説
           </h1>
           <p className="text-gray-600 leading-relaxed">
             着物の「証紙（しょうし）」は、着物の品質を証明する重要な書類です。
             証紙の有無で買取価格が2倍以上変わることもあるため、
             着物を売る際には非常に重要な存在です。
             本記事では、証紙の種類、見方・読み方、主な産地別の証紙一覧、
-            そして証紙が査定額に与える影響まで徹底解説します。
+            そして証紙が査定額に与える影響まで解説します。
           </p>
         </header>
 
@@ -372,7 +372,7 @@ export default function CertificateGuidePage() {
                   <p className="font-medium text-gray-900 text-sm">製法の表示</p>
                   <p className="text-xs text-gray-600 mt-1">
                     「手織り」「手紡ぎ」「手染め」などの表記があるか確認。
-                    手作業による製品は機械織りよりも価値が高いです。
+                    手作業による製品は機械織りよりも価値が高い傾向があります。
                     例：結城紬の「手紡ぎ」「手括り」「地機織り」
                   </p>
                 </div>
@@ -770,7 +770,7 @@ export default function CertificateGuidePage() {
                 産地・素材・製法を証明します。
                 落款は作家個人のサイン（印）で、
                 その着物が特定の作家によって作られたことを示します。
-                証紙は「産地証明」、落款は「作家証明」と考えるとわかりやすいです。
+                証紙は「産地証明」、落款は「作家証明」と考えるとわかりやすい傾向があります。
                 どちらも着物の価値を証明する重要な要素です。
               </div>
             </details>
@@ -917,7 +917,7 @@ export default function CertificateGuidePage() {
                 お役立ち情報
               </span>
               <p className="text-sm font-bold text-gray-900 mt-1 group-hover:text-[#6b4c8a] transition-colors">
-                着物買取の査定基準を徹底解説
+                着物買取の査定基準を解説
               </p>
             </Link>
             <Link

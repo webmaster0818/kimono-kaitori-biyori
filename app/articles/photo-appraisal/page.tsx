@@ -6,7 +6,7 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物の写真査定のやり方ガイド｜撮影のコツと査定精度",
   description:
-    "着物の写真査定のやり方を徹底解説。スマホで撮影するコツ、送るべき写真の枚数、査定精度を上げるポイントを紹介。買取大吉・ウリエル・RECLOなど写真査定に対応したおすすめ業者も比較します。",
+    "着物の写真査定のやり方を解説。スマホで撮影するコツ、送るべき写真の枚数、査定精度を上げるポイントを紹介。買取大吉・ウリエル・RECLOなど写真査定に対応したおすすめ業者も比較します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/photo-appraisal/",
   },
@@ -247,7 +247,7 @@ export default function PhotoAppraisalPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">6. シミ・汚れは隠さず撮る</h3>
-              <p className="text-sm leading-relaxed text-gray-700">シミや汚れを隠して撮影すると、実物査定時に大きなギャップが生まれます。正直に撮影した方が信頼性のある概算額が得られ、後のトラブルも防げます。</p>
+              <p className="text-sm leading-relaxed text-gray-700">シミや汚れを隠して撮影すると、実物査定時に大きなギャップが生まれます。そのまま撮影した方が信頼性のある概算額が得られ、後のトラブルも防げます。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">7. テキストで情報を補足する</h3>

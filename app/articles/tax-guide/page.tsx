@@ -126,7 +126,7 @@ export default function TaxGuidePage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />注意点とアドバイス</h2>
         <div className="space-y-4">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">売却の記録を残しておく</h3><p className="text-sm leading-relaxed text-gray-700">万が一のために、売却した着物の内容、売却額、業者名、日付などの記録を残しておきましょう。確定申告が必要になった場合に役立ちます。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">不安な場合は税理士に相談</h3><p className="text-sm leading-relaxed text-gray-700">高額な着物を売却する場合や、税金について不安がある場合は、税理士に相談することをおすすめします。初回無料相談を受け付けている税理士事務所も多いです。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">不安な場合は税理士に相談</h3><p className="text-sm leading-relaxed text-gray-700">高額な着物を売却する場合や、税金について不安がある場合は、税理士に相談することをおすすめします。初回無料相談を受け付けている税理士事務所も多く見られます。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">本記事は一般的な情報提供です</h3><p className="text-sm leading-relaxed text-gray-700">本記事の内容は一般的な税務情報の提供を目的としたものであり、個別の税務アドバイスではありません。具体的な税務判断については、税理士または最寄りの税務署にご相談ください。</p></div>
         </div>
       </div></section>

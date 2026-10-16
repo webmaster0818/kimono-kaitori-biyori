@@ -7,13 +7,13 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "おたからやの着物買取｜フランチャイズ店の実力を検証",
   description:
-    "おたからやの着物買取サービスを徹底検証。世界約1,880店舗超のフランチャイズ展開、査定の質、買取価格の相場、良い口コミ・悪い口コミを正直にレビュー。振袖・訪問着・帯の買取を検討中の方必見。",
+    "おたからやの着物買取サービスを徹底検証。世界約1,880店舗超のフランチャイズ展開、査定の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/otakaraya/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "おたからやの着物買取｜フランチャイズ店の実力を検証",
-    description: "おたからやの着物買取を徹底検証。世界約1,880店超のFC展開と口コミを正直にレビュー。",
+    description: "おたからやの着物買取を徹底検証。世界約1,880店超のFC展開と口コミを公開情報と実売データにもとづいてレビュー。",
     url: "https://kimonokaitori-biyori.com/reviews/otakaraya/",
     siteName: "着物の買取びより",
     type: "article",
@@ -24,7 +24,7 @@ const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "おたからやの着物買取｜フランチャイズ店の実力を検証",
-  description: "おたからやの着物買取を徹底検証。世界約1,880店超のFC展開と口コミを正直にレビュー。",
+  description: "おたからやの着物買取を徹底検証。世界約1,880店超のFC展開と口コミを公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
   dateModified: "2026-07-07",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
@@ -122,7 +122,7 @@ export default function OtakarayaReviewPage() {
           <div className="space-y-6">
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
               <h3 className="font-bold text-gray-900 mb-2">1. 世界約1,880店舗超の広いネットワーク</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">おたからやは世界に約1,880店舗以上を展開しており、国内でも多くの地域に店舗があるため、自宅や職場の近くに店舗がある可能性が高いです。気軽に持ち込みで査定を依頼できる利便性は大きなメリットです。</p>
+              <p className="text-sm text-gray-600 leading-relaxed">おたからやは世界に約1,880店舗以上を展開しており、国内でも多くの地域に店舗があるため、自宅や職場の近くに店舗がある可能性があります。気軽に持ち込みで査定を依頼できる利便性は大きなメリットです。</p>
             </div>
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
               <h3 className="font-bold text-gray-900 mb-2">2. 貴金属・ブランド品との同時査定</h3>
@@ -219,7 +219,7 @@ export default function OtakarayaReviewPage() {
           <div className="space-y-4">
             <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
               <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★☆☆☆</span><span className="text-xs text-gray-500">50代女性・千葉県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">近所のおたからやに着物を持ち込みましたが、スタッフの方が着物にあまり詳しくなく、「本部に確認します」と言われて待たされました。結局、査定額も他社より低く、専門性の差を感じました。フランチャイズなので店舗による当たり外れが大きいです。</p>
+              <p className="text-gray-700 text-sm leading-relaxed">近所のおたからやに着物を持ち込みましたが、スタッフの方が着物にあまり詳しくなく、「本部に確認します」と言われて待たされました。結局、査定額も他社より低く、専門性の差を感じました。フランチャイズなので店舗による当たり外れが大きくなります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
               <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★☆☆☆</span><span className="text-xs text-gray-500">60代女性・北海道</span></div>
@@ -261,7 +261,7 @@ export default function OtakarayaReviewPage() {
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">こんな人におすすめ</h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <ul className="space-y-4 text-sm text-gray-700">
-              <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">1</span><div><span className="font-bold text-gray-900">近くの店舗で気軽に査定してもらいたい方</span><p className="mt-1 text-gray-600">世界約1,880店超（国内にも多数）で、近所に店舗がある可能性が高いです。</p></div></li>
+              <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">1</span><div><span className="font-bold text-gray-900">近くの店舗で気軽に査定してもらいたい方</span><p className="mt-1 text-gray-600">世界約1,880店超（国内にも多数）で、近所に店舗がある可能性があります。</p></div></li>
               <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">2</span><div><span className="font-bold text-gray-900">貴金属・ブランド品と着物をまとめて売りたい方</span><p className="mt-1 text-gray-600">特に貴金属の査定に強いので、一緒に持ち込むと便利です。</p></div></li>
               <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">3</span><div><span className="font-bold text-gray-900">まずは査定額の目安を知りたい方</span><p className="mt-1 text-gray-600">無料で査定してもらえるので、他社との比較材料にできます。</p></div></li>
               <li className="flex items-start gap-3"><span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#6b4c8a] text-white text-xs shrink-0 mt-0.5">4</span><div><span className="font-bold text-gray-900">着物に詳しいオーナーの店舗を知っている方</span><p className="mt-1 text-gray-600">口コミで評判の良い店舗なら、専門性の高い査定が期待できます。</p></div></li>

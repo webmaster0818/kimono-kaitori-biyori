@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "【2026年最新】丹後ちりめんの買取相場｜後染め白生地の特徴・証紙と高く売るコツ",
   description:
-    "丹後ちりめん（たんごちりめん）の買取相場を徹底解説。京都府北部・丹後地方の後染め用白生地、シボと強撚糸の特徴、丹後織物工業組合の検査・証紙の見方、買取で価値を左右するポイントを買取の視点でまとめました。",
+    "丹後ちりめん（たんごちりめん）の買取相場を解説。京都府北部・丹後地方の後染め用白生地、シボと強撚糸の特徴、丹後織物工業組合の検査・証紙の見方、買取で価値を左右するポイントを買取の視点でまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/tango-chirimen/",
   },

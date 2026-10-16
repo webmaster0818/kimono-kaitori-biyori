@@ -28,7 +28,7 @@ const faqs = [
   {
     question: "シミや汚れのある着物でも寄付できますか？",
     answer:
-      "団体によって異なります。リサイクル目的の団体はシミ・汚れがあっても受け入れてくれる場合がありますが、着用目的（留学生の着付け体験など）の団体は美品のみ受け入れるケースが多いです。事前に確認しましょう。",
+      "団体によって異なります。リサイクル目的の団体はシミ・汚れがあっても受け入れてくれる場合がありますが、着用目的（留学生の着付け体験など）の団体は美品のみ受け入れるケースが多く見られます。事前に確認しましょう。",
   },
   {
     question: "寄付する前に買取査定を受けた方がよいですか？",
@@ -290,7 +290,7 @@ export default function DonationPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">知人・友人に譲る</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物に興味のある知人や友人に譲るのも一つの方法。着付け教室に通っている方や、お茶・お花を習っている方に喜ばれることが多いです。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物に興味のある知人や友人に譲るのも一つの方法。着付け教室に通っている方や、お茶・お花を習っている方に喜ばれることが多く見られます。</p>
             </div>
           </div>
         </div>

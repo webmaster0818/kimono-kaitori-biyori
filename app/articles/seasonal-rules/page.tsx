@@ -6,14 +6,14 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "着物の季節ごとの着分けルール｜袷・単衣・薄物の時期",
   description:
-    "着物の季節による着分けルールを徹底解説。袷（10月〜5月）、単衣（6月・9月）、薄物（7月〜8月）の時期と素材の違い、季節に合った帯や小物の選び方、買取相場への影響まで詳しく紹介します。",
+    "着物の季節による着分けルールを解説。袷（10月〜5月）、単衣（6月・9月）、薄物（7月〜8月）の時期と素材の違い、季節に合った帯や小物の選び方、買取相場への影響まで詳しく紹介します。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/seasonal-rules/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物の季節ごとの着分けルール｜袷・単衣・薄物の時期",
     description:
-      "袷・単衣・薄物の着分け時期と素材の違いを徹底解説。季節に合った着物選びの基本。",
+      "袷・単衣・薄物の着分け時期と素材の違いを解説。季節に合った着物選びの基本。",
     url: "https://kimonokaitori-biyori.com/articles/seasonal-rules/",
     siteName: "着物の買取びより",
     type: "article",
@@ -30,7 +30,7 @@ const faqs = [
   {
     question: "季節の着分けルールは絶対に守らなければなりませんか？",
     answer:
-      "伝統的な着分けルールは目安であり、現代では気候変動もあって柔軟に考える方が増えています。特に近年は5月でも夏日になることがあり、早めに単衣に切り替える方も多いです。フォーマルな場面では伝統的なルールに従った方が無難ですが、カジュアルな場面では体感温度に合わせて自由に選んで問題ありません。",
+      "伝統的な着分けルールは目安であり、現代では気候変動もあって柔軟に考える方が増えています。特に近年は5月でも夏日になることがあり、早めに単衣に切り替える方も多く見られます。フォーマルな場面では伝統的なルールに従った方が無難ですが、カジュアルな場面では体感温度に合わせて自由に選んで問題ありません。",
   },
   {
     question: "季節外れの着物でも買取してもらえますか？",
@@ -54,7 +54,7 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物の季節ごとの着分けルール｜袷・単衣・薄物の時期",
   description:
-    "袷・単衣・薄物の着分け時期と素材の違いを徹底解説。季節に合った着物選びの基本。",
+    "袷・単衣・薄物の着分け時期と素材の違いを解説。季節に合った着物選びの基本。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },

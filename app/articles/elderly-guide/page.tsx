@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "着物買取 高齢者向けガイド｜80代の祖母でも安心な業者の選び方",
   description:
-    "高齢者が安心して着物買取を利用するための完全ガイド。80代の祖母でも安心できる出張買取業者の選び方、トラブル防止策、女性査定員対応、クーリングオフ制度まで詳しく解説。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクを比較。",
+    "高齢者が安心して着物買取を利用するためのガイド。80代の祖母でも安心できる出張買取業者の選び方、トラブル防止策、女性査定員対応、クーリングオフ制度まで詳しく解説。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクを比較。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/elderly-guide/",
   },
@@ -148,7 +148,7 @@ export default function ElderlyGuidePage() {
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              高齢のご家族が着物を売りたいとお考えの方へ。安心して利用できる買取業者の選び方、悪質業者の見分け方、女性査定員対応、クーリングオフ制度まで、高齢者ならではの注意点を網羅した完全ガイドです。
+              高齢のご家族が着物を売りたいとお考えの方へ。安心して利用できる買取業者の選び方、悪質業者の見分け方、女性査定員対応、クーリングオフ制度まで、高齢者ならではの注意点を網羅したガイドです。
             </p>
             <p className="mt-3 text-xs text-gray-400">
               最終更新：2026年5月17日
@@ -243,7 +243,7 @@ export default function ElderlyGuidePage() {
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
               <h3 className="font-bold text-red-700 mb-2 text-base">手口2：着物を口実にした貴金属の押し買い</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                「着物を見せてほしい」と言って訪問し、着物は安値で査定しながら「他に金やプラチナのアクセサリーはないか」と強引に貴金属も買い取ろうとする手口です。着物以外の品物を見せるよう要求する業者は悪質業者の可能性が高いです。
+                「着物を見せてほしい」と言って訪問し、着物は安値で査定しながら「他に金やプラチナのアクセサリーはないか」と強引に貴金属も買い取ろうとする手口です。着物以外の品物を見せるよう要求する業者は悪質業者の可能性があります。
               </p>
             </div>
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
@@ -280,7 +280,7 @@ export default function ElderlyGuidePage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">2. 女性査定員を指名できる</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                一人暮らしの高齢女性にとって、見知らぬ男性を自宅に上げることに不安を感じる方は多いです。ウリエルや買取大吉は女性査定員の指名が可能で、安心して出張買取を利用できます。
+                一人暮らしの高齢女性にとって、見知らぬ男性を自宅に上げることに不安を感じる方は多く見られます。ウリエルや買取大吉は女性査定員の指名が可能で、安心して出張買取を利用できます。
               </p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
@@ -298,7 +298,7 @@ export default function ElderlyGuidePage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">5. 口コミ・評判が良い</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                Googleの口コミやSNSでの評判を確認しましょう。特に「対応が丁寧だった」「高齢の母でも安心できた」といった口コミがある業者は信頼性が高いです。<Link href="/ranking/" className="text-[#6b4c8a] hover:underline">おすすめランキング</Link>も参考にしてください。
+                Googleの口コミやSNSでの評判を確認しましょう。特に「対応が丁寧だった」「高齢の母でも安心できた」といった口コミがある業者は信頼性が高い傾向があります。<Link href="/ranking/" className="text-[#6b4c8a] hover:underline">おすすめランキング</Link>も参考にしてください。
               </p>
             </div>
           </div>
@@ -491,7 +491,7 @@ export default function ElderlyGuidePage() {
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#6b4c8a] text-white flex items-center justify-center font-bold text-lg">3</div>
               <div>
                 <h3 className="font-bold text-[#6b4c8a] mb-1 text-base">査定員が訪問・査定</h3>
-                <p className="text-sm text-gray-700">約束の日時に査定員が訪問します。本人確認書類（運転免許証・健康保険証・マイナンバーカード等）を用意しておきましょう。査定は1時間程度で終わることが多いです。</p>
+                <p className="text-sm text-gray-700">約束の日時に査定員が訪問します。本人確認書類（運転免許証・健康保険証・マイナンバーカード等）を用意しておきましょう。査定は1時間程度で終わることが多く見られます。</p>
               </div>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5 flex gap-4">
@@ -615,7 +615,7 @@ export default function ElderlyGuidePage() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link href="/articles/trouble-prevention/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物買取トラブル防止ガイド</h3>
-              <p className="text-xs text-gray-600">悪質業者の手口と対策を徹底解説。</p>
+              <p className="text-xs text-gray-600">悪質業者の手口と対策を解説。</p>
             </Link>
             <Link href="/articles/estate-kimono/" className="card hover:border-[#6b4c8a] transition-colors group block">
               <h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">遺品整理の着物買取ガイド</h3>

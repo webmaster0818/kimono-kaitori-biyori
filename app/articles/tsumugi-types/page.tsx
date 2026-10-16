@@ -7,11 +7,11 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "紬の種類と買取相場まとめ｜大島紬・結城紬・塩沢紬・牛首紬",
   description:
-    "紬の種類と買取相場を徹底解説。大島紬・結城紬・塩沢紬・牛首紬・久米島紬など主要な紬の特徴・産地・買取価格をまとめました。証紙の見分け方も紹介。",
+    "紬の種類と買取相場を解説。大島紬・結城紬・塩沢紬・牛首紬・久米島紬など主要な紬の特徴・産地・買取価格をまとめました。証紙の見分け方も紹介。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/tsumugi-types/" },
   openGraph: { images: ["/og-default.png"],
     title: "紬の種類と買取相場まとめ｜大島紬・結城紬・塩沢紬・牛首紬",
-    description: "紬の種類と買取相場を徹底解説。大島紬・結城紬・塩沢紬・牛首紬の特徴と買取価格。",
+    description: "紬の種類と買取相場を解説。大島紬・結城紬・塩沢紬・牛首紬の特徴と買取価格。",
     url: "https://kimonokaitori-biyori.com/articles/tsumugi-types/",
     siteName: "着物の買取びより", type: "article", locale: "ja_JP",
   },
@@ -28,7 +28,7 @@ const faqs = [
 const articleStructuredData = {
   "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "紬の種類と買取相場まとめ｜大島紬・結城紬・塩沢紬・牛首紬",
-  description: "紬の種類と買取相場を徹底解説。大島紬・結城紬・塩沢紬・牛首紬の特徴と買取価格。",
+  description: "紬の種類と買取相場を解説。大島紬・結城紬・塩沢紬・牛首紬の特徴と買取価格。",
   datePublished: "2026-04-26", dateModified: "2026-04-26",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
@@ -60,7 +60,7 @@ export default function TsumugiTypesPage() {
               <span className="block mt-2 text-lg md:text-2xl text-gray-700">大島紬・結城紬・塩沢紬・牛首紬</span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              日本を代表する紬の着物について、種類・産地・特徴・買取相場を徹底解説。大島紬・結城紬・塩沢紬・牛首紬・久米島紬など主要な紬の価値と、高く売るためのポイントをまとめました。
+              日本を代表する紬の着物について、種類・産地・特徴・買取相場を解説。大島紬・結城紬・塩沢紬・牛首紬・久米島紬など主要な紬の価値と、高く売るためのポイントをまとめました。
             </p>
             <p className="mt-3 text-xs text-gray-400">最終更新：2026年4月26日</p>
           </div>

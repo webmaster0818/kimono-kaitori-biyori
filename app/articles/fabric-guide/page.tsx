@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "着物の素材の見分け方｜正絹・化繊・ウール・木綿の特徴と買取価格",
   description:
-    "着物の素材（正絹・化繊・ウール・木綿・麻）の見分け方を徹底解説。素材ごとの特徴、手触り、燃焼テスト、買取価格の違いをまとめました。素材によって買取価格が大きく変わる理由もわかります。",
+    "着物の素材（正絹・化繊・ウール・木綿・麻）の見分け方を解説。素材ごとの特徴、手触り、燃焼テスト、買取価格の違いをまとめました。素材によって買取価格が大きく変わる理由もわかります。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/fabric-guide/" },
   openGraph: { images: ["/og-default.png"],
     title: "着物の素材の見分け方｜正絹・化繊・ウール・木綿の特徴と買取価格",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const faqs = [
   { question: "正絹とポリエステルの見分け方を教えてください", answer: "最も確実な方法は手触りです。正絹はしっとりとした柔らかい手触りで、肌に吸い付くような感触があります。ポリエステルはツルツルとした滑りやすい手触りで、静電気が起きやすいのが特徴です。また、正絹は燃やすと毛髪が焦げるような臭いがし、灰はもろく崩れます。ポリエステルは溶けて固まり、黒い塊になります。ただし、最近の高品質ポリエステルは見分けが難しいため、判断に迷ったら専門の査定員に見てもらいましょう。" },
-  { question: "化繊（ポリエステル）の着物は買い取ってもらえますか？", answer: "化繊の着物は買取対象外の業者が多いです。買取大吉やウリエルなどの大手業者でも、ポリエステルの着物は値段がつかないか、数百円程度の査定になることがほとんどです。ただし、有名デザイナーのブランド化繊着物や、新品・未使用の化繊着物であれば買い取ってもらえる場合もあります。" },
+  { question: "化繊（ポリエステル）の着物は買い取ってもらえますか？", answer: "化繊の着物は買取対象外の業者が多く見られます。買取大吉やウリエルなどの大手業者でも、ポリエステルの着物は値段がつかないか、数百円程度の査定になることがほとんどです。ただし、有名デザイナーのブランド化繊着物や、新品・未使用の化繊着物であれば買い取ってもらえる場合もあります。" },
   { question: "ウールの着物は買取対象になりますか？", answer: "ウールの着物は買取対象になることがありますが、買取価格は一般的に低めです。ウール着物の買取相場は数百円〜2,000円程度が一般的です。ただし、有名産地のウール着物（米沢織など）やデザイン性の高いものは、やや高い査定がつくこともあります。" },
   { question: "着物の素材がわからない場合はどうすればいいですか？", answer: "素材がわからない場合は、そのまま買取業者に査定を依頼しましょう。買取大吉やウリエルなどの専門業者であれば、査定員が素材を正確に判別してくれます。自分で判断して「化繊だから売れない」と思い込むのはもったいないです。実は正絹だったというケースもあります。" },
   { question: "麻の着物の買取相場はどのくらいですか？", answer: "麻の着物は夏着物として需要があり、産地物であれば比較的高い買取価格がつきます。越後上布（新潟）や宮古上布（沖縄）などの伝統的な麻着物は5万円〜30万円以上の買取価格になることもあります。一般的な麻着物でも3,000円〜1万円程度の査定が期待できます。" },
@@ -117,7 +117,7 @@ export default function FabricGuidePage() {
           <div className="space-y-5">
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">1. 正絹（しょうけん）</h3>
-              <p className="text-sm leading-relaxed text-gray-700 mb-3">蚕の繭から作られる天然の絹糸で織られた着物。最も高級な素材であり、着物の中でも最も価値が高いです。しっとりとした手触り、美しい光沢、軽くて暖かいのが特徴です。フォーマルからカジュアルまであらゆる種類の着物に使われます。</p>
+              <p className="text-sm leading-relaxed text-gray-700 mb-3">蚕の繭から作られる天然の絹糸で織られた着物。最も高級な素材であり、着物の中でも最も価値が高い傾向があります。しっとりとした手触り、美しい光沢、軽くて暖かいのが特徴です。フォーマルからカジュアルまであらゆる種類の着物に使われます。</p>
               <div className="grid grid-cols-3 gap-2 text-xs">
                 <div className="bg-[#faf8f5] rounded p-2"><p className="text-gray-500">手触り</p><p className="font-semibold">しっとり柔らか</p></div>
                 <div className="bg-[#faf8f5] rounded p-2"><p className="text-gray-500">光沢</p><p className="font-semibold">上品な光沢あり</p></div>
@@ -194,7 +194,7 @@ export default function FabricGuidePage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">方法3：タグ・ラベルを確認する</h3>
-              <p className="text-sm leading-relaxed text-gray-700">着物の衿先や裏地に素材表示のタグが縫い付けられていることがあります。「絹100%」「ポリエステル100%」などの表示があれば確実です。ただし、古い着物にはタグがないことも多いです。</p>
+              <p className="text-sm leading-relaxed text-gray-700">着物の衿先や裏地に素材表示のタグが縫い付けられていることがあります。「絹100%」「ポリエステル100%」などの表示があれば確実です。ただし、古い着物にはタグがないことも多く見られます。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">方法4：証紙を確認する</h3>

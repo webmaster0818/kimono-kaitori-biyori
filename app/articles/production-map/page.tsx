@@ -14,7 +14,7 @@ const faqs = [
   { question: "着物の産地はどうやって見分けますか？", answer: "最も確実な方法は証紙を確認することです。産地の組合が発行する証紙には産地名・製法・素材が記載されています。証紙がない場合でも、買取大吉やウリエルなど着物専門の査定員なら生地の質感や織り方から産地を判断できることがあります。" },
   { question: "産地によって買取額はどのくらい違いますか？", answer: "産地によって買取額は大きく異なります。例えば同じ紬でも、大島紬（1万円〜15万円）と十日町紬（1,000円〜5,000円）では10倍以上の差があります。重要無形文化財に指定された産地の着物は特に高額になります。" },
   { question: "伝統的工芸品の着物は高く売れますか？", answer: "はい、経済産業大臣が指定する伝統的工芸品の着物は高い価値があります。伝統マーク（伝の字を丸で囲んだマーク）入りの証紙があると、産地と品質が保証され、高額査定が期待できます。" },
-  { question: "沖縄の着物は高く売れますか？", answer: "はい、沖縄の着物は非常に高い価値を持つものが多いです。宮古上布・久米島紬は重要無形文化財に指定されており、芭蕉布や琉球紅型も高額買取が期待できます。沖縄の伝統織物は生産量が少ないため希少性が高いです。" },
+  { question: "沖縄の着物は高く売れますか？", answer: "はい、沖縄の着物は非常に高い価値を持つものが多く見られます。宮古上布・久米島紬は重要無形文化財に指定されており、芭蕉布や琉球紅型も高額買取が期待できます。沖縄の伝統織物は生産量が少ないため希少性が高い傾向があります。" },
   { question: "産地証紙がない場合はどうすればよいですか？", answer: "証紙がなくても買取は可能です。ただし証紙がある場合と比べて査定額は2〜5割程度下がる傾向があります。たとう紙の中やタンスの引き出しに証紙が紛れていないか確認しましょう。見つからない場合は、買取大吉やウリエルなど着物専門の業者に査定を依頼しましょう。" },
 ];
 
@@ -126,7 +126,7 @@ export default function ProductionMapPage() {
         <div className="space-y-4">
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">伝統マーク証紙</h3><p className="text-sm leading-relaxed text-gray-700">経済産業大臣が指定する伝統的工芸品には「伝統マーク」（伝の字を丸で囲んだマーク）入りの証紙が付きます。この証紙がある着物は産地と伝統技法が保証されています。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">産地組合の証紙</h3><p className="text-sm leading-relaxed text-gray-700">各産地の織物組合が発行する独自の証紙もあります。大島紬の地球印（奄美）・旗印（鹿児島）、西陣織の証紙番号、博多織の金印・銀印などが代表例。産地と製法の特定に使われます。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">証紙の保管場所</h3><p className="text-sm leading-relaxed text-gray-700">証紙はたとう紙の中に挟まっていることが多いです。タンスの引き出しの底や、着物を購入した際の箱の中に入っていることもあります。査定前に必ず確認しましょう。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">証紙の保管場所</h3><p className="text-sm leading-relaxed text-gray-700">証紙はたとう紙の中に挟まっていることが多く見られます。タンスの引き出しの底や、着物を購入した際の箱の中に入っていることもあります。査定前に必ず確認しましょう。</p></div>
         </div>
       </div></section>
 

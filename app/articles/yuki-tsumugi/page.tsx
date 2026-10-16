@@ -7,7 +7,7 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "結城紬の買取相場と高く売るコツ【重要無形文化財の価値】",
   description:
-    "結城紬の買取相場を亀甲の細かさ（80・100・160・200亀甲）別に徹底解説。本場結城紬は5万〜10万円、作家物は10万円超も。証紙の「結」マークの見方や高く売るための5つのポイントをまとめました。",
+    "結城紬の買取相場を亀甲の細かさ（80・100・160・200亀甲）別に解説。本場結城紬は5万〜10万円、作家物は10万円超も。証紙の「結」マークの見方や高く売るための5つのポイントをまとめました。",
   alternates: {
     canonical:
       "https://kimonokaitori-biyori.com/articles/yuki-tsumugi/",
@@ -161,7 +161,7 @@ export default function YukiTsumugiPage() {
               <span className="text-gradient">結城紬の買取相場</span>
               <br className="md:hidden" />
               <span className="block mt-2 text-lg md:text-2xl text-gray-700">
-                高く売るコツを徹底解説
+                高く売るコツを解説
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">

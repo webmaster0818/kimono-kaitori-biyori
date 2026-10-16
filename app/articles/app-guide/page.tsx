@@ -7,11 +7,11 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "着物買取アプリおすすめ比較｜スマホで完結する売り方ガイド",
   description:
-    "着物をスマホアプリで売りたい方向けの完全ガイド。メルカリ・ヤフオク・ラクマなどのフリマアプリと、買取業者のオンライン査定アプリを比較。スマホだけで着物を売る方法、撮影のコツ、手数料比較を解説。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクも紹介。",
+    "着物をスマホアプリで売りたい方向けのガイド。メルカリ・ヤフオク・ラクマなどのフリマアプリと、買取業者のオンライン査定アプリを比較。スマホだけで着物を売る方法、撮影のコツ、手数料比較を解説。買取大吉・ウリエル・RECLO・ティファナ・ヒカカクも紹介。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/app-guide/" },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取アプリおすすめ比較｜スマホで完結する売り方ガイド",
-    description: "スマホで着物を売る方法を完全ガイド。フリマアプリと買取業者アプリの比較も。",
+    description: "スマホで着物を売る方法をガイド。フリマアプリと買取業者アプリの比較も。",
     url: "https://kimonokaitori-biyori.com/articles/app-guide/",
     siteName: "着物の買取びより", type: "article", locale: "ja_JP",
   },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const faqs = [
   { question: "着物をスマホアプリだけで売ることは可能ですか？", answer: "はい、可能です。メルカリやラクマなどのフリマアプリを使えば、スマホで写真を撮影・出品・購入者とのやり取り・発送手続きまですべて完結できます。また、RECLOのオンライン査定もスマホで写真を送るだけで概算査定額がわかるため、宅配買取の申し込みまでスマホで完結します。" },
-  { question: "着物の出品に最適なフリマアプリはどれですか？", answer: "カジュアルな着物や普段着はメルカリがおすすめです。ユーザー数が多く、若い世代を中心に着物を気軽に楽しみたい方からの需要があります。高級着物や作家物はヤフオクの方が高値がつきやすいです。オークション形式でコレクター同士が競り合うため、価格が上がりやすい傾向にあります。" },
+  { question: "着物の出品に最適なフリマアプリはどれですか？", answer: "カジュアルな着物や普段着はメルカリがおすすめです。ユーザー数が多く、若い世代を中心に着物を気軽に楽しみたい方からの需要があります。高級着物や作家物はヤフオクの方が高値がつきやすい傾向があります。オークション形式でコレクター同士が競り合うため、価格が上がりやすい傾向にあります。" },
   { question: "フリマアプリで着物を売る際の手数料はいくらですか？", answer: "メルカリは販売価格の10%、ヤフオクは落札価格の10%（Yahoo!プレミアム会員は8.8%）、ラクマは販売価格の6%が手数料として差し引かれます。これに加えて送料（出品者負担の場合）もかかります。着物1枚の場合、送料は700円〜1,200円程度です。" },
   { question: "買取業者のアプリやオンライン査定と、フリマアプリはどちらがお得ですか？", answer: "フリマアプリは買取業者より高く売れる可能性がありますが、手数料・送料・手間を考慮する必要があります。例えば5,000円で売れた着物は、手数料500円+送料1,000円で実質受取額は3,500円。一方、買取業者なら手数料・送料無料で3,000円〜4,000円の査定額がつく場合もあります。高額着物ほどフリマアプリが有利、安価な着物ほど買取業者が効率的です。" },
   { question: "着物買取で使えるLINE査定はどの業者が対応していますか？", answer: "ウリエルや買取大吉がLINE査定に対応しています。LINEで着物の写真を送るだけで概算査定額を教えてもらえるため、出品前の参考価格を知るのに便利です。LINE査定は無料で、査定後に買取を断ることも自由です。詳しくは当サイトのLINE査定ガイドもご覧ください。" },
@@ -28,7 +28,7 @@ const faqs = [
 const articleStructuredData = {
   "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取アプリおすすめ比較｜スマホで完結する売り方ガイド",
-  description: "スマホで着物を売る方法を完全ガイド。フリマアプリと買取業者アプリの比較も。",
+  description: "スマホで着物を売る方法をガイド。フリマアプリと買取業者アプリの比較も。",
   datePublished: "2026-05-17", dateModified: "2026-05-17",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
@@ -218,7 +218,7 @@ export default function AppGuidePage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">3. シミ・汚れは隠さず撮る</h3>
-              <p className="text-sm leading-relaxed text-gray-700">状態を正直に記録することで、トラブルを防ぎ信頼性が増します。査定員にとっても状態の正確な把握は適正査定につながります。</p>
+              <p className="text-sm leading-relaxed text-gray-700">状態を正確に記録することで、トラブルを防ぎ信頼性が増します。査定員にとっても状態の正確な把握は適正査定につながります。</p>
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">4. 背景はシンプルに</h3>
@@ -334,7 +334,7 @@ export default function AppGuidePage() {
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <h3 className="font-bold text-yellow-700 mb-2 text-base">返品トラブルの防止策</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                「実物と色が違う」「シミがあるとは思わなかった」といったトラブルを防ぐために、商品説明には状態を正直に記載し、シミや汚れの写真も載せましょう。サイズ（身丈・裄丈・袖丈・前幅・後幅）の実測値も記載必須です。<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] hover:underline">トラブル防止ガイド</Link>もチェック。
+                「実物と色が違う」「シミがあるとは思わなかった」といったトラブルを防ぐために、商品説明には状態を正確に記載し、シミや汚れの写真も載せましょう。サイズ（身丈・裄丈・袖丈・前幅・後幅）の実測値も記載必須です。<Link href="/articles/trouble-prevention/" className="text-[#6b4c8a] hover:underline">トラブル防止ガイド</Link>もチェック。
               </p>
             </div>
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">

@@ -6,7 +6,7 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "人間国宝の着物一覧｜作家別の買取相場と見分け方",
   description:
-    "人間国宝（重要無形文化財保持者）の着物作家一覧と買取相場を徹底解説。友禅・紬・型染め・織りなど分野別に代表的な人間国宝を紹介。作品の見分け方、証紙・落款の確認方法、高額買取のポイントまで詳しく解説します。",
+    "人間国宝（重要無形文化財保持者）の着物作家一覧と買取相場を解説。友禅・紬・型染め・織りなど分野別に代表的な人間国宝を紹介。作品の見分け方、証紙・落款の確認方法、高額買取のポイントまで詳しく解説します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/living-national-treasure/" },
   openGraph: { images: ["/og-default.png"], title: "人間国宝の着物一覧｜作家別の買取相場と見分け方", description: "人間国宝の着物作家一覧と買取相場。作品の見分け方も解説。", url: "https://kimonokaitori-biyori.com/articles/living-national-treasure/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
@@ -144,7 +144,7 @@ export default function LivingNationalTreasurePage() {
       <section className="py-10 section-light"><div className="max-w-4xl mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />関連ページ</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/articles/certificate-guide/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">証紙・証明書ガイド</h3><p className="text-xs text-gray-600">証紙の種類と見方を徹底解説。買取価格への影響も。</p></Link>
+          <Link href="/articles/certificate-guide/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">証紙・証明書ガイド</h3><p className="text-xs text-gray-600">証紙の種類と見方を解説。買取価格への影響も。</p></Link>
           <Link href="/articles/appraisal-criteria/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">査定基準ガイド</h3><p className="text-xs text-gray-600">着物の査定で見られるポイントを詳しく解説。</p></Link>
           <Link href="/articles/production-map/" className="card hover:border-[#6b4c8a] transition-colors group block"><h3 className="font-bold text-[#6b4c8a] group-hover:text-[#5a3d75] mb-2 text-sm">着物の産地マップ</h3><p className="text-xs text-gray-600">全国の着物産地を地図で紹介。産地ごとの特徴と相場。</p></Link>
         </div>

@@ -4,15 +4,15 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "着物のクリーニングは売る前にすべき？査定額への影響を解説",
-  description: "着物を売る前にクリーニングすべきかどうかを徹底解説。クリーニング費用と査定額アップの関係、クリーニングが逆効果になるケース、売る前にすべき簡単なお手入れ方法を紹介します。",
+  description: "着物を売る前にクリーニングすべきかどうかを解説。クリーニング費用と査定額アップの関係、クリーニングが逆効果になるケース、売る前にすべき簡単なお手入れ方法を紹介します。",
   alternates: { canonical: "https://kimonokaitori-biyori.com/articles/cleaning-before-selling/" },
   openGraph: { images: ["/og-default.png"], title: "着物のクリーニングは売る前にすべき？査定額への影響を解説", description: "着物を売る前のクリーニングは必要？費用と査定額の関係を解説。", url: "https://kimonokaitori-biyori.com/articles/cleaning-before-selling/", siteName: "着物の買取びより", type: "article", locale: "ja_JP" },
 };
 
 const faqs = [
-  { question: "着物を売る前にクリーニングに出すべきですか？", answer: "一般的には、売る前のクリーニングは不要です。クリーニング費用（5,000円〜1万円以上）に見合うだけ査定額がアップするケースは稀で、結果的に手取りが減ってしまうことが多いです。買取業者は自社でクリーニングや染み抜きを行う体制を持っているため、そのままの状態で査定に出すのがベストです。" },
+  { question: "着物を売る前にクリーニングに出すべきですか？", answer: "一般的には、売る前のクリーニングは不要です。クリーニング費用（5,000円〜1万円以上）に見合うだけ査定額がアップするケースは稀で、結果的に手取りが減ってしまうことが多く見られます。買取業者は自社でクリーニングや染み抜きを行う体制を持っているため、そのままの状態で査定に出すのがベストです。" },
   { question: "シミがある着物はクリーニングしてから売った方がいいですか？", answer: "シミがある場合でも、基本的にはクリーニングせずそのまま査定に出すことをおすすめします。シミの種類や程度によっては、専門業者のクリーニングでも完全に落ちないことがあり、その場合はクリーニング費用が無駄になります。買取業者にそのまま見せて、査定額を確認した方が合理的です。" },
-  { question: "クリーニングに出すと着物が傷むことはありますか？", answer: "はい、着物のクリーニングはリスクがゼロではありません。特に古い着物や繊細な染めの着物は、クリーニングによって色落ち・色あせ・縮みが発生する可能性があります。また、金糸銀糸を使った帯や着物は、クリーニングで光沢が失われることもあります。売却前のクリーニングはリスクに見合わないことが多いです。" },
+  { question: "クリーニングに出すと着物が傷むことはありますか？", answer: "はい、着物のクリーニングはリスクがゼロではありません。特に古い着物や繊細な染めの着物は、クリーニングによって色落ち・色あせ・縮みが発生する可能性があります。また、金糸銀糸を使った帯や着物は、クリーニングで光沢が失われることもあります。売却前のクリーニングはリスクに見合わないことが多く見られます。" },
   { question: "売る前にできる簡単なお手入れはありますか？", answer: "はい、いくつかの簡単なお手入れで着物の見た目を改善できます。陰干しで風を通す、柔らかいブラシでホコリを払う、たとう紙を新しいものに替えるなどです。これらの作業は着物を傷める心配がなく、査定時の第一印象が良くなります。" },
   { question: "カビが生えた着物はクリーニングしてから売るべきですか？", answer: "カビが生えた着物のクリーニングは費用が高額（1万円〜3万円以上）になることが多く、完全にカビを除去できない場合もあります。まずはそのまま買取業者に査定を依頼し、買取可能か確認しましょう。買取大吉やウリエルなどの大手業者であれば、カビのある着物でも買い取ってくれるケースがあります。" },
 ];
@@ -32,7 +32,7 @@ export default function CleaningBeforeSellingPage() {
       <section className="py-12 md:py-16 section-primary-light" style={{ backgroundImage: "linear-gradient(135deg, rgba(248,243,250,0.45), rgba(252,248,242,0.40)), url('/images/heroes/cleaning-before-selling.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}><div className="max-w-4xl mx-auto px-4"><div className="text-center">
         <span className="inline-block px-4 py-1.5 text-xs font-semibold rounded-full bg-[#6b4c8a] text-white mb-4 tracking-wide">2026年最新版</span>
         <h1 className="text-2xl md:text-4xl font-bold leading-tight mb-4"><span className="text-gradient">着物のクリーニングは売る前にすべき？</span><br className="md:hidden" /><span className="block mt-2 text-lg md:text-2xl text-gray-700">査定額への影響を解説</span></h1>
-        <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">着物を売る前にクリーニングに出すべきか悩む方は多いです。結論から言うと、ほとんどのケースでクリーニングは不要です。その理由と、売る前にすべき簡単なお手入れ方法を解説します。</p>
+        <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">着物を売る前にクリーニングに出すべきか悩む方は多く見られます。ほとんどのケースでクリーニングは不要です。その理由と、売る前にすべき簡単なお手入れ方法を解説します。</p>
         <p className="mt-3 text-xs text-gray-400">最終更新：2026年4月26日</p>
       </div></div></section>
 

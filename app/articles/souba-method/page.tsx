@@ -75,7 +75,7 @@ const dataCatalogStructuredData = {
   "@type": "DataCatalog",
   name: "着物の織物別 実売相場データベース（公開オークション落札相場）",
   description:
-    "着物の産地織物40種について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を、出典・取得日つきで集計した実売データの一覧です。買取業者の査定額ではなく、個人間取引で成立した実売価格の一次データを、推定値・出典不明の数値を排除して手動集計しています。",
+    "着物の産地織物40種について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を、出典・取得日を併記して集計した実売データの一覧です。買取業者の査定額ではなく、個人間取引で成立した実売価格の一次データを、推定値・出典不明の数値を排除して手動集計しています。",
   url: "https://kimonokaitori-biyori.com/articles/souba-method/",
   creator: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
@@ -129,7 +129,7 @@ export default function SoubaMethodPage() {
             なぜ「実売データ」を掲載するのか
           </h2>
           <p className="text-sm md:text-base leading-relaxed mb-4">
-            着物の「買取相場」は、業者や状態・時期によって幅があり、断定が難しい情報です。そこで当サイトでは、買取相場の目安に加えて、<strong>実際に公開オークションで売買された「実売価格（落札相場）」</strong>を、出典つきで掲載しています。実際にいくらで取引が成立しているかという一次情報を示すことで、相場のリアルな水準を把握していただくことを目的としています。
+            着物の「買取相場」は、業者や状態・時期によって幅があり、断定が難しい情報です。そこで当サイトでは、買取相場の目安に加えて、<strong>実際に公開オークションで売買された「実売価格（落札相場）」</strong>を、出典を併記で掲載しています。実際にいくらで取引が成立しているかという一次情報を示すことで、相場のリアルな水準を把握していただくことを目的としています。
           </p>
         </section>
 
@@ -172,7 +172,7 @@ export default function SoubaMethodPage() {
             実売データを掲載している織物
           </h2>
           <p className="text-sm md:text-base leading-relaxed mb-4">
-            以下の各ページに、品目ごとの実売データ（落札相場）を出典・取得日つきで掲載しています。順次拡大しています。
+            以下の各ページに、品目ごとの実売データ（落札相場）を出典・取得日を併記して掲載しています。順次拡大しています。
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {dataPages.map((p) => (
