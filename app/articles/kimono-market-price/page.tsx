@@ -56,7 +56,7 @@ const articleStructuredData = {
   description:
     "着物買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
   datePublished: "2026-04-15",
-  dateModified: "2026-10-15",
+  dateModified: "2026-10-17",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -367,7 +367,7 @@ export default function KimonoMarketPricePage() {
             ※ 上記は正絹素材の場合の目安です。化繊・ウール素材は大幅に安くなります。
           </p>
           <div id="furisode-tomesode" className="bg-white border-2 border-[#6b4c8a] rounded-xl p-5 mt-6">
-            <h3 className="font-bold text-[#6b4c8a] mb-2">振袖・留袖の実売データ（オークションの落札相場）</h3>
+            <h3 className="font-bold text-[#6b4c8a] mb-2">振袖・留袖・訪問着の実売データ（オークションの落札相場）</h3>
             <p className="text-sm text-gray-700 leading-relaxed mb-3">
               上の表は買取価格の目安です。実際に個人間で売買された価格（落札価格）は、当サイトの各ページで集計しています。買取価格は一般に落札価格より低くなります。
             </p>
@@ -391,6 +391,13 @@ export default function KimonoMarketPricePage() {
                     <td className="border border-[#e8ddd0] px-3 py-2">2026年8月24日</td>
                   </tr>
                   <tr>
+                    <td className="border border-[#e8ddd0] px-3 py-2"><Link href="/articles/houmongi/" className="text-[#6b4c8a] underline">訪問着</Link></td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2,588件（直近30日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約5,428円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">550,000円（加賀友禅の作家物）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年8月24日</td>
+                  </tr>
+                  <tr>
                     <td className="border border-[#e8ddd0] px-3 py-2"><Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">黒留袖</Link></td>
                     <td className="border border-[#e8ddd0] px-3 py-2">約140件（直近180日）</td>
                     <td className="border border-[#e8ddd0] px-3 py-2">約3,938円</td>
@@ -401,7 +408,7 @@ export default function KimonoMarketPricePage() {
               </table>
             </div>
             <p className="text-xs text-gray-500 mt-3">
-              出典：オークファン（aucfan.com）・Yahoo!オークション落札相場（振袖はまとめ売りなどを除いた集計）。留袖は家紋入りが多く買い手が限られるため、未使用品でも平均は低めです。区分別の内訳と読み方は<Link href="/articles/furisode/" className="text-[#6b4c8a] underline">振袖の買取相場</Link>・<Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">留袖（黒留袖・色留袖）の買取相場</Link>をご覧ください。
+              出典：オークファン（aucfan.com）・Yahoo!オークション落札相場（振袖はまとめ売りなどを除いた集計）。留袖は家紋入りが多く買い手が限られるため、未使用品でも平均は低めです。区分別の内訳と読み方は<Link href="/articles/furisode/" className="text-[#6b4c8a] underline">振袖の買取相場</Link>・<Link href="/articles/houmongi/" className="text-[#6b4c8a] underline">訪問着の買取相場</Link>・<Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">留袖（黒留袖・色留袖）の買取相場</Link>をご覧ください。
             </p>
           </div>
         </div>
