@@ -56,7 +56,7 @@ const articleStructuredData = {
   description:
     "着物買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
   datePublished: "2026-04-15",
-  dateModified: "2026-10-17",
+  dateModified: "2026-10-18",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -399,16 +399,23 @@ export default function KimonoMarketPricePage() {
                   </tr>
                   <tr>
                     <td className="border border-[#e8ddd0] px-3 py-2"><Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">黒留袖</Link></td>
-                    <td className="border border-[#e8ddd0] px-3 py-2">約140件（直近180日）</td>
-                    <td className="border border-[#e8ddd0] px-3 py-2">約3,938円</td>
-                    <td className="border border-[#e8ddd0] px-3 py-2">43,544円</td>
-                    <td className="border border-[#e8ddd0] px-3 py-2">2026年6月</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">1,225件（直近30日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約2,733円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">154,000円（人間国宝・森口華弘の作品）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年10月18日</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-[#e8ddd0] px-3 py-2"><Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">色留袖</Link></td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">295件（直近30日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約4,169円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">200,000円（江戸時代のアンティーク）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年10月18日</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-xs text-gray-500 mt-3">
-              出典：オークファン（aucfan.com）・Yahoo!オークション落札相場（振袖はまとめ売りなどを除いた集計）。留袖は家紋入りが多く買い手が限られるため、未使用品でも平均は低めです。区分別の内訳と読み方は<Link href="/articles/furisode/" className="text-[#6b4c8a] underline">振袖の買取相場</Link>・<Link href="/articles/houmongi/" className="text-[#6b4c8a] underline">訪問着の買取相場</Link>・<Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">留袖（黒留袖・色留袖）の買取相場</Link>をご覧ください。
+              出典：オークファン（aucfan.com）・Yahoo!オークション落札相場（振袖はまとめ売りなどを除いた集計）。留袖は家紋入りが多く買い手が限られるため、未使用品でも平均は低めです。黒留袖より色留袖の平均が高いのは、色留袖は一つ紋にすると着られる場面が広がり、需要が黒留袖より残っているためと考えられます。10万円を超える落札は人間国宝や老舗の作品・時代物に限られ、平均落札額はどちらも数千円台です。区分別の内訳と読み方は<Link href="/articles/furisode/" className="text-[#6b4c8a] underline">振袖の買取相場</Link>・<Link href="/articles/houmongi/" className="text-[#6b4c8a] underline">訪問着の買取相場</Link>・<Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">留袖（黒留袖・色留袖）の買取相場</Link>をご覧ください。
             </p>
           </div>
         </div>
