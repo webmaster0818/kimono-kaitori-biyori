@@ -56,7 +56,7 @@ const articleStructuredData = {
   description:
     "着物買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
   datePublished: "2026-04-15",
-  dateModified: "2026-10-18",
+  dateModified: "2026-10-19",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -158,7 +158,7 @@ export default function KimonoMarketPricePage() {
               振袖・訪問着・留袖・小紋・紬・帯など、着物の種類ごとに買取相場を一覧表でわかりやすくまとめました。高額買取になる条件や高く売るコツも詳しく解説します。
             </p>
             <p className="mt-3 text-xs text-gray-400">
-              最終更新：2026年4月15日
+              最終更新：2026年10月19日
             </p>
           </div>
         </div>
@@ -392,10 +392,10 @@ export default function KimonoMarketPricePage() {
                   </tr>
                   <tr>
                     <td className="border border-[#e8ddd0] px-3 py-2"><Link href="/articles/houmongi/" className="text-[#6b4c8a] underline">訪問着</Link></td>
-                    <td className="border border-[#e8ddd0] px-3 py-2">2,588件（直近30日）</td>
-                    <td className="border border-[#e8ddd0] px-3 py-2">約5,428円</td>
-                    <td className="border border-[#e8ddd0] px-3 py-2">550,000円（加賀友禅の作家物）</td>
-                    <td className="border border-[#e8ddd0] px-3 py-2">2026年8月24日</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2,297件（直近30日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約4,820円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">363,000円（加賀友禅・初代 由水十久の未使用品）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年10月19日</td>
                   </tr>
                   <tr>
                     <td className="border border-[#e8ddd0] px-3 py-2"><Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">黒留袖</Link></td>
