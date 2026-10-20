@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
+import GoogleReviewNote from "../../components/GoogleReviewNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "おたからやの着物買取｜フランチャイズ店の実力を検証",
   description:
-    "おたからやの着物買取サービスを検証。世界約1,880店舗超のフランチャイズ展開、査定の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯の買取を検討中の方必見。",
+    "おたからやの着物買取サービスを検証。世界約1,880店舗超のフランチャイズ展開、査定の質、買取価格の相場、Googleクチコミの実査結果と公開情報、実売データにもとづいてレビュー。振袖・訪問着・帯の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/otakaraya/",
   },
@@ -26,7 +27,7 @@ const articleStructuredData = {
   headline: "おたからやの着物買取｜フランチャイズ店の実力を検証",
   description: "おたからやの着物買取を検証。世界約1,880店超のFC展開と口コミを公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/reviews/otakaraya/" },
@@ -85,13 +86,12 @@ export default function OtakarayaReviewPage() {
             <li><a href="#features" className="hover:underline">2. サービスの特徴</a></li>
             <li><a href="#items" className="hover:underline">3. 買取対応品目</a></li>
             <li><a href="#market-price" className="hover:underline">4. 買取実績・相場</a></li>
-            <li><a href="#good-reviews" className="hover:underline">5. 良い口コミ・評判</a></li>
-            <li><a href="#bad-reviews" className="hover:underline">6. 悪い口コミ・評判</a></li>
-            <li><a href="#merit-demerit" className="hover:underline">7. メリット・デメリットまとめ</a></li>
-            <li><a href="#recommend" className="hover:underline">8. こんな人におすすめ</a></li>
-            <li><a href="#flow" className="hover:underline">9. 申し込み方法・買取の流れ</a></li>
-            <li><a href="#comparison" className="hover:underline">10. 他社との比較表</a></li>
-            <li><a href="#faq" className="hover:underline">11. よくある質問（FAQ）</a></li>
+            <li><a href="#google-reviews" className="hover:underline">5. おたからやのGoogleクチコミ（実査）</a></li>
+            <li><a href="#merit-demerit" className="hover:underline">6. メリット・デメリットまとめ</a></li>
+            <li><a href="#recommend" className="hover:underline">7. こんな人におすすめ</a></li>
+            <li><a href="#flow" className="hover:underline">8. 申し込み方法・買取の流れ</a></li>
+            <li><a href="#comparison" className="hover:underline">9. 他社との比較表</a></li>
+            <li><a href="#faq" className="hover:underline">10. よくある質問（FAQ）</a></li>
           </ol>
         </nav>
 
@@ -188,49 +188,17 @@ export default function OtakarayaReviewPage() {
           </div>
         </section>
 
-        <section id="good-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">良い口コミ・評判</h2>
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★☆</span><span className="text-xs text-gray-500">50代女性・東京都</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">駅前のおたからやに着物を持ち込みました。予約なしでも対応してもらえ、15分ほどで査定完了。振袖と訪問着で合計4万円でした。気軽に立ち寄れるのが良いですね。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★★</span><span className="text-xs text-gray-500">60代女性・神奈川県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">近所のおたからやのオーナーさんが着物に詳しい方で、母の形見の着物を丁寧に査定してくれました。大島紬に8万円の値段がつき、とても嬉しかったです。フランチャイズでもオーナーさん次第で良い査定が受けられます。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★☆</span><span className="text-xs text-gray-500">40代女性・愛知県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">着物と一緒に貴金属も持ち込みました。貴金属の査定は非常に高く、着物は相場通りといった感じ。まとめて処分できたので便利でした。出張にも来てもらえるとのことでしたが、今回は持ち込みで十分でした。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★★</span><span className="text-xs text-gray-500">70代女性・埼玉県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">自宅の近くにおたからやがあるので利用しました。オーナーさんが親切で、着物の価値について分かりやすく説明してくれました。「この着物はどういう理由で高いのか」を教えてもらえたのが良かったです。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★☆</span><span className="text-xs text-gray-500">30代女性・大阪府</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">出張買取をお願いしました。着物10枚と帯3本で合計5万円。その場で現金を受け取れたのが良かったです。</p>
-            </div>
-          </div>
+
+        {/* Googleクチコミ（実査） */}
+        <section id="google-reviews" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            おたからやのGoogleクチコミ（実査）
+          </h2>
+
+          <GoogleReviewNote slug="otakaraya" />
         </section>
 
-        <section id="bad-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">悪い口コミ・評判</h2>
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★☆☆☆</span><span className="text-xs text-gray-500">50代女性・千葉県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">近所のおたからやに着物を持ち込みましたが、スタッフの方が着物にあまり詳しくなく、「本部に確認します」と言われて待たされました。結局、査定額も他社より低く、専門性の差を感じました。フランチャイズなので店舗による当たり外れが大きくなります。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★☆☆☆</span><span className="text-xs text-gray-500">60代女性・北海道</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">A店で5万円の査定だった着物が、別のB店では2万円でした。同じおたからやなのに店舗によって倍以上の差が出るのは不安です。フランチャイズの弱点だと思います。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★☆☆</span><span className="text-xs text-gray-500">40代女性・福岡県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">貴金属の査定は良かったのですが、着物についてはあまり力を入れていない印象でした。着物だけを売りたいなら、着物専門の業者（バイセルや福ちゃん）の方が良いと思います。</p>
-            </div>
-          </div>
-        </section>
+
 
         <section id="merit-demerit" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">メリット・デメリットまとめ</h2>

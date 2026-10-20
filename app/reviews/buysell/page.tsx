@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
+import GoogleReviewNote from "../../components/GoogleReviewNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "バイセルの着物買取｜口コミ・評判・買取実績を検証",
   description:
-    "バイセル（BUYSELL）の着物買取サービスを検証。累計買取実績3,700万点超、月間20,000件の出張買取対応、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
+    "バイセル（BUYSELL）の着物買取サービスを検証。累計買取実績3,700万点超、月間20,000件の出張買取対応、査定員の質、買取価格の相場、Googleクチコミの実査結果と公開情報、実売データにもとづいてレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/buysell/",
   },
@@ -28,7 +29,7 @@ const articleStructuredData = {
   description:
     "バイセルの着物買取サービスを検証。累計買取実績3,700万点超の実力と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -118,12 +119,6 @@ const localBusinessStructuredData = {
   "@type": "LocalBusiness",
   "name": "バイセル",
   "description": "バイセル（BUYSELL）は累計買取実績3,700万点超、月間20,000件の出張買取に対応する着物買取サービスです。",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.4",
-    "reviewCount": "1057",
-    "bestRating": "5",
-  },
 };
 
 export default function BuysellReviewPage() {
@@ -209,38 +204,33 @@ export default function BuysellReviewPage() {
               </a>
             </li>
             <li>
-              <a href="#good-reviews" className="hover:underline">
-                5. バイセルの良い口コミ・評判
-              </a>
-            </li>
-            <li>
-              <a href="#bad-reviews" className="hover:underline">
-                6. バイセルの悪い口コミ・評判
+              <a href="#google-reviews" className="hover:underline">
+                5. バイセルのGoogleクチコミ（実査）
               </a>
             </li>
             <li>
               <a href="#merit-demerit" className="hover:underline">
-                7. メリット・デメリットまとめ
+                6. メリット・デメリットまとめ
               </a>
             </li>
             <li>
               <a href="#recommend" className="hover:underline">
-                8. こんな人におすすめ
+                7. こんな人におすすめ
               </a>
             </li>
             <li>
               <a href="#flow" className="hover:underline">
-                9. 申し込み方法・買取の流れ
+                8. 申し込み方法・買取の流れ
               </a>
             </li>
             <li>
               <a href="#comparison" className="hover:underline">
-                10. 他社との比較表
+                9. 他社との比較表
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:underline">
-                11. よくある質問（FAQ）
+                10. よくある質問（FAQ）
               </a>
             </li>
           </ol>
@@ -451,103 +441,17 @@ export default function BuysellReviewPage() {
           </div>
         </section>
 
-        {/* 良い口コミ */}
-        <section id="good-reviews" className="mb-12">
+
+        {/* Googleクチコミ（実査） */}
+        <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            バイセルの良い口コミ・評判
+            バイセルのGoogleクチコミ（実査）
           </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">60代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                母の遺品整理で50枚以上の着物を買い取ってもらいました。電話してから3日後には出張に来てくれて、一点一点丁寧に査定してくれました。大島紬と訪問着数枚に高値がつき、合計で18万円になりました。重い着物を運ぶ必要がなく、自宅で全て完結できたのが本当に助かりました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">50代女性・大阪府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                テレビCMで知ったバイセルを初めて利用しました。出張査定員の方がとても礼儀正しく、着物の産地や技法について丁寧に説明してくれました。他社より査定額が高かったので即決しました。買取後にフォローの電話もあり、上場企業らしいしっかりした対応だと感じました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">40代女性・愛知県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                振袖を売りたくてバイセルに依頼しました。Webで申し込んだら翌日には電話が来て、3日後に出張査定。成人式で一度着ただけの振袖に7万円の値がつきました。証紙があったことが高額査定のポイントだったようです。対応も丁寧でスピーディーでした。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">70代女性・北海道</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                北海道の田舎に住んでいますが、問題なく出張買取に来てもらえました。着物30枚と帯10本、和装小物一式を査定していただき、合計15万円。地方でも全国対応は本当にありがたいです。査定員の方も感じが良く、安心して利用できました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">30代女性・福岡県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                祖母から譲り受けた着物をまとめて売りました。着物以外にも貴金属やブランドバッグも一緒に査定してもらえたので、一度の訪問で全て片付きました。着物だけで8万円、全部合わせると25万円になり、想像以上の結果でした。
-              </p>
-            </div>
-          </div>
+          <GoogleReviewNote slug="buysell" />
         </section>
 
-        {/* 悪い口コミ */}
-        <section id="bad-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            バイセルの悪い口コミ・評判
-          </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">50代女性・神奈川県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                着物の査定を依頼しましたが、着物以外のブランド品や貴金属がないか聞かれ、そちらの買取も勧められました。着物だけのつもりだったので少し押しが強いと感じました。最終的には着物だけで対応してもらえましたが、事前にその旨を伝えておくべきでした。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">60代女性・京都府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                京友禅の訪問着を査定してもらいましたが、着物専門店の査定額より2万円ほど低い提示でした。総合買取店なので、着物の専門知識という点では専門店にやや劣る印象です。高額な作家物は専門店にも併せて査定を依頼すべきだと思いました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★☆☆</span>
-                <span className="text-xs text-gray-500">40代女性・埼玉県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                出張買取の時間が2時間以上かかりました。着物20枚程度でしたが、一枚ずつ写真を撮って本部に確認する方式のため時間がかかるようです。丁寧ではありますが、忙しい方は時間に余裕を持って予約した方が良いでしょう。
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* メリット・デメリット */}
         <section id="merit-demerit" className="mb-12">

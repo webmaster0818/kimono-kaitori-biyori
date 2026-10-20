@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
+import GoogleReviewNote from "../../components/GoogleReviewNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "買取大吉の着物買取｜口コミ・評判・買取実績を検証",
   description:
-    "買取大吉の着物買取サービスを検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
+    "買取大吉の着物買取サービスを検証。全国2,000店超の実績、査定員の質、買取価格の相場、Googleクチコミの実査結果と公開情報、実売データにもとづいてレビュー。振袖・訪問着・帯・小物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/daikichi/",
   },
@@ -26,9 +27,9 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "買取大吉の着物買取｜口コミ・評判・買取実績を検証",
   description:
-    "買取大吉の着物買取サービスを検証。全国2,000店超の実績、査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。",
+    "買取大吉の着物買取サービスを検証。全国2,000店超の実績、査定員の質、買取価格の相場、Googleクチコミの実査結果と公開情報、実売データにもとづいてレビュー。",
   datePublished: "2026-04-15",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -118,12 +119,6 @@ const localBusinessStructuredData = {
   "@type": "LocalBusiness",
   "name": "買取大吉",
   "description": "買取大吉は全国2,000店舗超を展開する着物買取サービスです。店舗・出張・催事の3つの買取方法に対応。",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.8",
-    "reviewCount": "420",
-    "bestRating": "5",
-  },
 };
 
 export default function DaikichiReviewPage() {
@@ -194,33 +189,28 @@ export default function DaikichiReviewPage() {
               </a>
             </li>
             <li>
-              <a href="#good-reviews" className="hover:underline">
-                2. 買取大吉の良い口コミ・評判
-              </a>
-            </li>
-            <li>
-              <a href="#bad-reviews" className="hover:underline">
-                3. 買取大吉の悪い口コミ・評判
+              <a href="#google-reviews" className="hover:underline">
+                2. 買取大吉のGoogleクチコミ（実査）
               </a>
             </li>
             <li>
               <a href="#merit-demerit" className="hover:underline">
-                4. メリット・デメリットまとめ
+                3. メリット・デメリットまとめ
               </a>
             </li>
             <li>
               <a href="#flow" className="hover:underline">
-                5. 買取大吉で着物を売る流れ
+                4. 買取大吉で着物を売る流れ
               </a>
             </li>
             <li>
               <a href="#recommend" className="hover:underline">
-                6. 買取大吉はこんな人におすすめ
+                5. 買取大吉はこんな人におすすめ
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:underline">
-                7. よくある質問（FAQ）
+                6. よくある質問（FAQ）
               </a>
             </li>
           </ol>
@@ -302,111 +292,17 @@ export default function DaikichiReviewPage() {
           </p>
         </section>
 
-        {/* 良い口コミ */}
-        <section id="good-reviews" className="mb-12">
+
+        {/* Googleクチコミ（実査） */}
+        <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            買取大吉の良い口コミ・評判
+            買取大吉のGoogleクチコミ（実査）
           </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">50代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                母から譲り受けた訪問着と振袖を査定してもらいました。他社では「値段がつかない」と言われたものも、
-                買取大吉では一点一点丁寧に見てくださり、証紙付きの大島紬には想像以上の金額を提示していただけました。
-                査定員の方の知識が豊富で、着物の産地や技法について詳しく説明してくれたのが印象的でした。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">60代女性・大阪府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                自宅にある着物を整理したくて出張買取をお願いしました。電話での対応も丁寧で、
-                予約もスムーズに取れました。当日は若い男性の査定員さんが来てくれましたが、
-                着物に関する知識がしっかりしていて安心できました。
-                30点ほどまとめて買い取っていただき、合計で12万円ほどになりました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">40代女性・愛知県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                駅前の店舗に持ち込みで利用しました。予約なしでも対応してもらえ、
-                待ち時間も15分ほどでした。結城紬と博多帯を査定してもらい、
-                どちらも相場通りの金額を提示してもらえたと思います。
-                スタッフの方の接客も感じが良く、また利用したいと思いました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">70代女性・福岡県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                終活の一環で着物を処分することにしました。出張買取で自宅まで来ていただき、
-                50枚以上の着物と帯を一気に査定してもらいました。丸一日かけて丁寧に見てくださり、
-                合計で28万円の買取額でした。大量の着物にも嫌な顔一つせず対応してくださったことに感謝しています。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">30代女性・神奈川県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                祖母の遺品整理で利用しました。着物だけでなく、帯留めやかんざしなどの和装小物も
-                まとめて査定してもらえたのが助かりました。小物類は一点あたりの金額は小さいですが、
-                数がまとまると結構な金額になりました。
-                査定の根拠もしっかり説明してくれるので納得感がありました。
-              </p>
-            </div>
-          </div>
+          <GoogleReviewNote slug="daikichi" />
         </section>
 
-        {/* 悪い口コミ */}
-        <section id="bad-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            買取大吉の悪い口コミ・評判
-          </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">40代女性・埼玉県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                フランチャイズ店なので、店舗によって査定額にばらつきがある印象です。
-                以前A店で査定してもらった着物を別の機会にB店に持ち込んだところ、
-                金額が1万円以上違いました。統一された基準がないのは不安に感じます。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★☆☆</span>
-                <span className="text-xs text-gray-500">60代女性・京都府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                着物の専門店と比べると、やはり査定員によって知識レベルに差があると感じました。
-                私が持ち込んだ京友禅の作家物について、査定員の方があまり詳しくなかったようで、
-                最終的に「本部に確認します」と電話をされていました。
-                結果的には適正な金額になりましたが、専門性という点では物足りなさを感じました。
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* メリット・デメリット */}
         <section id="merit-demerit" className="mb-12">
@@ -681,7 +577,12 @@ export default function DaikichiReviewPage() {
             買取大吉の注意点：口コミで指摘されているポイント
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            みん評では1,334件の口コミが寄せられており、ヒカカクでの総合評価は3.83点です。多くの利用者が満足している一方で、いくつか注意すべきポイントも指摘されています。
+            第三者の口コミサイトでの評価は、2026年10月21日に確認した時点で次のとおりです。
+            <a href="https://minhyo.jp/kaitori-daikichi" target="_blank" rel="noopener noreferrer nofollow" className="text-[#6b4c8a] underline">みん評</a>
+            が3.01（1,638件）、
+            <a href="https://hikakaku.com/company/613/" target="_blank" rel="noopener noreferrer nofollow" className="text-[#6b4c8a] underline">ヒカカク！</a>
+            が総合評価3.84点、Googleクチコミ（新宿本店）が4.6（1,278件）です。
+            サイトによって評価が3.01から4.6まで開くため、1つの数値だけで判断はできません。以下は、低い評価で指摘されている点です。
           </p>
           <div className="space-y-3">
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-4">

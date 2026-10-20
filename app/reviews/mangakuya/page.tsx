@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
+import GoogleReviewNote from "../../components/GoogleReviewNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "まんがく屋の着物買取｜口コミ・評判を検証",
   description:
-    "まんがく屋の着物買取サービスを検証。大阪発の着物買取業者の特徴、買取対応品目、買取相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。出張買取・宅配買取の対応状況も解説。",
+    "まんがく屋の着物買取サービスを検証。大阪発の着物買取業者の特徴、買取対応品目、買取相場、Googleクチコミの実査結果と公開情報、実売データにもとづいてレビュー。出張買取・宅配買取の対応状況も解説。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/mangakuya/",
   },
@@ -26,7 +27,7 @@ const articleStructuredData = {
   headline: "まんがく屋の着物買取｜口コミ・評判を検証",
   description: "まんがく屋の着物買取サービスを検証。大阪発の買取業者の実力と口コミを公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/reviews/mangakuya/" },
@@ -85,13 +86,12 @@ export default function MangakuyaReviewPage() {
             <li><a href="#features" className="hover:underline">2. サービスの特徴</a></li>
             <li><a href="#items" className="hover:underline">3. 買取対応品目</a></li>
             <li><a href="#market-price" className="hover:underline">4. 買取実績・相場</a></li>
-            <li><a href="#good-reviews" className="hover:underline">5. 良い口コミ・評判</a></li>
-            <li><a href="#bad-reviews" className="hover:underline">6. 悪い口コミ・評判</a></li>
-            <li><a href="#merit-demerit" className="hover:underline">7. メリット・デメリットまとめ</a></li>
-            <li><a href="#recommend" className="hover:underline">8. こんな人におすすめ</a></li>
-            <li><a href="#flow" className="hover:underline">9. 申し込み方法・買取の流れ</a></li>
-            <li><a href="#comparison" className="hover:underline">10. 他社との比較表</a></li>
-            <li><a href="#faq" className="hover:underline">11. よくある質問（FAQ）</a></li>
+            <li><a href="#google-reviews" className="hover:underline">5. まんがく屋のGoogleクチコミ（実査）</a></li>
+            <li><a href="#merit-demerit" className="hover:underline">6. メリット・デメリットまとめ</a></li>
+            <li><a href="#recommend" className="hover:underline">7. こんな人におすすめ</a></li>
+            <li><a href="#flow" className="hover:underline">8. 申し込み方法・買取の流れ</a></li>
+            <li><a href="#comparison" className="hover:underline">9. 他社との比較表</a></li>
+            <li><a href="#faq" className="hover:underline">10. よくある質問（FAQ）</a></li>
           </ol>
         </nav>
 
@@ -191,49 +191,17 @@ export default function MangakuyaReviewPage() {
           </div>
         </section>
 
-        <section id="good-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">良い口コミ・評判</h2>
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★★</span><span className="text-xs text-gray-500">60代女性・大阪府</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">着物3枚だけでしたが、快く出張に来てくれました。査定員の方が着物に詳しく、私が持っていた紬の着物について産地や織り方を丁寧に説明してくれました。査定額も納得のいくもので、合計5万円になりました。大手ではないですが、対応の丁寧さは大手以上だと感じました。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★☆</span><span className="text-xs text-gray-500">50代女性・兵庫県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">関西在住なので、まんがく屋さんに依頼しました。出張日の調整もスムーズで、3日後には来てもらえました。着物20枚と帯5本を査定してもらい、合計12万円でした。一枚一枚丁寧に見てくれるのが好印象でした。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★☆</span><span className="text-xs text-gray-500">40代女性・京都府</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">シミがある着物も含めて査定してもらいました。状態が悪いものは値段がつきませんでしたが、状態の良い訪問着と大島紬にしっかりした値段をつけてもらえました。正直に査定してくれる姿勢に好感を持ちました。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★★</span><span className="text-xs text-gray-500">70代女性・奈良県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">終活で着物を整理することにしました。40枚以上の着物を出張で見てもらいましたが、嫌な顔一つせず丁寧に対応してくれました。合計18万円の買取額で、思っていた以上の金額になりました。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★☆</span><span className="text-xs text-gray-500">30代女性・大阪府</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">祖母の遺品整理で利用しました。着物だけでなく骨董品も一緒に見てもらえたのが助かりました。電話の対応も丁寧で、最初から最後まで気持ちよく取引できました。</p>
-            </div>
-          </div>
+
+        {/* Googleクチコミ（実査） */}
+        <section id="google-reviews" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            まんがく屋のGoogleクチコミ（実査）
+          </h2>
+
+          <GoogleReviewNote slug="mangakuya" />
         </section>
 
-        <section id="bad-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">悪い口コミ・評判</h2>
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★☆☆☆</span><span className="text-xs text-gray-500">50代女性・東京都</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">関東在住ですが、出張買取の予約が2週間以上先になりました。関西が拠点なので、関東エリアは対応が遅いようです。急ぎの場合は大手のバイセルの方が早いかもしれません。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★☆☆</span><span className="text-xs text-gray-500">40代女性・神奈川県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">査定額はバイセルや福ちゃんと比較するとやや低めでした。知名度や規模の面で大手と比べるとやはり差があるようです。ただし、対応の丁寧さは良かったです。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★☆☆☆</span><span className="text-xs text-gray-500">60代女性・北海道</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">宅配買取を利用しましたが、査定結果の連絡まで2週間近くかかりました。連絡がなかなか来ないので不安になり、こちらから問い合わせました。査定額自体は悪くなかったのですが、対応スピードに改善の余地があると思います。</p>
-            </div>
-          </div>
-        </section>
+
 
         <section id="merit-demerit" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">メリット・デメリットまとめ</h2>

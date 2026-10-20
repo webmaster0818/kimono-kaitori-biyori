@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
+import GoogleReviewNote from "../../components/GoogleReviewNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
@@ -29,7 +30,7 @@ const articleStructuredData = {
   description:
     "RECLO（リクロ）の着物買取サービスを検証。宅配買取特化で高級品に強い実力を口コミとともにレビュー。",
   datePublished: "2026-04-15",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -119,12 +120,6 @@ const localBusinessStructuredData = {
   "@type": "LocalBusiness",
   "name": "RECLO（リクロ）",
   "description": "RECLO（リクロ）は宅配買取に特化し、高級着物やブランド着物に強みを持つ着物買取サービスです。",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.7",
-    "reviewCount": "150",
-    "bestRating": "5",
-  },
 };
 
 export default function RecloReviewPage() {
@@ -200,28 +195,23 @@ export default function RecloReviewPage() {
               </a>
             </li>
             <li>
-              <a href="#good-reviews" className="hover:underline">
-                2. RECLOの良い口コミ・評判
-              </a>
-            </li>
-            <li>
-              <a href="#bad-reviews" className="hover:underline">
-                3. RECLOの悪い口コミ・評判
+              <a href="#google-reviews" className="hover:underline">
+                2. RECLO（リクロ）のGoogleクチコミ（実査）
               </a>
             </li>
             <li>
               <a href="#merit-demerit" className="hover:underline">
-                4. メリット・デメリットまとめ
+                3. メリット・デメリットまとめ
               </a>
             </li>
             <li>
               <a href="#flow" className="hover:underline">
-                5. RECLOの宅配買取の流れ
+                4. RECLOの宅配買取の流れ
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:underline">
-                6. よくある質問（FAQ）
+                5. よくある質問（FAQ）
               </a>
             </li>
           </ol>
@@ -297,125 +287,17 @@ export default function RecloReviewPage() {
           </p>
         </section>
 
-        {/* 良い口コミ */}
-        <section id="good-reviews" className="mb-12">
+
+        {/* Googleクチコミ（実査） */}
+        <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            RECLOの良い口コミ・評判
+            RECLO（リクロ）のGoogleクチコミ（実査）
           </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">50代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                人間国宝の作品を含む着物5点を査定してもらいました。他社では一律の評価だった作家物が、
-                RECLOでは作家ごとに適正な価格を出してもらえました。特に久保田一竹の辻が花は
-                他社の倍以上の査定額で大変満足しています。高級着物を売るならRECLOが一番だと思います。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">60代女性・北海道</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                地方在住で近くに着物買取の専門店がないため、宅配買取のRECLOを利用しました。
-                宅配キットが無料で届き、着物を詰めて送るだけなのでとても手軽でした。
-                査定結果も写真付きでメールに届き、なぜその金額になるのかの説明もあって分かりやすかったです。
-                結城紬と大島紬の合計で25万円の査定額で、期待以上でした。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">40代女性・大阪府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                着物と一緒にエルメスのバッグとカルティエのジュエリーも送りました。
-                異なるカテゴリのものをまとめて送れるのはRECLOならではの便利さです。
-                すべて適正な価格で査定してもらえ、トータルで50万円を超える金額になりました。
-                対面でのやり取りがないので気楽に利用できるのも良い点です。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">50代女性・福岡県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                キャンセル返送料が無料というのが決め手でRECLOを選びました。
-                実際に一度、査定額に納得できず返送してもらいましたが、本当に無料で返してもらえました。
-                その後、別の着物を改めて送った際は満足のいく金額だったので成約しました。
-                リスクなく試せるのは大きな魅力です。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">30代女性・愛知県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                マイページで査定の進捗状況が確認できるのが便利でした。
-                「商品受領」「査定中」「査定完了」とステータスが更新されるので、
-                今どの段階にあるのかが分かりやすい傾向があります。査定完了後はマイページから
-                承認ボタンを押すだけで手続き完了。すべてオンラインで完結するスマートさが気に入っています。
-              </p>
-            </div>
-          </div>
+          <GoogleReviewNote slug="reclo" />
         </section>
 
-        {/* 悪い口コミ */}
-        <section id="bad-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            RECLOの悪い口コミ・評判
-          </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">50代女性・神奈川県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                普段着レベルの着物（小紋や色無地）はあまり高い金額にはなりませんでした。
-                RECLOは高級品に強いということは分かっていましたが、普通の着物だと
-                数百円〜千円程度の査定になるものも多く、期待していた金額とは開きがありました。
-                ブランドや作家物でない着物は他のサービスのほうが良いかもしれません。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★☆☆</span>
-                <span className="text-xs text-gray-500">60代女性・京都府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                査定に時間がかかったのが気になりました。商品を送ってから査定結果が届くまで
-                10日ほどかかりました。急いで売りたい方には向いていないと思います。
-                査定自体は丁寧で金額にも満足していますが、スピード重視の方は出張買取のほうが良いでしょう。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">40代女性・千葉県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                宅配買取のため、着物の実物を見ながら説明を聞くことができません。
-                メールでの査定報告は丁寧でしたが、やはり対面で話を聞きたかったです。
-                着物に思い入れがある場合は、出張買取で直接やり取りできるサービスのほうが
-                満足感が高いかもしれません。
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* メリット・デメリット */}
         <section id="merit-demerit" className="mb-12">

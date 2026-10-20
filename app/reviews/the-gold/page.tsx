@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
+import GoogleReviewNote from "../../components/GoogleReviewNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ザ・ゴールドの着物買取｜口コミ・評判を検証",
   description:
-    "ザ・ゴールドの着物買取サービスを検証。全国70店舗以上の直営店展開、着物専門査定員の質、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
+    "ザ・ゴールドの着物買取サービスを検証。全国70店舗以上の直営店展開、着物専門査定員の質、買取価格の相場、Googleクチコミの実査結果と公開情報、実売データにもとづいてレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/the-gold/",
   },
@@ -28,7 +29,7 @@ const articleStructuredData = {
   description:
     "ザ・ゴールドの着物買取サービスを検証。直営店展開と着物専門査定の実力を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -118,12 +119,6 @@ const localBusinessStructuredData = {
   "@type": "LocalBusiness",
   "name": "ザ・ゴールド",
   "description": "ザ・ゴールドは全国70店舗以上の直営店を展開し、着物専門査定員が在籍する着物買取サービスです。",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.7",
-    "reviewCount": "290",
-    "bestRating": "5",
-  },
 };
 
 export default function TheGoldReviewPage() {
@@ -189,13 +184,12 @@ export default function TheGoldReviewPage() {
             <li><a href="#features" className="hover:underline">2. サービスの特徴</a></li>
             <li><a href="#items" className="hover:underline">3. 買取対応品目</a></li>
             <li><a href="#market-price" className="hover:underline">4. 買取実績・相場</a></li>
-            <li><a href="#good-reviews" className="hover:underline">5. 良い口コミ・評判</a></li>
-            <li><a href="#bad-reviews" className="hover:underline">6. 悪い口コミ・評判</a></li>
-            <li><a href="#merit-demerit" className="hover:underline">7. メリット・デメリットまとめ</a></li>
-            <li><a href="#recommend" className="hover:underline">8. こんな人におすすめ</a></li>
-            <li><a href="#flow" className="hover:underline">9. 申し込み方法・買取の流れ</a></li>
-            <li><a href="#comparison" className="hover:underline">10. 他社との比較表</a></li>
-            <li><a href="#faq" className="hover:underline">11. よくある質問（FAQ）</a></li>
+            <li><a href="#google-reviews" className="hover:underline">5. ザ・ゴールドのGoogleクチコミ（実査）</a></li>
+            <li><a href="#merit-demerit" className="hover:underline">6. メリット・デメリットまとめ</a></li>
+            <li><a href="#recommend" className="hover:underline">7. こんな人におすすめ</a></li>
+            <li><a href="#flow" className="hover:underline">8. 申し込み方法・買取の流れ</a></li>
+            <li><a href="#comparison" className="hover:underline">9. 他社との比較表</a></li>
+            <li><a href="#faq" className="hover:underline">10. よくある質問（FAQ）</a></li>
           </ol>
         </nav>
 
@@ -363,93 +357,17 @@ export default function TheGoldReviewPage() {
           </div>
         </section>
 
-        <section id="good-reviews" className="mb-12">
+
+        {/* Googleクチコミ（実査） */}
+        <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            良い口コミ・評判
+            ザ・ゴールドのGoogleクチコミ（実査）
           </h2>
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">60代女性・宮城県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                近所にザ・ゴールドの店舗があったので、気軽に持ち込みで査定してもらいました。スタッフの方がとても親切で、着物一枚一枚についてどこの産地か、どのような技法で作られているかを丁寧に説明してくれました。大島紬と加賀友禅の訪問着に高値がつき、合計22万円になりました。
-              </p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">50代女性・新潟県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                値段がつかなかった着物も無料で引き取ってくれたのがありがたかったです。処分するにもお金がかかると思っていたので、引き取りサービスは本当に助かりました。買取がついた着物も適正な価格で、合計8万円でした。直営店なので安心感がありました。
-              </p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">70代女性・北海道</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                出張買取をお願いしましたが、予約から3日後に来てくれました。査定員の方が着物に詳しく、私が持っていた紬の着物について産地や織り方を教えてくれました。押しつけがましい営業もなく、とても気持ちの良い対応でした。
-              </p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">40代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                母の遺品整理で40枚以上の着物を持ち込みました。直営店なのでどの店舗でも同じ基準で査定してもらえるのが安心です。ウール着物や化繊の着物も無料で引き取ってもらえたので、一度に全部片付きました。
-              </p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">60代女性・福島県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                テレビCMで見て知りました。地元に店舗があったので直接持ち込みました。スタッフの方が地元の方で、話しやすくて安心できました。結城紬と訪問着を中心に15万円の買取額でした。地域密着型のサービスが良いですね。
-              </p>
-            </div>
-          </div>
+
+          <GoogleReviewNote slug="the-gold" />
         </section>
 
-        <section id="bad-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            悪い口コミ・評判
-          </h2>
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">40代女性・大阪府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                関西には店舗が少なく、最寄りの店舗まで車で1時間以上かかりました。出張買取を依頼しましたが、予約が1週間以上先になりました。東日本に店舗が集中しているため、西日本の方はやや不便に感じるかもしれません。
-              </p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★☆☆</span>
-                <span className="text-xs text-gray-500">50代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                買取額自体は適正だと思いますが、バイセルと比較するとやや低めの提示でした。ザ・ゴールドは堅実な査定という印象で、高額を期待する方は複数社で比較した方が良いかもしれません。対応の丁寧さは間違いなくトップクラスです。
-              </p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">30代女性・愛知県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                宅配買取の対応がやや遅く感じました。着物を送ってから査定結果の連絡まで2週間近くかかりました。ただ、査定額の説明は丁寧で、なぜその価格になったかを書面で教えてもらえました。
-              </p>
-            </div>
-          </div>
-        </section>
+
 
         <section id="merit-demerit" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">

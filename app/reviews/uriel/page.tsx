@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
+import GoogleReviewNote from "../../components/GoogleReviewNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
@@ -28,7 +29,7 @@ const articleStructuredData = {
   description:
     "ウリエルの着物買取サービスを検証。運営は株式会社クオーレ。出張買取・催事買取に対応。口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-04-15",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -118,12 +119,6 @@ const localBusinessStructuredData = {
   "@type": "LocalBusiness",
   "name": "ウリエル",
   "description": "ウリエルは株式会社クオーレが運営する着物買取ブランドです。出張買取・催事買取に対応し、関東・中部・近畿・岡山エリアをカバー。",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.6",
-    "reviewCount": "180",
-    "bestRating": "5",
-  },
 };
 
 export default function UrielReviewPage() {
@@ -196,28 +191,23 @@ export default function UrielReviewPage() {
               </a>
             </li>
             <li>
-              <a href="#good-reviews" className="hover:underline">
-                2. ウリエルの良い口コミ・評判
-              </a>
-            </li>
-            <li>
-              <a href="#bad-reviews" className="hover:underline">
-                3. ウリエルの悪い口コミ・評判
+              <a href="#google-reviews" className="hover:underline">
+                2. ウリエルのGoogleクチコミ（実査）
               </a>
             </li>
             <li>
               <a href="#merit-demerit" className="hover:underline">
-                4. メリット・デメリットまとめ
+                3. メリット・デメリットまとめ
               </a>
             </li>
             <li>
               <a href="#flow" className="hover:underline">
-                5. ウリエルの出張買取の流れ
+                4. ウリエルの出張買取の流れ
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:underline">
-                6. よくある質問（FAQ）
+                5. よくある質問（FAQ）
               </a>
             </li>
           </ol>
@@ -318,123 +308,17 @@ export default function UrielReviewPage() {
           </p>
         </section>
 
-        {/* 良い口コミ */}
-        <section id="good-reviews" className="mb-12">
+
+        {/* Googleクチコミ（実査） */}
+        <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            ウリエルの良い口コミ・評判
+            ウリエルのGoogleクチコミ（実査）
           </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">50代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                他社で5万円と査定された振袖が、ウリエルでは8万円の査定額でした。
-                「店舗がない分、買取価格に還元しています」との説明に納得。
-                査定員の方も着物の知識が豊富で、加賀友禅の特徴を丁寧に説明してくれました。
-                出張買取でここまで高い金額を出してもらえるとは思っていなかったので大満足です。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">60代女性・神奈川県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                一人暮らしなので出張買取に少し不安がありましたが、女性の査定員さんを指名できたので
-                安心して利用できました。とても丁寧で感じの良い方で、着物の思い出話にも
-                耳を傾けてくれました。査定額も満足のいく金額で、その場で現金をいただけたのが良かったです。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">40代女性・大阪府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                母の遺品整理で着物20枚以上と帯10本を査定してもらいました。
-                全部で15万円ほどの買取額で、着物をよく知らない私でも丁寧に説明してもらえたので
-                安心して売ることができました。クーリングオフが8日間あるのも心強かったです。
-                結局クーリングオフは使いませんでしたが、あるだけで安心感が違います。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">50代女性・京都府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                電話での問い合わせから訪問まで、終始丁寧な対応でした。予約した時間ぴったりに
-                来てくれたのも好印象。着物だけでなく、帯締め・帯揚げ・草履などの小物類も
-                まとめて買い取ってもらえました。「小物もセットのほうが査定が上がりますよ」と
-                アドバイスをくれたのも助かりました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">30代女性・埼玉県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                着物以外にブランドバッグや貴金属もまとめて査定してもらいました。
-                「まとめて査定で10%アップ」のキャンペーン中だったこともあり、
-                トータルで思った以上の金額になりました。一度の訪問で全部済むので手間もかかりません。
-              </p>
-            </div>
-          </div>
+          <GoogleReviewNote slug="uriel" />
         </section>
 
-        {/* 悪い口コミ */}
-        <section id="bad-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            ウリエルの悪い口コミ・評判
-          </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">40代女性・千葉県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                対応エリアが限られているのが残念です。実家のある地方で利用しようとしたところ
-                対応エリア外と言われてしまいました。都市部に住んでいる方には良いサービスだと思いますが、
-                対応エリアから外れた地方在住の方には使いにくいと感じました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★☆☆</span>
-                <span className="text-xs text-gray-500">50代女性・兵庫県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                予約が取りにくい時期がありました。土日を希望したところ、2週間先まで埋まっていると言われ、
-                平日に変更しました。人気があるのは分かりますが、もう少し査定員の数を増やしてほしいです。
-                査定自体は丁寧で金額にも満足しましたが、待たされたのは少し不便でした。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">60代女性・岡山県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                普段着の着物（ウール、化繊）は買取不可と言われてしまいました。
-                正絹の着物が中心とのことで、すべての着物を売れるわけではないようです。
-                総合リサイクル店なら引き取ってもらえることもあるので、
-                着物の素材によっては他のサービスを検討したほうが良いかもしれません。
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* メリット・デメリット */}
         <section id="merit-demerit" className="mb-12">

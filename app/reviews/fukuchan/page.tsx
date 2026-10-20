@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
+import GoogleReviewNote from "../../components/GoogleReviewNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "福ちゃんの着物買取｜口コミ・評判・買取実績を検証",
   description:
-    "福ちゃんの着物買取サービスを検証。累計買取実績800万点超、着物買取に特化した専門査定員、買取価格の相場、良い口コミ・悪い口コミを公開情報と実売データにもとづいてレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
+    "福ちゃんの着物買取サービスを検証。累計買取実績800万点超、着物買取に特化した専門査定員、買取価格の相場、Googleクチコミの実査結果と公開情報、実売データにもとづいてレビュー。振袖・訪問着・帯・作家物の買取を検討中の方必見。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/reviews/fukuchan/",
   },
@@ -28,7 +29,7 @@ const articleStructuredData = {
   description:
     "福ちゃんの着物買取サービスを検証。着物専門査定員の質と口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -118,12 +119,6 @@ const localBusinessStructuredData = {
   "@type": "LocalBusiness",
   "name": "福ちゃん",
   "description": "福ちゃんは累計買取実績800万点超、着物買取に特化した専門査定員が在籍する着物買取サービスです。",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.9",
-    "reviewCount": "380",
-    "bestRating": "5",
-  },
 };
 
 export default function FukuchanReviewPage() {
@@ -208,38 +203,33 @@ export default function FukuchanReviewPage() {
               </a>
             </li>
             <li>
-              <a href="#good-reviews" className="hover:underline">
-                5. 良い口コミ・評判
-              </a>
-            </li>
-            <li>
-              <a href="#bad-reviews" className="hover:underline">
-                6. 悪い口コミ・評判
+              <a href="#google-reviews" className="hover:underline">
+                5. 福ちゃんのGoogleクチコミ（実査）
               </a>
             </li>
             <li>
               <a href="#merit-demerit" className="hover:underline">
-                7. メリット・デメリットまとめ
+                6. メリット・デメリットまとめ
               </a>
             </li>
             <li>
               <a href="#recommend" className="hover:underline">
-                8. こんな人におすすめ
+                7. こんな人におすすめ
               </a>
             </li>
             <li>
               <a href="#flow" className="hover:underline">
-                9. 申し込み方法・買取の流れ
+                8. 申し込み方法・買取の流れ
               </a>
             </li>
             <li>
               <a href="#comparison" className="hover:underline">
-                10. 他社との比較表
+                9. 他社との比較表
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:underline">
-                11. よくある質問（FAQ）
+                10. よくある質問（FAQ）
               </a>
             </li>
           </ol>
@@ -447,103 +437,17 @@ export default function FukuchanReviewPage() {
           </div>
         </section>
 
-        {/* 良い口コミ */}
-        <section id="good-reviews" className="mb-12">
+
+        {/* Googleクチコミ（実査） */}
+        <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            良い口コミ・評判
+            福ちゃんのGoogleクチコミ（実査）
           </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">60代女性・大阪府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                亡くなった母の着物を50枚以上査定してもらいました。査定員の方が着物にとても詳しく、産地や技法について丁寧に説明してくれました。加賀友禅の訪問着と大島紬に特に高い値段がつき、合計で32万円になりました。他社の査定額より5万円以上高かったです。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">50代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                LINE査定で事前に概算額を確認してから出張買取を依頼しました。実際の査定額はLINE査定より少し高くなり、嬉しい結果でした。査定員の方が女性だったので、自宅に来てもらうことへの不安もありませんでした。丁寧で安心できるサービスです。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">40代女性・愛知県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                他社で「シミがあるので値段がつかない」と言われた訪問着を福ちゃんに持っていったところ、3万円の値段がつきました。シミがあっても買い取ってもらえるのは本当にありがたいです。着物の価値をしっかり見てくれる業者だと感じました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">70代女性・京都府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                久保田一竹の辻が花染めの着物を査定してもらいました。作家物の知識がある査定員だったので、作品の価値をきちんと理解した上で査定してくれました。提示額は45万円で、専門店ならではの適正な評価だと感じました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">30代女性・福岡県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                祖母から譲り受けた着物20枚を出張買取で売りました。一枚一枚丁寧に見てくれて、どの着物にどれくらいの価値があるか説明してくれたのが良かったです。合計で10万円ほどになり、着物の勉強にもなりました。
-              </p>
-            </div>
-          </div>
+          <GoogleReviewNote slug="fukuchan" />
         </section>
 
-        {/* 悪い口コミ */}
-        <section id="bad-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            悪い口コミ・評判
-          </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">50代女性・神奈川県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                出張買取の予約が取りにくく、希望日から1週間以上先になりました。人気がある分、予約が混み合っているようです。急ぎで売りたい場合はバイセルの方がスピーディーかもしれません。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★☆☆</span>
-                <span className="text-xs text-gray-500">40代女性・北海道</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                宅配買取を利用しましたが、査定結果の連絡まで10日ほどかかりました。丁寧に査定してくれている証拠かもしれませんが、もう少し早く結果が知りたかったです。査定額自体には満足しています。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">60代女性・埼玉県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                ポリエステルの着物は買取不可と言われました。正絹のみが対象とのことで、化繊の着物が多かった私には選択肢が限られました。正絹の着物についての査定は丁寧で良かったのですが。
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* メリット・デメリット */}
         <section id="merit-demerit" className="mb-12">

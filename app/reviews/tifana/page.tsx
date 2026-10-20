@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import GoogleReviewNote from "../../components/GoogleReviewNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
@@ -27,7 +28,7 @@ const articleStructuredData = {
   description:
     "ティファナの着物買取サービスを検証。総合リサイクルショップの実力を口コミとともにレビュー。",
   datePublished: "2026-04-15",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -117,12 +118,6 @@ const localBusinessStructuredData = {
   "@type": "LocalBusiness",
   "name": "ティファナ",
   "description": "ティファナは総合リサイクルショップとして、ノーブランドからハイブランドまで幅広い着物の買取に対応するサービスです。",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.3",
-    "reviewCount": "120",
-    "bestRating": "5",
-  },
 };
 
 export default function TifanaReviewPage() {
@@ -195,28 +190,23 @@ export default function TifanaReviewPage() {
               </a>
             </li>
             <li>
-              <a href="#good-reviews" className="hover:underline">
-                2. ティファナの良い口コミ・評判
-              </a>
-            </li>
-            <li>
-              <a href="#bad-reviews" className="hover:underline">
-                3. ティファナの悪い口コミ・評判
+              <a href="#google-reviews" className="hover:underline">
+                2. ティファナのGoogleクチコミ（実査）
               </a>
             </li>
             <li>
               <a href="#merit-demerit" className="hover:underline">
-                4. メリット・デメリットまとめ
+                3. メリット・デメリットまとめ
               </a>
             </li>
             <li>
               <a href="#flow" className="hover:underline">
-                5. ティファナで着物を売る流れ
+                4. ティファナで着物を売る流れ
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:underline">
-                6. よくある質問（FAQ）
+                5. よくある質問（FAQ）
               </a>
             </li>
           </ol>
@@ -295,127 +285,17 @@ export default function TifanaReviewPage() {
           <p className="mt-4 text-xs text-gray-500">※本ページのサービス情報（買取方法・査定料・出張料・対応エリアなど）は公式サイトで2026年7月に確認しています。宅配買取の対象品目など一部の条件は変更される場合があるため、最新の内容は公式サイトをご確認ください。</p>
         </section>
 
-        {/* 良い口コミ */}
-        <section id="good-reviews" className="mb-12">
+
+        {/* Googleクチコミ（実査） */}
+        <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            ティファナの良い口コミ・評判
+            ティファナのGoogleクチコミ（実査）
           </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">40代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                引っ越しに伴い、着物だけでなく洋服やバッグ、家電もまとめて売りたかったので
-                ティファナを利用しました。着物10枚、帯5本に加えて洋服やバッグも合わせて
-                段ボール8箱分を一気に買い取ってもらえました。
-                一つの業者ですべて済むのは本当に助かります。着物の査定額は正直そこまで高くありませんでしたが、
-                トータルで考えると満足です。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">50代女性・神奈川県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                他社で「ノーブランドの着物は買取できません」と断られた経験がありますが、
-                ティファナでは普段着の紬やウールの着物も引き取ってくれました。
-                金額は高くはありませんが、処分に困っていたのでありがたかったです。
-                「捨てるくらいなら少しでもお金になるほうがいい」と考える方にはおすすめです。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">30代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                店頭に直接持ち込みで利用しました。予約なしで行きましたが、
-                30分ほど待っただけで査定してもらえました。帯3本を売って合計4,000円ほどでしたが、
-                その場で現金がもらえてスピーディーでした。
-                スタッフの方も明るく対応してくれて、気持ちの良い取引でした。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">60代女性・埼玉県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                出張買取で自宅まで来てもらいました。着物30枚以上と帯、小物類を
-                丸ごと引き取ってもらい、合計で8万円になりました。
-                大量の着物を運ぶ手間がなく、高齢の私にとっては出張買取が本当に助かります。
-                査定員の方も親切で、一枚一枚丁寧に見てくれました。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">40代女性・千葉県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                宅配買取を利用しました。ネットで申し込むと段ボールと着払い伝票が届き、
-                着物を詰めて送るだけで簡単でした。査定結果は5日後にメールで届き、
-                金額に同意すると翌営業日に振込がありました。
-                忙しくて店舗に行く時間がない方にはとても便利なサービスだと思います。
-              </p>
-            </div>
-          </div>
+          <GoogleReviewNote slug="tifana" />
         </section>
 
-        {/* 悪い口コミ */}
-        <section id="bad-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            ティファナの悪い口コミ・評判
-          </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">50代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                着物専門の買取店と比べると、やはり査定額は低めです。証紙付きの大島紬を持ち込みましたが、
-                着物専門店で8万円だったものがティファナでは4万円の査定でした。
-                総合リサイクルショップなので仕方ない部分はありますが、
-                高級着物は専門店のほうが良い価格が出ると思います。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★☆☆</span>
-                <span className="text-xs text-gray-500">60代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                査定員の方が着物に詳しくなく、証紙を見ても「これが何かよく分からない」と言われました。
-                結局、店長に確認を取っていたようですが、専門知識がないスタッフに当たると
-                正当な評価をしてもらえない可能性があります。
-                総合リサイクル店の限界を感じた瞬間でした。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">40代女性・神奈川県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                出張買取の対応エリアが限られていて、横浜市の自宅は対応エリア外でした。
-                東京都内が中心のようで、近郊でも対応してもらえないケースがあります。
-                店頭まで持って行くか宅配にするしかなく、大量の着物を抱えて電車に乗るのは大変でした。
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* メリット・デメリット */}
         <section id="merit-demerit" className="mb-12">

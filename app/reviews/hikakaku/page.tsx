@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
+import GoogleReviewNote from "../../components/GoogleReviewNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
@@ -28,7 +29,7 @@ const articleStructuredData = {
   description:
     "ヒカカク！を使った着物の一括査定を検証。最大20社に一括査定できる仕組みと口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-04-15",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -176,28 +177,23 @@ export default function HikakakuReviewPage() {
               </a>
             </li>
             <li>
-              <a href="#good-reviews" className="hover:underline">
-                2. ヒカカクの良い口コミ・評判
-              </a>
-            </li>
-            <li>
-              <a href="#bad-reviews" className="hover:underline">
-                3. ヒカカクの悪い口コミ・評判
+              <a href="#google-reviews" className="hover:underline">
+                2. ヒカカク！のGoogleクチコミ（実査）
               </a>
             </li>
             <li>
               <a href="#merit-demerit" className="hover:underline">
-                4. メリット・デメリットまとめ
+                3. メリット・デメリットまとめ
               </a>
             </li>
             <li>
               <a href="#how-to-use" className="hover:underline">
-                5. ヒカカクの一括査定の使い方
+                4. ヒカカクの一括査定の使い方
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:underline">
-                6. よくある質問（FAQ）
+                5. よくある質問（FAQ）
               </a>
             </li>
           </ol>
@@ -275,125 +271,17 @@ export default function HikakakuReviewPage() {
           </p>
         </section>
 
-        {/* 良い口コミ */}
-        <section id="good-reviews" className="mb-12">
+
+        {/* Googleクチコミ（実査） */}
+        <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            ヒカカクの良い口コミ・評判
+            ヒカカク！のGoogleクチコミ（実査）
           </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">50代女性・東京都</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                母の着物を売るにあたり、どの業者が良いか全く分からなかったのでヒカカクを利用しました。
-                一度の申し込みで8社から見積もりが届き、最高値と最安値で3万円以上の差がありました。
-                結局、最高値を出してくれた着物専門店に売りましたが、自分で8社に問い合わせるのは
-                到底無理だったので、ヒカカクを使って本当に良かったです。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">40代女性・大阪府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                フォームに商品の情報を入力するだけで簡単に申し込めました。操作も直感的で、
-                着物のカテゴリを選んで状態や枚数を入力するだけ。5分もかかりませんでした。
-                翌日には複数の業者から見積もりメールが届き、スピーディーでした。
-                各業者の口コミも掲載されているので、金額だけでなく対応の良さも参考にして選べます。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">60代女性・愛知県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                以前、一社だけに査定を依頼して売ってしまい、後から「もっと高く売れたのでは」と
-                後悔した経験があります。今回はヒカカクで複数社の見積もりを比較してから決めたので、
-                納得感のある取引ができました。相場感も掴めるので、着物の買取が初めての方にもおすすめです。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★☆</span>
-                <span className="text-xs text-gray-500">30代女性・福岡県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                地方に住んでいると近くに着物買取店がないのですが、ヒカカクを使えば
-                全国対応の宅配買取業者も含めて比較できます。結局、東京の着物専門店の
-                宅配買取サービスが最高値だったので、そこに送りました。
-                地方在住者にとってはヒカカクのようなプラットフォームは本当にありがたいです。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★★★</span>
-                <span className="text-xs text-gray-500">50代女性・神奈川県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                完全無料で利用できるのが嬉しいです。査定を依頼した後に「やっぱりやめた」と
-                なっても費用は一切かかりません。見積もりを見た上ですべてお断りすることも可能です。
-                リスクゼロで業者を比較できるのは、消費者にとって大きなメリットだと思います。
-              </p>
-            </div>
-          </div>
+          <GoogleReviewNote slug="hikakaku" />
         </section>
 
-        {/* 悪い口コミ */}
-        <section id="bad-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            ヒカカクの悪い口コミ・評判
-          </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">40代女性・埼玉県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                一括査定を申し込んだ直後から、複数の業者から電話が一斉にかかってきて困りました。
-                仕事中にも何度も電話が鳴り、正直うんざりしました。
-                メールだけで対応してくれる業者もありましたが、しつこく電話してくる業者もあり、
-                その点はストレスでした。電話不要の設定ができるとありがたいです。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★★☆☆</span>
-                <span className="text-xs text-gray-500">50代女性・京都府</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                見積もりの金額は「概算」であり、実際に品物を見てもらうと金額が変わることがあります。
-                ヒカカクで最高値を出していた業者に実際に査定してもらったところ、
-                最初の概算から2割ほど下がりました。概算と実査定の差が大きい業者もあるので、
-                最初の金額を鵜呑みにしないほうが適しています。
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[#c9a76c] text-sm">★★☆☆☆</span>
-                <span className="text-xs text-gray-500">60代女性・広島県</span>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                着物カテゴリで申し込んだものの、地方ということもあり、
-                着物専門の業者からの見積もりは2社だけで、残りは総合買取店でした。
-                地域によっては対応業者が少なく、比較の意味があまりない場合もあります。
-                都市部にお住まいの方のほうが恩恵を受けやすいサービスだと感じました。
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* メリット・デメリット */}
         <section id="merit-demerit" className="mb-12">

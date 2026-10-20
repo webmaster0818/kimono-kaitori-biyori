@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
+import GoogleReviewNote from "../../components/GoogleReviewNote";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
@@ -28,7 +29,7 @@ const articleStructuredData = {
   description:
     "コメ兵の着物買取を検証。創業75年超の老舗リユース企業の着物買取の実力と口コミを公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-05-17",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/reviews/komehyo/" },
@@ -61,12 +62,6 @@ const localBusinessStructuredData = {
   "@type": "LocalBusiness",
   "name": "コメ兵",
   "description": "コメ兵（KOMEHYO）は創業75年超の老舗ブランド買取企業で、名古屋本店を中心に着物買取にも対応するリユースサービスです。",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.5",
-    "reviewCount": "850",
-    "bestRating": "5",
-  },
 };
 
 export default function KomehyoReviewPage() {
@@ -105,13 +100,12 @@ export default function KomehyoReviewPage() {
             <li><a href="#features" className="hover:underline">2. サービスの特徴</a></li>
             <li><a href="#items" className="hover:underline">3. 買取対応品目</a></li>
             <li><a href="#market-price" className="hover:underline">4. 買取実績・相場</a></li>
-            <li><a href="#good-reviews" className="hover:underline">5. 良い口コミ・評判</a></li>
-            <li><a href="#bad-reviews" className="hover:underline">6. 悪い口コミ・評判</a></li>
-            <li><a href="#merit-demerit" className="hover:underline">7. メリット・デメリットまとめ</a></li>
-            <li><a href="#recommend" className="hover:underline">8. こんな人におすすめ</a></li>
-            <li><a href="#flow" className="hover:underline">9. 申し込み方法・買取の流れ</a></li>
-            <li><a href="#comparison" className="hover:underline">10. 他社との比較表</a></li>
-            <li><a href="#faq" className="hover:underline">11. よくある質問（FAQ）</a></li>
+            <li><a href="#google-reviews" className="hover:underline">5. コメ兵のGoogleクチコミ（実査）</a></li>
+            <li><a href="#merit-demerit" className="hover:underline">6. メリット・デメリットまとめ</a></li>
+            <li><a href="#recommend" className="hover:underline">7. こんな人におすすめ</a></li>
+            <li><a href="#flow" className="hover:underline">8. 申し込み方法・買取の流れ</a></li>
+            <li><a href="#comparison" className="hover:underline">9. 他社との比較表</a></li>
+            <li><a href="#faq" className="hover:underline">10. よくある質問（FAQ）</a></li>
           </ol>
         </nav>
 
@@ -213,49 +207,17 @@ export default function KomehyoReviewPage() {
           </div>
         </section>
 
-        <section id="good-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">良い口コミ・評判</h2>
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★★</span><span className="text-xs text-gray-500">60代女性・愛知県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">名古屋本店のきもの館に持ち込みました。着物の販売も行っている店舗なので、市場価格をよく知っている査定員さんが対応してくれました。大島紬と結城紬に高い値段がつき、合計25万円で買い取ってもらえました。さすが老舗の鑑定力だと感じました。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★☆</span><span className="text-xs text-gray-500">50代女性・東京都</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">ブランドバッグと着物を一緒に査定してもらいました。どちらも適正な価格を提示してもらえ、まとめて売れるのが便利でした。上場企業なので安心感があります。着物は振袖と訪問着で合計8万円でした。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★☆</span><span className="text-xs text-gray-500">40代女性・大阪府</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">宅配買取で利用しました。梱包キットが送られてきて、着物を詰めて送るだけだったので手軽でした。査定結果は5日ほどで連絡があり、提示額に納得して売却。コメ兵のオンラインストアで販売されるとのことで、大切な着物が次の方に渡ると思うと嬉しいです。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★★</span><span className="text-xs text-gray-500">70代女性・愛知県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">名古屋在住なのでコメ兵本店をよく利用しています。きもの館のスタッフさんは着物に詳しく、産地や作家について教えてくれます。今回は母の形見の加賀友禅を売りましたが、12万円の値がつき満足しています。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★★☆</span><span className="text-xs text-gray-500">30代女性・神奈川県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">銀座店で着物を売りました。ブランド品のイメージが強いコメ兵ですが、着物についても知識のあるスタッフがいて安心しました。査定に20分ほどかかりましたが、丁寧に見てくれている感じがしました。</p>
-            </div>
-          </div>
+
+        {/* Googleクチコミ（実査） */}
+        <section id="google-reviews" className="mb-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
+            コメ兵のGoogleクチコミ（実査）
+          </h2>
+
+          <GoogleReviewNote slug="komehyo" />
         </section>
 
-        <section id="bad-reviews" className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">悪い口コミ・評判</h2>
-          <div className="space-y-4">
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★☆☆☆</span><span className="text-xs text-gray-500">50代女性・福岡県</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">最寄りのコメ兵の店舗では着物の取扱いがありませんでした。出張買取もないため、着物を売るには名古屋や東京の店舗まで行くか宅配買取を利用する必要があります。着物買取に関しては全国対応とは言いにくい傾向があります。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★★☆☆</span><span className="text-xs text-gray-500">60代女性・北海道</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">出張買取がないのが不便です。着物は重いので、大量に売りたい場合は持ち運びが大変。宅配買取を利用しましたが、梱包も手間がかかりました。バイセルやウリエルのように出張買取があれば利用しやすいのですが。</p>
-            </div>
-            <div className="bg-white border border-[#e8ddd0] rounded-lg p-5">
-              <div className="flex items-center gap-2 mb-2"><span className="text-[#c9a76c] text-sm">★★☆☆☆</span><span className="text-xs text-gray-500">40代女性・東京都</span></div>
-              <p className="text-gray-700 text-sm leading-relaxed">ブランド品の査定は丁寧でしたが、着物に関してはやや専門性が低い印象でした。着物専門の買取店で査定してもらったところ、コメ兵より3万円高い査定額が出ました。着物だけを売るなら専門店の方が良いかもしれません。</p>
-            </div>
-          </div>
-        </section>
+
 
         <section id="merit-demerit" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">メリット・デメリットまとめ</h2>
