@@ -56,7 +56,7 @@ const articleStructuredData = {
   description:
     "着物買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
   datePublished: "2026-04-15",
-  dateModified: "2026-10-20",
+  dateModified: "2026-10-21",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -367,7 +367,7 @@ export default function KimonoMarketPricePage() {
             ※ 上記は正絹素材の場合の目安です。化繊・ウール素材は大幅に安くなります。
           </p>
           <div id="furisode-tomesode" className="bg-white border-2 border-[#6b4c8a] rounded-xl p-5 mt-6">
-            <h3 className="font-bold text-[#6b4c8a] mb-2">振袖・留袖・訪問着の実売データ（オークションの落札相場）</h3>
+            <h3 className="font-bold text-[#6b4c8a] mb-2">振袖・留袖・訪問着・小紋・付け下げの実売データ（オークションの落札相場）</h3>
             <p className="text-sm text-gray-700 leading-relaxed mb-3">
               上の表は買取価格の目安です。実際に個人間で売買された価格（落札価格）は、当サイトの各ページで集計しています。買取価格は一般に落札価格より低くなります。
             </p>
@@ -411,11 +411,25 @@ export default function KimonoMarketPricePage() {
                     <td className="border border-[#e8ddd0] px-3 py-2">200,000円（江戸時代のアンティーク）</td>
                     <td className="border border-[#e8ddd0] px-3 py-2">2026年10月18日</td>
                   </tr>
+                  <tr>
+                    <td className="border border-[#e8ddd0] px-3 py-2"><Link href="/articles/komon-tsukesage/" className="text-[#6b4c8a] underline">小紋</Link></td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2,908件（直近30日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約2,474円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">242,000円（浦野理一の型染小紋・未使用）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年10月21日</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-[#e8ddd0] px-3 py-2"><Link href="/articles/komon-tsukesage/" className="text-[#6b4c8a] underline">付け下げ</Link></td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">230件（直近30日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約3,871円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">107,800円（志ま亀の付け下げ）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年10月21日</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-xs text-gray-500 mt-3">
-              出典：オークファン（aucfan.com）・Yahoo!オークション落札相場（振袖はまとめ売りなどを除いた集計。最高落札価格は、同じ「振袖」の語を含む日本刀〈振袖茎〉や人形用の衣装の出品を除いた着物単品です）。留袖は家紋入りが多く買い手が限られるため、未使用品でも平均は低めです。黒留袖より色留袖の平均が高いのは、色留袖は一つ紋にすると着られる場面が広がり、需要が黒留袖より残っているためと考えられます。10万円を超える落札は人間国宝や老舗の作品・時代物に限られ、平均落札額はどちらも数千円台です。区分別の内訳と読み方は<Link href="/articles/furisode/" className="text-[#6b4c8a] underline">振袖の買取相場</Link>・<Link href="/articles/houmongi/" className="text-[#6b4c8a] underline">訪問着の買取相場</Link>・<Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">留袖（黒留袖・色留袖）の買取相場</Link>をご覧ください。
+              出典：オークファン（aucfan.com）・Yahoo!オークション落札相場（振袖はまとめ売りなどを除いた集計。最高落札価格は、同じ「振袖」の語を含む日本刀〈振袖茎〉や人形用の衣装の出品を除いた着物単品です。小紋の最高落札価格は、出品名から帯か着物かを判別できない出品を除いています）。小紋・付け下げも平均落札額は数千円台です。留袖は家紋入りが多く買い手が限られるため、未使用品でも平均は低めです。黒留袖より色留袖の平均が高いのは、色留袖は一つ紋にすると着られる場面が広がり、需要が黒留袖より残っているためと考えられます。10万円を超える落札は人間国宝や老舗の作品・時代物に限られ、平均落札額はどちらも数千円台です。区分別の内訳と読み方は<Link href="/articles/furisode/" className="text-[#6b4c8a] underline">振袖の買取相場</Link>・<Link href="/articles/houmongi/" className="text-[#6b4c8a] underline">訪問着の買取相場</Link>・<Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">留袖（黒留袖・色留袖）の買取相場</Link>をご覧ください。
             </p>
           </div>
         </div>
