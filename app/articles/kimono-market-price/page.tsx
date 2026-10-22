@@ -56,7 +56,7 @@ const articleStructuredData = {
   description:
     "着物買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
   datePublished: "2026-04-15",
-  dateModified: "2026-10-21",
+  dateModified: "2026-10-22",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -158,7 +158,7 @@ export default function KimonoMarketPricePage() {
               振袖・訪問着・留袖・小紋・紬・帯など、着物の種類ごとに買取相場を一覧表でわかりやすくまとめました。高額買取になる条件や高く売るコツも詳しく解説します。
             </p>
             <p className="mt-3 text-xs text-gray-400">
-              最終更新：2026年10月20日
+              最終更新：2026年10月22日
             </p>
           </div>
         </div>
@@ -295,61 +295,61 @@ export default function KimonoMarketPricePage() {
               </thead>
               <tbody>
                 <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">振袖</td>
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/furisode/" className="underline">振袖</Link></td>
                   <td className="px-4 py-3">5,000円〜3万円</td>
                   <td className="px-4 py-3">3万円〜10万円以上</td>
                   <td className="px-4 py-3 text-gray-600">成人式用が中心。需要が安定</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">訪問着</td>
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/houmongi/" className="underline">訪問着</Link></td>
                   <td className="px-4 py-3">3,000円〜3万円</td>
                   <td className="px-4 py-3">3万円〜5万円以上</td>
                   <td className="px-4 py-3 text-gray-600">フォーマルで汎用性が高い</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">色留袖</td>
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/tomesode/" className="underline">色留袖</Link></td>
                   <td className="px-4 py-3">3,000円〜2万円</td>
                   <td className="px-4 py-3">2万円〜4万円以上</td>
                   <td className="px-4 py-3 text-gray-600">紋の数で格式が変わる</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">黒留袖</td>
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/tomesode/" className="underline">黒留袖</Link></td>
                   <td className="px-4 py-3">1,000円〜1万円</td>
                   <td className="px-4 py-3">1万円〜3万円以上</td>
                   <td className="px-4 py-3 text-gray-600">需要が限定的でやや低め</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">小紋</td>
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/komon-tsukesage/" className="underline">小紋</Link></td>
                   <td className="px-4 py-3">500円〜5,000円</td>
                   <td className="px-4 py-3">5,000円〜3万円</td>
                   <td className="px-4 py-3 text-gray-600">カジュアル着。作家物は高額</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">付け下げ</td>
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/komon-tsukesage/" className="underline">付け下げ</Link></td>
                   <td className="px-4 py-3">1,000円〜1万円</td>
                   <td className="px-4 py-3">1万円〜3万円</td>
                   <td className="px-4 py-3 text-gray-600">訪問着に次ぐフォーマル着</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">大島紬</td>
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/oshima-tsumugi/" className="underline">大島紬</Link></td>
                   <td className="px-4 py-3">1万円〜5万円</td>
                   <td className="px-4 py-3">5万円〜30万円以上</td>
                   <td className="px-4 py-3 text-gray-600">泥染め・都城が特に高額</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">結城紬</td>
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/yuki-tsumugi/" className="underline">結城紬</Link></td>
                   <td className="px-4 py-3">1万円〜5万円</td>
                   <td className="px-4 py-3">5万円〜50万円以上</td>
                   <td className="px-4 py-3 text-gray-600">本場結城紬は特に高い評価</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">紬（その他）</td>
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/tsumugi-types/" className="underline">紬（その他）</Link></td>
                   <td className="px-4 py-3">1,000円〜1万円</td>
                   <td className="px-4 py-3">1万円〜10万円</td>
                   <td className="px-4 py-3 text-gray-600">牛首紬・塩沢紬なども人気</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]">色無地</td>
+                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/iromuji/" className="underline">色無地</Link></td>
                   <td className="px-4 py-3">500円〜3,000円</td>
                   <td className="px-4 py-3">3,000円〜1万円</td>
                   <td className="px-4 py-3 text-gray-600">紋入りは需要が限られる</td>
