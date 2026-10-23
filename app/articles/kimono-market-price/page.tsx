@@ -6,14 +6,14 @@ import SoubaNote from "../../components/SoubaNote";
 export const metadata: Metadata = {
   title: "着物買取の相場一覧【2026年最新】振袖・留袖・訪問着など種類別の買取価格",
   description:
-    "着物買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・付け下げ・紬・帯・和装小物の買取価格一覧表と、高額買取になる条件・高く売るコツをまとめました。2026年最新の相場情報です。",
+    "着物（和服）買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・付け下げは実際の落札データ（件数・平均・最高値・出典つき）を掲載。値段がつく条件と高く売るコツもまとめました。",
   alternates: {
     canonical: "https://kimonokaitori-biyori.com/articles/kimono-market-price/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "着物買取の相場一覧【2026年最新】振袖・留袖・訪問着など種類別の買取価格",
     description:
-      "着物買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
+      "着物（和服）買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・付け下げの落札データ（出典つき）と高く売るコツ。",
     url: "https://kimonokaitori-biyori.com/articles/kimono-market-price/",
     siteName: "着物の買取びより",
     type: "article",
@@ -54,9 +54,9 @@ const articleStructuredData = {
   "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png",
   headline: "着物買取の相場一覧【2026年最新】振袖・留袖・訪問着など種類別の買取価格",
   description:
-    "着物買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・紬・帯の買取価格一覧と高く売るコツ。",
+    "着物（和服）買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・付け下げの落札データ（出典つき）と高く売るコツ。",
   datePublished: "2026-04-15",
-  dateModified: "2026-10-22",
+  dateModified: "2026-10-23",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
