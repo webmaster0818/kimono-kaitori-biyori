@@ -689,34 +689,28 @@ export default function FurisodePage() {
               <thead>
                 <tr className="bg-[#6b4c8a] text-white">
                   <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">時期</th>
-                  <th className="px-4 py-3 text-left font-semibold">需要</th>
                   <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">ポイント</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="bg-white border-b border-[#e8ddd0]">
                   <td className="px-4 py-3 font-semibold text-[#6b4c8a]">1月</td>
-                  <td className="px-4 py-3 text-gray-700">★★★★★</td>
                   <td className="px-4 py-3 text-gray-700">成人式直後で業者が在庫補充に動くため、高値がつきやすい</td>
                 </tr>
                 <tr className="bg-[#faf8f5] border-b border-[#e8ddd0]">
                   <td className="px-4 py-3 font-semibold text-[#6b4c8a]">3月</td>
-                  <td className="px-4 py-3 text-gray-700">★★★★</td>
                   <td className="px-4 py-3 text-gray-700">卒業式需要で袴に合わせる振袖の需要が増加</td>
                 </tr>
                 <tr className="bg-white border-b border-[#e8ddd0]">
                   <td className="px-4 py-3 font-semibold text-[#6b4c8a]">9〜10月</td>
-                  <td className="px-4 py-3 text-gray-700">★★★★★</td>
                   <td className="px-4 py-3 text-gray-700">七五三・翌年の成人式準備で需要UP。年間で最も高値がつく時期</td>
                 </tr>
                 <tr className="bg-[#faf8f5] border-b border-[#e8ddd0]">
                   <td className="px-4 py-3 font-semibold text-[#6b4c8a]">11〜12月</td>
-                  <td className="px-4 py-3 text-gray-700">★★★★</td>
                   <td className="px-4 py-3 text-gray-700">年末年始・成人式直前の駆け込み需要で買取価格が上昇</td>
                 </tr>
                 <tr className="bg-white">
                   <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">4〜8月</td>
-                  <td className="px-4 py-3 text-gray-700">★★</td>
                   <td className="px-4 py-3 text-gray-700 rounded-br-lg">オフシーズンのため買取価格は低め。急ぎでなければ秋まで待つのがおすすめ</td>
                 </tr>
               </tbody>

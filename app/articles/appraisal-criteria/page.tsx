@@ -235,49 +235,42 @@ export default function AppraisalCriteriaPage() {
                 <span className="bg-[#6b4c8a] text-white text-xs w-7 h-7 rounded-full flex items-center justify-center shrink-0 font-bold">1</span>
                 <div>
                   <p className="font-medium text-gray-900 text-sm">素材</p>
-                  <p className="text-xs text-gray-500">重要度：★★★★★</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 bg-white border border-[#e8ddd0] rounded p-3">
                 <span className="bg-[#6b4c8a] text-white text-xs w-7 h-7 rounded-full flex items-center justify-center shrink-0 font-bold">2</span>
                 <div>
                   <p className="font-medium text-gray-900 text-sm">産地・作家</p>
-                  <p className="text-xs text-gray-500">重要度：★★★★★</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 bg-white border border-[#e8ddd0] rounded p-3">
                 <span className="bg-[#6b4c8a] text-white text-xs w-7 h-7 rounded-full flex items-center justify-center shrink-0 font-bold">3</span>
                 <div>
                   <p className="font-medium text-gray-900 text-sm">状態</p>
-                  <p className="text-xs text-gray-500">重要度：★★★★☆</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 bg-white border border-[#e8ddd0] rounded p-3">
                 <span className="bg-[#6b4c8a] text-white text-xs w-7 h-7 rounded-full flex items-center justify-center shrink-0 font-bold">4</span>
                 <div>
                   <p className="font-medium text-gray-900 text-sm">証紙</p>
-                  <p className="text-xs text-gray-500">重要度：★★★★☆</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 bg-white border border-[#e8ddd0] rounded p-3">
                 <span className="bg-[#6b4c8a] text-white text-xs w-7 h-7 rounded-full flex items-center justify-center shrink-0 font-bold">5</span>
                 <div>
                   <p className="font-medium text-gray-900 text-sm">サイズ</p>
-                  <p className="text-xs text-gray-500">重要度：★★★☆☆</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 bg-white border border-[#e8ddd0] rounded p-3">
                 <span className="bg-[#6b4c8a] text-white text-xs w-7 h-7 rounded-full flex items-center justify-center shrink-0 font-bold">6</span>
                 <div>
                   <p className="font-medium text-gray-900 text-sm">需要・季節性</p>
-                  <p className="text-xs text-gray-500">重要度：★★★☆☆</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 bg-white border border-[#e8ddd0] rounded p-3 md:col-span-2">
                 <span className="bg-[#6b4c8a] text-white text-xs w-7 h-7 rounded-full flex items-center justify-center shrink-0 font-bold">7</span>
                 <div>
                   <p className="font-medium text-gray-900 text-sm">着物の種類（フォーマル度）</p>
-                  <p className="text-xs text-gray-500">重要度：★★★☆☆</p>
                 </div>
               </div>
             </div>

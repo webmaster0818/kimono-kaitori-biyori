@@ -162,15 +162,14 @@ export default function WeekendNightPage() {
                 <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">業者名</th>
                 <th className="px-4 py-3 text-left font-semibold">土日対応</th>
                 <th className="px-4 py-3 text-left font-semibold">夜間対応</th>
-                <th className="px-4 py-3 text-left font-semibold">Web申込</th>
-                <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">忙しい人向き度</th>
+                <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">Web申込</th>
               </tr></thead>
               <tbody>
-                <tr className="border-b border-[#e8ddd0] bg-white"><td className="px-4 py-3 font-semibold text-[#6b4c8a]">買取大吉</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-gray-700">一部20時まで</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-[#c9a76c] font-bold">★★★★★</td></tr>
-                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5]"><td className="px-4 py-3 font-semibold text-[#6b4c8a]">ウリエル</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-gray-700">相談可</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-[#c9a76c] font-bold">★★★★</td></tr>
-                <tr className="border-b border-[#e8ddd0] bg-white"><td className="px-4 py-3 font-semibold text-[#6b4c8a]">RECLO</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-green-600 font-bold">24時間</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-[#c9a76c] font-bold">★★★★★</td></tr>
-                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5]"><td className="px-4 py-3 font-semibold text-[#6b4c8a]">ティファナ</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-gray-700">店舗による</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-[#c9a76c] font-bold">★★★★</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">ヒカカク</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-green-600 font-bold">24時間</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-[#c9a76c] font-bold rounded-br-lg">★★★★★</td></tr>
+                <tr className="border-b border-[#e8ddd0] bg-white"><td className="px-4 py-3 font-semibold text-[#6b4c8a]">買取大吉</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-gray-700">一部20時まで</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td></tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5]"><td className="px-4 py-3 font-semibold text-[#6b4c8a]">ウリエル</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-gray-700">相談可</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td></tr>
+                <tr className="border-b border-[#e8ddd0] bg-white"><td className="px-4 py-3 font-semibold text-[#6b4c8a]">RECLO</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-green-600 font-bold">24時間</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td></tr>
+                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5]"><td className="px-4 py-3 font-semibold text-[#6b4c8a]">ティファナ</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-gray-700">店舗による</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">ヒカカク</td><td className="px-4 py-3 text-green-600 font-bold">&#10003;</td><td className="px-4 py-3 text-green-600 font-bold">24時間</td><td className="px-4 py-3 text-green-600 font-bold rounded-br-lg">&#10003;</td></tr>
               </tbody>
             </table>
           </div>

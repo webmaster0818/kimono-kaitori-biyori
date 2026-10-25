@@ -437,7 +437,7 @@ export default function EstateKimonoPage() {
                 適正価格で査定してもらえます。大量の着物も一度に対応可能。
               </p>
               <p className="text-xs text-gray-500">
-                おすすめ度：★★★★★ / 向いている人：大量に着物がある方
+                向いている人：大量に着物がある方
               </p>
             </div>
 
@@ -450,7 +450,7 @@ export default function EstateKimonoPage() {
                 故人の着物が社会貢献に役立つと考えると心の整理にもなります。
               </p>
               <p className="text-xs text-gray-500">
-                おすすめ度：★★★☆☆ / 向いている人：社会貢献を重視する方
+                向いている人：社会貢献を重視する方
               </p>
             </div>
 
@@ -463,7 +463,7 @@ export default function EstateKimonoPage() {
                 リメイクして日常的に使えるようにする方法。形見としての価値を残せます。
               </p>
               <p className="text-xs text-gray-500">
-                おすすめ度：★★★★☆ / 向いている人：形見として残したい方
+                向いている人：形見として残したい方
               </p>
             </div>
 
@@ -476,7 +476,7 @@ export default function EstateKimonoPage() {
                 自治体のルールに従って廃棄します。古布として回収してくれる自治体もあります。
               </p>
               <p className="text-xs text-gray-500">
-                おすすめ度：★★☆☆☆ / 向いている人：状態が悪い着物のみ
+                向いている人：状態が悪い着物のみ
               </p>
             </div>
           </div>

@@ -258,9 +258,6 @@ export default function SellHighTipsPage() {
             <span className="text-[#c9a76c]">コツ1.</span> 複数業者に見積もりを取る
           </h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-6">
-            <p className="text-[#6b4c8a] font-bold text-sm mb-2">
-              査定額アップ効果：★★★★★（最重要）
-            </p>
             <p className="text-sm text-gray-700 leading-relaxed">
               着物を高く売るための最も重要なコツは、複数の買取業者に査定を依頼して
               比較することです。同じ着物でも、業者によって査定額が数千円〜数万円
@@ -319,9 +316,6 @@ export default function SellHighTipsPage() {
             <span className="text-[#c9a76c]">コツ2.</span> 証紙を添える
           </h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-6">
-            <p className="text-[#6b4c8a] font-bold text-sm mb-2">
-              査定額アップ効果：★★★★★（非常に大きい）
-            </p>
             <p className="text-sm text-gray-700 leading-relaxed">
               証紙は着物の産地・素材・製法を証明する公的な書類です。
               証紙の有無で買取価格が2倍以上変わることもあるため、
@@ -369,9 +363,6 @@ export default function SellHighTipsPage() {
             <span className="text-[#c9a76c]">コツ3.</span> セットで売る
           </h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-6">
-            <p className="text-[#6b4c8a] font-bold text-sm mb-2">
-              査定額アップ効果：★★★★☆（効果大）
-            </p>
             <p className="text-sm text-gray-700 leading-relaxed">
               着物と帯、和装小物をセットで売ると、個別に売るよりも
               査定額が高くなるケースがあります。着物と相性の良い帯を
@@ -436,9 +427,6 @@ export default function SellHighTipsPage() {
             <span className="text-[#c9a76c]">コツ4.</span> 季節を考慮する
           </h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-6">
-            <p className="text-[#6b4c8a] font-bold text-sm mb-2">
-              査定額アップ効果：★★★☆☆（やや効果あり）
-            </p>
             <p className="text-sm text-gray-700 leading-relaxed">
               着物の需要は季節によって変動します。需要が高まる時期に売れば、
               査定額がアップする可能性があります。
@@ -501,9 +489,6 @@ export default function SellHighTipsPage() {
             <span className="text-[#c9a76c]">コツ5.</span> クリーニングは不要
           </h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-6">
-            <p className="text-[#6b4c8a] font-bold text-sm mb-2">
-              査定額アップ効果：★★★☆☆（コスト削減の観点）
-            </p>
             <p className="text-sm text-gray-700 leading-relaxed">
               「売る前にクリーニングに出した方がいいのでは？」と思う方も多いですが、
               実はクリーニングは不要です。むしろ、クリーニング代が無駄になる
@@ -564,9 +549,6 @@ export default function SellHighTipsPage() {
             <span className="text-[#c9a76c]">コツ6.</span> 早めに売る
           </h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-6">
-            <p className="text-[#6b4c8a] font-bold text-sm mb-2">
-              査定額アップ効果：★★★★☆（非常に重要）
-            </p>
             <p className="text-sm text-gray-700 leading-relaxed">
               着物は時間が経つほど価値が下がります。
               「いつか売ろう」と思っているうちに劣化が進み、
@@ -617,9 +599,6 @@ export default function SellHighTipsPage() {
             <span className="text-[#c9a76c]">コツ7.</span> 着物専門の買取業者を選ぶ
           </h2>
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6 mb-6">
-            <p className="text-[#6b4c8a] font-bold text-sm mb-2">
-              査定額アップ効果：★★★★★（最重要）
-            </p>
             <p className="text-sm text-gray-700 leading-relaxed">
               着物をどこに売るかで、買取価格は大きく変わります。
               リサイクルショップやフリマアプリよりも、
@@ -634,7 +613,6 @@ export default function SellHighTipsPage() {
                   <th className="px-4 py-3 text-left font-medium">売却先</th>
                   <th className="px-4 py-3 text-left font-medium">メリット</th>
                   <th className="px-4 py-3 text-left font-medium">デメリット</th>
-                  <th className="px-4 py-3 text-left font-medium">おすすめ度</th>
                 </tr>
               </thead>
               <tbody>
@@ -642,25 +620,21 @@ export default function SellHighTipsPage() {
                   <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">着物専門買取業者</td>
                   <td className="px-4 py-3 text-gray-600">適正査定、出張対応</td>
                   <td className="px-4 py-3 text-gray-600">特になし</td>
-                  <td className="px-4 py-3 text-[#c9a76c] font-bold">★★★★★</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0]">
                   <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">リサイクルショップ</td>
                   <td className="px-4 py-3 text-gray-600">手軽に売れる</td>
                   <td className="px-4 py-3 text-gray-600">安値になりがち</td>
-                  <td className="px-4 py-3 text-gray-400 font-bold">★★☆☆☆</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0]">
                   <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">フリマアプリ</td>
                   <td className="px-4 py-3 text-gray-600">自分で価格設定可能</td>
                   <td className="px-4 py-3 text-gray-600">手間がかかる</td>
-                  <td className="px-4 py-3 text-gray-400 font-bold">★★★☆☆</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0]">
                   <td className="px-4 py-3 font-medium text-gray-900 bg-[#faf8f5]">ネットオークション</td>
                   <td className="px-4 py-3 text-gray-600">競り合いで高値も</td>
                   <td className="px-4 py-3 text-gray-600">手間・リスクあり</td>
-                  <td className="px-4 py-3 text-gray-400 font-bold">★★★☆☆</td>
                 </tr>
               </tbody>
             </table>

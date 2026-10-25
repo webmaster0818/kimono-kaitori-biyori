@@ -286,8 +286,7 @@ export default function MovingSalePage() {
                   <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">業者名</th>
                   <th className="px-4 py-3 text-left font-semibold">即日出張</th>
                   <th className="px-4 py-3 text-left font-semibold">即日持込</th>
-                  <th className="px-4 py-3 text-left font-semibold">大量買取</th>
-                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">引っ越し向き度</th>
+                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">大量買取</th>
                 </tr>
               </thead>
               <tbody>
@@ -296,35 +295,30 @@ export default function MovingSalePage() {
                   <td className="px-4 py-3 text-green-600 font-bold">&#10003;</td>
                   <td className="px-4 py-3 text-green-600 font-bold">&#10003;</td>
                   <td className="px-4 py-3 text-green-600 font-bold">&#10003;</td>
-                  <td className="px-4 py-3 text-[#c9a76c] font-bold">★★★★★</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
                   <td className="px-4 py-3 font-semibold text-[#6b4c8a]">ウリエル</td>
                   <td className="px-4 py-3 text-green-600 font-bold">&#10003;</td>
                   <td className="px-4 py-3 text-green-600 font-bold">&#10003;</td>
                   <td className="px-4 py-3 text-green-600 font-bold">&#10003;</td>
-                  <td className="px-4 py-3 text-[#c9a76c] font-bold">★★★★★</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
                   <td className="px-4 py-3 font-semibold text-[#6b4c8a]">RECLO</td>
                   <td className="px-4 py-3 text-gray-400">-</td>
                   <td className="px-4 py-3 text-gray-400">-</td>
                   <td className="px-4 py-3 text-green-600 font-bold">&#10003;</td>
-                  <td className="px-4 py-3 text-[#c9a76c] font-bold">★★★</td>
                 </tr>
                 <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
                   <td className="px-4 py-3 font-semibold text-[#6b4c8a]">ティファナ</td>
                   <td className="px-4 py-3 text-green-600 font-bold">&#10003;</td>
                   <td className="px-4 py-3 text-green-600 font-bold">&#10003;</td>
                   <td className="px-4 py-3 text-green-600 font-bold">&#10003;</td>
-                  <td className="px-4 py-3 text-[#c9a76c] font-bold">★★★★</td>
                 </tr>
                 <tr className="bg-white hover:bg-[#faf8f5] transition-colors">
                   <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">ヒカカク</td>
                   <td className="px-4 py-3 text-gray-400">-</td>
                   <td className="px-4 py-3 text-gray-400">-</td>
-                  <td className="px-4 py-3 text-gray-400">-</td>
-                  <td className="px-4 py-3 text-[#c9a76c] font-bold rounded-br-lg">★★★</td>
+                  <td className="px-4 py-3 text-gray-400 rounded-br-lg">-</td>
                 </tr>
               </tbody>
             </table>
