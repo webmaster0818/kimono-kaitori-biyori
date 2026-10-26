@@ -25,7 +25,7 @@ const faqs = [
   {
     question: "着物の買取相場は平均いくらくらいですか？",
     answer:
-      "着物の買取相場は種類や状態によって大きく異なります。一般的な着物で数百円〜数千円程度ですが、有名作家物や産地物（大島紬・結城紬など）は数万円〜数十万円になることもあります。振袖は5,000円〜10万円、訪問着は3,000円〜5万円が目安です。正絹で状態が良く、証紙付きであれば相場の上限に近づきます。",
+      "着物の買取相場は種類や状態によって大きく異なります。当サイトで集計した直近30日の落札データでは、平均落札価格は振袖 約6,269円・訪問着 約4,820円・小紋 約2,474円で、どの種類も数千円台です。10万円を超える落札は人間国宝や老舗の作品・時代物に限られます。買取価格は一般に落札価格より低くなります。",
   },
   {
     question: "古い着物でも買い取ってもらえますか？",
@@ -56,7 +56,7 @@ const articleStructuredData = {
   description:
     "着物（和服）買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・付け下げの落札データ（出典つき）と高く売るコツ。",
   datePublished: "2026-04-15",
-  dateModified: "2026-10-23",
+  dateModified: "2026-10-26",
   author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -155,10 +155,10 @@ export default function KimonoMarketPricePage() {
               </span>
             </h1>
             <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-              振袖・訪問着・留袖・小紋・紬・帯など、着物の種類ごとに買取相場を一覧表でわかりやすくまとめました。高額買取になる条件や高く売るコツも詳しく解説します。
+              振袖・訪問着・留袖・小紋・付け下げの実際の落札データ（件数・平均・最高値・出典つき）をまとめました。高額買取になる条件や高く売るコツも解説します。
             </p>
             <p className="mt-3 text-xs text-gray-400">
-              最終更新：2026年10月22日
+              最終更新：2026年10月26日
             </p>
           </div>
         </div>
@@ -168,7 +168,7 @@ export default function KimonoMarketPricePage() {
       <div className="max-w-4xl mx-auto px-4 mt-4">
         <div className="bg-[#faf7f3] border-l-4 border-[#6b4c8a] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
-          <p>着物買取の相場は種類により大きく異なります。振袖5,000〜3万円、訪問着3,000〜5万円、大島紬3万〜30万円、加賀友禅（作家物）10万円超。証紙の有無・保管状態・サイズが査定額を左右します。</p>
+          <p>実際の落札データ（直近30日）では、平均落札価格は振袖 約6,269円・訪問着 約4,820円・小紋 約2,474円と、どの種類も数千円台です。10万円を超える落札は、人間国宝や老舗の作品・時代物に限られます。買取価格は一般に落札価格より低くなります。</p>
         </div>
       </div>
 
@@ -189,7 +189,7 @@ export default function KimonoMarketPricePage() {
                 </li>
                 <li>
                   <a href="#price-table" className="text-[#6b4c8a] hover:underline">
-                    2. 【種類別】着物の買取相場一覧表
+                    2. 【種類別】着物の落札相場（実売データ）
                   </a>
                 </li>
                 <li>
@@ -278,98 +278,33 @@ export default function KimonoMarketPricePage() {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
             <span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />
-            【種類別】着物の買取相場一覧表
+            【種類別】着物の落札相場（実売データ）
           </h2>
-          <p className="text-sm md:text-base mb-6 leading-relaxed">
-            以下は2026年時点での主な着物の種類別買取相場です。状態や素材、作家物かどうかによって大きく変動しますので、あくまで目安としてご参考ください。
+          <p className="text-sm md:text-base mb-4 leading-relaxed">
+            買取価格は、業者・状態・素材・作家物かどうかで大きく変わり、公的な統計もありません。そのため当サイトでは、根拠を示せない「買取価格の目安」は載せず、実際に売買された価格（オークションの落札データ）を出典つきで掲載しています。種類ごとの詳しい解説は各ページをご覧ください。
           </p>
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse text-sm">
-              <thead>
-                <tr className="bg-[#6b4c8a] text-white">
-                  <th className="px-4 py-3 text-left font-semibold rounded-tl-lg">着物の種類</th>
-                  <th className="px-4 py-3 text-left font-semibold">一般品の相場</th>
-                  <th className="px-4 py-3 text-left font-semibold">高級品・作家物の相場</th>
-                  <th className="px-4 py-3 text-left font-semibold rounded-tr-lg">備考</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/furisode/" className="underline">振袖</Link></td>
-                  <td className="px-4 py-3">5,000円〜3万円</td>
-                  <td className="px-4 py-3">3万円〜10万円以上</td>
-                  <td className="px-4 py-3 text-gray-600">成人式用が中心。需要が安定</td>
-                </tr>
-                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/houmongi/" className="underline">訪問着</Link></td>
-                  <td className="px-4 py-3">3,000円〜3万円</td>
-                  <td className="px-4 py-3">3万円〜5万円以上</td>
-                  <td className="px-4 py-3 text-gray-600">フォーマルで汎用性が高い</td>
-                </tr>
-                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/tomesode/" className="underline">色留袖</Link></td>
-                  <td className="px-4 py-3">3,000円〜2万円</td>
-                  <td className="px-4 py-3">2万円〜4万円以上</td>
-                  <td className="px-4 py-3 text-gray-600">紋の数で格式が変わる</td>
-                </tr>
-                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/tomesode/" className="underline">黒留袖</Link></td>
-                  <td className="px-4 py-3">1,000円〜1万円</td>
-                  <td className="px-4 py-3">1万円〜3万円以上</td>
-                  <td className="px-4 py-3 text-gray-600">需要が限定的でやや低め</td>
-                </tr>
-                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/komon-tsukesage/" className="underline">小紋</Link></td>
-                  <td className="px-4 py-3">500円〜5,000円</td>
-                  <td className="px-4 py-3">5,000円〜3万円</td>
-                  <td className="px-4 py-3 text-gray-600">カジュアル着。作家物は高額</td>
-                </tr>
-                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/komon-tsukesage/" className="underline">付け下げ</Link></td>
-                  <td className="px-4 py-3">1,000円〜1万円</td>
-                  <td className="px-4 py-3">1万円〜3万円</td>
-                  <td className="px-4 py-3 text-gray-600">訪問着に次ぐフォーマル着</td>
-                </tr>
-                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/oshima-tsumugi/" className="underline">大島紬</Link></td>
-                  <td className="px-4 py-3">1万円〜5万円</td>
-                  <td className="px-4 py-3">5万円〜30万円以上</td>
-                  <td className="px-4 py-3 text-gray-600">泥染め・都城が特に高額</td>
-                </tr>
-                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/yuki-tsumugi/" className="underline">結城紬</Link></td>
-                  <td className="px-4 py-3">1万円〜5万円</td>
-                  <td className="px-4 py-3">5万円〜50万円以上</td>
-                  <td className="px-4 py-3 text-gray-600">本場結城紬は特に高い評価</td>
-                </tr>
-                <tr className="border-b border-[#e8ddd0] bg-white hover:bg-[#faf8f5] transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/tsumugi-types/" className="underline">紬（その他）</Link></td>
-                  <td className="px-4 py-3">1,000円〜1万円</td>
-                  <td className="px-4 py-3">1万円〜10万円</td>
-                  <td className="px-4 py-3 text-gray-600">牛首紬・塩沢紬なども人気</td>
-                </tr>
-                <tr className="border-b border-[#e8ddd0] bg-[#faf8f5] hover:bg-white transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a]"><Link href="/articles/iromuji/" className="underline">色無地</Link></td>
-                  <td className="px-4 py-3">500円〜3,000円</td>
-                  <td className="px-4 py-3">3,000円〜1万円</td>
-                  <td className="px-4 py-3 text-gray-600">紋入りは需要が限られる</td>
-                </tr>
-                <tr className="bg-white hover:bg-[#faf8f5] transition-colors">
-                  <td className="px-4 py-3 font-semibold text-[#6b4c8a] rounded-bl-lg">浴衣</td>
-                  <td className="px-4 py-3">100円〜1,000円</td>
-                  <td className="px-4 py-3">1,000円〜5,000円</td>
-                  <td className="px-4 py-3 text-gray-600 rounded-br-lg">有松絞りなどは高め</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <p className="text-xs text-gray-500 mt-3">
-            ※ 上記は正絹素材の場合の目安です。化繊・ウール素材は大幅に安くなります。
-          </p>
+          <ul className="flex flex-wrap gap-2 text-sm mb-2">
+            {[
+              ["/articles/furisode/", "振袖"],
+              ["/articles/houmongi/", "訪問着"],
+              ["/articles/tomesode/", "留袖（黒留袖・色留袖）"],
+              ["/articles/komon-tsukesage/", "小紋・付け下げ"],
+              ["/articles/oshima-tsumugi/", "大島紬"],
+              ["/articles/yuki-tsumugi/", "結城紬"],
+              ["/articles/tsumugi-types/", "紬（その他）"],
+              ["/articles/iromuji/", "色無地"],
+            ].map(([href, label]) => (
+              <li key={href}>
+                <Link href={href} className="inline-block px-3 py-1.5 rounded-full border border-[#e8ddd0] bg-white text-[#6b4c8a] hover:bg-[#faf8f5]">
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
           <div id="furisode-tomesode" className="bg-white border-2 border-[#6b4c8a] rounded-xl p-5 mt-6">
             <h3 className="font-bold text-[#6b4c8a] mb-2">振袖・留袖・訪問着・小紋・付け下げの実売データ（オークションの落札相場）</h3>
             <p className="text-sm text-gray-700 leading-relaxed mb-3">
-              上の表は買取価格の目安です。実際に個人間で売買された価格（落札価格）は、当サイトの各ページで集計しています。買取価格は一般に落札価格より低くなります。
+              実際に個人間で売買された価格（落札価格）を、当サイトの各ページで集計しています。買取価格は一般に落札価格より低くなります。
             </p>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse text-sm">
