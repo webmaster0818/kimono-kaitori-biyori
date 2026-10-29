@@ -158,7 +158,7 @@ export default function KimonoMarketPricePage() {
               振袖・訪問着・留袖・小紋・付け下げの実際の落札データ（件数・平均・最高値・出典つき）をまとめました。高額買取になる条件や高く売るコツも解説します。
             </p>
             <p className="mt-3 text-xs text-gray-400">
-              最終更新：2026年10月26日
+              最終更新：2026年10月29日
             </p>
           </div>
         </div>
@@ -302,7 +302,7 @@ export default function KimonoMarketPricePage() {
             ))}
           </ul>
           <div id="furisode-tomesode" className="bg-white border-2 border-[#6b4c8a] rounded-xl p-5 mt-6">
-            <h3 className="font-bold text-[#6b4c8a] mb-2">振袖・留袖・訪問着・小紋・付け下げ・色無地・喪服・羽織・道行コートの実売データ（オークションの落札相場）</h3>
+            <h3 className="font-bold text-[#6b4c8a] mb-2">振袖・留袖・訪問着・小紋・付け下げ・色無地・喪服・羽織・道行コート・塩沢紬の実売データ（オークションの落札相場）</h3>
             <p className="text-sm text-gray-700 leading-relaxed mb-3">
               実際に個人間で売買された価格（落札価格）を、当サイトの各ページで集計しています。買取価格は一般に落札価格より低くなります。
             </p>
@@ -388,11 +388,18 @@ export default function KimonoMarketPricePage() {
                     <td className="border border-[#e8ddd0] px-3 py-2">69,300円（青山八木の道行コート・ロング丈）</td>
                     <td className="border border-[#e8ddd0] px-3 py-2">2026年10月29日</td>
                   </tr>
+                  <tr>
+                    <td className="border border-[#e8ddd0] px-3 py-2">塩沢紬</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">14件（直近30日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約3,570円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">75,000円（初代 林宗平作の本場塩沢紬・出品名に「新品」）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年10月29日</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-xs text-gray-500 mt-3">
-              出典：オークファン（aucfan.com）・Yahoo!オークション落札相場（振袖はまとめ売りなどを除いた集計。最高落札価格は、同じ「振袖」の語を含む日本刀〈振袖茎〉や人形用の衣装の出品を除いた着物単品です。小紋の最高落札価格は、出品名から帯か着物かを判別できない出品を除いています。喪服の最高落札価格は、まとめ売りと「色喪服にも」と書かれた色無地を除いた単品です。喪服は直近30日の落札が10件と少なく、平均は参考値です。羽織の最高落札価格は、着物とのアンサンブル・セット出品と、中国の古い衣装〈古玩〉の出品を除いた羽織単品です。道行コートは「道行 コート 正絹」で集計しました）。小紋・付け下げも平均落札額は数千円台です。留袖は家紋入りが多く買い手が限られるため、未使用品でも平均は低めです。黒留袖より色留袖の平均が高いのは、色留袖は一つ紋にすると着られる場面が広がり、需要が黒留袖より残っているためと考えられます。10万円を超える落札は人間国宝や老舗の作品・時代物に限られ、平均落札額はどちらも数千円台です。区分別の内訳と読み方は<Link href="/articles/furisode/" className="text-[#6b4c8a] underline">振袖の買取相場</Link>・<Link href="/articles/houmongi/" className="text-[#6b4c8a] underline">訪問着の買取相場</Link>・<Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">留袖（黒留袖・色留袖）の買取相場</Link>をご覧ください。
+              出典：オークファン（aucfan.com）・Yahoo!オークション落札相場（振袖はまとめ売りなどを除いた集計。最高落札価格は、同じ「振袖」の語を含む日本刀〈振袖茎〉や人形用の衣装の出品を除いた着物単品です。小紋の最高落札価格は、出品名から帯か着物かを判別できない出品を除いています。喪服の最高落札価格は、まとめ売りと「色喪服にも」と書かれた色無地を除いた単品です。喪服は直近30日の落札が10件と少なく、平均は参考値です。羽織の最高落札価格は、着物とのアンサンブル・セット出品と、中国の古い衣装〈古玩〉の出品を除いた羽織単品です。道行コートは「道行 コート 正絹」で集計しました。塩沢紬は直近30日の落札が14件と少なく、平均は参考値です。最高落札価格は、まとめ売り・草履や下駄の鼻緒・リメイク品を除いた単品です）。小紋・付け下げも平均落札額は数千円台です。留袖は家紋入りが多く買い手が限られるため、未使用品でも平均は低めです。黒留袖より色留袖の平均が高いのは、色留袖は一つ紋にすると着られる場面が広がり、需要が黒留袖より残っているためと考えられます。10万円を超える落札は人間国宝や老舗の作品・時代物に限られ、平均落札額はどちらも数千円台です。区分別の内訳と読み方は<Link href="/articles/furisode/" className="text-[#6b4c8a] underline">振袖の買取相場</Link>・<Link href="/articles/houmongi/" className="text-[#6b4c8a] underline">訪問着の買取相場</Link>・<Link href="/articles/tomesode/" className="text-[#6b4c8a] underline">留袖（黒留袖・色留袖）の買取相場</Link>をご覧ください。
             </p>
           </div>
         </div>
