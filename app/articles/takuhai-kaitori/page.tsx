@@ -28,7 +28,7 @@ const articleStructuredData = {
     "着物の宅配買取おすすめ業者3選を比較。自宅から送るだけで買取が完了する宅配買取のメリット・デメリット、利用の流れ、梱包のコツまで詳しく解説します。",
   datePublished: "2026-04-16",
   dateModified: "2026-04-16",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

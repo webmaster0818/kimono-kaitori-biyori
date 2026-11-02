@@ -30,7 +30,7 @@ const articleStructuredData = {
   headline: "紬の種類と買取相場まとめ｜大島紬・結城紬・塩沢紬・牛首紬",
   description: "紬の種類と買取相場を解説。大島紬・結城紬・塩沢紬・牛首紬の特徴と買取価格。",
   datePublished: "2026-04-26", dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/tsumugi-types/" },
 };

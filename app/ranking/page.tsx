@@ -85,7 +85,7 @@ const articleStructuredData = {
     "着物買取はどこがいい？買取大吉・ウリエル・RECLO・ティファナ・ヒカカクの5社を6つの基準で比較。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

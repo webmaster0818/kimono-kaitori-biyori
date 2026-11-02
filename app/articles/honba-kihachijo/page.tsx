@@ -59,7 +59,7 @@ const articleStructuredData = {
     "本場黄八丈の買取相場と高く売る方法を解説。草木染の縞・格子、証紙の有無が査定を左右します。",
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

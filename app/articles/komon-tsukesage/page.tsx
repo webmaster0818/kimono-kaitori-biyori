@@ -60,7 +60,7 @@ const articleStructuredData = {
     "小紋・付け下げの種類別買取相場と高く売るコツを解説。江戸小紋の三役は特に高額。",
   datePublished: "2026-04-16",
   dateModified: "2026-04-16",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

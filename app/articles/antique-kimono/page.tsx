@@ -64,7 +64,7 @@ const articleStructuredData = {
     "アンティーク着物の時代別買取相場と高く売るコツを解説。銘仙や大正ロマン柄は高額査定も。",
   datePublished: "2026-04-16",
   dateModified: "2026-04-16",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

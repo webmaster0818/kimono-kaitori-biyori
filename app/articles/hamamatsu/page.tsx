@@ -38,7 +38,7 @@ const articleStructuredData = {
     "浜松市で着物を高く売るためのおすすめ買取業者5選。市内の対応エリアや高く売るコツも解説。",
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

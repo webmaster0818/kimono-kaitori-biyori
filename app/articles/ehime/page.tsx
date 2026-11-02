@@ -37,7 +37,7 @@ const articleStructuredData = {
     "愛媛県で着物を高く売るためのおすすめ買取業者5選。伊予絣など地元織物の買取相場も解説。",
   datePublished: "2026-06-03",
   dateModified: "2026-06-03",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

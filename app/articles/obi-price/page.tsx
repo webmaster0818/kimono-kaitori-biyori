@@ -58,7 +58,7 @@ const articleStructuredData = {
     "袋帯・名古屋帯・丸帯の買取相場と高く売る方法を解説。西陣織・博多織の高額買取情報も。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

@@ -30,7 +30,7 @@ const articleStructuredData = {
   headline: "着物買取アプリおすすめ比較｜スマホで完結する売り方ガイド",
   description: "スマホで着物を売る方法をガイド。フリマアプリと買取業者アプリの比較も。",
   datePublished: "2026-05-17", dateModified: "2026-05-17",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/app-guide/" },
 };

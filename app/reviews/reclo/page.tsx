@@ -31,7 +31,7 @@ const articleStructuredData = {
     "RECLO（リクロ）の着物買取サービスを検証。宅配買取特化で高級品に強い実力を口コミとともにレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-10-21",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

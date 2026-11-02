@@ -57,7 +57,7 @@ const articleStructuredData = {
     "着物の種類を格式順に網羅。特徴・着用シーン・買取相場まで。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

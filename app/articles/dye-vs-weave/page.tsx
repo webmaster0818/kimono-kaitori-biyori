@@ -57,7 +57,7 @@ const articleStructuredData = {
     "染めの着物と織りの着物の違いを解説。格式・買取相場の比較も。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

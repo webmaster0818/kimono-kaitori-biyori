@@ -4,7 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 import SoubaNote from "../../components/SoubaNote";
 
 export const metadata: Metadata = {
-  title: "【専門家監修】母親の着物の整理方法｜売る・残す・寄付の判断ガイド",
+  title: "母親の着物の整理方法｜売る・残す・寄付の判断ガイド",
   description:
     "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を解説。形見分けとの兼ね合い、整理の手順、売る場合のおすすめ業者まで後悔しない選択ガイドをお届けします。",
   alternates: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "https://kimonokaitori-biyori.com/articles/mother-kimono/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "【専門家監修】母親の着物の整理方法｜売る・残す・寄付の判断ガイド",
+    title: "母親の着物の整理方法｜売る・残す・寄付の判断ガイド",
     description:
       "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を解説。後悔しない整理の進め方をガイドします。",
     url: "https://kimonokaitori-biyori.com/articles/mother-kimono/",
@@ -29,7 +29,7 @@ const articleStructuredData = {
     "母親の着物をどうするか悩んでいる方へ。売る・残す・リメイクなど選択肢を解説。形見分けとの兼ね合い、整理の手順、売る場合のおすすめ業者まで後悔しない選択ガイドをお届けします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

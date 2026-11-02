@@ -57,7 +57,7 @@ const articleStructuredData = {
     "袷・単衣・薄物の着分け時期と素材の違いを解説。季節に合った着物選びの基本。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

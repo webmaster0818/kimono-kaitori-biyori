@@ -30,7 +30,7 @@ const articleStructuredData = {
     "買取大吉の着物買取サービスを検証。全国2,000店超の実績、査定員の質、買取価格の相場、Googleクチコミの実査結果と公開情報、実売データにもとづいてレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-10-21",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

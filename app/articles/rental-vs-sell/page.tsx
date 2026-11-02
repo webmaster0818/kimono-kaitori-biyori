@@ -58,7 +58,7 @@ const articleStructuredData = {
     "着物をレンタルに出すか売却するか、費用対効果で比較。保管コスト・収益シミュレーション付き。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

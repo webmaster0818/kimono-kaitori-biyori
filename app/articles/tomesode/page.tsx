@@ -59,7 +59,7 @@ const articleStructuredData = {
     "留袖の買取相場と高く売る方法を解説。黒留袖・色留袖の違い、家紋入りの注意点、実売データも。",
   datePublished: "2026-06-26",
   dateModified: "2026-06-26",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

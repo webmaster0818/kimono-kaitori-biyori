@@ -60,7 +60,7 @@ const articleStructuredData = {
     "結城紬の亀甲別買取相場と高く売るコツを解説。200亀甲以上の希少品は超高額査定も。",
   datePublished: "2026-04-16",
   dateModified: "2026-04-16",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

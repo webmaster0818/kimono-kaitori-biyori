@@ -57,7 +57,7 @@ const articleStructuredData = {
     "訪問着・色留袖・黒留袖の買取相場と、加賀友禅・京友禅など高く売れる条件を解説。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

@@ -57,7 +57,7 @@ const articleStructuredData = {
     "金沢・石川県で着物を高く売るためのおすすめ買取業者5選。加賀友禅の買取相場も解説。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

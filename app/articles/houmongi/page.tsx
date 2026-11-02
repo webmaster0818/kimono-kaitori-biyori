@@ -60,7 +60,7 @@ const articleStructuredData = {
   datePublished: "2026-06-26",
   dateModified: "2026-06-26",
   author: {
-    "@type": "Person",
+    "@type": "Organization",
     name: "着物の買取びより 編集部",
     url: "https://kimonokaitori-biyori.com/author/",
   },

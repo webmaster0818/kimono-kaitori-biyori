@@ -28,7 +28,7 @@ const articleStructuredData = {
     "着物買取でよくあるトラブル事例5選と回避法を解説。信頼できる業者の見分け方、クーリングオフ制度についても詳しくガイドします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

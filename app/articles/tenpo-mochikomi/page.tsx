@@ -29,7 +29,7 @@ const articleStructuredData = {
   headline: "着物買取の店舗持ち込みガイド｜おすすめ業者5選とやり方・当日の流れ【2026年】",
   description: "着物の店舗持ち込み買取の総合ガイド。おすすめ業者5選と持ち込みのやり方・当日の流れ・必要な持ち物も解説。",
   datePublished: "2026-05-17", dateModified: "2026-07-19",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/tenpo-mochikomi/" },
 };

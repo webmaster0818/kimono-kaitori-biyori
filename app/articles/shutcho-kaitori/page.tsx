@@ -28,7 +28,7 @@ const articleStructuredData = {
     "着物の出張買取おすすめ業者3選を比較。自宅にいながら査定から現金化まで完結する出張買取のメリット・デメリット、利用の流れ、トラブル回避法まで詳しく解説します。",
   datePublished: "2026-04-16",
   dateModified: "2026-04-16",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

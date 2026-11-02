@@ -58,7 +58,7 @@ const articleStructuredData = {
     "札幌・北海道で着物を高く売るためのおすすめ買取業者5選。宅配・出張買取の対応も充実。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

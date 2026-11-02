@@ -28,7 +28,7 @@ const articleStructuredData = {
     "着物の証紙とは何か、証紙の種類、見方・読み方、主な産地別証紙一覧、証紙が査定額に与える影響を解説します。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

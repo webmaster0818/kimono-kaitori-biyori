@@ -28,7 +28,7 @@ const articleStructuredData = {
     "遺品整理で大量の着物が出てきたときの対処法を解説。着物の価値の見極め方、処分方法の選択肢、出張買取が便利な理由を網羅的にガイドします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

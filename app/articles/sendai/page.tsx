@@ -58,7 +58,7 @@ const articleStructuredData = {
     "仙台・宮城エリアで着物を高く売るためのおすすめ買取業者5選。出張・宅配の対応状況を比較。",
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

@@ -30,7 +30,7 @@ const articleStructuredData = {
     "ウリエルの着物買取サービスを検証。運営は株式会社クオーレ。出張買取・催事買取に対応。口コミ・評判を公開情報と実売データにもとづいてレビュー。",
   datePublished: "2026-04-15",
   dateModified: "2026-10-21",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

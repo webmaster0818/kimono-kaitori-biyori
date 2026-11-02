@@ -28,7 +28,7 @@ const articleStructuredData = {
     "着物を高く売るための7つのコツを解説。複数業者の見積もり比較、証紙の活用、セット売りなど、査定額アップの秘訣をお伝えします。",
   datePublished: "2026-04-15",
   dateModified: "2026-04-15",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

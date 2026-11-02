@@ -33,7 +33,7 @@ const articleStructuredData = {
   headline: "買取大吉 vs ウリエル 比較｜どちらに売るべき？",
   description: "買取大吉とウリエルの着物買取を6つの視点で比較。あなたに合うのはどちら？",
   datePublished: "2026-05-17", dateModified: "2026-05-17",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/daikichi-vs-uriel/" },
 };

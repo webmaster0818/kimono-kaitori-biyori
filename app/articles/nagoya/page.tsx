@@ -59,7 +59,7 @@ const articleStructuredData = {
     "名古屋・愛知県で着物を高く売るためのおすすめ買取業者5選。有松絞り・名古屋帯の買取相場も。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",

@@ -58,7 +58,7 @@ const articleStructuredData = {
     "新潟県で着物を高く売るためのおすすめ買取業者5選。小千谷縮・塩沢紬・越後上布など地元織物の買取相場も解説。",
   datePublished: "2026-06-02",
   dateModified: "2026-06-02",
-  author: { "@type": "Person", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
+  author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
     name: "着物の買取びより",
