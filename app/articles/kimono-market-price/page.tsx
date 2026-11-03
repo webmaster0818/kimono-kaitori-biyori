@@ -302,7 +302,11 @@ export default function KimonoMarketPricePage() {
             ))}
           </ul>
           <div id="furisode-tomesode" className="bg-white border-2 border-[#6b4c8a] rounded-xl p-5 mt-6">
-            <h3 className="font-bold text-[#6b4c8a] mb-2">振袖・留袖・訪問着・小紋・付け下げ・色無地・喪服・羽織・道行コート・塩沢紬・浴衣・袴・名古屋帯・長襦袢・袋帯の実売データ（オークションの落札相場）</h3>
+            <h3 className="font-bold text-[#6b4c8a] mb-2">種類別の実売データ（オークションの落札相場・全15種類）</h3>
+            <p className="text-sm text-gray-800 leading-relaxed mb-3 bg-[#faf7f3] border border-[#e8ddd0] rounded-lg p-3">
+              <strong>振袖の相場をお探しの方へ：</strong>直近30日の落札2,666件で<strong>平均 約6,269円</strong>、最高値は275,000円（藤娘きぬたやの総絞り振袖）です（2026年10月20日集計）。
+              <strong>塩沢紬</strong>は14件で平均 約3,570円、最高値75,000円（2026年10月29日集計）。いずれも下の表に、件数・平均・最高値・集計日を種類ごとに載せています。買取価格は一般に落札価格より低くなります。
+            </p>
             <p className="text-sm text-gray-700 leading-relaxed mb-3">
               実際に個人間で売買された価格（落札価格）を、当サイトの各ページで集計しています。買取価格は一般に落札価格より低くなります。
             </p>
