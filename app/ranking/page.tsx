@@ -338,7 +338,7 @@ export default function RankingPage() {
             <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-xl p-5 mb-4">
               <p className="text-sm font-bold text-[#6b4c8a] mb-2">ポイント</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                今回紹介する5社のうち、特に着物の専門性が高いのは<strong>買取大吉</strong>（着物専門査定員在籍）と<strong>RECLO</strong>（高級品専門のスタッフ在籍）です。「この着物は価値がありそう」と感じたら、これらの業者にまず相談してんでください。
+                今回紹介する5社のうち、特に着物の専門性が高いのは<strong>買取大吉</strong>（着物専門査定員在籍）と<strong>RECLO</strong>（高級品専門のスタッフ在籍）です。「この着物は価値がありそう」と感じたら、これらの業者にまず相談してみてください。
               </p>
             </div>
           </div>
@@ -931,7 +931,7 @@ export default function RankingPage() {
               ② 着物の買取実績・専門性
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-              着物の価値を正しく見極めるには専門知識が不可欠です。各社の着物に対する専門性と実績を比較してんでください。
+              着物の価値を正しく見極めるには専門知識が不可欠です。各社の着物に対する専門性と実績を比較してみてください。
             </p>
             <div className="overflow-x-auto mb-4">
               <table className="w-full text-sm border-collapse min-w-[600px]">
@@ -1192,7 +1192,7 @@ export default function RankingPage() {
               ⑥ 対応スピード
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-              急いで着物を売りたい場合は、対応スピードも重要なポイントです。各社の対応スピードを比較してんでください。
+              急いで着物を売りたい場合は、対応スピードも重要なポイントです。各社の対応スピードを比較してみてください。
             </p>
             <div className="overflow-x-auto mb-4">
               <table className="w-full text-sm border-collapse min-w-[600px]">
@@ -1690,7 +1690,7 @@ export default function RankingPage() {
               着物買取で最も大切なのは、<strong>複数の業者に査定を依頼して比較すること</strong>です。同じ着物でも業者によって査定額が数千円〜数万円変わることは珍しくありません。
             </p>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-              迷ったら、まずは<strong>買取大吉</strong>で着物専門の査定員に見てもらい、並行して<strong>ヒカカク！</strong>で複数社の査定額を比較するのがおすすめです。高級着物であれば<strong>RECLO</strong>にも査定を依頼してんでください。
+              迷ったら、まずは<strong>買取大吉</strong>で着物専門の査定員に見てもらい、並行して<strong>ヒカカク！</strong>で複数社の査定額を比較するのがおすすめです。高級着物であれば<strong>RECLO</strong>にも査定を依頼してみてください。
             </p>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               いずれの業者も査定は無料です。大切な着物を納得のいく価格で手放すために、ぜひ複数社の査定を活用してください。

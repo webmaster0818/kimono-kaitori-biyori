@@ -567,7 +567,7 @@ export default function PhoneAppraisalPage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">概算額に納得できない場合</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                概算額が期待より低い場合は、別の業者にも電話査定を依頼してんでください。業者ごとに得意分野が異なるため、ある業者で低い査定額でも、別の業者では高い金額がつくことがあります。また、<Link href="/articles/flea-vs-dealer/" className="text-[#6b4c8a] hover:underline">フリマアプリでの個人売買</Link>も選択肢として検討できます。
+                概算額が期待より低い場合は、別の業者にも電話査定を依頼してみてください。業者ごとに得意分野が異なるため、ある業者で低い査定額でも、別の業者では高い金額がつくことがあります。また、<Link href="/articles/flea-vs-dealer/" className="text-[#6b4c8a] hover:underline">フリマアプリでの個人売買</Link>も選択肢として検討できます。
               </p>
             </div>
           </div>

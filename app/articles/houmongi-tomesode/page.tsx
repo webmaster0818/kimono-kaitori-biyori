@@ -398,7 +398,7 @@ export default function HoumongiTomesodePage() {
             訪問着と留袖の買取価格比較
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            訪問着と留袖（色留袖・黒留袖）の買取相場を一覧で比較してんでください。
+            訪問着と留袖（色留袖・黒留袖）の買取相場を一覧で比較してみてください。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">

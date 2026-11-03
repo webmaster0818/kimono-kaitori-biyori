@@ -625,7 +625,7 @@ export default function SendaiPage() {
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-3 text-base">東北地方の染織品（米沢織・置賜紬等）</h3>
               <p className="text-sm leading-relaxed text-gray-700">
-                東北地方には宮城県だけでなく、山形県の米沢織・置賜紬、秋田県の秋田八丈、岩手県の南部紫根染など、多様な伝統的染織品があります。これらの着物は証紙があれば高額買取が期待できます。仙台にお住まいで東北各地の染織品をお持ちの方は、伝統工芸品に詳しい査定員がいる買取大吉やウリエルに相談してんでください。
+                東北地方には宮城県だけでなく、山形県の米沢織・置賜紬、秋田県の秋田八丈、岩手県の南部紫根染など、多様な伝統的染織品があります。これらの着物は証紙があれば高額買取が期待できます。仙台にお住まいで東北各地の染織品をお持ちの方は、伝統工芸品に詳しい査定員がいる買取大吉やウリエルに相談してみてください。
               </p>
             </div>
           </div>
@@ -812,7 +812,7 @@ export default function SendaiPage() {
             仙台で着物を売るなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            宮城県内なら出張買取・宅配買取で自宅にいながら査定が可能。複数業者の無料査定で、お手持ちの着物の最高額を確認してんでください。
+            宮城県内なら出張買取・宅配買取で自宅にいながら査定が可能。複数業者の無料査定で、お手持ちの着物の最高額を確認してみてください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

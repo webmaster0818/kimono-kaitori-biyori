@@ -204,7 +204,7 @@ export default function LiningGuidePage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">裏地の状態も含めて適正に評価します</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">裏地のスレや黄変があっても、表地の価値を正しく評価できる専門査定員が対応。無料査定でまずは価値を確認してんでください。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">裏地のスレや黄変があっても、表地の価値を正しく評価できる専門査定員が対応。無料査定でまずは価値を確認してみてください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
 

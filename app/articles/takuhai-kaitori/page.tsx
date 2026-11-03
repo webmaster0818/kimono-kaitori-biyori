@@ -463,7 +463,7 @@ export default function TakuhaiKaitoriPage() {
               <span className="font-bold">まとめ：</span>
               デメリットはあるものの、対面不要で全国対応という利点は大きくなります。
               「忙しくて時間が取れない」「対面が苦手」という方は、
-              宅配買取を検討してんでください。
+              宅配買取を検討してみてください。
             </p>
           </div>
         </section>
@@ -792,7 +792,7 @@ export default function TakuhaiKaitoriPage() {
                   査定期間は業者によって異なりますが、通常は到着後2〜5日程度です。
                   査定が完了すると、メールや電話で査定結果と金額が通知されます。
                   Webで査定状況を確認できる業者もあります。
-                  査定の進捗が気になる場合は、業者に問い合わせてんでください。
+                  査定の進捗が気になる場合は、業者に問い合わせてみてください。
                 </p>
               </div>
             </div>
@@ -831,7 +831,7 @@ export default function TakuhaiKaitoriPage() {
                   リスクなくキャンセルできます。
                   返送は通常1〜3日程度で届きます。
                   「とりあえず査定額を知りたい」という方は、
-                  返送料無料の業者を選んで気軽に査定に出してんでください。
+                  返送料無料の業者を選んで気軽に査定に出してみてください。
                 </p>
               </div>
             </div>
@@ -1243,7 +1243,7 @@ export default function TakuhaiKaitoriPage() {
               宅配買取は、対面が苦手な方や近くに買取店舗がない方に最適な方法です。
               送料無料・梱包キット無料の業者を選べば、コストをかけずに
               着物の価値を知ることができます。
-              まずは気軽に査定を依頼して、お手持ちの着物の価値を確認してんでください。
+              まずは気軽に査定を依頼して、お手持ちの着物の価値を確認してみてください。
             </p>
           </div>
         </section>
@@ -1251,7 +1251,7 @@ export default function TakuhaiKaitoriPage() {
         {/* CTA */}
         <div className="text-center bg-gradient-to-r from-[#6b4c8a] to-[#8b6aaa] rounded-lg p-8 mb-12">
           <h3 className="text-white text-xl font-bold mb-3">
-            まずは無料で着物の価値を確認してんでください
+            まずは無料で着物の価値を確認してみてください
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             送料・査定料すべて無料。ダンボールに詰めて送るだけ。<br />

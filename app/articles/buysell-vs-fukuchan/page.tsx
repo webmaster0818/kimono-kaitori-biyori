@@ -271,7 +271,7 @@ export default function BuysellVsFukuchanPage() {
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
             <p className="text-gray-700 text-sm leading-relaxed mb-4">バイセルは出張スピードと上場企業の信頼性、福ちゃんは着物の専門性とシミ品対応力が強みです。どちらも業界をリードする実力派ですが、得意とする領域が異なります。</p>
             <p className="text-gray-700 text-sm leading-relaxed mb-4">着物を最も高く売るためには、「どちらか一方を選ぶ」のではなく「両方に査定を依頼して比較する」のが正解です。どちらも完全無料で査定が受けられるので、手間と時間以外のコストはかかりません。</p>
-            <p className="text-gray-700 text-sm leading-relaxed">大切な着物を納得のいく価格で手放すために、まずは気軽に両社に査定を依頼してんでください。</p>
+            <p className="text-gray-700 text-sm leading-relaxed">大切な着物を納得のいく価格で手放すために、まずは気軽に両社に査定を依頼してみてください。</p>
           </div>
         </section>
 

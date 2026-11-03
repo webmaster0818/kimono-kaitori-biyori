@@ -769,7 +769,7 @@ export default function TokyoPage() {
             東京で着物を売るなら、まず無料査定から
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            東京都内なら持ち込み・出張・宅配と選択肢が豊富。複数業者の無料査定で、お手持ちの着物の最高額を確認してんでください。
+            東京都内なら持ち込み・出張・宅配と選択肢が豊富。複数業者の無料査定で、お手持ちの着物の最高額を確認してみてください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

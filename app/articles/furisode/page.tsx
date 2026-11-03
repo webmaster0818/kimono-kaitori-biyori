@@ -247,7 +247,7 @@ export default function FurisodePage() {
             振袖の買取相場【ランク別一覧】
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            振袖の買取相場は、ブランド・素材・状態によって大きく3つのランクに分かれます。以下の一覧表で、お手持ちの振袖がどのランクに該当するか確認してんでください。
+            振袖の買取相場は、ブランド・素材・状態によって大きく3つのランクに分かれます。以下の一覧表で、お手持ちの振袖がどのランクに該当するか確認してみてください。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">

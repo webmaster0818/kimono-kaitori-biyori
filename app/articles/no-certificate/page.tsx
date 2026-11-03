@@ -74,7 +74,7 @@ const faqStructuredData = {
       name: "証紙はどこに保管されていることが多いですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "証紙は一般的に、たとう紙（着物を包む和紙）に挟まれていたり、着物の端布と一緒に保管されていることが多く見られます。また、購入時の箱や袋の中に入っていることもあります。着物を売る前に、たとう紙の中やタンスの引き出しの隅を確認してんでください。",
+        text: "証紙は一般的に、たとう紙（着物を包む和紙）に挟まれていたり、着物の端布と一緒に保管されていることが多く見られます。また、購入時の箱や袋の中に入っていることもあります。着物を売る前に、たとう紙の中やタンスの引き出しの隅を確認してみてください。",
       },
     },
     {
@@ -390,7 +390,7 @@ export default function NoCertificatePage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             証紙がなくても、以下のものがあれば査定額の低下をある程度防ぐことができます。
-            売却前に確認してんでください。
+            売却前に確認してみてください。
           </p>
 
           <div className="space-y-4 mb-6">
@@ -533,7 +533,7 @@ export default function NoCertificatePage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             「証紙がない」と思っていても、意外な場所から見つかることがあります。
-            売却前に、以下の場所を改めて確認してんでください。
+            売却前に、以下の場所を改めて確認してみてください。
           </p>
 
           <div className="bg-[#faf8f5] border border-[#e8ddd0] rounded-lg p-6">
@@ -584,7 +584,7 @@ export default function NoCertificatePage() {
                   <span className="font-medium">着物に縫い付けられている</span>
                   <p className="text-gray-600 text-xs mt-1">
                     一部の着物では、証紙が着物の裏側に直接縫い付けられていることがあります。
-                    衿裏や裾裏を確認してんでください。
+                    衿裏や裾裏を確認してみてください。
                   </p>
                 </div>
               </li>
@@ -727,7 +727,7 @@ export default function NoCertificatePage() {
                 査定額が下がる傾向にあります。着物専門の査定員であれば、
                 生地の質感や織りの特徴から産地を推定できるため、
                 証紙なしでも適正な評価を受けられる可能性があります。
-                まずは着物専門の買取業者に相談してんでください。
+                まずは着物専門の買取業者に相談してみてください。
               </div>
             </details>
 
@@ -782,7 +782,7 @@ export default function NoCertificatePage() {
                 証紙は一般的に、たとう紙（着物を包む和紙）に挟まれていたり、
                 着物の端布と一緒に保管されていることが多く見られます。
                 また、購入時の箱や袋の中に入っていることもあります。
-                着物を売る前に、たとう紙の中やタンスの引き出しの隅を確認してんでください。
+                着物を売る前に、たとう紙の中やタンスの引き出しの隅を確認してみてください。
                 着物の裏側に直接縫い付けられている場合もあります。
               </div>
             </details>
@@ -802,7 +802,7 @@ export default function NoCertificatePage() {
                 証紙がなくても高額査定が期待できます。
                 特に人間国宝や有名作家の落款があれば、証紙なしでも
                 数万円〜数十万円の値がつくことがあります。
-                落款はおくみの裏側や衿先に押されていることが多いので確認してんでください。
+                落款はおくみの裏側や衿先に押されていることが多いので確認してみてください。
               </div>
             </details>
           </div>
@@ -840,7 +840,7 @@ export default function NoCertificatePage() {
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             着物専門の買取業者なら、証紙がなくても適正に査定してくれます。<br />
-            まずは無料査定で着物の価値を確認してんでください。
+            まずは無料査定で着物の価値を確認してみてください。
           </p>
           <Link
             href="/ranking/"

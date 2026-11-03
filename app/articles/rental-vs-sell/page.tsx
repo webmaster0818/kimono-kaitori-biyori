@@ -361,7 +361,7 @@ export default function RentalVsSellPage() {
             コスト比較シミュレーション
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            振袖（購入時50万円）を例に、レンタルと売却の5年間の収支を比較してんでください。
+            振袖（購入時50万円）を例に、レンタルと売却の5年間の収支を比較してみてください。
           </p>
 
           <div className="overflow-x-auto">

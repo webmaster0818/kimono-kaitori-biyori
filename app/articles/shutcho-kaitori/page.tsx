@@ -450,7 +450,7 @@ export default function ShutchoKaitoriPage() {
               <span className="font-bold">まとめ：</span>
               デメリットはあるものの、出張料・査定料が無料でキャンセルも自由な業者を選べば、
               リスクはほとんどありません。
-              「まずは試してみる」という気持ちで査定を依頼してんでください。
+              「まずは試してみる」という気持ちで査定を依頼してみてください。
             </p>
           </div>
         </section>
@@ -1258,7 +1258,7 @@ export default function ShutchoKaitoriPage() {
               出張買取は、自宅にいながら着物を売れる便利な方法です。
               特に大量の着物がある方、重い着物を運ぶのが難しい方にとって、
               最も効率的な買取方法と言えます。
-              まずは信頼できる業者に無料の出張査定を依頼してんでください。
+              まずは信頼できる業者に無料の出張査定を依頼してみてください。
               複数業者に査定を依頼して比較することで、
               最も高い金額で売却できます。
             </p>
@@ -1268,7 +1268,7 @@ export default function ShutchoKaitoriPage() {
         {/* CTA */}
         <div className="text-center bg-gradient-to-r from-[#6b4c8a] to-[#8b6aaa] rounded-lg p-8 mb-12">
           <h3 className="text-white text-xl font-bold mb-3">
-            まずは無料の出張査定を依頼してんでください
+            まずは無料の出張査定を依頼してみてください
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             出張料・査定料・キャンセル料すべて無料。<br />

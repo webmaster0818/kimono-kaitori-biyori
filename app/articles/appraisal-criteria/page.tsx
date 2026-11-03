@@ -570,7 +570,7 @@ export default function AppraisalCriteriaPage() {
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold">アドバイス：</span>
               着物を売る前に、たとう紙の中やタンスの引き出しの隅を確認して、
-              証紙がないか探してんでください。証紙1枚で査定額が数万円変わることもあります。
+              証紙がないか探してみてください。証紙1枚で査定額が数万円変わることもあります。
               端布に縫い付けられていたり、購入時の箱に入っている場合もあります。
             </p>
           </div>
@@ -856,7 +856,7 @@ export default function AppraisalCriteriaPage() {
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             着物専門の査定員が、7つの基準で丁寧に査定してくれます。<br />
-            まずは無料査定で着物の価値を確認してんでください。
+            まずは無料査定で着物の価値を確認してみてください。
           </p>
           <Link
             href="/ranking/"

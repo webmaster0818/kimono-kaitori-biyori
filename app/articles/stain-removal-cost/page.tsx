@@ -132,7 +132,7 @@ export default function StainRemovalCostPage() {
           </div>
         </div>
         <div className="mt-6 bg-white border border-[#e8ddd0] rounded-xl p-5">
-          <p className="text-sm leading-relaxed"><strong className="text-[#6b4c8a]">迷ったらまず無料査定を：</strong>染み抜きすべきかどうか判断できない場合は、シミがある状態のまま<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>に出してんでください。査定員から「このシミを取ればもっと高くなります」とアドバイスをもらえることもあります。<Link href="/articles/cleaning-before-selling/" className="text-[#6b4c8a] hover:underline">売る前のクリーニング</Link>についても参考にしてください。</p>
+          <p className="text-sm leading-relaxed"><strong className="text-[#6b4c8a]">迷ったらまず無料査定を：</strong>染み抜きすべきかどうか判断できない場合は、シミがある状態のまま<Link href="/articles/free-appraisal/" className="text-[#6b4c8a] hover:underline">無料査定</Link>に出してみてください。査定員から「このシミを取ればもっと高くなります」とアドバイスをもらえることもあります。<Link href="/articles/cleaning-before-selling/" className="text-[#6b4c8a] hover:underline">売る前のクリーニング</Link>についても参考にしてください。</p>
         </div>
       </div></section>
 
@@ -175,7 +175,7 @@ export default function StainRemovalCostPage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">シミがあっても無料査定は可能です</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">シミの状態も含めて適正に評価する専門査定員が対応。まずは無料査定で現在の買取価格を確認してんでください。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">シミの状態も含めて適正に評価する専門査定員が対応。まずは無料査定で現在の買取価格を確認してみてください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
 

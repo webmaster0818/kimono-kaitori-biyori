@@ -244,7 +244,7 @@ export default function SaitamaPage() {
           <h3 className="text-white text-xl font-bold mb-3">埼玉の着物、まずは無料査定で価値を確認</h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             秩父銘仙やアンティーク着物は、専門業者の目で正しく評価されます。<br />
-            信頼できる着物買取業者をランキングで比較してんでください。
+            信頼できる着物買取業者をランキングで比較してみてください。
           </p>
           <Link href="/ranking/" className="inline-block bg-[#c9a76c] text-white font-bold px-8 py-4 rounded-lg hover:bg-[#b8965b] transition-colors">
             おすすめ着物買取業者ランキングを見る

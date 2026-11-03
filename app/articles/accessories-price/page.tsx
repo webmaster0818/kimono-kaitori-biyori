@@ -110,7 +110,7 @@ export default function AccessoriesPricePage() {
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ2：まとめて出す</h3><p className="text-sm text-gray-700">小物は数をまとめて出すほど、業者にとって取り扱いやすくなり、1点あたりの査定額もアップする傾向があります。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ3：着物専門の業者を選ぶ</h3><p className="text-sm text-gray-700">リサイクルショップでは和装小物の価値がわからず安く買い叩かれがち。買取大吉やウリエルなどの専門業者を選ぶことをおすすめします。</p></div>
           <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ4：ブランド品は必ず伝える</h3><p className="text-sm text-gray-700">道明の帯締めや佐賀錦の草履バッグなど、ブランド品であることを査定員に伝えてください。箱や袋があれば一緒に出すと信頼性アップ。</p></div>
-          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：珊瑚やべっ甲は貴金属扱い</h3><p className="text-sm text-gray-700">珊瑚やべっ甲のかんざし・帯留めは着物買取業者だけでなく、貴金属・宝石の専門買取業者にも査定を依頼してんでください。</p></div>
+          <div className="bg-white border border-[#e8ddd0] rounded-xl p-5"><h3 className="font-bold text-[#6b4c8a] mb-2 text-base">コツ5：珊瑚やべっ甲は貴金属扱い</h3><p className="text-sm text-gray-700">珊瑚やべっ甲のかんざし・帯留めは着物買取業者だけでなく、貴金属・宝石の専門買取業者にも査定を依頼してみてください。</p></div>
         </div>
       </div></section>
 

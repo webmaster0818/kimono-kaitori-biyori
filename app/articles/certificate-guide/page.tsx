@@ -688,7 +688,7 @@ export default function CertificateGuidePage() {
           </h3>
           <div className="space-y-4">
             <p className="text-sm text-gray-600 leading-relaxed">
-              主要な産地の証紙には、それぞれ特徴的なデザインや色があります。お手持ちの着物に付いている証紙と照らし合わせてんでください。
+              主要な産地の証紙には、それぞれ特徴的なデザインや色があります。お手持ちの着物に付いている証紙と照らし合わせてみてください。
             </p>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse text-sm">

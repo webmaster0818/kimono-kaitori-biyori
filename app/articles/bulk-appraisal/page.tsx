@@ -589,7 +589,7 @@ export default function BulkAppraisalPage() {
             まずは一括査定で最高額をご確認ください
           </h2>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-            着物の買取は1社だけでは損をする可能性があります。複数業者の無料査定で、お手持ちの着物の最高額を確認してんでください。
+            着物の買取は1社だけでは損をする可能性があります。複数業者の無料査定で、お手持ちの着物の最高額を確認してみてください。
           </p>
           <Link href="/ranking/" className="btn-cta text-base">
             おすすめ買取業者ランキングへ

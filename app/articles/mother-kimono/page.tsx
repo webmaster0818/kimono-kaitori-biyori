@@ -934,7 +934,7 @@ export default function MotherKimonoPage() {
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             着物の価値を知ることが、整理の第一歩です。<br />
-            信頼できる着物買取業者に無料査定を依頼してんでください。
+            信頼できる着物買取業者に無料査定を依頼してみてください。
           </p>
           <Link
             href="/ranking/"

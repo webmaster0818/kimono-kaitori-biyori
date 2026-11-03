@@ -838,7 +838,7 @@ export default function SellHighTipsPage() {
             <p className="text-gray-700 text-sm leading-relaxed">
               特に重要なのは「複数業者に見積もりを取る」と「着物専門の買取業者を選ぶ」の2つ。
               この2つを実践するだけでも、査定額は大きく変わります。
-              まずは信頼できる着物買取業者に無料査定を依頼してんでください。
+              まずは信頼できる着物買取業者に無料査定を依頼してみてください。
             </p>
           </div>
         </section>
@@ -850,7 +850,7 @@ export default function SellHighTipsPage() {
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             着物を高く売るための第一歩は、プロに査定してもらうこと。<br />
-            信頼できる着物買取業者をランキングで比較してんでください。
+            信頼できる着物買取業者をランキングで比較してみてください。
           </p>
           <Link
             href="/ranking/"

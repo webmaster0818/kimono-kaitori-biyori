@@ -830,7 +830,7 @@ export default function EstateKimonoPage() {
               着物専門の買取業者に査定を依頼すれば、
               着物の価値を正しく評価してもらえます。出張買取を利用すれば、
               大量の着物も自宅で一度に対応可能。査定料・出張料・キャンセル料が
-              無料の業者も多いため、まずは気軽に査定を依頼してんでください。
+              無料の業者も多いため、まずは気軽に査定を依頼してみてください。
             </p>
             <p className="text-gray-700 text-sm leading-relaxed">
               故人の大切な着物が、新しい持ち主のもとで再び袖を通される。
@@ -846,7 +846,7 @@ export default function EstateKimonoPage() {
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             着物の価値を知ることが、適切な整理の第一歩です。<br />
-            信頼できる着物買取業者に無料査定を依頼してんでください。
+            信頼できる着物買取業者に無料査定を依頼してみてください。
           </p>
           <Link
             href="/ranking/"

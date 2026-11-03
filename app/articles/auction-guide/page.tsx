@@ -419,7 +419,7 @@ export default function AuctionGuidePage() {
             売却コストシミュレーション
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            フリマアプリで着物を売った場合の実質受取額をシミュレーションしてんでください。手数料・送料を差し引いた実際の手取り額を把握することが大切です。
+            フリマアプリで着物を売った場合の実質受取額をシミュレーションしてみてください。手数料・送料を差し引いた実際の手取り額を把握することが大切です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">

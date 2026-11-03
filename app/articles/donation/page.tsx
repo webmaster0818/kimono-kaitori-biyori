@@ -33,7 +33,7 @@ const faqs = [
   {
     question: "寄付する前に買取査定を受けた方がよいですか？",
     answer:
-      "はい、寄付する前にまず無料査定を受けることをおすすめします。「売れないと思っていた着物に値段がついた」というケースも珍しくありません。買取大吉やウリエルの無料査定を利用してんでください。",
+      "はい、寄付する前にまず無料査定を受けることをおすすめします。「売れないと思っていた着物に値段がついた」というケースも珍しくありません。買取大吉やウリエルの無料査定を利用してみてください。",
   },
   {
     question: "着物の寄付で税制上のメリットはありますか？",
@@ -185,7 +185,7 @@ export default function DonationPage() {
             </div>
             <div className="bg-white border border-[#e8ddd0] rounded-xl p-5">
               <h3 className="font-bold text-[#6b4c8a] mb-2 text-base">自治体のリサイクルセンター</h3>
-              <p className="text-sm leading-relaxed text-gray-700">一部の自治体では衣類のリサイクル回収で着物も受け入れています。バザーや古着として再利用されます。お住まいの自治体に確認してんでください。</p>
+              <p className="text-sm leading-relaxed text-gray-700">一部の自治体では衣類のリサイクル回収で着物も受け入れています。バザーや古着として再利用されます。お住まいの自治体に確認してみてください。</p>
             </div>
           </div>
         </div>

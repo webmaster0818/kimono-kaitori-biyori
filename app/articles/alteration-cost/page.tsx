@@ -180,7 +180,7 @@ export default function AlterationCostPage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">仕立て直し不要、そのままの状態で査定OK</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">サイズが合わない着物も、裏地が傷んだ着物も、そのままの状態で無料査定が可能です。まずは現在の価値を確認してんでください。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">サイズが合わない着物も、裏地が傷んだ着物も、そのままの状態で無料査定が可能です。まずは現在の価値を確認してみてください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
 

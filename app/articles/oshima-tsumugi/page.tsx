@@ -717,7 +717,7 @@ export default function OshimaTsumugiPage() {
             大島紬と他の紬の買取価格比較
           </h2>
           <p className="text-sm md:text-base mb-6 leading-relaxed">
-            大島紬の買取相場を他の有名な紬と比較してんでください。産地やブランドによって買取価格は大きく異なります。
+            大島紬の買取相場を他の有名な紬と比較してみてください。産地やブランドによって買取価格は大きく異なります。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">

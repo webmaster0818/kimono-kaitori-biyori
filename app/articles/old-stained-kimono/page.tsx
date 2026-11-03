@@ -232,14 +232,14 @@ export default function OldStainedKimonoPage() {
               着物買取業者の多くは、古い着物やシミのある着物でも査定・買取に対応しています。
               特に正絹の着物、有名産地の着物、人間国宝の作品などは、多少の難があっても
               買取需要があります。「どうせ売れないだろう」と諦めて捨ててしまうのが
-              最ももったいない選択です。まずは査定に出してんでください。
+              最ももったいない選択です。まずは査定に出してみてください。
             </p>
           </div>
 
           <p className="text-gray-700 text-sm leading-relaxed mb-4">
             ただし、すべての古い着物やシミのある着物が買い取ってもらえるわけではありません。
             素材、産地、作家、状態、サイズなど複数の要素で総合的に判断されます。
-            以下のセクションで、具体的な基準を詳しく見ていいてください。
+            以下のセクションで、具体的な基準を詳しく見ていってください。
           </p>
 
           <div className="grid grid-cols-2 gap-4">
@@ -823,7 +823,7 @@ export default function OldStainedKimonoPage() {
           </h3>
           <p className="text-purple-100 text-sm mb-6 leading-relaxed">
             着物専門の買取業者なら、古い着物やシミのある着物も適正に査定。<br />
-            まずは無料査定で価値を確認してんでください。
+            まずは無料査定で価値を確認してみてください。
           </p>
           <Link
             href="/ranking/"

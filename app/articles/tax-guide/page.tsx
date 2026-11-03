@@ -149,7 +149,7 @@ export default function TaxGuidePage() {
 
       <section className="py-12 md:py-16 section-primary-light"><div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">税金の心配は不要。まずは無料査定へ</h2>
-        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">ほとんどの着物は非課税で売却できます。まずは無料査定でお手持ちの着物の価値を確認してんでください。</p>
+        <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">ほとんどの着物は非課税で売却できます。まずは無料査定でお手持ちの着物の価値を確認してみてください。</p>
         <Link href="/ranking/" className="btn-cta text-base">おすすめ買取業者ランキングへ</Link>
       </div></section>
       <ThemeArticles current="/articles/tax-guide/" />

@@ -14,7 +14,7 @@ const faqs = [
   { question: "たとう紙はどのくらいの頻度で交換すべきですか？", answer: "たとう紙は1〜2年に1回を目安に交換することをおすすめします。たとう紙自体が湿気を吸って劣化するため、古くなると防湿効果が低下します。黄ばみやカビの跡が見られたら、すぐに新しいものに交換してください。" },
   { question: "桐たんす以外で着物を保管する方法はありますか？", answer: "桐たんすがない場合は、プラスチック製の衣装ケースでも保管できます。ただし、プラスチックは通気性がないため、防湿剤を必ず入れ、定期的にフタを開けて風を通すようにしてください。また、たとう紙に包んだ状態で保管することが重要です。" },
   { question: "防虫剤と着物を一緒に入れても大丈夫ですか？", answer: "防虫剤は着物に直接触れないように注意してください。防虫剤の成分が着物に直接触れると変色やシミの原因になります。たとう紙の外側に置くか、防虫剤専用のケースに入れて使用してください。また、異なる種類の防虫剤を混ぜて使用しないでください。" },
-  { question: "着物を長期間保管する場合、売った方がいいですか？", answer: "着物を長期間着る予定がないのであれば、早めに売却することをおすすめします。保管期間が長くなるほど、シミ・カビ・色あせ・虫食いのリスクが高まり、買取価格が下がる可能性があります。状態が良いうちに売った方が高く売れます。買取大吉やウリエルなどの無料査定で価値を確認してんでください。" },
+  { question: "着物を長期間保管する場合、売った方がいいですか？", answer: "着物を長期間着る予定がないのであれば、早めに売却することをおすすめします。保管期間が長くなるほど、シミ・カビ・色あせ・虫食いのリスクが高まり、買取価格が下がる可能性があります。状態が良いうちに売った方が高く売れます。買取大吉やウリエルなどの無料査定で価値を確認してみてください。" },
 ];
 
 const articleStructuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://kimonokaitori-biyori.com/og-image.png", headline: "着物のたたみ方・保管方法ガイド｜正しい保管で価値を守る", description: "着物の正しい保管方法とたたみ方を解説。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" }, publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com", logo: { "@type": "ImageObject", url: "https://kimonokaitori-biyori.com/logo.png" } }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://kimonokaitori-biyori.com/articles/storage-guide/" } };
@@ -122,7 +122,7 @@ export default function StorageGuidePage() {
         <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2"><span className="w-1.5 h-8 bg-[#6b4c8a] rounded-full inline-block" />保管が面倒なら売却も選択肢</h2>
         <div className="space-y-4 text-sm md:text-base leading-relaxed">
           <p>正しい保管には手間とコストがかかります。たとう紙の交換、防湿剤の補充、年に1〜2回の虫干し。これらが面倒と感じるなら、<strong>状態が良いうちに売却する</strong>のも賢い選択です。</p>
-          <p>買取大吉やウリエルなら出張買取で自宅まで来てくれるため、着物を運ぶ手間もかかりません。まずは無料査定で価値を確認してんでください。</p>
+          <p>買取大吉やウリエルなら出張買取で自宅まで来てくれるため、着物を運ぶ手間もかかりません。まずは無料査定で価値を確認してみてください。</p>
         </div>
       </div></section>
 
