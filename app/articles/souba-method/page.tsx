@@ -75,7 +75,7 @@ const dataCatalogStructuredData = {
   "@type": "DataCatalog",
   name: "着物の織物別 実売相場データベース（公開オークション落札相場）",
   description:
-    "着物の産地織物40種について、公開オークション（Yahoo!オークションの落札相場）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を、出典・取得日を併記して集計した実売データの一覧です。買取業者の査定額ではなく、個人間取引で成立した実売価格の一次データを、推定値・出典不明の数値を排除して手動集計しています。",
+    "着物の産地織物40種について、公開オークション（Yahoo!オークションの落札相場と、その落札実績を集計するオークファン）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を、出典・取得日を併記して集計した実売データの一覧です。買取業者の査定額ではなく、個人間取引で成立した実売価格の一次データを、推定値・出典不明の数値を排除して手動集計しています。",
   url: "https://kimonokaitori-biyori.com/articles/souba-method/",
   creator: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
@@ -139,7 +139,7 @@ export default function SoubaMethodPage() {
             データの集め方
           </h2>
           <p className="text-sm md:text-base leading-relaxed mb-4">
-            公開オークション（Yahoo!オークションの「落札相場」など、誰でも閲覧できる落札済み情報）から、次の項目のみを記録しています。
+            公開オークションの落札相場（Yahoo!オークションと、その落札実績を集計するオークファン〈aucfan.com〉など、誰でも閲覧できる落札済み情報）から、次の項目のみを記録しています。
           </p>
           <ul className="space-y-2 text-sm md:text-base mb-4">
             <li className="flex items-start gap-2"><span className="text-[#c9a76c] mt-0.5">&#9670;</span>品目（織物名・反物／着物／帯などの種別）</li>

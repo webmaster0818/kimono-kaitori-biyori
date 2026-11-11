@@ -57,7 +57,7 @@ const articleStructuredData = {
   description:
     "久米島紬（沖縄県久米島町）の買取相場と高く売る方法。重要無形文化財の一貫制作・泥染め・証紙の有無で価値が変わる点を実売データとあわせて解説。",
   datePublished: "2026-07-16",
-  dateModified: "2026-07-16",
+  dateModified: "2026-11-11",
   author: {
     "@type": "Organization",
     name: "着物の買取びより 編集部",
@@ -605,6 +605,7 @@ export default function KumejimaTsumugiPage() {
             </p>
           </div>
 
+          <p className="text-sm text-gray-800 leading-relaxed mt-4 mb-3 bg-[#faf7f3] border border-[#e8ddd0] rounded-lg p-3"><strong>最新の集計（2026年11月9日取得）：</strong>直近90日の落札11件・平均 約23,747円・最高 165,000円（浦崎キク作の本場久米島紬・色無地・2026年6月18日落札）。出典はオークファン（aucfan.com）の落札相場です。このページの各表は、それぞれに記載した取得時点の集計です。他の種類との比較は<Link href="/articles/kimono-market-price/#furisode-tomesode" className="text-[#6b4c8a] underline">種類別の実売データ一覧</Link>をご覧ください。</p>
           <p className="text-xs text-gray-500 mt-4">
             ※ 調査方法：本データは公開オークションの落札相場集計から、品目・落札件数・平均落札価格・中央値・最高落札価格・出典・取得日を記録したものです（取得：2026年7月16日）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
           </p>

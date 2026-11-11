@@ -58,7 +58,7 @@ const articleStructuredData = {
   description:
     "加賀友禅の作家別買取価格表と高く売る方法を解説。人間国宝の作品は超高額査定。",
   datePublished: "2026-04-16",
-  dateModified: "2026-04-16",
+  dateModified: "2026-11-11",
   author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -966,6 +966,7 @@ export default function KagaYuzenPage() {
             <p className="font-bold text-[#b5402f] mb-1">※実売価格と買取価格の違い</p>
             上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。1円〜の極端な安値は証紙なし・状態不良・入札不成立に近い例も含むため、価格帯の“幅”の参考としてご覧ください。加賀友禅は作家・落款の有無で価値が大きく変わります。金額は取得時点のもので、相場は時期・状態により変動し、査定額を保証するものではありません。
           </div>
+          <p className="text-sm text-gray-800 leading-relaxed mt-4 mb-3 bg-[#faf7f3] border border-[#e8ddd0] rounded-lg p-3"><strong>最新の集計（2026年11月7日取得）：</strong>直近90日の落札121件・平均 約18,052円・最高 198,000円（本加賀友禅作家 毎田仁郎の振袖）。出典はオークファン（aucfan.com）の落札相場です。このページの各表は、それぞれに記載した取得時点の集計です。他の種類との比較は<Link href="/articles/kimono-market-price/#furisode-tomesode" className="text-[#6b4c8a] underline">種類別の実売データ一覧</Link>をご覧ください。</p>
           <p className="text-xs text-gray-500 mt-3">
             本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年6月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
           </p>

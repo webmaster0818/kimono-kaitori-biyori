@@ -57,7 +57,7 @@ const articleStructuredData = {
   description:
     "大島紬の種類別買取相場と高く売るコツを解説。泥染め・藍大島・白大島の価格比較も。",
   datePublished: "2026-04-15",
-  dateModified: "2026-04-15",
+  dateModified: "2026-11-11",
   author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -445,6 +445,7 @@ export default function OshimaTsumugiPage() {
             </p>
           </div>
 
+          <p className="text-sm text-gray-800 leading-relaxed mt-4 mb-3 bg-[#faf7f3] border border-[#e8ddd0] rounded-lg p-3"><strong>最新の集計（2026年11月4日取得）：</strong>直近90日の落札300件・平均 約2,684円・最高 88,000円（本場大島紬の訪問着・未使用品）。出典はオークファン（aucfan.com）の落札相場です。このページの各表は、それぞれに記載した取得時点の集計です。他の種類との比較は<Link href="/articles/kimono-market-price/#furisode-tomesode" className="text-[#6b4c8a] underline">種類別の実売データ一覧</Link>をご覧ください。</p>
           <p className="text-xs text-gray-500 mt-4">
             ※ 調査方法：本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年6月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
           </p>

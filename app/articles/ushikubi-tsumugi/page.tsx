@@ -59,7 +59,7 @@ const articleStructuredData = {
   description:
     "牛首紬の買取相場と高く売る方法を解説。証紙の有無が査定を左右します。",
   datePublished: "2026-06-13",
-  dateModified: "2026-06-13",
+  dateModified: "2026-11-11",
   author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -588,6 +588,7 @@ export default function UshikubiTsumugiPage() {
             <p className="font-bold text-[#b5402f] mb-1">※実売価格と買取価格の違い</p>
             上記は公開オークションで実際に売買された“実売価格”の集計です。買取業者の査定額（買取価格）とは異なり、一般に買取価格は実売価格より低くなります。1円〜の極端な安値は証紙なし・状態不良・入札不成立に近い例も含むため、価格帯の“幅”の参考としてご覧ください。牛首紬は証紙と状態で価値が変わります。金額は取得時点のもので、相場は時期・状態により変動し、査定額を保証するものではありません。
           </div>
+          <p className="text-sm text-gray-800 leading-relaxed mt-4 mb-3 bg-[#faf7f3] border border-[#e8ddd0] rounded-lg p-3"><strong>最新の集計（2026年11月6日取得）：</strong>直近90日の落札16件・平均 約20,725円・最高 155,000円（栗山吉三郎の紅型染めの夏牛首紬・新品の着物）。出典はオークファン（aucfan.com）の落札相場です。このページの各表は、それぞれに記載した取得時点の集計です。他の種類との比較は<Link href="/articles/kimono-market-price/#furisode-tomesode" className="text-[#6b4c8a] underline">種類別の実売データ一覧</Link>をご覧ください。</p>
           <p className="text-xs text-gray-500 mt-3">
             本データは公開オークションの落札済み一覧から、品目・状態・落札価格・出典・取得日を記録したものです（取得：2026年6月）。詳しくは<Link href="/articles/souba-method/" className="text-[#6b4c8a] underline">相場データの調査方法</Link>をご覧ください。
           </p>
