@@ -32,10 +32,10 @@ export default function GoogleReviewNote({ slug }: { slug: string }) {
                     リスティング
                   </th>
                   <th className="border border-[#e8ddd0] px-3 py-2 text-left font-semibold text-gray-900 whitespace-nowrap">
-                    評価
+                    口コミの評価
                   </th>
                   <th className="border border-[#e8ddd0] px-3 py-2 text-left font-semibold text-gray-900 whitespace-nowrap">
-                    クチコミ件数
+                    口コミ件数
                   </th>
                   <th className="border border-[#e8ddd0] px-3 py-2 text-left font-semibold text-gray-900 whitespace-nowrap">
                     出典
