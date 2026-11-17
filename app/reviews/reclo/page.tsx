@@ -196,7 +196,7 @@ export default function RecloReviewPage() {
             </li>
             <li>
               <a href="#google-reviews" className="hover:underline">
-                2. RECLO（リクロ）のGoogleクチコミ（実査）
+                2. RECLO（リクロ）の口コミの掲載状況（Googleクチコミの実査）
               </a>
             </li>
             <li>
@@ -288,10 +288,10 @@ export default function RecloReviewPage() {
         </section>
 
 
-        {/* Googleクチコミ（実査） */}
+        {/* 口コミの掲載状況（Googleクチコミの実査・2026-11-18） */}
         <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            RECLO（リクロ）のGoogleクチコミ（実査）
+            RECLO（リクロ）の口コミの掲載状況（Googleクチコミの実査）
           </h2>
 
           <GoogleReviewNote slug="reclo" />

@@ -184,7 +184,7 @@ export default function TheGoldReviewPage() {
             <li><a href="#features" className="hover:underline">2. サービスの特徴</a></li>
             <li><a href="#items" className="hover:underline">3. 買取対応品目</a></li>
             <li><a href="#market-price" className="hover:underline">4. 買取実績・相場</a></li>
-            <li><a href="#google-reviews" className="hover:underline">5. ザ・ゴールドのGoogleクチコミ（実査）</a></li>
+            <li><a href="#google-reviews" className="hover:underline">5. ザ・ゴールドの口コミの掲載状況（Googleクチコミの実査）</a></li>
             <li><a href="#merit-demerit" className="hover:underline">6. メリット・デメリットまとめ</a></li>
             <li><a href="#recommend" className="hover:underline">7. こんな人におすすめ</a></li>
             <li><a href="#flow" className="hover:underline">8. 申し込み方法・買取の流れ</a></li>
@@ -358,10 +358,10 @@ export default function TheGoldReviewPage() {
         </section>
 
 
-        {/* Googleクチコミ（実査） */}
+        {/* 口コミの掲載状況（Googleクチコミの実査・2026-11-18） */}
         <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            ザ・ゴールドのGoogleクチコミ（実査）
+            ザ・ゴールドの口コミの掲載状況（Googleクチコミの実査）
           </h2>
 
           <GoogleReviewNote slug="the-gold" />

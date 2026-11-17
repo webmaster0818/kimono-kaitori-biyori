@@ -178,7 +178,7 @@ export default function HikakakuReviewPage() {
             </li>
             <li>
               <a href="#google-reviews" className="hover:underline">
-                2. ヒカカク！のGoogleクチコミ（実査）
+                2. ヒカカク！の口コミの掲載状況（Googleクチコミの実査）
               </a>
             </li>
             <li>
@@ -272,10 +272,10 @@ export default function HikakakuReviewPage() {
         </section>
 
 
-        {/* Googleクチコミ（実査） */}
+        {/* 口コミの掲載状況（Googleクチコミの実査・2026-11-18） */}
         <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            ヒカカク！のGoogleクチコミ（実査）
+            ヒカカク！の口コミの掲載状況（Googleクチコミの実査）
           </h2>
 
           <GoogleReviewNote slug="hikakaku" />

@@ -40,7 +40,7 @@ export default function ReviewsIndex() {
 
       <div className="max-w-4xl mx-auto px-4 py-10">
         <section className="mb-10">
-          <h2 className="text-lg md:text-xl font-bold text-[#6b4c8a] mb-3">Googleクチコミの評価（実査）</h2>
+          <h2 className="text-lg md:text-xl font-bold text-[#6b4c8a] mb-3">口コミの掲載状況（Googleクチコミの実査）</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             Googleのクチコミは会社単位ではなく<strong>店舗・事業所ごと</strong>に付きます。そのため「会社全体の評価」という数値は存在しません。
             下の表は、各社のリスティングをGoogleマップで1件ずつ開いて確認した評価と件数です。リスティング名が一致したものだけを採用しています。

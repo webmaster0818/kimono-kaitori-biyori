@@ -191,7 +191,7 @@ export default function TifanaReviewPage() {
             </li>
             <li>
               <a href="#google-reviews" className="hover:underline">
-                2. ティファナのGoogleクチコミ（実査）
+                2. ティファナの口コミの掲載状況（Googleクチコミの実査）
               </a>
             </li>
             <li>
@@ -286,10 +286,10 @@ export default function TifanaReviewPage() {
         </section>
 
 
-        {/* Googleクチコミ（実査） */}
+        {/* 口コミの掲載状況（Googleクチコミの実査・2026-11-18） */}
         <section id="google-reviews" className="mb-12">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#6b4c8a]">
-            ティファナのGoogleクチコミ（実査）
+            ティファナの口コミの掲載状況（Googleクチコミの実査）
           </h2>
 
           <GoogleReviewNote slug="tifana" />
