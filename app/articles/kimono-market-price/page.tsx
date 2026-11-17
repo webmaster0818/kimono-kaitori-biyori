@@ -56,7 +56,7 @@ const articleStructuredData = {
   description:
     "着物（和服）買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・付け下げの落札データ（出典つき）と高く売るコツ。",
   datePublished: "2026-04-15",
-  dateModified: "2026-11-16",
+  dateModified: "2026-11-17",
   author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -302,7 +302,7 @@ export default function KimonoMarketPricePage() {
             ))}
           </ul>
           <div id="furisode-tomesode" className="bg-white border-2 border-[#6b4c8a] rounded-xl p-5 mt-6">
-            <h3 className="font-bold text-[#6b4c8a] mb-2">種類別の実売データ（オークションの落札相場・全28種類）</h3>
+            <h3 className="font-bold text-[#6b4c8a] mb-2">種類別の実売データ（オークションの落札相場・全29種類）</h3>
             <p className="text-sm text-gray-800 leading-relaxed mb-3 bg-[#faf7f3] border border-[#e8ddd0] rounded-lg p-3">
               <strong>振袖の相場をお探しの方へ：</strong>直近30日の落札2,666件で<strong>平均 約6,269円</strong>、最高値は275,000円（藤娘きぬたやの総絞り振袖）です（2026年10月20日集計）。
               <strong>塩沢紬</strong>は14件で平均 約3,570円、最高値75,000円（2026年10月29日集計）。いずれも下の表に、件数・平均・最高値・集計日を種類ごとに載せています。買取価格は一般に落札価格より低くなります。
@@ -517,6 +517,13 @@ export default function KimonoMarketPricePage() {
                     <td className="border border-[#e8ddd0] px-3 py-2">約13,669円</td>
                     <td className="border border-[#e8ddd0] px-3 py-2">27,170円（西陣御召の正絹の着物・2026年11月14日落札・ストア出品。集計期間の外では69,800円の着尺（2026年9月11日落札）。帯・袋帯とのセット・フリマ出品は除外）</td>
                     <td className="border border-[#e8ddd0] px-3 py-2">2026年11月16日</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-[#e8ddd0] px-3 py-2">江戸小紋</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">277件（直近30日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約3,938円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">63,000円（極型江戸小紋の正絹の着物・仕立て上がり・2026年11月9日落札。集計期間の外では165,000円（人間国宝 小宮康孝の江戸小紋の訪問着・2026年9月13日落札・ストア出品）。帯や小物とのセット・フリマ出品は除外）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年11月17日</td>
                   </tr>
                 </tbody>
               </table>
