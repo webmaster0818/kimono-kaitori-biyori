@@ -56,7 +56,7 @@ const articleStructuredData = {
   description:
     "着物（和服）買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・付け下げの落札データ（出典つき）と高く売るコツ。",
   datePublished: "2026-04-15",
-  dateModified: "2026-11-25",
+  dateModified: "2026-11-26",
   author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -158,7 +158,7 @@ export default function KimonoMarketPricePage() {
               振袖・訪問着・留袖・小紋・付け下げの実際の落札データ（件数・平均・最高値・出典つき）をまとめました。高額買取になる条件や高く売るコツも解説します。
             </p>
             <p className="mt-3 text-xs text-gray-400">
-              最終更新：2026年11月25日
+              最終更新：2026年11月26日
             </p>
           </div>
         </div>
@@ -302,7 +302,7 @@ export default function KimonoMarketPricePage() {
             ))}
           </ul>
           <div id="furisode-tomesode" className="bg-white border-2 border-[#6b4c8a] rounded-xl p-5 mt-6">
-            <h3 className="font-bold text-[#6b4c8a] mb-2">種類別の実売データ（オークションの落札相場・全37種類）</h3>
+            <h3 className="font-bold text-[#6b4c8a] mb-2">種類別の実売データ（オークションの落札相場・全38種類）</h3>
             <p className="text-sm text-gray-800 leading-relaxed mb-3 bg-[#faf7f3] border border-[#e8ddd0] rounded-lg p-3">
               <strong>振袖の相場をお探しの方へ：</strong>直近30日の落札2,666件で<strong>平均 約6,269円</strong>、最高値は275,000円（藤娘きぬたやの総絞り振袖）です（2026年10月20日集計）。
               <strong>留袖の相場をお探しの方へ：</strong>黒留袖は直近30日の落札1,225件で<strong>平均 約2,733円</strong>、最高値は154,000円（人間国宝・森口華弘の作品）。色留袖は295件で<strong>平均 約4,169円</strong>、最高値は200,000円（江戸時代のアンティーク）です（いずれも2026年10月18日集計）。
@@ -581,6 +581,13 @@ export default function KimonoMarketPricePage() {
                     <td className="border border-[#e8ddd0] px-3 py-2">約2,269円</td>
                     <td className="border border-[#e8ddd0] px-3 py-2">2,750円（本場村山大島紬の袷の着物・証紙付き・2026年10月19日落札・ストア出品）。落札額の上位は複数点のまとめ売りと、ワンピース・作務衣などのリメイク品が占めるため除外しています。男物の着物と羽織のアンサンブル（5,995円・2026年10月9日落札）と反物の出品も除いた、着物単品の最高落札価格です</td>
                     <td className="border border-[#e8ddd0] px-3 py-2">2026年11月25日</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-[#e8ddd0] px-3 py-2">博多織（帯）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">536件（直近30日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約5,735円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">128,888円（本場筑前博多織・手織工房 小森久の草木染の袋帯・2026年10月3日落札）。上位は八寸名古屋帯と袋帯で、ストア出品が多くを占めます。</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年11月26日</td>
                   </tr>
                 </tbody>
               </table>
