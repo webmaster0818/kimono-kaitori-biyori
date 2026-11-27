@@ -75,7 +75,7 @@ const dataCatalogStructuredData = {
   "@type": "DataCatalog",
   name: "着物の織物別 実売相場データベース（公開オークション落札相場）",
   description:
-    "着物の産地織物40種について、公開オークション（Yahoo!オークションの落札相場と、その落札実績を集計するオークファン）で実際に売買が成立した落札件数・平均落札価格・最高落札価格を、出典・取得日を併記して集計した実売データの一覧です。買取業者の査定額ではなく、個人間取引で成立した実売価格の一次データを、推定値・出典不明の数値を排除して手動集計しています。",
+    "着物の産地織物40種について、公開オークション（Yahoo!オークションの落札相場と、その落札実績を集計するオークファン）で売買が成立した落札件数・平均落札価格・最高落札価格を、出典・取得日を併記して集計した実売データの一覧です。買取業者の査定額ではなく、個人間取引で成立した実売価格の一次データを、推定値・出典不明の数値を排除して手動集計しています。",
   url: "https://kimonokaitori-biyori.com/articles/souba-method/",
   creator: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
   publisher: { "@type": "Organization", name: "着物の買取びより", url: "https://kimonokaitori-biyori.com" },
@@ -118,7 +118,7 @@ export default function SoubaMethodPage() {
           <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
             当サイトの各織物ページに掲載している「実売データ（公開オークションの落札相場）」について、どこから・どのように集め、どう扱っているかを公開します。
           </p>
-          <p className="mt-3 text-xs text-gray-400">最終更新：2026年6月</p>
+          <p className="mt-3 text-xs text-gray-400">最終更新：2026年11月</p>
         </div>
       </section>
 
@@ -129,7 +129,7 @@ export default function SoubaMethodPage() {
             なぜ「実売データ」を掲載するのか
           </h2>
           <p className="text-sm md:text-base leading-relaxed mb-4">
-            着物の「買取相場」は、業者や状態・時期によって幅があり、断定が難しい情報です。そこで当サイトでは、買取相場の目安に加えて、<strong>実際に公開オークションで売買された「実売価格（落札相場）」</strong>を、出典を併記で掲載しています。実際にいくらで取引が成立しているかという一次情報を示すことで、相場のリアルな水準を把握していただくことを目的としています。
+            着物の「買取相場」は、業者や状態・時期によって幅があり、断定が難しい情報です。そこで当サイトでは、買取相場の目安に加えて、<strong>公開オークションで売買が成立した「実売価格（落札相場）」</strong>を、出典を併記で掲載しています。いくらで取引が成立したかという一次情報を示すことで、相場の水準を把握していただくことを目的としています。
           </p>
         </section>
 
@@ -161,7 +161,7 @@ export default function SoubaMethodPage() {
           <div className="rounded-lg border border-[#e8b4b4] bg-[#fdf6f6] p-4 md:p-5 text-sm text-gray-700 leading-relaxed">
             <p className="mb-2 font-bold text-[#b5402f]">実売価格 ≠ 買取査定額</p>
             <p>
-              実売データは「オークションで実際に売買された価格」です。買取業者の査定額（買取価格）とは異なり、一般に<strong>買取価格は実売価格より低くなります</strong>（業者の仕入れ・再販コストが含まれるため）。また、1円〜の極端な安値は、証紙なし・状態不良・入札不成立に近い例なども含むため、価格帯の「幅」の参考としてご覧ください。金額は取得時点のもので、相場は時期・状態・証紙・作家により大きく変動し、<strong>査定額を保証するものではありません</strong>。
+              実売データは「オークションで売買が成立した落札価格」です。買取業者の査定額（買取価格）とは異なり、一般に<strong>買取価格は実売価格より低くなります</strong>（業者の仕入れ・再販コストが含まれるため）。また、1円〜の極端な安値は、証紙なし・状態不良・入札不成立に近い例なども含むため、価格帯の「幅」の参考としてご覧ください。金額は取得時点のもので、相場は時期・状態・証紙・作家により大きく変動し、<strong>査定額を保証するものではありません</strong>。
             </p>
           </div>
         </section>
