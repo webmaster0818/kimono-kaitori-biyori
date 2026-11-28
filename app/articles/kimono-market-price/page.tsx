@@ -56,7 +56,7 @@ const articleStructuredData = {
   description:
     "着物（和服）買取の相場を種類別に解説。振袖・訪問着・留袖・小紋・付け下げの落札データ（出典つき）と高く売るコツ。",
   datePublished: "2026-04-15",
-  dateModified: "2026-11-27",
+  dateModified: "2026-11-28",
   author: { "@type": "Organization", name: "着物の買取びより 編集部", url: "https://kimonokaitori-biyori.com/author/" },
   publisher: {
     "@type": "Organization",
@@ -158,7 +158,7 @@ export default function KimonoMarketPricePage() {
               振袖・訪問着・留袖・小紋・付け下げの実際の落札データ（件数・平均・最高値・出典つき）をまとめました。高額買取になる条件や高く売るコツも解説します。
             </p>
             <p className="mt-3 text-xs text-gray-400">
-              最終更新：2026年11月27日
+              最終更新：2026年11月28日
             </p>
           </div>
         </div>
@@ -302,7 +302,7 @@ export default function KimonoMarketPricePage() {
             ))}
           </ul>
           <div id="furisode-tomesode" className="bg-white border-2 border-[#6b4c8a] rounded-xl p-5 mt-6">
-            <h3 className="font-bold text-[#6b4c8a] mb-2">種類別の実売データ（オークションの落札相場・全39種類）</h3>
+            <h3 className="font-bold text-[#6b4c8a] mb-2">種類別の実売データ（オークションの落札相場・全40種類）</h3>
             <p className="text-sm text-gray-800 leading-relaxed mb-3 bg-[#faf7f3] border border-[#e8ddd0] rounded-lg p-3">
               <strong>振袖の相場をお探しの方へ：</strong>直近30日の落札2,666件で<strong>平均 約6,269円</strong>、最高値は275,000円（藤娘きぬたやの総絞り振袖）です（2026年10月20日集計）。
               <strong>留袖の相場をお探しの方へ：</strong>黒留袖は直近30日の落札1,225件で<strong>平均 約2,733円</strong>、最高値は154,000円（人間国宝・森口華弘の作品）。色留袖は295件で<strong>平均 約4,169円</strong>、最高値は200,000円（江戸時代のアンティーク）です（いずれも2026年10月18日集計）。
@@ -595,6 +595,13 @@ export default function KimonoMarketPricePage() {
                     <td className="border border-[#e8ddd0] px-3 py-2">約6,916円</td>
                     <td className="border border-[#e8ddd0] px-3 py-2">60,000円（じゅらくの刺繍入り京友禅の訪問着・未使用品・2026年10月20日落札）。上位は訪問着で、ストア出品が多くを占めます。まとめ売りは除外しています。</td>
                     <td className="border border-[#e8ddd0] px-3 py-2">2026年11月27日</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-[#e8ddd0] px-3 py-2">東京友禅</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">33件（直近90日）</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">約13,613円</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">90,454円（大羊居の東京友禅の訪問着・刺繍入り・2026年10月20日落札）。上位は訪問着と帯で、ストア出品が多くを占めます。落札件数が少ないため、平均は目安としてご覧ください。</td>
+                    <td className="border border-[#e8ddd0] px-3 py-2">2026年11月28日</td>
                   </tr>
                 </tbody>
               </table>
